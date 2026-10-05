@@ -1,0 +1,1 @@
+{"ts":"2026-10-05T16:27:53.944Z","service":"cloudflare","model":"@cf/google/gemma-4-26b-a4b-it","purpose":"smoke","promptTokens":81,"completionTokens":32,"neurons":1.609090805053711,"latencyMs":1291,"cached":false,"attempts":1,"ok":true}

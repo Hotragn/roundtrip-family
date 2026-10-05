@@ -4,3 +4,4 @@ packages:
   - agent
   - workflows
   - evals
+  - scripts

@@ -1,0 +1,26 @@
+{
+  "name": "@roundtrip/agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./gemma": "./src/gemma/index.ts",
+    "./discovery": "./src/tools/discovery.ts",
+    "./planner": "./src/planner/index.ts",
+    "./voice": "./src/voice/router.ts",
+    "./email": "./src/email/index.ts",
+    "./db": "./src/db/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@roundtrip/core": "workspace:*",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "6.0.3"
+  }
+}
