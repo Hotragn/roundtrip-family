@@ -1,0 +1,35 @@
+{
+  "source": "Synthetic cases for the card rubric, shared by finetune/tests and agent/test.",
+  "cases": [
+    {
+      "id": "good-library",
+      "card": "అమ్మా, బుధవారం ఉదయం 10:30కి Fremont Main Library లో కబుర్ల బృందం ఉంది. Mowry Ave & Fremont Blvd దగ్గర Bus 210 ఎక్కండి. ఆరు స్టాపులు. మీకు నచ్చుతుంది.",
+      "input": { "names": ["Fremont Main Library", "Mowry Ave & Fremont Blvd", "Bus 210"], "numbers": ["10:30"], "addressee": "mother" },
+      "expect": { "passed": true }
+    },
+    {
+      "id": "invented-number",
+      "card": "అమ్మా, ఉదయం 11:00కి Fremont Main Library కి Bus 210 లో వెళ్ళండి. Mowry Ave & Fremont Blvd దగ్గర ఎక్కండి.",
+      "input": { "names": ["Fremont Main Library", "Mowry Ave & Fremont Blvd", "Bus 210"], "numbers": ["10:30"], "addressee": "mother" },
+      "expect": { "passed": false, "failureIncludes": "number not in the input: 11:00" }
+    },
+    {
+      "id": "transliterated-venue",
+      "card": "నాన్నగారు, ఫ్రీమాంట్ లైబ్రరీ కి Bus 210 లో వెళ్ళండి. Mowry Ave & Fremont Blvd దగ్గర ఎక్కండి.",
+      "input": { "names": ["Fremont Main Library", "Mowry Ave & Fremont Blvd", "Bus 210"], "numbers": [], "addressee": "father" },
+      "expect": { "passed": false, "failureIncludes": "missing exact name: Fremont Main Library" }
+    },
+    {
+      "id": "wrong-address",
+      "card": "అమ్మా, Fremont Main Library కి Bus 210 లో వెళ్ళండి. Mowry Ave & Fremont Blvd దగ్గర ఎక్కండి.",
+      "input": { "names": ["Fremont Main Library", "Mowry Ave & Fremont Blvd", "Bus 210"], "numbers": [], "addressee": "father" },
+      "expect": { "passed": false, "failureIncludes": "doesn't address the parent as నాన్నగారు" }
+    },
+    {
+      "id": "too-long",
+      "card": "అమ్మా, Fremont Main Library కి Bus 210 లో వెళ్ళండి. Mowry Ave & Fremont Blvd దగ్గర ఎక్కండి. ఇది ఒక పొడవైన కార్డు ఇది ఒక పొడవైన కార్డు ఇది ఒక పొడవైన కార్డు ఇది ఒక పొడవైన కార్డు ఇది ఒక పొడవైన కార్డు ఇది ఒక పొడవైన కార్డు ఇది ఒక పొడవైన కార్డు ఇది ఒక పొడవైన కార్డు ఇది ఒక పొడవైన కార్డు ఇది ఒక పొడవైన కార్డు ఇది ఒక పొడవైన కార్డు ఇది ఒక పొడవైన కార్డు",
+      "input": { "names": ["Fremont Main Library", "Mowry Ave & Fremont Blvd", "Bus 210"], "numbers": [], "addressee": "mother" },
+      "expect": { "passed": false, "failureIncludes": "more than 60" }
+    }
+  ]
+}

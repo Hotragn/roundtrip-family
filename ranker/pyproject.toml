@@ -1,0 +1,22 @@
+[project]
+name = "roundtrip-ranker"
+version = "0.1.0"
+description = "Ranks candidate outings with TabPFN through the Prior Labs API (tabpfn-client)."
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "fastapi>=0.142",
+  "uvicorn>=0.54",
+  "pandas>=2.2,<=2.3.3",
+  "pydantic>=2.13",
+  "tabpfn-client>=0.6.1",
+]
+
+[dependency-groups]
+dev = ["pytest>=9.1", "httpx>=0.28"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

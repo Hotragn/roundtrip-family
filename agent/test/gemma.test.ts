@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { z } from "zod";
-import { Gemma, GemmaUnavailable, type GemmaConfig, MemoryCache, MemoryUsageStore, ReplayMiss } from "../src/gemma";
+import { Gemma, type GemmaConfig, GemmaUnavailable, MemoryCache, MemoryUsageStore, ReplayMiss } from "../src/gemma";
 
 const env = {
   CLOUDFLARE_ACCOUNT_ID: "acct",
@@ -43,7 +43,11 @@ function setup(handler: Handler, over: Partial<GemmaConfig> = {}) {
   return { g, calls, usage, cache };
 }
 
-const ask = { messages: [{ role: "user" as const, content: "Say hello" }], purpose: "test", dataClass: "synthetic" as const };
+const ask = {
+  messages: [{ role: "user" as const, content: "Say hello" }],
+  purpose: "test",
+  dataClass: "synthetic" as const,
+};
 
 describe("Gemma helper", () => {
   it("uses Cloudflare first, turns thinking off, and caches the answer", async () => {
@@ -93,9 +97,12 @@ describe("Gemma helper", () => {
   it("replays recorded answers and refuses to call out in replay mode", async () => {
     const recorder = setup(() => completion("recorded"));
     await recorder.g.chat(ask);
-    const replay = setup(() => {
-      throw new Error("network used in replay mode");
-    }, { mode: "replay", cache: recorder.cache });
+    const replay = setup(
+      () => {
+        throw new Error("network used in replay mode");
+      },
+      { mode: "replay", cache: recorder.cache },
+    );
     expect((await replay.g.chat(ask)).text).toBe("recorded");
     await expect(replay.g.chat({ ...ask, messages: [{ role: "user", content: "new" }] })).rejects.toBeInstanceOf(
       ReplayMiss,
@@ -112,7 +119,7 @@ describe("Gemma helper", () => {
     let n = 0;
     const { g } = setup(() => {
       n++;
-      return completion(n === 1 ? "Sure! {\"languageMatch\": 7}" : '{"languageMatch": 2}');
+      return completion(n === 1 ? 'Sure! {"languageMatch": 7}' : '{"languageMatch": 2}');
     });
     const out = await g.chatJson({
       ...ask,

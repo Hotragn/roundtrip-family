@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@roundtrip/core": "workspace:*",
+    "mongodb": "7.7.0",
     "zod": "^4.6.5"
   },
   "devDependencies": {

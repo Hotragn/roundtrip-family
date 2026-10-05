@@ -5,7 +5,7 @@ import { createGemmaFetch, defaultConfig, type GemmaConfig, ReplayMiss } from ".
 import { EMBEDDING_DIMS, EMBEDDING_MODEL, embeddingsUrl } from "./providers";
 import { hashKey } from "./store";
 
-export { createGemmaFetch, defaultConfig, GemmaUnavailable, type GemmaConfig, ReplayMiss } from "./client";
+export { createGemmaFetch, defaultConfig, type GemmaConfig, GemmaUnavailable, ReplayMiss } from "./client";
 export { EMBEDDING_DIMS, PROVIDERS } from "./providers";
 export { FileCache, FileUsageStore, MemoryCache, MemoryUsageStore } from "./store";
 
@@ -108,7 +108,8 @@ export class Gemma {
       out[i] = hit ? (hit.body as number[]) : null;
       if (!hit) missing.push(i);
     }
-    if (missing.length && mode === "replay") throw new ReplayMiss(hashKey({ embed: EMBEDDING_MODEL, t: texts[missing[0]!] }));
+    if (missing.length && mode === "replay")
+      throw new ReplayMiss(hashKey({ embed: EMBEDDING_MODEL, t: texts[missing[0]!] }));
     const url = embeddingsUrl(env);
     if (missing.length && (!url || !env.CLOUDFLARE_API_TOKEN)) throw new Error("Embeddings need Cloudflare keys.");
     for (let start = 0; start < missing.length; start += 50) {

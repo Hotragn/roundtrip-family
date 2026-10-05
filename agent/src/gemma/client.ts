@@ -82,7 +82,7 @@ export function createGemmaFetch(config: GemmaConfig): typeof fetch {
   const providers = config.providers ?? PROVIDERS;
   const lastCall = new Map<string, number>();
 
-  const gemmaFetch = async (_input: RequestInfo | URL, init?: RequestInit): Promise<Response> => {
+  const gemmaFetch = async (_input: string | URL | Request, init?: RequestInit): Promise<Response> => {
     const headers = new Headers(init?.headers);
     const dataClass = headers.get("x-roundtrip-data-class") as DataClass | null;
     const purpose = headers.get("x-roundtrip-purpose") ?? "unspecified";
@@ -156,7 +156,8 @@ export function createGemmaFetch(config: GemmaConfig): typeof fetch {
             if (!Array.isArray(json.choices) || json.choices.length === 0) {
               error = "empty choices";
             } else {
-              const neurons = p.id === "cloudflare" ? (json.usage?.neurons ?? estimateNeurons(promptChars, maxTokens)) : 0;
+              const neurons =
+                p.id === "cloudflare" ? (json.usage?.neurons ?? estimateNeurons(promptChars, maxTokens)) : 0;
               if (p.id === "cloudflare") await config.usage.addNeurons(utcDay(now()), neurons);
               await config.usage.log({
                 ts: now().toISOString(),

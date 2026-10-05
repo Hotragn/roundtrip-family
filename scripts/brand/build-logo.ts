@@ -249,7 +249,9 @@ async function main() {
 
   // Favicon set and app icons for the web app.
   await writeFile(join(OUT_APP, "icon.svg"), files["roundtrip-favicon.svg"]!, "utf8");
-  const icoPngs = await Promise.all([16, 32, 48].map(async (size) => ({ size, data: await png(files["roundtrip-favicon.svg"]!, size) })));
+  const icoPngs = await Promise.all(
+    [16, 32, 48].map(async (size) => ({ size, data: await png(files["roundtrip-favicon.svg"]!, size) })),
+  );
   await writeFile(join(OUT_APP, "favicon.ico"), ico(icoPngs));
   await writeFile(join(OUT_APP, "apple-icon.png"), await png(files["roundtrip-app-icon.svg"]!, 180));
   await writeFile(join(OUT_ICONS, "icon-192.png"), await png(files["roundtrip-app-icon.svg"]!, 192));

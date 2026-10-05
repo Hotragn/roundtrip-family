@@ -1,0 +1,27 @@
+[project]
+name = "roundtrip-speech"
+version = "0.1.0"
+description = "Generates, transcribes and evaluates Roundtrip audio with open speech models, run in the Codespace."
+requires-python = ">=3.12,<3.14"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=9.1"]
+# Installed only in the Codespace (CPU builds): uv sync --group models
+models = [
+  "torch>=2.8",
+  "torchaudio>=2.8",
+  "transformers>=4.57",
+  "soundfile>=0.13",
+  "numpy>=2.2",
+  "sentencepiece>=0.2",
+  "huggingface_hub>=0.35",
+]
+
+[tool.uv]
+package = false
+default-groups = ["dev"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

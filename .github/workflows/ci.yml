@@ -1,0 +1,85 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+# CI never calls paid or rate-limited APIs: model calls replay from data/demo/llm-cache,
+# searches from fixtures, and email goes to a mocked client.
+env:
+  CI: "true"
+  LLM_MODE: replay
+
+jobs:
+  typescript:
+    name: Lint, types, tests, privacy, build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Lint
+        id: lint
+        run: pnpm lint
+      - name: Type check
+        id: types
+        run: pnpm typecheck
+      - name: Unit tests and evals
+        id: tests
+        run: pnpm test -- --reporter=default --reporter=json --outputFile=test-results/vitest.json
+      - name: Privacy check
+        id: privacy
+        run: pnpm privacy-check
+      - name: Build the web app
+        id: build
+        run: pnpm build
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "## Roundtrip CI"
+            echo ""
+            echo "| Check | Result |"
+            echo "|---|---|"
+            echo "| Lint | ${{ steps.lint.outcome }} |"
+            echo "| Type check | ${{ steps.types.outcome }} |"
+            echo "| Unit tests and evals | ${{ steps.tests.outcome }} |"
+            echo "| Privacy check | ${{ steps.privacy.outcome }} |"
+            echo "| Web build | ${{ steps.build.outcome }} |"
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ -f test-results/vitest.json ]; then
+            node -e '
+              const r = require("./test-results/vitest.json");
+              const lines = ["", "| Test file | Passed | Failed |", "|---|---|---|"];
+              for (const f of r.testResults) {
+                const pass = f.assertionResults.filter(a => a.status === "passed").length;
+                const fail = f.assertionResults.filter(a => a.status === "failed").length;
+                lines.push(`| ${f.name.split("/roundtrip-family/").pop()} | ${pass} | ${fail} |`);
+              }
+              lines.push("", `**${r.numPassedTests} passed, ${r.numFailedTests} failed, ${r.numPendingTests} skipped**`);
+              require("fs").appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join("\n") + "\n");
+            '
+          fi
+
+  python:
+    name: Python tests (${{ matrix.project }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [ranker, speech, finetune]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Tests
+        working-directory: ${{ matrix.project }}
+        run: uv run pytest -q

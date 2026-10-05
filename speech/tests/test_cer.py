@@ -1,0 +1,19 @@
+from speech.cer import cer, normalize
+
+
+def test_identical_text_scores_zero():
+    assert cer("అమ్మా, బస్సు పది గంటలకు వస్తుంది.", "అమ్మా బస్సు పది గంటలకు వస్తుంది") == 0.0
+
+
+def test_a_wrong_vowel_sign_counts():
+    # వస్తుంది vs వస్తంది: one dropped vowel sign.
+    assert 0 < cer("వస్తుంది", "వస్తంది") < 0.25
+
+
+def test_normalizes_unicode_forms():
+    assert normalize("Café") == normalize("Café")
+
+
+def test_empty_reference():
+    assert cer("", "") == 0.0
+    assert cer("", "x") == 1.0
