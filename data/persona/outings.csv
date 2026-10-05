@@ -1,0 +1,25 @@
+id,day_of_week,time_of_day,place_type,place,transport,travel_minutes,who,with_adult_child,indoor,language_at_place,language_match,language_needed,weather,cost_usd,knew_someone,enjoyment,would_repeat,went,notes
+1,Saturday,morning,temple,Shiva Vishnu Temple (San Jose),driven_by_child,25,both,yes,indoor,Telugu,2,no,hot,0,yes,5,yes,1,Ran into two families they knew
+2,Sunday,morning,indian_grocery,India Cash and Carry (Newark),driven_by_child,12,both,yes,indoor,Telugu and Hindi,2,no,hot,80,no,4,yes,1,
+3,Tuesday,morning,walk,Apartment complex loop,walked,15,both,no,outdoor,none needed,0,no,hot,0,no,3,yes,1,Repeated daily
+4,Wednesday,afternoon,supermarket,Safeway,dropped_off_by_child,8,both,no,indoor,English,0,yes,hot,30,no,2,no,1,Too confusing and too many brands; Venkat tried English
+5,Saturday,morning,temple,Shiva Vishnu Temple (San Jose),driven_by_child,25,both,yes,indoor,Telugu,2,no,pleasant,0,yes,5,yes,1,
+6,Sunday,morning,mall,Fremont Hub,driven_by_child,10,both,yes,indoor,English,0,no,air_conditioned,0,no,3,no,1,"Once is enough"
+7,Saturday,afternoon,friend_home,College friend's home (Milpitas),driven_by_child,20,both,yes,indoor,Telugu,2,no,pleasant,0,yes,5,yes,1,
+8,Tuesday,morning,walk,Mail room and parking lot,walked,5,Sarala,no,outdoor,none needed,0,no,pleasant,0,no,3,yes,1,
+9,Sunday,morning,place_of_worship,Gurdwara,driven_by_child,15,both,yes,indoor,Punjabi and Hindi,1,no,pleasant,0,no,4,maybe,1,They wanted to see it
+10,Wednesday,morning,pharmacy,Walgreens,dropped_off_by_child,8,Venkat,no,indoor,English,0,yes,hot,15,no,2,no,1,Pointed at things; said he felt stupid
+11,Saturday,morning,temple,Shiva Vishnu Temple (San Jose),driven_by_child,25,both,yes,indoor,Telugu,2,no,rainy,0,yes,5,yes,1,
+12,Sunday,morning,asian_grocery,99 Ranch Market,driven_by_child,18,both,yes,indoor,Mandarin around them,0,no,cool,25,no,4,yes,1,Suggested by Mrs. Chen; they liked the vegetables
+13,Friday,evening,friend_home,Friend's home (Santa Clara),driven_by_child,30,both,yes,indoor,Telugu and English,2,no,cool,0,yes,5,yes,1,Dinner
+14,Saturday,morning,park,Lake Elizabeth (Fremont),driven_by_child,12,both,yes,outdoor,Telugu between them; overheard Hindi,1,no,pleasant,0,no,5,yes,1,
+15,Sunday,afternoon,indian_grocery,Indian grocery (Newark),driven_by_child,12,Sarala,yes,indoor,Telugu,2,no,hot,40,yes,4,yes,1,Recognized the cashier
+16,Tuesday,morning,walk,Walk to Safeway,walked,20,both,no,outdoor,none needed,0,no,very_hot,0,no,2,no,1,"Too hot, no shade"
+17,Saturday,morning,temple,Shiva Vishnu Temple (San Jose),driven_by_child,25,both,yes,indoor,Telugu,2,no,pleasant,0,yes,5,yes,1,
+18,Sunday,morning,cafe,Starbucks,driven_by_child,8,both,yes,indoor,English (adult child ordered),0,no,cool,12,no,2,no,1,Didn't like paying for coffee they didn't enjoy
+19,Wednesday,afternoon,home,Balcony people-watching,none,0,Sarala,no,outdoor,none needed,0,no,pleasant,0,no,4,yes,1,Daily habit
+20,Saturday,morning,temple,Shiva Vishnu Temple (San Jose) with cafeteria lunch,driven_by_child,25,both,yes,indoor,Telugu,2,no,pleasant,5,yes,5,yes,1,
+21,Sunday,morning,warehouse_store,Costco,driven_by_child,15,both,yes,indoor,English,0,no,cool,150,no,2,no,1,"Too big, too loud, too many people rushing"
+22,Saturday,afternoon,neighbor_home,Mrs. Chen's apartment (tea),walked,2,Sarala,yes,indoor,Gestures and a few English and Mandarin words,0,no,cool,0,yes,5,yes,1,Adult child translated a little
+23,,,community_event,Diwali event at a school venue (Fremont),,,Sarala,no,indoor,Telugu and Hindi,2,no,,,no,,yes,0,Didn't go: didn't know which bus; adult child was traveling
+24,weekday,evening,community_meeting,Telugu association meeting (Santa Clara),,,Venkat,no,indoor,Telugu,2,no,,,no,,yes,0,Didn't go: no way to get there without the adult child

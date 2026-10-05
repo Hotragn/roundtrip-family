@@ -1,0 +1,15 @@
+{
+  "name": "Roundtrip",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bookworm",
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "16gb"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts",
+      "pnpmVersion": "latest"
+    }
+  },
+  "postCreateCommand": "curl -LsSf https://astral.sh/uv/install.sh | sh && curl -sSf https://temporal.download/cli.sh | sh -s -- --dir \"$HOME/.temporalio\" && sudo ln -sf \"$HOME/.temporalio/bin/temporal\" /usr/local/bin/temporal && sudo npx -y playwright install-deps && curl -fsSL https://claude.ai/install.sh | bash"
+}

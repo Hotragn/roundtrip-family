@@ -1,0 +1,308 @@
+{
+  "source": "Fictional persona written by the builder to reflect a realistic visit by Telugu-speaking parents. Sarala, Venkat and Mrs. Chen are invented characters, not real people, and nothing here comes from interviews. Use it for design and testing, and always label results that use it as synthetic.",
+  "household": {
+    "host_country": "US",
+    "local_language": "en",
+    "metro_area": "Fremont, California (San Francisco Bay Area)",
+    "home": "Apartment complex, two bedrooms, balcony, no yard. Pool and small gym, both unused.",
+    "walkability": "Not walkable in practice. A Safeway and a Walgreens are within walking distance, but sidewalks are patchy and there is no shade.",
+    "distances": {
+      "indian_grocery": "10 to 15 minutes by car",
+      "temple": "20 to 25 minutes by car",
+      "local_bus": "AC Transit stops nearby; Sarala has ridden it once, with the adult child"
+    },
+    "visit": {
+      "reason": "The adult child's graduation",
+      "length_months": 4.5,
+      "season": "Early June to mid-October (summer into early fall)",
+      "home_city_in_india": "Guntur, Andhra Pradesh"
+    },
+    "weekday_pattern": {
+      "adult_child": "Works from home Tuesday and Thursday. Commutes to an office in San Jose (about 35 minutes) on Monday, Wednesday and Friday.",
+      "parents_alone": "Monday, Wednesday and Friday, 8:30 am to 5:30 pm",
+      "weekends": "The adult child drives them: temple on Saturday morning, Indian grocery on Sunday morning, sometimes a park or a friend's home."
+    },
+    "phone": {
+      "local_plan": false,
+      "wifi_only": true,
+      "apps": "WhatsApp (video calls, voice messages). YouTube only when set up for them. No maps, no ride-hailing."
+    },
+    "transport": "No car. Fully dependent on the adult child for any trip beyond walking distance."
+  },
+  "parents": [
+    {
+      "label": "Sarala",
+      "address_as": "అమ్మా",
+      "tone": "Warm, like a neighbor's daughter. Respectful మీరు, never stiff. Example she liked: \"అమ్మా, ఈ రోజు ఏం చేద్దాం?\"",
+      "age_band": "60s",
+      "telugu": "Coastal Andhra, Guntur dialect. Firmly not Telangana Telugu.",
+      "other_languages": "Understands Hindi from TV serials but will not speak it.",
+      "reads_telugu": "Very comfortably; reads the Eenadu e-paper every morning on an iPad.",
+      "reads_english": "Single sign words only (exit, push, pull, sale, open, closed). Cannot read a paragraph.",
+      "english_words_known": [
+        "okay",
+        "hello",
+        "sorry",
+        "thank you",
+        "how much",
+        "this one",
+        "that one",
+        "no no",
+        "water",
+        "toilet",
+        "doctor",
+        "medicine",
+        "bus",
+        "stop",
+        "market",
+        "milk",
+        "bread",
+        "egg",
+        "rice",
+        "salt",
+        "sugar",
+        "hot",
+        "cold",
+        "good",
+        "bad",
+        "come",
+        "go",
+        "wait",
+        "money",
+        "change",
+        "what"
+      ],
+      "english_speaking": "Two- or three-word chunks (\"this how much\", \"no no not this\"), not full sentences.",
+      "best_channel": "Listening first, then Telugu text.",
+      "walking": "45 to 60 minutes before her knees hurt. Stairs up are fine; she dislikes going down.",
+      "weather": "Strongly dislikes cold and wind. Handles heat well.",
+      "transit_experience": "A lifetime of buses and autos in Guntur and Vijayawada; train trips to Tirupati and Hyderabad. In the US, one AC Transit ride with the adult child: frightened because she didn't know when to pull the cord.",
+      "food": "Vegetarian; eats onion and garlic. Needs rice and pickle.",
+      "interests": [
+        "cooking",
+        "temple",
+        "long WhatsApp video calls with her sisters",
+        "TV serials",
+        "watching people come and go from the balcony",
+        "meeting other Indian women her age"
+      ],
+      "not_interested": [
+        "shopping",
+        "movies"
+      ],
+      "best_times": [
+        "06:30-10:00",
+        "after 17:00 (but usually starting dinner)"
+      ],
+      "naps": "13:00-15:00",
+      "fictional": true
+    },
+    {
+      "label": "Venkat",
+      "address_as": "నాన్నగారు",
+      "tone": "Respectful but natural. \"Just talk normally, don't be overly formal like a bank officer.\"",
+      "age_band": "60s",
+      "telugu": "Coastal Andhra; West Godavari roots, 30+ years in Guntur.",
+      "other_languages": "Understands and speaks Hindi reasonably well from work.",
+      "reads_telugu": "Very well; prefers a printed Eenadu.",
+      "reads_english": "Signs, slow menus, basic instructions, bank forms. Freezes when he has to speak.",
+      "english_words_known": [
+        "yes",
+        "no",
+        "please",
+        "thank you",
+        "sorry",
+        "excuse me",
+        "how much",
+        "too much",
+        "okay",
+        "fine",
+        "good",
+        "bad",
+        "hot",
+        "cold",
+        "water",
+        "tea",
+        "coffee",
+        "milk",
+        "sugar",
+        "less sugar",
+        "no sugar",
+        "toilet",
+        "hospital",
+        "doctor",
+        "medicine",
+        "bus",
+        "train",
+        "ticket",
+        "platform",
+        "left",
+        "right",
+        "straight",
+        "stop",
+        "open",
+        "close",
+        "push",
+        "pull",
+        "first floor",
+        "ground floor",
+        "account",
+        "bank",
+        "money",
+        "dollar",
+        "rupee",
+        "change",
+        "receipt",
+        "bill",
+        "signature",
+        "I want",
+        "I don't want",
+        "where is"
+      ],
+      "english_speaking": "Knows chunks but won't put a sentence together in front of a stranger.",
+      "best_channel": "Telugu text plus English words he can match against signs.",
+      "walking": "An hour easily. An old right-knee injury makes long walks on hard surfaces uncomfortable.",
+      "weather": "Likes cool weather. Dislikes rain because it keeps him indoors. Fine with heat.",
+      "transit_experience": "A lifetime of buses in Guntur; trains to Chennai, Bangalore and Hyderabad for work. Rode BART once with the adult child and loved it, but wouldn't go alone: afraid he couldn't read the stops fast enough.",
+      "food": "Vegetarian; eats onion and garlic. Needs rice daily and filter coffee every morning.",
+      "interests": [
+        "news",
+        "temple",
+        "walking with company",
+        "Indian grocery stores (spent 40 minutes in the spice aisle)",
+        "watching people at the park",
+        "Telugu novels (read four during the visit)",
+        "volunteering at the temple"
+      ],
+      "not_interested": [
+        "shopping",
+        "movies",
+        "big American stores with loud music"
+      ],
+      "best_times": [
+        "06:00-09:00",
+        "16:30-18:30"
+      ],
+      "naps": "13:00-15:00",
+      "fictional": true
+    }
+  ],
+  "people_met": [
+    {
+      "label": "Mrs. Chen",
+      "relation": "Neighbor two doors down",
+      "age_band": "60s",
+      "language": "Mandarin; shares about five English words with Sarala (hello, good, thank you, very good, eat?)",
+      "situation": "Retired, lives alone, son lives in another state.",
+      "connection": "Met Sarala at the mailboxes. They shared food (dumplings and noodle soup for upma and pongal) and sat together in the hallway about twice a week, showing each other photos of their grandchildren. She suggested 99 Ranch Market.",
+      "fictional": true
+    }
+  ],
+  "phrases_needed": [
+    {
+      "rank": 1,
+      "phrase": "Where is the bathroom?",
+      "why": "Sarala's top worry, especially in malls."
+    },
+    {
+      "rank": 2,
+      "phrase": "I need help.",
+      "why": ""
+    },
+    {
+      "rank": 3,
+      "phrase": "Please call this number.",
+      "why": "Shown with the adult child's number on a card."
+    },
+    {
+      "rank": 4,
+      "phrase": "How much?",
+      "why": ""
+    },
+    {
+      "rank": 5,
+      "phrase": "I don't understand.",
+      "why": "Venkat: he'd rather say it than pretend he understood."
+    }
+  ],
+  "feeling_words": [
+    {
+      "feeling": "happy",
+      "words": [
+        "బాగుంది (baagundi)",
+        "సంతోషం (santosham)",
+        "మనసు బాగుంది (manasu baagundi, I feel good inside)"
+      ]
+    },
+    {
+      "feeling": "missing home",
+      "words": [
+        "ఊరు గుర్తొచ్చింది (ooru gurthochindi, I remembered home)"
+      ],
+      "note": "Sarala specifically wants ఊరు, not a formal word for homeland."
+    },
+    {
+      "feeling": "tired",
+      "words": [
+        "అలిసిపోయా (alisipoya)",
+        "ఒళ్లు నొప్పులు (ollu noppulu, body aches)"
+      ]
+    },
+    {
+      "feeling": "bored",
+      "words": [
+        "బోరు (boru)",
+        "ఏం చెయ్యాలో తోచడం లేదు (em cheyyalo tochatam ledu, I don't know what to do)"
+      ]
+    },
+    {
+      "feeling": "lonely",
+      "words": [
+        "ఒంటరిగా ఉంది (ontariga undi)",
+        "ఎవరూ లేరు (evaru leru, nobody is here)"
+      ]
+    },
+    {
+      "feeling": "worried",
+      "words": [
+        "టెన్షన్ (tension)",
+        "కంగారు (kangaru)"
+      ]
+    }
+  ],
+  "wanted_but_did_not_go": [
+    {
+      "who": "Sarala",
+      "what": "A large Diwali event at a school used as a community venue in Fremont",
+      "why_not": "The adult child was traveling for work, and she didn't know which bus to take. \"I could have walked there if it was close.\""
+    },
+    {
+      "who": "Venkat",
+      "what": "A Telugu association meeting in Santa Clara he saw on WhatsApp",
+      "why_not": "It was on a weekday evening, and he didn't want to ask the adult child to drive during a deadline."
+    },
+    {
+      "who": "Venkat",
+      "what": "Volunteering at the temple",
+      "why_not": "Didn't know how to sign up."
+    }
+  ],
+  "what_would_have_helped": [
+    "A phone that works outside the apartment (Venkat: \"I felt like a child because I couldn't even call you if I got lost.\")",
+    "Someone showing them the bus route once (Sarala: \"If someone had just shown me the bus once. Just once. I would have remembered.\")",
+    "Knowing one or two people at the destination",
+    "A paper with the address in English to show a taxi driver (Venkat)"
+  ],
+  "what_they_missed": {
+    "Sarala": "Her sisters, the sound of the street, and a temple five minutes away on foot.",
+    "Venkat": "His morning walking group of 4 or 5 men, every day for 12 years. \"I don't need a gym or a trail. I need 3 people to talk to while I walk.\""
+  },
+  "dislikes_observed": [
+    "big, loud stores (Costco, the mall)",
+    "paying for coffee they don't like (Starbucks)",
+    "supermarkets with too many brands (Safeway)",
+    "walking in heat with no shade",
+    "trying to speak English to shop staff alone"
+  ],
+  "status": "fictional"
+}
