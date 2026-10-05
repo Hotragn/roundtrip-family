@@ -1,0 +1,94 @@
+# Roundtrip
+
+## What this is
+An open-model planner that helps visiting parents get out of the house each week, to real places with real people who speak their language, on outings they can manage on their own. It includes a private diary and a memory book. Started for the Hacktoberfest 2026 DEV Challenge and built as a finished personal product. The full plan is in docs/plan.md, the brand and art direction in docs/brand.md, and the build plan in docs/build-plan.md.
+
+## The product's core rule
+Route to humans. Every suggestion must be a real place or real people. The assistant never presents itself as company, never pretends to be a person, and keeps its own replies short and practical. evals/route-to-humans.test.ts enforces this; keep it passing.
+
+## Working autonomously
+- Don't wait for approval or ask questions. When something is ambiguous, choose the option most consistent with docs/plan.md, record it in docs/decisions.md with a one-line reason, and continue.
+- Never wait for human recordings, labels, corrections or reviews. Use the fictional persona described under Data, create other synthetic stand-ins as needed, and label every result as synthetic.
+- If a required key is missing, use recorded or generated fixtures or an open-model alternative, note it in docs/skipped.md, and continue.
+- After each milestone: run all tests, run the privacy check, commit and push with a clear message, and update docs/progress.md with what was built and how it was verified.
+- If a check fails three times in a row, write the problem to docs/blocked.md and move on to work that doesn't depend on it.
+
+## Data
+- The main demo household is a fictional persona: Sarala and Venkat, a Telugu-speaking couple from Guntur staying with their adult child in Fremont, California. data/persona/household.json and data/persona/outings.csv hold the persona; docs/persona.md holds its design assumptions, tone notes and rules. Read it before any work that touches households, ranking, cards, the diary or the write-up.
+- The persona is modeled on a real situation (the builder's parents' visit to the US for a graduation), but every profile detail, outing and line is invented. Nothing in it comes from interviews.
+- Also synthetic: the Germany household, extra outings, diary entries, voice clips, card training examples, evaluation labels and judge scores.
+- What's live: events, places and transit routes from SerpApi searches for the demo areas.
+- In every report, label each result as "synthetic" or "live search". Card evaluations are automated, not reviewed by native speakers.
+- Never present the persona's profiles, outings or lines as real people's, or as quotes from the builder's parents.
+- Real family data, if the parents later consent, goes only in data/family/, which is never opened.
+
+## Where things run
+- Development happens in this checkout, either on the builder's machine or in the repo's GitHub Codespace. Speech models and the Temporal durability run happen in the Codespace (Linux x64, 16 GB).
+- Keys come from .env (gitignored, never read by Claude Code) or from Codespaces secrets, and the code loads .env at startup when it exists.
+- Gemma 4 runs on Cloudflare Workers AI's free plan (@cf/google/gemma-4-26b-a4b-it, through the OpenAI-compatible endpoint). It falls back to OpenRouter's free Gemma 4 models: google/gemma-4-31b-it:free, then google/gemma-4-26b-a4b-it:free.
+- The card writer is a Tinker LoRA on Qwen/Qwen3.5-4B, sampled through Tinker. The adapter is published on Hugging Face.
+- TabPFN runs through tabpfn-client (the Prior Labs API).
+- Speech models (Meta MMS-TTS, AI4Bharat Indic Parler-TTS, AI4Bharat IndicConformer) run inside the Codespace. Their outputs are saved to data/demo/ so the hosted demo can play them.
+- Data lives in a free MongoDB Atlas cluster (MONGODB_URI). No Docker needed.
+- Temporal runs as a dev server inside the Codespace, saving its state to a file.
+- The demo website and agent API deploy to Render's free tier.
+- Email goes through an AgentMail inbox (AGENTMAIL_API_KEY): planning emails, safety alerts and the weekly summary to the adult child, plus approve-by-reply. Read docs.agentmail.to/llms.txt before using it.
+
+## Credit budget and free-tier limits
+- Tinker is the only service allowed to spend money. Never exceed MAX_TINKER_SPEND_USD in total. Estimate cost before every run, train the card writer once, and prefer cost-efficient mixture-of-experts models for teacher work. Keep long instructions as a fixed prompt prefix, so repeated calls get Tinker's cached-prefill discount.
+- If there's no Tinker key: skip the fine-tune, use Gemma with docs/card-style.md as the card writer, and note it in docs/skipped.md.
+- Every other service stays on its free tier. If a step would need a paid plan, skip it, note it in docs/skipped.md, and continue.
+- Gemma hosts: stay within Cloudflare's 10,000 free neurons a day, and track estimated neurons per call in docs/costs.md. When the allowance is spent, fall back to OpenRouter's free models. Use retries with exponential backoff, and cache every response by a hash of the prompt.
+- TabPFN: never send personal data. Watch the usage headers and stay within the free pools.
+- SerpApi: never exceed SERPAPI_MAX_SEARCHES live searches. Cache every response and run tests from fixtures.
+- ElevenLabs is optional. Use it only if a key is present, only for a few final demo clips, and never beyond ELEVENLABS_MAX_CHARS.
+- AgentMail: stay within the free tier, using one inbox. Send email only to DEMO_ALERT_EMAIL, never to any other address. If DEMO_ALERT_EMAIL is not a valid address, send nothing and log it.
+- CI and tests never call paid or rate-limited APIs.
+- Download only the models you need, and clear caches you no longer need, to stay within the Codespace storage quota.
+- Log every paid or rate-limited call (service, units, estimated cost) in docs/costs.md, and check the running total before each new one.
+
+## Users
+- Parents: limited ability in the local language, usually not driving, often no local phone plan (home Wi-Fi only). Their app must work offline during outings.
+- Any country: each household sets its host country and local language. Wherever the plan says English, use the household's local language. Emergency numbers come from an official source, never from memory.
+- The main demo household is the fictional persona Sarala and Venkat, visiting Fremont, California from Guntur. Each parent has their own profile: Sarala listens first and reads Telugu; Venkat also reads English signs. Each has their own times, walking limit and weather limits.
+- Language: chosen per parent. Sarala and Venkat speak coastal Andhra (Guntur) Telugu (code te). Never hardcode a language. Parent-facing text uses the parent's script, with bus, street and venue names kept exactly in English.
+- Adult child: approves the weekly plan, reads the weekly summary and shared diary entries.
+
+## Architecture
+- apps/web: Next.js App Router + Tailwind. /parents is installable and offline. /plan is the dashboard. / is the landing page. /design is the living style guide.
+- packages/core: shared Zod schemas, household and country data, the outbound-call registry, diary crypto.
+- agent: Mastra planner agent in TypeScript, on Gemma through an OpenAI-compatible provider pointed at Cloudflare Workers AI.
+- ranker: a small Python service using tabpfn-client.
+- finetune: Tinker scripts for the card writer, evaluation, and adapter export.
+- speech: scripts that generate, transcribe and evaluate audio with open models.
+- workflows: Temporal TypeScript SDK (weekPlan, outingSafety, trialRun).
+- Voice: all speech goes through agent/voice/router.ts. Speaking uses free open models by default (Indic Parler-TTS for Indian languages, MMS-TTS otherwise), with ElevenLabs Eleven v3 as an optional upgrade. Listening uses IndicConformer for Indian languages and MMS speech recognition otherwise.
+- Diary: entries encrypted before storage, per parent, private by default.
+- Discovery: SerpApi google_events, google_maps, google_maps_directions.
+
+## Privacy rules (non-negotiable)
+- Only anonymized data goes to hosted services: no names, addresses, contact details, quotes, diary content or the people memory. Free tiers come with their own data terms, and Prior Labs asks users not to upload personal data.
+- The persona is fictional, so it may be committed and sent to hosted services. Never describe parents as helpless or pitiable.
+- Never send names, home address, phone numbers, voice recordings or ratings to any external service.
+- External search queries contain only language, interest and area.
+- Directions start from the nearest bus stop, never the home address.
+- ElevenLabs receives card text only, with names removed.
+- Never read, print or commit secrets or environment values.
+- Emails contain only first names and outing details, never addresses, diary content or voice recordings.
+- Never open data/family/.
+- Diary entries are encrypted at rest. Never analyze, summarize or score them unless the parent asks in the app, and never use them for planning unless the parent has turned that setting on.
+- Any new outbound network call must be added to the outbound registry (packages/core/src/privacy/outbound.ts) and docs/privacy-table.md in the same change. Run the privacy-check skill before every commit.
+
+## Conventions
+- TypeScript in strict mode. Python 3.11+ with type hints. Small modules.
+- Every feature ships with a test or eval script.
+- Keep dependencies few, and justify each new one in docs/decisions.md.
+- Before using an API (Cloudflare Workers AI, OpenRouter, Tinker, TabPFN, SerpApi, Mastra, Temporal, Sentry, ElevenLabs, Hugging Face, AgentMail), read the official docs and cite the page in a code comment. Notes from the docs live in docs/research/.
+
+## Writing
+- Plain language and sentence case. No buzzwords, no filler, no em dashes.
+- No co-author trailers or "generated with" lines in commits, PRs or docs.
+- Interface copy follows docs/brand.md: words a parent would say, errors that give direction and never apologize.
+
+## Commands
+Keep this section updated as scripts are added.
