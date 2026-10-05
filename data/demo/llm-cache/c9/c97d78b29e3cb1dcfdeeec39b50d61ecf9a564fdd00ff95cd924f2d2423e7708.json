@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219772722",
+  "object": "chat.completion",
+  "created": 1791219772,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "మధ్యాహ్నం భోజనం చేసి కాసేపు విశ్రాంతి తీసుకోవడానికి ఒక గంట లోపు ఇంటికి వచ్చేయండి.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 91,
+   "completion_tokens": 30,
+   "total_tokens": 121,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 1.6454545259475708
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:02:52.809Z"
+}

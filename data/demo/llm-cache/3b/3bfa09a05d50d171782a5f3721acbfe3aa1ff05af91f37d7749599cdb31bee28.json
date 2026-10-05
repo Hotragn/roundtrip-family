@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791223927335",
+  "object": "chat.completion",
+  "created": 1791223927,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c3\",\"parent\":\"mother\",\"reason\":\"She enjoyed visiting temples before.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c5\",\"parent\":\"mother\",\"reason\":\"She liked previous visits to Indian grocery stores.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c6\",\"parent\":\"mother\",\"reason\":\"She likes going to parks.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c11\",\"parent\":\"mother\",\"reason\":\"She likes meeting other women her age.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true}],\"note\":\"No Telugu events were found this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2056,
+   "completion_tokens": 168,
+   "total_tokens": 2224,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 23.27272605895996
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:12:07.401Z",
+ "latencyMs": 3584
+}

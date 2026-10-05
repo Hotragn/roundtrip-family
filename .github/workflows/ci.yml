@@ -83,3 +83,9 @@ jobs:
       - name: Tests
         working-directory: ${{ matrix.project }}
         run: uv run pytest -q
+      - name: Leave-one-out eval (replays recorded TabPFN responses)
+        if: matrix.project == 'ranker'
+        working-directory: ranker
+        run: |
+          uv run python eval_loo.py --area fremont --mode replay | tee loo.txt
+          { echo "## Ranker leave-one-out (synthetic)"; echo ""; sed -n '/^| Features/,/^$/p' loo.txt; } >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791221188885",
+  "object": "chat.completion",
+  "created": 1791221188,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\n  \"category\": \"volunteering\",\n  \"cost\": {\n    \"amount\": 0,\n    \"currency\": \"USD\",\n    \"free\": true\n  },\n  \"end\": \"2026-10-06T11:30:00-07:00\",\n  \"indoor\": true,\n  \"languageMatch\": 1,\n  \"start\": \"2026-10-06T09:00:00-07:00\",\n  \"suitsOlderAdults\": true\n}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 513,
+   "completion_tokens": 134,
+   "total_tokens": 647,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 8.318181991577148
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:26:28.949Z",
+ "latencyMs": 2134
+}

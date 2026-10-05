@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219958106",
+  "object": "chat.completion",
+  "created": 1791219958,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "That journey takes twenty-five minutes with six stops.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 58,
+   "completion_tokens": 12,
+   "total_tokens": 70,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.8545454144477844
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:05:58.199Z"
+}

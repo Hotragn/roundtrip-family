@@ -1,0 +1,908 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps",
+ "request": "https://serpapi.com/search.json?engine=google_maps&type=search&q=senior+center&ll=%4037.555%2C-121.982%2C13z&gl=us&hl=en",
+ "note": "places: senior center",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:05:43.272Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "senior center",
+   "ll": "@37.555,-121.982,13z",
+   "google_domain": "google.com",
+   "hl": "en",
+   "gl": "us"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "senior center"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Age Well Center at Lake Elizabeth",
+    "place_id": "ChIJVZZJlsHAj4ARTxei-nkhGpc",
+    "data_id": "0x808fc0c196499655:0x971a2179faa2174f",
+    "data_cid": "10888051856901281615",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc0c196499655%3A0x971a2179faa2174f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc0c196499655%3A0x971a2179faa2174f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.546352999999996,
+     "longitude": -121.96690849999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJVZZJlsHAj4ARTxei-nkhGpc",
+    "provider_id": "/g/1tddb2cf",
+    "rating": 4.4,
+    "reviews": 126,
+    "type": "Senior citizen center",
+    "types": [
+     "Senior citizen center"
+    ],
+    "address": "40086 Paseo Padre Pkwy, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Open · Closes 4:30 PM",
+    "hours": "Open · Closes 4:30 PM",
+    "operating_hours": {
+     "monday": "8 AM–4:30 PM",
+     "tuesday": "8 AM–4:30 PM",
+     "wednesday": "8 AM–4:30 PM",
+     "thursday": "8 AM–4:30 PM",
+     "friday": "8 AM–4:30 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 790-6600",
+    "website": "https://www.fremont.gov/government/departments/human-services/age-well-centers",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Assistive hearing loop"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tokq_xyXMc5DB5aXQnSK1-9Oaelyhl0oEmelIEU_Oa6HV4070oY6cF9kfOq9rJ2weMmz6qPgagfHmN_VnlQJRlPoO5TKg_WQKtk3ecRvBlkovLpW6ZvEEUYZy_fSga-Kotgw9pwQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/PAbh5HicHcRLDoIwFADAE1XqB0xNXGjEoKiIP5RN0zSlGEof2AriDT2CtzFxFvP95NZWZuI4Kh_2JIBU4mnEg4O2Qtseh9KRlUHcIOPMdsm9IycoavrqrlvuLuYuu8b6GPYRiZhQXa4w-KVQK_9MI-YFlxEeY7h5fEmKLKrJYz1oxbZ8e_VeMpkF5Y5etIrXB7WHyD2FkiZxaIuh4IdmrgpoNlXipY3vn29pR7OjZCgEK1tStfG07WOMUf6fI_0DMipGpg"
+   },
+   {
+    "position": 2,
+    "title": "Ruggieri Senior Center",
+    "place_id": "ChIJJ6EAxXyVj4ARfvpw2w6eEIs",
+    "data_id": "0x808f957cc500a127:0x8b109e0edb70fa7e",
+    "data_cid": "10020682957547698814",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f957cc500a127%3A0x8b109e0edb70fa7e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f957cc500a127%3A0x8b109e0edb70fa7e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.588751699999996,
+     "longitude": -122.0281807
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJJ6EAxXyVj4ARfvpw2w6eEIs",
+    "provider_id": "/g/1v8j0p3f",
+    "rating": 4.6,
+    "reviews": 78,
+    "type": "Senior citizen center",
+    "types": [
+     "Senior citizen center"
+    ],
+    "address": "33997 Alvarado-Niles Rd, Union City, CA 94587",
+    "country": "United States",
+    "open_state": "Open · Closes 5 PM",
+    "hours": "Open · Closes 5 PM",
+    "operating_hours": {
+     "monday": "8 AM–5 PM",
+     "tuesday": "8 AM–5 PM",
+     "wednesday": "8 AM–5 PM",
+     "thursday": "8 AM–5 PM",
+     "friday": "8 AM–4 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 675-5495",
+    "website": "https://www.unioncity.org/289/Ralph-and-Mary-Ruggieri-Senior-Center",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ruc6CXuTgFzItn4qGOg7FDSpc1CHKkIiyIY2yra0diyiLdvgmwDGgEPYQKNYcfgi7K4GBzr9bR9LcFZEpygybhfOEMSlq239lnzkOWwqUdykfceFTFQxozC3cYoZM2znHfTdr1iF7pnxf7=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/RcJBFXicHcTdboIwGADQJ0L-zAhLdrEhRYLKVBaHd_ODfjRgW2gZti-5673Nkp2L8_vTaS3Vs-sOXbhCIXBoZ9VOILhuuV6BuLsolQPKUe7r4cJMfJrhKfmcKyQ213w9ZiVGZHOW4Cfbos-ZyevATF9ewwzbNd94XzYZpu_1sTjUQJFFxTp7s1N8O8U7INdUGjS3jpbp_jyMQRgP3PblZRk_GtNTaElFjg9hkxBqcd0Hlm9p1Uw-I5HkDxq9LL7neU73Pzj8D0SASXI"
+   },
+   {
+    "position": 3,
+    "title": "Clark W. Redeker Newark Senior Center",
+    "place_id": "ChIJMUNbOSC_j4ARBMSm-iD_-fw",
+    "data_id": "0x808fbf20395b4331:0xfcf9ff20faa6c404",
+    "data_cid": "18228881483868062724",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf20395b4331%3A0xfcf9ff20faa6c404&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf20395b4331%3A0xfcf9ff20faa6c404&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.524920099999996,
+     "longitude": -122.0367299
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJMUNbOSC_j4ARBMSm-iD_-fw",
+    "provider_id": "/g/1261h5sz4",
+    "rating": 4.6,
+    "reviews": 23,
+    "unclaimed_listing": true,
+    "type": "Senior citizen center",
+    "types": [
+     "Senior citizen center"
+    ],
+    "address": "7401 Enterprise Dr, Newark, CA 94560",
+    "country": "United States",
+    "open_state": "Open · Closes 3 PM",
+    "hours": "Open · Closes 3 PM",
+    "operating_hours": {
+     "monday": "9 AM–3 PM",
+     "tuesday": "9 AM–3 PM",
+     "wednesday": "9 AM–3 PM",
+     "thursday": "9 AM–3 PM",
+     "friday": "9 AM–3 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 578-4840",
+    "website": "https://www.newark.org/departments/recreation-and-community-services/facilities/clark-w-redeker-newark-senior-center",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QpiFuojaxbkxe-ACa8B9VCsKSDe3Qp0JsrNHHA2reBglEDFomPhs0g_4FEeeqLncWTNH_ENdgMSRgVHwZP8L-LXalutclW0Xxw7fpvXqbjJ2VjO0synhGQu175qVEshmS6yK88tg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/5WMvRXicHcTdboIwGADQJ6rUnymaeIEKEmUosgDxhkBXW1lpC18ReEQfYW-zZOfi_L65MRo2liX4fMKUYoJ2QFuipKHSTIiqLaYBEUBgOWH6HNeRfnqdqoqh_BkocvaFvVsnezjHBzqPND5BG_q-M2vpjgn34Kn6ygGzfOG5lDaBJOlX6Odu-M0-4xtL_P5-tQMUZIXoDBEpzoZ-9dCvrCmr0yypLhhGyY9RN119NIkLvI6X49m2Ddv2U4wx4v8TJP8APbtGPg"
+   },
+   {
+    "position": 4,
+    "title": "Age Well Center at South Fremont",
+    "place_id": "ChIJdwhmKDvHj4ARVYpM0TrvNgI",
+    "data_id": "0x808fc73b28660877:0x236ef3ad14c8a55",
+    "data_cid": "159577872716827221",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc73b28660877%3A0x236ef3ad14c8a55&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc73b28660877%3A0x236ef3ad14c8a55&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.4851893,
+     "longitude": -121.92941289999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJdwhmKDvHj4ARVYpM0TrvNgI",
+    "provider_id": "/g/11n_c612hy",
+    "rating": 4.8,
+    "reviews": 43,
+    "type": "Senior citizen center",
+    "types": [
+     "Senior citizen center"
+    ],
+    "address": "47111 Mission Falls Ct, Fremont, CA 94539",
+    "country": "United States",
+    "open_state": "Open · Closes 4:30 PM",
+    "hours": "Open · Closes 4:30 PM",
+    "operating_hours": {
+     "monday": "8 AM–4:30 PM",
+     "tuesday": "8 AM–4:30 PM",
+     "wednesday": "8 AM–4:30 PM",
+     "thursday": "8 AM–4:30 PM",
+     "friday": "8 AM–4:30 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 742-7540",
+    "website": "https://www.fremont.gov/government/departments/human-services/age-well-centers",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RXFum5OPQ_UnhUoyNK9ourHNar1P5FYvhS0-Mg8OKDSMVfxBl4BObtvnJUfvHceT_y_jNSACdWwsyjpzwwN0gmNUo_zPDkymMYf946YqonHNayPxy2wZQeRe4SoEJ92iUi8fo=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/lMYsx3icHcxNjoIwGADQE1WqgxMxmYU_Y4yGgjJVcUOcTmlR6Ie0UOsBvYO3ceLmLd_zIY2p9djzSvnREwCi5K3mDQNluDI9BpUnao2YRtqbkH3hgu1h0VbDKN5kVEkKjqwDaJslOTX9eLhIO5lgFIpRtJ4n4S6_TUt_Gv2aTq1o3i0Z_8lcdibJZPa3t9qd67u1BIuKUMju8fziqjDNA_8zvYL6P118cwN73PAt9xP4XgWDghajHL5sH2OM5FuG1AuzgEZF"
+   },
+   {
+    "position": 5,
+    "title": "On Lok PACE Union City Center",
+    "place_id": "ChIJqwcoPQCVj4AR_tKGClruTjI",
+    "data_id": "0x808f95003d2807ab:0x324eee5a0a86d2fe",
+    "data_cid": "3625096820570903294",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f95003d2807ab%3A0x324eee5a0a86d2fe&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f95003d2807ab%3A0x324eee5a0a86d2fe&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5912179,
+     "longitude": -122.03910309999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJqwcoPQCVj4AR_tKGClruTjI",
+    "provider_id": "/g/11yw403tfc",
+    "rating": 5,
+    "reviews": 1,
+    "type": "Adult day care center",
+    "types": [
+     "Adult day care center"
+    ],
+    "address": "2600 Central Ave, Union City, CA 94587",
+    "country": "United States",
+    "open_state": "Open · Closes 4:30 PM",
+    "hours": "Open · Closes 4:30 PM",
+    "operating_hours": {
+     "monday": "8:30 AM–4:30 PM",
+     "tuesday": "8:30 AM–4:30 PM",
+     "wednesday": "8:30 AM–4:30 PM",
+     "thursday": "8:30 AM–4:30 PM",
+     "friday": "8:30 AM–4:30 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 319-5900",
+    "website": "https://www.onlok.org/pace/locations/union-city-pace-center",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R5_-eDxlHa0p9nGlL_g8Gyvv10xMcvKt_40ww0zMRGtLpY_SPhhzXmZIvWYsR16Vknl48xi822-r2oGomzDTvi5hd93uXx-6d0-Qg__mrK3fwAedC4xkS6kqVfsS8UsGfmYKYsTgg_vOo=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/ijXt5HicHcTbboIwAADQL6qUiwRM9mA0qQbdJjiVvTRLKS2hF0ZrqXzk3vc3Jp6H8__HrR3MKggEjxdMaybo3dCRaGWpsguiZcAGA4gBJli_X7tHXi4xoFsvdj9wyBUSB8wy9HAuhP5IXGFxAqcJzscS2cNQ4-qT8_kmv_fuWpsyTC-9EknmuyyKwBhppOW8PbtuyZs8vt88SBsITgxjORZxO61ps0l8X6X976U1VfZlUCvrojZnxrD70G9TCCEE_DUB6gmsBEg9"
+   },
+   {
+    "position": 6,
+    "title": "Fremont Aging & Family Services",
+    "place_id": "ChIJmWeYUYXAj4ARHuTwlJWb-x0",
+    "data_id": "0x808fc08551986799:0x1dfb9b9594f0e41e",
+    "data_cid": "2160491513005532190",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc08551986799%3A0x1dfb9b9594f0e41e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc08551986799%3A0x1dfb9b9594f0e41e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5523902,
+     "longitude": -121.98215889999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJmWeYUYXAj4ARHuTwlJWb-x0",
+    "provider_id": "/g/1td5lygj",
+    "unclaimed_listing": true,
+    "type": "Social services organization",
+    "types": [
+     "Social services organization"
+    ],
+    "address": "3300 Capitol Ave # B, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Open · Closes 5 PM",
+    "hours": "Open · Closes 5 PM",
+    "operating_hours": {
+     "monday": "8 AM–5 PM",
+     "tuesday": "8 AM–5 PM",
+     "wednesday": "8 AM–5 PM",
+     "thursday": "8 AM–5 PM",
+     "friday": "8 AM–5 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 574-2050",
+    "website": "https://www.fremont.gov/government/departments/human-services/aging-and-family-services",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=rzWH_E6hN0HmRAkH0Vhm_A&cb_client=search.gws-prod.gps&w=80&h=92&yaw=130.64189&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/tIjcbHicHc09DsIgGADQ27DJj5qmNfliOph0cnDQsaEUgQiFAIJ6Gq_lbTRe4L3PW-cc0o6QlKOUuRhZg3lIm1aBY-W9spIHk7DwjhRGsr67aeHG7gNfvJkhvi7DeGj0kQ7u1N8GetZu7JGYRmGNXDIkyaPQWNWfGP2MVUioQkuRhm6NnrwC21DcbFnboWCy0EDRf7n6AozSL2W7OUk"
+   },
+   {
+    "position": 7,
+    "title": "Seniors Advocate, Inc.",
+    "place_id": "ChIJB9L7bemVj4AR5gaRg7MHli4",
+    "data_id": "0x808f95e96dfbd207:0x2e9607b3839106e6",
+    "data_cid": "3356879039839143654",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f95e96dfbd207%3A0x2e9607b3839106e6&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f95e96dfbd207%3A0x2e9607b3839106e6&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5897924,
+     "longitude": -122.06779709999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJB9L7bemVj4AR5gaRg7MHli4",
+    "provider_id": "/g/11clsnj87v",
+    "unclaimed_listing": true,
+    "type": "Senior citizen center",
+    "types": [
+     "Senior citizen center"
+    ],
+    "address": "32108 Alvarado Blvd #346, Union City, CA 94587",
+    "country": "United States",
+    "open_state": "Open now",
+    "phone": "(800) 818-5341",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=oMTg_s0xxBW5BwHkdB2Tjg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=49.992725&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Hb8yJHicHc3BDcIgFADQbbgJlNgoJsSkJy_emnhsKEXA0kL6v6Vu41puo3GB9z5vj5jhxBjgYi2uwZYcNhthlzV1KblodQ5ATZrYWjH0z6mfdYjnrOcUBpWureuAb1tzq5tyGYdGtA9HTN-ZGOyMCqxejKeu_MQlDdRlIEUdOfFKCvLSRe0llVIcRE1yQOMVJ__lnlZVcf4Fh6E5tw"
+   },
+   {
+    "position": 8,
+    "title": "Oasis Senior Center",
+    "place_id": "ChIJsZEa9VC-j4ARqmmnwPqehjs",
+    "data_id": "0x808fbe50f51a91b1:0x3b869efac0a769aa",
+    "data_cid": "4289290494928185770",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbe50f51a91b1%3A0x3b869efac0a769aa&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbe50f51a91b1%3A0x3b869efac0a769aa&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.548353999999996,
+     "longitude": -122.04810599999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJsZEa9VC-j4ARqmmnwPqehjs",
+    "provider_id": "/g/11h06mt41s",
+    "type": "Aged care",
+    "types": [
+     "Aged care"
+    ],
+    "type_id": "senior_citizens_care_service",
+    "type_ids": [
+     "senior_citizens_care_service"
+    ],
+    "address": "35145 Newark Blvd, Newark, CA 94560",
+    "country": "United States",
+    "open_state": "Closed · Opens 11 AM",
+    "hours": "Closed · Opens 11 AM",
+    "operating_hours": {
+     "monday": "11 AM–10 PM",
+     "tuesday": "11 AM–10 PM",
+     "wednesday": "11 AM–10 PM",
+     "thursday": "11 AM–10 PM",
+     "friday": "11 AM–10 PM",
+     "saturday": "11 AM–10 PM",
+     "sunday": "11 AM–10 PM"
+    },
+    "phone": "(510) 494-1525",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_rT-5OpTyxTz6sf4DATWbQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=151.0361&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_GfI03icHc1fCsIgHADg2_g2_1QbFcgIeo9A6HE451Rw84fa3LpM5-o2RRf4vs_b5gzpTEjKUeu8OF3ArdqnCiQ2IRivJbiEVZjIwki2z6mfpfMtyDm4gXdRVPUNxLaKV5PGw_UiHv0dqb5T3uk586RlVBab8hNjGLCBhAo_UmT5aYc2WTirGab7hiFwWVlO0T8Zw8IZpV9B5jlH"
+   },
+   {
+    "position": 9,
+    "title": "Warm Springs Community Center",
+    "place_id": "ChIJxZQvWGrGj4ARs5xBJoTOp_c",
+    "data_id": "0x808fc66a582f94c5:0xf7a7ce8426419cb3",
+    "data_cid": "17845459115451718835",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc66a582f94c5%3A0xf7a7ce8426419cb3&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc66a582f94c5%3A0xf7a7ce8426419cb3&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.4858773,
+     "longitude": -121.92254129999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJxZQvWGrGj4ARs5xBJoTOp_c",
+    "provider_id": "/g/11bwn8778_",
+    "rating": 4.4,
+    "reviews": 134,
+    "unclaimed_listing": true,
+    "type": "Community center",
+    "types": [
+     "Community center"
+    ],
+    "address": "47300 Fernald St, Fremont, CA 94539",
+    "country": "United States",
+    "open_state": "Open · Closes 5:30 PM",
+    "hours": "Open · Closes 5:30 PM",
+    "operating_hours": {
+     "monday": "8:30 AM–5:30 PM",
+     "tuesday": "8:30 AM–5:30 PM",
+     "wednesday": "8:30 AM–5:30 PM",
+     "thursday": "8:30 AM–5:30 PM",
+     "friday": "8:30 AM–5:30 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 494-4318",
+    "website": "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals/community-centers/warm-springs-community-center",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q9kfC8NDdpKWmwoS7dbAUq7CN46VWjV-D0Ob5EWTFXehG8M2lr17vEINAjWuyoFq455fuivhk2kiIOv8Vdqixd62nZDr-iPIkg4BTHKKX7pMXujm9owvEu4sRQYs_DRi7kr8hK=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/rmTDbHicHcRJDoIwAADAF5VNoGDiAQWVEHGn6MWERVoKFCgFfaFv8DcmzmG-HzwMLZ_LcoVnUsFYUeWC533KmiFvBilltVy0HKQccNkJEXnbR5s-V1boZm2A6omdYZY41w6uQt2MUBkBV9knhocu6zjHG2unVb0KR88PnRKJN1t3umE8BRkx1Sjx96MVZR15ZabW3N0ekINPC3152QZBDNtdLMraZtPoCZ2fjjf-cE8E0t7CwWJSFUUB-H8Kmh8bNURk"
+   },
+   {
+    "position": 10,
+    "title": "Carlton Senior Living Fremont",
+    "place_id": "ChIJtbtTTJfAj4ARWA7kIW-FC1g",
+    "data_id": "0x808fc0974c53bbb5:0x580b856f21e40e58",
+    "data_cid": "6344311212437933656",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc0974c53bbb5%3A0x580b856f21e40e58&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc0974c53bbb5%3A0x580b856f21e40e58&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5472999,
+     "longitude": -121.9808748
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJtbtTTJfAj4ARWA7kIW-FC1g",
+    "provider_id": "/g/1tfjfsgy",
+    "rating": 4.9,
+    "reviews": 31,
+    "type": "Assisted living facility",
+    "types": [
+     "Assisted living facility"
+    ],
+    "address": "3800 Walnut Ave, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(510) 956-6849",
+    "website": "https://www.carltonseniorliving.com/communities/fremont/?utm_source=gmb&utm_medium=organic&utm_content=gmb-website",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R2S2FZxEXCKK2vcW0BKJzeYV68AK86gsR2S2PVJYrMIVIliEo7cq1Vn20_Qc9GVI-13s99ZTk0scntCPLb--Rz2_Z5LeR2l0waNgeWs5AN7ckTOBYRuMIFJGOvdgFjVSi-6VQ2Xu-cPLw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/XSOE6nicHcnLboJAFADQL7oyjBGlSRdoxPAQEc0gbEy9nQxUOmO9g7R-pHv_pmk3Z3Oej8baC704TteMR8oY1cme5BWNtlLbEZpPR10IkICcICvbH7_gOx7W38vDIkn4DUs2T-K7rIQ3C5KZp-jvcxFX13Ukoq5dmil-uUJzdtyivxIRuGPy_Xp_ZoTaLvL0BFDc-bGepLLgHRveMiVLmgTZFM_7zbwq-nUUxqvN7V2FH2LXgie2_NAD5unwOriMMWj-RdC_QglEOA"
+   },
+   {
+    "position": 11,
+    "title": "Newark Station Seniors | Affordable Apartments 55+",
+    "place_id": "ChIJh4sdls2_j4ARKuf9a5_rMP8",
+    "data_id": "0x808fbfcd961d8b87:0xff30eb9f6bfde72a",
+    "data_cid": "18388456348497864490",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbfcd961d8b87%3A0xff30eb9f6bfde72a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbfcd961d8b87%3A0xff30eb9f6bfde72a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5206306,
+     "longitude": -122.0498574
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJh4sdls2_j4ARKuf9a5_rMP8",
+    "provider_id": "/g/11fct1202t",
+    "rating": 4.7,
+    "reviews": 27,
+    "type": "Apartment complex",
+    "types": [
+     "Apartment complex"
+    ],
+    "address": "37433 Willow St, Newark, CA 94560",
+    "country": "United States",
+    "open_state": "Open · Closes 5 PM",
+    "hours": "Open · Closes 5 PM",
+    "operating_hours": {
+     "monday": "9 AM–5 PM",
+     "tuesday": "9 AM–5 PM",
+     "wednesday": "9 AM–5 PM",
+     "thursday": "9 AM–5 PM",
+     "friday": "9 AM–5 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 901-0187",
+    "website": "https://newarkstationseniors.usamfm.com/?utm_source=GMB&utm_medium=organic",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S2gwGlxX0o5wZnnaxugy5GfkwcXwMCKP6EXQxEXYQkiFDZqKPP3pPo_hTpIWASOp_5Fy7sDq02xVeHbfRRQW30rprITkHvgyM0lUoAkdM2QqDsbp4Uh4JjA8aMN20b83cmi5aH=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/RxV73nicHcRdEkJAAADgE8lGSs30YKKUUeiHvDRs2hXtLku7TtgZuk0zfQ_f94O7jvGFqtZYHyFKUV30vGghJV1BuhGkLxUxrkCucNXax-UwP2pIbGqZAGqIlJBM9mgwNo9KwET4Ky-YOkkoneQaVuXaThsvCHQW0Bs-sW1sHQ_sZqyHGbcboMlL4eaPKApjHbSs3Z4q940GH9RnalV3Xwsbm-dscsaT3dMyM3-vgdzU4as0MncpxgAABf-HCvkB4x1FLw"
+   },
+   {
+    "position": 12,
+    "title": "Pleasanton Senior Center",
+    "place_id": "ChIJS2SRdJXpj4AR_CmnO4kdmI8",
+    "data_id": "0x808fe9957491644b:0x8f981d893ba729fc",
+    "data_cid": "10347052619132250620",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fe9957491644b%3A0x8f981d893ba729fc&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fe9957491644b%3A0x8f981d893ba729fc&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.6527835,
+     "longitude": -121.8810654
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJS2SRdJXpj4AR_CmnO4kdmI8",
+    "provider_id": "/g/1tg9sybh",
+    "rating": 4.7,
+    "reviews": 124,
+    "type": "Senior citizen center",
+    "types": [
+     "Senior citizen center"
+    ],
+    "address": "5353 Sunol Blvd, Pleasanton, CA 94566",
+    "country": "United States",
+    "open_state": "Open · Closes 4 PM",
+    "hours": "Open · Closes 4 PM",
+    "operating_hours": {
+     "monday": "8:30 AM–4 PM",
+     "tuesday": "8:30 AM–4 PM",
+     "wednesday": "8:30 AM–4 PM",
+     "thursday": "8:30 AM–4 PM",
+     "friday": "8:30 AM–4 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(925) 931-5365",
+    "website": "https://www.cityofpleasantonca.gov/your-community/recreation/senior-services/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SDUq7hXvqJpbRKXewX8rpFzVyG9IHP0Zcc0WR22-yqIzrTD5cX4LGz65y0Mh-JS7AkLMRuYxo-2L5cTzWO8gWmXlVrK82NDnE0h9f0GGKKVG8BuvBe9iMmJidoMK6-3xEE30qp=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/y7ePrnicHcRRboIwGADgExX-wVAw8UECdlBQgw6qj9ZKyYAWCipccGfwNkv2PXzvXzEMSq9Msxa2UUpZ1nzUvGeyHXg7GEw2Zqk0Yhppc7Mrqsk7Bt_dUtBHF6trRih_UrdX2zmfsBd9HeDCGBSZZaGpi-b-FDiMfiZ4XjgTpALFx-XmJ0mz8fySyEocdpqLvVsWDa3znrjWLmhDEN4dMCYkx64_PnzuVWkTVzeZkgWyX2FoQ6fWzw8AQOJ_hto_E75C8w"
+   },
+   {
+    "position": 13,
+    "title": "On Lok PACE Peralta Center",
+    "place_id": "ChIJQwlhVZu_j4ARjFmi5D7FNPg",
+    "data_id": "0x808fbf9b55610943:0xf834c53ee4a2598c",
+    "data_cid": "17885136894109571468",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf9b55610943%3A0xf834c53ee4a2598c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf9b55610943%3A0xf834c53ee4a2598c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5595566,
+     "longitude": -122.0043094
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQwlhVZu_j4ARjFmi5D7FNPg",
+    "provider_id": "/g/1hc24ff7g",
+    "rating": 4.5,
+    "reviews": 19,
+    "type": "Senior citizen center",
+    "types": [
+     "Senior citizen center",
+     "Medical clinic",
+     "Adult day care center"
+    ],
+    "address": "3683 Peralta Blvd, Fremont, CA 94536",
+    "country": "United States",
+    "open_state": "Open · Closes 4:30 PM",
+    "hours": "Open · Closes 4:30 PM",
+    "operating_hours": {
+     "monday": "8 AM–4:30 PM",
+     "tuesday": "8 AM–4:30 PM",
+     "wednesday": "8 AM–4:30 PM",
+     "thursday": "8 AM–4:30 PM",
+     "friday": "8 AM–4:30 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 494-3700",
+    "website": "https://www.onlok.org/pace/locations/peralta-pace-center/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TCG6IDnhKn04VlggfflkIlNVsWpkYTaGNYKPe7KKZZP8DtzEMc3DzC0RO_MZbWvZiJ9FiW5lvV6HvNika-mm2_FeqMT_GlLpxqPqsXf-W9obAhGaWoia5oRpvBAhk0M_eFLZBupMdQC-qq=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/tnokS3icHcTNToMwAADgJ-qozk0x8cBg4GRFXAjdeiGslrah9Md2qHtJz76Nid_h-_0RIVj_GEVKLBfcGK7YxbMPanRgOiyomSJuPaAe-CipsPyOm7RY7zItSg3vWsX5MKhxp6rWYzuemr6oTmXN7suSkPohC9ctosvsmsLDa4fIGc9EvsS5xCs1t-vnuZJjD6bptsuZQ01XqL39crXzxwHg2JwTUfTYyH5lDnbeJGKEqGP5nmwuFr2_pcC5p88bCCEQ_1Og_wDYYkgx"
+   },
+   {
+    "position": 14,
+    "title": "East Palo Alto Senior Center Inc.",
+    "place_id": "ChIJ46uRaGW7j4AR4cnGiYIy-gM",
+    "data_id": "0x808fbb656891abe3:0x3fa328289c6c9e1",
+    "data_cid": "286597062530091489",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbb656891abe3%3A0x3fa328289c6c9e1&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbb656891abe3%3A0x3fa328289c6c9e1&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.4653376,
+     "longitude": -122.1421826
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ46uRaGW7j4AR4cnGiYIy-gM",
+    "provider_id": "/g/1tg5zwh6",
+    "rating": 4.6,
+    "reviews": 22,
+    "unclaimed_listing": true,
+    "type": "Social services organization",
+    "types": [
+     "Social services organization"
+    ],
+    "address": "560 Bell St, East Palo Alto, CA 94303",
+    "country": "United States",
+    "open_state": "Open · Closes 1 PM",
+    "hours": "Open · Closes 1 PM",
+    "operating_hours": {
+     "monday": "9 AM–1 PM",
+     "tuesday": "9 AM–1 PM",
+     "wednesday": "9 AM–1 PM",
+     "thursday": "9 AM–1 PM",
+     "friday": "9 AM–1 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(650) 329-5900",
+    "website": "https://www.eastpaloaltoseniorcenter.org/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QVwko92-5BrLWMhzrZWCWNn9gP_3HaIG8s59EY9h1_ty1qSv5qW00qrGHuolTplA7NmEQIynYoMTDSEFUvHCmogAwLPKl9GqL8TvH9HFzhChREqfPjNSwikF_4YUlKCdrXPkg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/h27WWnicHcRdboIwAADgE1XKHNGa7AERqBEJDlxlL2RBbJXS0h8heEDv4G2W-D18ryeztjcrx-FsPqNSUt7cTaNrKWwj7KyWnUN7A2oDjOOn5Dqhw8_YSvQBvLVOyJ499C8JSCoQzao5_tvGS-OhsETMrezkqnzwFIFQ6RjfJS967i_SLjxsJ1HKfbHJw-g44KCT1B-TbMdRrJJlMWCEowcL2HeoLtktzcdrG1Wf5ZHvgrM-ZS39Gl0IIWDvayD-AQeTRHw"
+   },
+   {
+    "position": 15,
+    "title": "Alvarado Senior Living",
+    "place_id": "ChIJGWS6cHyVj4AR_AAbLyqZeYo",
+    "data_id": "0x808f957c70ba6419:0x8a79992a2f1b00fc",
+    "data_cid": "9978174855874019580",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f957c70ba6419%3A0x8a79992a2f1b00fc&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f957c70ba6419%3A0x8a79992a2f1b00fc&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5893411,
+     "longitude": -122.0304663
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJGWS6cHyVj4AR_AAbLyqZeYo",
+    "provider_id": "/g/11b6byrgxt",
+    "rating": 4.3,
+    "reviews": 33,
+    "type": "Assisted living facility",
+    "types": [
+     "Assisted living facility"
+    ],
+    "address": "33883 Alvarado-Niles Rd, Union City, CA 94587",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(510) 756-4203",
+    "website": "https://alvaradoseniorliving.com/?utm_source=GMB&utm_medium=organic",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "book_online": "https://api.talkfurther.com/api/google-appointments/94a3df51-ca60-4c12-9d9e-26e140a88af5/?rwg_token=AE37R_jh9B9fHScGcKot8TOc8lVnVhB7zkB37pEQ0Ph9AD_vQLlp4YwjSuKrNSJTQF_-UzfZNWU8xN3_8zd9Q5BvJl6ObcnuBw%3D%3D",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S6K1sT5HI1i6lg4EVmZJ7t8UNMyLSdGTWGHnVbcmUlpJ-IdMXXdEJ8GPmaObSnBpSnnj1zR8iAhH4v8JJSKb9WquC9MXg1CPtlA9lix1oOqPwtwwf-GpybBSFxAxMGBnBQ2p41c34xrelw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/RF1EL3icHcTBkoIgAADQLyJls9Jm9qBNYbSWG5VOt0RDGwQKCu0nO_c3zfQO7_2qjVF66ji8Hg6YlIxXd13dqBSmEmZAZeswpQHVQDvhOmv6gIxXUO9G8RI2Y868-aE94onx9-uk_yMl2mUoFoeCtnuuMFiWSZ6Xc-yjtD1tCiIiRYS4wOfWb8I69h4-xmRVBNn1PguSnMFZangY8KaDcnNNrbH2DJDqi4gsurBLUCSi_x_lQTr0ulvF7a-FruuC-jsF4gNTAkcL"
+   },
+   {
+    "position": 16,
+    "title": "Menlo Park Senior Center",
+    "place_id": "ChIJxeNJn7G8j4ARrm4s8ByNlHQ",
+    "data_id": "0x808fbcb19f49e3c5:0x74948d1cf02c6eae",
+    "data_cid": "8400494360380862126",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbcb19f49e3c5%3A0x74948d1cf02c6eae&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbcb19f49e3c5%3A0x74948d1cf02c6eae&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.478901799999996,
+     "longitude": -122.168162
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJxeNJn7G8j4ARrm4s8ByNlHQ",
+    "provider_id": "/g/1tdvdtq5",
+    "rating": 4.5,
+    "reviews": 13,
+    "type": "Senior citizen center",
+    "types": [
+     "Senior citizen center"
+    ],
+    "address": "100 Terminal Avenue Belle Haven Community Campus, 100 Terminal Ave, Menlo Park, CA 94025",
+    "country": "United States",
+    "open_state": "Open · Closes 1:30 PM",
+    "hours": "Open · Closes 1:30 PM",
+    "operating_hours": {
+     "monday": "9 AM–1:30 PM",
+     "tuesday": "9 AM–1:30 PM",
+     "wednesday": "9 AM–1:30 PM",
+     "thursday": "9 AM–1:30 PM",
+     "friday": "9 AM–1:30 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(650) 330-2280",
+    "website": "https://menlopark.gov/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RkwgcWsNcEDnO4tPMWfRVI-VuIIqNfdBOOHxCx82cXAp00tdtWtHQogvAfY3lY3gqBTuLnVDKEE0ZDyi9OrEjO8RxMGcySgdbvtesK3MIZSN4MU2ieP-myqky1n8zKDhblqfP4Wg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/T1z5iHicHcTRFoEwGADgJ5pGXcQ5LqIOndQSGi6ttSJb2R_NG3oEb-Mc38X3_VQArZ5ZVlPZI6GUaHiv-YMpCVzCiKm7JVqNmEba8hJam2l2ewlGdcICXxIH0piWWR6ivA_DLimLBSHrYTm4E3b0WoyhAArrrRJPrzzZzckW3WLfb2TuR0GAz76pp-QRXImbDfGKmZ0oLk_gOrLj8LxLnPgwqXmK7qa7mbF035FfXZquTB0q5q8xxhhV_xmSPzvjRjo"
+   },
+   {
+    "position": 17,
+    "title": "老人中心Ruggieri Senior Center跳舞",
+    "place_id": "ChIJ8cpBflWVj4ARwmnYzApL-Gs",
+    "data_id": "0x808f95557e41caf1:0x6bf84b0accd869c2",
+    "data_cid": "7780050866041022914",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f95557e41caf1%3A0x6bf84b0accd869c2&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f95557e41caf1%3A0x6bf84b0accd869c2&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.588679,
+     "longitude": -122.0282221
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ8cpBflWVj4ARwmnYzApL-Gs",
+    "provider_id": "/g/11v0w5rdvl",
+    "unclaimed_listing": true,
+    "type": "Sports club",
+    "types": [
+     "Sports club"
+    ],
+    "address": "94587, California, Union City, Alvarado-Niles Rd",
+    "country": "United States",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=w2j-cuc4tHm6tRMkKpCOuw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=21.68061&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/wjJLenicHc1LCsIwEADQ22TXfIqUKgQXbgQRwQtImsZkbNoMzbTR03gub6N4gfc-70CEeSdEptk5WsEVhKeLuULDfUo-OoOQuU2jWJWgsIzdZCDu0UwJel3qR2UXu6Hj2ND1PJzwcFkKs93NRnAT6ezMbAP35SfOqeceMyu6lSzobc1epuha8aaVjWIIZIOW7J_c06qVlF9W8zmU"
+   },
+   {
+    "position": 18,
+    "title": "Paseo Padre Pkwy & Senior Center",
+    "place_id": "ChIJKzugz8HAj4ARdtEbBEEdDRQ",
+    "data_id": "0x808fc0c1cfa03b2b:0x140d1d41041bd176",
+    "data_cid": "1444843220534808950",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc0c1cfa03b2b%3A0x140d1d41041bd176&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc0c1cfa03b2b%3A0x140d1d41041bd176&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.545995,
+     "longitude": -121.9666044
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJKzugz8HAj4ARdtEbBEEdDRQ",
+    "provider_id": "/g/1tgnrxdk",
+    "type": "Bus stop",
+    "types": [
+     "Bus stop"
+    ],
+    "address": "Fremont, CA 94538",
+    "country": "United States",
+    "extensions": [
+     {
+      "accessibility": [
+       "Passenger loading area"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=0_SgBTA2HU-I1v-D2lj0cQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=328.22668&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_sVqSnicHc3BDcIgFADQbbgVKCZNNfkxNh70aNRzQ-kXMLSQgqDbuJbbaFzgvc_bpBTihrGYFsSULZZgn-hiFSTV3muHMthIlZ9Yrlkyj2mYpXXbIGdvR-D9WXeXnThcq2Odq71wd65ORA29chbnBBHlogzV5ScufqQ6RFKg5cTAWpCXLLASLRWiaVoSbFIGOPkvN5-h5vwLGsg4dg"
+   },
+   {
+    "position": 19,
+    "title": "Florence Residential Care Home",
+    "place_id": "ChIJeVnCuPHGj4ARCIofZhbU9fg",
+    "data_id": "0x808fc6f1b8c25979:0xf8f5d416661f8a08",
+    "data_cid": "17939477883367950856",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc6f1b8c25979%3A0xf8f5d416661f8a08&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc6f1b8c25979%3A0xf8f5d416661f8a08&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5078372,
+     "longitude": -121.93208349999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJeVnCuPHGj4ARCIofZhbU9fg",
+    "provider_id": "/g/1tfwdr2d",
+    "rating": 5,
+    "reviews": 1,
+    "unclaimed_listing": true,
+    "type": "Retirement home",
+    "types": [
+     "Retirement home"
+    ],
+    "address": "1954 Rosemary Ct, Fremont, CA 94539",
+    "country": "United States",
+    "phone": "(510) 490-1801",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RlOidPZczbOUev6v0mxRSvmcRMH_4iTXDYSOZd9-Y86Bs7ylHyaOT-fX9MJXEeIrJaqCRMOWpPjqHzk1N0PtVGprSewoHXSGRvaQ3fJVtzDsyYHUfDVXigdg4dfw8tisvhl32m=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/UIBKFnicHcRRboIwAADQE1WqGCcmfrix2JFgWVEs_iyslNKtUKS1CBf0DLuNyd7H-3vU1nZm43mq9mdCa6H4zfCe6dby1s6YbjzRGcAMMN7ucJZjQBSWZXJh0zc-cbdysLmT1DWMxOhrKY80zFN8KQOQr1ev5mVUaCzwEVQ0iCP6zj_6qLi-kRifu-Tniqbf-QEmNtt3fcoHjWi6J6749Ksos1NoxhydqjCjUpRiWVbD2krjauUvmu0whxCC-n8G2ifUUUZF"
+   },
+   {
+    "position": 20,
+    "title": "Community Ambassador Program for Seniors",
+    "place_id": "ChIJXR8PT4XAj4ARv7DDgbEEy6o",
+    "data_id": "0x808fc0854f0f1f5d:0xaacb04b181c3b0bf",
+    "data_cid": "12306935567152820415",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc0854f0f1f5d%3A0xaacb04b181c3b0bf&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc0854f0f1f5d%3A0xaacb04b181c3b0bf&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5520543,
+     "longitude": -121.98235179999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJXR8PT4XAj4ARv7DDgbEEy6o",
+    "provider_id": "/g/11f63x7vt6",
+    "unclaimed_listing": true,
+    "type": "Association / Organization",
+    "types": [
+     "Association / Organization"
+    ],
+    "address": "3300 Capitol Ave, Fremont, CA 94538",
+    "country": "United States",
+    "phone": "(510) 574-2055",
+    "website": "https://www.fremont.gov/government/departments/human-services/aging-and-family-services/afs-community-programs",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=zhsjyzWgaYBNqvXA7IXkDw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=118.068&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/A5vm_HicHc09DsIgGADQ27DJj4NWE2I0Li6u1slQivApLdgPwfYw3svbaLzAe5-3SynimjFMgzEpgykRXsbjLCpqQ7DeqAhIdehYFiy5Z9f0Cvwmqj5AKyeHt3E6WXXeHR-53i4P9X1fiG4u2oPpk0SjBu2oLT9xCC21EUmRFSdOruZkVEUKUVG-qEiEpJ3k5H9cQ5aC8y9M6TnW"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&gl=us&google_domain=google.com&hl=en&ll=%4037.555%2C-121.982%2C13z&q=senior+center&start=20&type=search"
+  }
+ }
+}

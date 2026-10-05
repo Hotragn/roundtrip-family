@@ -1,0 +1,74 @@
+{
+ "body": {
+  "id": "id-1791224059329",
+  "object": "chat.completion",
+  "created": 1791224059,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": null,
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "function": {
+        "arguments": "{\"candidateId\": \"c1\"}",
+        "name": "suggestTrialRun"
+       },
+       "id": "chatcmpl-tool-9aff634e02fe3e55",
+       "type": "function"
+      },
+      {
+       "function": {
+        "arguments": "{\"candidateId\": \"c6\"}",
+        "name": "suggestTrialRun"
+       },
+       "id": "chatcmpl-tool-b6873874142385e3",
+       "type": "function"
+      },
+      {
+       "function": {
+        "arguments": "{\"candidateId\": \"c7\"}",
+        "name": "suggestTrialRun"
+       },
+       "id": "chatcmpl-tool-ba4eecb8848edba6",
+       "type": "function"
+      },
+      {
+       "function": {
+        "arguments": "{\"candidateId\": \"c8\"}",
+        "name": "suggestTrialRun"
+       },
+       "id": "chatcmpl-tool-90d7598cc532998a",
+       "type": "function"
+      }
+     ]
+    },
+    "routed_experts": null,
+    "stop_reason": 50,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2600,
+   "completion_tokens": 69,
+   "total_tokens": 2669,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 25.51818084716797
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:14:19.412Z",
+ "latencyMs": 831
+}

@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219809034",
+  "object": "chat.completion",
+  "created": 1791219809,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "ఆరు స్టాప్స్ ఉంటాయి, ప్రయాణానికి ఇరవై ఐదు నిమిషాలు పడుతుంది.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 90,
+   "completion_tokens": 26,
+   "total_tokens": 116,
+   "prompt_tokens_details": {
+    "cached_tokens": 64
+   },
+   "neurons": 1.236363410949707
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:03:29.101Z"
+}

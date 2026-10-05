@@ -1,0 +1,1244 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps",
+ "request": "https://serpapi.com/search.json?engine=google_maps&type=search&q=Hindu+Tempel&ll=%4048.1%2C11.646%2C13z&gl=de&hl=de",
+ "note": "places: Hindu Tempel",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:05:46.046Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "Hindu Tempel",
+   "ll": "@48.1,11.646,13z",
+   "google_domain": "google.com",
+   "hl": "de",
+   "gl": "de"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "Hindu Tempel"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Hariom Temple",
+    "place_id": "ChIJz5pv_CzgnUcRZdddkVlCrYw",
+    "data_id": "0x479de02cfc6f9acf:0x8cad4259915dd765",
+    "data_cid": "10136831288739223397",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de02cfc6f9acf%3A0x8cad4259915dd765&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de02cfc6f9acf%3A0x8cad4259915dd765&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.115176999999996,
+     "longitude": 11.6950065
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJz5pv_CzgnUcRZdddkVlCrYw",
+    "provider_id": "/g/11g69xz97f",
+    "rating": 4.8,
+    "reviews": 110,
+    "unclaimed_listing": true,
+    "type": "Hindutempel",
+    "types": [
+     "Hindutempel"
+    ],
+    "type_id": "hindu_temple",
+    "type_ids": [
+     "hindu_temple"
+    ],
+    "address": "Kästlenstraße 32, 81827 München-Trudering-Riem",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet So um 11:00",
+    "hours": "Geschlossen · Öffnet So um 11:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "Geschlossen",
+     "freitag": "Geschlossen",
+     "samstag": "Geschlossen",
+     "sonntag": "11:00–16:30"
+    },
+    "phone": "0176 37543499",
+    "extensions": [
+     {
+      "amenities": [
+       "WC"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk62aB2pRHXSiuGhQR9JwzwUr5-UWyDDSOUqkyM4jtwjt7zg4SXaTODskZ2AYzgAHbdVrMvTRC-aSMaZtfZUoqHPhVY1JZ5gqHhobaas7mJy2hKhnMjqGbWiMrDOkqckoaFdMXW_Q=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/7o-_HnicHcRJDoIwAADAF1UQt2jiASXSYBqURZaLKQVbqVJKqwR-6BP8jYlzmO-Had2qjWE82GxChaCP6qWqjohGV42eEPE0aKsAUUAZNgxOUcKXFt5ZbQDT8P5y2TlYe_3Yx90CxMngOKEfSz6gea37Wq9GOg9THPmO4rllZyO1YVFeOvSOgj3AIcK5vuWxkPDELtnUyxdUQiYKjNXq6Q0WO7IG1dItkjvqHJ9LwgU-lChNrudtPzVNE7D_BDQ_UBBHAQ"
+   },
+   {
+    "position": 2,
+    "title": "Wat-Thai-Tempel München",
+    "place_id": "ChIJFyAcppjfnUcRMddrqN648aY",
+    "data_id": "0x479ddf98a61c2017:0xa6f1b8dea86bd731",
+    "data_cid": "12029599346131195697",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf98a61c2017%3A0xa6f1b8dea86bd731&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf98a61c2017%3A0xa6f1b8dea86bd731&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.112485299999996,
+     "longitude": 11.5985851
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJFyAcppjfnUcRMddrqN648aY",
+    "provider_id": "/g/11b77w3k5f",
+    "rating": 4.8,
+    "reviews": 48,
+    "unclaimed_listing": true,
+    "type": "Buddhistischer Tempel",
+    "types": [
+     "Buddhistischer Tempel"
+    ],
+    "type_id": "buddhist_temple",
+    "type_ids": [
+     "buddhist_temple"
+    ],
+    "address": "Bad-Dürkheimer-Straße 14, 81539 München-Ramersdorf-Perlach",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "phone": "089 68019227",
+    "website": "http://www.watthai-munich.de/",
+    "extensions": [
+     {
+      "amenities": [
+       "WC"
+      ]
+     }
+    ],
+    "user_review": "\"Sehr schöner Tempel, liebevoll gemacht\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk4tR2mngYmRRdeuSa4byPOElrMjEGih6A7hg6rnc6HLUgajdk5P3gQIRZxXTgGph3iPC1AonMS_8koa6qjtgUu73wqMagcpXr2Tzk4pIaI1zJRsjngESgCtWUK96oeUDHVHavG=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/d-pFLnicHcRZjoIwGADgE7EJU3USH4gSYEYiU8DtxXRq85etrbS4XdAzzG0m8Xv4_l7cGKU_Hafjvg1SQsdGzQYqhWHC2FT2DihtUW1pJ0xwXu7awOBJL-DQY3xmY0GC30e-iboha6K45iicckCDoChZV0Cac_uR-_CT4uN9X0KsuF_nSy-UIitOs1YSdGkMVOPUv10yAlTth0n5bAOVktR7fmHdCIgKWJpd9T1HklWrZJuQa7y4ea7rWvw9tcQ_yelFzQ"
+   },
+   {
+    "position": 3,
+    "title": "Apollotempel in Nymphenburg",
+    "place_id": "ChIJVWhKm8V3nkcRwmtfGUTLpK4",
+    "data_id": "0x479e77c59b4a6855:0xaea4cb44195f6bc2",
+    "data_cid": "12584406752123907010",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e77c59b4a6855%3A0xaea4cb44195f6bc2&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e77c59b4a6855%3A0xaea4cb44195f6bc2&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1563467,
+     "longitude": 11.4897724
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJVWhKm8V3nkcRwmtfGUTLpK4",
+    "provider_id": "/g/11bxc60xtn",
+    "rating": 4.8,
+    "reviews": 403,
+    "unclaimed_listing": true,
+    "type": "Sehenswürdigkeit",
+    "types": [
+     "Sehenswürdigkeit",
+     "Park",
+     "Historische Sehenswürdigkeit"
+    ],
+    "type_id": "tourist_attraction",
+    "type_ids": [
+     "tourist_attraction",
+     "park",
+     "historical_landmark"
+    ],
+    "address": "Badenburger See, 80638 München",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "website": "https://www.muenchenwiki.de/wiki/Apollotempel",
+    "extensions": [
+     {
+      "children": [
+       "Kinderfreundlich"
+      ]
+     }
+    ],
+    "user_review": "\"Schöner Tempel aber Apollo persönlich verweilte gerade außerhalb.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl8muCB1Nw-qI9E-Hz1vhdSVKZrRbbSzj5EYIV_v2AObI-qYmvJGJzZOmRTz8xbJZemqTuYgXlahy9ASf7cy_rv8fFlpFAiq2RBlWymISk-Gm256MFzeM2plPG1ebi_pd95t7M=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/f-teynicHcRdDoIgAADgE5E_zdK2HqypabOaukpfXBBJBYqClhywO3Sbtr6H7_shUnKx0DRKppOqaSqKe4E71NQS13KCGqZVXAAkgNDcTXLITtRm_Xpl7F6gDR0PbJQxkGt63BZdAmGqHpaXh8dyMN09DEGbsyEKIlXsWZIp-w2jArM26_PqTC9kdNz0Nkdj2Q32zafcd--tmazoaWRh-gQBM61Z7Cscm5weAgPDe8mvjiXn8fJl6LoOyH8E6h9EdETR"
+   },
+   {
+    "position": 4,
+    "title": "Gurdwara Sri Guru Nanak Sabha e.V (Sikh Gotteshaus München)",
+    "place_id": "ChIJLZtAxl91nkcRHpyLLoxZL-A",
+    "data_id": "0x479e755fc6409b2d:0xe02f598c2e8b9c1e",
+    "data_cid": "16154228847012453406",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e755fc6409b2d%3A0xe02f598c2e8b9c1e&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e755fc6409b2d%3A0xe02f598c2e8b9c1e&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1314247,
+     "longitude": 11.626533
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJLZtAxl91nkcRHpyLLoxZL-A",
+    "provider_id": "/g/11bxb85n8d",
+    "rating": 4.9,
+    "reviews": 146,
+    "type": "Gurudwara",
+    "types": [
+     "Gurudwara",
+     "Bildungszentrum",
+     "Religiöser Ort",
+     "Freiwilligenorganisation"
+    ],
+    "type_id": "sikh_temple",
+    "type_ids": [
+     "sikh_temple",
+     "learning_center",
+     "religious_destination",
+     "volunteer_organization"
+    ],
+    "address": "Neumarkter Str. 70, 81673 München-Berg am Laim",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 06:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 06:00",
+    "operating_hours": {
+     "montag": "06:00–20:00",
+     "dienstag": "06:00–20:00",
+     "mittwoch": "06:00–20:00",
+     "donnerstag": "06:00–20:00",
+     "freitag": "06:00–20:00",
+     "samstag": "06:00–20:00",
+     "sonntag": "06:00–20:00"
+    },
+    "phone": "089 3244004",
+    "website": "https://gurdwara-muenchen.de/",
+    "extensions": [
+     {
+      "emergency_help": [
+       "Freiwillige Helfer gesucht",
+       "Hier gibt es kostenlose Produkte oder Dienstleistungen",
+       "Hier gibt es Unterkünfte für Geflüchtete",
+       "Hier werden Spenden angenommen"
+      ]
+     },
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     },
+     {
+      "amenities": [
+       "WC"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+-freundlich",
+       "Sicherer Ort für Transgender"
+      ]
+     },
+     {
+      "parking": [
+       "Kostenlose Parkplätze an der Straße"
+      ]
+     }
+    ],
+    "user_review": "\"Wir kommen hier jeden Sonntag her und es ist sehr schön.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkJLyE4LCpTdPcSpwL9TcySgbkABpERW7oGKp2ik8Gqt32pY6HbVmPgXmRFZmslX-IrWMHRwGJbXRj8xUGRNPobgxveL-bXuAd37IsKs_h2ey9qHoSthDsMRtDmJlH1HIcgbes=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/PCT1DXicHcRLDoIwFADAE1UQjL_EBf4oiIYUFHRj0tq0CqXVV0Uu6B28jYmzmO9HWmtg6ji19HtCa1HzJ_AH043lje0xrRxhADFA4ASYpHlRxUm3GiQLk19Slpk2meSsywStgrlZkWKkw43xrtU4vFvfM8chpgeVilKR9UlBXaLoUWwxacOYluQ2fu9Dsks1Fe8XTxAtn8HFH0WwgbP0eDe5Y51ZuYQtsUsV17iPIyYoh1nbd10Xyf8MNT9SHkVG"
+   },
+   {
+    "position": 5,
+    "title": "Sivaalayam",
+    "place_id": "ChIJ5xR3Dnl1nkcRsixfscDnBb8",
+    "data_id": "0x479e75790e7714e7:0xbf05e7c0b15f2cb2",
+    "data_cid": "13764662650923330738",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75790e7714e7%3A0xbf05e7c0b15f2cb2&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75790e7714e7%3A0xbf05e7c0b15f2cb2&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1435252,
+     "longitude": 11.4250423
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ5xR3Dnl1nkcRsixfscDnBb8",
+    "provider_id": "/g/11mv12ggjb",
+    "rating": 4.9,
+    "reviews": 210,
+    "type": "Hindutempel",
+    "types": [
+     "Hindutempel"
+    ],
+    "type_id": "hindu_temple",
+    "type_ids": [
+     "hindu_temple"
+    ],
+    "address": "Top floor, Bodenseestr. 228, 81243 München",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 08:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 08:00",
+    "operating_hours": {
+     "montag": "08:00–10:00, 18:00–20:00",
+     "dienstag": "08:00–10:00, 18:00–20:00",
+     "mittwoch": "08:00–10:00, 18:00–20:00",
+     "donnerstag": "08:00–10:00, 18:00–20:00",
+     "freitag": "08:00–10:00, 18:00–20:00",
+     "samstag": "08:00–10:00, 18:00–20:00",
+     "sonntag": "08:00–10:00, 18:00–20:00"
+    },
+    "phone": "01573 8166156",
+    "website": "http://sivaalayam.org/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechte Sitzgelegenheiten",
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz",
+       "Rollstuhlgerechtes WC"
+      ]
+     },
+     {
+      "amenities": [
+       "WC"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkMK-pZk0y19nPgYQIJvwDN8DSQ6ry2M4vCIttzyuJvdarTmp3kulNL3_GLa2Utoh3qpy1jw5fw8sLEeb12A3m4SnXswDx3Ex35Lq78it04L7MOsADISzLCWKoLr7E0XBfA2Oqr=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/vHcC3HicHcRJDoIwAADAF1UKBUETDwhE0eKGxuViFBEUaEtbqPhB3-BvTJzDfD-5lEwMNa3MUS-jNCvTRqQ8oUSmRPYSWmkZEyARQGjudLPa7otoDtipgJ0-IKvsuA5nrfIXjh-v-7wzIrP1QinfXTNrbxe-rRgqmnKB0XmCL8ZO0hzVrNOfyrorR-AgveqGiyozJgeh_BcKXsjCte08JDSxHS2F64fxG3v7OcXcDuBhfHeNZc1HSocQgvx_AsgPaktEIA"
+   },
+   {
+    "position": 6,
+    "title": "Krishna Temple ISKCON Munich",
+    "place_id": "ChIJ_RyF7nbZnUcRSMPgloEloCg",
+    "data_id": "0x479dd976ee851cfd:0x28a0258196e0c348",
+    "data_cid": "2927380996303143752",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd976ee851cfd%3A0x28a0258196e0c348&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd976ee851cfd%3A0x28a0258196e0c348&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.0815293,
+     "longitude": 11.8649905
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ_RyF7nbZnUcRSMPgloEloCg",
+    "provider_id": "/g/11gxmg_65f",
+    "rating": 4.7,
+    "reviews": 73,
+    "type": "Hindutempel",
+    "types": [
+     "Hindutempel",
+     "Andachtsstätte"
+    ],
+    "type_id": "hindu_temple",
+    "type_ids": [
+     "hindu_temple",
+     "place_of_worship"
+    ],
+    "address": "Ostring 7, 85614 München",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 19:30 · Öffnet Di um 04:30",
+    "hours": "Schließt demnächst · 19:30 · Öffnet Di um 04:30",
+    "operating_hours": {
+     "montag": "04:30–10:00, 18:30–19:30",
+     "dienstag": "04:30–10:00, 18:30–19:30",
+     "mittwoch": "04:30–10:00, 18:30–19:30",
+     "donnerstag": "04:30–10:00, 18:30–19:30",
+     "freitag": "04:30–10:00, 18:30–19:30",
+     "samstag": "04:30–10:00, 18:30–19:30",
+     "sonntag": "04:30–19:30"
+    },
+    "phone": "08091 5553504",
+    "website": "http://www.iskcon-muenchen.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     },
+     {
+      "amenities": [
+       "WC"
+      ]
+     },
+     {
+      "parking": [
+       "Kostenlose Parkplätze an der Straße"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkW0MU-bY_yMKd_VimJxakMoZ0B65b_YzBkeDjCZszqq4J7WnVgPQFZMiq4hbZTffyraq36AKrI9cNkZ0liq2W7MoL5cooj0j3UkQHMPuy19p3wG5nztne-tkBLSx9i-lhDSdJh=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/rxePC3icHcTbDoIgAADQL0IxM2dbD1nrYtHs6uLFJaEoBiK00h_sG_qbts7D-X6YMY0e23bNXKuQsqjpU9OWSGGoMBaRD7toNCAaaHu6OsSnhCcQnUF2TTu0uaeX8hG9bxxJDMORl6XXPuR0Xs2w7pUaRn4iLkW8X2BUqiHL8CnPu_am3NF0064DsuMY1qUaJD6SW49IWcHKPfP9CsXPzgka97X0RG8EBYaH2-M7KEHN5sd7xCYvB0II2H8CxA-gRUVe"
+   },
+   {
+    "position": 7,
+    "title": "Lord Shree Jagannatha Chaturdha Murti(SJSG) at Sivaalayam Temple",
+    "place_id": "ChIJOZdD8gHXnUcR7avHdRa9xI0",
+    "data_id": "0x479dd701f2439739:0x8dc4bd1675c7abed",
+    "data_cid": "10215497758946077677",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd701f2439739%3A0x8dc4bd1675c7abed&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd701f2439739%3A0x8dc4bd1675c7abed&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1433082,
+     "longitude": 11.4252898
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJOZdD8gHXnUcR7avHdRa9xI0",
+    "provider_id": "/g/11vzblyvgk",
+    "rating": 5,
+    "reviews": 2,
+    "type": "Hindutempel",
+    "types": [
+     "Hindutempel"
+    ],
+    "type_id": "hindu_temple",
+    "type_ids": [
+     "hindu_temple"
+    ],
+    "address": "Bodenseestr. 228, 81243 München",
+    "country": "Deutschland",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn0sEu887ZCc24F3AUjZPaEkJfaJabWzQdQn3WftcoCxlrEUpO2DuyRcxf7GdiIpt-6qEgfUKwpMctjpQEBVVt-KUE-kaSNoctFuFlkQvvUIexHpGdngVf6PM_T7qOx7VmVtKVk4g=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_ZqFhXicHcTdDsEwGADQJ6qNiYnEhZ_Oz4IN7RI3Mt_Wjk1b-o3xhh7B20ici_P9FIjGDhynKryW1FpWeW3zO2iFucIW6KsjjSVgiXVG8220T5Rrad3v-4cJdLqBN2KXQ5TScinSZXpK3nEWKy8RCHrSVHfKzKYzrV9baIQ_y84Lg6R3o1Kw8GlWgBcT0zHnSEJGSZnu1howqIOqjB8PtsibuZllSnLRi1bHvX_bND6_cgx52ZXDZ9t1XVL8B6J-KY9GnQ"
+   },
+   {
+    "position": 8,
+    "title": "Sri Sellapillaiyar Ganesha Temple",
+    "place_id": "ChIJ6UkoQGsrnEcR5MAJNIsLzzY",
+    "data_id": "0x479c2b6b402849e9:0x36cf0b8b3409c0e4",
+    "data_cid": "3949388090728628452",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479c2b6b402849e9%3A0x36cf0b8b3409c0e4&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479c2b6b402849e9%3A0x36cf0b8b3409c0e4&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1598064,
+     "longitude": 11.222674099999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ6UkoQGsrnEcR5MAJNIsLzzY",
+    "provider_id": "/g/11jdbcyh5x",
+    "rating": 4.9,
+    "reviews": 180,
+    "type": "Hindutempel",
+    "types": [
+     "Hindutempel"
+    ],
+    "type_id": "hindu_temple",
+    "type_ids": [
+     "hindu_temple"
+    ],
+    "address": "Eduard-Friederich-Straße 5, 82256 Fürstenfeldbruck",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 17:00",
+    "hours": "Geschlossen · Öffnet Di um 17:00",
+    "operating_hours": {
+     "montag": "17:00–19:00",
+     "dienstag": "17:00–19:00",
+     "mittwoch": "17:00–19:00",
+     "donnerstag": "17:00–19:00",
+     "freitag": "17:00–20:30",
+     "samstag": "17:00–19:00",
+     "sonntag": "17:00–19:00"
+    },
+    "phone": "08141 8908993",
+    "website": "http://sellapillaiyar-muenchen.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     },
+     {
+      "amenities": [
+       "WC"
+      ]
+     }
+    ],
+    "user_review": "\"Ein Freund der aus Indien stammt wollte mir seine Religion vorstellen.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnSPGlKqjhVH5vZaqbX4vlnRiVA6SjAqzIqnDZ825LAqLBKoLSbfryNvVeFjATa5tXCoGocvCaJyS1ZzYcXRfWQPZNWdik2qio9RCX38OZw_6PjqsUCiRtvvjfiQBEyLGZfZEoHJwYsKmwJ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/ctYUnnicHcTbboIwGADgJ0LwgHFLdlFRQSAOiwL2xmDl0Ir9re1K8CW93tss2Xfx_b5brR_q07a7djpqAJqu-lHVk4LQldAjCne7eSiLKkvZKMDJIRdp4neR5G0WuIaU8lLMTCcwy9A85Ui-tlKsyGLixkjGywji9FI_h53Jqg1Hh9LVhQc-UOOV4ZCOyetEC1zn-4Ts8iu7TSSDD-wV08U36c_zhEt19BjWxvCa7ZfrIfZJTdYQhP1JRfc-_OrHjuNY7f_UEn81U0lD"
+   },
+   {
+    "position": 9,
+    "title": "Matri Mandir Kulturverein eV",
+    "place_id": "ChIJLTGpcDh0nkcRQmy9yS4aje4",
+    "data_id": "0x479e743870a9312d:0xee8d1a2ec9bd6c42",
+    "data_cid": "17189424140998503490",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e743870a9312d%3A0xee8d1a2ec9bd6c42&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e743870a9312d%3A0xee8d1a2ec9bd6c42&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1850702,
+     "longitude": 11.5946079
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJLTGpcDh0nkcRQmy9yS4aje4",
+    "provider_id": "/g/11g1f8sc1d",
+    "rating": 4.6,
+    "reviews": 10,
+    "type": "Kulturverein",
+    "types": [
+     "Kulturverein"
+    ],
+    "type_id": "cultural_association",
+    "type_ids": [
+     "cultural_association"
+    ],
+    "address": "Gertrud-Grunow-Straße 50, 80807 München",
+    "country": "Deutschland",
+    "website": "http://www.matrimandir.de/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWncWq6HmdnljfkYHH-458RKR632HBi_2ErJ68JfzThR63WgwijkMOlLtD4ic5N-9V_I85pXBGfb9pWxr9rl3mlC2ZLm2eeI9oO2Qi5Ti7jZpxqG9wwnHRksz3P-Fzx9n8eFpuSEWIK65Vk=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_AdyXXicHcjNboIwAADgJ6qwYhk18TB_i7rpkFj1YmItUChtpTUQHtK7b7PFy3f4Xs_COWNHnieLYJBrnUv-sLxhWjmu3IDp2suNBcwC632RZJdSxeg9JPVNyTKrToSAIYqSdRIGkEzEBc6bVRitsj4t_ovmrSir763cuNlQMPQD8OESR8gcJ8vsig3tGtzIoJZTeN7UkPMY6y38FSgVn-XZdPclbltFksr2wQ4s-g6riC_MYz-n8TpEh2rcfvi-D4q3DKg_2t9F-A"
+   },
+   {
+    "position": 10,
+    "title": "Ambari - Indian Vegetarian Restaurant",
+    "place_id": "ChIJnYENGyDfnUcRKqI8z_9Jvq8",
+    "data_id": "0x479ddf201b0d819d:0xafbe49ffcf3ca22a",
+    "data_cid": "12663640565254758954",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf201b0d819d%3A0xafbe49ffcf3ca22a&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf201b0d819d%3A0xafbe49ffcf3ca22a&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.147522599999995,
+     "longitude": 11.595090899999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJnYENGyDfnUcRKqI8z_9Jvq8",
+    "provider_id": "/g/11qmbb3psq",
+    "rating": 4.7,
+    "reviews": 371,
+    "price": "20–30 €",
+    "extracted_price": 20,
+    "type": "Indisches Restaurant",
+    "types": [
+     "Indisches Restaurant",
+     "Restaurant mit Spezialitäten aus Karnataka",
+     "Südindisches Restaurant",
+     "Veganes Restaurant",
+     "Vegetarisches Restaurant",
+     "Weinstube"
+    ],
+    "type_id": "indian_restaurant",
+    "type_ids": [
+     "indian_restaurant",
+     "karnataka_restaurant",
+     "south_indian_restaurant",
+     "vegan_restaurant",
+     "vegetarian_restaurant",
+     "wine_bar"
+    ],
+    "address": "Dianastraße 1, 80538 München",
+    "country": "Deutschland",
+    "open_state": "Geschlossen",
+    "hours": "Geschlossen",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "Geschlossen",
+     "freitag": "Geschlossen",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "0176 47058294",
+    "website": "https://ambarimunich.com/",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Bezeichnet sich als „von Frauen geführt“"
+      ]
+     },
+     {
+      "service_options": [
+       "Sitzplätze im Freien",
+       "Zum Mitnehmen",
+       "Speisen vor Ort"
+      ]
+     },
+     {
+      "highlights": [
+       "Livemusik"
+      ]
+     },
+     {
+      "popular_for": [
+       "Mittagessen",
+       "Abendessen",
+       "Allein speisen"
+      ]
+     },
+     {
+      "accessibility": [
+       "Rollstuhlgerechte Sitzgelegenheiten",
+       "Rollstuhlgerechtes WC"
+      ]
+     },
+     {
+      "offerings": [
+       "Alkohol",
+       "Bier",
+       "Cocktails",
+       "Gesunde Gerichte",
+       "Kaffee",
+       "Kleine Gerichte zum Teilen",
+       "Spirituosen",
+       "Vegane Gerichte",
+       "Vegetarische Gerichte",
+       "Wein"
+      ]
+     },
+     {
+      "dining_options": [
+       "Frühstück",
+       "Brunch",
+       "Mittagessen",
+       "Abendessen",
+       "Süßspeisen",
+       "Sitzgelegenheiten",
+       "Bedienung am Tisch"
+      ]
+     },
+     {
+      "amenities": [
+       "Bar vor Ort",
+       "WC"
+      ]
+     },
+     {
+      "atmosphere": [
+       "Angesagt",
+       "Gemütlich",
+       "Zwanglos"
+      ]
+     },
+     {
+      "crowd": [
+       "Familienfreundlich",
+       "Gruppen"
+      ]
+     },
+     {
+      "planning": [
+       "Reservierungen möglich"
+      ]
+     },
+     {
+      "payments": [
+       "Debitkarten",
+       "Kreditkarten",
+       "Mobile Zahlungen per NFC"
+      ]
+     },
+     {
+      "children": [
+       "Kinderfreundlich"
+      ]
+     },
+     {
+      "parking": [
+       "Gebührenpflichtige Parkplätze an der Straße"
+      ]
+     },
+     {
+      "pets": [
+       "Hunde außerhalb erlaubt",
+       "Hunde erlaubt",
+       "Hunde in Innenräumen erlaubt"
+      ]
+     }
+    ],
+    "service_options": {
+     "speisen_vor_ort": true,
+     "zum_mitnehmen": true
+    },
+    "tisch_reservieren": "https://www.google.com/maps/reserve/v/dine/c/FZ97fBThNlE?source=pa&opi=79508299&hl=de-DE&gei=6djDaq2EG6KA5OMP55HTmQc&ahbb=1&sourceurl=https://www.google.com/search?gl%3Dde%26hl%3Dde%26q%3DHindu%2BTempel%26tbm%3Dmap%26pb%3D!4m8!1m3!1d59951.93770664919!2d11.646!3d48.1!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1se3vIyXp7-wgYQikANPu_VSEKxSo-ijI:2!2s1i:0,t:11886,p:e3vIyXp7-wgYQikANPu_VSEKxSo-ijI:2!7e81!12e5!17se3vIyXp7-wgYQikANPu_VSEKxSo-ijI:41!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1",
+    "user_review": "\"Sehr authentisch und schmeckt wie selbstgemacht in Indien.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkhHuFVAYsvV0sUew5lJlllpzHkn29YusmMnao3tt1dNjlCtj2gkIZHinY58v0ArbK5WavyRDaka4P8jhVayINMm7wUA7Fx6hxCWaFJoAjJBObEOrhc6fjJTkRaJfidy4MMHiIqEadFgxU=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/crc9M3icHcTbboIwAADQL0LqBXVL9tA5SalBDREIe6sFW9rSIi23feTe9zcmOw_n75c719p331d8vWDGMFX1tuqo0a7SbkFN47PWetR61ocoud5yyVEfZrCwQwZsWo2Bwkqp9gdJvXoretvEmpi1c8vyLNTBiRWT0TeqdRHsBwC7-ynIyTAnX0SSzXUveEbm6Bw3uzGFu3Da8umQkxAbKPDn5X68dJxuHwLfZELwoy7nTRyjOnoeSRmyKf0YlwAAj_9PPf0CGcdIxg"
+   },
+   {
+    "position": 11,
+    "title": "Sri Sitti-Vinayagar Hindu-Tempel",
+    "place_id": "ChIJHbwCYxfFmUcR94QuE4bBSxY",
+    "data_id": "0x4799c5176302bc1d:0x164bc186132e84f7",
+    "data_cid": "1606590473679308023",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x4799c5176302bc1d%3A0x164bc186132e84f7&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x4799c5176302bc1d%3A0x164bc186132e84f7&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.803944699999995,
+     "longitude": 9.221459099999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJHbwCYxfFmUcR94QuE4bBSxY",
+    "provider_id": "/g/11bzsh86gk",
+    "rating": 4.7,
+    "reviews": 77,
+    "type": "Hindutempel",
+    "types": [
+     "Hindutempel"
+    ],
+    "type_id": "hindu_temple",
+    "type_ids": [
+     "hindu_temple"
+    ],
+    "address": "Waiblinger Str. 30, 70372 Stuttgart-Bad Cannstatt",
+    "country": "Deutschland",
+    "open_state": "Geöffnet · Schließt um 21:00",
+    "hours": "Geöffnet · Schließt um 21:00",
+    "operating_hours": {
+     "montag": "19:00–21:00",
+     "dienstag": "19:00–20:30",
+     "mittwoch": "19:00–21:00",
+     "donnerstag": "19:00–21:00",
+     "freitag": "19:00–20:30",
+     "samstag": "19:00–21:00",
+     "sonntag": "19:00–21:00"
+    },
+    "phone": "0711 4703047",
+    "website": "https://www.ganapathytemple.de/",
+    "extensions": [
+     {
+      "amenities": [
+       "WC"
+      ]
+     }
+    ],
+    "user_review": "\"Nette Leute und schönes Tempel\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWniJd-MWNNfeksrhBCxkHCZUmAxlNseaOUbEbBbnqdYjGPXXrmpoFfSeachG-23ZYKZW3J3NLOMKttKrPDPKHA7ychMpeMi57aEmMIaVZ-53uSn-egaTCE1Oz2S9hcOvfYXTVtR=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/SSqwKXicHcRJDoIwAADAF5XFxhBNPCCiKBYIoCy3UgtVoUVa3D7oG_yNiXOY74cp1cu5rrcMao0QTUtHSQciuKJcaUR0etNLQCSQuu3FUZrx8-4EUBYENb3KgS2d59VzykNnP9tAUhweKrdaVvx2Ki6bKM-HrhfrOqGYsA2YwLLwywzuYLAPka-UP0SryPds60UY6ik6Ty3sdmiLjyWYwjHhgDY4dVwzfE-SGSPhvS7y9KjixcM0DAOw_wTwH6okRNc"
+   },
+   {
+    "position": 12,
+    "title": "Sri Mahamariamman Tempel e.V.",
+    "place_id": "ChIJlw_5xh-4lUcRK1YrM50i9LE",
+    "data_id": "0x4795b81fc6f90f97:0xb1f4229d332b562b",
+    "data_cid": "12822912097594332715",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x4795b81fc6f90f97%3A0xb1f4229d332b562b&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x4795b81fc6f90f97%3A0xb1f4229d332b562b&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 49.312439999999995,
+     "longitude": 7.0794687
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJlw_5xh-4lUcRK1YrM50i9LE",
+    "provider_id": "/g/1v_nbg1q",
+    "rating": 4.9,
+    "reviews": 104,
+    "unclaimed_listing": true,
+    "type": "Hindutempel",
+    "types": [
+     "Hindutempel"
+    ],
+    "type_id": "hindu_temple",
+    "type_ids": [
+     "hindu_temple"
+    ],
+    "address": "Grubenstraße 41, 66280 Sulzbach/Saar-Altenwald",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 09:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 09:00",
+    "operating_hours": {
+     "montag": "09:00–11:00, 18:00–20:00",
+     "dienstag": "09:00–11:00, 18:00–20:00",
+     "mittwoch": "09:00–11:00, 18:00–20:00",
+     "donnerstag": "09:00–11:00, 18:00–20:00",
+     "freitag": "09:00–11:00, 18:00–20:00",
+     "samstag": "09:00–11:00, 18:00–20:00",
+     "sonntag": "09:00–11:00, 18:00–20:00"
+    },
+    "phone": "06897 81112",
+    "extensions": [
+     {
+      "amenities": [
+       "WC"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkbMHzyMvz3shwCScxHpI7tCbMTxJp7ACdcH73vU-tKq7RMKiV9rZkIGcsfc2nNy3EkDMikFiN0s4E0p9axEFWWrtE0XDELt8rYvAZawR8RNaOOHBQ_mzop5-moRwhhy85keJmaOA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/UASZinicHcRdboIwAADgE1XqOgMs8YFhWZUVts6NjZcFO6SkQiut_N1wR_A2Jn4P3_VfWKvNk-OcBFpUSlWn8mLKjqvWlq1dcNU4lTaAG2CcgLC3fSYPlMwT7WdkxBB-8JHorWvDA92PO-0G4R8nLuo_gY3PLqNx_eV3udy-cHPkD20yISw3tJZRnUDziKH2ixFHWdZZDL83-NV63U8f5MXAPJYUaUqe33-bWekVaBQbhJi8lSx3TZEG62EJIQTiPgftDSzgRd4"
+   },
+   {
+    "position": 13,
+    "title": "Sri Ganesha Hindu Tempel e.V.",
+    "place_id": "ChIJNYfjBLhPqEcRteBDd9oOblQ",
+    "data_id": "0x47a84fb804e38735:0x546e0eda7743e0b5",
+    "data_cid": "6083816478090715317",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x47a84fb804e38735%3A0x546e0eda7743e0b5&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x47a84fb804e38735%3A0x546e0eda7743e0b5&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 52.4867676,
+     "longitude": 13.4207903
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJNYfjBLhPqEcRteBDd9oOblQ",
+    "provider_id": "/g/1239_109",
+    "rating": 4.7,
+    "reviews": 1279,
+    "type": "Hindutempel",
+    "types": [
+     "Hindutempel",
+     "Sehenswürdigkeit"
+    ],
+    "type_id": "hindu_temple",
+    "type_ids": [
+     "hindu_temple",
+     "tourist_attraction"
+    ],
+    "address": "Hasenheide 106, 10967 Berlin",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 09:00",
+    "hours": "Geschlossen · Öffnet Di um 09:00",
+    "operating_hours": {
+     "montag": "09:00–12:00, 16:00–19:00",
+     "dienstag": "09:00–12:00, 16:00–19:00",
+     "mittwoch": "09:00–12:00, 16:00–19:00",
+     "donnerstag": "09:00–12:00, 16:00–19:00",
+     "freitag": "09:00–12:00, 16:00–19:00",
+     "samstag": "09:00–12:00, 16:00–19:00",
+     "sonntag": "09:00–12:00, 16:00–19:00"
+    },
+    "phone": "01511 9311085",
+    "website": "https://www.hindutempleberlin.de/",
+    "extensions": [
+     {
+      "service_options": [
+       "Service/Leistungen vor Ort"
+      ]
+     },
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     },
+     {
+      "amenities": [
+       "WC"
+      ]
+     },
+     {
+      "crowd": [
+       "Sicherer Ort für Transgender"
+      ]
+     }
+    ],
+    "service_options": {
+     "service_leistungen_vor_ort": true
+    },
+    "user_review": "\"Schöner Tempel, aus der Fern sah es noch nach einer Baustelle aus.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkyqv9xmLe3AXJ5yhg9lEZtCp8Fm2i1Dg8HfdbUh3aiwl0oLMcQpPahBJuWhv68FOSklkyJIndRNFHIxTyLL_IH8RbtSouKqHeL4xhU8EMYT9bY8Y-UqoXT06aXFjtHbTD7B_VMdRha__U=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/-K2If3icHcRLcoIwAADQE0VisTZ0pgt_TMDQWgwK3TAQ0kQJBJqgcMnue5vO-Bbv71da25lXx1HSnQmtheKD4T9Mt5a3dsZ044jOAGaAcVY4PtBzPfU3b2wId1dp-DxJ4andl910yG-eLvOtQPi7KhPpFpe7gppE7LM7FHIdDmd5WyL_41iregqDtorffRyMdCIkDzCKS3vUw77HnCxGmaBdlFGvzFAGkl6nFC6L1L9aXNLtyzo_RVUsizxP3u5zCCGQjxlo_wGbz0dc"
+   },
+   {
+    "position": 14,
+    "title": "Pforzheim Sri Naagapoosany Amman Aalayam e.V",
+    "place_id": "ChIJj3qdyxtyl0cRL_8kLjKqr2A",
+    "data_id": "0x4797721bcb9d7a8f:0x60afaa322e24ff2f",
+    "data_cid": "6966974281064709935",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x4797721bcb9d7a8f%3A0x60afaa322e24ff2f&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x4797721bcb9d7a8f%3A0x60afaa322e24ff2f&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.8891152,
+     "longitude": 8.6962684
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJj3qdyxtyl0cRL_8kLjKqr2A",
+    "provider_id": "/g/11c3l7ywtv",
+    "rating": 4.9,
+    "reviews": 89,
+    "type": "Hindutempel",
+    "types": [
+     "Hindutempel"
+    ],
+    "type_id": "hindu_temple",
+    "type_ids": [
+     "hindu_temple"
+    ],
+    "address": "Turnstraße 8a, 75173 Pforzheim",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 10:30",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 10:30",
+    "operating_hours": {
+     "montag": "10:30–13:00, 17:30–20:00",
+     "dienstag": "10:30–13:00, 17:30–20:00",
+     "mittwoch": "10:30–13:00, 17:30–20:00",
+     "donnerstag": "10:30–13:00, 17:30–20:00",
+     "freitag": "10:30–13:00, 17:30–20:00",
+     "samstag": "10:30–13:00, 17:30–20:00",
+     "sonntag": "10:30–13:00, 17:30–20:00"
+    },
+    "phone": "07231 2818753",
+    "website": "http://www.ammantempelpforzheim.de/",
+    "extensions": [
+     {
+      "emergency_help": [
+       "Bietet Flüchtlingen Arbeit an",
+       "Freiwillige Helfer gesucht",
+       "Hier werden Spenden angenommen"
+      ]
+     },
+     {
+      "amenities": [
+       "WC"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWki3wLEL2c49X6UujvVVJon8VXkgmkFRHlPT4Eoi-wGufxCCocbDFqx9MAjkt64Vxt-s2snOoRgROq7SGBf-2bz1U6FecOWSXwp5ggnNj37wYw19qb5TkeTx3oKg1UXB4h0PEbS=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/coUYunicHcRJDoIwFADQE1VmFBMXiKBxgjCJW5papNgPtljiBT2DtzHxLd7300jZi6WmdY01owC0I6MgTwxcEi5nGB4a7QXCAgnN36VJfmF3Sx3Do4ltr3KLsX2V5R74oqwYfbAo3XVJbodwR2o73qYgAFxvomHyTn7LpGuXk0TCFDyGlKbxMM-26xsy67dRuBHB8SWrVO9Qys-tNVdXZXhD7eSM5JMFB2oU1dpu9CSss5UydF1HzX-M-A9sSER0"
+   },
+   {
+    "position": 15,
+    "title": "ISKCON Jandelsbrunn Simhachalam Temple",
+    "place_id": "ChIJ_xNrMfuSdEcRWdWKCwedJQA",
+    "data_id": "0x477492fb316b13ff:0x259d070b8ad559",
+    "data_cid": "10587227722274137",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x477492fb316b13ff%3A0x259d070b8ad559&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x477492fb316b13ff%3A0x259d070b8ad559&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.743047499999996,
+     "longitude": 13.7061362
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ_xNrMfuSdEcRWdWKCwedJQA",
+    "provider_id": "/g/1wb8sj9z",
+    "rating": 4.9,
+    "reviews": 398,
+    "type": "Hindutempel",
+    "types": [
+     "Hindutempel",
+     "Sehenswürdigkeit"
+    ],
+    "type_id": "hindu_temple",
+    "type_ids": [
+     "hindu_temple",
+     "tourist_attraction"
+    ],
+    "address": "Zielberg 20, 94118 Jandelsbrunn-Zielberg",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 04:30",
+    "hours": "Geschlossen · Öffnet Di um 04:30",
+    "operating_hours": {
+     "montag": "04:30–19:00",
+     "dienstag": "04:30–19:00",
+     "mittwoch": "04:30–19:00",
+     "donnerstag": "04:30–19:00",
+     "freitag": "04:30–19:00",
+     "samstag": "04:30–19:00",
+     "sonntag": "04:30–19:00"
+    },
+    "phone": "08583 316",
+    "website": "http://www.simhachalam.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     },
+     {
+      "amenities": [
+       "WC"
+      ]
+     }
+    ],
+    "user_review": "\"Tägliche Tempelprogramme und leckeres vegetarisches Prasadam.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlRa0NK26kIpaXABrV7akwmDWDMaSgKLRwdUgRSd73apBoWPAj4EUAW2zD59Yv80cYtQnXR3c5HhnGIv_1pTNd-X3BKRREWQ_ewFbKG6qb-Pz8Oro-_Z-nkrYnmjPWNl3V0G2U=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/oPNiBnicHcRdDoIgAADgE5EkZT9bDzrLmmVGGdqLQ3S4VCCh3Dpgd-g2bX0P3_dTG6P00rLaGo24lLytnrrqmRSmEmbEZGdxpQHTQFvuFscX0mIKo9B2mp2iqev11xlths4n_oGeebjHQ5lwfC5niCpPkti9T9aJS-y3P11krzlkmTmJFCM23dYi2L3ysbpEJUiRF2K8Jqe8GjZFGDiPAsTv-bGXIL8B0fSZ6O4xiVp0hYGdrIYxhBDU_xkQP6iAQug"
+   },
+   {
+    "position": 16,
+    "title": "Nagapooshani-Ambaal-Tempel",
+    "place_id": "ChIJkUSb7WcJvUcRrRg6b5_mMW8",
+    "data_id": "0x47bd0967ed9b4491:0x6f31e69f6f3a18ad",
+    "data_cid": "8012438784509089965",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x47bd0967ed9b4491%3A0x6f31e69f6f3a18ad&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x47bd0967ed9b4491%3A0x6f31e69f6f3a18ad&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 50.1296298,
+     "longitude": 8.747958299999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJkUSb7WcJvUcRrRg6b5_mMW8",
+    "provider_id": "/g/11c6czfl_7",
+    "rating": 4.7,
+    "reviews": 216,
+    "type": "Hindutempel",
+    "types": [
+     "Hindutempel"
+    ],
+    "type_id": "hindu_temple",
+    "type_ids": [
+     "hindu_temple"
+    ],
+    "address": "Schlitzer Str. 4, 60386 Frankfurt-Ost",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 18:30",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 18:30",
+    "operating_hours": {
+     "montag": "18:30–20:00",
+     "dienstag": "18:30–20:00",
+     "mittwoch": "18:30–20:00",
+     "donnerstag": "18:30–20:00",
+     "freitag": "18:30–20:00",
+     "samstag": "18:30–20:00",
+     "sonntag": "18:30–20:00"
+    },
+    "phone": "069 97945618",
+    "website": "http://www.ammankovil.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     },
+     {
+      "amenities": [
+       "WC"
+      ]
+     }
+    ],
+    "user_review": "\"Sehr nett dort  mann füllt sich sehr wohl\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWklIS2qeKwT78QsnpzOMrqeIeRY104t7a0-8jGAdm9pV2cilOU5E2_H2vl4CPTU91HEaVFau6pkyOBI1jCmUNW7n-vvmTk-LJDLjNRRw3AIi-tddVTJwZDm9Nuh20Q0oTqzqVg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/O7ZGFnicHcRJroIwAADQE1VKHZCfuMAR1A-KBaMbQ0oDQidsgegBvYO3MfEt3uddGqP0n2WxcjgopCwYbTV9ECkMFWZAJLcKpQHRQFueHx_wuWbBCTV012NnetRCvaL_R0MDGl9sODJOBsG02ng5d1WKyJ1FyXiFbj7q2GhxwIlr-6ssXWftRNXPaB7Y1YIn4dkRoOs4rsF-u9xXYRz3Qy-4A5PnKd721yV3w7ZE8Aglbl5NWsx6G0IIyt8EiC-yvEM8"
+   },
+   {
+    "position": 17,
+    "title": "Hinduistische Gemeinde in Deutschland, K.d.ö.R.",
+    "place_id": "ChIJs89cgl93uUcRJYslK1qLMdY",
+    "data_id": "0x47b9775f825ccfb3:0xd6318b5a2b258b25",
+    "data_cid": "15434270617362598693",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x47b9775f825ccfb3%3A0xd6318b5a2b258b25&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x47b9775f825ccfb3%3A0xd6318b5a2b258b25&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 51.687126899999996,
+     "longitude": 7.9509872999999995
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJs89cgl93uUcRJYslK1qLMdY",
+    "provider_id": "/g/122cz10w",
+    "rating": 4.7,
+    "reviews": 1122,
+    "type": "Hindutempel",
+    "types": [
+     "Hindutempel"
+    ],
+    "type_id": "hindu_temple",
+    "type_ids": [
+     "hindu_temple"
+    ],
+    "address": "Siegenbeckstraße 4-5, 59071 Hamm-Uentrop",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 08:00",
+    "hours": "Geschlossen · Öffnet Di um 08:00",
+    "operating_hours": {
+     "montag": "08:00–13:00, 17:00–19:00",
+     "dienstag": "08:00–13:00, 17:00–19:00",
+     "mittwoch": "08:00–13:00, 17:00–19:00",
+     "donnerstag": "08:00–13:00, 17:00–19:00",
+     "freitag": "08:00–13:00, 17:00–19:00",
+     "samstag": "08:00–13:00, 17:00–19:00",
+     "sonntag": "08:00–13:00, 17:00–19:00"
+    },
+    "phone": "02388 302223",
+    "website": "http://www.hinduistische-gemeinde-deutschland.de/",
+    "description": "Einer von Europas größten Hindu-Tempeln. Großer, nach nordindischem Nagara-Stil erbauter Dravida-Tempel der nordrheinwestfälischen Hindu-Gemeinde.",
+    "extensions": [
+     {
+      "service_options": [
+       "Service/Leistungen vor Ort"
+      ]
+     },
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz",
+       "Rollstuhlgerechtes WC"
+      ]
+     },
+     {
+      "amenities": [
+       "WC"
+      ]
+     }
+    ],
+    "service_options": {
+     "service_leistungen_vor_ort": true
+    },
+    "user_review": "\"Sehr authentischer Ort, man fühlt sich nach Südindien versetzt\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkGlskCU5DqdNO51v03dliDCkH5rdtqKe-ziH8W9Tdspc5zUrFq9Z4iPmdOKjj04kJaoiqq0izaN5ZPjbY11mx_f3KXwf1FRA0cny8YAoM7JhKtGyeUiG0nTHnZ0BFWCnP1p05f=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/uHb443icHcRbjoIwFADQFVVug42PxA8GA0SiEgNh5MdoW6A8Wkrriw26htnNJJ6P8_eprR3M2nG62p1VSlUdvxs-UiUtl3ZGVe9Ug0HUION40SlJ8zbsTOtnZKvZ4UjwA1zWia3fRmRkVsccTSJa5quUmYGSKRsDvSrmIunZMW4amLe7qxJag5iuB1Ikze2Mcf-6lG78-yxxcPKAyvfy7Kn9YlfHNnzzTIQg00gW8BPkvkzwAKTcPDEAoPo7RfIfZz1EUg"
+   },
+   {
+    "position": 18,
+    "title": "Gurudwara Singh Sabha Augsburg",
+    "place_id": "ChIJ1aw16JSXnkcRfCojFOLL9H4",
+    "data_id": "0x479e9794e835acd5:0x7ef4cbe214232a7c",
+    "data_cid": "9148160914957216380",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e9794e835acd5%3A0x7ef4cbe214232a7c&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e9794e835acd5%3A0x7ef4cbe214232a7c&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.376127399999994,
+     "longitude": 10.936321099999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ1aw16JSXnkcRfCojFOLL9H4",
+    "provider_id": "/g/1tdk44v8",
+    "rating": 5,
+    "reviews": 56,
+    "unclaimed_listing": true,
+    "type": "Gurudwara",
+    "types": [
+     "Gurudwara"
+    ],
+    "type_id": "sikh_temple",
+    "type_ids": [
+     "sikh_temple"
+    ],
+    "address": "Zusamstraße 12, 86165 Augsburg-Lechhausen",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 06:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 06:00",
+    "operating_hours": {
+     "montag": "06:00–20:00",
+     "dienstag": "06:00–20:00",
+     "mittwoch": "06:00–20:00",
+     "donnerstag": "06:00–20:00",
+     "freitag": "06:00–20:00",
+     "samstag": "06:00–20:00",
+     "sonntag": "06:00–20:00"
+    },
+    "phone": "0821 518014",
+    "website": "https://www.friedensstadt-augsburg.de/de/gemeinschaft/gurdwara-singh-sabha-augsburg-ev",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz",
+       "Rollstuhlgerechtes WC"
+      ]
+     },
+     {
+      "amenities": [
+       "WC"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmscv2lpW0h1fUk5KzFW2bi4xuY8zmpDYVfthkwWfIMwBP5v2nTHQEJab7UGXTcVh1UH6ZCqFGDLvX6YAbmpyVezz1quLiWq3B8YdjVUjpL2hZO1McP0iItAbP9ani6gZO4K9Y6Gw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/XglkuHicHcTbEkJAAADQL5JdSZeZHnSjYqjBtt6yYRVrtYvyh31Cf9NM5-F8P1RKLhaqWtLxKK_rvExbkT5JzWTK5IjUlZpzoRChCNW0z36AKkE6reQIUJiFj8lx2CEtKfRXi2dDxTc4yiR99Cjbu_3Kn3QaC-zT9nBNpqF1CUhEYWgb8brZWRunuxjYTCr-jtJhgE3rFKgZr2b4do_CO3c0GnvQJT4o9tJM_PmVFUYee_pxjg2rX_YQAKDQ_0RhPzfERYs"
+   },
+   {
+    "position": 19,
+    "title": "Hindu Tempel - Arulmiku Hindu Aalayam - Basel",
+    "place_id": "ChIJfQpcHD24kUcR_y8NQ0_VQFQ",
+    "data_id": "0x4791b83d1c5c0a7d:0x5440d54f430d2fff",
+    "data_cid": "6071086834099499007",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x4791b83d1c5c0a7d%3A0x5440d54f430d2fff&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x4791b83d1c5c0a7d%3A0x5440d54f430d2fff&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 47.5335895,
+     "longitude": 7.6071545
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJfQpcHD24kUcR_y8NQ0_VQFQ",
+    "provider_id": "/g/11cn0kg_gb",
+    "rating": 4.7,
+    "reviews": 92,
+    "unclaimed_listing": true,
+    "type": "Hindutempel",
+    "types": [
+     "Hindutempel"
+    ],
+    "type_id": "hindu_temple",
+    "type_ids": [
+     "hindu_temple"
+    ],
+    "address": "Mailand-Strasse 30, 4053 Basel, Schweiz",
+    "country": "Schweiz",
+    "open_state": "Geöffnet · Schließt um 21:00",
+    "hours": "Geöffnet · Schließt um 21:00",
+    "operating_hours": {
+     "montag": "17:00–21:00",
+     "dienstag": "17:00–21:00",
+     "mittwoch": "17:00–21:00",
+     "donnerstag": "17:00–21:00",
+     "freitag": "11:00–12:00, 17:00–22:00",
+     "samstag": "17:00–21:00",
+     "sonntag": "17:00–21:00"
+    },
+    "phone": "+41 61 332 10 96",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz",
+       "Rollstuhlgerechtes WC"
+      ]
+     },
+     {
+      "amenities": [
+       "WC"
+      ]
+     }
+    ],
+    "user_review": "\"Sehr schöner Tempel, aber Personal ist sehr unhöflich.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWloB_KXnFtz76ya6CIlvHScvBloGBui0tG0kSYmS7NQGEtcfYXbqKmnJSj-tfblA4laQ5XPPa5hW7kcF4JfOVKWmTUu9eceH5NL6nvurm8q1CqA7-3hhMMtSRPgmHn2WlrMM4nB=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/jA84kXicHcRbjoIwFADQFVWq8lATP8AojIiiZQS_JtgUqvYh9ILRDboGd2My5-N83hzgbmaWJfh4UGtdC9YZ1lKtgCkYUC2t-m4QNchYfnRIs1zo4C8u1Apenvss3cWP6CNC-0DoMOguGEJ8IydJvO0-XAKtTsW5iaVakyuC6ix8W5R7p0jT0uG5d6Mre13tjnEus99uyiiLnO3GVX3XykkzXDS-h8acJwmQQ1rLSI1y0SaJrYL5Y4gxRvx_itQXjEdEwA"
+   },
+   {
+    "position": 20,
+    "title": "Heilbronn Kanthasamy Kovil e. V.",
+    "place_id": "ChIJG5D6hs0omEcRMujogLjX0zc",
+    "data_id": "0x479828cd86fa901b:0x37d3d7b880e8e832",
+    "data_cid": "4022796079608686642",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479828cd86fa901b%3A0x37d3d7b880e8e832&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479828cd86fa901b%3A0x37d3d7b880e8e832&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 49.235585,
+     "longitude": 9.217652
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJG5D6hs0omEcRMujogLjX0zc",
+    "provider_id": "/g/11d_txzs32",
+    "rating": 4.8,
+    "reviews": 52,
+    "type": "Hindutempel",
+    "types": [
+     "Hindutempel"
+    ],
+    "type_id": "hindu_temple",
+    "type_ids": [
+     "hindu_temple"
+    ],
+    "address": "Siemensstraße 11, 74177 Bad Friedrichshall",
+    "country": "Deutschland",
+    "phone": "07136 2706244",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     },
+     {
+      "amenities": [
+       "WC"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlXPxbRxPxbZDVdc-zA77J3MYz2fbT1n4Y-TSyzThR7pX6tj8RsSBhZoQl3AeXSpM_TG6vScahlPSQbMDDJ-B2Ov6B0PKmXBGYFnlNixvYrUM2Tvmpnagtb3kjdoKUSym56eEcW-w=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/4emw7XicHcRdDoIgAADgE6Gmpa2tB539zGaZUGkvLZEkQ2BBZt6wI3SbWt_D93lTraWamCajjlEJUTHyUOSOBdeEawOLxqykAlgBZfrLNEEHliVdkXa_juG-xKD3PS9y4ry3LwUa8GEOEHz1iKaezFxdj1MFA3oUW-b4JIMyPqGF20J8piyB2yIOwwgE9qZ1AytZNVmwyOecra9dm993sY3aRvJzpQvnVpditYOvZuSSGT6A5_Q5sCwL0P8Y8C_0j0Wl"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&gl=de&google_domain=google.com&hl=de&ll=%4048.1%2C11.646%2C13z&q=Hindu+Tempel&start=20&type=search"
+  }
+ }
+}

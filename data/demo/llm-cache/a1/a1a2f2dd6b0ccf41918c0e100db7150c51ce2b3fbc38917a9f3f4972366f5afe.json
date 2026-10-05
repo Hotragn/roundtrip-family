@@ -1,0 +1,6 @@
+{
+ "body": "{\"fluency\": 3, \"correctness\": 4, \"note\": \"Missing 'and' connector; 'యాభై' awkward without 'మరియు'\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:05:50.478Z"
+}

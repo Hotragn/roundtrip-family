@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791221116635",
+  "object": "chat.completion",
+  "created": 1791221116,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"category\": \"association_meeting\",\n  \"cost\": {\n    \"amount\": 0,\n    \"currency\": \"USD\",\n    \"free\": true\n  },\n  \"end\": \"2026-10-07T20:00:00-07:00\",\n  \"indoor\": true,\n  \"languageMatch\": 2,\n  \"start\": \"2026-10-07T18:30:00-07:00\",\n  \"suitsOlderAdults\": true\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 513,
+   "completion_tokens": 134,
+   "total_tokens": 647,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 8.318181991577148
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:25:16.697Z",
+ "latencyMs": 2818
+}

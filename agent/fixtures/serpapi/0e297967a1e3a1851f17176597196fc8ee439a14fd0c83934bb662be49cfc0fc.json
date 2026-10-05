@@ -1,0 +1,871 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps",
+ "request": "https://serpapi.com/search.json?engine=google_maps&type=search&q=Indischer+Supermarkt&ll=%4048.1%2C11.646%2C13z&gl=de&hl=de",
+ "note": "places: Indischer Supermarkt",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:05:47.046Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "Indischer Supermarkt",
+   "ll": "@48.1,11.646,13z",
+   "google_domain": "google.com",
+   "hl": "de",
+   "gl": "de"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "Indischer Supermarkt"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Indian-Grocery-Store München",
+    "place_id": "ChIJm0VUDmJ1nkcROiHq2g4bEs8",
+    "data_id": "0x479e75620e54459b:0xcf121b0edaea213a",
+    "data_cid": "14921018266048143674",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75620e54459b%3A0xcf121b0edaea213a&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75620e54459b%3A0xcf121b0edaea213a&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1306386,
+     "longitude": 11.6188371
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJm0VUDmJ1nkcROiHq2g4bEs8",
+    "provider_id": "/g/11cn3t18rr",
+    "rating": 4.3,
+    "reviews": 439,
+    "type": "Supermarkt",
+    "types": [
+     "Supermarkt"
+    ],
+    "address": "Berg-am-Laim-Straße 73, 81673 München-Berg am Laim",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "10:00–20:00",
+     "dienstag": "10:00–20:00",
+     "mittwoch": "10:00–20:00",
+     "donnerstag": "10:00–20:00",
+     "freitag": "10:00–20:00",
+     "samstag": "10:00–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 88999865",
+    "website": "https://indiengrocerystore.com/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TvYOPSfmU7i5o82yaMHnSHFVKA9oSTlY7vTu-o94H1IGaGqeVSRLaoQHfXSnSTN81wdFbY5m36jOcUUK75MldETRkBpujZWOA-zy6DHu2CG6zt6bSh0vgaX4GbYRk9iSH4ehpkPw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/mSY-WnicHcRJDoIwAADAF1VAWcTEA27UuKC0qHiDWikCLdoCwR_6BH9j4hzm-2FK1XKiaSUbDTIhspI2kr6I4IpyNSCi0rJaAiKB1Lz9Oe9d3MbBAd2ryMktMR72yQ5yBFenjecKhMvYaXEDhGtCY-0n_pOeULhNxBHeL4gjvB8b3W2VxlY1sh8BiaKNY-3K2xKHxaxuHtdz4IF3by9gM5z79lvZKWJ6myUX00_jsHBzBE3K6uLQTTtD13XA_hPAf59jRIc"
+   },
+   {
+    "position": 2,
+    "title": "Bollywood Store, indischer Supermarkt",
+    "place_id": "ChIJW0y4fOZ1nkcRSdCplz3OkBM",
+    "data_id": "0x479e75e67cb84c5b:0x1390ce3d97a9d049",
+    "data_cid": "1409853447299780681",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75e67cb84c5b%3A0x1390ce3d97a9d049&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75e67cb84c5b%3A0x1390ce3d97a9d049&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.151472399999996,
+     "longitude": 11.5647105
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJW0y4fOZ1nkcRSdCplz3OkBM",
+    "provider_id": "/g/1tdkl68j",
+    "rating": 4.2,
+    "reviews": 1062,
+    "type": "Geschäft für indische Lebensmittel",
+    "types": [
+     "Geschäft für indische Lebensmittel",
+     "Supermarkt"
+    ],
+    "address": "Augustenstraße 88, 80798 München",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 09:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 09:00",
+    "operating_hours": {
+     "montag": "09:00–20:00",
+     "dienstag": "09:00–20:00",
+     "mittwoch": "09:00–20:00",
+     "donnerstag": "09:00–20:00",
+     "freitag": "09:00–20:00",
+     "samstag": "09:00–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 39290684",
+    "website": "http://www.bollywood-store.com/",
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T2KcaMmTSnFnKqcL0JQQm0UvhmhCOuUsviDTK1MevNmjRrHtqfpwC7lPzRnPoR24wTumTTSrN-MJjPNUM_Xckp9v0XH0Gq6UF7IQxxdiF1PcYh6mV6QUQbsdzYF4vEZjgojZ00=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/rykPT3icHcTdToMwGADQJ-r4mIRlJl6YuW4OQQqt-7lZtEMK0hZoKWwv6DPsbUw8F-f-K6xtzaPnNeJhVmpdNsVgip5rZQtlZ1xLr2wN4gYZ7znZV9clnUf8M5Y0V1hFHX-DHSESmBNSrN4HZlz1QiM_Llwi66zf2u67HVeLJr1lKtXZPBjpICnN-wTFuzpNWHw-8J926eCwhU0XMrx4JdN0qbCf8qMI5UdIGPkyl9sRB259qktdnwCeRh8AkPifI_UH2Q5FoA"
+   },
+   {
+    "position": 3,
+    "title": "Sri Balaji Indian Market",
+    "place_id": "ChIJTS9Kn_91nkcRLV3VB7x-L3s",
+    "data_id": "0x479e75ff9f4a2f4d:0x7b2f7ebc07d55d2d",
+    "data_cid": "8876452736620911917",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75ff9f4a2f4d%3A0x7b2f7ebc07d55d2d&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75ff9f4a2f4d%3A0x7b2f7ebc07d55d2d&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.134954099999995,
+     "longitude": 11.5099409
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJTS9Kn_91nkcRLV3VB7x-L3s",
+    "provider_id": "/g/11dxkhwzhp",
+    "rating": 4.3,
+    "reviews": 651,
+    "type": "Geschäft für indische Lebensmittel",
+    "types": [
+     "Geschäft für indische Lebensmittel",
+     "Geschäft für afrikanische Waren",
+     "Asia-Shop",
+     "Obst- und Gemüsehandel",
+     "Lebensmittelhändler",
+     "Reisladen",
+     "Geschäft für Softdrinks",
+     "Supermarkt",
+     "Teeladen"
+    ],
+    "address": "Zschokkestraße 69, 80686 München-Laim",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "10:00–20:00",
+     "dienstag": "10:00–20:00",
+     "mittwoch": "10:00–20:00",
+     "donnerstag": "10:00–20:00",
+     "freitag": "10:00–20:00",
+     "samstag": "10:00–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 55276464",
+    "website": "http://www.sribalaji.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TK0K1E7J621Th6zxfjkCdx_7HrBO3Dzj0posTxcHQ2vBv1o89mlE8rUKsMeIc1-fDbJQWqvLZFjJuCazTnyU01jLWqUN2hZ7phT7rM3lhFrjcUXaToyYXiW9M4l1aiNIByYCQ_=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/farMs3icHcRRCoIwAADQE003Dc2gj7QkNQ1hYvUTtsy5lrPNTL1gZ-g2Qe_jfT-061q10HVOTa0SouLlS5WSiKYrm04j4qFXrQJEAaWvkrweHRzBCG3s0DIQptY03Njduw5neyvdvbmeGGyFwgPZpkbv9kjMnQffzGUWqbgMCAK39SVM82e_O_ksfHnFhJsxg4jt8meWGPRktxTbMjY59SUj2aHAYjwe6tyJZxwVdRK449FLz8s3ghAC-p-A5gctPUR6"
+   },
+   {
+    "position": 4,
+    "title": "Bharat Indian Store",
+    "place_id": "ChIJCWHoxLrfnUcRzfxmex9_9Q4",
+    "data_id": "0x479ddfbac4e86109:0xef57f1f7b66fccd",
+    "data_cid": "1077907459016162509",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddfbac4e86109%3A0xef57f1f7b66fccd&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddfbac4e86109%3A0xef57f1f7b66fccd&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.133365999999995,
+     "longitude": 11.5834856
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJCWHoxLrfnUcRzfxmex9_9Q4",
+    "provider_id": "/g/11frrhsmpb",
+    "rating": 4.5,
+    "reviews": 694,
+    "type": "Geschäft für indische Lebensmittel",
+    "types": [
+     "Geschäft für indische Lebensmittel"
+    ],
+    "address": "Zweibrückenstraße 5-7, 80331 München-Altstadt-Lehel",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 09:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 09:00",
+    "operating_hours": {
+     "montag": "09:00–20:00",
+     "dienstag": "09:00–20:00",
+     "mittwoch": "09:00–20:00",
+     "donnerstag": "09:00–20:00",
+     "freitag": "09:00–20:00",
+     "samstag": "09:00–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 23885888",
+    "website": "http://bharatonline.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S-docWRFVyQXxtE_4NCVjmb6rSIW81PAaWx443C3OkKk0sIRpxH7qax-YnNJCM5wBNhlwCQOh1WfBeIdctBXX-IDg-cqUbTAmcTLj67NltMZpExhaQxdecUtrpHkfiNY6CVvvisw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/yGbWMHicHcRbjoIwFADQFVUgID4SP6A6kVGr-KDoj8FLpcijlVapS5wlzG4mmfNxfn-41lJNLavm7qAQoqjZS7EORKtZqwcgGquQCoFCygoILT-TA8oF0P1X8olToxdXj-Dk0dz87hDRsbMLMmo8z8XutlpVtor20ixHz8ygc0u-8WbYh4TXPY633KH3kEU56DBNUTQvEDxPt2PQwHH98Eek1puLXBiexSZncNKdXFb3kpx9nLzfpepnvWPbNuL_A2r_AOIhRg8"
+   },
+   {
+    "position": 5,
+    "title": "Kirane ki Dukaan",
+    "place_id": "ChIJo5uELQF3nkcR2CLe8i8FL10",
+    "data_id": "0x479e77012d849ba3:0x5d2f052ff2de22d8",
+    "data_cid": "6714591272928944856",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e77012d849ba3%3A0x5d2f052ff2de22d8&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e77012d849ba3%3A0x5d2f052ff2de22d8&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1535479,
+     "longitude": 11.5364332
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJo5uELQF3nkcR2CLe8i8FL10",
+    "provider_id": "/g/11nmmn6007",
+    "rating": 4.1,
+    "reviews": 240,
+    "type": "Geschäft für indische Lebensmittel",
+    "types": [
+     "Geschäft für indische Lebensmittel",
+     "Asia-Shop",
+     "Supermarkt"
+    ],
+    "address": "Leonrodstraße 20, 80634 München",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "10:00–20:00",
+     "dienstag": "10:00–20:00",
+     "mittwoch": "10:00–20:00",
+     "donnerstag": "10:00–20:00",
+     "freitag": "10:00–20:00",
+     "samstag": "10:00–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 49009880",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TFYzmqCkshpVuSI-GoN_PEnh3U6_UT-FHrAVErxcH5IFBEeujfO4n6SOzKd9j4uWa-kbJzjt6xoKGVdB3uy9r19jIPkIfebuK9F0uNkBGwXLSRmNPzYk2BPTpwTYrE7vLA8V91BQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/E72P8HicHcRLjoIwAADQE1VAlLEmLqgBZDDICKKszFgrHSot9jMoN_QI3sbEt3ivJ9W6U3PLulJ3VAtRX4lRRGLBNeF6hEVr1Z0CWAFl-en-7wGLsBra25Ip2pUmj0Ek0mMWcOruvOOuAOFK-mUg73g1jUMUENNcNhPu5ZshOcNmYva_gJ2-h0Z7d5FE5Rm55gGlA5s4Y_GFnEwCQ9ukDEX9YZ1v2zQbKjZGWdH1RSWDr_-1Pyuhg34WvWPbNqCfMeBvGL9FNg"
+   },
+   {
+    "position": 6,
+    "title": "KOHINOOR GbR Indian grocery store",
+    "place_id": "ChIJXeMF5-R1nkcRNLdsiVi9pyo",
+    "data_id": "0x479e75e4e705e35d:0x2aa7bd58896cb734",
+    "data_cid": "3073633458664027956",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75e4e705e35d%3A0x2aa7bd58896cb734&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75e4e705e35d%3A0x2aa7bd58896cb734&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1371135,
+     "longitude": 11.5644251
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJXeMF5-R1nkcRNLdsiVi9pyo",
+    "provider_id": "/g/11lfzn_34f",
+    "rating": 4.1,
+    "reviews": 1325,
+    "type": "Lebensmittelhändler",
+    "types": [
+     "Lebensmittelhändler"
+    ],
+    "address": "Sonnenstraße 10, 80331 München",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 09:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 09:00",
+    "operating_hours": {
+     "montag": "09:00–20:00",
+     "dienstag": "09:00–20:00",
+     "mittwoch": "09:00–20:00",
+     "donnerstag": "09:00–20:00",
+     "freitag": "09:00–20:00",
+     "samstag": "09:00–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 554522",
+    "website": "https://kohinoormunich.de/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SEEVLbGfpkklJgMS9tCdr9nI-8tTzsT8czKRRqjko8BjRMSmoYF6q77iAFzhJNe1DIebCi45nPa04MwpcHmVNLErYLcjcwj7liquCmT72bEYfxqTTFK4fwa3YzmJEhCHTHYWKeFw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/p-XyT3icHcTbboIwAADQL6rgxAFLfHCsDLnFQIPpo9RCubQFWtONP_QT_BsTz8N5PpjWk_qyrJHtNq2U7Ujvii5ECk2F3hDJrXZSgCigrGN-6f79EsIqrX-baRjGuM1KXwe3xRcn4Gm0KuSRNSmKuR-k990XWcklDj9n1-2O4crinG5_TrQOOmcvzlfbycxEIl7lKVxwSnpienfs5nvAkftRQ9z8zQiFidOY6w6vPIYsiFCELwkNzcFsbdsG7D0B4gUwRkX5"
+   },
+   {
+    "position": 7,
+    "title": "GroceryMarkt",
+    "place_id": "ChIJ5RxgBFrhnUcRPLokyKvDZUs",
+    "data_id": "0x479de15a04601ce5:0x4b65c3abc824ba3c",
+    "data_cid": "5432963668057045564",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de15a04601ce5%3A0x4b65c3abc824ba3c&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de15a04601ce5%3A0x4b65c3abc824ba3c&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.0642646,
+     "longitude": 11.6636882
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ5RxgBFrhnUcRPLokyKvDZUs",
+    "provider_id": "/g/11xl049rmf",
+    "rating": 4.9,
+    "reviews": 119,
+    "type": "Geschäft für indische Lebensmittel",
+    "types": [
+     "Geschäft für indische Lebensmittel"
+    ],
+    "address": "Laurinweg 15, 85521 Ottobrunn",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 10:30",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 10:30",
+    "operating_hours": {
+     "montag": "10:30–20:00",
+     "dienstag": "10:30–20:00",
+     "mittwoch": "10:30–20:00",
+     "donnerstag": "10:30–20:00",
+     "freitag": "10:30–20:00",
+     "samstag": "10:30–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "0172 5403419",
+    "website": "https://thegrocerymarkt.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SwnGqaO5Whu-nhYNkagTMHqXLX9WBP7QoQ9IIxpe0IY-ZY2y091Bl1WfZXKi0qhl0wtUHjN1YJxA_MDcSVthYTNP6oMK-_aqoH8-dF8DEJMFRY127m9SifSEgZvESORZjFOwTpcz4FPh_f=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/zTjpeXicHcRLcoIwAADQE0USP9V0xoWOIKh8JFQIG4ZJIUExgSYW9ZKuextn-hbv7yWM6fSnZbViMuJK8ba66eqHKWkqaUZMXS3eacA00NYqSJsHJoPc9mU4S8UNSEGDS8kT3-2zQ4bTdTQ_qiP2vHtXQY-CnI4fEKN1i9I6z_YN7EULB_PlngNEd_dV4W8YORlBkyD6UP4eFGWv3AX4dhYbe-c7MUXj-RWTpiY2z39tEsb52QmHpGPPqROJol4OCEIIxP8MyDdgtUZX"
+   },
+   {
+    "position": 8,
+    "title": "Desi Grocery",
+    "place_id": "ChIJYVS7KmbZnUcR4sbaAdjglog",
+    "data_id": "0x479dd9662abb5461:0x8896e0d801dac6e2",
+    "data_cid": "9842301254013470434",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd9662abb5461%3A0x8896e0d801dac6e2&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd9662abb5461%3A0x8896e0d801dac6e2&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1166866,
+     "longitude": 11.5377598
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJYVS7KmbZnUcR4sbaAdjglog",
+    "provider_id": "/g/11kj1ywfhm",
+    "rating": 4.6,
+    "reviews": 103,
+    "type": "Geschäft für indische Lebensmittel",
+    "types": [
+     "Geschäft für indische Lebensmittel",
+     "Lebensmittelhändler",
+     "Indisches Restaurant",
+     "Südindisches Restaurant",
+     "Großhandelsgeschäft für Lebensmittel"
+    ],
+    "address": "Albert-Roßhaupter-Straße 3, 81369 München",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 09:30",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 09:30",
+    "operating_hours": {
+     "montag": "09:30–20:00",
+     "dienstag": "09:30–20:00",
+     "mittwoch": "09:30–20:00",
+     "donnerstag": "09:30–20:00",
+     "freitag": "09:30–20:00",
+     "samstag": "09:30–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "0178 2687049",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RAKWsUn7Rl33NVnb6M79rWqN8fTOrtZxVOH9chatD18UQHxf25bKqXOHCF4uGpr6AezHaQUF7glMgkjeSd9pCxTZH4cWdpaMkEoPPB_Jlue6kTIUqlEU5NprbhmsuElxmxdMdX=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/ctzOMnicHcRdboIwAADgEyEoCmLiAyqumwH8oWJ8WaDUdqO0pS2x84I7g7cx8Xv4nv_UGKkXrsuoPyJCEIYHjRUS3GBuRkh0LpHaQdrRbpyVP3_RMd6VGvLwyHw_O_M6SMNIlX02vxW5Mld7zkGEaGU24zk8AHubzOpdf8nBejsdPqQKYvwA1QFuQ8JS0v7iUxPJtS2uYIrKRlZpm4j9fvX9xQYctMUn7FkCZ5lUNe30kDDb2SZtLsv72PM8h75HDn8BYgVFoA"
+   },
+   {
+    "position": 9,
+    "title": "Hat Bazar",
+    "place_id": "ChIJqVUwoPd1nkcRydkXRBJW_ZY",
+    "data_id": "0x479e75f7a03055a9:0x96fd56124417d9c9",
+    "data_cid": "10879946911248800201",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75f7a03055a9%3A0x96fd56124417d9c9&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75f7a03055a9%3A0x96fd56124417d9c9&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.138255,
+     "longitude": 11.563915
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJqVUwoPd1nkcRydkXRBJW_ZY",
+    "provider_id": "/g/11bv3v1q1f",
+    "rating": 3.8,
+    "reviews": 517,
+    "type": "Geschäft für indische Lebensmittel",
+    "types": [
+     "Geschäft für indische Lebensmittel",
+     "Asia-Shop",
+     "Supermarkt"
+    ],
+    "address": "Adolf-Kolping-Straße 4, 80336 München-Ludwigsvorstadt-Isarvorstadt",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 09:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 09:00",
+    "operating_hours": {
+     "montag": "09:00–20:00",
+     "dienstag": "09:00–20:00",
+     "mittwoch": "09:00–20:00",
+     "donnerstag": "09:00–20:00",
+     "freitag": "09:00–20:00",
+     "samstag": "09:00–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 55088990",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sa6Uaom_PqUJ5cyjngqED0p8y0L0LqXpa8SBmpLkOu8BEfVf5ToA4Vv62ti1Td50Mw3N8wsQTgCBlx8vqfnMjBI3-20Jkk2HcFOSaOaIvrBXXajzkR_EffiZ4Wnyr3CfFBQXVCUA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/rM12i3icHcTbboIwAADQL6pUENMt8YEyjBqUOS6SvZim0nJtC60g-8N9gn9j4nk4z__SGKU_LastnQWXkrfFXRcDlcIUwiyo7CyuNKAaaMs7Xar5IybrlMju-t2nB5fOteB98AUVmmEIwz5XBMW4U2ET3REOWMbcRHqrbFzbplomNxceJ-eEJn1OuI_bBxp7Jo413jvAhoemsXd0G8UkIvtxwHlO6r_m5xowVv2uLmIeHJ9t8TnP_NTbTEsIISjfUyBe6rxFBA"
+   },
+   {
+    "position": 10,
+    "title": "Desi Markt",
+    "place_id": "ChIJzQaCsMzhnUcRgLU2bHjK_r4",
+    "data_id": "0x479de1ccb08206cd:0xbefeca786c36b580",
+    "data_cid": "13762660129851225472",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de1ccb08206cd%3A0xbefeca786c36b580&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de1ccb08206cd%3A0xbefeca786c36b580&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1064302,
+     "longitude": 11.6451376
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJzQaCsMzhnUcRgLU2bHjK_r4",
+    "provider_id": "/g/11vksvvdsc",
+    "rating": 4.6,
+    "reviews": 68,
+    "type": "Geschäft für indische Lebensmittel",
+    "types": [
+     "Geschäft für indische Lebensmittel"
+    ],
+    "address": "Albert-Schweitzer-Straße 78, 81735 München",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "10:00–20:00",
+     "dienstag": "10:00–20:00",
+     "mittwoch": "10:00–20:00",
+     "donnerstag": "10:00–20:00",
+     "freitag": "10:00–20:00",
+     "samstag": "10:00–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 23032020",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rmaehkh1ksCIvXPpIFCPuOeZEs18eEuu9nDOXLcHRZwKlnDIoh2qJMANGSwpEQ6oXJZ2QNW3BnEApZq9WERBHvYJ-RWwRe15cqN5b5-VstxOwBNJS7mvaWf8o0KTgOJ8G8Wzw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/5sWzhHicHcRRboIwAADQE1VAgwMTP0ArUmfRuqzIHzYdXYS22ELVA3oHb7Nk7-O9X8JabRae14rZpFGqaflg-I0pabm0E6Y6r9EGMAOMl2D6-4hJV3NxFcHVrPKxPOh8szoMBa-gCSIOhyGW66L8ZFtSuV0r17kS0x7tE5ydnIbHuSpRNT1iOkslTHTVxxSSdDueESDUER6ErMfhJQTfxt4Ll2J0-ujGmv5Eyt99NQWKsog-3dIFvu8D8T8D8g8tE0Pv"
+   },
+   {
+    "position": 11,
+    "title": "Apna desi store",
+    "place_id": "ChIJ9-XnSgDfnUcRVPQoJhnswL8",
+    "data_id": "0x479ddf004ae7e5f7:0xbfc0ec192628f454",
+    "data_cid": "13817303249531237460",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf004ae7e5f7%3A0xbfc0ec192628f454&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf004ae7e5f7%3A0xbfc0ec192628f454&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.071314099999995,
+     "longitude": 11.6105393
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ9-XnSgDfnUcRVPQoJhnswL8",
+    "provider_id": "/g/11n3lpgbmh",
+    "rating": 5,
+    "reviews": 14,
+    "unclaimed_listing": true,
+    "type": "Lebensmittelhändler",
+    "types": [
+     "Lebensmittelhändler"
+    ],
+    "address": "Fasanenstraße 32, 82008 Unterhaching",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "10:00–20:00",
+     "dienstag": "10:00–20:00",
+     "mittwoch": "10:00–20:00",
+     "donnerstag": "10:00–20:00",
+     "freitag": "10:00–20:00",
+     "samstag": "10:00–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "0170 8928223",
+    "website": "http://www.apnadesi-store.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S4b3KwQwFpTUCZ0hoc2S8I2hq4cfT8kpgq7EScJ5JCQztUhF8vmidDGV-kqsow6s8H10fKIPoj6bfoOyM8zgP_skANLB3BdKA2q4rmr8Fp0yUYQc0cJB5LgPuQtKzy1VEo4rQZDS9Y23dF=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/hpSckXicHcTdboIwGADQJ6qUH7Wa7AJUpuAcDeKiN0v8gNYhfIVWCbyk13ubJTsX5_cljVF6aVl36U4EorgXD110gI0pGjMBrC2hNAFNtOUfvm7DIvWubtzzPlTHbHWhEsFJ2c6RrQflkVVKtPNNCtE0WvHRZDJkz_qWr99PpGo19jPNtjYt412CP7NriZ_DBxtF8q0r_7AP3CCPfaf1urpjoaJDduZAIQqme5E8uInHwT5t0Ov4ZZ0uzo6bh2-9TSkl8n8gzR9_NUae"
+   },
+   {
+    "position": 12,
+    "title": "Indien Shop",
+    "place_id": "ChIJ_WJjTOR1nkcR9yMv_AdFLeo",
+    "data_id": "0x479e75e44c6362fd:0xea2d4507fc2f23f7",
+    "data_cid": "16874219279425151991",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75e44c6362fd%3A0xea2d4507fc2f23f7&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75e44c6362fd%3A0xea2d4507fc2f23f7&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1373639,
+     "longitude": 11.570569899999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ_WJjTOR1nkcR9yMv_AdFLeo",
+    "provider_id": "/g/1hm4xxj43",
+    "rating": 3.7,
+    "reviews": 104,
+    "unclaimed_listing": true,
+    "type": "Geschäft für indische Lebensmittel",
+    "types": [
+     "Geschäft für indische Lebensmittel"
+    ],
+    "address": "Altheimer Eck 9, 80331 München-Altstadt-Lehel",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "10:00–20:00",
+     "dienstag": "10:00–20:00",
+     "mittwoch": "10:00–20:00",
+     "donnerstag": "10:00–20:00",
+     "freitag": "10:00–20:00",
+     "samstag": "10:00–20:00",
+     "sonntag": "10:00–20:00"
+    },
+    "phone": "089 92656200",
+    "website": "http://www.theindianshop.de/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TZBUWsq0kUzPaliz17OdDJvDVZxi4evjRL0-kB3QPYg0qAhMmdoXMFgZK5lxuihtuDglGmMhQp95kpdIuT-nlw4fS1gBX03TjS_YGULU4_efOzVbVHrl_Qv1NCAsFXUJrKVBPL=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/0S8GunicHcRdEkJAAADgE23W0DSa6YEM_VCUlbyYYtuVZWWXygU7Q7dppu_h-36olK2YKwqj2oRwThjuBe5y3kjcyEnOa4W0AuQCCMXcncq3EaUWOokHrNAYXFg5qrN9YW8GO05fpY6H-8GDoLK0MDgT-DCpXxc88R2Sbqfs1ZdU9jZhbu3TsDWmVVus-wg07KnfjiqxEqhF92N2dpGH9Azf9mN8jVcdy8JB3S1N4SRo021jK_AWTxVCCOj_HDQ_wTJFWw"
+   },
+   {
+    "position": 13,
+    "title": "Soni Markt",
+    "place_id": "ChIJUTkwImbZnUcRluTOgnFDW7Y",
+    "data_id": "0x479dd96622303951:0xb65b437182cee496",
+    "data_cid": "13140170492588516502",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd96622303951%3A0xb65b437182cee496&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd96622303951%3A0xb65b437182cee496&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1312119,
+     "longitude": 11.5024657
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJUTkwImbZnUcRluTOgnFDW7Y",
+    "provider_id": "/g/11rctyllb0",
+    "rating": 4.6,
+    "reviews": 142,
+    "type": "Geschäft für indische Lebensmittel",
+    "types": [
+     "Geschäft für indische Lebensmittel",
+     "Geschäft für afrikanische Waren"
+    ],
+    "address": "Fürstenrieder Str. 102, 80686 München",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "10:00–20:00",
+     "dienstag": "10:00–20:00",
+     "mittwoch": "10:00–20:00",
+     "donnerstag": "10:00–20:00",
+     "freitag": "10:00–20:00",
+     "samstag": "09:00–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 81899966",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SRo25uig5Umybzb1bOio5R_GF3hYEuhi9Ia_l7gZECfFtUKxyTIG-Vlx7KpptgTei_EG9miVfROfGn8uRFK9uUtXwm_58kZODuCn41p2-NmUlQwuWo4Bv1aLxPWuisESmudZXf=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/VBjT13icHcRLDoIwFADAE1VAJYqJCz9ADEYURZQNEYS2sb_YPgEv6Bm8jYmzmO-HGKP0zLIYGQ2wlJjVoOtnJYWphRlUkltYaVRppK3FLqO9d0zk0AWK3ZT35bt0yphKNynCYESuPhDqbW4Fm-DcXzWBSaOuP21CdGbdJFLK4FNNCz_0OD03SdyEYgpJEHmQmkvLC3f6yOM1rMTYUUO04yk7tJDJ8fLl3LbdPgOq_SOHe35p5q1j2zYi_yskfsvgRgw"
+   },
+   {
+    "position": 14,
+    "title": "Chai n’ Spice - Indischer Supermarkt",
+    "place_id": "ChIJlURZ8Ax1nkcRj1DNz0UPjz4",
+    "data_id": "0x479e750cf0594495:0x3e8f0f45cfcd508f",
+    "data_cid": "4507838544534655119",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e750cf0594495%3A0x3e8f0f45cfcd508f&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e750cf0594495%3A0x3e8f0f45cfcd508f&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.165040499999996,
+     "longitude": 11.564893699999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJlURZ8Ax1nkcRj1DNz0UPjz4",
+    "provider_id": "/g/11z8vblcxy",
+    "rating": 4.9,
+    "reviews": 40,
+    "type": "Lebensmittelhändler",
+    "types": [
+     "Lebensmittelhändler"
+    ],
+    "address": "Schleißheimer Str. 182, 80797 München",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "10:00–20:00",
+     "dienstag": "10:00–20:00",
+     "mittwoch": "10:00–20:00",
+     "donnerstag": "10:00–20:00",
+     "freitag": "10:00–20:00",
+     "samstag": "10:00–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "01522 9299914",
+    "website": "http://www.chaiandspice.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qbs99scXtrvrm2cN7-b0c4cuDd95G1B8wNCTVR7J3EOmG1Qyg5RZZRQVUj-UcX30mz8qXoCRZSqrQ83gtglPOltKKoQ3GJG0CV5uQ4S0CUPuFADGeo52rxl8RoFjWtJdnzqhIY7EyRvsYc=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/NteWPHicHcTBDoIgGADgJyIxdGpbh7Ji2WZBaeaxP4c1lASs7CU79zZtfYfv-6mtvZuJ48iajIRSQla9qTSo1latHYFqHHE3CAwyziw9XoeInU0UGSisfuhmDGmAzhg86BeXyKfuPHym8SHnQUKW24a6bBA-L0vO8uyGMigIbt5hV6iYl_tOs5AIK-RuK-1moxihCcVx7vfM2-M42_Wr2YJWyh_rlwy5Wt2ONrm0765en4LlwB_mBNOnizFG9X9A7Q8vS0aH"
+   },
+   {
+    "position": 15,
+    "title": "Soni Markt",
+    "place_id": "ChIJA-6pqwHfnUcR0JT53pMExfI",
+    "data_id": "0x479ddf01aba9ee03:0xf2c50493def994d0",
+    "data_cid": "17493393360738161872",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf01aba9ee03%3A0xf2c50493def994d0&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf01aba9ee03%3A0xf2c50493def994d0&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.109538,
+     "longitude": 11.5955354
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJA-6pqwHfnUcR0JT53pMExfI",
+    "provider_id": "/g/11njg_mywp",
+    "rating": 5,
+    "reviews": 14,
+    "type": "Geschäft für indische Lebensmittel",
+    "types": [
+     "Geschäft für indische Lebensmittel"
+    ],
+    "address": "Schwanseestraße 5, 81539 München-Obergiesing-Fasangarten",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "10:00–20:00",
+     "dienstag": "10:00–20:00",
+     "mittwoch": "10:00–20:00",
+     "donnerstag": "10:00–20:00",
+     "freitag": "10:00–20:00",
+     "samstag": "10:00–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qv_DbCD9jWxVwMXdjYEtcjYFppYX_PLKpwcfmmpB_qmnfkMiztSjjRcpE7DihTpipxKCKZCazgleedFW9hxTj_XvN6rm6Q5HdObIW3vbIRp02kDlLoiG5nwXfJEEsJ2ad-Cy-abrwReOxO=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/DYBqVXicHc3BboIwGADgJ6qgRg1LdtgAN0VlohmwC4FSaCtt_9GOoi_p2bfZsst3_R53agzoJ8fp6HzSKtV25EeTHitpiDQTrITTgkZYI-28HFJ29Y5DEVR-4PF0_LT7rOZ5aDDP1wB5VnzsIrC4EQJei28hm8ue3cyJ8wRDuAoYPQODMfKjL7-8_VWkXqceHc-8yIbDshfL4-K9jqtNOh-qTQLu7BJ0O8XeFtJmzTYM9XZW1si_orLqbULiMX62U9d1Ef0XI_kL5tZKMw"
+   },
+   {
+    "position": 16,
+    "title": "Indian sTREAT Grocery",
+    "place_id": "ChIJUV8ykzfZnUcRkMaWvPsYmEI",
+    "data_id": "0x479dd93793325f51:0x429818fbbc96c690",
+    "data_cid": "4798612872443119248",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd93793325f51%3A0x429818fbbc96c690&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd93793325f51%3A0x429818fbbc96c690&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.0975531,
+     "longitude": 11.5283947
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJUV8ykzfZnUcRkMaWvPsYmEI",
+    "provider_id": "/g/11vy_f8nk6",
+    "rating": 4.3,
+    "reviews": 66,
+    "type": "Geschäft für indische Lebensmittel",
+    "types": [
+     "Geschäft für indische Lebensmittel"
+    ],
+    "address": "Hofmannstraße 43, 81379 München",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "10:00–20:00",
+     "dienstag": "10:00–20:00",
+     "mittwoch": "10:00–20:00",
+     "donnerstag": "10:00–20:00",
+     "freitag": "10:00–20:00",
+     "samstag": "10:00–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "01521 3381322",
+    "website": "http://www.streatgrocery.com/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SQdlTHVsAtG7nCrTJf9fb61ZkHgpzORsprDmxduJen-txY0exBReENhzBrS6VKJ2SvOj0EtAAZNaSTgQv34UpBrw6u1ryoekbt-P979IvIrkPTyWWtd5f6jTRXSkoJOa7jIVNysQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/wVrUGHicHcRRboIwGADgE1WKTggme4BpFJaA0ArTN4VSBtg27Q-CN9wRvI3Jvofv9dcAKLOxrL5ZLbiUvGeDYbqUApiARSnvFlcGlQYZy4-L39kjadXTQ2582LviS9Oo9uqbY1-6A1fPJDNKb-9TNURMIJjOmE1BxnZx8ww0cfLvaEnGpMU78P1LfCWUp-Pq46QC_XAGW8-SdTdAR8_1wjHU3ZHORQHVunZamv2QTkbJ1W3DPJ5N-vmwMcao-b9E4g11Wka1"
+   },
+   {
+    "position": 17,
+    "title": "Van Hoi Markt",
+    "place_id": "ChIJeYQXhdt1nkcR2hYmhh0vAJI",
+    "data_id": "0x479e75db85178479:0x92002f1d862616da",
+    "data_cid": "10520460533388678874",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75db85178479%3A0x92002f1d862616da&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75db85178479%3A0x92002f1d862616da&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1612827,
+     "longitude": 11.5673859
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJeYQXhdt1nkcR2hYmhh0vAJI",
+    "provider_id": "/g/1thl4dx_",
+    "rating": 4.6,
+    "reviews": 723,
+    "type": "Lebensmittelhändler",
+    "types": [
+     "Lebensmittelhändler"
+    ],
+    "address": "Hohenzollernstraße 128, 80796 München",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 19:30 · Öffnet Di um 10:00",
+    "hours": "Schließt demnächst · 19:30 · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "10:00–19:30",
+     "dienstag": "10:00–19:30",
+     "mittwoch": "10:00–19:30",
+     "donnerstag": "10:00–19:30",
+     "freitag": "10:00–19:30",
+     "samstag": "10:00–18:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 30768005",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SrZNonzq6ddpHheggkB15knCbTrQ4sFjpkPVuOb7Ts90PSVnVs_7Fcyb9Jxfwkr_iY1kjtEulIl7pD9LJDIv83YopWFoFJmY1jqKTPzp42yg5dIxGGsgYR6pYsKB5lb0n16jQwRA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/pB7uAnicHcRLroIwFADQFSGtCoiJA38oaBSVYOrEhIJFWtvKLSLu8C3h7cbEMzj_f6UxGsa2LcpBjynFRNFAUVMlTSFNj6qHzTRYFCywp7vzvfNP9WWn5Ofp5rlelwVjfIYdLudZUh-GEFSax2mzz7wEfBSfUpnC1Qtol_nR-9by-nonmFdm2YhQeHrhb6NF-BoNiNLnQAXRg-DquUnijx72O-bk4Xu1AkaOriawmTkiQxK71aE9TictRghZ5W9qyS-ti0a3"
+   },
+   {
+    "position": 18,
+    "title": "www.Indianspices.de",
+    "place_id": "ChIJeb2pRxjhnUcRazJSx6HGXeQ",
+    "data_id": "0x479de11847a9bd79:0xe45dc6a1c752326b",
+    "data_cid": "16455527011617747563",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de11847a9bd79%3A0xe45dc6a1c752326b&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de11847a9bd79%3A0xe45dc6a1c752326b&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.123026599999996,
+     "longitude": 11.6691858
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJeb2pRxjhnUcRazJSx6HGXeQ",
+    "provider_id": "/g/11q1qkqs6q",
+    "rating": 3.9,
+    "reviews": 13,
+    "type": "Geschäft für indische Lebensmittel",
+    "types": [
+     "Geschäft für indische Lebensmittel",
+     "Asia-Shop"
+    ],
+    "address": "Truderinger Str. 287, 81825 München",
+    "country": "Deutschland",
+    "phone": "0176 47093469",
+    "website": "http://www.indianspices.de/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q_MuXvV5el27Is-jZPCxhFKWj6UNpvhCircD6t1uFno1hJy5deAFop-XYzEcGcaXsTh0RjkwOctaYtwUBku3paSqfIhn3Tk9Nu7ccITuwteR0TFdOw_FHFllvsoJgyVIqUuKmdwA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/FVybcnicHcTdboIwGADQJyqUETGaeIE_dWiGU0HRG0M-OirUttqWyt7QR_BtluxcnPeLGaP02Pc5C71ayppTq-kDpDBUGA_kza-VRqCR9uP0eO1H28uXLbrDgPKPYaJRc_6ePRlZH5soT1XHZtcHzCMTWCJkwFb9oKIxkQoVp98FLKEsdMbwrmndBkx5Mi6ftjZU5f7-kzARZu0otUOAJLPO0B3OSLVxF_JJOO-0XNX9Ibnndn2rXDxxAcYYsf8BiT-YiUfc"
+   },
+   {
+    "position": 19,
+    "title": "Kaschmir Basar AfroShop",
+    "place_id": "ChIJQz5YPPh1nkcRYHFF3W9Vxf4",
+    "data_id": "0x479e75f83c583e43:0xfec5556fdd457160",
+    "data_cid": "18358173394987741536",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75f83c583e43%3A0xfec5556fdd457160&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75f83c583e43%3A0xfec5556fdd457160&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1365112,
+     "longitude": 11.5546665
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJQz5YPPh1nkcRYHFF3W9Vxf4",
+    "provider_id": "/g/1trtt9cn",
+    "rating": 4.2,
+    "reviews": 92,
+    "type": "Lebensmittelhändler",
+    "types": [
+     "Lebensmittelhändler",
+     "Asia-Shop",
+     "Geschäft für afrikanische Waren"
+    ],
+    "address": "Landwehrstraße 64, 80336 München",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 19:45 · Öffnet Di um 09:30",
+    "hours": "Schließt demnächst · 19:45 · Öffnet Di um 09:30",
+    "operating_hours": {
+     "montag": "09:30–19:45",
+     "dienstag": "09:30–19:45",
+     "mittwoch": "09:30–19:45",
+     "donnerstag": "09:30–19:45",
+     "freitag": "09:30–19:45",
+     "samstag": "09:30–19:45",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 86488334",
+    "website": "https://www.facebook.com/kaschmirbasar",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TuOncLOkfIfsyc6zuq4cdx-50FvHIMqJVm4OLhXPiLodw6cgwzpb7cqc4K4GeZkb_eu5JqbrWpO7DbLbRAmxEFPCvF95QzpL-tywP0LGfyhGJ9_8xHPyAJ8J_nK2RsglhcCcmr=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/p3-FaHicHcRRboIwGADgE1XqBiomeyAqaK2DmWUueyHpb2mN0BZahHLBncHbLNn38D1_pXPGroOglq8zobWoeW95B1o5rtwMdBMIYxFYZIPk_XLz8WefK6D5vTpU1sNi6tsQriOKcPrYH04t-WrCnMrv4kb1dViAGCbDltBCeAwz_nNnJe8j0rLuYvLlllF2TppxlxabRxpHH5OhyPmhwDSrvMxIXK7GfeETsiKlOr6craglbKDp3oY5xhjJ_wGpPwAFRhs"
+   },
+   {
+    "position": 20,
+    "title": "Asia Marche",
+    "place_id": "ChIJIchuPxfenUcR8ENee73IvgE",
+    "data_id": "0x479dde173f6ec821:0x1bec8bd7b5e43f0",
+    "data_cid": "125758555757102064",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dde173f6ec821%3A0x1bec8bd7b5e43f0&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dde173f6ec821%3A0x1bec8bd7b5e43f0&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.066838,
+     "longitude": 11.610041299999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJIchuPxfenUcR8ENee73IvgE",
+    "provider_id": "/g/11dfsvd9jp",
+    "rating": 4.7,
+    "reviews": 133,
+    "unclaimed_listing": true,
+    "type": "Asia-Shop",
+    "types": [
+     "Asia-Shop"
+    ],
+    "address": "Hofmarkweg 10, 82008 Unterhaching",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 10:30",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 10:30",
+    "operating_hours": {
+     "montag": "10:30–20:00",
+     "dienstag": "10:30–20:00",
+     "mittwoch": "10:30–20:00",
+     "donnerstag": "10:30–20:00",
+     "freitag": "10:30–20:00",
+     "samstag": "10:30–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 99931048",
+    "website": "https://ewomy.com/asia-store-gewurze-und-mehr-469194-de",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SbfsXHkzbtJuFDsUGUYfA4i8l2u-x75vMzqkU7pQq4TJs6t2CPBzqVeRkaGzE-_N_O7-pBvaVvosRYgORviefP45KVuS4zpejh_b8j4VxnT3weSecWUqvM6xWWo8YbMzSwfE9nr0oWdu9j=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/hsSz8XicHcRNcoIwGADQE0WoRoHOdKHW2rGDWhAiK0bS8N8k-CUBc8mue5vO9C3e70-tlIRnx-nrxawSouqZBnangivG1YyKb6eSgCggcNZH0jyCuCjh-t7ZQh302ysk-yQr17jx-7lGk7c0oR26xJOfA74cYKXm2_PGDimLutve7lB-zE8ekhtzS42AKKtOkWlYecbLj1TH2ErW1nnhtzid-GUxsphRkgwmXE2ECD8rQhuP5S7gd1eQLx20L-OT67qo_p8i_gdE00li"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&gl=de&google_domain=google.com&hl=de&ll=%4048.1%2C11.646%2C13z&q=Indischer+Supermarkt&start=20&type=search"
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219870563",
+  "object": "chat.completion",
+  "created": 1791219870,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "Press the red button after Big Savage.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 49,
+   "completion_tokens": 9,
+   "total_tokens": 58,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.6909090876579285
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:04:30.840Z"
+}

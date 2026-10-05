@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 2, \"correctness\": 2, \"note\": \"మూడవ తేదీన = 3rd date, not every Wednesday\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:04:06.097Z"
+}

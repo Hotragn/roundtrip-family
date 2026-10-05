@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 3, \"correctness\": 2, \"note\": \"\\\"అమ్మాయి\\\" means girl, not woman; \\\"వాళ్ళు\\\" is wrong pronoun; \\\"వాంటీర్\\\" misspelled; awkward phrasing.\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:04:17.372Z"
+}

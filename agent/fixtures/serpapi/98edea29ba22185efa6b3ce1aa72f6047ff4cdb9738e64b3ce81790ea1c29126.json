@@ -1,0 +1,1366 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps",
+ "request": "https://serpapi.com/search.json?engine=google_maps&type=search&q=public+library&ll=%4045.679%2C-111.038%2C13z&gl=us&hl=en",
+ "note": "places: public library",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T18:20:48.025Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "public library",
+   "ll": "@45.679,-111.038,13z",
+   "google_domain": "google.com",
+   "hl": "en",
+   "gl": "us"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "public library"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Bozeman Public Library | City of Bozeman",
+    "place_id": "ChIJgzUyC1tERVMRvnaE6DKnJdg",
+    "data_id": "0x5345445b0b323583:0xd825a732e88476be",
+    "data_cid": "15575038723421927102",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345445b0b323583%3A0xd825a732e88476be&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345445b0b323583%3A0xd825a732e88476be&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.678519699999995,
+     "longitude": -111.0272225
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJgzUyC1tERVMRvnaE6DKnJdg",
+    "provider_id": "/m/05c0ysq",
+    "rating": 4.8,
+    "reviews": 244,
+    "type": "Public library",
+    "types": [
+     "Public library"
+    ],
+    "type_id": "public_library",
+    "type_ids": [
+     "public_library"
+    ],
+    "address": "626 E Main St, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open · Closes 8 PM",
+    "hours": "Open · Closes 8 PM",
+    "operating_hours": {
+     "monday": "10 AM–8 PM",
+     "tuesday": "10 AM–8 PM",
+     "wednesday": "10 AM–8 PM",
+     "thursday": "10 AM–8 PM",
+     "friday": "10 AM–6 PM",
+     "saturday": "10 AM–5 PM",
+     "sunday": "1–5 PM"
+    },
+    "phone": "(406) 582-2400",
+    "website": "https://www.bozemanlibrary.org/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "children": [
+       "Has changing table(s)"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Paid parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Recently reopened the library is beautiful with a new and modern design.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPSZmPFXuG1mUNNSJ4a3XaW332tuBmsFVq3Pbm76ukTkd1teQhDGutcVQfvnPjV2KS6kju3-bhGIsn1CSdt7B8WaOLVXWPR6zi0TzVtbQjsho6XobUYElvq9N6mosgaAR7RWN13=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Q3VnGHicHcTRboIwFADQL0KoNWUu2YO6SdwMK6CF7a1UpAPaqvcWE3_Qb9jfmHgezv9dI57gNQwHTSetc-3QeGguyllsLE6UM2F7kQCBgnCxGk-D4cWv4evKJ8Ts07T4nElayZLSKfqlgbU4U16bmPl-1x8INpl-TzwqkR1Hyzsx_SpY33ka1DrZgCWr4oDx8qWU31tRlTxnt79odxNYZx1oxypX738-hvE8T5lx0MpFHudlSujblURRFOjnKrAPr9BFPw"
+   },
+   {
+    "position": 2,
+    "title": "Montana State University Library",
+    "place_id": "ChIJEUCMTwFFRVMRACXbRHdegr4",
+    "data_id": "0x534545014f8c4011:0xbe825e7744db2500",
+    "data_cid": "13727638480528024832",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534545014f8c4011%3A0xbe825e7744db2500&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534545014f8c4011%3A0xbe825e7744db2500&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6665924,
+     "longitude": -111.04880829999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJEUCMTwFFRVMRACXbRHdegr4",
+    "provider_id": "/g/1v26ls73",
+    "rating": 4.5,
+    "reviews": 62,
+    "type": "University library",
+    "types": [
+     "University library",
+     "Archive"
+    ],
+    "type_id": "university_library",
+    "type_ids": [
+     "university_library",
+     "archive"
+    ],
+    "address": "Montana State University, Bozeman, MT 59717",
+    "country": "United States",
+    "open_state": "Open · Closes 12 AM",
+    "hours": "Open · Closes 12 AM",
+    "operating_hours": {
+     "monday": "7 AM–12 AM",
+     "tuesday": "7 AM–12 AM",
+     "wednesday": "7 AM–12 AM",
+     "thursday": "7 AM–12 AM",
+     "friday": "7 AM–6 PM",
+     "saturday": "10 AM–5 PM",
+     "sunday": "10 AM–12 AM"
+    },
+    "phone": "(406) 994-3139",
+    "website": "https://www.lib.montana.edu/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "user_review": "\"2nd floor is the most social spot in the library.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcXeuj0pL6UeqTgRer1wPzYzwspXNJ8cFPDpcB9FeeORd0mZjMv_EhepaURXJANmpJNFAQFGt4QC7-9His9MiZRqpYcd0PmJCHUkdlL7uMXmWiRGA1G-0RVb-Aqwo3souu1rG4r=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_edcAnicHcTdCoIwGADQJ1pOisqgi2VpiJqNLOsman6o5dzcT0Iv2DP0NkHn4nw_tTFSLxynrcejSoiqBatBMdEZ6MyICe5U6qY1YtohZPXkMSvAPrCMpzn0h4qCcofsfX4PWhZpNGdBtpZs5QUAO1pifnkkr-umBnnLaRGRlMsoDcg-CM1k78-Qt220lzQX2sszK3HGI3-bP8s2ntmk4KeGhsQNEabHOyL9IMZaWOuqcKKWg4sxRvV_hrofzkRFFQ"
+   },
+   {
+    "position": 3,
+    "title": "Bozeman Public Library",
+    "place_id": "ChIJi1EwkF5ERVMRfVW0mMJByBQ",
+    "data_id": "0x5345445e9030518b:0x14c841c298b4557d",
+    "data_cid": "1497519180142105981",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345445e9030518b%3A0x14c841c298b4557d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345445e9030518b%3A0x14c841c298b4557d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6792543,
+     "longitude": -111.0273369
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJi1EwkF5ERVMRfVW0mMJByBQ",
+    "provider_id": "/g/11dxm76p1h",
+    "rating": 1,
+    "reviews": 1,
+    "type": "Bus stop",
+    "types": [
+     "Bus stop"
+    ],
+    "type_id": "bus_stop",
+    "type_ids": [
+     "bus_stop"
+    ],
+    "address": "Bozeman, MT 59715",
+    "country": "United States",
+    "extensions": [
+     {
+      "accessibility": [
+       "Passenger loading area"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wByXq6IBym5alYQLaS_bbQ&cb_client=search.gws-prod.grass&w=80&h=92&yaw=189.09207&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/eyRKdXicHc3BDcIgFADQbbgJtInamhCT3ky8NF701Hwowk9oQcBi13Ert9G4wHuft805pANjKUet84K6BHxplzYBqPHeOA0BE1V-YkvFsn1OcgZ0xwCzx1GUbr0-dqdunbbgbv0ZLoOUPVFyUA71nEXSEJWlpvzE6EdqIqREimg4saKtyQpFVE1LeVvzPQmYlRWc_J-7X0TF-RcS1jqm"
+   },
+   {
+    "position": 4,
+    "title": "Bozeman Public Library Labyrinth",
+    "place_id": "ChIJ8waFEHpFRVMR-61nZvHmiqs",
+    "data_id": "0x5345457a108506f3:0xab8ae6f16667adfb",
+    "data_cid": "12360946051751325179",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345457a108506f3%3A0xab8ae6f16667adfb&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345457a108506f3%3A0xab8ae6f16667adfb&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.675231499999995,
+     "longitude": -111.029034
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ8waFEHpFRVMR-61nZvHmiqs",
+    "provider_id": "/g/11qrdqw9rg",
+    "rating": 4.3,
+    "reviews": 8,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park"
+    ],
+    "address": "Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(406) 582-2400",
+    "website": "https://www.bozemanlibraryfoundation.org/new-labyrinth-offers-a-space-for-contemplation-and-retreat/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids"
+      ]
+     }
+    ],
+    "user_review": "\"It never felt crowded, even during weekends, which made it more enjoyable.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmN7-aMDOkPNzpqjPPujVp4df07zdciOTqVbezRFM-t9JiMS3wet2AJMPienYmq1JyR875E5COU4sEapmjXc-EkTingt9DibFzvQHnLDoBLv28kvUWJT1Z913QIY4Tb-xNbFUX7M=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/NQU2P3icHcRJDoIwAADAF1VAMIiJBxWIEsuigMsNaoWytMUWVD7oG_yNiXOY76eUkouFojSlPikYKxrcC_xAjEpM5QSxVikemRAACWW1GXjT-ibIoB3UoT_yrgrDvkq5cbur5nhDJIi7NMfjwYVAWh6BR_2J5XTlwZBgemk7zXsf5ubMmW2CxBBOxtvqjIBTx4QW0rJJ7o5DtKV7m633w3ReD8nJi7WrpenR7mLEOXj5uZucTbh8aqqqgvI_AvQHvIREjA"
+   },
+   {
+    "position": 5,
+    "title": "Belgrade Library and Community Center",
+    "place_id": "ChIJGXIKVRo4RVMRiw6wo2O06II",
+    "data_id": "0x5345381a550a7219:0x82e8b463a3b00e8b",
+    "data_cid": "9432987759568490123",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345381a550a7219%3A0x82e8b463a3b00e8b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345381a550a7219%3A0x82e8b463a3b00e8b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.7751431,
+     "longitude": -111.1743206
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJGXIKVRo4RVMRiw6wo2O06II",
+    "provider_id": "/m/0j96cf9",
+    "rating": 4.3,
+    "reviews": 49,
+    "type": "Public library",
+    "types": [
+     "Public library"
+    ],
+    "type_id": "public_library",
+    "type_ids": [
+     "public_library"
+    ],
+    "address": "205 E Main St, Belgrade, MT 59714",
+    "country": "United States",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "monday": "10 AM–6 PM",
+     "tuesday": "10 AM–6 PM",
+     "wednesday": "Closed",
+     "thursday": "10 AM–6 PM",
+     "friday": "10 AM–6 PM",
+     "saturday": "10 AM–2 PM",
+     "sunday": "Closed"
+    },
+    "phone": "(406) 388-4346",
+    "website": "https://www.belgradelibrary.org/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     },
+     {
+      "children": [
+       "Has changing table(s)",
+       "Kid-friendly activities",
+       "Nursing room"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Free street parking",
+       "On-site parking"
+      ]
+     }
+    ],
+    "user_review": "\"They also have reading programs and activities for adults and children.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdibiQxbjjyk-BgcBKoWYhZid2l6Jwu0FYaoKl4rfE4Uq-9XoxJzRvjQOMO_kVZ2R2SnH9j3EGi2TK8byu-HLNhVZk-MKKrj1prWZ_C4hIFe2eKvpP575HBbjLCyUmkbARaeJwIZg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/jHfb_XicHcRLcoIwAADQE0Uw4q8zXYCjIsFaqd9sHBJjQgKEJiDSG3qE3sYZ3-L9P0VdV_bDcXIx6HGtec4aywzVZc3Kukd14XCTWguodXw_UEV8zUi2fRApOwUCTgOkj2eBsyvMR1HbuItzqlHumdvc2_-C6Uk_or_kLreb9eaiDhgm8KcMp3IwX2Zwhyaka0AYf4kDVmCNkJH9yhzxZeaJ1YJBhu7V93A8DAMi41m3LxTxk5RF7Qrzz7bvui4Q7ykoX1EsRbI"
+   },
+   {
+    "position": 6,
+    "title": "Main (across from Bozeman Public Library)",
+    "place_id": "ChIJFTVNhV5ERVMR6720vzOAz8I",
+    "data_id": "0x5345445e854d3515:0xc2cf8033bfb4bdeb",
+    "data_cid": "14037579523285106155",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345445e854d3515%3A0xc2cf8033bfb4bdeb&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345445e854d3515%3A0xc2cf8033bfb4bdeb&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6794843,
+     "longitude": -111.0273864
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJFTVNhV5ERVMR6720vzOAz8I",
+    "provider_id": "/g/11qgjpjw0v",
+    "type": "Bus stop",
+    "types": [
+     "Bus stop"
+    ],
+    "type_id": "bus_stop",
+    "type_ids": [
+     "bus_stop"
+    ],
+    "address": "Bozeman, MT 59715",
+    "country": "United States",
+    "extensions": [
+     {
+      "accessibility": [
+       "Passenger loading area"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wByXq6IBym5alYQLaS_bbQ&cb_client=search.gws-prod.grass&w=80&h=92&yaw=334.71765&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/c2J9QXicHc1RDoIgGADg2_AWYKZWG3Pzra0X10s9uR8kYEMhIMnrdKtuU-sC3_d565R8PBISU5AyLUZmb17Sxo0HrJxTVoI3EQs3kaUgST8nPoOxrYfZmZHlbr0-6lO3ThXYW3-Gy8B5jwQfhDVyTixKCEJjlX9icCNWAWJEme0p0uywRStkVpY73BRNXSFvktCMov9zdwsrKP0CErk6pg"
+   },
+   {
+    "position": 7,
+    "title": "Galloway Historical Library",
+    "place_id": "ChIJa5VL1bZORVMRByg1uG9QjuA",
+    "data_id": "0x53454eb6d54b956b:0xe08e506fb8352807",
+    "data_cid": "16180958951950854151",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x53454eb6d54b956b%3A0xe08e506fb8352807&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x53454eb6d54b956b%3A0xe08e506fb8352807&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.673584999999996,
+     "longitude": -111.201714
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJa5VL1bZORVMRByg1uG9QjuA",
+    "provider_id": "/g/11g_c3g9m",
+    "unclaimed_listing": true,
+    "type": "Library",
+    "types": [
+     "Library"
+    ],
+    "type_id": "library",
+    "type_ids": [
+     "library"
+    ],
+    "address": "28289 Norris Rd, Bozeman, MT 59718",
+    "country": "United States",
+    "phone": "(406) 579-0001",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ]
+   },
+   {
+    "position": 8,
+    "title": "Barnes & Noble",
+    "place_id": "ChIJn3zzFJlFRVMRNjfEAPbQUxE",
+    "data_id": "0x5345459914f37c9f:0x1153d0f600c43736",
+    "data_cid": "1248571276705150774",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345459914f37c9f%3A0x1153d0f600c43736&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345459914f37c9f%3A0x1153d0f600c43736&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.673846,
+     "longitude": -111.07552799999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJn3zzFJlFRVMRNjfEAPbQUxE",
+    "provider_id": "/g/1hc2d63s7",
+    "rating": 4.5,
+    "reviews": 897,
+    "type": "Book store",
+    "types": [
+     "Book store",
+     "Cafe",
+     "Children's book store",
+     "Hobby store",
+     "Toy store"
+    ],
+    "type_id": "book_store",
+    "type_ids": [
+     "book_store",
+     "cafe",
+     "childrens_book_store",
+     "hobby_store",
+     "toy_store"
+    ],
+    "address": "2825 W Main St, Bozeman, MT 59718",
+    "country": "United States",
+    "open_state": "Open · Closes 8 PM",
+    "hours": "Open · Closes 8 PM",
+    "operating_hours": {
+     "monday": "9 AM–8 PM",
+     "tuesday": "9 AM–8 PM",
+     "wednesday": "9 AM–8 PM",
+     "thursday": "9 AM–8 PM",
+     "friday": "9 AM–9 PM",
+     "saturday": "9 AM–9 PM",
+     "sunday": "10 AM–7 PM"
+    },
+    "phone": "(406) 586-5360",
+    "website": "https://stores.barnesandnoble.com/store/2117",
+    "description": "Mainstay for books, magazines & more. Bookseller chain stocking housebrand eReader, plus a broad selection of titles for adults & kids.",
+    "extensions": [
+     {
+      "service_options": [
+       "Curbside pickup",
+       "In-store pickup",
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "amenities": [
+       "Wi-Fi"
+      ]
+     },
+     {
+      "planning": [
+       "Quick visit"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Free street parking"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "service_options": [
+       "Delivery"
+      ]
+     }
+    ],
+    "service_options": {
+     "curbside_pickup": true
+    },
+    "user_review": "\"Always clean and we never leave without a few new books\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLftRFpxpzu15PnyZ9SQE0d7YX_CokrOtNTqhwDXrsaKb6v1h-Mc2G069KwG237IJJp3OJosO4R8KawyqebK-LsUZ1xZK0TNffaQudDUCUK7VDsD13BKksmFC-4r3eaCt_dvehFo=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/HGtz13icHcRNjoIwGADQE1Vaq6KTuBAQI3XEPyYOG1NLoQlCsV8R9YKewduY-Bbv_VLWNvDjOBdFe4XWxUW2II3QtZW17QldOYXhAEiAM5t5ZbXK7S5s7s2zJcNN_Ugn--0cZ-7_8eTr0sR2fbiqLjga4Ow8uhGFfkV_gUcT1i361F1GUUPjSEM82I0Z7x5XeWZoBUlK7inDh3We822bBYmfMPcvgIBQj5VQhT4aGCq5b0_ZTapQTzuCMUbqu0D1B3VGREM"
+   },
+   {
+    "position": 9,
+    "title": "United States Postal Service",
+    "place_id": "ChIJN7XksSxERVMR2wjG0Wf7HHM",
+    "data_id": "0x5345442cb1e4b537:0x731cfb67d1c608db",
+    "data_cid": "8294781037029230811",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345442cb1e4b537%3A0x731cfb67d1c608db&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345442cb1e4b537%3A0x731cfb67d1c608db&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.701022099999996,
+     "longitude": -111.06831079999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJN7XksSxERVMR2wjG0Wf7HHM",
+    "provider_id": "/g/1tfs0r12",
+    "rating": 1.9,
+    "reviews": 295,
+    "type": "Post office",
+    "types": [
+     "Post office",
+     "Logistics service",
+     "Money order service",
+     "Passport office",
+     "Shipping and mailing service"
+    ],
+    "type_id": "post_office",
+    "type_ids": [
+     "post_office",
+     "logistics_service",
+     "money_order_service",
+     "passport_office",
+     "shipping_and_mailing_service"
+    ],
+    "address": "2201 Baxter Ln, Bozeman, MT 59718",
+    "country": "United States",
+    "open_state": "Open · Closes 5 PM",
+    "hours": "Open · Closes 5 PM",
+    "operating_hours": {
+     "monday": "8:30 AM–5 PM",
+     "tuesday": "8:30 AM–5 PM",
+     "wednesday": "8:30 AM–5 PM",
+     "thursday": "8:30 AM–5 PM",
+     "friday": "8:30 AM–5 PM",
+     "saturday": "9 AM–1 PM",
+     "sunday": "Closed"
+    },
+    "phone": "(800) 275-8777",
+    "website": "https://tools.usps.com/find-location.htm?location=1355595&utm_source=google-my-business-url&utm_medium=search&utm_campaign=yext",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Short line and a nice clerk\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPu99_SOva46r_c77K5s86Cjl80tCV34SiX_MnW2davKFzSB12O9E3P8fM8a48U-craZv_Ow1VsP0PHJXQTQf4K40ZcIDd3upAYMabTgx1rwJxTn58pnCBizTMbRMDMK1gWoGg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/lUqYKHicHcTbDoIgAADQLzIhsbCtB7O7Y1ra9cUhGdYUHKC2PrB_6G_aOg_n-ymNafTEtqvSGXApeVW0ulBMClMIM2CytrmiWltM237QNVUdt56XJVFH0UhlbDwOXY1HwbPCwARHByWPc0bEaXijXbh8JzM4jLyFE-M7wRThg8UUvXZZ1MOjjkG83p536e6OQgSubDO_OW3jXwjNU_6Cqt--UuHiRgSzxzsl-Z7MSQj5Sa74tIcAAKv8zyzxA48oQsI"
+   },
+   {
+    "position": 10,
+    "title": "Gallatin County Fairgrounds",
+    "place_id": "ChIJzaf74kBERVMRK5XzA1-FeKE",
+    "data_id": "0x53454440e2fba7cd:0xa178855f03f3952b",
+    "data_cid": "11635196280446358827",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x53454440e2fba7cd%3A0xa178855f03f3952b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x53454440e2fba7cd%3A0xa178855f03f3952b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6902409,
+     "longitude": -111.0371146
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJzaf74kBERVMRK5XzA1-FeKE",
+    "provider_id": "/g/1tg_wrv4",
+    "rating": 4.3,
+    "reviews": 687,
+    "type": "Fairground",
+    "types": [
+     "Fairground"
+    ],
+    "type_id": "fairground",
+    "type_ids": [
+     "fairground"
+    ],
+    "address": "901 N Black Ave, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open · Closes 4 PM",
+    "hours": "Open · Closes 4 PM",
+    "operating_hours": {
+     "monday": "8 AM–4 PM",
+     "tuesday": "8 AM–4 PM",
+     "wednesday": "8 AM–4 PM",
+     "thursday": "8 AM–4 PM",
+     "friday": "8 AM–4 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(406) 582-3270",
+    "website": "http://www.gallatincountyfairgrounds.com/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     },
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Paid parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"It felt safe, clean and really well organized!\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOSQbqiwwpmhcvaHOjYZQFwJs0r1SdwHKAzACqJQUGoFOYk0bNFL5iqXMOyh6nuy_1GTGwr58tNqHxs60fXmTEa-ZsZd16TK_a71SYqWaOTs53-7xyNYTovpKIECNvuj5KK3m5S=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/HcIVG3icHcRRboMgAADQE1EhBtss2YcxVVc2iZFl1Z-GUidtRURQ6i64M-w2S_o-3t-vdG60L0HQy3DTad317WzbSejBtYPbCK2CbuLWAmGDOFnGXtGqPJur96OSYuE5vdVNmfqDhROqLj4n8U-cmEP5memU1nd4LtJ3fDXHD7rKaJjXE8pY5ie8c4XJHzaC30fF9hw0trmgiJET36KqNl-cMotDsH2sRc30MpK3fVIs8w0TEipcvXoEIQTyuQDDPyCpRY4"
+   },
+   {
+    "position": 11,
+    "title": "Lindley Park",
+    "place_id": "ChIJVX5P819ERVMRhbClDNQq9OU",
+    "data_id": "0x5345445ff34f7e55:0xe5f42ad40ca5b085",
+    "data_cid": "16569916019236515973",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345445ff34f7e55%3A0xe5f42ad40ca5b085&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345445ff34f7e55%3A0xe5f42ad40ca5b085&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6777204,
+     "longitude": -111.0247153
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJVX5P819ERVMRhbClDNQq9OU",
+    "provider_id": "/m/0k4z986",
+    "rating": 4.7,
+    "reviews": 550,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park",
+     "tourist_attraction"
+    ],
+    "address": "Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "monday": "5 AM–10 PM",
+     "tuesday": "5 AM–10 PM",
+     "wednesday": "5 AM–10 PM",
+     "thursday": "5 AM–10 PM",
+     "friday": "5 AM–10 PM",
+     "saturday": "5 AM–10 PM",
+     "sunday": "5 AM–10 PM"
+    },
+    "phone": "(406) 582-2290",
+    "website": "https://www.bozeman.net/Home/Components/FacilityDirectory/FacilityDirectory/232/",
+    "description": "Park with a playground, trails & more. Park featuring a playground, picnic tables, a pavilion, trails, a bike rack & restrooms.",
+    "extensions": [
+     {
+      "highlights": [
+       "Picnics"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     },
+     {
+      "amenities": [
+       "Picnic tables",
+       "Public restroom",
+       "Slides",
+       "Swings"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids",
+       "Good for kids birthday",
+       "Playground"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"It had wide paths and clean seating areas.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPDTHebPAEAUmpwq35EN2FlHn2wCX20ihKBkbw5NePluBZef9yzpbdwMkw6p9b5Za66oGz5-okOu_unCBVA2CdFNW3Cnq4Mjll_B_-wvX8Jf8GStaoa4w79EWGB7VcV819q1j2Psg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/mcXe4XicHcRRDoIgAADQE5GKadrWh5DZaplbZa0fp0RaImBgrG7YEbpNW-_jfT-N1lJNLYs17qgWomZ0UPRBBNeU6xERnVU_SqUAUVaEn5J12Xy_pFUWxdGhk6Z3vTiFC7bk0OATtG_NGrWV8VKasQGd6TV8vWV1MZvW-DKsvHPp-yJ5e0C026EYOEZ5BPFlkR5dzPvx5s5YgQpgnqdgdQ2SnS5FOTaTMD4maJKTPHDC3rnDTNUz49i2DZr_BPAfGRhE9g"
+   },
+   {
+    "position": 12,
+    "title": "Archives and Special Collections - Montana State University Library",
+    "place_id": "ChIJwZePoNdFRVMRead4jCGJsF4",
+    "data_id": "0x534545d7a08f97c1:0x5eb089218c78a779",
+    "data_cid": "6823104212649944953",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534545d7a08f97c1%3A0x5eb089218c78a779&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534545d7a08f97c1%3A0x5eb089218c78a779&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6666332,
+     "longitude": -111.0486365
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJwZePoNdFRVMRead4jCGJsF4",
+    "provider_id": "/g/11fnp3zhj8",
+    "type": "Library",
+    "types": [
+     "Library",
+     "Archive"
+    ],
+    "type_id": "library",
+    "type_ids": [
+     "library",
+     "archive"
+    ],
+    "address": "2nd Floor Renne Library, Bozeman, MT 59717",
+    "country": "United States",
+    "phone": "(406) 994-4242",
+    "website": "https://www.lib.montana.edu/archives/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ]
+   },
+   {
+    "position": 13,
+    "title": "Country Bookshelf",
+    "place_id": "ChIJAX_8mFBERVMRxVJf5ccwII0",
+    "data_id": "0x5345445098fc7f01:0x8d2030c7e55f52c5",
+    "data_cid": "10169181593707434693",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345445098fc7f01%3A0x8d2030c7e55f52c5&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345445098fc7f01%3A0x8d2030c7e55f52c5&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6790354,
+     "longitude": -111.0381639
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJAX_8mFBERVMRxVJf5ccwII0",
+    "provider_id": "/g/1tgnr9zv",
+    "rating": 4.8,
+    "reviews": 343,
+    "type": "Book store",
+    "types": [
+     "Book store"
+    ],
+    "type_id": "book_store",
+    "type_ids": [
+     "book_store"
+    ],
+    "address": "28 W Main St, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open · Closes 6:30 PM",
+    "hours": "Open · Closes 6:30 PM",
+    "operating_hours": {
+     "monday": "9:30 AM–6:30 PM",
+     "tuesday": "9:30 AM–6:30 PM",
+     "wednesday": "9:30 AM–6:30 PM",
+     "thursday": "9:30 AM–6:30 PM",
+     "friday": "9:30 AM–6:30 PM",
+     "saturday": "9:30 AM–6:30 PM",
+     "sunday": "9:30 AM–6:30 PM"
+    },
+    "phone": "(406) 587-0166",
+    "website": "http://www.countrybookshelf.com/",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Identifies as women-owned",
+       "Small business"
+      ]
+     },
+     {
+      "service_options": [
+       "In-store pickup",
+       "In-store shopping",
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible restroom"
+      ]
+     },
+     {
+      "amenities": [
+       "Wi-Fi",
+       "Free Wi-Fi"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly",
+       "Transgender safespace"
+      ]
+     },
+     {
+      "planning": [
+       "Quick visit"
+      ]
+     },
+     {
+      "payments": [
+       "Checks",
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Assistive hearing loop"
+      ]
+     }
+    ],
+    "service_options": {
+     "in_store_shopping": true,
+     "in_store_pickup": true
+    },
+    "user_review": "\"Friendly staff-and their knowledge about books is top notch.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNToZ3T5jFcSD_15lOHGD5-jv3J-00aP4Lye-Ksmi-kEV-KHuBOn4XI69nC-59fInpIOrWfnHemw3_Dro2BuZaTCoXjPdnGk34LCLh1TOwV4ULfcsjS5OdCg0t9vmgVm5Z1vJDT=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/1-7lcXicHcRRboIwGADgE_1SLDXBZA-zqKBkNbFDwoshtRSRtoQWiCfcGXabJfsevt-f1vvBbYOgb_FKWat6OTk5Cmu8NH4lrA7UWDsHwgWfdB56_cVthTnpDuKa3EPSs_SYEOhmfAKE6kuUvyWcnX7Ca1_AOZ12zERltokNBRI3mRkyNt4ak0q94Hsy2vVuqmpObdldHub4wlFO8zbkbCmi77wRrrsS9qAK-XjWqtCkCudTwj-WECEE7f8CzB_OEUMt"
+   },
+   {
+    "position": 14,
+    "title": "Peets Hill/Burke Park",
+    "place_id": "ChIJaz9hLvZERVMRmLrKgqKFN10",
+    "data_id": "0x534544f62e613f6b:0x5d3785a282caba98",
+    "data_cid": "6716984302271904408",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534544f62e613f6b%3A0x5d3785a282caba98&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534544f62e613f6b%3A0x5d3785a282caba98&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6738998,
+     "longitude": -111.0293315
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJaz9hLvZERVMRmLrKgqKFN10",
+    "provider_id": "/g/1tkjkwdk",
+    "rating": 4.8,
+    "reviews": 511,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park",
+     "tourist_attraction"
+    ],
+    "address": "429 E Story St, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(406) 587-8404",
+    "website": "https://gvlt.org/featured-trails/peets-hill-burke-park/",
+    "description": "Well-known spot for hiking & sledding. Green space featuring a popular hiking trail & a hill with scenic views & wintertime sledding.",
+    "extensions": [
+     {
+      "highlights": [
+       "Picnics"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "activities": [
+       "Hiking"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids",
+       "Kid-friendly hikes"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"A convenient and scenic way to get some exercise.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMn7RIw3TtV_lMw0Fc3LS7AeXtsS7_YM2fC30zkMKJ_lgiI2EXiBOacjkXFnPZ4r4RqU270wKDuUdr4kc4zLd_GSzhxW6E-Jbn-A1z9d1ut266voajrOmsVbi8kjHB-b9wuCVKouw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/XwO-YXicHcRJDoIwAADAF1XKElATD4i4IdGIInohUJCttNrFGn7oE_yNiXOY76cW4sGnmoZrc1RRWuFS8pIhSkRJxAjRXqtYxjlAXHO91wP3IXGOG2WeRJziUMElMneR45aJ4JGTXkPj7plw6MJgm-Kq2Rh-0sz3GWq7ZEkON4tZx-fZcKAKFvJcMKtD1rAr0lU01O-L7YNtToCrD5NCl8Kw7RfNWrbveZw3465dz0E-UdKLAyrVTOkQQlD_R4D8AAkTRaM"
+   },
+   {
+    "position": 15,
+    "title": "Story Mill Community Park | City of Bozeman",
+    "place_id": "ChIJpwGyXn9FRVMRBoA64jA5We8",
+    "data_id": "0x5345457f5eb201a7:0xef593930e23a8006",
+    "data_cid": "17246879130108723206",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345457f5eb201a7%3A0xef593930e23a8006&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345457f5eb201a7%3A0xef593930e23a8006&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.701142,
+     "longitude": -111.02635699999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpwGyXn9FRVMRBoA64jA5We8",
+    "provider_id": "/g/11h4lhcrm6",
+    "rating": 4.9,
+    "reviews": 258,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park"
+    ],
+    "address": "698 Bridger Dr, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open · Closes 11 PM",
+    "hours": "Open · Closes 11 PM",
+    "operating_hours": {
+     "monday": "5 AM–11 PM",
+     "tuesday": "5 AM–11 PM",
+     "wednesday": "5 AM–11 PM",
+     "thursday": "5 AM–11 PM",
+     "friday": "5 AM–11 PM",
+     "saturday": "5 AM–11 PM",
+     "sunday": "5 AM–11 PM"
+    },
+    "phone": "(406) 582-2290",
+    "website": "https://www.bozemanmt.gov/departments/parks-and-recreation/parks",
+    "extensions": [
+     {
+      "highlights": [
+       "Picnics"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "activities": [
+       "Hiking"
+      ]
+     },
+     {
+      "amenities": [
+       "Cycling lanes",
+       "Picnic tables",
+       "Public restroom",
+       "Slides",
+       "Swings"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids",
+       "Good for kids birthday",
+       "Kid-friendly hikes",
+       "Playground"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"Restrooms and water fountains in warmer months.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM__oX6JLTO6iLtu72u_Go2jniWcBoysXRy9lfLN-nSB1GX4kjLRa6V0wGu63guJpTh-exXzIV3vNH7-TK2WUDzInfjPmNi4mfzPj4g3z_uYaQ5TrrAjYN3h__Si-dLf2G97NG5=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/q_-AuHicHcTbDoIgAADQLyJNTFdbD102uhDdrOyJOVKQFJxAF3-wb-hv2joP5_sR1jZm5HmVgD2uNa9yZ_KWaWVzZXtM1x5vM2MAM95k9miqekOpTqMVTrZRia2LA0eRDqQqL2yq3yY9vIdVgQlQx2kfpeFd4kMWnf0nchHkbtUkAuSvtFue4YMsYpCsg8tp3i1VIXc1KcO66HYy5LCj7prtB0nbTuSVQEHpsQQ3XARoGBM0GD_7vu8D8Z8B9QO5RUTL"
+   },
+   {
+    "position": 16,
+    "title": "Friends Used Book Store",
+    "place_id": "ChIJMfP7GJdFRVMRQz5yLr0f5b0",
+    "data_id": "0x5345459718fbf331:0xbde51fbd2e723e43",
+    "data_cid": "13683377940223639107",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345459718fbf331%3A0xbde51fbd2e723e43&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345459718fbf331%3A0xbde51fbd2e723e43&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6784834,
+     "longitude": -111.0269039
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJMfP7GJdFRVMRQz5yLr0f5b0",
+    "provider_id": "/g/11l27tsv4x",
+    "rating": 5,
+    "reviews": 2,
+    "type": "Book store",
+    "types": [
+     "Book store"
+    ],
+    "type_id": "book_store",
+    "type_ids": [
+     "book_store"
+    ],
+    "address": "626 E Main St, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open · Closes 8 PM",
+    "hours": "Open · Closes 8 PM",
+    "operating_hours": {
+     "monday": "10 AM–8 PM",
+     "tuesday": "10 AM–8 PM",
+     "wednesday": "10 AM–8 PM",
+     "thursday": "10 AM–8 PM",
+     "friday": "10 AM–6 PM",
+     "saturday": "10 AM–5 PM",
+     "sunday": "1–5 PM"
+    },
+    "phone": "(406) 582-2425",
+    "website": "http://www.supportbozemanlibrary.org/",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Small business"
+      ]
+     },
+     {
+      "service_options": [
+       "In-store shopping"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom",
+       "Wi-Fi",
+       "Free Wi-Fi"
+      ]
+     },
+     {
+      "planning": [
+       "Quick visit"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "service_options": [
+       "Delivery"
+      ]
+     }
+    ],
+    "service_options": {
+     "in_store_shopping": true
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLd3xmb2YW_GxVWZI3Ed-y9yJrhkE68vo50Zqk_gqangFSQ8FhYWcW6VmZhGn9fBtyyqXz0K3CAHDr6Mvb0KdRt5-eRZiqDgV5KodPiFlShTM6J1AKMPbZxqbd9nvX9olSmNPAh9=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/fYPt3HicHcRLjoIwAADQE1WqBGIncVE_-GEwKAa0GyMttgbaWloZmAt6Bm8zybzF-7yFc0_75XmN8Edca95UL1u1VCtXKTeiWnq8vVkLqPUwntfym_m9LCeX4rru84Js_RUDAxp2rahX4bTTASSmvnJzUzzKDtNIXApahLkkYq3Qfe6GwZx_Yewv8GbZhklXwpgdXQCqI3mYJc-DWLP0ETWZOCXhbozjJC1Jb0qGVHdGusnkPsUCzX7GEEIg_qdA_QGfOEUP"
+   },
+   {
+    "position": 17,
+    "title": "Montana State University",
+    "place_id": "ChIJ8xcP1Q5FRVMR0ZG9AE5d_tQ",
+    "data_id": "0x5345450ed50f17f3:0xd4fe5d4e00bd91d1",
+    "data_cid": "15347807169726484945",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345450ed50f17f3%3A0xd4fe5d4e00bd91d1&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345450ed50f17f3%3A0xd4fe5d4e00bd91d1&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6673524,
+     "longitude": -111.05462109999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ8xcP1Q5FRVMR0ZG9AE5d_tQ",
+    "provider_id": "/m/02x9g_",
+    "rating": 4.3,
+    "reviews": 364,
+    "type": "Public university",
+    "types": [
+     "Public university",
+     "School",
+     "University"
+    ],
+    "type_id": "public_university",
+    "type_ids": [
+     "public_university",
+     "school",
+     "university"
+    ],
+    "address": "Culbertson Hall, 100, Bozeman, MT 59717",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(406) 994-0211",
+    "website": "https://www.montana.edu/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Free street parking",
+       "Paid parking garage",
+       "Paid parking lot"
+      ]
+     }
+    ],
+    "user_review": "\"This place is huge and has a lot to offer for educational needs\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMfHGTD4dZ_YIrvVDTAtZ1z0TKemmBZxFCyVrFVfH09vizb6RF6TjwdemcNDKHdOmHFOzwtZLXYpzPFS4jFrxPhqi9CRzKLtyM1xl3NKB95pyddht8WfXc7we-SKemj1-R52VJSWw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/rAZc4XicHc3NboIwAADgJ6qU-cuSHRRSUUANEFQui7aFSihg21HoG_oIvs2WXb7r934xpTr5aVk1m07Kti1r-iOpwG2jaKMmuOVWKW5SAiyttdt3NY8Kf5t6M5J_X3eiz7x0rXLbwDSgnG_yAbljJlBW-NDpH-a-iNEirTShHB-8wCdH7qOj0SoPL9fOnFAyq5AYTuz5cNzYBKEaI3uop4dg48y7kRCmVufigpeaguRvqGwQzz-yfXLWX9qGEAL2LwbNL4eTRnQ"
+   },
+   {
+    "position": 18,
+    "title": "Gallagator Trail",
+    "place_id": "ChIJXQsbwfdERVMRupRFOboyodI",
+    "data_id": "0x534544f7c11b0b5d:0xd2a132ba394594ba",
+    "data_cid": "15177467994621449402",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534544f7c11b0b5d%3A0xd2a132ba394594ba&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534544f7c11b0b5d%3A0xd2a132ba394594ba&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6733571,
+     "longitude": -111.0306755
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJXQsbwfdERVMRupRFOboyodI",
+    "provider_id": "/g/11d_77_pz2",
+    "rating": 4.7,
+    "reviews": 101,
+    "unclaimed_listing": true,
+    "type": "Hiking area",
+    "types": [
+     "Hiking area",
+     "Tourist attraction"
+    ],
+    "type_id": "hiking_area",
+    "type_ids": [
+     "hiking_area",
+     "tourist_attraction"
+    ],
+    "address": "Gallagator Linear Trail, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(406) 587-8404",
+    "website": "https://gvlt.org/featured-trails/gallagator-trail/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "activities": [
+       "Biking",
+       "Hiking",
+       "Jogging",
+       "Out-and-back trail",
+       "Easy trail",
+       "Walking"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed outside"
+      ]
+     }
+    ],
+    "user_review": "\"Great resource to experience peaceful natural surroundings.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfjDppM16udMOqr-sJ8UUqNg7EM0huIk14LD9nesrZJ23HRNqFTM75jTCW2gal1FOpjwrWT8EAPTYxHjBCO6xqWrCXqYr356Egdj1ygBj7jOqxpLEsT554rStD-By1AS1bQeCayHvcFduFP=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/HWVQSnicHcRJDoIwAADAF1WoCKiJB9agAXGpQb1hqSUVoRsKr_Tsb0ycw3w_tdZcLQ2jqa0J7TrakF4RibtWk1ZPcPc0qCyVAlgZnuc_numdhZxn0OmrLBcSqM38dBJb6kaZWffrB5yl4aIlSl43Uys5bEWMMtdmKCimtGxgnHP2lgWaR94OXYaE-UHuDKKQwVlcpGU7Ea0YHKnPXJaLgaeRQrY9k0cdAn-E3hHe9iQox-SF46qPd6s3NE0T1P8xaH9sakan"
+   },
+   {
+    "position": 19,
+    "title": "Bozeman Sculpture Park",
+    "place_id": "ChIJGbbTKF9ERVMRxQ7AxWQmYhI",
+    "data_id": "0x5345445f28d3b619:0x12622664c5c00ec5",
+    "data_cid": "1324663454656630469",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345445f28d3b619%3A0x12622664c5c00ec5&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345445f28d3b619%3A0x12622664c5c00ec5&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6785125,
+     "longitude": -111.0271614
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJGbbTKF9ERVMRxQ7AxWQmYhI",
+    "provider_id": "/g/11c2r9rgwk",
+    "rating": 4.5,
+    "reviews": 165,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park",
+     "tourist_attraction"
+    ],
+    "address": "626 E Main St, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "website": "http://www.gallatinartcrossing.org/",
+    "description": "Sculpture park featuring offbeat artwork. Offbeat sculptures & quirky installations dot the landscape at this charming public park.",
+    "extensions": [
+     {
+      "highlights": [
+       "Picnics"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "activities": [
+       "Hiking"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids",
+       "Kid-friendly hikes"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"Connects with hiking trails in the hill, the park and library\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfHee_-3preSnDTVU0Tm-AaeKSAwiX2UIbYW77hK6s_MRGqVKhKuGDfZHFVU-MP-lXQyfmAREh0AXCmVk2WmfH-mE7_Q_vUab-x-SlYZQSGnquwO7GnNkyQLSlpB_O05FFjGqGi=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/bEVFHHicHcRLDoIwFADAEz2pGiUxcVFFisEfVhDdNEgKVdryKYie0DN4GxNnMd-PaNvKzCxLivEgL8tc8s7wJi11y3U7SEtl5U1iDKTGwnhRqE3mcc5gXDWcaucUheikACfcp7i_x6NwfbucbVv4U8O2R1JHvvA74mRXz41C2B5AxsE7U_i4EgjHSxUVo7PKPFArmwXsGSY3eAGVl2tAia67fm8TvSvewYbKasH2aOK6D1KT-7wfIoRA_E9B_wA2qkQg"
+   },
+   {
+    "position": 20,
+    "title": "Summer Ridge Little Free Library",
+    "place_id": "ChIJF-xCapRBRVMRkIivOCjdbvA",
+    "data_id": "0x534541946a42ec17:0xf06edd2838af8890",
+    "data_cid": "17325027981360334992",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534541946a42ec17%3A0xf06edd2838af8890&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534541946a42ec17%3A0xf06edd2838af8890&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.756645899999995,
+     "longitude": -111.04736079999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJF-xCapRBRVMRkIivOCjdbvA",
+    "provider_id": "/g/11fb3hpxq8",
+    "rating": 5,
+    "reviews": 1,
+    "unclaimed_listing": true,
+    "type": "Library",
+    "types": [
+     "Library"
+    ],
+    "type_id": "library",
+    "type_ids": [
+     "library"
+    ],
+    "address": "505 Evening Star Ln, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "website": "https://littlefreelibrary.org/map/",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNCZfug2DFSdhYWiCPLgkUsCHiKcOxeo5KqJ8IMnSzB_O0wkOqjwtSE234NpCQH1HvDc3aYlWhASGgsuX46EfXhCypdk1E6k8E6hFKj0mAJApj8_lzH4ThkUrvX_kA5EW2r49I=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/6zn8BnicHcRdboIwAADgEyHlN8zEh1rqUDbRoAH3QkzFVlpopQWmB_QO3mbJvofv_WLGKD23bcG8GZWSinrQdU9kZ-rOzIhsbdqftbaItiEalWi36Oc6UDde5Rd2Km5o90X5UaPklpLst5ZBet9E6-8ufy6rDEw8uzeTybHr-VuF9omTjDHxzidRMJh_Uj2UfoivJUMPdeEODnmEQ7ZKG9DCDVRNVIln4h8YP_ZjWXEY4MLt_Y_1YnIAABb7n1jdH2vARFY"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&gl=us&google_domain=google.com&hl=en&ll=%4045.679%2C-111.038%2C13z&q=public+library&start=20&type=search"
+  }
+ }
+}

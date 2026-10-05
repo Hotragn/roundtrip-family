@@ -1,0 +1,6 @@
+{
+ "body": "{\"fluency\": 3, \"correctness\": 4, \"note\": \"English words 'card/driver' break flow; 'దయచేసి' adds politeness not in original.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:03:00.130Z"
+}

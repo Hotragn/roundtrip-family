@@ -1,0 +1,972 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps",
+ "request": "https://serpapi.com/search.json?engine=google_maps&type=search&q=park+walking+trail&ll=%4037.555%2C-121.982%2C13z&gl=us&hl=en",
+ "note": "places: park walking trail",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:05:40.040Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "park walking trail",
+   "ll": "@37.555,-121.982,13z",
+   "google_domain": "google.com",
+   "hl": "en",
+   "gl": "us"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "park walking trail"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Alameda Creek Regional Trail - Isherwood Staging Area",
+    "place_id": "ChIJH3ZT60PAj4ARPbVK_Xh3aI4",
+    "data_id": "0x808fc043eb53761f:0x8e687778fd4ab53d",
+    "data_cid": "10261583112492987709",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc043eb53761f%3A0x8e687778fd4ab53d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc043eb53761f%3A0x8e687778fd4ab53d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.575209799999996,
+     "longitude": -122.010852
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJH3ZT60PAj4ARPbVK_Xh3aI4",
+    "provider_id": "/g/1vcjmh5c",
+    "rating": 4.6,
+    "reviews": 1575,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Hiking area",
+     "Tourist attraction"
+    ],
+    "address": "2250 Isherwood Way, Fremont, CA 94536",
+    "country": "United States",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "monday": "5 AM–10 PM",
+     "tuesday": "5 AM–10 PM",
+     "wednesday": "5 AM–10 PM",
+     "thursday": "5 AM–10 PM",
+     "friday": "5 AM–10 PM",
+     "saturday": "5 AM–10 PM",
+     "sunday": "5 AM–10 PM"
+    },
+    "phone": "(510) 544-3137",
+    "website": "https://www.ebparks.org/trails/interpark/alameda-creek",
+    "description": "Trails used for hiking, biking & horses. Trails running along either side of Alameda Creek, used for running, biking & horseback riding.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sb5AAikTS0uS1kdWwv5ZKKZFv_qXm6kAbubNiySSKQpJdeSq6P1JKTL74IE8ZB5FPYqBk54hfqfTTCUzArToPiDoEJsIBqP8VY0TDexpsm5kMcz7MGmbKPaq51bQGFZoJC7kzRYA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/pmramnicHcTbDoIgAADQLzJxRVZbD1jZkmoUdNGXFkTqSJHQLv5hn9DftHUezveT1XVlR657y7qdVOv0Jhsr70KXtSzrjtCFm1bWEdaxLlof8veQcohQrhgFDfXU5fB8wATjJHyczLHoK8Qbvs7flOJNFV0kNX3iRZgt_d5iNkgCGJLYBAr2squ5MjbZtejONMmnehbZRWDIYB8DNpWvyhZQrUTrr-YFx-RsoMc38zDR0cRX7TZG46cHAHCy_8Ipf-A1RPQ"
+   },
+   {
+    "position": 2,
+    "title": "Vargas Plateau Regional Park",
+    "place_id": "ChIJvcCgugnBj4ARhnJYSp5rONk",
+    "data_id": "0x808fc109baa0c0bd:0xd9386b9e4a587286",
+    "data_cid": "15652378832522474118",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc109baa0c0bd%3A0xd9386b9e4a587286&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc109baa0c0bd%3A0xd9386b9e4a587286&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5752619,
+     "longitude": -121.9321758
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJvcCgugnBj4ARhnJYSp5rONk",
+    "provider_id": "/g/11g9fmpt_6",
+    "rating": 4.7,
+    "reviews": 999,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "address": "2536 Morrison Canyon Rd, Fremont, CA 94539",
+    "country": "United States",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "monday": "8 AM–9 PM",
+     "tuesday": "8 AM–9 PM",
+     "wednesday": "8 AM–9 PM",
+     "thursday": "8 AM–9 PM",
+     "friday": "8 AM–9 PM",
+     "saturday": "8 AM–9 PM",
+     "sunday": "8 AM–9 PM"
+    },
+    "phone": "(510) 544-3246",
+    "website": "https://www.ebparks.org/parks/vargas-plateau",
+    "description": "Hiking trails, birds of prey & sea views. Grasslands & wooded canyons home to eagles & hawks, with gentle walking routes leading to bay views.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QpLEdEnZ03VO9E5sFO_9I5-zwtHx641XlbU8LxHQ4KIK8qRsD85CNLvfpFQ-exJ7Ct8-E6QEJxjvBdLCK4S8hOVC1dJfG5krEEj4ErX7SIjfNOsiD9TXx0xChOmDI5BcGGmL66qw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/KQN37nicHcTbboIwAADQL6qUSLGY-DBLRaChQR0je1mycqmMm7RK3R_6Cf6NiefhPB9S61GtLauVy0U9DHVbXlU5iaHXZa8XYuiselRAKKCsj-TrfPfSkdGC9t9wmXGPIrXjP16IwP-s98Z17Lz9_cTM7FMnDmN8OSgfI5KwWzXuUlCaaEU0BtRNaWSa27ZgJHaOWPKM2EVUBehvorRx6JSvjmFTJVydfe-UG2iI5J0foq0Igo657mXezDaEEMj3AvQv-RhCoA"
+   },
+   {
+    "position": 3,
+    "title": "Coyote Hills Regional Park",
+    "place_id": "ChIJRT7ghwq-j4ARQ68X9Fox0kE",
+    "data_id": "0x808fbe0a87e03e45:0x41d2315af417af43",
+    "data_cid": "4742907624286564163",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbe0a87e03e45%3A0x41d2315af417af43&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbe0a87e03e45%3A0x41d2315af417af43&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.556628499999995,
+     "longitude": -122.0940598
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJRT7ghwq-j4ARQ68X9Fox0kE",
+    "provider_id": "/m/05bhgf",
+    "rating": 4.7,
+    "reviews": 3410,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "address": "8000 Patterson Ranch Rd, Fremont, CA 94555",
+    "country": "United States",
+    "open_state": "Open · Closes 8 PM",
+    "hours": "Open · Closes 8 PM",
+    "operating_hours": {
+     "monday": "8 AM–8 PM",
+     "tuesday": "8 AM–8 PM",
+     "wednesday": "8 AM–8 PM",
+     "thursday": "8 AM–8 PM",
+     "friday": "8 AM–8 PM",
+     "saturday": "8 AM–8 PM",
+     "sunday": "8 AM–8 PM"
+    },
+    "phone": "(510) 544-3220",
+    "website": "https://www.ebparks.org/parks/coyote-hills",
+    "description": "Picnicking, hiking & biking trails. 1,266 acres of rolling hills for picnicking, bird-watching, biking, hiking & nature exploration.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SnFaDNid2fXLp8PXDjxJGLnyv_1xcGUOpK8FhJ5xMIdfujZcqvG23dSxyrKiK8vhZ3xttpCK-i2bDDLc0a8I6TIvpWaVIweukkKwg_C5slondRFY3eeqAHywsg1y4iUOe9bO52pw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/efRd5nicHc1LcoIwAADQE0V-pYOdceHIgBiUTv2gbhgIMYliEg2Q5Ig9grep083bvtcv7Xupvhyno8GECEE6PCj8RIL3mPcTJO4OkQogBZQz35TMTrc8qeMNa_3LMZfR9zG-mlWacztWnkHpvpAwSugqNOusvQzXM3qMqR-0W2OfkMFopOfAvMsFBMxv4jhHbh1ln7tslGV9yDQebjeoSbUIVSd4-5OcAowf86XVinj2g-0LPG2K0Jd6pj3XdQH9FwH-B27mRtc"
+   },
+   {
+    "position": 4,
+    "title": "Alameda Creek Regional Trail",
+    "place_id": "ChIJ9xkT7hq-j4ARz_mTn2IW5yg",
+    "data_id": "0x808fbe1aee1319f7:0x28e716629f93f9cf",
+    "data_cid": "2947349093977160143",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbe1aee1319f7%3A0x28e716629f93f9cf&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbe1aee1319f7%3A0x28e716629f93f9cf&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.575209799999996,
+     "longitude": -122.010852
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ9xkT7hq-j4ARz_mTn2IW5yg",
+    "provider_id": "/g/11cm_p_6qx",
+    "rating": 4.7,
+    "reviews": 132,
+    "type": "Hiking area",
+    "types": [
+     "Hiking area"
+    ],
+    "address": "2250 Isherwood Way, Fremont, CA 94536",
+    "country": "United States",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "monday": "5 AM–10 PM",
+     "tuesday": "5 AM–10 PM",
+     "wednesday": "5 AM–10 PM",
+     "thursday": "5 AM–10 PM",
+     "friday": "5 AM–10 PM",
+     "saturday": "5 AM–10 PM",
+     "sunday": "5 AM–10 PM"
+    },
+    "phone": "(510) 544-3137",
+    "website": "https://www.ebparks.org/trails/interpark/alameda-creek",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TKFOB2qnk6i28231205Mcwn7qa6LdN4ERjHK-pefNJAVTBd11VCTPkUhv37mgY90F_jO2pLk95LZhcrDXI4flQ8Sm7JFabE7MwY4mbc_KRLdUh7iajxVkNNI0qB7X41hX-P3JyUA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/veWKw3icHcTbEoFAAADQL1rtbrEy46HQUFm3SryYbGm7bWUjPtEn-BszzsP5fnjXNXKiKCVXB2ldp2XykMmd1aJLRDdgdaWkjQRMAqkY9Ji9dc-xNiZuRTHK8BirCMPhmvWCtNHIjam22OdLBzTJjdpG4JkxQsHM2xY-f6qkSk86tC75BjduoQ_dM2f3ebjSbuVufKiIbUXXBVn3J626souzd2OfkyzKX0FB6Qq2Jgk1xEOwVe23b0x7BCEE_D8D4gfcSUJw"
+   },
+   {
+    "position": 5,
+    "title": "Pleasanton Ridge Regional Park",
+    "place_id": "ChIJv7gIgxzCj4ARjA4yZfkfLyA",
+    "data_id": "0x808fc21c8308b8bf:0x202f1ff965320e8c",
+    "data_cid": "2319107489124191884",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc21c8308b8bf%3A0x202f1ff965320e8c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc21c8308b8bf%3A0x202f1ff965320e8c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.6177144,
+     "longitude": -121.88970359999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJv7gIgxzCj4ARjA4yZfkfLyA",
+    "provider_id": "/m/03nq4fc",
+    "rating": 4.7,
+    "reviews": 975,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "address": "Foothill Rd, Pleasanton, CA 94588",
+    "country": "United States",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "monday": "8 AM–6 PM",
+     "tuesday": "8 AM–6 PM",
+     "wednesday": "8 AM–6 PM",
+     "thursday": "8 AM–6 PM",
+     "friday": "8 AM–6 PM",
+     "saturday": "8 AM–6 PM",
+     "sunday": "8 AM–6 PM"
+    },
+    "phone": "(888) 327-2757",
+    "website": "https://www.ebparks.org/parks/pleasanton-ridge",
+    "description": "Expansive wilderness with trails & cows. 5,271-acre parkland with scenic trails for hiking, biking & horseback riding, plus local cattle.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T9jpzLokbSCYchoBgFrXAVrkxre74TH4_lRlVBw40Kw2j1fVgbEwevrWdu_gyFTz_G_S4Oyi9-ojCJBEEVB6q-y0PSMTJXQWj007v2sLPRyU3bR_fdq1e8PWofqH-SZsV6TNUH=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/0n5ioHicHcRdDoIgAADgE5FYzrKth3SW69eUsHphkxAzEwXL8IKdodu09T1830_etrWaGkaZjwZcCF6yp2KSiqplVTug4mHwWgGqgDLmu-SmHeQUdb8R9zT2zjQXLl_I0xzL-1uysYUCi5RRid3OgutuWJgZ5qnfsZdMrk_C9QL1ZElia69vDhCFt3J9H7t2AzQM4y1anQ5JAeH4NVSbMNLHURqR7NqYbBImImsCEF8UttHuGMw6E0II8v8UVD_ANETY"
+   },
+   {
+    "position": 6,
+    "title": "Dry Creek Pioneer Regional Park",
+    "place_id": "ChIJ4aj0jDyVj4ARHai6ERMpoOc",
+    "data_id": "0x808f953c8cf4a8e1:0xe7a0291311baa81d",
+    "data_cid": "16690385380913621021",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f953c8cf4a8e1%3A0xe7a0291311baa81d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f953c8cf4a8e1%3A0xe7a0291311baa81d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.613757,
+     "longitude": -122.0125415
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ4aj0jDyVj4ARHai6ERMpoOc",
+    "provider_id": "/m/02qlmmb",
+    "rating": 4.7,
+    "reviews": 870,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Hiking area",
+     "Tourist attraction"
+    ],
+    "address": "550 May Rd, Union City, CA 94587",
+    "country": "United States",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "monday": "8 AM–7 PM",
+     "tuesday": "8 AM–7 PM",
+     "wednesday": "8 AM–7 PM",
+     "thursday": "8 AM–7 PM",
+     "friday": "8 AM–7 PM",
+     "saturday": "8 AM–7 PM",
+     "sunday": "8 AM–7 PM"
+    },
+    "phone": "(888) 327-2757",
+    "website": "http://www.ebparks.org/parks/garin",
+    "description": "Spacious preserve with trails & a garden. Expansive park featuring trails, a creek, gardens & farm animals, plus a seasonal barn center.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QnrMuENFtnSUCZ31pnG2xab88bAa-LxW9zAaFM-P3zjjToBIp4EYgHEcKsIlZQAdy7dK434fmEkfASrOe9P16qxnaUTorlJwuFeaS3WEFSTHAAEWbl8m92l6K5nAfVFLgdKxrt=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/anCnFXicHcRdboIwAADgE1XAooMle-hMOxB_A0rmWymlTEuLbYnoBXcGb2Pi9_A9_1vnevvpebKFE6G1kHyw3DCtHFduwnTnid4CZoH10Kb8u8d7ZdYD3hCn8sPiBINe_UxHWkVRhShYjWX8QJSswQ4-zudCf6d9iH9FgllmU3nao_r-UWchDJsOXxqUmy2Pd8H8Oip6KLSRy9tAOM1hiUleJAjhspJRF0_lPJsp1BzJStTZaNzXLfB9H7TvGVAvOChEHw"
+   },
+   {
+    "position": 7,
+    "title": "Mission Peak Trail Head",
+    "place_id": "ChIJDRvazH3Gj4ARYr9I1_T1MXI",
+    "data_id": "0x808fc67dccda1b0d:0x7231f5f4d748bf62",
+    "data_cid": "8228628426115301218",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc67dccda1b0d%3A0x7231f5f4d748bf62&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc67dccda1b0d%3A0x7231f5f4d748bf62&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.504323899999996,
+     "longitude": -121.90839899999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJDRvazH3Gj4ARYr9I1_T1MXI",
+    "provider_id": "/g/11bx8jnnr4",
+    "rating": 4.7,
+    "reviews": 1585,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Hiking area"
+    ],
+    "address": "680 Stanford Ave, Fremont, CA 94539",
+    "country": "United States",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "monday": "6:30 AM–9 PM",
+     "tuesday": "6:30 AM–9 PM",
+     "wednesday": "6:30 AM–9 PM",
+     "thursday": "6:30 AM–9 PM",
+     "friday": "6:30 AM–9 PM",
+     "saturday": "6:30 AM–9 PM",
+     "sunday": "6:30 AM–9 PM"
+    },
+    "phone": "(510) 544-3246",
+    "website": "http://ebparks.org/parks/mission",
+    "description": "Hilly hiking area with scenic views. Open space featuring a steep hiking trail with sweeping valley & bay views from the summit.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SJxeV2-Kz_VjUShtsk0EHASn2PrjQWq32bQhHB2S4VHZ_u076dTab_q_thUaGJQwziZGdYLUdKEnYA7T4vJXb1TkWgoVP9svfOlxA5mW68S68_6kdAucNpAV-aLF7jnB5aSxaa=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/BaGWXnicHcRRDoIgAADQE5FkptXWB22Vs1Y5FMsfhmiSGlhgWRfsDN2mrffxvh9hTKtnltWI0aBUqmyKThd3rqQppBlwdbXKVgOugbbQLrm8pjjoC2KDzZuSKsbC6BoufYSlfbhXYXIb2Vko_IWNHeKntIOem0csozdqRMzWQfh8X9J1ftrG-WYpT8iLnEdwzIZRnZSKHKb6cd43PRpfE3eC3Ql16xx1fNciAth25VVyMWa4Z2z-HEIIgfjPgfwBWAtEVw"
+   },
+   {
+    "position": 8,
+    "title": "Mission Peak Regional Preserve",
+    "place_id": "ChIJXzSb3tLFj4ARjxdUyyLOob0",
+    "data_id": "0x808fc5d2de9b345f:0xbda1ce22cb54178f",
+    "data_cid": "13664429393254291343",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc5d2de9b345f%3A0xbda1ce22cb54178f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc5d2de9b345f%3A0xbda1ce22cb54178f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5053082,
+     "longitude": -121.8768889
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJXzSb3tLFj4ARjxdUyyLOob0",
+    "provider_id": "/m/06p8xb",
+    "rating": 4.7,
+    "reviews": 4519,
+    "type": "Nature preserve",
+    "types": [
+     "Nature preserve",
+     "Park",
+     "Tourist attraction"
+    ],
+    "address": "43600 Mission Boulevard, Fremont, CA 94539",
+    "country": "United States",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "monday": "6:30 AM–9 PM",
+     "tuesday": "6:30 AM–9 PM",
+     "wednesday": "6:30 AM–9 PM",
+     "thursday": "6:30 AM–9 PM",
+     "friday": "6:30 AM–9 PM",
+     "saturday": "6:30 AM–9 PM",
+     "sunday": "6:30 AM–9 PM"
+    },
+    "phone": "(510) 544-3247",
+    "website": "https://www.ebparks.org/parks/mission-peak",
+    "description": "3,000 mountain acres for recreation. Vast mountain preserve popular for biking, hiking, horseback riding, R/C flying and hang-gliding.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QFl_vVb0gsk03v4aPBvEIo8Fp_jeUDvIYFrdNax1QgGZJ44NKOOgCThoEDOEbgtLW0nXRSmMlXOelEt77Ggss3lYXDeU6xZ-7fmnIOU9mdzfRKEnu-5Jz2Xc-qzRk4_U_WN3xE4A=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/M3Wfb3icHcTdFoEwAADgJ5pGI5zjAi0nP41IcdNhZmFtsUl6Q4_gbZzju_i-n8yYQvctS2R2gyvFBXtq9qBKGiZNg6rc4oUGVANtDYP48u6tPJGW2yPk-gbtEh2WoxL7qusV6ZVFbunvvMcpOFTNFZ_spwgFM0L4eJMp7BJ85GYeQ5mE63whEsIENo4z4VrbYpe4LOpUe-Ccc-mTqJef6nM4w_IJ2tO6lVBwr8MbSqM0DuwKo-Hg1YQQguw_BfIH-u5FGg"
+   },
+   {
+    "position": 9,
+    "title": "Garin Regional Park",
+    "place_id": "ChIJq_YCtfOUj4AR_0u7MWxA0-M",
+    "data_id": "0x808f94f3b502f6ab:0xe3d3406c31bb4bff",
+    "data_cid": "16416535900130593791",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f94f3b502f6ab%3A0xe3d3406c31bb4bff&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f94f3b502f6ab%3A0xe3d3406c31bb4bff&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.6290015,
+     "longitude": -122.0309609
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJq_YCtfOUj4AR_0u7MWxA0-M",
+    "provider_id": "/m/02qlmnc",
+    "rating": 4.7,
+    "reviews": 1492,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Park & ride",
+     "Tourist attraction"
+    ],
+    "address": "1580 Garin Ave, Hayward, CA 94544",
+    "country": "United States",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "monday": "8 AM–9 PM",
+     "tuesday": "8 AM–9 PM",
+     "wednesday": "8 AM–9 PM",
+     "thursday": "8 AM–9 PM",
+     "friday": "8 AM–9 PM",
+     "saturday": "8 AM–9 PM",
+     "sunday": "8 AM–9 PM"
+    },
+    "phone": "(888) 327-2757",
+    "website": "http://www.ebparks.org/parks/garin",
+    "description": "Hills, fields, streams & farming history. This natural area with hills, fields & streams houses a seasonal visitor center on ranching history.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q71QqW8xoFkVYeAE1TYO4thzRzZG_hZaVRCMrFOvEud8VRaSFq515WlbS6wCDne-lV2Q7c4vGw6T7CaXhhYgRq1t-GzEWXw1LYxUPgNRfo2aGr6_0CagfVLhLLHzhS1NWDfF38Gg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/EQHYs3icHcRNcoIwGADQE0WIP4DOdOEgxAXFEjQRN04aQ75OKRESxXLDHsHbONO3eM8_cO5qV57XwGyijdGNulnVS9M61bqJND-evlokLbLeOudfv8sixEXHo4dJv1ml1gneV7u5g5GOJ3KGk2A0fu_T3T25XSJGRZl2C7zgzWcZDPGmVahh0yKU8zsZgn0YiyNApWmHHSJjwo8DzqrH4UPntDZTQfrg7MdC1yyDLNuOUOKcb-p0FhH9NmDf9xH8L1H7AsQtRHQ"
+   },
+   {
+    "position": 10,
+    "title": "Central Park",
+    "place_id": "ChIJYeekm8HAj4ARIKRiHNeanFg",
+    "data_id": "0x808fc0c19ba4e761:0x589c9ad71c62a420",
+    "data_cid": "6385148620389393440",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc0c19ba4e761%3A0x589c9ad71c62a420&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc0c19ba4e761%3A0x589c9ad71c62a420&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5477609,
+     "longitude": -121.9654384
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJYeekm8HAj4ARIKRiHNeanFg",
+    "provider_id": "/m/0289mhq",
+    "rating": 4.6,
+    "reviews": 7260,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Senior citizen center",
+     "Tourist attraction"
+    ],
+    "address": "40000 Paseo Padre Pkwy, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(510) 790-5541",
+    "website": "https://www.fremont.gov/government/departments/parks-recreation/parks/central-park",
+    "description": "Land & water activities in a scenic spot. Lakeside park with a golf course, 4 playgrounds, boat rentals, a fishing area, picnic sites & paths.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S2iIY3yflAA8mnwOEVuaoMJM-RVmbgZHiMrPfANEAfmkkiq1F80v_3QziWuwJqN9aX6VcR2YFaXH_iOxANsY8zjoBWox2QBwPvjDZmHo8OG0gh6FIDzGXKHkTyEXpaXyOhyJApbQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_TU7rnicHcRRCoIwAADQEy2XgljQxyLNDDUrdPYTNnRbOmdNs3nDjtBtgt7H-35Y33dqaRgNs2ZUStqUgyqfRLZ92fYzIoVBOwWIAspAUcb14mTyXW7pqkHIEe0Yu-lQyDAIwTEVN3rxefg8VChyUSXqmj_mngNfVyuZeDaMwSNaFNhOydHMvQL7Vx6_UaRyZ7rLdSbfZrIeD6_75iJ86cRbSJnt7TbTFu_9-qxd3BVYx0wHqLslq3EOIQTsPwHtDzUlRj8"
+   },
+   {
+    "position": 11,
+    "title": "Sabercat Creek Trail",
+    "place_id": "ChIJt_IFwsXGj4ARHYBkg_9XgbU",
+    "data_id": "0x808fc6c5c205f2b7:0xb58157ff8364801d",
+    "data_cid": "13078831547793309725",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc6c5c205f2b7%3A0xb58157ff8364801d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc6c5c205f2b7%3A0xb58157ff8364801d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5273214,
+     "longitude": -121.93512109999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJt_IFwsXGj4ARHYBkg_9XgbU",
+    "provider_id": "/g/11dxlc6lbd",
+    "rating": 4.6,
+    "reviews": 356,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "address": "Quema Dr &, Paseo Padre Pkwy, Fremont, CA 94539",
+    "country": "United States",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "monday": "6 AM–7 PM",
+     "tuesday": "6 AM–7 PM",
+     "wednesday": "6 AM–7 PM",
+     "thursday": "6 AM–7 PM",
+     "friday": "6 AM–7 PM",
+     "saturday": "6 AM–7 PM",
+     "sunday": "6 AM–7 PM"
+    },
+    "phone": "(510) 494-4575",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QUENgz0DZixQ0_gs5NWXKOwiZoGGZbUPecnBUMQW-MKvMzto_FZsZLVM6Oh2W-r_dbje-mlZ86oOT5XXf7NlZTZCg1Jj5rGf4OAmXUzTsJPB0JeOvLsgeUJx_EM6S0Mkr6el8Uug=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/sES6VXicHcRJDoIwFADQExXqAA6JC0cStFQiFdINibUUtFDDrxM39AjexsS3eN9Pae0Npq6ry4GjjFFa3kG2wjRWNtYRpnbVDZAABO48Sqv3JGbrSHV4xatXjHMFXpRmW_qsuAkCfmJ7KZoFI3GKyPZBOmvyDQe-OxKflv0Utfn5dJGo1nzsG5p4WVaMIs0TvlS98OK1QTGk8zpjXQLhfoFDSR87UJKFr3xN_AMm19aXeszuavbsYYxR-V-g5gcJYUVn"
+   },
+   {
+    "position": 12,
+    "title": "Cabrillo Trail Park",
+    "place_id": "ChIJpTC_Mri_j4ARoh0vyOryirQ",
+    "data_id": "0x808fbfb832bf30a5:0xb48af2eac82f1da2",
+    "data_cid": "13009477563807899042",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbfb832bf30a5%3A0xb48af2eac82f1da2&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbfb832bf30a5%3A0xb48af2eac82f1da2&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5647255,
+     "longitude": -122.02627179999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpTC_Mri_j4ARoh0vyOryirQ",
+    "provider_id": "/g/11ggnd_ccl",
+    "rating": 4.6,
+    "reviews": 27,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "address": "Fremont, CA 94536",
+    "country": "United States",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "monday": "6 AM–10 PM",
+     "tuesday": "6 AM–10 PM",
+     "wednesday": "6 AM–10 PM",
+     "thursday": "6 AM–10 PM",
+     "friday": "6 AM–10 PM",
+     "saturday": "6 AM–10 PM",
+     "sunday": "6 AM–10 PM"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QTEguDNUFQ5sOi64p44fC6hVzr_N6-IvqKu0hL2yIvSBQNcBb75AzEqU1ShxCYyCBoL56BIS0-jFIqFwv02DOOQwS-liPxEb_VLKCmjQo0o9MRnlaU0YpWt3OrIrtaE259EPP9Dg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/pfqdfnicHcRRCoIwAADQE02XqWHQR-qEkanLLPySGrYp5tRNzW7YEbpN0Pt43w9XqpNbXW_4WmNCsKYcZTlQ0aqyVRoVT511ElAJpL6PrtXikDNiox9lAbFkXNlmZ5oPz-aX91BENsBTfxghD40FT6lLIureN9b-jfpslfKXly-eK0LLdnEKQR3gPpgnaPhxTOYUNFXyQvfiEh68Z00EFM7x1Da3DObdVa3jAQ_qhgzLQUni-Gw3ryCEgP-noP0BZVNDog"
+   },
+   {
+    "position": 13,
+    "title": "Dry Creek Staging Area",
+    "place_id": "ChIJpdTcJGuVj4AR_Jo5QzfkvhI",
+    "data_id": "0x808f956b24dcd4a5:0x12bee43743399afc",
+    "data_cid": "1350767864259910396",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f956b24dcd4a5%3A0x12bee43743399afc&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f956b24dcd4a5%3A0x12bee43743399afc&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.6074311,
+     "longitude": -122.0178945
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpdTcJGuVj4AR_Jo5QzfkvhI",
+    "provider_id": "/g/11d_8rql7j",
+    "rating": 4.7,
+    "reviews": 323,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "address": "100 May Rd, Union City, CA 94587",
+    "country": "United States",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "monday": "8 AM–9 PM",
+     "tuesday": "8 AM–9 PM",
+     "wednesday": "8 AM–9 PM",
+     "thursday": "8 AM–9 PM",
+     "friday": "8 AM–9 PM",
+     "saturday": "8 AM–9 PM",
+     "sunday": "8 AM–9 PM"
+    },
+    "phone": "(888) 327-2757",
+    "website": "http://www.ebparks.org/parks/garin",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S3AUfKa0cus5E201c6PwfHukEFUK2GotNK8fDn-akhN3uzX-krWyI3weR3zvLTcg4V7Kbkdq1kPH-ltN9TJ5Gu-yImdpxF2NKM-kv-T50fzUEeUswhFkeNn3r_FQBZzKAnshGWDA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/hy_4gnicHcRRboIwGADgE_1SqGxqsgeMgFptdMJY9rK4WqgptkhbEW7oEbyNyb6H7_kQ1jZm5nm1wKNK66rmzvCWaWW5siOmL17VGGAGjBfR4txPDzjKS3JEzJkwDpDP3nZduXQyTnISpNpSMikXCo5SUOyGb5Bt0a9wxz_xcNtkrBp_vZM_ebr6creE2tJptg5TB_3qcmruSUDJFuQNshCVQx7z3HQikZwq3P4m-_nPQCJlRFosoo_ORwiB-J-BegGpwUTX"
+   },
+   {
+    "position": 14,
+    "title": "Lakeshore Park",
+    "place_id": "ChIJ10BpfK2_j4ARtp9Fu69V67U",
+    "data_id": "0x808fbfad7c6940d7:0xb5eb55afbb459fb6",
+    "data_cid": "13108665353641500598",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbfad7c6940d7%3A0xb5eb55afbb459fb6&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbfad7c6940d7%3A0xb5eb55afbb459fb6&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5535322,
+     "longitude": -122.03291519999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ10BpfK2_j4ARtp9Fu69V67U",
+    "provider_id": "/g/1v9gk76z",
+    "rating": 4.6,
+    "reviews": 875,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "address": "5119 Ipswich Ct, Newark, CA 94560",
+    "country": "United States",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "monday": "5 AM–10 PM",
+     "tuesday": "5 AM–10 PM",
+     "wednesday": "5 AM–10 PM",
+     "thursday": "5 AM–10 PM",
+     "friday": "5 AM–10 PM",
+     "saturday": "5 AM–10 PM",
+     "sunday": "5 AM–10 PM"
+    },
+    "phone": "(510) 578-4000",
+    "website": "https://www.newark.org/departments/parks/parks-and-sportsfields",
+    "description": "Waterfront area with fishing & trails. Spacious park surrounding a lake, featuring walking trails & fishing.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RJTVUOc7jIVI3IqXxH1el3UODaABhz-W_oUh47kuDSbpk0NpkJTsNKxE6lXVXDl_P8PCQouQeQ0TyIbKMMhpILGa5l9rlTpOdSRuR84UU_EFeVaYERhWuVHqIjifSzShwbghUnYQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/0BEGTnicHcRbjoIwFADQFVVq8J34oQMzVkeQRwt-EaiVq1RaLY2PHboEdzPJnI_zeUPXaTNzHAlur1aqlsIaceOq7UTb9bi6OLU2iBtknEWQnZ7TeJ0yGvLxmTDikmv-WPWFdGnolYslvFBWKAqDcWO9pNINDnSzTk2wefgjmbPck8VusvuKlI1EhNMnqTbbLWjy-1MO5fQmUx0ektjGkwGlhf8tWLn3Y8gsW13J-XRMXgncqxpou4_m9z7GGMH_HLV_58tF7g"
+   },
+   {
+    "position": 15,
+    "title": "Beard Staging Area, Alameda Creek Regional Trail",
+    "place_id": "ChIJecIU-oGVj4ARjwBEBqjVLLo",
+    "data_id": "0x808f9581fa14c279:0xba2cd5a80644008f",
+    "data_cid": "13415332307666206863",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f9581fa14c279%3A0xba2cd5a80644008f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f9581fa14c279%3A0xba2cd5a80644008f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5869827,
+     "longitude": -122.0390853
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJecIU-oGVj4ARjwBEBqjVLLo",
+    "provider_id": "/g/1thvsyhr",
+    "rating": 4.5,
+    "reviews": 63,
+    "unclaimed_listing": true,
+    "type": "Nature preserve",
+    "types": [
+     "Nature preserve"
+    ],
+    "address": "Beard Rd, Fremont, CA 94555",
+    "country": "United States",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "monday": "8 AM–10 PM",
+     "tuesday": "8 AM–10 PM",
+     "wednesday": "8 AM–10 PM",
+     "thursday": "8 AM–10 PM",
+     "friday": "8 AM–10 PM",
+     "saturday": "8 AM–10 PM",
+     "sunday": "8 AM–10 PM"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9To4O_0QY5uwlwblINOOmtn98ic2mVPTBs5nMOYu0ClXmcLKhU9-oz7icOCNKuM6dWiUogwo4eNlG_QWWWsrA0KFA4AMjAYZKw-rW7Y3SumjGoU3lH7JI9e3MEHjVi_5fV5Fbbg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/x9DKVnicHcTdToMwGADQJ-qoAjJMvOgW94dQFwcd3pBQaylp-y20TaMv6DP4Niaei_P7M3l_c49Joqd0JQGkFsGJhYP1wvoVB5PIm0PcIZeQhqmv8gIZHfC5z0PUcdTHhlLjbblW_N50r5eNy21N-4C3-mr4SzW1JYLvQnG6bapQP3ww1YKMkIlG74czY8wtBFc7kpF6Jv17FdHCij59C2beQ5vqQ3E6liKtnw9zp4b8s8t34yif4h3GGE3_c2T_AHB3RDA"
+   },
+   {
+    "position": 16,
+    "title": "Shoreline Trail Parking",
+    "place_id": "ChIJpX4rM0a8j4AR8fja09mwskI",
+    "data_id": "0x808fbc46332b7ea5:0x42b2b0d9d3daf8f1",
+    "data_cid": "4806098201966475505",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbc46332b7ea5%3A0x42b2b0d9d3daf8f1&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbc46332b7ea5%3A0x42b2b0d9d3daf8f1&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.512395999999995,
+     "longitude": -122.1093166
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpX4rM0a8j4AR8fja09mwskI",
+    "provider_id": "/g/11d_9hym17",
+    "rating": 4.6,
+    "reviews": 22,
+    "unclaimed_listing": true,
+    "type": "Public parking space",
+    "types": [
+     "Public parking space"
+    ],
+    "address": "808 Marshlands Rd, Fremont, CA 94555",
+    "country": "United States",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "monday": "7 AM–9 PM",
+     "tuesday": "7 AM–9 PM",
+     "wednesday": "7 AM–9 PM",
+     "thursday": "7 AM–9 PM",
+     "friday": "7 AM–9 PM",
+     "saturday": "7 AM–9 PM",
+     "sunday": "7 AM–9 PM"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TVakI8DUMcrQvgegX2GovIJ-5qMpQkugJEL_jn2Gx6HcJqEcuTk98DC-4DA19Sv68-k7eVFROo_W2oorqesrKF9rfFRyg1OL7bUOEjwusO7BFJiDkQT3gEatxCn6amgEJ_ojQmhQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/q-lzJ3icHcRbcoIwFADQFUUetjw60w8rwZqqTCxq_xiaSS8SyYUkoC6xS-hunOn5OH-_jXO9ffG8SzOfASJc5GilEaid1G4msPOgt0RYYr3F7nS-p-WxVuskO2yF4RNI-ApXOK0ZeR62PVcjMLqpWh2ubtG7YAMVY6nSJFuSp2wRpJ9TlBAVy2O-L7A6hYhmkNZ85Kn5yfd3CIpN_H0oaHsdbRG_5eycKV7OgdbuttRR3QFlFba8a_jrNfB9nzT_C6If1XxFPw"
+   },
+   {
+    "position": 17,
+    "title": "Trailhead, Sabercat Park",
+    "place_id": "ChIJW5YeBL_Gj4AR99OET3N9GOA",
+    "data_id": "0x808fc6bf041e965b:0xe0187d734f84d3f7",
+    "data_cid": "16147794398145729527",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc6bf041e965b%3A0xe0187d734f84d3f7&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc6bf041e965b%3A0xe0187d734f84d3f7&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.524526,
+     "longitude": -121.92219159999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJW5YeBL_Gj4AR99OET3N9GOA",
+    "provider_id": "/g/11cjjt50tn",
+    "rating": 4.5,
+    "reviews": 48,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "address": "Pine St, Fremont, CA 94539",
+    "country": "United States",
+    "open_state": "Open · Closes 7:30 PM",
+    "hours": "Open · Closes 7:30 PM",
+    "operating_hours": {
+     "monday": "6 AM–7:30 PM",
+     "tuesday": "6 AM–7:30 PM",
+     "wednesday": "6 AM–7:30 PM",
+     "thursday": "6 AM–7:30 PM",
+     "friday": "6 AM–7:30 PM",
+     "saturday": "6 AM–7:30 PM",
+     "sunday": "6 AM–7:30 PM"
+    },
+    "phone": "(510) 284-4000",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RWs-ay5HFtm6FgVA_VXsD5me33WImQoXZvYjzgirCeA2osGsSTzFBmOB7IfJVG7p9j1hsmCCG3Vl2_e8b1j07jDSFd6SCH29PAjdNlLEXTQitqMfLUAP7RzPlm-UfN5DZTMHra=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/OmufXXicHcTdboIwGADQJ6r8BZElu6gg4CIIgoDeGMVSaFqKfJ1GXnDPsLdZsnNxfn86pUb40DTeWQsqJeXkG8jUyEGRQS0aKTQ6AmoAgYaTqn-7hwrQ9W1HgRLLgJb4Utbg24JYVrUVmazPzxObaT95BJsSQsiLOViL_drZtl9l6IwuMzoQnhdaJTcvZHUzmO4wPw_uy9yLTDfF7J7w3aYusl494nZ3xKlzmFMu0LFNbP9cxNF0_XwZuq6j7v8GDX82cEOk"
+   },
+   {
+    "position": 18,
+    "title": "High Ridge Loop Trail Head",
+    "place_id": "ChIJ-RGbfPuUj4ARrCT-ZoLV8NU",
+    "data_id": "0x808f94fb7c9b11f9:0xd5f0d58266fe24ac",
+    "data_cid": "15416056280539604140",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f94fb7c9b11f9%3A0xd5f0d58266fe24ac&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f94fb7c9b11f9%3A0xd5f0d58266fe24ac&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.6287099,
+     "longitude": -122.0291745
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ-RGbfPuUj4ARrCT-ZoLV8NU",
+    "provider_id": "/g/11c7095ggp",
+    "rating": 4.8,
+    "reviews": 128,
+    "unclaimed_listing": true,
+    "type": "Hiking area",
+    "types": [
+     "Hiking area"
+    ],
+    "address": "High Ridge Loop Trail, Hayward, CA 94544",
+    "country": "United States",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "monday": "8 AM–9 PM",
+     "tuesday": "8 AM–9 PM",
+     "wednesday": "8 AM–9 PM",
+     "thursday": "8 AM–9 PM",
+     "friday": "8 AM–9 PM",
+     "saturday": "8 AM–9 PM",
+     "sunday": "8 AM–9 PM"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SSrKkhilo9eUEs1m_SwWYL_WzOYJVz2A7CBIdAmniwpSFGSC_nqBXujoydicH9xNCLeKY7dwq_WYg8kmeFx_PjrGt6YwDjSi8U4cL4bCNFBtlURelA6PPbk80J7LjIlbnsHbWe=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/1X6qnHicHcRdDoIgAADgE5n2s9S2HtQyLWcuZsQTm8gURTChUV2wM3Sbtr6H7_tptR7VxrZ5u5w1UjacPhSdiBSaCj0jcrCbUVlEWcoOcshePgDTqW8Zlz4t92o-YGAgyjB8n9Hx-l4EbhSmdTAIZkYQH0CExT28PTr5qhlJ_GceZfSE3NrcMUSN1w80fuKimw56jcyuA8wrVyRbVVEeh5qXF8qDdVFUvecc3axLeSVUUkG6NXPHcaz2P7HEDwQARgc"
+   },
+   {
+    "position": 19,
+    "title": "Sunol Regional Wilderness",
+    "place_id": "ChIJyyOUphDFj4AR-PyTiLitD6c",
+    "data_id": "0x808fc510a69423cb:0xa70fadb88893fcf8",
+    "data_cid": "12038031337061612792",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc510a69423cb%3A0xa70fadb88893fcf8&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc510a69423cb%3A0xa70fadb88893fcf8&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5149918,
+     "longitude": -121.8310722
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJyyOUphDFj4AR-PyTiLitD6c",
+    "provider_id": "/m/02rxp_",
+    "rating": 4.7,
+    "reviews": 2205,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "address": "1895 Geary Rd, Sunol, CA 94586",
+    "country": "United States",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "monday": "8 AM–7 PM",
+     "tuesday": "8 AM–7 PM",
+     "wednesday": "8 AM–7 PM",
+     "thursday": "8 AM–7 PM",
+     "friday": "8 AM–7 PM",
+     "saturday": "8 AM–7 PM",
+     "sunday": "8 AM–7 PM"
+    },
+    "phone": "(510) 544-3249",
+    "website": "http://www.ebparks.org/parks/sunol",
+    "description": "Park with hiking trails & a scenic gorge. 6,859-acre park with varied terrain & a scenic gorge for hiking, a visitor center & more.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QoA1lexZWRJA16sQKkKDPKJDHnxBSN0z7-z33Jsns208wOrjxQCvjqVgeIkWfSSfpiEGTOO4_M0btYg3mjuNmG-Ou0Xw_85x-9dPophFlpzZ6AwVyDhE27Myd1QcAYIAMili74pg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/waGdEnicHcRdboIwAADgE1WKMFETH-pwTgggsoD6YrJaW7C0HS3yc0OP4G1M9j18ryczRumlZXHmTKiUlJNWkwZLYYgwEyxriyoNsAbaQnFRDotUIpuT_lwcAmTPdBreQ38fBv636NdZDEcPjI4TaKGncN4lTdWnn4_qL6dkdy9uWXZT5Wb7kyTuJYK_5kSdumrjeguSFh67y_yjB4vrXir2xdV4nqEuH3y2mXrRcLVTjE47FJW89FxFV50NIQTsfwzEG9eNRSA"
+   },
+   {
+    "position": 20,
+    "title": "Shoreline Trail",
+    "place_id": "ChIJ198iVgK9j4ARQr71P7F6Hrw",
+    "data_id": "0x808fbd025622dfd7:0xbc1e7ab13ff5be42",
+    "data_cid": "13555406830132641346",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbd025622dfd7%3A0xbc1e7ab13ff5be42&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbd025622dfd7%3A0xbc1e7ab13ff5be42&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.532972799999996,
+     "longitude": -122.1101953
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ198iVgK9j4ARQr71P7F6Hrw",
+    "provider_id": "/g/11t9m14zrc",
+    "rating": 4.7,
+    "reviews": 6,
+    "unclaimed_listing": true,
+    "type": "Hiking area",
+    "types": [
+     "Hiking area"
+    ],
+    "address": "Fremont, CA 94555",
+    "country": "United States",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "monday": "7 AM–7 PM",
+     "tuesday": "7 AM–7 PM",
+     "wednesday": "7 AM–7 PM",
+     "thursday": "7 AM–7 PM",
+     "friday": "7 AM–7 PM",
+     "saturday": "7 AM–7 PM",
+     "sunday": "7 AM–7 PM"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qaic9YtgpJfM4-o0OgRWdKPcICw2m6mfuhpNwKnmrlR_YGF1QbLFb9_i9jjU_8eqjbC5WWbpBYnJNUpl0MyRZbRPpt-Q9wIWgT2NQaoDXqYP63nK3OpWPmlJJZp_jp9EofkrEo=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/zTd5DXicHcRLDoIwFADAE1WqqLEmLvxHUASiqbghtkIB-3nSGuIJPYO3MXEW8_1UzoGdep6s_J4wRsjiZYuWG-0K7XrcKE-ARdwi680jWr9Jcqs5yZyAoDwMkcFHkdJ7GPPdshuosSpfFURdqFUr0zzbbvoJ228YyWvSNOd8UjwbthxRymCR6SA6g8SHd3plaQwOJaTbUXEaRMnNrC7PLB77OvSPQGMlg-AKeQNkbcpHuzazro8xRtV_jvQPurRFrw"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&gl=us&google_domain=google.com&hl=en&ll=%4037.555%2C-121.982%2C13z&q=park+walking+trail&start=20&type=search"
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219969284",
+  "object": "chat.completion",
+  "created": 1791219969,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"category\": \"movie\",\n  \"costAmount\": 14,\n  \"free\": false,\n  \"indoor\": true,\n  \"languageMatch\": 2,\n  \"suitsOlderAdults\": true\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 130,
+   "completion_tokens": 54,
+   "total_tokens": 184,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 2.654545307159424
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:06:09.355Z"
+}

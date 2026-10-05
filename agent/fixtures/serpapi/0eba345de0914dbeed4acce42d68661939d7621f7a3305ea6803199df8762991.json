@@ -1,0 +1,982 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps",
+ "request": "https://serpapi.com/search.json?engine=google_maps&type=search&q=Stadtbibliothek&ll=%4048.1%2C11.646%2C13z&gl=de&hl=de",
+ "note": "places: Stadtbibliothek",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:05:51.408Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "Stadtbibliothek",
+   "ll": "@48.1,11.646,13z",
+   "google_domain": "google.com",
+   "hl": "de",
+   "gl": "de"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "Stadtbibliothek"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Münchner Stadtbibliothek Maxvorstadt",
+    "place_id": "ChIJzwwBZOZ1nkcRo0hLfWGF6uE",
+    "data_id": "0x479e75e664010ccf:0xe1ea85617d4b48a3",
+    "data_cid": "16278970456844486819",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75e664010ccf%3A0xe1ea85617d4b48a3&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75e664010ccf%3A0xe1ea85617d4b48a3&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1517942,
+     "longitude": 11.5649137
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJzwwBZOZ1nkcRo0hLfWGF6uE",
+    "provider_id": "/g/11btyv_lyn",
+    "rating": 4.6,
+    "reviews": 42,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Augustenstraße 92, 80798 München-Maxvorstadt",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772424",
+    "website": "http://www.muenchner-stadtbibliothek.de/bibliotheken/stadtteilbibliotheken/maxvorstadt/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmKCfNGkA6Z9ACEXK9xwPI0oomm4saVYMk3R-mSgdFBa20A65l2oDdGjoNC5-7goAZDleXQe7Ly4PWMYBa7FF_eg0V2DgtWyorCLVmLXCJopGejWJxdaglBAhwNKFKnItXu6wCc=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/cXyBD3icHcRJDoIwFADQE1UqKkQTF6UIKkNwCIMbQ0ot0ZZPaA16Qs_gbUx8i_f9tMb0emVZsp1NBICQ_Kn5wKAzvDMTBsoSvUZMI22R7TE7FyqitzR8EOeyJHRTRsvXmO0wgFJzXedV8pgdkTqJJvBqGxNnIW3wm_AOKV0gVwC5-JKXB-7G73lWJJVXu0Fw5QLnti9M8YaBxrmKS7qHPuT3Yv9qaiE90o5pFETdzpRPZ6RsPU4xxqj9z1D3A8bhQ6g"
+   },
+   {
+    "position": 2,
+    "title": "Münchner Stadtbibliothek Sendling",
+    "place_id": "ChIJrdjx8srYnUcRXzriJytIv6k",
+    "data_id": "0x479dd8caf2f1d8ad:0xa9bf482b27e23a5f",
+    "data_cid": "12231574463151487583",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd8caf2f1d8ad%3A0xa9bf482b27e23a5f&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd8caf2f1d8ad%3A0xa9bf482b27e23a5f&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1171285,
+     "longitude": 11.5378642
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJrdjx8srYnUcRXzriJytIv6k",
+    "provider_id": "/g/1tfbgqhs",
+    "rating": 3.8,
+    "reviews": 144,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Albert-Roßhaupter-Straße 8, 81369 München-Sendling",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772433",
+    "website": "https://www.muenchner-stadtbibliothek.de/stadtbibliothek-sendling",
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkGvl9j0tHZbZT6WzLYIR2OiATyLe5h12U0oCxHqFMtIUvOkDePezcPueyaDSkgq8veqFGRlYxOhncUtXVV4S_AoBqaklmykdDv2oTul2-4dnySMwyy0g7Wb2hPhGskPjRsPtf1=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/7IOkDXicHcTbDsEwAADQL6p1NdfEw1hsErJmF8OLUNXSak27UT_oG_yNxHk43w-39m7Gnid5t8O0ZpI2hj6IVpYq2yH65rG7AcQA44VJhotKxK0cXaFNdsdd0a_ey-0iQ-klLNyS9riPSqhnr6Ser-yibFMRUUzfBDfUHaJcsHrY0noeZ3L7Srkipd2s10G-D_W0Pgh5c-IUtUgXjUQgOCmXr57OQTaojohjHhuBr5nB9uxPnj6EEPD_BKgf3qdGqQ"
+   },
+   {
+    "position": 3,
+    "title": "Münchner Stadtbibliothek Schwabing",
+    "place_id": "ChIJe1lLXMd1nkcRq7FiyxGJByk",
+    "data_id": "0x479e75c75c4b597b:0x29078911cb62b1ab",
+    "data_cid": "2956482389911712171",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75c75c4b597b%3A0x29078911cb62b1ab&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75c75c4b597b%3A0x29078911cb62b1ab&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.159783,
+     "longitude": 11.5836837
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJe1lLXMd1nkcRq7FiyxGJByk",
+    "provider_id": "/g/1td24fc5",
+    "rating": 4.2,
+    "reviews": 58,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Hohenzollernstraße 16, 80801 München-Schwabing-Freimann",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Mi um 10:00",
+    "hours": "Geschlossen · Öffnet Mi um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772432",
+    "website": "https://www.muenchner-stadtbibliothek.de/stadtbibliothek-schwabing",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlgI4MY4gfdAkU-caWPvrZ6LyuKKnlanrg1ynbqhuFy1-sCDoQqUifMpFndulW-AIkGCoitnlvSdQpv5PqT-UIhXbHNe-WdPnTYwm686CMWSl3Alo14HYxOnst-5gSgLy5VtJ-epQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Rb-vP3icHcRBjoIwFADQE32BCMSYzIIwUVBxQMCKOy21NdbfQgvKEecIc5tJfIv39yus1WbpOFLMZ1wpLtlgWE8VWoZ2RtXT4doANWCcKDnkFZE89bPG57c2etRALyQf-3O4m4btFuUFe-5NeO3EsJo8MPG3Krr6fsv0CttBEojSxzpWd4tyLNtCj0HeVVCn4nRN9gxIm2PVvJ7hIowzUsp5JJXnJ837B42FgJd8NwVHuwGmi6-X57ouiM8U8B-JIkab"
+   },
+   {
+    "position": 4,
+    "title": "Münchner Stadtbibliothek Fürstenried",
+    "place_id": "ChIJOdnElhnZnUcRVcrezH--IrU",
+    "data_id": "0x479dd91996c4d939:0xb522be7fccdeca55",
+    "data_cid": "13052204126180395605",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd91996c4d939%3A0xb522be7fccdeca55&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd91996c4d939%3A0xb522be7fccdeca55&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.0957314,
+     "longitude": 11.4945744
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJOdnElhnZnUcRVcrezH--IrU",
+    "provider_id": "/g/1tfwjbrp",
+    "rating": 4.3,
+    "reviews": 111,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek",
+     "Öffentliche Bücherei"
+    ],
+    "address": "Berner Str. 4, 81476 München-Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772418",
+    "website": "https://www.muenchner-stadtbibliothek.de/stadtbibliothek-fuerstenried",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz",
+       "Rollstuhlgerechtes WC"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmZcOTi3aUgJigzbN_AiELpqK3d_j52d5C24Tu9s598cuJhKJxsk5ohXSMLT5Hq7ORU8j0EfdoXaGZKcXpzSH5RX4uf0tnoEIIjSkndfUuEMzGYtIwnmrYqDknG6V-mQWgW-QqIxA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/BLFWDHicHcRJDoIwAADAF1UqWBUTD0QJmyuLoBejBVpAWrBtNPzQJ_gbE-cw3w-VshMLTXtQY0Q4J49CieKJOZMFkyPMW410AmABhGa54SFO2wvex5VxS4hfkeG-u1qVven6wMivNdJztNInsTIFMudY-TTw36JBnGbRdhMjt5_tw2ReQ7vMeXZzLgHOuiFyUZhNVAkl47bn1VHD8jJR9nZwztJ7sfZ57tcNc6Yn0B5TkoJj772t5WsMIQT0PwbsB_RZRcM"
+   },
+   {
+    "position": 5,
+    "title": "Münchner Stadtbibliothek Hadern",
+    "place_id": "ChIJ5VflUhj-CEERWQ2eR3JOncg",
+    "data_id": "0x4108fe1852e557e5:0xc89d4e72479e0d59",
+    "data_cid": "14455796631663938905",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x4108fe1852e557e5%3A0xc89d4e72479e0d59&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x4108fe1852e557e5%3A0xc89d4e72479e0d59&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.118647499999994,
+     "longitude": 11.4909073
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ5VflUhj-CEERWQ2eR3JOncg",
+    "provider_id": "/g/1hc1ww912",
+    "rating": 4.1,
+    "reviews": 52,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Guardinistraße 90, 81375 München-Hadern",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772420",
+    "website": "http://www.muenchner-stadtbibliothek.de/bibliotheken/stadtteilbibliotheken/hadern/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechte Sitzgelegenheiten",
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz",
+       "Rollstuhlgerechtes WC"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkDEY1egLwjMxr_JHZhNMQuWEJVikiAgKufIY9TBBs0BMO4e6kYbvv0THJ8J4elsEV-iABooUFB-s3HtyORPOZmxiqH4aEDcFLyRvuPg_L-p3JyZnRY-Mvol-wZiVqU5B2cnFB_0g=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/OVaN_3icHcRRboIwGADgE_1SBy5uiQ80QmqFgQQx8EJmU0sHtmgLyBE9grcx2ffwvZ6Ntb35dpyucRdCa9HxwfA708pyZRdMXx3RG2AGjOOTLM1P7TYol1xE01_8uNeUVM1PfBhOAS1kK32xHy678ivH2CAcJx7_bMvzOKKc0DX1eGeCAqSPtT6GGIxL7JxkaVJdH_JGvN9gy8JozsYhFXUEvUvnSmUlxKPuYKpkcTuu8AdTIa6R2ExLhBA0_zNQb-OnRRs"
+   },
+   {
+    "position": 6,
+    "title": "Münchner Stadtbibliothek Isarvorstadt",
+    "place_id": "ChIJK8rcJEXfnUcRGqxiD2adQ5Q",
+    "data_id": "0x479ddf4524dcca2b:0x94439d660f62ac1a",
+    "data_cid": "10683555802723298330",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf4524dcca2b%3A0x94439d660f62ac1a&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf4524dcca2b%3A0x94439d660f62ac1a&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.125552299999995,
+     "longitude": 11.5596734
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJK8rcJEXfnUcRGqxiD2adQ5Q",
+    "provider_id": "/g/1tvq3308",
+    "rating": 4.2,
+    "reviews": 46,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Kapuzinerstraße 28, 80337 München-Ludwigsvorstadt-Isarvorstadt",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772422",
+    "website": "http://www.muenchner-stadtbibliothek.de/bibliotheken/stadtteilbibliotheken/isarvorstadt/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8IrcfIS22EJRMkjOtHIUCIYx-LqNKeXkdU4ss8lhmWfsKx1DU6tNPWmU9FT_dM0iQjIZppIYxkn8CTVM5OwBVyZ1yPGiqALklmLpAKUl_21xvsKTfT8vsJ1ZiKkkQM9nYvrb5=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/YNZWCHicHctLcoIwGADgE0UILR3sTBfUR40BRU1E2DjTyMuEEPlTxBP2DL1NO918u-_nu7bWwKvjqPppUnVdpYovKHrRaVtoOxFd61QGkAAETrjaJyzVAelFSQ6et1jvY3nd2hXhM5KNKLptaHGSF_4MEKi6TUugI57zF7tJ0pZPl-x8id1mdyW5MX9B6mDGjrG_vb8fHzl-JB_NLYykaiMTUq7OHh4HoKxkwQBrnDdUyl081dnQf_pvd-y6Lqr_FUj_Amx0RTc"
+   },
+   {
+    "position": 7,
+    "title": "Münchner Stadtbibliothek Neuhausen",
+    "place_id": "ChIJ5xHExhV2nkcRL3XkdgYpHjE",
+    "data_id": "0x479e7615c6c411e7:0x311e290676e4752f",
+    "data_cid": "3539311464901014831",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e7615c6c411e7%3A0x311e290676e4752f&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e7615c6c411e7%3A0x311e290676e4752f&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1553239,
+     "longitude": 11.532019499999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ5xHExhV2nkcRL3XkdgYpHjE",
+    "provider_id": "/g/1wd3v0t_",
+    "rating": 4.4,
+    "reviews": 94,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Nymphenburger Str. 171b, 80634 München-Neuhausen-Nymphenburg",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772428",
+    "website": "http://www.muenchner-stadtbibliothek.de/bibliotheken/stadtteilbibliotheken/neuhausen/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechtes WC"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkZvc16jHlYbbSrEJyrS5dZy30N4_qlYsqXhFOVGWQpdXVcPtJRc4x9D9TuAKijGpMqsP1qbVK8u2LlE8BmhWPOc_wiaL5H0z46E7YVnup2GUaEZGTBfBhQvJ82G8bXNjU3hCR0IA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/fCOw6XicHcTbEoFAAADQL0rbjZjxUGSTW5JuL41WWlm1tZvwhz7B35hxHs73gzmnbCKKBCuDoq4Lkncsb1Fd8bziA1TfxYIyATGBiYbtuX54Sx5IGpY2ibPs0FrOqz1o5-SlgK2aNiRmTYQXuwCGe3qOAuRyx0Pqczwf-52xupaQbhrmSk0WrPROXhNLN-84dHco7a-ntWaDtzq0RnFQdVSGx5OVQN-8mHj_cHQZ6lm0LY8KnnlgaUx7CQAg4P9IqH4BZkSI"
+   },
+   {
+    "position": 8,
+    "title": "Münchner Stadtbibliothek Westend",
+    "place_id": "ChIJ7xX-O_IBCUERpZPLEkTRblk",
+    "data_id": "0x410901f23bfe15ef:0x596ed14412cb93a5",
+    "data_cid": "6444318207117071269",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x410901f23bfe15ef%3A0x596ed14412cb93a5&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x410901f23bfe15ef%3A0x596ed14412cb93a5&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1365092,
+     "longitude": 11.544936
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ7xX-O_IBCUERpZPLEkTRblk",
+    "provider_id": "/g/11b6nk2vxf",
+    "rating": 4.5,
+    "reviews": 52,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Schießstättstraße 20 c, 80339 München",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772448",
+    "website": "https://www.muenchner-stadtbibliothek.de/stadtbibliothek-westend",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechtes WC"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnAikTo1gHjXe5L6hR5DLRbDkE0qJIsuBLS6BdFceqDVF-Uk2qbZdb2oq7t6vxnriVYPIeqIMOy09Vq9Wx9V2p_c-hOi98l_nPhVtcz0xy_XIuAkfKrEJNtFV1mFMAKDB95UQku3w=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/p_26e3icHcTdzoIgAADQJyLRpsW3daEzl2VfZkU_N24SiWEggmW9YY_Q27R1Ls7nzYxp9J9l1Ww4KKUsa9pp2hIpDBVmQOTNKhsNiAba8mdZut0Lv-JbaZez64G6iccyN0yyIuRTqOax7oJk4wXniFAV4gjsuKOK07lwpBoZ796LtsLHNKYqXq6eEGGF9j3CTpMTwFYVGte5SBk25AX7Z36IO59fFu10_m8ibN-ipb8IA-Tu1rwbPiYPG0II2G8CxBfb4UUt"
+   },
+   {
+    "position": 9,
+    "title": "Münchner Stadtbibliothek Bogenhausen",
+    "place_id": "ChIJbzeoZA11nkcRO-LbM0bQ61k",
+    "data_id": "0x479e750d64a8376f:0x59ebd04633dbe23b",
+    "data_cid": "6479501488838926907",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e750d64a8376f%3A0x59ebd04633dbe23b&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e750d64a8376f%3A0x59ebd04633dbe23b&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1518829,
+     "longitude": 11.619872299999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJbzeoZA11nkcRO-LbM0bQ61k",
+    "provider_id": "/g/1tdyvbt1",
+    "rating": 4.1,
+    "reviews": 134,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Rosenkavalierpl. 16, 81925 München-Bogenhausen",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772417",
+    "website": "http://www.muenchner-stadtbibliothek.de/bibliotheken/stadtteilbibliotheken/bogenhausen/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechte Sitzgelegenheiten",
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz",
+       "Rollstuhlgerechtes WC"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Induktive Höranlage"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkkQm3Q8-jP2qcosr9D2ZusDBxprkgEG36MBW2XzjQY8A13sIX2qglgwSvW5U7kIzHzpziu3hd2e2lW9BbUvTBl2PW8qVyK-xLoDUEHzoPzTCw1FsDmO_9DisPGhGj7Vq7p6ms=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/VXcrCHicHcRRboIwGADgE1WgzQSW7EFWBaPLygZWfVmySlqh0MIP4nrA3cHbLNn38D1-1ThaePY8rchCGiN1NUE1CNONVTcuhGk9aQEJQOCtsg9W8KbJW5JHqGa4FwaGmOLzBDS526GR65Qs3xKOj67OT9EqILA94l5qOX_e-FMZNluXOeuuE1EXXGHN4-S7vBWJxoxH_eFnh-57Q8t15gxzxescbIC2718xvQJLVVqHhz60yxZe5sD3faT-F6j7Ax3ORIU"
+   },
+   {
+    "position": 10,
+    "title": "Münchner Stadtbibliothek im Motorama",
+    "place_id": "ChIJheaIJnzfnUcRG5OtbzSbx88",
+    "data_id": "0x479ddf7c2688e685:0xcfc79b346fad931b",
+    "data_cid": "14972106135730754331",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf7c2688e685%3A0xcfc79b346fad931b&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf7c2688e685%3A0xcfc79b346fad931b&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1298238,
+     "longitude": 11.591282399999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJheaIJnzfnUcRG5OtbzSbx88",
+    "provider_id": "/g/11rkd0bvsm",
+    "rating": 3.5,
+    "reviews": 135,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Rosenheimer Str. 30-32, 81669 München",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "10:00–19:00",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772435",
+    "website": "https://www.muenchner-stadtbibliothek.de/stadtbibliothek-im-motorama",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnmqBiLTKfrCSdoQbFyg_K41hMLIxfaPIb0KTjbxroULfcEjEMPqthmAP0ZUBYiIBzY0BbqReGTlr2yZWjlutlv265rlI6_1umMXl9gIWZQa6Lw9ptxJyRkx3_JqrFIWJtPeYf4=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/cnn4nHicHcTbDoIgAADQLzKxi1ttPWSzwstGZjN9cUkIGYoClvaDfUN_09Z5ON8P07pVK9PkbDahQlBOekUkFo0mjZ5gUZu0VQZWhjI3hwjFSVN3zj2I_VJuTzdxLHYjzf25xcIADuUVwQL4cVUMUpyDEruVG6JOs3qDQHZ20jt03ilwii4i-5jL6ZglFe81f07theTQzq2-Di98SWGSHa928Fq2evDG6DHMcq-TO5h4GpG0nK9fFgDAYP-x0fwA5jpGMg"
+   },
+   {
+    "position": 11,
+    "title": "Münchner Stadtbibliothek Laim",
+    "place_id": "ChIJgVO4EYTYnUcR3yjKLyVDZBA",
+    "data_id": "0x479dd88411b85381:0x106443252fca28df",
+    "data_cid": "1181142829272541407",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd88411b85381%3A0x106443252fca28df&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd88411b85381%3A0x106443252fca28df&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1364194,
+     "longitude": 11.5033633
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJgVO4EYTYnUcR3yjKLyVDZBA",
+    "provider_id": "/g/11c1rtb4s2",
+    "rating": 4.3,
+    "reviews": 77,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek",
+     "Öffentliche Bücherei"
+    ],
+    "address": "Fürstenrieder Str. 53, 80686 München-Laim",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772423",
+    "website": "http://www.muenchner-stadtbibliothek.de/bibliotheken/stadtteilbibliotheken/laim/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlcW7NN6Q1by7-DRUOLkft1W1DL_DcOc6wWucAgA9_YyZzbUBGaEIdki9uGJ44skTbtSzKQ-sYvnQJsHPAQ5NcplvwZDFG-JputIddXd_4r5x9Pv1XWpPy82XgpS_cpNxDLkCfKgw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/q2CAgnicHcTdEkJAGADQJ9rYUtJMF2qLMKKfWXVj8tFqiB27SG_YI_Q2zXQuzveTS8nFQlHKfDJidc3KrBVZA3Uls0qOoH4qjAsEAgnFtA_BiZZAdd-fhTgZdEQO571X3CWmmHgxgT3MetqCyUwjvgzXd3JeWbfNLi0eRms5miaKUyKPbzdE4tJVoSPswAynPvCy669kayGHt3KXplEaa830ZQQdjigPhvk4YvwYA_dfxCvWd5f1yx6rqory_4CqH8aRRaM"
+   },
+   {
+    "position": 12,
+    "title": "Münchner Stadtbibliothek Giesing",
+    "place_id": "ChIJsaMoknLfnUcRkcjbxhqclAE",
+    "data_id": "0x479ddf729228a3b1:0x1949c1ac6dbc891",
+    "data_cid": "113887529410480273",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf729228a3b1%3A0x1949c1ac6dbc891&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf729228a3b1%3A0x1949c1ac6dbc891&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1142815,
+     "longitude": 11.582307499999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJsaMoknLfnUcRkcjbxhqclAE",
+    "provider_id": "/g/11cmp8b6sc",
+    "rating": 4.1,
+    "reviews": 161,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Deisenhofener Str. 20, 81539 München-Obergiesing-Fasangarten",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772419",
+    "website": "https://www.muenchner-stadtbibliothek.de/stadtbibliothek-giesing",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkh8i2J9GdKYA5Q9WJNbZKUG2zHIqPeufL2_pIgWIFvP8rh8l-o9p-nxc1EswGjNBKem1jcwm3rqvvFznSL6TzaXFXa0CVhUqVqlSEQeSo-_0vg9Ft3L7g52JrRzt0DNZL7Mz4s=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/M7M3gHicHcTbEoFAAADQL1ptJcqMB7fSRRMhejGstYvarXaV2R_0Df7GjPNwvh8qZSVGmlZQs0c4JwV-CdwgziRmsod4qZFKACSA0CbLTbLNntS-G4HjXcPjxFo7WRBf8nDnGWrp1wl-3SLjVPkk8902sRtqF4A7FWBvpC9E5z3iaYhL_YG60mzqtnUVS6PBVp0P7uEMZ3u6q_d1kS7WOOXgBFviuNKMhsQygmajJJzHeTRcqb4YdzqEEND_CLAfLtdEPA"
+   },
+   {
+    "position": 13,
+    "title": "Münchner Stadtbibliothek Waldtrudering",
+    "place_id": "ChIJO5E_NNDhnUcRoeUAg_yiELE",
+    "data_id": "0x479de1d0343f913b:0xb110a2fc8300e5a1",
+    "data_cid": "12758876949753947553",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de1d0343f913b%3A0xb110a2fc8300e5a1&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de1d0343f913b%3A0xb110a2fc8300e5a1&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.112245699999995,
+     "longitude": 11.7065561
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJO5E_NNDhnUcRoeUAg_yiELE",
+    "provider_id": "/g/1q6kk46_l",
+    "rating": 4.7,
+    "reviews": 54,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Wasserburger Landstraße 241, 81827 München-Trudering-Riem",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772447",
+    "website": "http://www.muenchner-stadtbibliothek.de/waldtrudering",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm0DLxI2wUD6kwNQQSv6jvC_6dWk5nQX6-cXFvtw44m6zv6UANXXJvzD5nb74qlG9WPYo9xBHCCMcZFAgrIQR95PyaagBMdzVXKriiuyMeduiNtnwaVYiUTZ0JYmLeihwZyB5Ne7Q=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/yY77aXicHcTbToMwAADQL-roFLpg4gOX7OYgdI5ReDFYmlIH7aSFDv7QT_BvTDwP5_enNeauXxyna59XXCnesVGzgSppmDQrqnqH3zWgGmgn2J-zS9HD-PQ4PNk8RjebYvw-oa8p-kBNcfMkJghQsp2Mdd0eLRPKg5SQ47TEnvzcuN_dzi-yUvmPcB9FCa22AR8O-Ox72VzXPEya5UreBiHGOWHNKFIjbX0tRX6p4LHsT0y0tppDL2Ub_GrXEELQ_k-B_APkjEXn"
+   },
+   {
+    "position": 14,
+    "title": "Münchner Stadtbibliothek Neuperlach",
+    "place_id": "ChIJKUm8I97fnUcReT7SZ1cVxVY",
+    "data_id": "0x479ddfde23bc4929:0x56c5155767d23e79",
+    "data_cid": "6252427122821971577",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddfde23bc4929%3A0x56c5155767d23e79&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddfde23bc4929%3A0x56c5155767d23e79&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1018675,
+     "longitude": 11.644242199999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJKUm8I97fnUcReT7SZ1cVxVY",
+    "provider_id": "/g/1wd3v0nx",
+    "rating": 3.4,
+    "reviews": 71,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Charles-de-Gaulle-Straße 2A, 81737 München-Ramersdorf-Perlach",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772429",
+    "website": "http://www.muenchner-stadtbibliothek.de/neuperlach",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechte Sitzgelegenheiten",
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWncl_18rwOhpzIYPDZlpeyyRkK22RX_vh0MjK66h0mtdkStZx80HPGptuft3UZeNbcpD-J4PxoLGTcTgCdxt2kS6_-2E_6JWdeVftQf2lm3QvZBkPVgqpcDJsxAH7FsI62T0l70Qw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/tY-nTnicHcTdboIwGADQJyrUslSzZBdMpgj7Kch0ckNiKW2k0Go_BPeGewTfZonn4tz_FIB1z76vVeBJY6QWgxMXbnoQPXjcdL60DnGHnB_GOSv2PdfVbHEZv5T93RxYVGorbre8TQnJf6qrwh-nlFKFO6jbLZTTAsdsbWFoIPguxeeR2wglT2wy7-uCF3JZT0DaLa0Qeatosq_FroGsIboLsmv52rKdPFseJW4K4_nKbSgpsJ7jbHwZZxhjpB5z1P8DUXZFsg"
+   },
+   {
+    "position": 15,
+    "title": "Münchner Stadtbibliothek Riem",
+    "place_id": "ChIJw_63pskLnkcR7liijsRvmnI",
+    "data_id": "0x479e0bc9a6b7fec3:0x729a6fc48ea258ee",
+    "data_cid": "8258035756734503150",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e0bc9a6b7fec3%3A0x729a6fc48ea258ee&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e0bc9a6b7fec3%3A0x729a6fc48ea258ee&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1326994,
+     "longitude": 11.7044651
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJw_63pskLnkcR7liijsRvmnI",
+    "provider_id": "/g/11tdgkrj9g",
+    "rating": 4,
+    "reviews": 47,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Elisabeth-Castonier-Platz 19, 81829 München",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233728700",
+    "website": "https://www.muenchner-stadtbibliothek.de/stadtbibliothek-riem",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechtes WC"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlTZkULs3rJKiY6bosfU4RzcWRbtf6GISA5rvWvpoSmuW0HVn3X2y1VJOS-3j8qi7ZhogGhBKCp_N5SwgN31dInHvprKcF1YAW9sIfv4O5-NB5qDUEXvH_557SDVRIHzjbXcbAEtw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/AJ21HHicHcRRboIwAADQE1XAWp1L9oGiFllwoULRHxIqtCq2ldaSecMdYbcx8X28_z9hrTafntcJOOJK8a55mKZnStpG2hFTN49rA5gBxgtx9rOn3f54zb8N7LfJ-TCtlWnzSfZkNKttO93EJES9o04rcntQHxcSluPfoNjuCICXj_t5dhSKb8QiWeoqRWTgKQxOscRO9wlbB4eQzk3cuskOgXSB7lG-Kh2uEJqRqMhi_LzUJavDlR2-hsD3fSDeMyBf7cNEuA"
+   },
+   {
+    "position": 16,
+    "title": "Münchner Stadtbibliothek Ramersdorf",
+    "place_id": "ChIJ950otpPfnUcRCamuJinyt5g",
+    "data_id": "0x479ddf93b6289df7:0x98b7f22926aea909",
+    "data_cid": "11004530473059657993",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf93b6289df7%3A0x98b7f22926aea909&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf93b6289df7%3A0x98b7f22926aea909&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.117680199999995,
+     "longitude": 11.6146827
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ950otpPfnUcRCamuJinyt5g",
+    "provider_id": "/g/11cs69cbxf",
+    "rating": 4,
+    "reviews": 58,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Führichstraße 43, 81671 München-Ramersdorf-Perlach",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772431",
+    "website": "http://www.muenchner-stadtbibliothek.de/bibliotheken/stadtteilbibliotheken/ramersdorf/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnBKFf3yCL819jwgASyedGI2KGkdp5ETDVDac-cA7q3x5Va0r7YDeQiShbP-M95XWPZNXCY9lMlteX0YHTvtQFI-4pqgT6vAAqiLNEW540Q3D7VuearAPgLZxK7njzGICPl9ceg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/jjdyUHicHcTvEoEwAADwJ5pGktz5MEW64hZdf3zLzMJs1abwgp7B27jz-_D7fiqtazUzDF6ZAyYl4_ShaEuk0FToAZF3g9UKEAWUgdY7nGRiEa7O5suNpkPn2jO0f9GTH4xC_3aqrWXipV5JAEF2Yz6ttIStXXg0vuyrIwYbx8ozfNjmbuHwDdc0h8U66XS8CsC4blgy6RBqLtF2mVljGJuenT5o2SLMosMztMX17Qcu5g6hbN4PIYSg-k-A-AGnrULL"
+   },
+   {
+    "position": 17,
+    "title": "Münchner Stadtbibliothek im HP8",
+    "place_id": "ChIJA-eoymffnUcRGdWXqDGv_qE",
+    "data_id": "0x479ddf67caa8e703:0xa1feaf31a897d519",
+    "data_cid": "11672959912007685401",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf67caa8e703%3A0xa1feaf31a897d519&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf67caa8e703%3A0xa1feaf31a897d519&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1118297,
+     "longitude": 11.5536841
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJA-eoymffnUcRGdWXqDGv_qE",
+    "provider_id": "/g/11r_l1vfqr",
+    "rating": 3.5,
+    "reviews": 117,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek"
+    ],
+    "address": "Hans-Preißinger-Straße 6, 81379 München",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "10:00–19:00",
+     "dienstag": "10:00–19:00",
+     "mittwoch": "10:00–19:00",
+     "donnerstag": "10:00–19:00",
+     "freitag": "10:00–19:00",
+     "samstag": "10:00–15:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772434",
+    "website": "https://www.muenchner-stadtbibliothek.de/stadtbibliothek-im-hp8",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechtes WC"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnUgimO7lwENUl42pdXu1sAkKLpKkbBBeu3j6szckNHqTJKoqK4Pvok67Y_93b9CUj9U_k2YxHewblfwPq6zlKOUnLHO3Zg6GngyI9UpQIu9NCZVQZBDmvuH9eh8-ygBPXNtcy-gg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/0Rn5dXicHcRRbsIgGADgE2GrNVWW7ME6MxTT1kU27YtJkf1VKNABdvWGHsHbLNn38D0fjffWvUSRapIRGANKBCd-uNFeaD_ipo3AOsQdctGCfJT7L83g0hYz1a9ypqYTez6EsVtIurVU1lkmQnJN3Z3LnHT7DTUdnZY3I9PZ8YSTGi_ZFbOTnBx_iehr9d2XXXpXtGB6S4qkgvRdw7DGzO7WAefL6nNXZW_tLRAsmjkaICsPuecDAnjtx3Eco-Z_jvQfPEdGDw"
+   },
+   {
+    "position": 18,
+    "title": "Bayerische Staatsbibliothek",
+    "place_id": "ChIJn8y9OpN1nkcRxn7y8tha-Y8",
+    "data_id": "0x479e75933abdcc9f:0x8ff95ad8f2f27ec6",
+    "data_cid": "10374423104460062406",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75933abdcc9f%3A0x8ff95ad8f2f27ec6&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75933abdcc9f%3A0x8ff95ad8f2f27ec6&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.147493,
+     "longitude": 11.580321699999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJn8y9OpN1nkcRxn7y8tha-Y8",
+    "provider_id": "/m/068_4k",
+    "rating": 3.9,
+    "reviews": 797,
+    "type": "Bibliothek",
+    "types": [
+     "Bibliothek",
+     "Nationalbibliothek",
+     "Sehenswürdigkeit"
+    ],
+    "address": "Ludwigstraße 16, 80539 München-Maxvorstadt",
+    "country": "Deutschland",
+    "open_state": "Geöffnet · Schließt um 00:00",
+    "hours": "Geöffnet · Schließt um 00:00",
+    "operating_hours": {
+     "montag": "08:00–00:00",
+     "dienstag": "08:00–00:00",
+     "mittwoch": "08:00–00:00",
+     "donnerstag": "08:00–00:00",
+     "freitag": "08:00–00:00",
+     "samstag": "08:00–00:00",
+     "sonntag": "08:00–00:00"
+    },
+    "phone": "089 286382322",
+    "website": "https://www.bsb-muenchen.de/",
+    "description": "Riesiges Bücher-/Dokumentenarchiv von 1843. Prachtvolle Staatsbibliothek aus dem 19. Jh. mit mehr als 10 Mio. Büchern und berühmter Handschriftensammlung.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz",
+       "Rollstuhlgerechtes WC"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk-fNK-moa1vLIDDnxg2ojDsr__xD2PoqR1pcF8sCW0Dy6q1XAoSFEhMOMZsP7WdkCVL9qrY4YnnCKOCwC3H1XLYjW2pw-TjO8ID-Pe5yFFtrydWQEvFvqhRJNbfuGNFAsapvQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/k7oWxnicHcRBjoIwFADQExUo6uhMMgvS2tERAdFYcWOwIg1qW_gV5ILewduY-Bbv9ZTWGvhx3ascOKXW5bW4Q9EIrWyhrCP0zS0NIAEI3GCWJht-QedogW46x204p1Q9Sl9XFJrD4UH9RNcpNoJNgHCP9l813gV6zaZyGS_3kIz56UK24XfdZMNMKbKISUcGM7wLs4r7pkObKp7MKUqKUc-YbfoTX01b1tYy_Y-O5_tfxALITbv67bDneUh-Fki9Ae67RBg"
+   },
+   {
+    "position": 19,
+    "title": "Juristische Bibliothek",
+    "place_id": "ChIJ3Rew8_EBCUERxnHyZCEvG_8",
+    "data_id": "0x410901f1f3b017dd:0xff1b2f2164f271c6",
+    "data_cid": "18382338124516848070",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x410901f1f3b017dd%3A0xff1b2f2164f271c6&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x410901f1f3b017dd%3A0xff1b2f2164f271c6&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1373363,
+     "longitude": 11.5761399
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ3Rew8_EBCUERxnHyZCEvG_8",
+    "provider_id": "/g/1hc0z3g5p",
+    "rating": 3.9,
+    "reviews": 128,
+    "type": "Juristische Bibliothek",
+    "types": [
+     "Juristische Bibliothek",
+     "Bibliothek",
+     "Öffentliche Bücherei"
+    ],
+    "address": "Marienplatz 8, 80331 München-Altstadt-Lehel",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 09:00",
+    "hours": "Geschlossen · Öffnet Di um 09:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "09:00–13:00",
+     "mittwoch": "09:00–13:00",
+     "donnerstag": "09:00–13:00",
+     "freitag": "09:00–13:00",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 233772444",
+    "website": "https://www.muenchner-stadtbibliothek.de/bibliotheken/juristische-bibliothek/",
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmceYcIa0xPZV50xcE7G8QXlpwHql5s_JYTM-tdTwXXzlNUhK6fjk3zUsVy1HbbtNIyfE2sei-iFROKp1TQvBL16xwxs4G9qvrDti-d1dkg56MLH9wkr1FNp1L2A_3cX8cHrGw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/ujS7RHicHcTtsoFAGADgK1rt6pSPGT-cQYuEJuT8McfbqrRq9S4bF-ge3I0Zz4_n_cq0Vti3LJnZrbSqUiluKGqoSi1K3YLqYqUKCSBBa8jDVbS7gNjD9J82q7-tQxsYd7zuOpbK8Kt08DDbRwuik8jE8VMGm2zuns6F_dzg9sH48aiD6eM0bqPIST4Jl3PFovX912duYxr88XrXez3SOUlYUqSOu_B5zxQ1mwSK-e3hwYa4C7z2zMAwSinJvgMpP0-RRGw"
+   },
+   {
+    "position": 20,
+    "title": "Gemeindebibliothek Ottobrunn",
+    "place_id": "ChIJvTRkYt3gnUcRX4TTFV53vLs",
+    "data_id": "0x479de0dd626434bd:0xbbbc775e15d3845f",
+    "data_cid": "13527818626690942047",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de0dd626434bd%3A0xbbbc775e15d3845f&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de0dd626434bd%3A0xbbbc775e15d3845f&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.0647783,
+     "longitude": 11.6655123
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJvTRkYt3gnUcRX4TTFV53vLs",
+    "provider_id": "/g/11btm102ym",
+    "rating": 4.7,
+    "reviews": 49,
+    "type": "Öffentliche Bücherei",
+    "types": [
+     "Öffentliche Bücherei"
+    ],
+    "address": "Rathausplatz 2, 85521 Ottobrunn",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 11:00",
+    "hours": "Geschlossen · Öffnet Di um 11:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "11:00–18:00",
+     "mittwoch": "11:00–18:00",
+     "donnerstag": "14:00–20:00",
+     "freitag": "11:00–18:00",
+     "samstag": "10:00–13:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 60808500",
+    "website": "https://webopac.winbiap.de/ottobrunn/index.aspx",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechte Sitzgelegenheiten",
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz",
+       "Rollstuhlgerechtes WC"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmWt6Gledibk5zWKJY_978DWDyPhEkZ0G9ZavIQTJr50jFsQw7gMHZTgqBK3QlBP0uE991-5AucRiEPCC9ebdmbmA-qElsEX5ep4zxK5te_soUJno4g9-twwrLbmwzDg5xlArAd=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/7-oIH3icHcRdDoIgAADgE5G0oqKtB0r60dq02SxfWiLDCsQEo7xgZ-g2bX0P3_dTWlubqefJctATWgvJW8MbpivLK9tjWnmiNoAZYDyy3kdJqlI7WkleXPM76tIwOJ3xeOKn_jsq6T2DK5xdnps4CRoEb0sTu7HYrbNEPObhIJbzCLYU4z5ApGX7K40WC8zzQuWKgAeVhh4Rr4fdK0SWn40-BJUeCgysc802V67zBXpJ0pBi5voQQlD-Z6D6AR7nRJU"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&gl=de&google_domain=google.com&hl=de&ll=%4048.1%2C11.646%2C13z&q=Stadtbibliothek&start=20&type=search"
+  }
+ }
+}

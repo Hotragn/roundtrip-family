@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219923302",
+  "object": "chat.completion",
+  "created": 1791219923,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "Can you tell me where the bathroom is?",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 47,
+   "completion_tokens": 10,
+   "total_tokens": 57,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.699999988079071
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:05:23.400Z"
+}

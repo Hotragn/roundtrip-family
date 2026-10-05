@@ -1,0 +1,1774 @@
+{
+ "provenance": "synthetic",
+ "ranAt": "2026-10-05T17:18:03.174Z",
+ "rows": [
+  {
+   "system": "gemma-cf",
+   "english": "The bus comes at ten in the morning.",
+   "telugu": "బస్సు ఉదయం పది గంటలకు వస్తుంది.",
+   "back": "The bus comes at ten o'clock in the morning.",
+   "similarity": 0.9864215440976676,
+   "fluency": 5,
+   "correctness": 5,
+   "note": "Natural, clear, and perfectly accurate.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 69
+  },
+  {
+   "system": "gemma-cf",
+   "english": "Press the red strip after the big Safeway.",
+   "telugu": "పెద్ద Safeway దాటాక, ఆ ఎర్రటి స్ట్రిప్ నొక్కండి.",
+   "back": "After passing the big Safeway, press that red strip.",
+   "similarity": 0.8718818778157045,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "\"స్ట్రిప్\" is English loanword; native Telugu would use \"బ్యాండ్\" or \"పట్టి\"",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 0.825
+   },
+   "latencyMs": 2
+  },
+  {
+   "system": "gemma-cf",
+   "english": "Where is the bathroom?",
+   "telugu": "Bathroom ఎక్కడ ఉంది?",
+   "back": "Where is the bathroom?",
+   "similarity": 0.9999999999999998,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural but 'Bathroom' could be 'బాత్రూం'",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 0.5294117647058824
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "Please call this number.",
+   "telugu": "దయచేసి ఈ నంబర్‌కు కాల్ చేయండి.",
+   "back": "Please call this number.",
+   "similarity": 1.0000000000000002,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural but 'కాల్ చేయండి' is slightly English-influenced; 'ఫోన్ చేయండి' more native.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 2
+  },
+  {
+   "system": "gemma-cf",
+   "english": "The library has a Telugu book shelf.",
+   "telugu": "Library లో ఒక Telugu పుస్తకాల అరచేయ ఉంది.",
+   "back": "There is a shelf of Telugu books in the library.",
+   "similarity": 0.9362120680914032,
+   "fluency": 3,
+   "correctness": 4,
+   "note": "Library/Telugu in English; 'అరచేయి' misspelled",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 0.6176470588235294
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "Today there is a walking group in the park at nine.",
+   "telugu": "ఈరోజు రాత్రి తొమ్మిది గంటలకు park లో walking group ఉంది.",
+   "back": "There is a walking group in the park at nine o'clock tonight.",
+   "similarity": 0.8954309923284859,
+   "fluency": 3,
+   "correctness": 3,
+   "note": "\"రాత్రి\" added wrongly; \"park\" should be ఉద్యానవనం.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 0.6595744680851063
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "Come home before one o'clock for lunch and rest.",
+   "telugu": "మధ్యాహ్నం భోజనం చేసి కాసేపు విశ్రాంతి తీసుకోవడానికి ఒక గంట లోపు ఇంటికి వచ్చేయండి.",
+   "back": "Come home within an hour to have lunch and rest for a while.",
+   "similarity": 0.8699560793724415,
+   "fluency": 4,
+   "correctness": 3,
+   "note": "Missing 'before one o'clock'; says 'within one hour' instead",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "The temple serves free lunch on Saturdays.",
+   "telugu": "శనివారాల్లో ఆ Temple లో ఉచితంగా భోజనం పెడతారు.",
+   "back": "Free meals are provided at that temple on Saturdays.",
+   "similarity": 0.8799738931398098,
+   "fluency": 3,
+   "correctness": 4,
+   "note": "Temple in English script odd; 'పెడతారు' informal for temple context.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 0.8461538461538461
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "Show this card to the driver.",
+   "telugu": "దయచేసి ఈ card ని driver కి చూపించండి.",
+   "back": "Please show this card to the driver.",
+   "similarity": 0.9689898066069079,
+   "fluency": 3,
+   "correctness": 4,
+   "note": "English words 'card/driver' break flow; 'దయచేసి' adds politeness not in original.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 0.6666666666666666
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "Your stop is the next one.",
+   "telugu": "మీరు దిగాల్సిన స్టాప్ వచ్చే స్టాప్‌లోనే వస్తుంది.",
+   "back": "The stop where you need to get down will come at the same stop.",
+   "similarity": 0.6225129176236669,
+   "fluency": 3,
+   "correctness": 3,
+   "note": "Redundant 'స్టాప్' twice; 'వస్తుంది' odd for stop.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "It will be hot today, so carry water and walk in the shade.",
+   "telugu": "ఈరోజు చాలా ఎండగా ఉంటుంది, కాబట్టి నీళ్లు వెంట తీసుకెళ్లండి మరియు నీడలో నడవండి.",
+   "back": "It will be very sunny today, so carry water with you and walk in the shade.",
+   "similarity": 0.9433682192901393,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "చాలా extra; మరియు too formal",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "This group meets every Wednesday, and no English is needed.",
+   "telugu": "ఈ గ్రూప్ ప్రతి Wednesday కలుస్తుంది, దీనికి English అవసరం లేదు.",
+   "back": "This group meets every Wednesday, and English is not required for this.",
+   "similarity": 0.9748490249796139,
+   "fluency": 2,
+   "correctness": 4,
+   "note": "English words Wednesday, English, group unassimilated; unnatural code-mixing.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 0.6981132075471698
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "If you feel lost, show the help card to someone at the counter.",
+   "telugu": "మీకు దారి తెలియక కంగారుగా అనిపిస్తే, కౌంటర్ దగ్గర ఉన్నవారికి ఈ help card చూపించండి.",
+   "back": "If you feel anxious because you don't know the way, show this help card to the person at the counter.",
+   "similarity": 0.7972442422794692,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "'దారి తెలియక' adds 'don't know way'; 'help card' not transliterated",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 0.8857142857142857
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "The ticket costs two dollars and fifty cents.",
+   "telugu": "టికెట్ ధర రెండు డాలర్లు యాభై సెంట్లు అవుతుంది.",
+   "back": "The ticket price will be two dollars and fifty cents.",
+   "similarity": 0.9226915890812691,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural but 'అవుతుంది' slightly formal; coastal style prefers 'అండి' or softer ending.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "Mrs. Chen suggested the Asian market on Mowry Avenue.",
+   "telugu": "Mrs. Chen గారు Mowry Avenue లో ఉన్న Asian market కి వెళ్ళమని చెప్పారు.",
+   "back": "Mrs. Chen asked to go to the Asian market on Mowry Avenue.",
+   "similarity": 0.8079878082431408,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "Natural but 'గారు' after English name slightly odd; 'వెళ్ళమని' implies urging, not just suggesting.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 0.49122807017543857
+   },
+   "latencyMs": 2
+  },
+  {
+   "system": "gemma-cf",
+   "english": "Ask the woman at the front desk how to volunteer.",
+   "telugu": "ఫ్రంట్ డెస్క్ దగ్గర ఉన్న ఆవిడను వాలంటీర్‌గా ఎలా పని చేయవచ్చో అడిగి తెలుసుకోండి.",
+   "back": "Ask the lady at the front desk how you can work as a volunteer.",
+   "similarity": 0.953295978745146,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural; 'ఆవిడ' is warm and respectful.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "Tap I'm home when you are back.",
+   "telugu": "మీరు తిరిగి వచ్చాక, నేను ఇంటికి వచ్చేశానని ఒకసారి Tap చేయండి.",
+   "back": "Once you are back, tap once to let me know that you have reached home.",
+   "similarity": 0.8108051095683823,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "\"Tap\" untranslated; \"ఒకసారి\" slightly odd here.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 0.9411764705882353
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "The ride takes twenty-five minutes with six stops.",
+   "telugu": "ఆరు స్టాప్స్ ఉంటాయి, ప్రయాణానికి ఇరవై ఐదు నిమిషాలు పడుతుంది.",
+   "back": "There are six stops, and it takes twenty-five minutes to travel.",
+   "similarity": 0.8676467957180992,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural but 'స్టాప్స్' could be 'ఆగే చోట్లు' for warmth.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "Sit near the front so you can see the screen.",
+   "telugu": "స్క్రీన్ స్పష్టంగా కనిపించడానికి మీరు కొంచెం ముందు వైపున కూర్చోండి.",
+   "back": "Sit a little further forward so that the screen is clearly visible.",
+   "similarity": 0.8962573960442506,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "Natural but 'కొంచెం' softens 'near'; 'front' slightly diluted.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-cf",
+   "english": "Bring your reading glasses for the menu.",
+   "telugu": "మెనూ చూడటానికి మీ reading glasses తీసుకురండి.",
+   "back": "Bring your reading glasses to look at the menu.",
+   "similarity": 0.9748576264874913,
+   "fluency": 3,
+   "correctness": 4,
+   "note": "Code-mixing 'reading glasses' feels unnatural; native Telugu preferred.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 0.6410256410256411
+   },
+   "latencyMs": 1
+  },
+  {
+   "system": "gemma-or",
+   "english": "The bus comes at ten in the morning.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "Press the red strip after the big Safeway.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "Where is the bathroom?",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "Please call this number.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "The library has a Telugu book shelf.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "Today there is a walking group in the park at nine.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "Come home before one o'clock for lunch and rest.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "The temple serves free lunch on Saturdays.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "Show this card to the driver.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "Your stop is the next one.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "It will be hot today, so carry water and walk in the shade.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "This group meets every Wednesday, and no English is needed.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "If you feel lost, show the help card to someone at the counter.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "The ticket costs two dollars and fifty cents.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "Mrs. Chen suggested the Asian market on Mowry Avenue.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "Ask the woman at the front desk how to volunteer.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "Tap I'm home when you are back.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "The ride takes twenty-five minutes with six stops.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "Sit near the front so you can see the screen.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "gemma-or",
+   "english": "Bring your reading glasses for the menu.",
+   "telugu": "",
+   "back": "",
+   "similarity": null,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": null,
+   "latencyMs": null,
+   "error": "GemmaUnavailable: Every Gemma host failed: openrouter-31b: HTTP 429 after 4 tries"
+  },
+  {
+   "system": "qwen-4b",
+   "english": "The bus comes at ten in the morning.",
+   "telugu": "సాయంత్రం పది గంటలకు బస్సు వస్తుంది.",
+   "back": "The bus comes at ten o'clock in the evening.",
+   "similarity": 0.8577156827534915,
+   "fluency": 4,
+   "correctness": 2,
+   "note": "సాయంత్రం means evening, not morning (ఉదయం).",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "Press the red strip after the big Safeway.",
+   "telugu": "బిగ్ సేఫ్‌వేయ్‌ తర్వాత ఉన్న ఎరుపు స్ట్రిప్‌ను నొక్కండి.",
+   "back": "Press the red strip after Big SafeWay.",
+   "similarity": 0.7937904034969772,
+   "fluency": 3,
+   "correctness": 4,
+   "note": "\"బిగ్\" awkward; \"స్ట్రిప్\" unclear; better: \"పెద్ద సేఫ్‌వే తర్వాత ఉన్న ఎరుపు పట్టీని నొక్కండి\"",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "Where is the bathroom?",
+   "telugu": "బస్‌స్టాండ్‌లో బాత్‌రూమ్ ఎక్కడ ఉంది?",
+   "back": "Where is the bathroom in the bus stand?",
+   "similarity": 0.795351165680069,
+   "fluency": 3,
+   "correctness": 2,
+   "note": "Added 'in bus stand' wrongly; should be 'బాత్‌రూమ్ ఎక్కడ ఉంది?'",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "Please call this number.",
+   "telugu": "కొడండి ఈ నంబర్‌ను కాల్ చేయండి.",
+   "back": "Please call this number.",
+   "similarity": 1.0000000000000002,
+   "fluency": 2,
+   "correctness": 3,
+   "note": "కొడండి is wrong word; use దయచేసి. Mixed Telugu-English awkward.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "The library has a Telugu book shelf.",
+   "telugu": "లైబ్రరీలో తెలుగు పుస్తకాల షెల్ఫ్ ఉంది.",
+   "back": "There is a shelf for Telugu books in the library.",
+   "similarity": 0.9495389709203252,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural; 'లైబ్రరీ' slightly formal, 'గ్రంథాలయం' warmer",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "Today there is a walking group in the park at nine.",
+   "telugu": "ఈ రోజు ఉదయం 9 గంటలకు పార్క్‌లో వాళ్ళు వేచి ఉన్నారు.",
+   "back": "They were waiting in the park at 9 AM this morning.",
+   "similarity": 0.711149394720858,
+   "fluency": 3,
+   "correctness": 2,
+   "note": "వేచి ఉన్నారు means waiting, not walking group",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "Come home before one o'clock for lunch and rest.",
+   "telugu": "లంచు తినడానికి ఒక గంటకు ముందు ఇంటికి రావాలి, తర్వాత విశ్రాంతి తీసుకోవాలి.",
+   "back": "You should come home an hour before eating lunch, then take some rest.",
+   "similarity": 0.831938346513982,
+   "fluency": 3,
+   "correctness": 2,
+   "note": "Missing 'before one o'clock'; says 'before one hour' instead",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "The temple serves free lunch on Saturdays.",
+   "telugu": "సబ్బాతేజులకు ఆలయం మధ్యాహ్నం వేటాడుతుంది.",
+   "back": "The temple closes in the afternoon for the Sabbath holidays.",
+   "similarity": 0.5154330698429803,
+   "fluency": 1,
+   "correctness": 1,
+   "note": "Complete nonsense; 'సబ్బాతేజులకు' and 'వేటాడుతుంది' are wrong words.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "Show this card to the driver.",
+   "telugu": "ద్రైవర్‌కు ఈ కార్డును చూపించండి.",
+   "back": "Show this card to the driver.",
+   "similarity": 1,
+   "fluency": 5,
+   "correctness": 5,
+   "note": "Natural, respectful imperative; perfect match.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "Your stop is the next one.",
+   "telugu": "మీ స్టాప్ నాకటి.",
+   "back": "Where is your stop?",
+   "similarity": 0.7376677421534317,
+   "fluency": 2,
+   "correctness": 3,
+   "note": "\"స్టాప్\" awkward; \"నాకటి\" unclear. Better: \"మీది తర్వాత స్టాప్\" or \"మీ స్టాప్ తర్వాతదే\".",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "It will be hot today, so carry water and walk in the shade.",
+   "telugu": "ఈ రోజు చాలా వేడి ఉంది కాబట్టి, నీళ్లు తీసుకుని سای్‌లోనే నడవండి.",
+   "back": "It is very hot today, so take water and walk in the shade.",
+   "similarity": 0.9293950484539915,
+   "fluency": 3,
+   "correctness": 4,
+   "note": "\"చాలా\" added; \"سای్‌లోనే\" is Urdu script mix, should be \"నీడలోనే\"",
+   "script": {
+    "ok": false,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 1,
+    "teluguShare": 0.9423076923076923
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "This group meets every Wednesday, and no English is needed.",
+   "telugu": "ఈ గ్రూప్ మూడవ తేదీన జరుగుతుంది, అక్కడ ఇంగ్లీష్ అవసరం లేదు.",
+   "back": "This group will take place on the third date, and English is not required there.",
+   "similarity": 0.718425992949227,
+   "fluency": 2,
+   "correctness": 2,
+   "note": "మూడవ తేదీన = 3rd date, not every Wednesday",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "If you feel lost, show the help card to someone at the counter.",
+   "telugu": "మీరు గుమిపోతే, కౌంటర్‌లో ఉన్న వారికి మీ సహాయ కార్డు చూపండి.",
+   "back": "If you get lost, show your help card to the people at the counter.",
+   "similarity": 0.9297221272110897,
+   "fluency": 3,
+   "correctness": 3,
+   "note": "\"గుమిపోతే\" is wrong; should be \"తొట్రుపడితే/దారితప్పితే\". \"సహాయ కార్డు\" awkward; \"హెల్ప్ కార్డు\" better.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "The ticket costs two dollars and fifty cents.",
+   "telugu": "బిల్లెట్ ధర రెండు డాలర్లు మరియు పదిహేను సెంట్లు.",
+   "back": "The ticket price is two dollars and fifteen cents.",
+   "similarity": 0.8171726749134293,
+   "fluency": 3,
+   "correctness": 2,
+   "note": "\"బిల్లెట్\" is wrong; should be \"టిక్కెట్\". \"పదిహేను\" means fifteen, not fifty.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "Mrs. Chen suggested the Asian market on Mowry Avenue.",
+   "telugu": "మీరెమ్మ చెన్ అమ్మాయి మార్వీ అవెన్యూలోని ఆసియన్ మార్కెట్‌ను సూచించారు.",
+   "back": "You recommended the Asian market in Marvel Avenue, Remma Chen's girl.",
+   "similarity": 0.7186734182902388,
+   "fluency": 2,
+   "correctness": 2,
+   "note": "Mrs. Chen mistranslated as 'Chen girl'; Mowry→Marvi wrong",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "Ask the woman at the front desk how to volunteer.",
+   "telugu": "ఫ్రంట్ డెస్క్‌లో ఉన్న అమ్మాయికి, వాళ్ళు వాంటీర్ చేసుకోవడానికి ఎలా చేయాలో అడిగి చూడండి.",
+   "back": "Ask the girl at the front desk how they can volunteer.",
+   "similarity": 0.9395045387294854,
+   "fluency": 3,
+   "correctness": 2,
+   "note": "\"అమ్మాయి\" means girl, not woman; \"వాళ్ళు\" is wrong pronoun; \"వాంటీర్\" misspelled; awkward phrasing.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "Tap I'm home when you are back.",
+   "telugu": "తప్పకుండా, మీరు తిరిగి వచ్చినప్పుడు నేను ఇంటికి వస్తాను.",
+   "back": "Sure, I will come home when you return.",
+   "similarity": 0.7685774503775293,
+   "fluency": 3,
+   "correctness": 2,
+   "note": "Wrong meaning: says 'I will come home' instead of 'send message'.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "The ride takes twenty-five minutes with six stops.",
+   "telugu": "ఆ బస్సు ప్రయాణానికి 25 నిమిషాలు పడుతుంది, దానికి 6 స్టాప్స్ ఉన్నాయి.",
+   "back": "That bus takes 25 minutes for the journey, and it has 6 stops.",
+   "similarity": 0.8069756464605313,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "\"ఆ బస్సు\" adds bus; \"స్టాప్స్\" transliterated; slightly wordy",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "Sit near the front so you can see the screen.",
+   "telugu": "మీరు ఫ్రాంట్‌లో కూర్చుండి, స్క్రీన్‌ను చూడవచ్చు.",
+   "back": "You can sit in the front and see the screen.",
+   "similarity": 0.9149864309765497,
+   "fluency": 3,
+   "correctness": 3,
+   "note": "\"ఫ్రాంట్‌లో\" awkward; \"ముందు\" natural. Missing \"so that\" meaning.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-4b",
+   "english": "Bring your reading glasses for the menu.",
+   "telugu": "మీరు మీ చదువుతున్న కంటిపెట్టెలను (reading glasses) మెనుకు తీసుకువచ్చండి.",
+   "back": "Bring your reading glasses to the menu.",
+   "similarity": 0.9508782899141055,
+   "fluency": 2,
+   "correctness": 3,
+   "note": "\"చదువుతున్న కంటిపెట్టెలు\" is awkward; \"చదవడానికి వాడే కళ్ళద్దాలు\" natural. Redundant English in parentheses.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 0.7741935483870968
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "The bus comes at ten in the morning.",
+   "telugu": "బస్సు ఉదయం పది గంటలకు వస్తుంది.",
+   "back": "The bus comes at ten o'clock in the morning.",
+   "similarity": 0.9864215440976676,
+   "fluency": 5,
+   "correctness": 5,
+   "note": "Natural, clear, and perfectly accurate.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "Press the red strip after the big Safeway.",
+   "telugu": "బిగ్ సేవేజ్ తర్వాత ఎరుపు పట్టీని నొక్కండి.",
+   "back": "Press the red button after Big Savage.",
+   "similarity": 0.6492633158763711,
+   "fluency": 3,
+   "correctness": 4,
+   "note": "\"బిగ్ సేవేజ్\" awkward; \"పెద్ద\" better. \"సేఫ్‌వే\" closer transliteration.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "Where is the bathroom?",
+   "telugu": "బాత్‌రూమ్ ఎక్కడ ఉంది?",
+   "back": "Where is the bathroom?",
+   "similarity": 0.9999999999999998,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural but 'బాత్‌రూమ్' is English loanword; 'శౌచాలయం' more traditional",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "Please call this number.",
+   "telugu": "దయచేసి ఈ నంబర్‌కు కాల్ చేయండి.",
+   "back": "Please call this number.",
+   "similarity": 1.0000000000000002,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural but 'కాల్ చేయండి' is slightly English-influenced; 'ఫోన్ చేయండి' more native.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "The library has a Telugu book shelf.",
+   "telugu": "లైబ్రరీలో తెలుగు పుస్తకాల షెల్ఫ్ ఉంది.",
+   "back": "There is a shelf for Telugu books in the library.",
+   "similarity": 0.9495389709203252,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural; 'లైబ్రరీ' slightly formal, 'గ్రంథాలయం' warmer",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "Today there is a walking group in the park at nine.",
+   "telugu": "ఈరోజు ఉదయం 9 గంటలకు పార్క్‌లో వాకింగ్ గ్రూప్ ఉంది.",
+   "back": "There is a walking group in the park at 9 AM today.",
+   "similarity": 0.952760821991457,
+   "fluency": 5,
+   "correctness": 5,
+   "note": "Natural, clear, and complete translation.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "Come home before one o'clock for lunch and rest.",
+   "telugu": "ఒంటిగంటకు ముందు ఇంటికి వచ్చి భోజనం చేసి విశ్రాంతి తీసుకోండి.",
+   "back": "Come home an hour early, have your meal, and take some rest.",
+   "similarity": 0.8842180721156042,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural; 'ఒంటిగంట' is standard coastal usage.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "The temple serves free lunch on Saturdays.",
+   "telugu": "ఆలయం శనివారాలకు ఉచిత భోజనం అందిస్తుంది.",
+   "back": "The temple provides free meals on Saturdays.",
+   "similarity": 0.9076425780693753,
+   "fluency": 5,
+   "correctness": 5,
+   "note": "Natural, respectful tone; perfect meaning match.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "Show this card to the driver.",
+   "telugu": "డ్రైవర్‌కి ఈ కార్డ్ చూపించండి.",
+   "back": "Show this card to the driver.",
+   "similarity": 1,
+   "fluency": 5,
+   "correctness": 5,
+   "note": "Natural, respectful imperative; perfect match.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "Your stop is the next one.",
+   "telugu": "మీరు దిగే స్టాప్ తర్వాతిది.",
+   "back": "The next stop is where you get off.",
+   "similarity": 0.8105662284594043,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural but 'తర్వాతిది' slightly informal; 'మీది' warmer",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "It will be hot today, so carry water and walk in the shade.",
+   "telugu": "ఈరోజు చాలా వేడిగా ఉంటుంది, కాబట్టి నీళ్లు తీసుకెళ్ళండి, నీడలో నడవండి.",
+   "back": "It will be very hot today, so take water and walk in the shade.",
+   "similarity": 0.9663885704173406,
+   "fluency": 5,
+   "correctness": 5,
+   "note": "Natural, respectful imperative tone.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "This group meets every Wednesday, and no English is needed.",
+   "telugu": "ఈ గ్రూప్ ప్రతి బుధవారం సమావేశమవుతుంది, ఇక్కడ ఆంగ్లం అవసరం లేదు.",
+   "back": "This group meets every Wednesday, and English is not required here.",
+   "similarity": 0.9736897174791338,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "\"గ్రూప్\" could be \"సమూహం\"; \"ఇక్కడ\" slightly adds location.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "If you feel lost, show the help card to someone at the counter.",
+   "telugu": "మీకు దారి తప్పినట్లు అనిపిస్తే, కౌంటర్లో ఉన్న వారికి హెల్ప్ కార్డ్ చూపించండి.",
+   "back": "If you feel you have lost your way, show the help card to the person at the counter.",
+   "similarity": 0.9457131067423159,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "\"దారి తప్పినట్లు\" slightly narrow; \"హెల్ప్ కార్డ్\" could be more Telugu.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "The ticket costs two dollars and fifty cents.",
+   "telugu": "టिकెట్ ధర రెండు డాలర్లు, ఐదు సెంట్లు.",
+   "back": "The ticket price is two dollars and five cents.",
+   "similarity": 0.8812375062439158,
+   "fluency": null,
+   "correctness": null,
+   "note": "",
+   "script": {
+    "ok": false,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 1,
+    "teluguShare": 0.9655172413793104
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "Mrs. Chen suggested the Asian market on Mowry Avenue.",
+   "telugu": "మిస్సెస్ చెన్, మౌరీ యవనిూలో ఉన్న ఏషియన్ మార్కెట్‌ను సూచించారు.",
+   "back": "Mrs. Chen suggested the Asian market in Mauritius.",
+   "similarity": 0.8225837127863007,
+   "fluency": 3,
+   "correctness": 4,
+   "note": "\"యవనిూలో\" typo for \"అవెన్యూలో\"; \"మిస్సెస్\" awkward, use \"శ్రీమతి\"",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "Ask the woman at the front desk how to volunteer.",
+   "telugu": "ఫ్రంట్ డెస్క్‌లో ఉన్న అమ్మాయిని అడిగి, ఎలా వాలంటీర్ అవ్వాలి అని తెలుసుకోండి.",
+   "back": "Ask the girl at the front desk how to become a volunteer.",
+   "similarity": 0.9437158044489964,
+   "fluency": 3,
+   "correctness": 3,
+   "note": "\"అమ్మాయి\" means girl, not woman; \"అడిగి\" is casual; lacks respectful tone for elder.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "Tap I'm home when you are back.",
+   "telugu": "మీరు వచ్చాక 'Tap I'm home' నొక్కండి.",
+   "back": "Press 'Tap I'm home' after you arrive.",
+   "similarity": 0.799426521465634,
+   "fluency": 3,
+   "correctness": 4,
+   "note": "English phrase untranslated; 'మీరు' too formal for neighbor's daughter",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 0.6666666666666666
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "The ride takes twenty-five minutes with six stops.",
+   "telugu": "ఆ రైడ్‌లో ఆరు స్టాపులు ఉంటాయి, మొత్తం ఇరవై ఐదు నిమిషాలు పడుతుంది.",
+   "back": "There are six stops in that ride, and it takes twenty-five minutes in total.",
+   "similarity": 0.971002302512098,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "Natural but 'రైడ్' and 'స్టాపులు' are English loans; 'ప్రయాణం' and 'ఆగు ప్రదేశాలు' more native.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "Sit near the front so you can see the screen.",
+   "telugu": "స్క్రీన్ కనిపించేలా ముందు భాగంలో కూర్చోండి.",
+   "back": "Sit in the front so that the screen is visible.",
+   "similarity": 0.9483259423590775,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "Natural; 'స్క్రీన్' could be 'తెర' for warmth.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-35b",
+   "english": "Bring your reading glasses for the menu.",
+   "telugu": "మీరు మెనూ చూడటానికి మీ రీడింగ్ గ్లాసెస్ తీసుకురండి.",
+   "back": "Bring your reading glasses to look at the menu.",
+   "similarity": 0.9748576264874913,
+   "fluency": 3,
+   "correctness": 4,
+   "note": "\"రీడింగ్ గ్లాసెస్\" is English loanword; native Telugu would use \"చదువు కళ్ళద్దాలు\".",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "The bus comes at ten in the morning.",
+   "telugu": "బస్సు ఉదయం పది గంటలకు వస్తుంది.",
+   "back": "The bus comes at ten o'clock in the morning.",
+   "similarity": 0.9864215440976676,
+   "fluency": 5,
+   "correctness": 5,
+   "note": "Natural, clear, and perfectly accurate.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "Press the red strip after the big Safeway.",
+   "telugu": "పెద్ద Safeway దాటిన తర్వాత ఆ ఎర్ర స్ట్రిప్ నొక్కండి.",
+   "back": "Press that red strip after passing the big Safeway.",
+   "similarity": 0.9388864479743192,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "Natural but 'strip' transliterated; 'దాటిన' slightly off for 'after' in this context.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 0.8409090909090909
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "Where is the bathroom?",
+   "telugu": "మీరు బాత్రూమ్ ఎక్కడ ఉందో చెప్తారా?",
+   "back": "Can you tell me where the bathroom is?",
+   "similarity": 0.9382726496259117,
+   "fluency": 4,
+   "correctness": 3,
+   "note": "Added 'మీరు' and polite request; not exact translation.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "Please call this number.",
+   "telugu": "దయచేసి ఈ నంబర్‌కి కాల్ చేయండి.",
+   "back": "Please call this number.",
+   "similarity": 1.0000000000000002,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural but 'కాల్ చేయండి' is slightly English-influenced; 'ఫోన్ చేయండి' more native.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "The library has a Telugu book shelf.",
+   "telugu": "లైబ్రరీలో తెలుగు పుస్తకాల షెల్ఫ్ ఉంది.",
+   "back": "There is a shelf for Telugu books in the library.",
+   "similarity": 0.9495389709203252,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural; 'లైబ్రరీ' slightly formal, 'గ్రంథాలయం' warmer",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "Today there is a walking group in the park at nine.",
+   "telugu": "నేడు ఉదయం తొమ్మిది గంటలకు పార్కులో వాకింగ్ గ్రూప్ ఉంది.",
+   "back": "There is a walking group in the park at nine o'clock this morning.",
+   "similarity": 0.932718549482823,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural; 'వాకింగ్ గ్రూప్' could be 'నడక సమూహం' for warmth.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "Come home before one o'clock for lunch and rest.",
+   "telugu": "మీరు ఒంటి గంటలోపు ఇంటికి వచ్చేయండి, మధ్యాహ్నం భోజనం చేసి కాసేపు విశ్రాంతి తీసుకోండి.",
+   "back": "Come home within an hour, have lunch, and rest for a while.",
+   "similarity": 0.860422220275692,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "\"ఒంటి గంట\" is colloquial; \"ఒకటి గంట\" more standard. Otherwise natural.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "The temple serves free lunch on Saturdays.",
+   "telugu": "శనివారం ఆలయంలో ఉచితంగా భోజనం పెడతారు.",
+   "back": "Free meals are provided at the temple on Saturday.",
+   "similarity": 0.8746874994220007,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "Natural but 'ఆలయం' lacks 'the'; 'పెడతారు' slightly informal for temple.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "Show this card to the driver.",
+   "telugu": "ఈ కార్డు డ్రైవర్ గారికి చూపించండి.",
+   "back": "Show this card to the driver.",
+   "similarity": 1,
+   "fluency": 5,
+   "correctness": 5,
+   "note": "Natural, respectful; perfect translation.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "Your stop is the next one.",
+   "telugu": "మీ స్టాప్ తర్వాతే వస్తుంది.",
+   "back": "It will come only after your stop.",
+   "similarity": 0.6702834099245331,
+   "fluency": 3,
+   "correctness": 4,
+   "note": "\"స్టాప్\" too English; \"ఆగు ప్రదేశం/బస్సు ఆగు\" better.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "It will be hot today, so carry water and walk in the shade.",
+   "telugu": "ఈ రోజు చాలా వేడిగా ఉంటుంది కాబట్టి, నీళ్లు తీసుకుని నీడలోనే నడవండి.",
+   "back": "Since it will be very hot today, take water and walk in the shade.",
+   "similarity": 0.9471043989835117,
+   "fluency": 5,
+   "correctness": 5,
+   "note": "Natural, warm advice; perfect meaning match.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "This group meets every Wednesday, and no English is needed.",
+   "telugu": "ఈ గ్రూప్ ప్రతి బుధవారం కలుస్తుంది, ఇంగ్లీష్ అవసరం లేదు.",
+   "back": "This group meets every Wednesday, English is not required.",
+   "similarity": 0.969226901619271,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "\"గ్రూప్\" could be \"సమూహం\"; otherwise natural",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "If you feel lost, show the help card to someone at the counter.",
+   "telugu": "మీకు ఏమైనా సందేహం వస్తే, ఆ హెల్ప్ కార్డ్‌ను కౌంటర్ దగ్గర ఉన్న వారికి చూపించండి.",
+   "back": "If you have any doubts, show that help card to the person at the counter.",
+   "similarity": 0.8042017123028087,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "'ఏమైనా సందేహం' softens 'lost'; 'ఆ' added unnecessarily",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "The ticket costs two dollars and fifty cents.",
+   "telugu": "టికెట్ ధర రెండు డాలర్ల యాభై సెంట్లు.",
+   "back": "The ticket price is two dollars and fifty cents.",
+   "similarity": 0.9554300361725002,
+   "fluency": 3,
+   "correctness": 4,
+   "note": "Missing 'and' connector; 'యాభై' awkward without 'మరియు'",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "Mrs. Chen suggested the Asian market on Mowry Avenue.",
+   "telugu": "చెన్ గారు మోరీ అవెన్యూలో ఉన్న ఏషియన్ మార్కెట్ సూచించారు.",
+   "back": "Mr. Chen suggested the Asian Market in Mori Avenue.",
+   "similarity": 0.9020751653382694,
+   "fluency": 4,
+   "correctness": 5,
+   "note": "Natural but 'గారు' slightly formal for neighbor's tone",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "Ask the woman at the front desk how to volunteer.",
+   "telugu": "ఫ్రంట్ డెస్క్ దగ్గర ఉన్న అమ్మగారిని, వాలంటీర్‌గా ఎలా పని చేయాలో అడగండి.",
+   "back": "Ask the lady at the front desk how to work as a volunteer.",
+   "similarity": 0.9518794719496098,
+   "fluency": 4,
+   "correctness": 4,
+   "note": "\"అమ్మగారు\" is respectful but assumes elder; \"మహిళ\" is safer. \"వాలంటీర్‌గా పని చేయడం\" closer to meaning.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "Tap I'm home when you are back.",
+   "telugu": "మీరు ఇంటికి వచ్చినప్పుడు నేను ఇంట్లో ఉన్నానని ఒక మెసేజ్ పెట్టండి.",
+   "back": "Please send a message saying that I am at home when you come home.",
+   "similarity": 0.6106602942913513,
+   "fluency": 4,
+   "correctness": 3,
+   "note": "'Tap' missing; 'message' not transliterated",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "The ride takes twenty-five minutes with six stops.",
+   "telugu": "ఆ ప్రయాణానికి ఆరు స్టాప్‌లతో పాటు ఇరవై ఐదు నిమిషాలు పడుతుంది.",
+   "back": "That journey takes twenty-five minutes with six stops.",
+   "similarity": 0.8817462594527028,
+   "fluency": 3,
+   "correctness": 4,
+   "note": "\"స్టాప్‌లతో పాటు\" awkward; better \"ఆరు స్టాప్‌లు ఉండి\"",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "Sit near the front so you can see the screen.",
+   "telugu": "మీరు స్క్రీన్ బాగా కనిపించేలా ముందు కూర్చోండి.",
+   "back": "Sit in front so that the screen is clearly visible.",
+   "similarity": 0.9224769449970563,
+   "fluency": 5,
+   "correctness": 5,
+   "note": "Natural, respectful imperative; meaning exact.",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  },
+  {
+   "system": "qwen-397b",
+   "english": "Bring your reading glasses for the menu.",
+   "telugu": "మీరు మెనూ చదవడానికి మీ రీడింగ్ గ్లాసెస్ తీసుకురండి.",
+   "back": "Bring your reading glasses to read the menu.",
+   "similarity": 0.9797880345288266,
+   "fluency": 3,
+   "correctness": 4,
+   "note": "\"రీడింగ్ గ్లాసెస్\" is English loanword; native Telugu would use \"చదువు కళ్ళద్దాలు\".",
+   "script": {
+    "ok": true,
+    "nfcStable": true,
+    "replacementChars": 0,
+    "orphanMarks": 0,
+    "teluguShare": 1
+   },
+   "latencyMs": 0
+  }
+ ],
+ "eventResults": [
+  {
+   "listing": "Bathukamma celebration by the Telugu association of the Bay Area. Saturday Oct 10, 4 pm to 8 pm, Fremont community hall. Free entry, dinner for sale.",
+   "ok": true,
+   "data": {
+    "languageMatch": 2,
+    "suitsOlderAdults": true,
+    "indoor": true,
+    "free": true,
+    "costAmount": null,
+    "category": "Festival"
+   },
+   "latencyMs": 2
+  },
+  {
+   "listing": "Senior center chair yoga. Tuesdays 10:00 to 11:00 am. Free for members, $3 drop-in. Indoors, all levels.",
+   "ok": true,
+   "data": {
+    "languageMatch": 0,
+    "suitsOlderAdults": true,
+    "indoor": true,
+    "free": false,
+    "costAmount": null,
+    "category": "Fitness"
+   },
+   "latencyMs": 2
+  },
+  {
+   "listing": "Telugu movie screening with English subtitles, Saturday 7 pm, Cinemark Fremont. Tickets $14.",
+   "ok": true,
+   "data": {
+    "languageMatch": 2,
+    "suitsOlderAdults": true,
+    "indoor": true,
+    "free": false,
+    "costAmount": 14,
+    "category": "movie"
+   },
+   "latencyMs": 2
+  },
+  {
+   "listing": "English conversation circle for newcomers at the Fremont Main Library, Wednesdays 10:30 am. Free.",
+   "ok": true,
+   "data": {
+    "languageMatch": 0,
+    "suitsOlderAdults": true,
+    "indoor": true,
+    "free": true,
+    "costAmount": null,
+    "category": "education"
+   },
+   "latencyMs": 2
+  },
+  {
+   "listing": "Farmers market at the Irvington district, Sundays 9 am to 1 pm, outdoors. Free to visit.",
+   "ok": true,
+   "data": {
+    "languageMatch": 0,
+    "suitsOlderAdults": true,
+    "indoor": false,
+    "free": true,
+    "costAmount": 0,
+    "category": "market"
+   },
+   "latencyMs": 2
+  }
+ ],
+ "tinkerSpentUsd": 0
+}

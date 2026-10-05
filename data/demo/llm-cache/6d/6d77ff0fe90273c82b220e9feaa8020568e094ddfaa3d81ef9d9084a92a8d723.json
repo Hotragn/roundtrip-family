@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219949288",
+  "object": "chat.completion",
+  "created": 1791219949,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "The ticket price is two dollars and fifty cents.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 49,
+   "completion_tokens": 11,
+   "total_tokens": 60,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.7454545497894287
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:05:49.424Z"
+}

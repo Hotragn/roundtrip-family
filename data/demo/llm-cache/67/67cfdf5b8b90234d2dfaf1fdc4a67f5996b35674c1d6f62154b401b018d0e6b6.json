@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219965413",
+  "object": "chat.completion",
+  "created": 1791219965,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"category\": \"Festival\",\n  \"costAmount\": null,\n  \"free\": true,\n  \"indoor\": true,\n  \"languageMatch\": 2,\n  \"suitsOlderAdults\": true\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 147,
+   "completion_tokens": 53,
+   "total_tokens": 200,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 2.781818151473999
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:06:05.523Z"
+}

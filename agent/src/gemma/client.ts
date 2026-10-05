@@ -38,6 +38,8 @@ export interface GemmaConfig {
   sleep?: (ms: number) => Promise<void>;
   now?: () => Date;
   providers?: Provider[];
+  /** Separates cache entries for a pinned host, e.g. when comparing hosts in the model check. */
+  cacheNamespace?: string;
 }
 
 export class ReplayMiss extends Error {
@@ -70,12 +72,19 @@ export function defaultConfig(env: NodeJS.ProcessEnv = process.env): GemmaConfig
 }
 
 /** The part of a request that defines the answer. The model and host extras are left out on purpose. */
-export function cacheKeyFor(body: Record<string, unknown>): string {
+export function cacheKeyFor(body: Record<string, unknown>, namespace?: string): string {
   const { model: _model, stream: _stream, chat_template_kwargs: _c, reasoning: _r, ...rest } = body;
-  return hashKey({ family: "gemma-4", ...rest });
+  return hashKey(namespace ? { family: "gemma-4", namespace, ...rest } : { family: "gemma-4", ...rest });
 }
 
-export function createGemmaFetch(config: GemmaConfig): typeof fetch {
+export interface GemmaCounters {
+  live: number;
+  cached: number;
+  fallbacks: number;
+  failedAttempts: number;
+}
+
+export function createGemmaFetch(config: GemmaConfig, counters?: GemmaCounters): typeof fetch {
   const doFetch = config.fetchImpl ?? fetch;
   const sleep = config.sleep ?? ((ms: number) => new Promise((r) => setTimeout(r, ms)));
   const now = config.now ?? (() => new Date());
@@ -91,7 +100,7 @@ export function createGemmaFetch(config: GemmaConfig): typeof fetch {
     const body = JSON.parse(init.body) as Record<string, unknown>;
     if (body.stream) throw new Error("Streaming isn't supported; use non-streaming generate calls.");
 
-    const key = cacheKeyFor(body);
+    const key = cacheKeyFor(body, config.cacheNamespace);
     if (config.mode !== "record") {
       const hit = await config.cache.get(key);
       if (hit) {
@@ -108,7 +117,12 @@ export function createGemmaFetch(config: GemmaConfig): typeof fetch {
           attempts: 0,
           ok: true,
         });
-        return jsonResponse(hit.body, { "x-roundtrip-cache": "hit", "x-roundtrip-provider": hit.provider });
+        if (counters) counters.cached++;
+        return jsonResponse(hit.body, {
+          "x-roundtrip-cache": "hit",
+          "x-roundtrip-provider": hit.provider,
+          "x-roundtrip-original-ms": String(hit.latencyMs ?? 0),
+        });
       }
       if (config.mode === "replay") throw new ReplayMiss(key);
     }
@@ -177,8 +191,13 @@ export function createGemmaFetch(config: GemmaConfig): typeof fetch {
                 provider: p.id,
                 model: p.model,
                 createdAt: now().toISOString(),
+                latencyMs: Date.now() - started,
               };
               await config.cache.set(key, record);
+              if (counters) {
+                counters.live++;
+                if (p.id !== "cloudflare") counters.fallbacks++;
+              }
               return jsonResponse(json, { "x-roundtrip-cache": "miss", "x-roundtrip-provider": p.id });
             }
           } else {
@@ -188,6 +207,7 @@ export function createGemmaFetch(config: GemmaConfig): typeof fetch {
         } catch (e) {
           error = e instanceof Error ? e.name : "network error";
         }
+        if (counters) counters.failedAttempts++;
         await config.usage.log({
           ts: now().toISOString(),
           service: p.id,

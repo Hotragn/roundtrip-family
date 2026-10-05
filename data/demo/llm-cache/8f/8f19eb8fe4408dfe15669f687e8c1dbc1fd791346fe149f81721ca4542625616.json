@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 2, \"correctness\": 3, \"note\": \"\\\"చదువుతున్న కంటిపెట్టెలు\\\" is awkward; \\\"చదవడానికి వాడే కళ్ళద్దాలు\\\" natural. Redundant English in parentheses.\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:04:28.774Z"
+}

@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 4, \"correctness\": 5, \"note\": \"Natural; 'వాకింగ్ గ్రూప్' could be 'నడక సమూహం' for warmth.\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:05:30.376Z"
+}

@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219967505",
+  "object": "chat.completion",
+  "created": 1791219967,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"category\": \"Fitness\",\n  \"costAmount\": null,\n  \"free\": false,\n  \"indoor\": true,\n  \"languageMatch\": 0,\n  \"suitsOlderAdults\": true\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 146,
+   "completion_tokens": 52,
+   "total_tokens": 198,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 2.7454543113708496
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:06:07.634Z"
+}

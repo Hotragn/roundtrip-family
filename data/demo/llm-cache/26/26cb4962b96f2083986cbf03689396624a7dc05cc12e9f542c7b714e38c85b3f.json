@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219828751",
+  "object": "chat.completion",
+  "created": 1791219828,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "They were waiting in the park at 9 AM this morning.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 52,
+   "completion_tokens": 14,
+   "total_tokens": 66,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.8545454740524292
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:03:48.819Z"
+}

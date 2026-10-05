@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219867493",
+  "object": "chat.completion",
+  "created": 1791219867,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "Bring your reading glasses to the menu.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 58,
+   "completion_tokens": 9,
+   "total_tokens": 67,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.7727272510528564
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:04:27.594Z"
+}

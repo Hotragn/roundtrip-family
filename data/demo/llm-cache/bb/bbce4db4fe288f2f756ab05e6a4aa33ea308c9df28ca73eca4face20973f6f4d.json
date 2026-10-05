@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 3, \"correctness\": 4, \"note\": \"English phrase untranslated; 'మీరు' too formal for neighbor's daughter\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:05:10.305Z"
+}

@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 4, \"correctness\": 4, \"note\": \"Natural but 'రైడ్' and 'స్టాపులు' are English loans; 'ప్రయాణం' and 'ఆగు ప్రదేశాలు' more native.\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:05:13.007Z"
+}

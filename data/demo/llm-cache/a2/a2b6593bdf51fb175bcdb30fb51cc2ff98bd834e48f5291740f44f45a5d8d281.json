@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 3, \"correctness\": 3, \"note\": \"Redundant 'స్టాప్' twice; 'వస్తుంది' odd for stop.\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:03:03.225Z"
+}

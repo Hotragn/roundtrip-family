@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 3, \"correctness\": 2, \"note\": \"వేచి ఉన్నారు means waiting, not walking group\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:03:49.656Z"
+}

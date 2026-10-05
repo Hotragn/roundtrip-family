@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791224157132",
+  "object": "chat.completion",
+  "created": 1791224157,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c1\",\"parent\":\"mother\",\"reason\":\"She liked visiting the temple in the past.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c1\",\"parent\":\"father\",\"reason\":\"He enjoys temple visits and shared culture.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c6\",\"parent\":\"mother\",\"reason\":\"She enjoys visiting Indian grocery stores.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c7\",\"parent\":\"father\",\"reason\":\"He liked the Indian grocery outings before.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c8\",\"parent\":\"father\",\"reason\":\"He enjoys walking in parks when the weather is pleasant.\",\"firstRideTogether\":true,\"bringSomeone\":\"the neighbor on the same floor\",\"joinHelp\":false}],\"note\":\"No Telugu events were found this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2150,
+   "completion_tokens": 215,
+   "total_tokens": 2365,
+   "prompt_tokens_details": {
+    "cached_tokens": 640
+   },
+   "neurons": 22.499996185302734
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:15:57.242Z",
+ "latencyMs": 5575
+}

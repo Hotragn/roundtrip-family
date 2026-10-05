@@ -1,0 +1,1412 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps",
+ "request": "https://serpapi.com/search.json?engine=google_maps&type=search&q=park+walking+trail&ll=%4045.679%2C-111.038%2C13z&gl=us&hl=en",
+ "note": "places: park walking trail",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:05:52.503Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "park walking trail",
+   "ll": "@45.679,-111.038,13z",
+   "google_domain": "google.com",
+   "hl": "en",
+   "gl": "us"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "park walking trail"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Peets Hill/Burke Park",
+    "place_id": "ChIJaz9hLvZERVMRmLrKgqKFN10",
+    "data_id": "0x534544f62e613f6b:0x5d3785a282caba98",
+    "data_cid": "6716984302271904408",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534544f62e613f6b%3A0x5d3785a282caba98&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534544f62e613f6b%3A0x5d3785a282caba98&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6738998,
+     "longitude": -111.0293315
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJaz9hLvZERVMRmLrKgqKFN10",
+    "provider_id": "/g/1tkjkwdk",
+    "rating": 4.8,
+    "reviews": 511,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park",
+     "tourist_attraction"
+    ],
+    "address": "429 E Story St, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(406) 587-8404",
+    "website": "https://gvlt.org/featured-trails/peets-hill-burke-park/",
+    "description": "Well-known spot for hiking & sledding. Green space featuring a popular hiking trail & a hill with scenic views & wintertime sledding.",
+    "extensions": [
+     {
+      "highlights": [
+       "Picnics"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "activities": [
+       "Hiking"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids",
+       "Kid-friendly hikes"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"Super dog friendly, beautiful views and multiple paths to choose from.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T9yIDjUejglTZwt9Q44IEl2bwa4L756jcx38PjuzrlPO_x1usWY57c00dF1NCYRQQ5gFQ_ISLhLJ17Om8TqdsH99RO4MYH9khlMgogn2G-SR1-g2ZGgzLLTL_v0SC3MPwVhgI0XA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/IBIEjHicHcTbboIwGADgJ6q0HMQu8cLgVEyR46Z4Q2Ylf8VK1RZR3tBH2Nss2Xfx_b6FMVf9YVlSOCNQCmTd6frOVWvq1oy4ulhw1YhrpK3ZZnt60YK-wnnzVTcgi31vaOq64ae0D_2Py3xv3PCnM0mabrjLJK6epNPb0vM5xscF2QRllqYeLNIqzJlga-LHl0lxO-oVpVnsRuWKnoWMQEFrL1GeEQT2fgkDYwWrHjgPnCjpvwWEeDeb9gRjjMT_HLV_f0pDYA"
+   },
+   {
+    "position": 2,
+    "title": "Gallatin County Regional Park",
+    "place_id": "ChIJCzm7XdxFRVMRtH2Fdvxmu_M",
+    "data_id": "0x534545dc5dbb390b:0xf3bb66fc76857db4",
+    "data_cid": "17562744406367632820",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534545dc5dbb390b%3A0xf3bb66fc76857db4&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534545dc5dbb390b%3A0xf3bb66fc76857db4&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6950748,
+     "longitude": -111.0889431
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJCzm7XdxFRVMRtH2Fdvxmu_M",
+    "provider_id": "/g/1hc2zhrtr",
+    "rating": 4.6,
+    "reviews": 570,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park"
+    ],
+    "address": "5000 Tschache Ln, Bozeman, MT 59718",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(406) 582-3270",
+    "website": "https://gvlt.org/featured-trails/gallatin-regional-park/",
+    "description": "Trails, a playground, a dog park & more. This 87-acre park features mixed-use trails, a playground, climbing boulders, a dog park & more.",
+    "extensions": [
+     {
+      "highlights": [
+       "Picnics"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "activities": [
+       "Hiking"
+      ]
+     },
+     {
+      "amenities": [
+       "Picnic tables",
+       "Public restroom",
+       "Slides",
+       "Swings"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids",
+       "Kid-friendly hikes",
+       "Playground"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot"
+      ]
+     },
+     {
+      "pets": [
+       "Dog park",
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"Great trails around ponds, super cool fenced in dog park.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ts3kaMERCWiS1xVDxwp94vnU3m-j1KeXodde5cnr9gY3ANgOnFHTB6u_bAZ-cUyojcL6hy-H2rNZJr3pLMck7FNXj40pMSs091ZGNW9MLRIqlfXWFah7pmzm1_ICNuI61K04dH=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Fhe16nicHcRdboIwAADgE1Vai5ia-MBUBgpd4h_IC9HStSK0HQUVL-gZdpsl-x6-37fsOmNnjlNLPBJai5r3lrdMq46rbsR04whjAbPAOj5NrwPZW3w7J6vtIr3u0PO4fD4Mce_qgBtQoQ3PdFnyCVMtESfsU_GlgnD_4fXFxc8BOwy6YrEnBxCOW5qvW2zihN2mAc0qF5pkZyFB-SdNSRJvo5_6O0uDs5ya5tWgIlrQPvLQBrplOH8gCCGQ_zOg_gBBmUOI"
+   },
+   {
+    "position": 3,
+    "title": "Gardner Park",
+    "place_id": "ChIJtTyssy5FRVMRqxnxOW27Czk",
+    "data_id": "0x5345452eb3ac3cb5:0x390bbb6d39f119ab",
+    "data_cid": "4110585162703641003",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345452eb3ac3cb5%3A0x390bbb6d39f119ab&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345452eb3ac3cb5%3A0x390bbb6d39f119ab&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.640764499999996,
+     "longitude": -111.0299692
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJtTyssy5FRVMRqxnxOW27Czk",
+    "provider_id": "/g/11f15dx020",
+    "rating": 4.9,
+    "reviews": 15,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park"
+    ],
+    "address": "Sourdough Trail, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open · Closes 12 AM",
+    "hours": "Open · Closes 12 AM",
+    "operating_hours": {
+     "monday": "5:30 AM–12 AM",
+     "tuesday": "5:30 AM–10 PM",
+     "wednesday": "5:30 AM–10 PM",
+     "thursday": "5:30 AM–10 PM",
+     "friday": "5:30 AM–10 PM",
+     "saturday": "5:30 AM–10 PM",
+     "sunday": "3:30 AM–1 AM"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"Great trail with a bridge and water access.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SPPeZiV9K-rvyqzIiM5pP-2pcOZxHUMIfKtH6GZygFX3n_6EleR7wg4r7GsXB7V_bpYkyf3UPy5O-Yp2VkTXX-Rrf623lP0S_19soxPHUpeoUtatFarexf0z-l_c7ajZyNdNrp4wc2E45a=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/u4gy_3icHcRNjoIwGADQE31S-Q2TzEITFWPERgdENgRrKWilnbYK9ZKu5zaT-Bbv790aI_WX4_DWmzAhGKcPTRURvaG9mRBxd5jUQDRoZ5YeOxsfMKZll8cbUE_7-1p320BicCXZlWOSbdfNxiThqrRsWXh9FS443UcD81W00sU8yquzPN1s42XYBjs4STe__RQF7FUTuh7H6FBNYy1GnGSSiszUZlkrOjboBbwiUX0tbXpJlfQH4i78oP4epgghaD8T6P8BxzlHyg"
+   },
+   {
+    "position": 4,
+    "title": "Glen Lake Rotary Park",
+    "place_id": "ChIJ21WUCxlERVMR8MkyAN7IOz0",
+    "data_id": "0x534544190b9455db:0x3d3bc8de0032c9f0",
+    "data_cid": "4412341115751156208",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534544190b9455db%3A0x3d3bc8de0032c9f0&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534544190b9455db%3A0x3d3bc8de0032c9f0&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.7045046,
+     "longitude": -111.0388199
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ21WUCxlERVMR8MkyAN7IOz0",
+    "provider_id": "/m/0vprkf2",
+    "rating": 4.5,
+    "reviews": 477,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park",
+     "tourist_attraction"
+    ],
+    "address": "173 Bridger Vale Dr, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open · Closes 12 AM",
+    "hours": "Open · Closes 12 AM",
+    "operating_hours": {
+     "monday": "7 AM–12 AM",
+     "tuesday": "7 AM–10 PM",
+     "wednesday": "7 AM–10 PM",
+     "thursday": "7 AM–10 PM",
+     "friday": "7 AM–10 PM",
+     "saturday": "7 AM–10 PM",
+     "sunday": "7 AM–12 AM"
+    },
+    "website": "https://www.bozemansunriserotary.org/sitepage/glen-lake-rotary-park/glen-lake-rotary-park",
+    "extensions": [
+     {
+      "highlights": [
+       "Picnics"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "activities": [
+       "Hiking"
+      ]
+     },
+     {
+      "amenities": [
+       "Barbecue grill",
+       "Picnic tables",
+       "Public restroom",
+       "Volleyball court"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids",
+       "Good for kids birthday",
+       "Kid-friendly hikes",
+       "Playground"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Free street parking",
+       "Paid parking lot"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"The park has a beautiful walking path with trees and a creek.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S7BB5w4DgqAHPkKtgjkZkC3HJ6BZZp1GJ1zfRECrCcwLxcZgSZav-bcwt9FuJxg7DQLI0nvADU2iEY1SLU3hbW6o_qT-PrQOuNOhcVsCgU1DJB02c5ARHfiUb1br_yGCj0088W=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/HDzQJHicHcRLDoIwFADAE1VaUfwkLqCgiMQfIrEbIy_YIkqRFlEv6Bm8jYmzmO9HaF2psWFchdnhUvJr1qisBlnqrNQdkDeDVwqBQsqwl0n-GkUDx-m3PZffbX9dLDS_FKygph9YDmMVmQXkfd56tKbQhk9gPGKnB0qh1aNpEzz5wN2Ec1w-bDfu5t6BRGFsijSx5PG-Q-t6s2qWKwF7RXlM3MDBXejbW_-cxylJ6-NrRi8YD4fJpCUYYyT-Ayp_DYJDLQ"
+   },
+   {
+    "position": 5,
+    "title": "Story Mill Community Park | City of Bozeman",
+    "place_id": "ChIJpwGyXn9FRVMRBoA64jA5We8",
+    "data_id": "0x5345457f5eb201a7:0xef593930e23a8006",
+    "data_cid": "17246879130108723206",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345457f5eb201a7%3A0xef593930e23a8006&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345457f5eb201a7%3A0xef593930e23a8006&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.701142,
+     "longitude": -111.02635699999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpwGyXn9FRVMRBoA64jA5We8",
+    "provider_id": "/g/11h4lhcrm6",
+    "rating": 4.9,
+    "reviews": 258,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park"
+    ],
+    "address": "698 Bridger Dr, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open · Closes 11 PM",
+    "hours": "Open · Closes 11 PM",
+    "operating_hours": {
+     "monday": "5 AM–11 PM",
+     "tuesday": "5 AM–11 PM",
+     "wednesday": "5 AM–11 PM",
+     "thursday": "5 AM–11 PM",
+     "friday": "5 AM–11 PM",
+     "saturday": "5 AM–11 PM",
+     "sunday": "5 AM–11 PM"
+    },
+    "phone": "(406) 582-2290",
+    "website": "https://www.bozemanmt.gov/departments/parks-and-recreation/parks",
+    "extensions": [
+     {
+      "highlights": [
+       "Picnics"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "activities": [
+       "Hiking"
+      ]
+     },
+     {
+      "amenities": [
+       "Cycling lanes",
+       "Picnic tables",
+       "Public restroom",
+       "Slides",
+       "Swings"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids",
+       "Good for kids birthday",
+       "Kid-friendly hikes",
+       "Playground"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"Very well kept grounds..\nNice walking paths.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SPENScSRNMtC4m9aHT1TSHDGRMQirOId_k3m3dnWYMBUO6y-jde1BMRifAE-3Iu4VI6EO_VgozVOksj47JjQW6KXadba85fK0BFJvZQF6eBpPK3cC2mmP3eif6wU8YSGPPmFaK=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/UH8msXicHcRJDoIwAADAF1XAYl0SD6KgSIBCFdSLwVI2LSW2avCDvsHfmDiH-X4qpTo507RbBQelEOWNPSS7U9Eq1qoBFVwrOwmoBFJbBGndTwm2A0JJHPhqafJpttkZO7JZrWM_qu-hm5-vkMO8TY--tQ9RD5qcGZYf18XCBtB9mImL7PCclOKdhFfZmONtE6XIO2T5JZuMCk-3nO3zFDmIWR32IF0OOceQ1QV67SdHssaYO5k3fxm6roPqPwXtD7OuQoc"
+   },
+   {
+    "position": 6,
+    "title": "Tuckerman Park",
+    "place_id": "ChIJcYt0pjJFRVMRGWCEUJf3ahQ",
+    "data_id": "0x53454532a6748b71:0x146af79750846019",
+    "data_cid": "1471260457552863257",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x53454532a6748b71%3A0x146af79750846019&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x53454532a6748b71%3A0x146af79750846019&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.636437099999995,
+     "longitude": -111.03287619999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJcYt0pjJFRVMRGWCEUJf3ahQ",
+    "provider_id": "/g/11c1nydn1z",
+    "rating": 4.6,
+    "reviews": 91,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park"
+    ],
+    "address": "7979 Goldenstein Ln, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open · Closes 11 PM",
+    "hours": "Open · Closes 11 PM",
+    "operating_hours": {
+     "monday": "5 AM–11 PM",
+     "tuesday": "5 AM–11 PM",
+     "wednesday": "5 AM–11 PM",
+     "thursday": "5 AM–11 PM",
+     "friday": "5 AM–11 PM",
+     "saturday": "5 AM–11 PM",
+     "sunday": "5 AM–11 PM"
+    },
+    "phone": "(406) 582-3222",
+    "website": "http://www.bozeman.net/",
+    "extensions": [
+     {
+      "activities": [
+       "Hiking"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids",
+       "Kid-friendly hikes"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"Such a nice path tucked in amongst the trees and next to a creek.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SBY_K_yJmkC-Yc3nLFk5_R-hwvr4x3s1Jl6UzL2TwY6jhEYLTDZxWBNEGZ2aFN912BPLwXcl-yS5oLAE08NPomx0WBEvzAeGXe577AW5ztCxxZLfH1dmrNmd2sz91wWwZ04CvM=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/rfRNzHicHcRRboIwAADQE1VaEB0mfgCiRrvGCEuFH7LUSjcpNbTSwgU9g7dZsvfx3i9hzEOvPK8VwaxRqmn5U_Oeqc7wzsyYkl7z0IBpoL2Y0J8xypOyPtbjQd5TULKgw9t7WJ-BsEM_d4FGh3bxNWG_sOXiV2QlLjaVownJdpX_vSUR8pMTthfWgjEPFY4z-EFOSjpIk2yYYr678HC5jGk4mdS5Ct_26Cp7Iq--niJkqa3gPB0-1xZBCIH4n4HuDwP6Q4A"
+   },
+   {
+    "position": 7,
+    "title": "Gallagator Trail",
+    "place_id": "ChIJXQsbwfdERVMRupRFOboyodI",
+    "data_id": "0x534544f7c11b0b5d:0xd2a132ba394594ba",
+    "data_cid": "15177467994621449402",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534544f7c11b0b5d%3A0xd2a132ba394594ba&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534544f7c11b0b5d%3A0xd2a132ba394594ba&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6733571,
+     "longitude": -111.0306755
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJXQsbwfdERVMRupRFOboyodI",
+    "provider_id": "/g/11d_77_pz2",
+    "rating": 4.7,
+    "reviews": 101,
+    "unclaimed_listing": true,
+    "type": "Tourist attraction",
+    "types": [
+     "Tourist attraction",
+     "Hiking area"
+    ],
+    "type_id": "tourist_attraction",
+    "type_ids": [
+     "tourist_attraction",
+     "hiking_area"
+    ],
+    "address": "Gallagator Linear Trail, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(406) 587-8404",
+    "website": "https://gvlt.org/featured-trails/gallagator-trail/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "activities": [
+       "Biking",
+       "Hiking",
+       "Jogging",
+       "Out-and-back trail",
+       "Easy trail",
+       "Walking"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed outside"
+      ]
+     }
+    ],
+    "user_review": "\"Great resource to experience peaceful natural surroundings.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sez-S7HIiLOfbttCpdmZ5gR9tmYcs1CGq9xUypKGa-8IVru3nw4qtBZxVjt0Rcd1x8R4RyYUkQ7zJNdVuJlB6dvn77_cb_87aSUGjvdrH087bmGN4Vytw9PtocDB_px3ejc9vJ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/LVZ-4nicHcTdToMwGADQJ-ooAS018UJmwoYGFQJmuyHjawdj0Hb0428v6DP4Niaei_P70yAa--Q4XeNtaq3rTo5WDqAVSoUb0L1TG0vAEuu8JN-XlWfyTjK221_eP84V4taI_vhQpxz7A1h3G934kq_mLTqRYF8Mo6dm_4bhcSlapCkIdwlSP10P-fWL3eNEFGPchY9iUoyVUJUBO2V51E5i2NGAVX2U-MWKM_9EDa9haRZPtsCn-Hl2KaWk-R-I-gPBLEWo"
+   },
+   {
+    "position": 8,
+    "title": "Wild West Bozeman Trail",
+    "place_id": "ChIJM92YGllFRVMRMhSbosh2c1s",
+    "data_id": "0x534545591a98dd33:0x5b7376c8a29b1432",
+    "data_cid": "6589741283866776626",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534545591a98dd33%3A0x5b7376c8a29b1432&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534545591a98dd33%3A0x5b7376c8a29b1432&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6853324,
+     "longitude": -111.0954797
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJM92YGllFRVMRMhSbosh2c1s",
+    "provider_id": "/g/11ry0nd30g",
+    "rating": 4.6,
+    "reviews": 14,
+    "unclaimed_listing": true,
+    "type": "Hiking area",
+    "types": [
+     "Hiking area"
+    ],
+    "type_id": "hiking_area",
+    "type_ids": [
+     "hiking_area"
+    ],
+    "address": "4209 Tilton St, Bozeman, MT 59718",
+    "country": "United States",
+    "extensions": [
+     {
+      "activities": [
+       "Hiking"
+      ]
+     }
+    ],
+    "user_review": "\"Bring bear spray\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TktaJ4pjoNmtWhfIozxswYs3zJEEOT5l9a5wA4HZOUvTksMMOoTgXwaHgJViJfi3sYBbgr-8Uep8a-WQHbyEtjQAYFm96PYpLjoj2YIpyE5Ehc2RCAw7VTPiSrbZfONoZNi96z=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/jvqS-XicHcTRToMwFADQL-rAMeYw8QGXLow42LQbljdooC0DbsOtVvhBv8G_MfE8nN8fZa3BJ8_rVbCSALJvPrGZBIy2Ge1KwOBJg0QgQS_OCj1H7G6rdGM6yAZbqPYIyzc6jsGSUpqzsI-q0MWbpMyvX-yOp1MOTH64KpHpTaetDpC_1HIiu2tjdhUpLkk9U9tdYn4You2Zm9cOujU_mpmGVIn12z52jzd21u9TXbZ5BmWmo-3y7B583yfqf0HGPwkrRdk"
+   },
+   {
+    "position": 9,
+    "title": "College M Trailhead and Picnic Area",
+    "place_id": "ChIJreGHJcRDRVMR4OmwFs9u4SI",
+    "data_id": "0x534543c42587e1ad:0x22e16ecf16b0e9e0",
+    "data_cid": "2513411902767426016",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534543c42587e1ad%3A0x22e16ecf16b0e9e0&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534543c42587e1ad%3A0x22e16ecf16b0e9e0&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.7094534,
+     "longitude": -110.97751369999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJreGHJcRDRVMR4OmwFs9u4SI",
+    "provider_id": "/g/11bwyvlf05",
+    "rating": 4.7,
+    "reviews": 255,
+    "unclaimed_listing": true,
+    "type": "Hiking area",
+    "types": [
+     "Hiking area"
+    ],
+    "type_id": "hiking_area",
+    "type_ids": [
+     "hiking_area"
+    ],
+    "address": "Bridger Canyon Rd, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open now",
+    "phone": "(406) 587-6701",
+    "website": "http://www.fs.usda.gov/recarea/custergallatin/recarea/?recid=81163",
+    "extensions": [
+     {
+      "activities": [
+       "Hiking",
+       "Jogging",
+       "Out-and-back trail",
+       "Moderate trail",
+       "Walking"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed outside"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "user_review": "\"Plenty of friendly people hiking, walking or running.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TQ3OzhM-iIGp39ktJA3930lHZ3x3NtYoB_-LMy9p8mRFIFsuIURp27RJz2TB_eERPywqKBV3UNVm38HJnA0aiuGA8mjkDfNZw6-8VFFEdLkdm07aulwQC2cyJM_5FBpj31NbXK=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/2ljZoXicHcTdEoFAGADQJ1qtvkGZcVFYihYN-blpWKnUtstuk7ygZ_A2ZpyL8_1kWks1NIwyg04qRFomtUqeTFQ6qXSHCW6kUiGmkDIcus9be7uB1TsLUO7NJNiF9h2wAZfzE7yA6qNwY7QMWltaPCQeUbW3C6U5CP23uXXjZBqu2-axcCPY0YiDNfcrB5_zeuZY_F5MbvTU9JEVETK9Losrx4NzXTabsclaP4h7xJV36NLLYTFquhhjlP1nqPoBrQBClA"
+   },
+   {
+    "position": 10,
+    "title": "Lindley Park",
+    "place_id": "ChIJVX5P819ERVMRhbClDNQq9OU",
+    "data_id": "0x5345445ff34f7e55:0xe5f42ad40ca5b085",
+    "data_cid": "16569916019236515973",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345445ff34f7e55%3A0xe5f42ad40ca5b085&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345445ff34f7e55%3A0xe5f42ad40ca5b085&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6777204,
+     "longitude": -111.0247153
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJVX5P819ERVMRhbClDNQq9OU",
+    "provider_id": "/m/0k4z986",
+    "rating": 4.7,
+    "reviews": 550,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park",
+     "tourist_attraction"
+    ],
+    "address": "Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "monday": "5 AM–10 PM",
+     "tuesday": "5 AM–10 PM",
+     "wednesday": "5 AM–10 PM",
+     "thursday": "5 AM–10 PM",
+     "friday": "5 AM–10 PM",
+     "saturday": "5 AM–10 PM",
+     "sunday": "5 AM–10 PM"
+    },
+    "phone": "(406) 582-2290",
+    "website": "https://www.bozeman.net/Home/Components/FacilityDirectory/FacilityDirectory/232/",
+    "description": "Park with a playground, trails & more. Park featuring a playground, picnic tables, a pavilion, trails, a bike rack & restrooms.",
+    "extensions": [
+     {
+      "highlights": [
+       "Picnics"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     },
+     {
+      "amenities": [
+       "Picnic tables",
+       "Public restroom",
+       "Slides",
+       "Swings"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids",
+       "Good for kids birthday",
+       "Playground"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"It had wide paths and clean seating areas.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SSX7oEI7LisJCjrTTzqMB6Mou6ikAdFvCvbHhbT6xCqplrl0gYxipKA0kaB4kAY-B6gpFyNElKqfEtEcV3dwVoQ5Oz4RLADD_XExEjFyJSe3q9i1LmuoGCORAFgAAlvMyWe0X2=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/rY5m9XicHcRdDoIgAADgE5GUZautBzTsT2ulK3tqRYQkCQqaesHO0G3a-h6-7yc1RumpZYnU7jEpmaCVpiWRuaG56RH5spjSgGigLbQ98XYSRclY4tU44HrtPcs47orQdUJZOTxDd7_26tsyvcVO4xVKlAKyc8PVBsHs6g4zdAauw5TfbrHYFA9sMDna9_dR7ke7bngI0Hx-SXCDn367jqhdTHg_eFVy4e0OyGcIiTpsTxQmg9m7DyEE6X8C8h-cIUTX"
+   },
+   {
+    "position": 11,
+    "title": "Cooper Park | City of Bozeman",
+    "place_id": "ChIJo7lm6lRERVMRrNhOFyDt8jo",
+    "data_id": "0x53454454ea66b9a3:0x3af2ed20174ed8ac",
+    "data_cid": "4247718120649578668",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x53454454ea66b9a3%3A0x3af2ed20174ed8ac&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x53454454ea66b9a3%3A0x3af2ed20174ed8ac&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6747678,
+     "longitude": -111.0466182
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJo7lm6lRERVMRrNhOFyDt8jo",
+    "provider_id": "/g/1tfj2v61",
+    "rating": 4.7,
+    "reviews": 332,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park",
+     "tourist_attraction"
+    ],
+    "address": "Cooper Park Trail, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open · Closes 11 PM",
+    "hours": "Open · Closes 11 PM",
+    "operating_hours": {
+     "monday": "5 AM–11 PM",
+     "tuesday": "5 AM–11 PM",
+     "wednesday": "5 AM–11 PM",
+     "thursday": "5 AM–11 PM",
+     "friday": "5 AM–11 PM",
+     "saturday": "5 AM–11 PM",
+     "sunday": "5 AM–11 PM"
+    },
+    "phone": "(406) 582-2290",
+    "website": "https://www.bozemanmt.gov/departments/parks-and-recreation/parks",
+    "extensions": [
+     {
+      "highlights": [
+       "Picnics"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "amenities": [
+       "Picnic tables"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids"
+      ]
+     },
+     {
+      "pets": [
+       "Dog park",
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"cute, clean park with lots of green grass, benches, and trees\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TWSRY00uJrE2lTd5PfNT3Rn0uIaxfvzZ2eLU2OMlDx9EvLvvDCmoKqMFqHk4cSoVgmRvrIpm7vetiXNQev-vc1narIFVmqCrqXMOM2GochPDE50jGwdWIw7IE2sJhzWfb6uUcX=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/cj5fY3icHcTdFoEwAADgJ5pm_g7nuHAUhkJScceshrbVthZe0DN4G-f4Lr7vhxlT6pHjFKzTyqXMC1prqogUhgrTIpI7eakB0UA7kyC5vYZRsg-PENZL5aEiuva2WRB1QgFrfH5m9n1CdH1AG79wn0PPrq11p1yuKn9WLR5dspdxzkOrcMkHlppbGuyoBZa0xVnhWcyrqapSf-OjuSRs63o9eJ831wQ3A-whvWTvJLv06wNJx00bQgjYfwLED7W2Rc0"
+   },
+   {
+    "position": 12,
+    "title": "Valley Grove Park",
+    "place_id": "ChIJNwFSCDNGRVMR4A2XeOCdpIw",
+    "data_id": "0x5345463308520137:0x8ca49de078970de0",
+    "data_cid": "10134398648911859168",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345463308520137%3A0x8ca49de078970de0&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345463308520137%3A0x8ca49de078970de0&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.7317058,
+     "longitude": -111.1317224
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJNwFSCDNGRVMR4A2XeOCdpIw",
+    "provider_id": "/g/11gbfpdrvn",
+    "rating": 4.9,
+    "reviews": 14,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park"
+    ],
+    "address": "339 Mountain Lion Trail, Bozeman, MT 59718",
+    "country": "United States",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "monday": "6 AM–10 PM",
+     "tuesday": "6 AM–10 PM",
+     "wednesday": "6 AM–10 PM",
+     "thursday": "6 AM–10 PM",
+     "friday": "6 AM–10 PM",
+     "saturday": "6 AM–10 PM",
+     "sunday": "6 AM–10 PM"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9THtAFfYKjJpLRlX2xyLp3jaTjaQFhMThSEd9Y5Kvc2YKdrNGEjPPB4ZxEFDgZa6LV2FTpusDfHKr0JOKCCJcwdOuMF7YtS8CaddAo2OsbORpLgonaDonb5FrjuvvRK_hM_76PxeA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/lot3H3icHcRdDoIgAADgE5lm_209mEpNNM1cZS-NwCBmwATNjtgRuk1b38P3_TBjlF7ads1GAyolratWVw2WwlTCDLB82lRpC2tL297u9Hgviq3xwL2EPFJxXp_d_h2rEUcFR3vAkoIdQrIoJ7DDbglJs9uEPMvW40sfgoBe0DQ-uqBQrQ7uW9g4UQp9P8IvkrYJmJXmMPcRIZ50U31LcxVTKVAgxW0CGt52XQ6vLLnOpllfeavX0HEci_3HlvgB_49FsQ"
+   },
+   {
+    "position": 13,
+    "title": "College 'M' Trail",
+    "place_id": "ChIJETZF0M9DRVMRbeNNoM_VDIc",
+    "data_id": "0x534543cfd0453611:0x870cd5cfa04de36d",
+    "data_cid": "9731387982565204845",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534543cfd0453611%3A0x870cd5cfa04de36d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534543cfd0453611%3A0x870cd5cfa04de36d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.7146921,
+     "longitude": -110.9734986
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJETZF0M9DRVMRbeNNoM_VDIc",
+    "provider_id": "/g/1tk4qtvf",
+    "rating": 4.7,
+    "reviews": 360,
+    "unclaimed_listing": true,
+    "type": "Hiking area",
+    "types": [
+     "Hiking area"
+    ],
+    "type_id": "hiking_area",
+    "type_ids": [
+     "hiking_area"
+    ],
+    "address": "Trail to 'M', Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "website": "https://www.gvlt.org/featured-trails/college-m-trail/",
+    "extensions": [
+     {
+      "activities": [
+       "Hiking",
+       "Out-and-back trail",
+       "Moderate trail",
+       "Walking"
+      ]
+     },
+     {
+      "parking": [
+       "Free street parking"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed outside"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "user_review": "\"Nice hike with breathtaking views from the top of the M :-)\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QCY2wI83bdhnvZisQk0WbNiYERvpojEsVdBB6kSYUM6mu8_Igk5QLb87zRDKYCzRaeE9G5YO9I7d4_n3UUNNW1UyDVWoGgR3SxEkYiA_wq49MYw5PSR6bG4iQewN-Dtf70S3o=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/UJ6lQHicHcRLjoIwAADQE1Wq5WsyCxVCiFqlBEndEIFaKtritNrRA84d5jaT-Bbv77c3ZtRzx7n2aMKV4lf20Oy7VdIwaSatujl81KDVQDsLXIlXlK_ozGYharpePo9C5wOsGixoQp6juiT60C2X_lDQcuvfHmGd8cHLN00YvEm8pqs3ObEkSj26i7Kgc2uJyhLjalq-4kOlUk5Q8ZMMVCxqe3ejLbXeviB-k7oiZxaD2JwDWCD1ZacQQtB_boH8B_hXQzc"
+   },
+   {
+    "position": 14,
+    "title": "Bozeman Pond Park",
+    "place_id": "ChIJNz2Y2plFRVMRX_4FN1fuSlA",
+    "data_id": "0x53454599da983d37:0x504aee573705fe5f",
+    "data_cid": "5785698729663528543",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x53454599da983d37%3A0x504aee573705fe5f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x53454599da983d37%3A0x504aee573705fe5f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6732465,
+     "longitude": -111.08183989999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJNz2Y2plFRVMRX_4FN1fuSlA",
+    "provider_id": "/g/11s97bs1vb",
+    "rating": 4.7,
+    "reviews": 34,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park"
+    ],
+    "address": "Bozeman, MT 59718",
+    "country": "United States",
+    "open_state": "Open now",
+    "extensions": [
+     {
+      "highlights": [
+       "Picnics"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "activities": [
+       "Hiking"
+      ]
+     },
+     {
+      "amenities": [
+       "Barbecue grill",
+       "Picnic tables",
+       "Public restroom",
+       "Slides",
+       "Swings"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids",
+       "Good for kids birthday",
+       "Kid-friendly hikes",
+       "Playground"
+      ]
+     },
+     {
+      "pets": [
+       "Dog park",
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"Easy get away for some sun and some shade.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QY_rbfl4ZP_HohaauYNs47dtrKfAoCe2MkKUacSVBra1y7sWbKYRFpO-pcZBJOFfGrAY2cX3Wseni1gBUFUuIIie5yhGeZ1qlJNJGAbBBZ5xxlHIDQLoqNv9bMoBdLPrswmdgydSEaTN3p=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Sh_Hp3icHcTBboIwGADgJ6qAaIxLdqDbQECrzjEGF1NKackqrf3LlKf0vLdZsu_w_T6kcwaePE_JcCa0FoqPwC3Tg-ODmzF98YQBxACBF5Gyn9bH6mybTi3qw3mjJaVjRWCxap3Nu0i_8PnuOy8oO31iS4NpBWWTV--x2SPDapzt4y6xUTVnX2EJfOgDgYu4GNO058tJJrwOriojWRI1GNfL-11t0tfjVl_Jz7rZadxuDxZul1ZM7emNfpDQPN8C3_eR_J-h4Q8MMkh5"
+   },
+   {
+    "position": 15,
+    "title": "Drinking Horse Mountain National Recreation Trail",
+    "place_id": "ChIJjVz3Q8FDRVMRLw-rLohRCT0",
+    "data_id": "0x534543c143f75c8d:0x3d0951882eab0f2f",
+    "data_cid": "4398136156444364591",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534543c143f75c8d%3A0x3d0951882eab0f2f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534543c143f75c8d%3A0x3d0951882eab0f2f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.707929199999995,
+     "longitude": -110.9801806
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJjVz3Q8FDRVMRLw-rLohRCT0",
+    "provider_id": "/g/11d_v7pvjg",
+    "rating": 4.8,
+    "reviews": 342,
+    "unclaimed_listing": true,
+    "type": "Tourist attraction",
+    "types": [
+     "Tourist attraction",
+     "Hiking area"
+    ],
+    "type_id": "tourist_attraction",
+    "type_ids": [
+     "tourist_attraction",
+     "hiking_area"
+    ],
+    "address": "Drinking Horse Hill Trail, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(406) 587-9265",
+    "website": "https://www.fws.gov/office/bozeman-fish-technology-center/visit-us/trails",
+    "extensions": [
+     {
+      "activities": [
+       "Hiking",
+       "Jogging",
+       "Loop trail",
+       "Moderate trail",
+       "Walking"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Paid parking lot"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed outside"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "user_review": "\"The trails are not that difficult and the views are outstanding.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RpRBqZsibilClh50pNEFOAceKg_a3_bcHClmSE6mHxecCNV-4wn5AcIlFxk9XnmS9meW6ahvxv6jXCroO3CxTdiIZU5zh5R2bsPsaQZ2Eugx5Q5j8odJP2JRMiLWeap6HDBrGq=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/qmGN9XicHcTbboIwAADQL6owWMkw8QErDm-ouInhxUBt2mpvUsTOH_Qb9jcmnofz_2RdZ-zQ8wQLB1RrKsjNkhZr1RHVDbCWHjUWYAusl-Ql_4sLU4yvleUNF0gw6Js8na4TTBb0WIfHBmdIyF0aycwRjPI9-LwrmOCZmLpLfFByF0tSRjXrXR-dD6jV6xC5nxOfVb_wwWARNHZj620VpDfq4Baev_RpvgnmxYovS1KbKJuM2-_r6P7h-z5g7zFQL7OzRTY"
+   },
+   {
+    "position": 16,
+    "title": "Grafs East Park",
+    "place_id": "ChIJw_0EjCFFRVMRyIo1vtPwUP4",
+    "data_id": "0x534545218c04fdc3:0xfe50f0d3be358ac8",
+    "data_cid": "18325411675990493896",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534545218c04fdc3%3A0xfe50f0d3be358ac8&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534545218c04fdc3%3A0xfe50f0d3be358ac8&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6513985,
+     "longitude": -111.03741649999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJw_0EjCFFRVMRyIo1vtPwUP4",
+    "provider_id": "/g/11dx8yyzr6",
+    "rating": 4.7,
+    "reviews": 21,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park"
+    ],
+    "address": "Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(406) 582-2290",
+    "website": "https://www.bozeman.net/Home/Components/FacilityDirectory/FacilityDirectory/189/1863?npage=2",
+    "extensions": [
+     {
+      "children": [
+       "Good for kids"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"Easy, flat trail.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RL12kb_yq7bhIKYJxuaaDESNv0jeoM2JWcc-HLnhqM5mbYr4BJw9x_8yy2XIeNuiV24NRnnelwdGrupamd99YFXgRJ8TdU-6dJoCRzeWwepzrtYTYgYycwBuiK16U1sPUKh_Qy=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/8uPJ-3icHcRdboIwAADgExUKOgdLfJi6HwoSRRn2iUBpWjZokbar9YI7w26zZN_D9_vDtZ7Uk-8PfOExKdlAjaIzkUJToT0iR59NChAFlP-cV72LiywIv9raXR9bnqQY3UzT7F5O-Tf8pHIfoooQ8J4Jft0_jC2elxtk41sdORdeEpqb_iNc5oUQdLDd22ymZuziGL9eWIGic1eCVYfktrjTytLpPmt8xgw7YjemT4NVGahDmfL66NY2gBAC_j8B4g_IrEYz"
+   },
+   {
+    "position": 17,
+    "title": "Snowfill Recreation Area",
+    "place_id": "ChIJC7hmSq5GRVMRnv-M77v0NIs",
+    "data_id": "0x534546ae4a66b80b:0x8b34f4bbef8cff9e",
+    "data_cid": "10030911358075994014",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534546ae4a66b80b%3A0x8b34f4bbef8cff9e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534546ae4a66b80b%3A0x8b34f4bbef8cff9e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.7214131,
+     "longitude": -111.03666179999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJC7hmSq5GRVMRnv-M77v0NIs",
+    "provider_id": "/g/11c575cppx",
+    "rating": 4.9,
+    "reviews": 254,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park",
+     "tourist_attraction"
+    ],
+    "address": "Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(406) 587-8404",
+    "website": "http://gvlt.org/featured-trails/snowfill-recreation-area/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "activities": [
+       "Hiking"
+      ]
+     },
+     {
+      "amenities": [
+       "Public restroom"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids",
+       "Kid-friendly hikes"
+      ]
+     },
+     {
+      "pets": [
+       "Dog park",
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"One of the best places for a dog walk in Bozeman, the view is spectacular!\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ST07qgt_n3SC4Wd0voF0_HBwJhdJryX1IFPIwrAowrILboys2dirAA820YnwI9y9FltIL1u1KsTtNEEfQj7Om8_gjnkJhpUKRmcg6cWhLm8MZd-2H4nmqGQpSCbrSkct8fbsLz=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/xYc1YHicHcRdDoIgAADgE5FoLbWtB2uamP1as3pxExUqAQOK2QU7Q7dp63v4vh-qdacmltXS4YAIQdr6qWqJBdc11wMsmEU6BbACygrW-bX3swN0H0QXfJjNR3kFXyKCRTwzCa0S2Z9sFG2RkYEwEqWl6JVTXWUQeA48c4P83o9ajVL7aS_VQa_DsNnd3A3zCnLj94R2x-WeYTLGOU2Zt7pUwIlHnD0Wuy6blzK7Y-01pUrfU2NDCAH9jwH_AYX1RWs"
+   },
+   {
+    "position": 18,
+    "title": "Bozeman Pond",
+    "place_id": "ChIJq0wCxJlFRVMR-_gJlu8MloI",
+    "data_id": "0x53454599c4024cab:0x82960cef9609f8fb",
+    "data_cid": "9409722694591183099",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x53454599c4024cab%3A0x82960cef9609f8fb&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x53454599c4024cab%3A0x82960cef9609f8fb&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.673851299999995,
+     "longitude": -111.0817414
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJq0wCxJlFRVMR-_gJlu8MloI",
+    "provider_id": "/g/1tfssk37",
+    "rating": 4.4,
+    "reviews": 464,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Tourist attraction"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park",
+     "tourist_attraction"
+    ],
+    "address": "700 S Fowler Ave, Bozeman, MT 59718",
+    "country": "United States",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "monday": "6 AM–9 PM",
+     "tuesday": "6 AM–9 PM",
+     "wednesday": "6 AM–9 PM",
+     "thursday": "6 AM–9 PM",
+     "friday": "6 AM–9 PM",
+     "saturday": "6 AM–9 PM",
+     "sunday": "6 AM–9 PM"
+    },
+    "phone": "(406) 444-2535",
+    "website": "https://myfwp.mt.gov/fishMT/waterbody/searchByID?waterBodyID=43188",
+    "description": "Park with a fishing pond, sports & more. Park featuring a fishing pond, picnic areas, a playground, sports facilities, restrooms & more.",
+    "extensions": [
+     {
+      "highlights": [
+       "Picnics"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "activities": [
+       "Hiking"
+      ]
+     },
+     {
+      "amenities": [
+       "Picnic tables",
+       "Public restroom",
+       "Swings",
+       "Volleyball court"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids",
+       "Good for kids birthday",
+       "Kid-friendly hikes",
+       "Playground"
+      ]
+     },
+     {
+      "pets": [
+       "Dog park",
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"The clean paths and shaded areas made walking enjoyable.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QCqM8gjg7TTTDK0hbCTg9x4EO98soqQQrnWYULjFtn5v7nVl5E14QyJBkltDjbcoptdIiTGVuTkQ-H1m8srBYuK1oPgJkfgS5Bdcq_psJjCWUoHOeQfIbcVilLD9NCFLbnq7sJ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/5F9UFHicHcRJDoIwFADQE1UgSgATFwIqAg6NBeLKhAplKC3wi8MJPYO3MfEt3vdTKdXDUtN4NZ8xKRkvJihGKoUqhJpR2WmsB0QBgbY-ZvXbwd5wsFnDLEKIH-lV7hHmvBabk2ODHDAeRXZN4marhPmwRMrNjbHA79BtufKbnMpe3fc12aUTaTEKjM6G0b1OkSHPLGxLdjHdOx1uPYSNlyUyOBW43Oc0rXnsO0dvG-disCBcPQ1d11H1nyLxA4eaRVA"
+   },
+   {
+    "position": 19,
+    "title": "Sourdough Trail Park",
+    "place_id": "ChIJAQCwWCZFRVMRinIq9fsPMuw",
+    "data_id": "0x5345452658b00001:0xec320ffbf52a728a",
+    "data_cid": "17019683516610933386",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x5345452658b00001%3A0xec320ffbf52a728a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x5345452658b00001%3A0xec320ffbf52a728a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6469337,
+     "longitude": -111.0321038
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJAQCwWCZFRVMRinIq9fsPMuw",
+    "provider_id": "/g/11jy9xvh9t",
+    "rating": 4,
+    "reviews": 1,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "type_id": "park",
+    "type_ids": [
+     "park"
+    ],
+    "address": "Bozeman, MT 59715",
+    "country": "United States",
+    "extensions": [
+     {
+      "children": [
+       "Good for kids"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed"
+      ]
+     }
+    ],
+    "user_review": "\"Nice walking, hiking and clean air.Cold and snowy at this time of year.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sa5ZYWuBY8wWcbbqDsLF3LMjk5Fdw88BbIcqXWeTwxAn9qtSRbMSeUWg1Jbo8hYVlJ-Jh4dXAi9tYI2b8zBzGHIGVnuYvqCS9AeJV8PpoekMdjzkV-RdoMBmfWR29Ru6d5u7RJ8g=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Ay_FiXicHcRdTsIwAADgE5UNcNKa-LBBwDXMmE5W6hv9oYWNdqOt093QI3gbE7-H7_fHhND7pyTpzHKmndOdil7dhbNB2TAT7pbo3gPhgU_yV3r5RvUp-2A0FgyOVHA-bPx-u9xX1zbbyhHCgpdiOFL1Pn7lFg2hJryq1YHqOeYOGtZ0GGDzII_5BQVWLjicimn3Uu4aG9nnsK5RrnAD33qn2kpep7YBRLqquJ0pWSASH2UWVwRD_TzO0zQF5n8B7B8YP0V4"
+   },
+   {
+    "position": 20,
+    "title": "Painted Hills Trailhead",
+    "place_id": "ChIJTZxtksBERVMR63GzPxOly7A",
+    "data_id": "0x534544c0926d9c4d:0xb0cba5133fb371eb",
+    "data_cid": "12739457473039266283",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x534544c0926d9c4d%3A0xb0cba5133fb371eb&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x534544c0926d9c4d%3A0xb0cba5133fb371eb&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 45.6561775,
+     "longitude": -111.00645739999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJTZxtksBERVMR63GzPxOly7A",
+    "provider_id": "/g/11c5492vvr",
+    "rating": 4.7,
+    "reviews": 27,
+    "unclaimed_listing": true,
+    "type": "Hiking area",
+    "types": [
+     "Hiking area"
+    ],
+    "type_id": "hiking_area",
+    "type_ids": [
+     "hiking_area"
+    ],
+    "address": "Painted Hills Trail, Bozeman, MT 59715",
+    "country": "United States",
+    "open_state": "Open now",
+    "website": "https://www.gvlt.org/featured-trails/painted-hills",
+    "extensions": [
+     {
+      "activities": [
+       "Biking",
+       "Birdwatching",
+       "Hiking",
+       "Jogging",
+       "Out-and-back trail",
+       "Walking"
+      ]
+     },
+     {
+      "pets": [
+       "Dogs allowed outside"
+      ]
+     }
+    ],
+    "user_review": "\"A beautiful trail, definitely a climb on switch backs\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Si4TTbvQbTS72RUOl090y-9CccHgsB3jTapUjHUpsiQxd5F0VdT_yGevO8sZRhjWWzhyocdmZmCaO6JtSf8YG2uqUY_F_m58vUaAUNvFbLmFB4_F660JmP7dLO0mlOD07z7O0kCw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/kKxtiHicHcRLDoIwFADAE1WePz4mLhRTjTFWpZXohkBBClKKtqJ4Q4_gbUycxXw_wphGTyyrEsNerlReZQ-d3bmqTVabHlfSyhuNuEbamm3DovOCYkRp0u4TGjiDAyMVeNAhz-d8lev5sKRxw8oVa3Sxf6VjDMeURt0ya4mrzwdRhuFbdIqn8iz9mNhrE1zc03LwuLFThCM5dlsWz9i2xclG4vkowrYNa7lz0g0BWZEFOG-HwNV_Tp99AEDiP0f1D_PwRM0"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&gl=us&google_domain=google.com&hl=en&ll=%4045.679%2C-111.038%2C13z&q=park+walking+trail&start=20&type=search"
+  }
+ }
+}

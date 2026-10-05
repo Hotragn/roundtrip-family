@@ -1,0 +1,1 @@
+{"results":[{"index":0,"pGo":0.9021,"enjoyment":3.334,"combined":3.0071,"reasons":[{"feature":"languageMatch","direction":"against","label":"Not in their language"},{"feature":"knowsSomeone","direction":"against","label":"No familiar faces yet"},{"feature":"setting","direction":"against","label":"Quiet, few people"}]}],"usage":{"apiCalls":10,"cacheHits":0},"ms":25283}

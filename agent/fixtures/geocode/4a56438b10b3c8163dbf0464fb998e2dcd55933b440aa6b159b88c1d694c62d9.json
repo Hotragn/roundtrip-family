@@ -1,0 +1,9 @@
+{
+ "query": "Hilton Garden Inn Cupertino, Cupertino, CA",
+ "location": {
+  "lat": 37.3334612,
+  "lng": -122.0148181
+ },
+ "displayName": "Hilton Garden Inn Cupertino, 10741, Wolfe Road, Cupertino, Santa Clara County, California, 95014, United States",
+ "source": "OpenStreetMap Nominatim (ODbL)"
+}

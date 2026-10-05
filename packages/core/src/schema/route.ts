@@ -23,6 +23,8 @@ export const Leg = z.object({
   numStops: z.number().int().min(0).optional(),
   departureTime: z.string().optional(),
   arrivalTime: z.string().optional(),
+  /** Every stop passed on the way, in order, not counting where they get on or off. */
+  stopsBetween: z.array(Stop).optional(),
   /** The stop just before theirs, so the ticket can say when to press stop. */
   stopBefore: Stop.optional(),
   /** Something big and visible near the stop before theirs, e.g. "the big Safeway". */

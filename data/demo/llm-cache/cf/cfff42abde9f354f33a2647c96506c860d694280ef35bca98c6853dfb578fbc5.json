@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219784063",
+  "object": "chat.completion",
+  "created": 1791219784,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "ఈరోజు చాలా ఎండగా ఉంటుంది, కాబట్టి నీళ్లు వెంట తీసుకెళ్లండి మరియు నీడలో నడవండి.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 94,
+   "completion_tokens": 28,
+   "total_tokens": 122,
+   "prompt_tokens_details": {
+    "cached_tokens": 64
+   },
+   "neurons": 1.3272724151611328
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:03:04.267Z"
+}

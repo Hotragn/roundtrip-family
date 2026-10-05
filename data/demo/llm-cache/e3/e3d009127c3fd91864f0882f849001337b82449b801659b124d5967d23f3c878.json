@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 3, \"correctness\": 4, \"note\": \"\\\"స్టాప్\\\" too English; \\\"ఆగు ప్రదేశం/బస్సు ఆగు\\\" better.\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:05:40.079Z"
+}

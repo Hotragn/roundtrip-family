@@ -1,0 +1,293 @@
+{
+ "provenance": "live_search",
+ "engine": "google",
+ "request": "https://serpapi.com/search.json?engine=google&q=Dasara+celebration+in+Fremont%2C+California+this+week&location=Fremont%2C+California%2C+United+States&gl=us&hl=en&google_domain=google.com",
+ "note": "events: Dasara celebration",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:21:05.615Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google",
+   "q": "Dasara celebration in Fremont, California this week",
+   "location_requested": "Fremont, California, United States",
+   "location_used": "Fremont,California,United States",
+   "google_domain": "google.com",
+   "hl": "en",
+   "gl": "us",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "Dasara celebration in Fremont, California this week",
+   "total_results": 55,
+   "time_taken_displayed": 0.38,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "related_questions": [
+   {
+    "question": "What to do in Fremont, California this weekend?",
+    "type": "ai_overview",
+    "page_token": "ACrWSHicHdDBTsIwHIDx-DIchULAQEJMYN2AaKFb--_oxYyWMba2K2yAcvNdfCqfRuL1O_3yff-Yo6t-n65F2_pm0u3ebrfnQ10fzP5Z1babNV9OdVVmzC5T1WT0MkKvuZriy3I2Py1nlHsPQdxjc2RUzyNR8T4tw3Rrh1ZHMgWLmkSQSqX-TPtQsEBv4jSmShyQjtRgF8FcRvItDsITgKw1g6V28kgsKnY9-JTYYNLzbpvKUpSr2b5q470wJFmYjLsVysLxOh0Q8x6SG3XGMTQmArSjAKFixQbwMH20SvPmLiKyAeMvqlzlGsBzJ4frgIAU2iZGj9TC58JCzrh2uNCOOY-36fbOq0KyBfnSHKjCnwjsOE7i-kh5fFelsRBAP4vGjvFivcdhwKMCdhG5ZwniD5tXuGk57eTqOh10_n9OP3LbTvy5PvwB93aE_w",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=ACrWSHicHdDBTsIwHIDx-DIchULAQEJMYN2AaKFb--_oxYyWMba2K2yAcvNdfCqfRuL1O_3yff-Yo6t-n65F2_pm0u3ebrfnQ10fzP5Z1babNV9OdVVmzC5T1WT0MkKvuZriy3I2Py1nlHsPQdxjc2RUzyNR8T4tw3Rrh1ZHMgWLmkSQSqX-TPtQsEBv4jSmShyQjtRgF8FcRvItDsITgKw1g6V28kgsKnY9-JTYYNLzbpvKUpSr2b5q470wJFmYjLsVysLxOh0Q8x6SG3XGMTQmArSjAKFixQbwMH20SvPmLiKyAeMvqlzlGsBzJ4frgIAU2iZGj9TC58JCzrh2uNCOOY-36fbOq0KyBfnSHKjCnwjsOE7i-kh5fFelsRBAP4vGjvFivcdhwKMCdhG5ZwniD5tXuGk57eTqOh10_n9OP3LbTvy5PvwB93aE_w",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1ZsaGxhelZ0U21KdFRtMTVZWFUyWjBsMVpGZHRWSGc0YkhwSWJqVndkREp1ZFRsU2VuQnFSRmgwVjJKamVGWkpia05rY2s5YVNVbFVSMGhET1dkMFQxZDBaRFZvY1dVMWNISnVRalZQYUZOSGFsODBiRTFZWHpSVlVSSVhaMDU2UkdGMk0xSklXVXh6Y25WRlVIQk1kVlp2VVVrYUlrRkVjM0k1WmxSMFRsZDZiMWhXYTBvd1J6aDVRM3BrUkc0dE1rWTNVV2xzWVZFIiwiZmN2IjoiMyIsImVpIjoiZ056RGF2M1JIWUxzcnVFUHBMdVZvUUkiLCJxYyI6IkNqSmtZWE5oY21FZ1kyVnNaV0p5WVhScGIyNGdhVzRnWm5KbGJXOXVkQ0JqWVd4cFptOXlibWxoSUhSb2FYTWdkMlZsYXhBQWZjaUwtRDQiLCJxdWVzdGlvbiI6IldoYXQgdG8gZG8gaW4gRnJlbW9udCwgQ2FsaWZvcm5pYSB0aGlzIHdlZWtlbmQ/IiwibGsiOiJHaTEzYUdGMElIUnZJR1J2SUdsdUlHWnlaVzF2Ym5RZ1kyRnNhV1p2Y201cFlTQjBhR2x6SUhkbFpXdGxibVEiLCJicyI6ImMtTks0dElQejBnc1VTakpWMGpKVjhqTVUzQXJTczNOenl2UlVYQk96TWxNeXlfS3kweFVLTW5JTEZZb1QwM05UczFMc1RmU2w5SXRSOUdTQnRHaWtJeGRod0FqQUEiLCJpZCI6ImZjX2dOekRhdjNSSFlMc3J1RVBwTHVWb1FJXzEifQ==",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1ZsaGxhelZ0U21KdFRtMTVZWFUyWjBsMVpGZHRWSGc0YkhwSWJqVndkREp1ZFRsU2VuQnFSRmgwVjJKamVGWkpia05rY2s5YVNVbFVSMGhET1dkMFQxZDBaRFZvY1dVMWNISnVRalZQYUZOSGFsODBiRTFZWHpSVlVSSVhaMDU2UkdGMk0xSklXVXh6Y25WRlVIQk1kVlp2VVVrYUlrRkVjM0k1WmxSMFRsZDZiMWhXYTBvd1J6aDVRM3BrUkc0dE1rWTNVV2xzWVZFIiwiZmN2IjoiMyIsImVpIjoiZ056RGF2M1JIWUxzcnVFUHBMdVZvUUkiLCJxYyI6IkNqSmtZWE5oY21FZ1kyVnNaV0p5WVhScGIyNGdhVzRnWm5KbGJXOXVkQ0JqWVd4cFptOXlibWxoSUhSb2FYTWdkMlZsYXhBQWZjaUwtRDQiLCJxdWVzdGlvbiI6IldoYXQgdG8gZG8gaW4gRnJlbW9udCwgQ2FsaWZvcm5pYSB0aGlzIHdlZWtlbmQ%2FIiwibGsiOiJHaTEzYUdGMElIUnZJR1J2SUdsdUlHWnlaVzF2Ym5RZ1kyRnNhV1p2Y201cFlTQjBhR2x6SUhkbFpXdGxibVEiLCJicyI6ImMtTks0dElQejBnc1VTakpWMGpKVjhqTVUzQXJTczNOenl2UlVYQk96TWxNeXlfS3kweFVLTW5JTEZZb1QwM05UczFMc1RmU2w5SXRSOUdTQnRHaWtJeGRod0FqQUEiLCJpZCI6ImZjX2dOekRhdjNSSFlMc3J1RVBwTHVWb1FJXzEifQ%3D%3D"
+   }
+  ],
+  "ai_overview": {
+   "page_token": "aGwGwniczVVZkqpIFF1Ar6P5sUoRyqkiiBdJigiFQ1LlgD8GAiYogw9U9P31XnpVvY5eQCcIilVa73V9dHRGYA53yHtv3uP540_X8dd__fa3vd1uoudKJY7jMg4C7FplI_AqenT0jcoycKPQsL9hl9tFlO1ylk_tdq7FxSUIJCRBCau-7C4mrZ0JD21tctjMvNZx4bm20hnv9KnqziD_ZoodejbtUcc9x1JGxNGU5XC4_6Ot71m1qylRuBOGG2U3DpBEpTdz84UeWSsS2GEVVeYV8rP-nW2TTTkqW35ZbLxtVo_MqNuVygzNsOVBRfeIAvhPB5YAAjyA5APSXS0ihL_iTRCIrgSEgiWfTgVrTMR8Mkko3Xfue5NSR5J9djBfdT0xBqB_9oXuWsvFjXKapN4pGmLFCx8sPh2nACDOQvup5u3DNPXTEAvSu5UXiF0xRVIsYYhJUYXcBF9fg4r6iU6crroSGPJ1gGJ0v9yJuQSgB_oy-jxDkHSEOsUv-W4BaHJSMTHpX7qyCMlUrTiGbaSLMEraGr616KBz1F40Zjap6U_qOmKgw7dZdTV4fWEMUDEWRM8NdNMy5_ac_pbuq0y1RrfYRvMhxZMRnQEVFQGlxba2cJioL4OyUuarOZpgsbjFSiano1vdk4AhyZ6_IcsMP5hBGFxts0chHa4LQLiuJex0E_EZ52RxwGB3_ZC5BUHJBzRlrXRpswRNiM-CUi9vdxWmJMBLIPCqSQcfcuSLfXWqnyS1c1kvl8TnQPjidVhOGjG_Ab6vFyZpQFIanNZpbAgnVxc8IL7HQ_Xq9nSR_F8DjE8--WIVYME6EYxTfVEg8IG8-krKA16zjJJYgiy5DnwHH7K9HBRLNCGfcq8jPh_8jX65pZXD5h0KrtCDFE3UsDmUxHj6oyGhgV8dw5W4CT1wGy2Bt_gX_GP83_CUsxM-sdN9PMFfwRNhJ3yDnTIwnJ47ZyckZ-x0H08vaSAZOyXWOTsNM5ULO33Ek1zEU85OzVNCGTt9HU_CJ3g6_2ffwBNJ_RaepHt4ytmpgKf1e3Yq4unCTjmevsZO6GvslMLLOk3XVLVb4fuUxbj7J4SQvjuiniZ7j6v2bGDs2brrxz-lrKW3ffZ0032YO-Yzz8jbo_kwJwfBs2VS37m2HumhXjIs11qE-tYJ_JLjlzqh5QX-9qEEdddZBqHv6KWt7USl2LLWlOeGAUfrtcOq4xxkQxN53KcVx9nV6HC41GcjZRVufMZmu3bdU3xjOnLmtcN43XDUw_feeGR3apZGvymjw1zwWluDjdZSY1qXwXBEqrqZqxrwg-W2KexDD6rdxlrsrIfhhrWkAWvqx_XTVH5pelAxaqzfXdZEzxvazD5O44q4weNkKiqO1qmTSHUzsrgq5YUGRzrlCYM-AhMMDAA1gEizIgJzBGPykccXeIY8KxUZ-tyK9tyi2VzUm0a92qzST616nfLw9rjhWjQV-SFX_QemO2Sk",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=aGwGwniczVVZkqpIFF1Ar6P5sUoRyqkiiBdJigiFQ1LlgD8GAiYogw9U9P31XnpVvY5eQCcIilVa73V9dHRGYA53yHtv3uP540_X8dd__fa3vd1uoudKJY7jMg4C7FplI_AqenT0jcoycKPQsL9hl9tFlO1ylk_tdq7FxSUIJCRBCau-7C4mrZ0JD21tctjMvNZx4bm20hnv9KnqziD_ZoodejbtUcc9x1JGxNGU5XC4_6Ot71m1qylRuBOGG2U3DpBEpTdz84UeWSsS2GEVVeYV8rP-nW2TTTkqW35ZbLxtVo_MqNuVygzNsOVBRfeIAvhPB5YAAjyA5APSXS0ihL_iTRCIrgSEgiWfTgVrTMR8Mkko3Xfue5NSR5J9djBfdT0xBqB_9oXuWsvFjXKapN4pGmLFCx8sPh2nACDOQvup5u3DNPXTEAvSu5UXiF0xRVIsYYhJUYXcBF9fg4r6iU6crroSGPJ1gGJ0v9yJuQSgB_oy-jxDkHSEOsUv-W4BaHJSMTHpX7qyCMlUrTiGbaSLMEraGr616KBz1F40Zjap6U_qOmKgw7dZdTV4fWEMUDEWRM8NdNMy5_ac_pbuq0y1RrfYRvMhxZMRnQEVFQGlxba2cJioL4OyUuarOZpgsbjFSiano1vdk4AhyZ6_IcsMP5hBGFxts0chHa4LQLiuJex0E_EZ52RxwGB3_ZC5BUHJBzRlrXRpswRNiM-CUi9vdxWmJMBLIPCqSQcfcuSLfXWqnyS1c1kvl8TnQPjidVhOGjG_Ab6vFyZpQFIanNZpbAgnVxc8IL7HQ_Xq9nSR_F8DjE8--WIVYME6EYxTfVEg8IG8-krKA16zjJJYgiy5DnwHH7K9HBRLNCGfcq8jPh_8jX65pZXD5h0KrtCDFE3UsDmUxHj6oyGhgV8dw5W4CT1wGy2Bt_gX_GP83_CUsxM-sdN9PMFfwRNhJ3yDnTIwnJ47ZyckZ-x0H08vaSAZOyXWOTsNM5ULO33Ek1zEU85OzVNCGTt9HU_CJ3g6_2ffwBNJ_RaepHt4ytmpgKf1e3Yq4unCTjmevsZO6GvslMLLOk3XVLVb4fuUxbj7J4SQvjuiniZ7j6v2bGDs2brrxz-lrKW3ffZ0032YO-Yzz8jbo_kwJwfBs2VS37m2HumhXjIs11qE-tYJ_JLjlzqh5QX-9qEEdddZBqHv6KWt7USl2LLWlOeGAUfrtcOq4xxkQxN53KcVx9nV6HC41GcjZRVufMZmu3bdU3xjOnLmtcN43XDUw_feeGR3apZGvymjw1zwWluDjdZSY1qXwXBEqrqZqxrwg-W2KexDD6rdxlrsrIfhhrWkAWvqx_XTVH5pelAxaqzfXdZEzxvazD5O44q4weNkKiqO1qmTSHUzsrgq5YUGRzrlCYM-AhMMDAA1gEizIgJzBGPykccXeIY8KxUZ-tyK9tyi2VzUm0a92qzST616nfLw9rjhWjQV-SFX_QemO2Sk"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "39439 Paseo Padre Parkway",
+    "link": "https://eventmozo.com/venue/Fremont-39439-Paseo-Padre-Parkway-168090-94538",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShQEB6zswFWSOGq0VeWWElGbvSgeG5HVU1-wlFCVJG1RPu2btTC3n1LD5bx3JGlhAf2B215s6CbchIj7lWsaUYIQCw7wtdWiXhUv6eCtvrNkn0Gwr4JgmBaDBwexSfBlmF8PB0NcXUL1Igw_rZ3AwLcuCJdEtmkZorhsV2HBZ-BJmKJGMn6k7&ved=2ahUKEwj9kd7asaOXAxUCtisGHaRdJSQQFnoECCMQAQ&uoh=1",
+    "displayed_link": "https://eventmozo.com › venue › Fremont-39439-Paseo-...",
+    "favicon": "https://serpapi.com/images/i/UklGRrgAAABXRUJQVlA4IKwAAADQAgCdASoQABAAAsBMJbACdBHAIs7_sCzZKNFek1-AAP7VF72j7VXs8du_EfmCmeEeJeRfqn-av2WRFjzxHz_-qASP__xX5j2xOxtVHw3WX_3IHzR6Lnm3R_nefpzH-Do5yR8Hsz-Ux3iL_8A8lfxin5x6GM_7ci2EI2_UfgX0K_X_kO84uQCMwo5tWll3w7E1qAJqggHRgA__nbFMCODrOBF272sK3WctGgAA.webp",
+    "snippet": "Festival Of India & Diwali Celebration · Sep 26, 2026 | 09:00 AM - 05:00 PM · 39439 Paseo Padre Parkway,Fremont, California, 94538 ...",
+    "snippet_highlighted_words": [
+     "39439 Paseo Padre Parkway,Fremont, California"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Festival Of India & Diwali Celebration · Sep 26, 2026 | 09:00 AM - 05:00 PM · 39439 Paseo Padre Parkway,Fremont, California, 94538 ...",
+      "source_info_link": "https://eventmozo.com/venue/Fremont-39439-Paseo-Padre-Parkway-168090-94538",
+      "icon": "https://serpapi.com/images/i/UklGRrgAAABXRUJQVlA4IKwAAADQAgCdASoQABAAAsBMJbACdBHAIs7_sCzZKNFek1-AAP7VF72j7VXs8du_EfmCmeEeJeRfqn-av2WRFjzxHz_-qASP__xX5j2xOxtVHw3WX_3IHzR6Lnm3R_nefpzH-Do5yR8Hsz-Ux3iL_8A8lfxin5x6GM_7ci2EI2_UfgX0K_X_kO84uQCMwo5tWll3w7E1qAJqggHRgA__nbFMCODrOBF272sK3WctGgAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsIBL2dvdG8_dXJsPUNBRVNoUUVCNnpzd0ZXU09HcTBWZVdXRWxHYnZTZ2VHNUhWVTEtd2xGQ1ZKRzFSUHUyYnRUQzNuMUxENWJ4M0pHbGhBZjJCMjE1czZDYmNoSWo3bFdzYVVZSVFDdzd3dGRXaVhoVXY2ZUN0dnJOa24wR3dyNEpnbUJhREJ3ZXhTZkJsbUY4UEIwTmNYVUwxSWd3X3JaM0F3TGN1Q0pkRXRta1pvcmhzVjJIQlotQkptS0pHTW42azcSBBoCCAAaqwgSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQPQHCAAQABgAIAAqJAoGZGFzYXJhFQAAAAAaCGR1c3NlaHJhGgtpdjtwO2Rhc2FyYSo-CgtjZWxlYnJhdGlvbhUisAM_GgpjZWxlYnJhdGVkGgxjZWxlYnJhdGlvbnMaBmV2ZW50cxoIZmVzdGl2YWwqCQoCaW4VAAAAACqHAQoHZnJlbW9udBVCBSZAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRVCBQZAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAywgEvZ290bz91cmw9Q0FFU2hRRUI2enN3RldTT0dxMFZlV1dFbEdidlNnZUc1SFZVMS13bEZDVkpHMVJQdTJidFRDM24xTEQ1YngzSkdsaEFmMkIyMTVzNkNiY2hJajdsV3NhVVlJUUN3N3d0ZFdpWGhVdjZlQ3R2ck5rbjBHd3I0SmdtQmFEQndleFNmQmxtRjhQQjBOY1hVTDFJZ3dfclozQXdMY3VDSmRFdG1rWm9yaHNWMkhCWi1CSm1LSkdNbjZrNzolMzk0MzkgUGFzZW8gUGFkcmUgUGFya3dheSAtIEV2ZW50TW96b0KkAUZlc3RpdmFsIE9mIEluZGlhICZhbXA7IERpd2FsaSBDZWxlYnJhdGlvbiAmbWlkZG90OyBTZXAgMjYsIDIwMjYgfCAwOTowMCBBTSAtIDA1OjAwIFBNICZtaWRkb3Q7IDxiPjM5NDM5IFBhc2VvIFBhZHJlIFBhcmt3YXksRnJlbW9udCwgQ2FsaWZvcm5pYTwvYj4sIDk0NTM4Jm5ic3A7Li4uSgJpbkoEdGhpcyICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsIBL2dvdG8_dXJsPUNBRVNoUUVCNnpzd0ZXU09HcTBWZVdXRWxHYnZTZ2VHNUhWVTEtd2xGQ1ZKRzFSUHUyYnRUQzNuMUxENWJ4M0pHbGhBZjJCMjE1czZDYmNoSWo3bFdzYVVZSVFDdzd3dGRXaVhoVXY2ZUN0dnJOa24wR3dyNEpnbUJhREJ3ZXhTZkJsbUY4UEIwTmNYVUwxSWd3X3JaM0F3TGN1Q0pkRXRta1pvcmhzVjJIQlotQkptS0pHTW42azcSBBoCCAAaqwgSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQPQHCAAQABgAIAAqJAoGZGFzYXJhFQAAAAAaCGR1c3NlaHJhGgtpdjtwO2Rhc2FyYSo-CgtjZWxlYnJhdGlvbhUisAM_GgpjZWxlYnJhdGVkGgxjZWxlYnJhdGlvbnMaBmV2ZW50cxoIZmVzdGl2YWwqCQoCaW4VAAAAACqHAQoHZnJlbW9udBVCBSZAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRVCBQZAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAywgEvZ290bz91cmw9Q0FFU2hRRUI2enN3RldTT0dxMFZlV1dFbEdidlNnZUc1SFZVMS13bEZDVkpHMVJQdTJidFRDM24xTEQ1YngzSkdsaEFmMkIyMTVzNkNiY2hJajdsV3NhVVlJUUN3N3d0ZFdpWGhVdjZlQ3R2ck5rbjBHd3I0SmdtQmFEQndleFNmQmxtRjhQQjBOY1hVTDFJZ3dfclozQXdMY3VDSmRFdG1rWm9yaHNWMkhCWi1CSm1LSkdNbjZrNzolMzk0MzkgUGFzZW8gUGFkcmUgUGFya3dheSAtIEV2ZW50TW96b0KkAUZlc3RpdmFsIE9mIEluZGlhICZhbXA7IERpd2FsaSBDZWxlYnJhdGlvbiAmbWlkZG90OyBTZXAgMjYsIDIwMjYgfCAwOTowMCBBTSAtIDA1OjAwIFBNICZtaWRkb3Q7IDxiPjM5NDM5IFBhc2VvIFBhZHJlIFBhcmt3YXksRnJlbW9udCwgQ2FsaWZvcm5pYTwvYj4sIDk0NTM4Jm5ic3A7Li4uSgJpbkoEdGhpcyICEAFIAFgAaAA",
+    "source": "EventMozo",
+    "read_more_link": "https://eventmozo.com/venue/Fremont-39439-Paseo-Padre-Parkway-168090-94538#:~:text=Festival%20Of%20India%20%26%20Diwali,Celebration&text=Sep%2026%2C%202026%20%7C%2009%3A00,AM%20%2D%2005%3A00%20PM&text=39439%20Paseo%20Padre%20Parkway%2CFremont%2C%20California%2C,94538"
+   },
+   {
+    "position": 2,
+    "title": "Experience FOG India Day 2026! 🇮🇳🇺🇸 Join us for the 34th ...",
+    "link": "https://www.instagram.com/reel/DaI9U28EdYl/",
+    "displayed_link": "2 likes · 3 months ago",
+    "thumbnail": "https://serpapi.com/searches/6ac3dc52bd1731ece08f21c6/images/y4ORhKR80GammzH9D-XBiJoFgcyk0cxB-rM3CShY2EQ.jpeg",
+    "favicon": "https://serpapi.com/images/i/UklGRs4BAABXRUJQVlA4IMIBAACwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHXnqv4q8gZxcYcQlttR3oGAAfrN6ZPsZeUqUy7yrvQBaXZxUNd6xeyZ_zpu3z7vEbG_rI9uLR3JAAD-bPWFChRsYA73DNfFBGB39AY4cc2rgYfPUbTnZSkmPIT9f5LwLGh1tr6GbI8_Wg5YyMLqPP_I5v8_74-PGNsMjg_WUbMOAh-IjBPzRGbszqR7w-L8gERR1HCDCy9n1undGs3qkDheeBATd9L9I-Aoo9FTSOQx_H8nQUHIFM6kvout0x-QCvYDa5PYNlH6Q0wXP9J5qEyzdAEM65Q3dTRjK18i8klikng6N72k76S7vLx-v9Mv8y6H-iwfMsRMuFs27Yye-WnY5LGgqhsZeH8167oiT3hIlNwprV8Gv8bjmAvv3_4d59fmIOOf_PXX3B5Q_PPQprbEq6U97aH_XlCEDWm5v9GJuV7HyOamOUMgseUuj_-piTqcRYQhGxTGIPcM4c15P3Imbj7QTHY5HyOiSVI1eHnj9YtD1bBIugmEKf-KfDkltWl0LUiTqQwVPaxvhDKQ1Wf35o_kqQp7rNwi0ci1WW30iEwAAAA.webp",
+    "snippet": "Join us for the 34th Annual Parade & Fair in Fremont, California! 🗓️ Dates: August 15th - 16th, 2026 ⏰ Time: 10 AM - 6 PM … celebration of ...",
+    "duration": "1:25",
+    "about_this_result": {
+     "source": {
+      "description": "Join us for the 34th Annual Parade & Fair in Fremont, California! 🗓️ Dates: August 15th - 16th, 2026 ⏰ Time: 10 AM - 6 PM … celebration of ...",
+      "icon": "https://serpapi.com/images/i/UklGRs4BAABXRUJQVlA4IMIBAACwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHXnqv4q8gZxcYcQlttR3oGAAfrN6ZPsZeUqUy7yrvQBaXZxUNd6xeyZ_zpu3z7vEbG_rI9uLR3JAAD-bPWFChRsYA73DNfFBGB39AY4cc2rgYfPUbTnZSkmPIT9f5LwLGh1tr6GbI8_Wg5YyMLqPP_I5v8_74-PGNsMjg_WUbMOAh-IjBPzRGbszqR7w-L8gERR1HCDCy9n1undGs3qkDheeBATd9L9I-Aoo9FTSOQx_H8nQUHIFM6kvout0x-QCvYDa5PYNlH6Q0wXP9J5qEyzdAEM65Q3dTRjK18i8klikng6N72k76S7vLx-v9Mv8y6H-iwfMsRMuFs27Yye-WnY5LGgqhsZeH8167oiT3hIlNwprV8Gv8bjmAvv3_4d59fmIOOf_PXX3B5Q_PPQprbEq6U97aH_XlCEDWm5v9GJuV7HyOamOUMgseUuj_-piTqcRYQhGxTGIPcM4c15P3Imbj7QTHY5HyOiSVI1eHnj9YtD1bBIugmEKf-KfDkltWl0LUiTqQwVPaxvhDKQ1Wf35o_kqQp7rNwi0ci1WW30iEwAAAA.webp"
+     }
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVlVwcmtiWVFSVnRMeGg5VDB5ODl1NkV3THVMV0R0V0lKblh5eV9ydmVNYUNhdFhlS1gxNFNiQTZVdXp6RXlLVFVpN25ULVJPb1M2UW5mSTlCMjNOQXozMnVnTzhzOXBPcDg3VGpyV2tPSkVIODRfNE0tbHBFMWZFVUNzVVhtTlVkNmcSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVlVwcmtiWVFSVnRMeGg5VDB5ODl1NkV3THVMV0R0V0lKblh5eV9ydmVNYUNhdFhlS1gxNFNiQTZVdXp6RXlLVFVpN25ULVJPb1M2UW5mSTlCMjNOQXozMnVnTzhzOXBPcDg3VGpyV2tPSkVIODRfNE0tbHBFMWZFVUNzVVhtTlVkNmcSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "source": "Instagram · nyso.us"
+   },
+   {
+    "position": 3,
+    "title": "FOG INDIA DAY Mela and Parade at Superior Court of ...",
+    "link": "https://events.sulekha.com/fog-india-day-mela-and-parade_event-in_fremont-ca_313700",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjgEB6zswFcgvMc4cG1vM3EQqHbXuauM9024Ql4utJAxmAn4xvAieuzM4D6ccdx4AAbKJWa_C8P3YnGXNntQjVr9lc2pDuxK-CQPzGr2e5cdYfv-jkK7Rz9wtIKowDXrD4JnVXmdP4sj7LXttFffmtFWFwQtsBmwnDy2NpqY2nqN5-nMb2x2YuoO6QH_0gquT&ved=2ahUKEwj9kd7asaOXAxUCtisGHaRdJSQQFnoECCQQAQ&uoh=1",
+    "displayed_link": "https://events.sulekha.com › fog-india-day-mela-and-par...",
+    "favicon": "https://serpapi.com/images/i/UklGRqYAAABXRUJQVlA4IJoAAADwAgCdASoQABAAAsBMJbACdDiAN4vIikkKOxXXL9QiAAD--rAJCBKSpY810l_YGo1mj9pm2ZB8vrVgWdgCbGQTGiiuuvZcM4QS-XA_rWnyNE3SktgjyspxBO-vAQ8R1LYUzaViJ_wX9UyD7KE-zUr_6aTx_mXQNc-Dvpo5f6O-a_fcAIt_RjQt_4JCj_TMC9WZe78ecXnK5AAA.webp",
+    "date": "Aug 12, 2026",
+    "snippet": "FOG INDIA DAY Mela and Parade. AUGUST 12 AND 13 IN FREMONT. will be held in Fremont on August 12th and 13th.",
+    "snippet_highlighted_words": [
+     "FREMONT",
+     "Fremont"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "FOG INDIA DAY Mela and Parade. AUGUST 12 AND 13 IN FREMONT. will be held in Fremont on August 12th and 13th.",
+      "source_info_link": "https://events.sulekha.com/fog-india-day-mela-and-parade_event-in_fremont-ca_313700",
+      "icon": "https://serpapi.com/images/i/UklGRqYAAABXRUJQVlA4IJoAAADwAgCdASoQABAAAsBMJbACdDiAN4vIikkKOxXXL9QiAAD--rAJCBKSpY810l_YGo1mj9pm2ZB8vrVgWdgCbGQTGiiuuvZcM4QS-XA_rWnyNE3SktgjyspxBO-vAQ8R1LYUzaViJ_wX9UyD7KE-zUr_6aTx_mXQNc-Dvpo5f6O-a_fcAIt_RjQt_4JCj_TMC9WZe78ecXnK5AAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZjZ3ZNYzRjRzF2TTNFUXFIYlh1YXVNOTAyNFFsNHV0SkF4bUFuNHh2QWlldXpNNEQ2Y2NkeDRBQWJLSldhX0M4UDNZbkdYTm50UWpWcjlsYzJwRHV4Sy1DUVB6R3IyZTVjZFlmdi1qa0s3Uno5d3RJS293RFhyRDRKblZYbWRQNHNqN0xYdHRGZmZtdEZXRndRdHNCbXduRHkyTnBxWTJucU41LW5NYjJ4Mll1b082UUhfMGdxdVQSBBoCCAAalQgSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQN4HCAAQABgAIAAqJAoGZGFzYXJhFQAAAAAaCGR1c3NlaHJhGgtpdjtwO2Rhc2FyYSo-CgtjZWxlYnJhdGlvbhUAAAAAGgpjZWxlYnJhdGVkGgxjZWxlYnJhdGlvbnMaBmV2ZW50cxoIZmVzdGl2YWwqCQoCaW4VAAAAACqHAQoHZnJlbW9udBVaCDxAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRWs1ShAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyzgEvZ290bz91cmw9Q0FFU2pnRUI2enN3RmNndk1jNGNHMXZNM0VRcUhiWHVhdU05MDI0UWw0dXRKQXhtQW40eHZBaWV1ek00RDZjY2R4NEFBYktKV2FfQzhQM1luR1hObnRRalZyOWxjMnBEdXhLLUNRUHpHcjJlNWNkWWZ2LWprSzdSejl3dElLb3dEWHJENEpuVlhtZFA0c2o3TFh0dEZmZm10RldGd1F0c0Jtd25EeTJOcHFZMm5xTjUtbk1iMngyWXVvTzZRSF8wZ3F1VDouRk9HIElORElBIERBWSBNZWxhIGFuZCBQYXJhZGUgLSBTdWxla2hhIEV2ZW50c0J6Rk9HIElORElBIERBWSBNZWxhIGFuZCBQYXJhZGUuIEFVR1VTVCAxMiBBTkQgMTMgSU4gPGI-RlJFTU9OVDwvYj4uIHdpbGwgYmUgaGVsZCBpbiA8Yj5GcmVtb250PC9iPiBvbiBBdWd1c3QgMTJ0aCBhbmQgMTN0aC5KBHRoaXNKAmluIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZjZ3ZNYzRjRzF2TTNFUXFIYlh1YXVNOTAyNFFsNHV0SkF4bUFuNHh2QWlldXpNNEQ2Y2NkeDRBQWJLSldhX0M4UDNZbkdYTm50UWpWcjlsYzJwRHV4Sy1DUVB6R3IyZTVjZFlmdi1qa0s3Uno5d3RJS293RFhyRDRKblZYbWRQNHNqN0xYdHRGZmZtdEZXRndRdHNCbXduRHkyTnBxWTJucU41LW5NYjJ4Mll1b082UUhfMGdxdVQSBBoCCAAalQgSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQN4HCAAQABgAIAAqJAoGZGFzYXJhFQAAAAAaCGR1c3NlaHJhGgtpdjtwO2Rhc2FyYSo-CgtjZWxlYnJhdGlvbhUAAAAAGgpjZWxlYnJhdGVkGgxjZWxlYnJhdGlvbnMaBmV2ZW50cxoIZmVzdGl2YWwqCQoCaW4VAAAAACqHAQoHZnJlbW9udBVaCDxAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRWs1ShAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyzgEvZ290bz91cmw9Q0FFU2pnRUI2enN3RmNndk1jNGNHMXZNM0VRcUhiWHVhdU05MDI0UWw0dXRKQXhtQW40eHZBaWV1ek00RDZjY2R4NEFBYktKV2FfQzhQM1luR1hObnRRalZyOWxjMnBEdXhLLUNRUHpHcjJlNWNkWWZ2LWprSzdSejl3dElLb3dEWHJENEpuVlhtZFA0c2o3TFh0dEZmZm10RldGd1F0c0Jtd25EeTJOcHFZMm5xTjUtbk1iMngyWXVvTzZRSF8wZ3F1VDouRk9HIElORElBIERBWSBNZWxhIGFuZCBQYXJhZGUgLSBTdWxla2hhIEV2ZW50c0J6Rk9HIElORElBIERBWSBNZWxhIGFuZCBQYXJhZGUuIEFVR1VTVCAxMiBBTkQgMTMgSU4gPGI-RlJFTU9OVDwvYj4uIHdpbGwgYmUgaGVsZCBpbiA8Yj5GcmVtb250PC9iPiBvbiBBdWd1c3QgMTJ0aCBhbmQgMTN0aC5KBHRoaXNKAmluIgIQAUgAWABoAA",
+    "source": "events.sulekha.com"
+   },
+   {
+    "position": 4,
+    "title": "https://www.fremont.gov/Home/Components/Calendar/E...",
+    "link": "https://www.fremont.gov/Home/Components/Calendar/Event/1699/17?toggle=next7days&curm=8&cury=2026",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESmwEB6zswFTY60PQz_aHC-NjXQs8rvht03i4lNOWtu0iSylTLhUmzcF4Jut0_9zkUxErw8UHBDBmyDWXsgGoWignf-C8JzF1l_UqUE3jMze-9w3e_DMLK37OcgkGqXPQL_hQkM_CkwlvuxhZZQka7M9OVduUjGy6PCeQb6Hsj5smpVKhMhQwbyMvxrrqHeGyUTO2aeAm5vIijjK7CEQ&ved=2ahUKEwj9kd7asaOXAxUCtisGHaRdJSQQFnoECCUQAQ&uoh=1",
+    "displayed_link": "https://www.fremont.gov › Home › Calendar › Event",
+    "favicon": "https://serpapi.com/images/i/UklGRogAAABXRUJQVlA4IHwAAABwBACdASocABwAPtE-tFooIigoFAEAGglAE6ZQADXAGWeWzv04VdJyhr4AAAD-DHcH14TDFxMDnuaNhqHeZQHTmq8jj9SrDzbp6bFeU5km7aUYAOCmRUYFBnYLYdZGMkxmhx6G4FicNSlcLvSws6TnWQa9fWqpcWLIdI4A.webp",
+    "snippet": "No information is available for this page.",
+    "about_this_result": {
+     "source": {
+      "source_info_link": "https://www.fremont.gov/Home/Components/Calendar/Event/1699/17?toggle=next7days&curm=8&cury=2026",
+      "icon": "https://serpapi.com/images/i/UklGRogAAABXRUJQVlA4IHwAAABwBACdASocABwAPtE-tFooIigoFAEAGglAE6ZQADXAGWeWzv04VdJyhr4AAAD-DHcH14TDFxMDnuaNhqHeZQHTmq8jj9SrDzbp6bFeU5km7aUYAOCmRUYFBnYLYdZGMkxmhx6G4FicNSlcLvSws6TnWQa9fWqpcWLIdI4A.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CuABL2dvdG8_dXJsPUNBRVNtd0VCNnpzd0ZUWTYwUFF6X2FIQy1OalhRczhydmh0MDNpNGxOT1d0dTBpU3lsVExoVW16Y0Y0SnV0MF85emtVeEVydzhVSEJEQm15RFdYc2dHb1dpZ25mLUM4SnpGMWxfVXFVRTNqTXplLTl3M2VfRE1MSzM3T2Nna0dxWFBRTF9oUWtNX0Nrd2x2dXhoWlpRa2E3TTlPVmR1VWpHeTZQQ2VRYjZIc2o1c21wVktoTWhRd2J5TXZ4cnJxSGVHeVVUTzJhZUFtNXZJaWpqSzdDRVESBBoCCAAa_QYSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQMYGCAAQABgAIAAqJAoGZGFzYXJhFQAAAAAaCGR1c3NlaHJhGgtpdjtwO2Rhc2FyYSo-CgtjZWxlYnJhdGlvbhUAAAAAGgpjZWxlYnJhdGVkGgxjZWxlYnJhdGlvbnMaBmV2ZW50cxoIZmVzdGl2YWwqCQoCaW4VAAAAACqHAQoHZnJlbW9udBUAAAA_GhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRUAAAAAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAy4AEvZ290bz91cmw9Q0FFU213RUI2enN3RlRZNjBQUXpfYUhDLU5qWFFzOHJ2aHQwM2k0bE5PV3R1MGlTeWxUTGhVbXpjRjRKdXQwXzl6a1V4RXJ3OFVIQkRCbXlEV1hzZ0dvV2lnbmYtQzhKekYxbF9VcVVFM2pNemUtOXczZV9ETUxLMzdPY2drR3FYUFFMX2hRa01fQ2t3bHZ1eGhaWlFrYTdNOU9WZHVVakd5NlBDZVFiNkhzajVzbXBWS2hNaFF3YnlNdnhycnFIZUd5VVRPMmFlQW01dklpampLN0NFUToASgR0aGlzSgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CuABL2dvdG8_dXJsPUNBRVNtd0VCNnpzd0ZUWTYwUFF6X2FIQy1OalhRczhydmh0MDNpNGxOT1d0dTBpU3lsVExoVW16Y0Y0SnV0MF85emtVeEVydzhVSEJEQm15RFdYc2dHb1dpZ25mLUM4SnpGMWxfVXFVRTNqTXplLTl3M2VfRE1MSzM3T2Nna0dxWFBRTF9oUWtNX0Nrd2x2dXhoWlpRa2E3TTlPVmR1VWpHeTZQQ2VRYjZIc2o1c21wVktoTWhRd2J5TXZ4cnJxSGVHeVVUTzJhZUFtNXZJaWpqSzdDRVESBBoCCAAa_QYSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQMYGCAAQABgAIAAqJAoGZGFzYXJhFQAAAAAaCGR1c3NlaHJhGgtpdjtwO2Rhc2FyYSo-CgtjZWxlYnJhdGlvbhUAAAAAGgpjZWxlYnJhdGVkGgxjZWxlYnJhdGlvbnMaBmV2ZW50cxoIZmVzdGl2YWwqCQoCaW4VAAAAACqHAQoHZnJlbW9udBUAAAA_GhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRUAAAAAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAy4AEvZ290bz91cmw9Q0FFU213RUI2enN3RlRZNjBQUXpfYUhDLU5qWFFzOHJ2aHQwM2k0bE5PV3R1MGlTeWxUTGhVbXpjRjRKdXQwXzl6a1V4RXJ3OFVIQkRCbXlEV1hzZ0dvV2lnbmYtQzhKekYxbF9VcVVFM2pNemUtOXczZV9ETUxLMzdPY2drR3FYUFFMX2hRa01fQ2t3bHZ1eGhaWlFrYTdNOU9WZHVVakd5NlBDZVFiNkhzajVzbXBWS2hNaFF3YnlNdnhycnFIZUd5VVRPMmFlQW01dklpampLN0NFUToASgR0aGlzSgJpbiICEAFIAFgAaAA",
+    "source": "City of Fremont, CA (.gov)"
+   },
+   {
+    "position": 5,
+    "title": "Bhagyashree to grace Festival of Globe FOGSV.org India Day ...",
+    "link": "https://www.facebook.com/yoindiatv/videos/bhagyashree-to-grace-festival-of-globe-fogsvorg-india-day-parade-and-mela-on-aug/1419447992676556/",
+    "displayed_link": "5 reactions · 1 year ago",
+    "thumbnail": "https://serpapi.com/searches/6ac3dc52bd1731ece08f21c6/images/y4ORhKR80GammzH9D-XBiAa0r1sv-i6aqxf994_ANpQ.jpeg",
+    "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+    "snippet": "India Day Parade and Mela on Aug 17th at Paseo Padre Pkwy in Fremont, USA. 1:00 PM – 10:30 PM ・ 2:00 PM – 3:30 PM ・ 3:00 PM – 3:30 PM",
+    "duration": "4:39",
+    "about_this_result": {
+     "source": {
+      "description": "India Day Parade and Mela on Aug 17th at Paseo Padre Pkwy in Fremont, USA. 1:00 PM – 10:30 PM ・ 2:00 PM – 3:30 PM ・ 3:00 PM – 3:30 PM",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     }
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpwCL2dvdG8_dXJsPUNBRVN5QUVCNnpzd0ZjX0c3TWwyNkNid191UVNHc0M1YjVvVmZBRFlvSjdsODNFN0dOaWEwLWdOdlZ1bFMtMHZTSVpLakZnQVNFTTBPUEhqTmhpd3J6MEVwLUVSclVfdUhGYnlJWWZSVGd2RUY5VGlhZ0hMY25fRXFaUTE2VHpDbmh0YTlBdU9wcU53cVVuMDd5WURhTFdETVhZUzZYem1Gb293eHc2NVBCQmlVZ1FSZ2lGUHN5Z05IMS1jRjd0OTB0SnQxTVpxaDhBWkhDbFZsMGRhMmRFdmUzSk1lbFk1UjFTNjNTNTNGekI5TGlYemw2Z01SaDZ0UERiSW1nTTVaX3gzR2lkelJ3Q3RuQ3huSmcSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpwCL2dvdG8_dXJsPUNBRVN5QUVCNnpzd0ZjX0c3TWwyNkNid191UVNHc0M1YjVvVmZBRFlvSjdsODNFN0dOaWEwLWdOdlZ1bFMtMHZTSVpLakZnQVNFTTBPUEhqTmhpd3J6MEVwLUVSclVfdUhGYnlJWWZSVGd2RUY5VGlhZ0hMY25fRXFaUTE2VHpDbmh0YTlBdU9wcU53cVVuMDd5WURhTFdETVhZUzZYem1Gb293eHc2NVBCQmlVZ1FSZ2lGUHN5Z05IMS1jRjd0OTB0SnQxTVpxaDhBWkhDbFZsMGRhMmRFdmUzSk1lbFk1UjFTNjNTNTNGekI5TGlYemw2Z01SaDZ0UERiSW1nTTVaX3gzR2lkelJ3Q3RuQ3huSmcSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "source": "Facebook · Yo India TV"
+   },
+   {
+    "position": 6,
+    "title": "The grand FOG Diwali Mela 2026 is coming to Fremont! 🎉 ...",
+    "link": "https://www.facebook.com/eventmozo/posts/the-grand-fog-diwali-mela-2026-is-coming-to-fremont-%E3%85%A4get-ready-for-a-day-packed-/1725862196215581/",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESzwEB6zswFR5q6udvlJh68ViL48slDAwDL2qy0B6EtrnjJFw6PUzbRZeUEa9MwsxpD_08LDQbFRAeWVSJ8on5477ceyf0WTiUU-gFIpaV1oJIubv0wSO5LZuoGg1PWvkNtPRbvM_fOtNA1AMYX9hC2bmxc7RkiMWPa8jzOzHMoZxJ_5sJi_fHWhVv2-Gc4I9-PUBZoJHxbI1nA3VV1H0gPuQ6OLOnquZf99q4T_AiZjAVJCnxwlSk6tw8kavN-vzpCbL904Q_tqi68kcK-Ojzx7w&ved=2ahUKEwj9kd7asaOXAxUCtisGHaRdJSQQFnoECCYQAQ&uoh=1",
+    "displayed_link": "1 week ago",
+    "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+    "snippet": "FOG INDIA DAY PARADE Sunday, Aug 17th 11am to 1pm 39439 Paseo Padre Pkwy, Fremont CA 94538. FREE ENTRY FREE PARKING Come and Join for the ...",
+    "snippet_highlighted_words": [
+     "FOG INDIA DAY PARADE Sunday, Aug 17th"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "FOG INDIA DAY PARADE Sunday, Aug 17th 11am to 1pm 39439 Paseo Padre Pkwy, Fremont CA 94538. FREE ENTRY FREE PARKING Come and Join for the ...",
+      "source_info_link": "https://www.facebook.com/eventmozo/posts/the-grand-fog-diwali-mela-2026-is-coming-to-fremont-%E3%85%A4get-ready-for-a-day-packed-/1725862196215581/",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CqUCL2dvdG8_dXJsPUNBRVN6d0VCNnpzd0ZSNXE2dWR2bEpoNjhWaUw0OHNsREF3REwycXkwQjZFdHJuakpGdzZQVXpiUlplVUVhOU13c3hwRF8wOExEUWJGUkFlV1ZTSjhvbjU0NzdjZXlmMFdUaVVVLWdGSXBhVjFvSkl1YnYwd1NPNUxadW9HZzFQV3ZrTnRQUmJ2TV9mT3ROQTFBTVlYOWhDMmJteGM3UmtpTVdQYThqek96SE1vWnhKXzVzSmlfZkhXaFZ2Mi1HYzRJOS1QVUJab0pIeGJJMW5BM1ZWMUgwZ1B1UTZPTE9ucXVaZjk5cTRUX0FpWmpBVkpDbnh3bFNrNnR3OGthdk4tdnpwQ2JMOTA0UV90cWk2OGtjSy1Panp4N3cSBBoCCAAaoQkSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQOoICAAQABgAIAAqJAoGZGFzYXJhFQAAAAAaCGR1c3NlaHJhGgtpdjtwO2Rhc2FyYSo-CgtjZWxlYnJhdGlvbhXGrhY_GgpjZWxlYnJhdGVkGgxjZWxlYnJhdGlvbnMaBmV2ZW50cxoIZmVzdGl2YWwqCQoCaW4VAAAAACqHAQoHZnJlbW9udBVo3mFAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRXCQq8_GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxVbQyA9GgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAypQIvZ290bz91cmw9Q0FFU3p3RUI2enN3RlI1cTZ1ZHZsSmg2OFZpTDQ4c2xEQXdETDJxeTBCNkV0cm5qSkZ3NlBVemJSWmVVRWE5TXdzeHBEXzA4TERRYkZSQWVXVlNKOG9uNTQ3N2NleWYwV1RpVVUtZ0ZJcGFWMW9KSXVidjB3U081TFp1b0dnMVBXdmtOdFBSYnZNX2ZPdE5BMUFNWVg5aEMyYm14YzdSa2lNV1BhOGp6T3pITW9aeEpfNXNKaV9mSFdoVnYyLUdjNEk5LVBVQlpvSkh4YkkxbkEzVlYxSDBnUHVRNk9MT25xdVpmOTlxNFRfQWlaakFWSkNueHdsU2s2dHc4a2F2Ti12enBDYkw5MDRRX3RxaTY4a2NLLU9qeng3dzpDVGhlIGdyYW5kIEZPRyBEaXdhbGkgTWVsYSAyMDI2IGlzIGNvbWluZyB0byA8Yj5GcmVtb250PC9iPiEg44WkIC4uLkKZATxiPkZPRyBJTkRJQSBEQVkgUEFSQURFIFN1bmRheSwgQXVnIDE3dGg8L2I-IDExYW0gdG8gMXBtIDM5NDM5IFBhc2VvIFBhZHJlIFBrd3ksIEZyZW1vbnQgQ0EgOTQ1MzguIEZSRUUgRU5UUlkgRlJFRSBQQVJLSU5HIENvbWUgYW5kIEpvaW4gZm9yIHRoZSZuYnNwOy4uLkoCaW5KBHRoaXMiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CqUCL2dvdG8_dXJsPUNBRVN6d0VCNnpzd0ZSNXE2dWR2bEpoNjhWaUw0OHNsREF3REwycXkwQjZFdHJuakpGdzZQVXpiUlplVUVhOU13c3hwRF8wOExEUWJGUkFlV1ZTSjhvbjU0NzdjZXlmMFdUaVVVLWdGSXBhVjFvSkl1YnYwd1NPNUxadW9HZzFQV3ZrTnRQUmJ2TV9mT3ROQTFBTVlYOWhDMmJteGM3UmtpTVdQYThqek96SE1vWnhKXzVzSmlfZkhXaFZ2Mi1HYzRJOS1QVUJab0pIeGJJMW5BM1ZWMUgwZ1B1UTZPTE9ucXVaZjk5cTRUX0FpWmpBVkpDbnh3bFNrNnR3OGthdk4tdnpwQ2JMOTA0UV90cWk2OGtjSy1Panp4N3cSBBoCCAAaoQkSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQOoICAAQABgAIAAqJAoGZGFzYXJhFQAAAAAaCGR1c3NlaHJhGgtpdjtwO2Rhc2FyYSo-CgtjZWxlYnJhdGlvbhXGrhY_GgpjZWxlYnJhdGVkGgxjZWxlYnJhdGlvbnMaBmV2ZW50cxoIZmVzdGl2YWwqCQoCaW4VAAAAACqHAQoHZnJlbW9udBVo3mFAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRXCQq8_GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxVbQyA9GgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAypQIvZ290bz91cmw9Q0FFU3p3RUI2enN3RlI1cTZ1ZHZsSmg2OFZpTDQ4c2xEQXdETDJxeTBCNkV0cm5qSkZ3NlBVemJSWmVVRWE5TXdzeHBEXzA4TERRYkZSQWVXVlNKOG9uNTQ3N2NleWYwV1RpVVUtZ0ZJcGFWMW9KSXVidjB3U081TFp1b0dnMVBXdmtOdFBSYnZNX2ZPdE5BMUFNWVg5aEMyYm14YzdSa2lNV1BhOGp6T3pITW9aeEpfNXNKaV9mSFdoVnYyLUdjNEk5LVBVQlpvSkh4YkkxbkEzVlYxSDBnUHVRNk9MT25xdVpmOTlxNFRfQWlaakFWSkNueHdsU2s2dHc4a2F2Ti12enBDYkw5MDRRX3RxaTY4a2NLLU9qeng3dzpDVGhlIGdyYW5kIEZPRyBEaXdhbGkgTWVsYSAyMDI2IGlzIGNvbWluZyB0byA8Yj5GcmVtb250PC9iPiEg44WkIC4uLkKZATxiPkZPRyBJTkRJQSBEQVkgUEFSQURFIFN1bmRheSwgQXVnIDE3dGg8L2I-IDExYW0gdG8gMXBtIDM5NDM5IFBhc2VvIFBhZHJlIFBrd3ksIEZyZW1vbnQgQ0EgOTQ1MzguIEZSRUUgRU5UUlkgRlJFRSBQQVJLSU5HIENvbWUgYW5kIEpvaW4gZm9yIHRoZSZuYnNwOy4uLkoCaW5KBHRoaXMiAhABSABYAGgA",
+    "source": "Facebook · EventMozo",
+    "read_more_link": "https://www.facebook.com/eventmozo/posts/the-grand-fog-diwali-mela-2026-is-coming-to-fremont-%E3%85%A4get-ready-for-a-day-packed-/1725862196215581/#:~:text=FOG%20INDIA%20DAY%20PARADE%20Sunday%2C,Come%20and%20Join%20for%20the"
+   },
+   {
+    "position": 7,
+    "title": "Few glimpses of FOG Grand Oarade on August 16, 2026 in ...",
+    "link": "https://www.instagram.com/reel/DcHuwg_jHy8/",
+    "displayed_link": "50+ likes · 1 month ago",
+    "thumbnail": "https://serpapi.com/searches/6ac3dc52bd1731ece08f21c6/images/y4ORhKR80GammzH9D-XBiPoA08bC2h3t8jvqa8Mzirw.jpeg",
+    "favicon": "https://serpapi.com/images/i/UklGRs4BAABXRUJQVlA4IMIBAACwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHXnqv4q8gZxcYcQlttR3oGAAfrN6ZPsZeUqUy7yrvQBaXZxUNd6xeyZ_zpu3z7vEbG_rI9uLR3JAAD-bPWFChRsYA73DNfFBGB39AY4cc2rgYfPUbTnZSkmPIT9f5LwLGh1tr6GbI8_Wg5YyMLqPP_I5v8_74-PGNsMjg_WUbMOAh-IjBPzRGbszqR7w-L8gERR1HCDCy9n1undGs3qkDheeBATd9L9I-Aoo9FTSOQx_H8nQUHIFM6kvout0x-QCvYDa5PYNlH6Q0wXP9J5qEyzdAEM65Q3dTRjK18i8klikng6N72k76S7vLx-v9Mv8y6H-iwfMsRMuFs27Yye-WnY5LGgqhsZeH8167oiT3hIlNwprV8Gv8bjmAvv3_4d59fmIOOf_PXX3B5Q_PPQprbEq6U97aH_XlCEDWm5v9GJuV7HyOamOUMgseUuj_-piTqcRYQhGxTGIPcM4c15P3Imbj7QTHY5HyOiSVI1eHnj9YtD1bBIugmEKf-KfDkltWl0LUiTqQwVPaxvhDKQ1Wf35o_kqQp7rNwi0ci1WW30iEwAAAA.webp",
+    "snippet": "FOG Grand Oarade on August 16, 2026 in Fremont&quot;. Day Parade and Fair! 15-16 festivals: India culture, plus cars, music, food, art, wine",
+    "duration": "1:26",
+    "about_this_result": {
+     "source": {
+      "description": "FOG Grand Oarade on August 16, 2026 in Fremont&quot;. Day Parade and Fair! 15-16 festivals: India culture, plus cars, music, food, art, wine",
+      "icon": "https://serpapi.com/images/i/UklGRs4BAABXRUJQVlA4IMIBAACwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHXnqv4q8gZxcYcQlttR3oGAAfrN6ZPsZeUqUy7yrvQBaXZxUNd6xeyZ_zpu3z7vEbG_rI9uLR3JAAD-bPWFChRsYA73DNfFBGB39AY4cc2rgYfPUbTnZSkmPIT9f5LwLGh1tr6GbI8_Wg5YyMLqPP_I5v8_74-PGNsMjg_WUbMOAh-IjBPzRGbszqR7w-L8gERR1HCDCy9n1undGs3qkDheeBATd9L9I-Aoo9FTSOQx_H8nQUHIFM6kvout0x-QCvYDa5PYNlH6Q0wXP9J5qEyzdAEM65Q3dTRjK18i8klikng6N72k76S7vLx-v9Mv8y6H-iwfMsRMuFs27Yye-WnY5LGgqhsZeH8167oiT3hIlNwprV8Gv8bjmAvv3_4d59fmIOOf_PXX3B5Q_PPQprbEq6U97aH_XlCEDWm5v9GJuV7HyOamOUMgseUuj_-piTqcRYQhGxTGIPcM4c15P3Imbj7QTHY5HyOiSVI1eHnj9YtD1bBIugmEKf-KfDkltWl0LUiTqQwVPaxvhDKQ1Wf35o_kqQp7rNwi0ci1WW30iEwAAAA.webp"
+     }
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVmk4YllBN3k1Nko5djRKOGsyY3NfTk9fdGpwRmFIcEppR0JSc3NrX0tyT0xxV0RFRXc1bklaWVd3c0hMSUVsMHlZWlN6dTdpNUE4aS1JLXFzMVJQdEN0a1ZUOFJVbXpudHVaOGg2WHdES1FZcEROem42LWpvVXg3SUxCeTlyS2E0Z0ESFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVmk4YllBN3k1Nko5djRKOGsyY3NfTk9fdGpwRmFIcEppR0JSc3NrX0tyT0xxV0RFRXc1bklaWVd3c0hMSUVsMHlZWlN6dTdpNUE4aS1JLXFzMVJQdEN0a1ZUOFJVbXpudHVaOGg2WHdES1FZcEROem42LWpvVXg3SUxCeTlyS2E0Z0ESFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "source": "Instagram · sitaarreteve"
+   },
+   {
+    "position": 8,
+    "title": "Discover Festival of Globe FOGSV.org Events",
+    "link": "https://allevents.in/org/festival-of-globe-fogsvorg/5026583",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdgHrOzAV91R3S1d4cdwd0eOmVKBxsjCKpw-QeSEmmwpSRURUVwmyboL-vzYPDSX_MHgw43wVYw8OPSlthgqDS8MLdf9y6MOLbG1umEEJbnSc7FyB_gmmidDWCuSO0zrcjejKuZzHidjHMnf-Gi9CvWUgWX_G6do&ved=2ahUKEwj9kd7asaOXAxUCtisGHaRdJSQQFnoECDMQAQ&uoh=1",
+    "displayed_link": "https://allevents.in › org › festival-of-globe-fogsvorg",
+    "favicon": "https://serpapi.com/images/i/UklGRkoBAABXRUJQVlA4ID4BAADwBgCdASocABwAPtEutFooIagoGAEAGglsAJ0vd5zuKfds9v_3zPeRCIeF_sCLFSUso0o3OsJpE5goPUMXROYcAP72B8K4fss6Jk3r5zSsSLu1cuqBbLceIXbAF1R2JFhVpVqVzIExlWDa0nRllY64WCe7ego6UaUVb5UJWXHDtlBXKHbwRsUX6UHlD6f-L2skYy1_LwwJpNdalftjM-5bU2FUNan43jUvy4_kC_Db3qj2GMJ8m6ayTYzrK-5W95Z1gfR_3EoyR63tPcoz738C_XxCUOQQaK2UGM-6gkYz6znsKq0yqXYx5XrI6gmhs76kbtZ2FpqSTG9ELoufgyOrFhMFjEfqfzYiuzTCmxl_caTWahJlt-lht6so8sMknnpc8i19DAJjEv3AWRI2HS8vqJ6Ou2r7669fHSsQ0AA.webp",
+    "snippet": "There are no upcoming events at the moment! Sat, 15 Aug • 10:00 AM India Day Parade & Fair 39439 Paseo Padre Pkwy, Fremont, CA 94538-4742, Celebrations - Sat, ...",
+    "snippet_highlighted_words": [
+     "There are no upcoming events at the moment"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "rating": 3.5,
+       "reviews": 8
+      },
+      "extensions": [
+       "3.5(8)"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "There are no upcoming events at the moment! Sat, 15 Aug • 10:00 AM India Day Parade & Fair 39439 Paseo Padre Pkwy, Fremont, CA 94538-4742, Celebrations - Sat, ...",
+      "source_info_link": "https://allevents.in/org/festival-of-globe-fogsvorg/5026583",
+      "icon": "https://serpapi.com/images/i/UklGRkoBAABXRUJQVlA4ID4BAADwBgCdASocABwAPtEutFooIagoGAEAGglsAJ0vd5zuKfds9v_3zPeRCIeF_sCLFSUso0o3OsJpE5goPUMXROYcAP72B8K4fss6Jk3r5zSsSLu1cuqBbLceIXbAF1R2JFhVpVqVzIExlWDa0nRllY64WCe7ego6UaUVb5UJWXHDtlBXKHbwRsUX6UHlD6f-L2skYy1_LwwJpNdalftjM-5bU2FUNan43jUvy4_kC_Db3qj2GMJ8m6ayTYzrK-5W95Z1gfR_3EoyR63tPcoz738C_XxCUOQQaK2UGM-6gkYz6znsKq0yqXYx5XrI6gmhs76kbtZ2FpqSTG9ELoufgyOrFhMFjEfqfzYiuzTCmxl_caTWahJlt-lht6so8sMknnpc8i19DAJjEv3AWRI2HS8vqJ6Ou2r7669fHSsQ0AA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cq0BL2dvdG8_dXJsPUNBRVNkZ0hyT3pBVjkxUjNTMWQ0Y2R3ZDBlT21WS0J4c2pDS3B3LVFlU0VtbXdwU1JVUlVWd215Ym9MLXZ6WVBEU1hfTUhndzQzd1ZZdzhPUFNsdGhncURTOE1MZGY5eTZNT0xiRzF1bUVFSmJuU2M3RnlCX2dtbWlkRFdDdVNPMHpyY2plakt1WnpIaWRqSE1uZi1HaTlDdldVZ1dYX0c2ZG8SBBoCCAAa0ggSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQJsICAAQABgAIAAqJAoGZGFzYXJhFQAAAAAaCGR1c3NlaHJhGgtpdjtwO2Rhc2FyYSo-CgtjZWxlYnJhdGlvbhUAAAAAGgpjZWxlYnJhdGVkGgxjZWxlYnJhdGlvbnMaBmV2ZW50cxoIZmVzdGl2YWwqCQoCaW4VAAAAACqHAQoHZnJlbW9udBWbfYI_GhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRWiG8U-GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyrQEvZ290bz91cmw9Q0FFU2RnSHJPekFWOTFSM1MxZDRjZHdkMGVPbVZLQnhzakNLcHctUWVTRW1td3BTUlVSVVZ3bXlib0wtdnpZUERTWF9NSGd3NDN3Vll3OE9QU2x0aGdxRFM4TUxkZjl5Nk1PTGJHMXVtRUVKYm5TYzdGeUJfZ21taWREV0N1U08wenJjamVqS3VaekhpZGpITW5mLUdpOUN2V1VnV1hfRzZkbzpRRGlzY292ZXIgPGI-RmVzdGl2YWw8L2I-IG9mIEdsb2JlIEZPR1NWLm9yZyA8Yj5FdmVudHM8L2I-IHwgVGlja2V0cyAmYW1wOyBEZXRhaWxzQrQBPGI-VGhlcmUgYXJlIG5vIHVwY29taW5nIGV2ZW50cyBhdCB0aGUgbW9tZW50PC9iPiEgU2F0LCAxNSBBdWcg4oCiIDEwOjAwIEFNIEluZGlhIERheSBQYXJhZGUgJmFtcDsgRmFpciAzOTQzOSBQYXNlbyBQYWRyZSBQa3d5LCBGcmVtb250LCBDQSA5NDUzOC00NzQyLCBDZWxlYnJhdGlvbnMgLSBTYXQsJm5ic3A7Li4uSgR0aGlzSgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cq0BL2dvdG8_dXJsPUNBRVNkZ0hyT3pBVjkxUjNTMWQ0Y2R3ZDBlT21WS0J4c2pDS3B3LVFlU0VtbXdwU1JVUlVWd215Ym9MLXZ6WVBEU1hfTUhndzQzd1ZZdzhPUFNsdGhncURTOE1MZGY5eTZNT0xiRzF1bUVFSmJuU2M3RnlCX2dtbWlkRFdDdVNPMHpyY2plakt1WnpIaWRqSE1uZi1HaTlDdldVZ1dYX0c2ZG8SBBoCCAAa0ggSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQJsICAAQABgAIAAqJAoGZGFzYXJhFQAAAAAaCGR1c3NlaHJhGgtpdjtwO2Rhc2FyYSo-CgtjZWxlYnJhdGlvbhUAAAAAGgpjZWxlYnJhdGVkGgxjZWxlYnJhdGlvbnMaBmV2ZW50cxoIZmVzdGl2YWwqCQoCaW4VAAAAACqHAQoHZnJlbW9udBWbfYI_GhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRWiG8U-GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyrQEvZ290bz91cmw9Q0FFU2RnSHJPekFWOTFSM1MxZDRjZHdkMGVPbVZLQnhzakNLcHctUWVTRW1td3BTUlVSVVZ3bXlib0wtdnpZUERTWF9NSGd3NDN3Vll3OE9QU2x0aGdxRFM4TUxkZjl5Nk1PTGJHMXVtRUVKYm5TYzdGeUJfZ21taWREV0N1U08wenJjamVqS3VaekhpZGpITW5mLUdpOUN2V1VnV1hfRzZkbzpRRGlzY292ZXIgPGI-RmVzdGl2YWw8L2I-IG9mIEdsb2JlIEZPR1NWLm9yZyA8Yj5FdmVudHM8L2I-IHwgVGlja2V0cyAmYW1wOyBEZXRhaWxzQrQBPGI-VGhlcmUgYXJlIG5vIHVwY29taW5nIGV2ZW50cyBhdCB0aGUgbW9tZW50PC9iPiEgU2F0LCAxNSBBdWcg4oCiIDEwOjAwIEFNIEluZGlhIERheSBQYXJhZGUgJmFtcDsgRmFpciAzOTQzOSBQYXNlbyBQYWRyZSBQa3d5LCBGcmVtb250LCBDQSA5NDUzOC00NzQyLCBDZWxlYnJhdGlvbnMgLSBTYXQsJm5ic3A7Li4uSgR0aGlzSgJpbiICEAFIAFgAaAA",
+    "source": "AllEvents"
+   },
+   {
+    "position": 9,
+    "title": "NYSO | Celebrate India Day 2026! 🇺🇸🇮🇳 34th FOG ...",
+    "link": "https://www.instagram.com/reel/DZsfhn4iXIV/",
+    "displayed_link": "2 likes · 3 months ago",
+    "thumbnail": "https://serpapi.com/searches/6ac3dc52bd1731ece08f21c6/images/y4ORhKR80GammzH9D-XBiNNHQwECFgTrBEu-cFliqeo.jpeg",
+    "favicon": "https://serpapi.com/images/i/UklGRs4BAABXRUJQVlA4IMIBAACwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHXnqv4q8gZxcYcQlttR3oGAAfrN6ZPsZeUqUy7yrvQBaXZxUNd6xeyZ_zpu3z7vEbG_rI9uLR3JAAD-bPWFChRsYA73DNfFBGB39AY4cc2rgYfPUbTnZSkmPIT9f5LwLGh1tr6GbI8_Wg5YyMLqPP_I5v8_74-PGNsMjg_WUbMOAh-IjBPzRGbszqR7w-L8gERR1HCDCy9n1undGs3qkDheeBATd9L9I-Aoo9FTSOQx_H8nQUHIFM6kvout0x-QCvYDa5PYNlH6Q0wXP9J5qEyzdAEM65Q3dTRjK18i8klikng6N72k76S7vLx-v9Mv8y6H-iwfMsRMuFs27Yye-WnY5LGgqhsZeH8167oiT3hIlNwprV8Gv8bjmAvv3_4d59fmIOOf_PXX3B5Q_PPQprbEq6U97aH_XlCEDWm5v9GJuV7HyOamOUMgseUuj_-piTqcRYQhGxTGIPcM4c15P3Imbj7QTHY5HyOiSVI1eHnj9YtD1bBIugmEKf-KfDkltWl0LUiTqQwVPaxvhDKQ1Wf35o_kqQp7rNwi0ci1WW30iEwAAAA.webp",
+    "snippet": "Aug 15–16 | 🕙 10 AM – 6 PM 📍 Fremont, CA 🎶 Live Dance & Music (669) 255-5935. Location: 39439 Paseo Padre Parkway, Fremont, CA 🗓️ Aug 15–16 ⏰ 10 ...",
+    "duration": "0:32",
+    "about_this_result": {
+     "source": {
+      "description": "Aug 15–16 | 🕙 10 AM – 6 PM 📍 Fremont, CA 🎶 Live Dance & Music (669) 255-5935. Location: 39439 Paseo Padre Parkway, Fremont, CA 🗓️ Aug 15–16 ⏰ 10 ...",
+      "icon": "https://serpapi.com/images/i/UklGRs4BAABXRUJQVlA4IMIBAACwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHXnqv4q8gZxcYcQlttR3oGAAfrN6ZPsZeUqUy7yrvQBaXZxUNd6xeyZ_zpu3z7vEbG_rI9uLR3JAAD-bPWFChRsYA73DNfFBGB39AY4cc2rgYfPUbTnZSkmPIT9f5LwLGh1tr6GbI8_Wg5YyMLqPP_I5v8_74-PGNsMjg_WUbMOAh-IjBPzRGbszqR7w-L8gERR1HCDCy9n1undGs3qkDheeBATd9L9I-Aoo9FTSOQx_H8nQUHIFM6kvout0x-QCvYDa5PYNlH6Q0wXP9J5qEyzdAEM65Q3dTRjK18i8klikng6N72k76S7vLx-v9Mv8y6H-iwfMsRMuFs27Yye-WnY5LGgqhsZeH8167oiT3hIlNwprV8Gv8bjmAvv3_4d59fmIOOf_PXX3B5Q_PPQprbEq6U97aH_XlCEDWm5v9GJuV7HyOamOUMgseUuj_-piTqcRYQhGxTGIPcM4c15P3Imbj7QTHY5HyOiSVI1eHnj9YtD1bBIugmEKf-KfDkltWl0LUiTqQwVPaxvhDKQ1Wf35o_kqQp7rNwi0ci1WW30iEwAAAA.webp"
+     }
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVkc0WnpTTnNhQnFxVVFDRndEWENCQXUtZUVsbEFUY1BvaUFmR0UybmJ0S19WSGkzc3RjNUZfYWJNbFNtSE5NVTJKVGVEWTFKbWZ6OHp0Q2ZqNlhOenBnN2R0REpHSUJYd2ZKY1BSTDlNYVFXLUNFam5aWmZEU19XT1lCSXNvYWpNT3cSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVkc0WnpTTnNhQnFxVVFDRndEWENCQXUtZUVsbEFUY1BvaUFmR0UybmJ0S19WSGkzc3RjNUZfYWJNbFNtSE5NVTJKVGVEWTFKbWZ6OHp0Q2ZqNlhOenBnN2R0REpHSUJYd2ZKY1BSTDlNYVFXLUNFam5aWmZEU19XT1lCSXNvYWpNT3cSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "video_link": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcShhTdnpu3tOfuW0pzJtEgxDG7yolBDpWK6JA",
+    "source": "Instagram · nyso.us"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.com/search?q=Dasara+celebration+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnvlT15mx0u_3-oB1unucQJgMZSV2Q:1791220864512&ei=gNzDav3RHYLsruEPpLuVoQI&start=10&sa=N&sstk=AS6-VmI0jdXRW1CR2eiYP00B5kQPXBzNBVRL93cq1TQaEwkBYzNZlq5tEz85Aq2SQp29i5Mma14lz4lokWhR1tXr89RNAsnoojIjzQ&ved=2ahUKEwj9kd7asaOXAxUCtisGHaRdJSQQ8NMDegQIMBAO",
+   "other_pages": {
+    "2": "https://www.google.com/search?q=Dasara+celebration+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnvlT15mx0u_3-oB1unucQJgMZSV2Q:1791220864512&ei=gNzDav3RHYLsruEPpLuVoQI&start=10&sa=N&sstk=AS6-VmI0jdXRW1CR2eiYP00B5kQPXBzNBVRL93cq1TQaEwkBYzNZlq5tEz85Aq2SQp29i5Mma14lz4lokWhR1tXr89RNAsnoojIjzQ&ved=2ahUKEwj9kd7asaOXAxUCtisGHaRdJSQQ8tMDegQIMBAE",
+    "3": "https://www.google.com/search?q=Dasara+celebration+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnvlT15mx0u_3-oB1unucQJgMZSV2Q:1791220864512&ei=gNzDav3RHYLsruEPpLuVoQI&start=20&sa=N&sstk=AS6-VmI0jdXRW1CR2eiYP00B5kQPXBzNBVRL93cq1TQaEwkBYzNZlq5tEz85Aq2SQp29i5Mma14lz4lokWhR1tXr89RNAsnoojIjzQ&ved=2ahUKEwj9kd7asaOXAxUCtisGHaRdJSQQ8tMDegQIMBAG",
+    "4": "https://www.google.com/search?q=Dasara+celebration+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnvlT15mx0u_3-oB1unucQJgMZSV2Q:1791220864512&ei=gNzDav3RHYLsruEPpLuVoQI&start=30&sa=N&sstk=AS6-VmI0jdXRW1CR2eiYP00B5kQPXBzNBVRL93cq1TQaEwkBYzNZlq5tEz85Aq2SQp29i5Mma14lz4lokWhR1tXr89RNAsnoojIjzQ&ved=2ahUKEwj9kd7asaOXAxUCtisGHaRdJSQQ8tMDegQIMBAI",
+    "5": "https://www.google.com/search?q=Dasara+celebration+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnvlT15mx0u_3-oB1unucQJgMZSV2Q:1791220864512&ei=gNzDav3RHYLsruEPpLuVoQI&start=40&sa=N&sstk=AS6-VmI0jdXRW1CR2eiYP00B5kQPXBzNBVRL93cq1TQaEwkBYzNZlq5tEz85Aq2SQp29i5Mma14lz4lokWhR1tXr89RNAsnoojIjzQ&ved=2ahUKEwj9kd7asaOXAxUCtisGHaRdJSQQ8tMDegQIMBAK",
+    "6": "https://www.google.com/search?q=Dasara+celebration+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnvlT15mx0u_3-oB1unucQJgMZSV2Q:1791220864512&ei=gNzDav3RHYLsruEPpLuVoQI&start=50&sa=N&sstk=AS6-VmI0jdXRW1CR2eiYP00B5kQPXBzNBVRL93cq1TQaEwkBYzNZlq5tEz85Aq2SQp29i5Mma14lz4lokWhR1tXr89RNAsnoojIjzQ&ved=2ahUKEwj9kd7asaOXAxUCtisGHaRdJSQQ8tMDegQIMBAM"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Dasara+celebration+in+Fremont%2C+California+this+week&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Dasara+celebration+in+Fremont%2C+California+this+week&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Dasara+celebration+in+Fremont%2C+California+this+week&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Dasara+celebration+in+Fremont%2C+California+this+week&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Dasara+celebration+in+Fremont%2C+California+this+week&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Dasara+celebration+in+Fremont%2C+California+this+week&start=40",
+    "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Dasara+celebration+in+Fremont%2C+California+this+week&start=50"
+   }
+  }
+ }
+}

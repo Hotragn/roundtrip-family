@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219806101",
+  "object": "chat.completion",
+  "created": 1791219806,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "మీరు తిరిగి వచ్చాక, నేను ఇంటికి వచ్చేశానని ఒకసారి Tap చేయండి.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 89,
+   "completion_tokens": 20,
+   "total_tokens": 109,
+   "prompt_tokens_details": {
+    "cached_tokens": 64
+   },
+   "neurons": 1.063636064529419
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:03:26.371Z"
+}

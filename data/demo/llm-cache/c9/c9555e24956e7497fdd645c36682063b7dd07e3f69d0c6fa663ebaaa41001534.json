@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791222925580",
+  "object": "chat.completion",
+  "created": 1791222925,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"mother\": {\n    \"on_their_own\": [\n      \"c-101\",\n      \"c-103\"\n    ],\n    \"with_you\": [\n      \"c-102\",\n      \"c-105\"\n    ],\n    \"not_this_week\": [\n      \"c-104\"\n    ]\n  },\n  \"father\": {\n    \"on_their_own\": [\n      \"c-201\",\n      \"c-204\"\n    ],\n    \"with_you\": [\n      \"c-202\"\n    ],\n    \"not_this_week\": [\n      \"c-203\",\n      \"c-205\"\n    ]\n  }\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 984,
+   "completion_tokens": 186,
+   "total_tokens": 1170,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 14.018181800842285
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:55:25.646Z",
+ "latencyMs": 4118
+}

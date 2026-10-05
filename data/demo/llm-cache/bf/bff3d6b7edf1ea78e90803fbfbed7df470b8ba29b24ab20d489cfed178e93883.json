@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 3, \"correctness\": 2, \"note\": \"Added 'in bus stand' wrongly; should be 'బాత్‌రూమ్ ఎక్కడ ఉంది?'\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:03:44.068Z"
+}

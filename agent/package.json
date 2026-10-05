@@ -10,12 +10,21 @@
     "./planner": "./src/planner/index.ts",
     "./voice": "./src/voice/router.ts",
     "./email": "./src/email/index.ts",
-    "./db": "./src/db/index.ts"
+    "./db": "./src/db/index.ts",
+    "./tinker": "./src/tinker/client.ts",
+    "./telugu": "./src/telugu.ts",
+    "./understand": "./src/discovery/understand.ts",
+    "./ladder": "./src/discovery/ladder.ts",
+    "./serpapi": "./src/tools/serpapi.ts",
+    "./weeks": "./src/planner/weeks.ts",
+    "./candidates": "./src/planner/candidates.ts"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@ai-sdk/openai-compatible": "3.0.62",
+    "@mastra/core": "1.74.0",
     "@roundtrip/core": "workspace:*",
     "mongodb": "7.7.0",
     "zod": "^4.6.5"

@@ -1,0 +1,42 @@
+{
+ "body": {
+  "id": "id-1791224063182",
+  "object": "chat.completion",
+  "created": 1791224063,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": null,
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "function": {
+        "arguments": "{\"candidateId\": \"\\\"c1\\\"\"}{\"candidateId\": \"\\\"c6\\\"\"}{\"candidateId\": \"\\\"c7\\\"\"}{\"candidateId\": \"\\\"c8\\\"\"}",
+        "name": "suggestTrialRun"
+       },
+       "id": "call_75fe651622cf4ffaa4c80234",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2834,
+   "completion_tokens": 61,
+   "total_tokens": 2895,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 27.42727279663086
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:14:23.258Z",
+ "latencyMs": 1732
+}

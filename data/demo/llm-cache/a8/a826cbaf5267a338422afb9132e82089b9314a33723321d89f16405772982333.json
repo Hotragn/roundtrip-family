@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219845111",
+  "object": "chat.completion",
+  "created": 1791219845,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "This group will take place on the third date, and English is not required there.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 53,
+   "completion_tokens": 18,
+   "total_tokens": 71,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.9727272987365723
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:04:05.180Z"
+}

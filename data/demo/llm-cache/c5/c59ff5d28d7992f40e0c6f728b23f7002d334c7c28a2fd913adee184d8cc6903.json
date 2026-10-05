@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219751527",
+  "object": "chat.completion",
+  "created": 1791219751,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "పెద్ద Safeway దాటాక, ఆ ఎర్రటి స్ట్రిప్ నొక్కండి.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 89,
+   "completion_tokens": 21,
+   "total_tokens": 110,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 1.381818175315857
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:02:31.608Z"
+}

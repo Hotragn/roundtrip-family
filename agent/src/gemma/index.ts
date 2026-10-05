@@ -1,7 +1,7 @@
 import type { DataClass } from "@roundtrip/core/privacy";
 import { assertOutbound } from "@roundtrip/core/privacy";
 import { z } from "zod";
-import { createGemmaFetch, defaultConfig, type GemmaConfig, ReplayMiss } from "./client";
+import { createGemmaFetch, defaultConfig, type GemmaConfig, type GemmaCounters, ReplayMiss } from "./client";
 import { EMBEDDING_DIMS, EMBEDDING_MODEL, embeddingsUrl } from "./providers";
 import { hashKey } from "./store";
 
@@ -31,8 +31,10 @@ export interface ChatResult {
 
 export class Gemma {
   readonly fetch: typeof fetch;
+  /** Calls made through this helper since it was created: live, cached, fallbacks, failed attempts. */
+  readonly counters: GemmaCounters = { live: 0, cached: 0, fallbacks: 0, failedAttempts: 0 };
   constructor(readonly config: GemmaConfig = defaultConfig()) {
-    this.fetch = createGemmaFetch(config);
+    this.fetch = createGemmaFetch(config, this.counters);
   }
 
   private async post(body: Record<string, unknown>, purpose: string, dataClass: DataClass) {
@@ -47,7 +49,10 @@ export class Gemma {
       text: json.choices[0]?.message?.content ?? "",
       provider: res.headers.get("x-roundtrip-provider") ?? "unknown",
       cached: res.headers.get("x-roundtrip-cache") === "hit",
-      latencyMs: Date.now() - started,
+      latencyMs:
+        res.headers.get("x-roundtrip-cache") === "hit"
+          ? Number(res.headers.get("x-roundtrip-original-ms") ?? 0)
+          : Date.now() - started,
     };
   }
 

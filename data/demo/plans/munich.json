@@ -1,0 +1,414 @@
+{
+ "demoWeek": "munich",
+ "label": "Munich, live search",
+ "provenance": "synthetic",
+ "householdId": "hh_munich",
+ "week": "2026-W41",
+ "sourceOfCandidates": "live_search",
+ "suggestions": [
+  {
+   "id": "hh_munich:2026-W41:pl_fd2af2bd",
+   "candidate": {
+    "id": "pl_fd2af2bd",
+    "kind": "place",
+    "title": "Hariom Temple",
+    "venueName": "Hariom Temple",
+    "address": "Kästlenstraße 32, 81827 München-Trudering-Riem",
+    "location": {
+     "lat": 48.115176999999996,
+     "lng": 11.6950065
+    },
+    "ladderLevel": 2,
+    "languageMatch": 1,
+    "category": "temple",
+    "indoor": true,
+    "costUsd": 0,
+    "foodAvailable": true,
+    "languageNeeded": false,
+    "groupSize": "large",
+    "description": "Hindutempel",
+    "photo": {
+     "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk62aB2pRHXSiuGhQR9JwzwUr5-UWyDDSOUqkyM4jtwjt7zg4SXaTODskZ2AYzgAHbdVrMvTRC-aSMaZtfZUoqHPhVY1JZ5gqHhobaas7mJy2hKhnMjqGbWiMrDOkqckoaFdMXW_Q=w1000-h1000-c-n",
+     "credit": "Photo: Google Maps contributor"
+    },
+    "start": null,
+    "end": null,
+    "suitsOlderAdults": true,
+    "provenance": "live_search",
+    "query": "Hindu Tempel"
+   },
+   "role": "mother",
+   "parentIds": [
+    "p_kamala"
+   ],
+   "slot": {
+    "day": "mon",
+    "depart": 570,
+    "back": 708,
+    "withAdultChild": false
+   },
+   "ladderLevel": 2,
+   "ladderLabel": "Shared culture",
+   "score": {
+    "pGo": 1,
+    "enjoyment": 3.551,
+    "combined": 3.5507,
+    "rank": 1
+   },
+   "chips": [
+    {
+     "label": "Like the temple outings they enjoyed",
+     "feature": "category",
+     "direction": "for"
+    },
+    {
+     "label": "Weekday outings rated lower so far",
+     "feature": "timing",
+     "direction": "against"
+    },
+    {
+     "label": "Other Indian languages, not theirs",
+     "feature": "languageMatch",
+     "direction": "against"
+    }
+   ],
+   "reasonText": "No Telugu events nearby this week. Shared culture. She liked visiting the temple in the past. By bus, about 24 minutes each way, back by 11:48.",
+   "reasonBy": "planner",
+   "firstRideTogether": true,
+   "bringSomeone": null,
+   "joinCard": {
+    "kind": "volunteer",
+    "local": "Ich möchte gern ehrenamtlich helfen. Ich spreche Telugu.",
+    "meaning": "నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ఈ భాషలు వచ్చు.",
+    "askWho": "Fragen Sie im Büro des Tempels."
+   },
+   "features": {
+    "category": "temple",
+    "languageMatch": 1,
+    "travelMinutes": 24,
+    "transfers": 0,
+    "walkingMinutes": 8,
+    "startHour": 9,
+    "dayOfWeek": "mon",
+    "weather": "rainy",
+    "temperatureC": 17,
+    "rainChance": 0.78,
+    "indoor": true,
+    "groupSize": "large",
+    "costUsd": 0,
+    "knowsSomeone": false,
+    "foodAvailable": true,
+    "daysSinceLastOuting": 3,
+    "withAdultChild": false,
+    "languageNeeded": false
+   }
+  },
+  {
+   "id": "hh_munich:2026-W41:pl_c2687fb7",
+   "candidate": {
+    "id": "pl_c2687fb7",
+    "kind": "place",
+    "title": "Indian-Grocery-Store München",
+    "venueName": "Indian-Grocery-Store München",
+    "address": "Berg-am-Laim-Straße 73, 81673 München-Berg am Laim",
+    "location": {
+     "lat": 48.1306386,
+     "lng": 11.6188371
+    },
+    "ladderLevel": 2,
+    "languageMatch": 1,
+    "category": "indian_grocery",
+    "indoor": true,
+    "costUsd": 30,
+    "foodAvailable": false,
+    "languageNeeded": false,
+    "groupSize": "medium",
+    "description": "Supermarkt",
+    "photo": {
+     "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TvYOPSfmU7i5o82yaMHnSHFVKA9oSTlY7vTu-o94H1IGaGqeVSRLaoQHfXSnSTN81wdFbY5m36jOcUUK75MldETRkBpujZWOA-zy6DHu2CG6zt6bSh0vgaX4GbYRk9iSH4ehpkPw=w1000-h1000-c-n",
+     "credit": "Photo: Google Maps contributor"
+    },
+    "start": null,
+    "end": null,
+    "suitsOlderAdults": true,
+    "provenance": "live_search",
+    "query": "Indischer Supermarkt"
+   },
+   "role": "mother",
+   "parentIds": [
+    "p_kamala"
+   ],
+   "slot": {
+    "day": "tue",
+    "depart": 570,
+    "back": 668,
+    "withAdultChild": false
+   },
+   "ladderLevel": 2,
+   "ladderLabel": "Shared culture",
+   "score": {
+    "pGo": 1,
+    "enjoyment": 3.363,
+    "combined": 3.3629,
+    "rank": 2
+   },
+   "chips": [
+    {
+     "label": "Weekday outings rated lower so far",
+     "feature": "timing",
+     "direction": "against"
+    },
+    {
+     "label": "Other Indian languages, not theirs",
+     "feature": "languageMatch",
+     "direction": "against"
+    },
+    {
+     "label": "A longer ride",
+     "feature": "trip",
+     "direction": "against"
+    }
+   ],
+   "reasonText": "No Telugu events nearby this week. Shared culture. She enjoys visiting Indian grocery stores. By bus, about 24 minutes each way, back by 11:08.",
+   "reasonBy": "planner",
+   "firstRideTogether": true,
+   "bringSomeone": null,
+   "joinCard": null,
+   "features": {
+    "category": "indian_grocery",
+    "languageMatch": 1,
+    "travelMinutes": 24,
+    "transfers": 0,
+    "walkingMinutes": 8,
+    "startHour": 9,
+    "dayOfWeek": "tue",
+    "weather": "pleasant",
+    "temperatureC": 17,
+    "rainChance": 0.03,
+    "indoor": true,
+    "groupSize": "medium",
+    "costUsd": 30,
+    "knowsSomeone": false,
+    "foodAvailable": false,
+    "daysSinceLastOuting": 3,
+    "withAdultChild": false,
+    "languageNeeded": false
+   }
+  },
+  {
+   "id": "hh_munich:2026-W41:pl_676c0ee3",
+   "candidate": {
+    "id": "pl_676c0ee3",
+    "kind": "place",
+    "title": "Balan Park",
+    "venueName": "Balan Park",
+    "address": "Oggersheimer Str. 11, 81539 München-Ramersdorf-Perlach",
+    "location": {
+     "lat": 48.1136213,
+     "lng": 11.601256999999999
+    },
+    "ladderLevel": 3,
+    "languageMatch": 0,
+    "category": "park",
+    "indoor": false,
+    "costUsd": 0,
+    "foodAvailable": false,
+    "languageNeeded": false,
+    "groupSize": "medium",
+    "description": "Park",
+    "photo": {
+     "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPdzerS4Gz-nsYUgGya46QTP_OcOJm5zMWoEQvE4wbE8bfFlPxMyMaGYxCxCAfwhxbPGDf7ithmeS110uK17JAFCoNa-yB_WRqFYU4x0cUfXn7sY_5Bd1Y6ZklfLUj6BIfqjjjlbQ=w1000-h1000-c-n",
+     "credit": "Photo: Google Maps contributor"
+    },
+    "start": null,
+    "end": null,
+    "suitsOlderAdults": true,
+    "provenance": "live_search",
+    "query": "Park"
+   },
+   "role": "father",
+   "parentIds": [
+    "p_raghu"
+   ],
+   "slot": {
+    "day": "tue",
+    "depart": 480,
+    "back": 586,
+    "withAdultChild": false
+   },
+   "ladderLevel": 3,
+   "ladderLabel": "Language barely matters",
+   "score": {
+    "pGo": 0.8575,
+    "enjoyment": 3.52,
+    "combined": 3.0184,
+    "rank": 3
+   },
+   "chips": [
+    {
+     "label": "Good weather for it",
+     "feature": "weather",
+     "direction": "for"
+    },
+    {
+     "label": "Like the park outings they enjoyed",
+     "feature": "category",
+     "direction": "for"
+    },
+    {
+     "label": "Small and calm",
+     "feature": "setting",
+     "direction": "for"
+    }
+   ],
+   "reasonText": "No Telugu events nearby this week. No language needed. He enjoys walking in parks when the weather is pleasant. By bus, about 23 minutes each way, back by 09:46.",
+   "reasonBy": "planner",
+   "firstRideTogether": true,
+   "bringSomeone": null,
+   "joinCard": null,
+   "features": {
+    "category": "park",
+    "languageMatch": 0,
+    "travelMinutes": 23,
+    "transfers": 0,
+    "walkingMinutes": 8,
+    "startHour": 8,
+    "dayOfWeek": "tue",
+    "weather": "pleasant",
+    "temperatureC": 17,
+    "rainChance": 0.03,
+    "indoor": false,
+    "groupSize": "medium",
+    "costUsd": 0,
+    "knowsSomeone": false,
+    "foodAvailable": false,
+    "daysSinceLastOuting": 3,
+    "withAdultChild": false,
+    "languageNeeded": false
+   }
+  },
+  {
+   "id": "hh_munich:2026-W41:pl_4ef55187",
+   "candidate": {
+    "id": "pl_4ef55187",
+    "kind": "place",
+    "title": "Desi Markt",
+    "venueName": "Desi Markt",
+    "address": "Albert-Schweitzer-Straße 78, 81735 München",
+    "location": {
+     "lat": 48.1064302,
+     "lng": 11.6451376
+    },
+    "ladderLevel": 2,
+    "languageMatch": 1,
+    "category": "indian_grocery",
+    "indoor": true,
+    "costUsd": 30,
+    "foodAvailable": false,
+    "languageNeeded": false,
+    "groupSize": "medium",
+    "description": "Geschäft für indische Lebensmittel",
+    "photo": {
+     "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rmaehkh1ksCIvXPpIFCPuOeZEs18eEuu9nDOXLcHRZwKlnDIoh2qJMANGSwpEQ6oXJZ2QNW3BnEApZq9WERBHvYJ-RWwRe15cqN5b5-VstxOwBNJS7mvaWf8o0KTgOJ8G8Wzw=w1000-h1000-c-n",
+     "credit": "Photo: Google Maps contributor"
+    },
+    "start": null,
+    "end": null,
+    "suitsOlderAdults": true,
+    "provenance": "live_search",
+    "query": "Indischer Supermarkt"
+   },
+   "role": "father",
+   "parentIds": [
+    "p_raghu"
+   ],
+   "slot": {
+    "day": "mon",
+    "depart": 480,
+    "back": 552,
+    "withAdultChild": false
+   },
+   "ladderLevel": 2,
+   "ladderLabel": "Shared culture",
+   "score": {
+    "pGo": 0.8483,
+    "enjoyment": 3.543,
+    "combined": 3.006,
+    "rank": 4
+   },
+   "chips": [
+    {
+     "label": "Weekday outings rated lower so far",
+     "feature": "timing",
+     "direction": "against"
+    },
+    {
+     "label": "Like the indian grocery outings they enjoyed",
+     "feature": "category",
+     "direction": "for"
+    },
+    {
+     "label": "Shared culture",
+     "feature": "languageMatch",
+     "direction": "for"
+    }
+   ],
+   "reasonText": "No Telugu events nearby this week. Shared culture. He liked the Indian grocery outings before. A 11-minute walk, back by 09:12.",
+   "reasonBy": "planner",
+   "firstRideTogether": true,
+   "bringSomeone": null,
+   "joinCard": null,
+   "features": {
+    "category": "indian_grocery",
+    "languageMatch": 1,
+    "travelMinutes": 11,
+    "transfers": 0,
+    "walkingMinutes": 11,
+    "startHour": 8,
+    "dayOfWeek": "mon",
+    "weather": "rainy",
+    "temperatureC": 17,
+    "rainChance": 0.78,
+    "indoor": true,
+    "groupSize": "medium",
+    "costUsd": 30,
+    "knowsSomeone": false,
+    "foodAvailable": false,
+    "daysSinceLastOuting": 3,
+    "withAdultChild": false,
+    "languageNeeded": false
+   }
+  }
+ ],
+ "note": "No Telugu events were found this week.",
+ "sameLanguageFound": false,
+ "rejected": [],
+ "stats": {
+  "ms": 5932,
+  "modelCalls": 1,
+  "cachedModelCalls": 0,
+  "fallbacks": 0,
+  "retries": 0,
+  "toolCalls": [
+   {
+    "tool": "rankOutings",
+    "ms": 122,
+    "detail": "mother: 7 feasible"
+   },
+   {
+    "tool": "rankOutings",
+    "ms": 224,
+    "detail": "father: 11 feasible"
+   },
+   {
+    "tool": "agent",
+    "ms": 5585,
+    "detail": "1 steps"
+   }
+  ],
+  "rankerCalls": 2,
+  "candidates": 12,
+  "feasible": 11,
+  "agentChoicesUsed": 4
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219896904",
+  "object": "chat.completion",
+  "created": 1791219896,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "If you feel you have lost your way, show the help card to the person at the counter.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 58,
+   "completion_tokens": 21,
+   "total_tokens": 79,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 1.0999999046325684
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:04:57.154Z"
+}

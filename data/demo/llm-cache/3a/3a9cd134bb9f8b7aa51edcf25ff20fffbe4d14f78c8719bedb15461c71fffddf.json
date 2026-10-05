@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219797712",
+  "object": "chat.completion",
+  "created": 1791219797,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "టికెట్ ధర రెండు డాలర్లు యాభై సెంట్లు అవుతుంది.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 88,
+   "completion_tokens": 18,
+   "total_tokens": 106,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 1.2909090518951416
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:03:17.787Z"
+}

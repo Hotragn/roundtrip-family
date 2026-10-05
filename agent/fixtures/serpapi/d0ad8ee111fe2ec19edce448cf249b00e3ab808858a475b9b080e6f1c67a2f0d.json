@@ -1,0 +1,904 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps",
+ "request": "https://serpapi.com/search.json?engine=google_maps&type=search&q=farmers+market&ll=%4037.555%2C-121.982%2C13z&gl=us&hl=en",
+ "note": "places: farmers market",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:05:41.194Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "farmers market",
+   "ll": "@37.555,-121.982,13z",
+   "google_domain": "google.com",
+   "hl": "en",
+   "gl": "us"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "farmers market"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Irvington Farmers' Market",
+    "place_id": "ChIJJVghj83Aj4ARKUEoaoUtIRk",
+    "data_id": "0x808fc0cd8f215825:0x19212d856a284129",
+    "data_cid": "1810778576214573353",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc0cd8f215825%3A0x19212d856a284129&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc0cd8f215825%3A0x19212d856a284129&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5328417,
+     "longitude": -121.95997779999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJJVghj83Aj4ARKUEoaoUtIRk",
+    "provider_id": "/g/11c3s98rpn",
+    "rating": 4.5,
+    "reviews": 563,
+    "type": "Farmers' market",
+    "types": [
+     "Farmers' market"
+    ],
+    "address": "4039 Bay St, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Closed · Opens 9 AM Sun",
+    "hours": "Closed · Opens 9 AM Sun",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "Closed",
+     "wednesday": "Closed",
+     "thursday": "Closed",
+     "friday": "Closed",
+     "saturday": "Closed",
+     "sunday": "9 AM–2 PM"
+    },
+    "phone": "(925) 825-9090",
+    "website": "http://pcfma.org/",
+    "description": "Farmers' market for seasonal fare. Farmers' market featuring vendors with seasonal fruits & vegetables, plus artisanal goods.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfoSuJAMTfE683feBp-dNMcDXzENnbrgSPu6tix-l8Xx0eEVKQuZmYehjd29ElmsPPoXtCkknX42TPMUXoX9lqgtjTp6rMrF40w6GXOBqUKVX3kQErXWMP8IFFV_LdUPkupNSDhvQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/2lc5eXicHcTbTsMgAADQL2LFdWk6Ex9aR41uVJpeRF-MUgoOCh0Xt_iHfsL-xsTzcK6_MoTF3yaJlulKWCs0j547Zk3gJqyYnRPhPrwHzCdFUar5MNk2PhW4m1CWpxMvFzDWmO3oD6rNpxMtiVn4ugCd0wvkaNg38W1-5fI4rrdIz54QS8O9UoZu1h3BPbV0q08iHLslc9hVG3jOHuhzeer3A01Vgxx9wSR_rKrh_TD2RMWlbnfyu7k730AIgfyfAfMHR0VGEw"
+   },
+   {
+    "position": 2,
+    "title": "Newark Farmers Market",
+    "place_id": "ChIJAZYaV1C_j4ARnbBVV5mwD54",
+    "data_id": "0x808fbf50571a9601:0x9e0fb0995755b09d",
+    "data_cid": "11389516155284992157",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf50571a9601%3A0x9e0fb0995755b09d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf50571a9601%3A0x9e0fb0995755b09d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5254043,
+     "longitude": -122.0026716
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJAZYaV1C_j4ARnbBVV5mwD54",
+    "provider_id": "/g/11r8kh4bz",
+    "rating": 4.5,
+    "reviews": 373,
+    "unclaimed_listing": true,
+    "type": "Farmers' market",
+    "types": [
+     "Farmers' market"
+    ],
+    "address": "GXGW+5R, 2086 Newpark Mall Rd, Newark, CA 94560",
+    "country": "United States",
+    "open_state": "Closed · Opens 9 AM Sun",
+    "hours": "Closed · Opens 9 AM Sun",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "Closed",
+     "wednesday": "Closed",
+     "thursday": "Closed",
+     "friday": "Closed",
+     "saturday": "Closed",
+     "sunday": "9 AM–1 PM"
+    },
+    "phone": "(415) 472-6100",
+    "website": "https://www.agriculturalinstitute.org/newark",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLc8K9eTQf_bsGQUaxU1UMyYSN2pqQIM-lH-uWUw4BZYI-_vJ04_pp62Zlm6RkEID5dSMSbpGwcVkngUDGciSRSkw1ThNZ_DcvVa0fV3ZCn4RCj8Z8cp9D-OL6qJ5vn13jUFujnu=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/XFKRkHicHcTdEoFAGADQJ1ptShMzLhCJYmrbjL1p8knpZ1u2H57QM3gbM87F-X7ythVypihVro2ypsmqtJPpExreprwdQVMr2TOREoFUFotlWbtg7qdp6N_ii7R9mryoSr33mRzG4uE7Hqq2qDvRQV-ys4Pifof1WAhjzKraCMq1Y02uxCMXYQ8QlTyjlg13EpByUMP8wGIL-ijBt0hjK64Hq8JkJoiphY6u8dhNeq5qBd10Be_mg4oxRvl_QPwHPVpEAA"
+   },
+   {
+    "position": 3,
+    "title": "Fremont Bay St Farmer's Market",
+    "place_id": "ChIJHYoOyM3Aj4ARNcLNfLGWinw",
+    "data_id": "0x808fc0cdc80e8a1d:0x7c8a96b17ccdc235",
+    "data_cid": "8974150896536371765",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc0cdc80e8a1d%3A0x7c8a96b17ccdc235&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc0cdc80e8a1d%3A0x7c8a96b17ccdc235&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5326915,
+     "longitude": -121.96101569999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJHYoOyM3Aj4ARNcLNfLGWinw",
+    "provider_id": "/g/11bzywm_pk",
+    "rating": 4.6,
+    "reviews": 187,
+    "unclaimed_listing": true,
+    "type": "Farmers' market",
+    "types": [
+     "Farmers' market"
+    ],
+    "address": "4080 Bay St, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Closed · Opens 7 AM Sun",
+    "hours": "Closed · Opens 7 AM Sun",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "Closed",
+     "wednesday": "Closed",
+     "thursday": "Closed",
+     "friday": "Closed",
+     "saturday": "Closed",
+     "sunday": "7 AM–1 PM"
+    },
+    "website": "https://www.pcfma.org/irvington",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLejmjPg1E1dUTrWt8q4DlizkixjXRBe9l0DgdHpTxaxFRec4oniS9nM1r6CGwtCS6WtT_oFppPdXtJYYWVp7e7yt_kMXO1InelHM8VS9u3ifDrNj3-fHVAh4MSHBUs0DWz10UFF=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/wqdHwHicHcRbjoIwFADQFSFtICgm8wEiohE18vTLmFLLo7S1vUbGDc4aZjcmno_z_9cCKLO0bd46MyYl4_RpqCZSABUwI3K0mb4ZYxFjB0E4jHvaj_2J4TVuilxXsHi4Ee_eQzf19TmkPkcRaxKVT7cpPlPiStFlvkix9labF6wyr4L8KmOlTk0Nu8ulKtWczn_hOqT1EW8F5Um6KDP_6XT3SB96x7onZdC6aZaEhUFR9caoiOOfF0YIWe13YokP8dhFFg"
+   },
+   {
+    "position": 4,
+    "title": "Niles Fremont Farmer's Market",
+    "place_id": "ChIJx4N1gm7Aj4ARnlEQctnKfHs",
+    "data_id": "0x808fc06e827583c7:0x7b7ccad97210519e",
+    "data_cid": "8898209999047643550",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc06e827583c7%3A0x7b7ccad97210519e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc06e827583c7%3A0x7b7ccad97210519e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.576705,
+     "longitude": -121.9784815
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJx4N1gm7Aj4ARnlEQctnKfHs",
+    "provider_id": "/g/11b62116n9",
+    "rating": 4.4,
+    "reviews": 238,
+    "type": "Farmers' market",
+    "types": [
+     "Farmers' market"
+    ],
+    "address": "37592 Niles Blvd, Fremont, CA 94536",
+    "country": "United States",
+    "open_state": "Closed · Opens 9 AM Sat",
+    "hours": "Closed · Opens 9 AM Sat",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "Closed",
+     "wednesday": "Closed",
+     "thursday": "Closed",
+     "friday": "Closed",
+     "saturday": "9 AM–1 PM",
+     "sunday": "Closed"
+    },
+    "website": "https://nilesfarmersmarket.org/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfqkIG9HusosXhvQgu5J1Kk2Yp0PNUU05zqZum3a71esMiqrHlY1DinEq08pDB1_qKMRrsYfu1RZP0J2zs3ScppWXDawcmU34FcwekPkOuJRUqZWA32ZaeD0LT7zjfDQ9zFuRMqsLgkNHUV=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/WKxwpHicHcTdboIwGADQJ0JaOuNPsgtMp4jgkK1TuDGkKUULtOWjI-Eld723WbJzcX5_mnE0sPX9tiELqbVshQMxcN2Poh8XXHe-HCoAj4MfhjvVJbVVx8MmcqDh1nxfpFvG-KSCwqDszBhazrZ0HalWWED6sEPUFpg--jeL1obu8N2e0nyAonY4LzMUBzOQD27M9UariXeMvOz5JFSm3l2cM1teQxKUlaAo-VzNz5peNvPe5amFRKpzxL5eJ4wQ8pr_udf_AQKCSBc"
+   },
+   {
+    "position": 5,
+    "title": "Ramirez Farmstand",
+    "place_id": "ChIJs4KSi-a_j4ARJPag6v0euno",
+    "data_id": "0x808fbfe68b9282b3:0x7aba1efdeaa0f624",
+    "data_cid": "8843414894207366692",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbfe68b9282b3%3A0x7aba1efdeaa0f624&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbfe68b9282b3%3A0x7aba1efdeaa0f624&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.583928799999995,
+     "longitude": -122.01077749999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJs4KSi-a_j4ARJPag6v0euno",
+    "provider_id": "/g/11c0xxl49s",
+    "rating": 4.6,
+    "reviews": 47,
+    "unclaimed_listing": true,
+    "type": "Grocery store",
+    "types": [
+     "Grocery store"
+    ],
+    "address": "35075 Alvarado-Niles Rd, Union City, CA 94587",
+    "country": "United States",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "monday": "9:30 AM–7 PM",
+     "tuesday": "9:30 AM–7 PM",
+     "wednesday": "9:30 AM–7 PM",
+     "thursday": "9:30 AM–7 PM",
+     "friday": "9:30 AM–7 PM",
+     "saturday": "9:30 AM–7 PM",
+     "sunday": "9:30 AM–7 PM"
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfnz_63KAPr8bP6GbxmF41Go7Cq_Ai6Vqmu8VzSrUvjzLxfgZTORb3d5UcLIRTCp_QehnH75WQSIP3JjT83kpLNb37700Y3kkXjgloPZdiP86t9riUIygEYaJDsiv47o01MH_UGXg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/M4UiMnicHcRJDoIwAADAFyElVYomHnBDFLUqIHohUrGsLbZ144c-wd-YOIf5fjKlGjnQ9SqDHco5rdK7TAXhTKVMdQivdSrOUmpE6rY9KmvvytrYhEsbCyvBppO86lnXcDga32I7N8NbfbfCdi-CR9F6rys9-ZtdAi-9gHjuzh838TbN2Bz1Dtu9i-Gi8C1YNt46gQgBcIRlGRW04vh0ybFlqr7IA_dNp8fzYiLzRxdxYKzmceBEdPg0AABa9p9o7AfuzETX"
+   },
+   {
+    "position": 6,
+    "title": "Sunol Corners",
+    "place_id": "ChIJD4e13TXCj4AR6egFTAJ4oBI",
+    "data_id": "0x808fc235ddb5870f:0x12a078024c05e8e9",
+    "data_cid": "1342204640217131241",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc235ddb5870f%3A0x12a078024c05e8e9&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc235ddb5870f%3A0x12a078024c05e8e9&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5930371,
+     "longitude": -121.8820228
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJD4e13TXCj4AR6egFTAJ4oBI",
+    "provider_id": "/g/1tjpqr51",
+    "rating": 4.6,
+    "reviews": 411,
+    "type": "Produce market",
+    "types": [
+     "Produce market"
+    ],
+    "address": "11600 Pleasanton Sunol Rd, Sunol, CA 94586",
+    "country": "United States",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "monday": "6 AM–7 PM",
+     "tuesday": "6 AM–7 PM",
+     "wednesday": "6 AM–7 PM",
+     "thursday": "6 AM–7 PM",
+     "friday": "6 AM–7 PM",
+     "saturday": "8 AM–7 PM",
+     "sunday": "8 AM–7 PM"
+    },
+    "phone": "(925) 783-1756",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfDsj9FBhL1dZ80hi22ntobC2DNl-FP7jFP4Uqcp8n07YX8HkNHkdkF19pGV8PEBVfBnasCzx9qf-bveIKiBGq04cHrUnFtW-2zUQrnprkLnI00woCkMe7domTVTYBkTYwoKK9B=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/OJyHnHicHcRRboIwGADgE1UKmgBL9mDRggENS4CJb1oKxcJfaKssXnBn2G1M9j18f7_C2sl8OM4g1qtOqW7gD8M1U2A52BVTo9PpqzGIGWe7JXLM2p25h5SIzG0uARa954FVt8jbnQZEc_9O8005sykA7NfnIJGnRDaSuuEUV0G-J1VL4Gqi1084t-j25Ie0J_GMNyzRJVD7jbxX-aVh0jKDA8aLiuSR-40ai6qoiSzqRaVpSD4XF2OMxP8MwRsGiEQN"
+   },
+   {
+    "position": 7,
+    "title": "Sprouts Farmers Market",
+    "place_id": "ChIJzW4I8Vq-j4ARG3nExqf22yc",
+    "data_id": "0x808fbe5af1086ecd:0x27dbf6a7c6c4791b",
+    "data_cid": "2872160387833559323",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbe5af1086ecd%3A0x27dbf6a7c6c4791b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbe5af1086ecd%3A0x27dbf6a7c6c4791b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.54877,
+     "longitude": -122.05162999999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJzW4I8Vq-j4ARG3nExqf22yc",
+    "provider_id": "/g/11c74yqvv3",
+    "rating": 4.5,
+    "reviews": 863,
+    "type": "Grocery store",
+    "types": [
+     "Grocery store",
+     "Fresh food market",
+     "Fruit and vegetable store",
+     "Grocery delivery service",
+     "Health food store",
+     "Organic food store",
+     "Produce market",
+     "Supermarket",
+     "Vitamin & supplements store"
+    ],
+    "address": "6399 Jarvis Ave, Newark, CA 94560",
+    "country": "United States",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "monday": "7 AM–10 PM",
+     "tuesday": "7 AM–10 PM",
+     "wednesday": "7 AM–10 PM",
+     "thursday": "7 AM–10 PM",
+     "friday": "7 AM–10 PM",
+     "saturday": "7 AM–10 PM",
+     "sunday": "7 AM–10 PM"
+    },
+    "phone": "(510) 789-0361",
+    "website": "https://sprouts.com/store/ca/newark/newark",
+    "description": "Natural & organic grocery store. Specialty chain offering a range of natural & organic grocery items, including own-brand goods.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLffdEH-_bBp2wFk6iZ7IhMbhlkvcL1TMmGu2bldxEkBwZqrwHEp4uEdpMNKVUGEKUogTIybpYLKPQpZ-WEpQSwqKx9a5qqyp8g6CnVi4OxIuCU4PkKPyMpi7PByPJoL4XHUvgj5-Q=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_tSudHicHcRRboIwGADgE1XQoc4lexBTBQuuRHEbL4sUbFmB_lCwcESP4G1M_B6-x110HegPyyrF24Qrxcu813nLVN3ldTdhqrJ4e9EaMW2t166sgus1wx76S12Yma1cFMnSF2EqSnljwfQUVrt-lpbZgKVrkqY1HganxxmEB3KOd5jEip_8MYXfgNAIEvSNITqahgyry7xpRnjni019Lpyvwe83sUMloWMIxZK6I92rwPnx4hv_n6Po00xt20biNUP1E3wlRnU"
+   },
+   {
+    "position": 8,
+    "title": "East Palo Alto Community Farmers' Market",
+    "place_id": "ChIJKXs9GzC7j4ARz2VdXWdcJdc",
+    "data_id": "0x808fbb301b3d7b29:0xd7255c675d5d65cf",
+    "data_cid": "15502898891310589391",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbb301b3d7b29%3A0xd7255c675d5d65cf&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbb301b3d7b29%3A0xd7255c675d5d65cf&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.47586,
+     "longitude": -122.131484
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJKXs9GzC7j4ARz2VdXWdcJdc",
+    "provider_id": "/g/11q85xwrgc",
+    "rating": 4.5,
+    "reviews": 4,
+    "type": "Farmers' market",
+    "types": [
+     "Farmers' market"
+    ],
+    "address": "2555 Pulgas Ave, East Palo Alto, CA 94303",
+    "country": "United States",
+    "open_state": "Closed · Opens 8:30 AM Wed",
+    "hours": "Closed · Opens 8:30 AM Wed",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "Closed",
+     "wednesday": "8:30 AM–12:30 PM",
+     "thursday": "Closed",
+     "friday": "Closed",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(925) 771-2990",
+    "website": "https://www.freshapproach.org/east-palo-alto-community-farmers-market/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdlyGhulanTySprCgA8-HaGTS5XDKhIvl_ZdbL2suDQwQc0U8A_WcbnJM4gIZdyidR0Qwlvc6jlrHhVsxg4wdSovQNfFhh9TrsKefprV--efs-9Q2RDMZI2Xh2_FKdD80i2qgmfWb0xvE4=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/3WrVnXicHcTbboIwGADgJ6p0HRo02QWOqQw1qeAh3BBoS3-30rKWg7zk7n2bJfsuvucvdF3rVp6n4HUmjZFK9E5YZnQndDdjpvGkLZ1DzHlhuP5u9lxNW-hVqbMpbe27DAO0K7dZOr9FCcSDKnJe7YnrIzpShs9BWFxZpT8PvoxzPt35CdNRDWzxpewOLu4h_ZGnZqDHegOwzKxLRN3aC0KidmhJySk65DG5ASk2CY8CfCc_sqmvFX4MH_7b-IIxRvA_Q_oPFo9IPg"
+   },
+   {
+    "position": 9,
+    "title": "Union City Farmers' Market",
+    "place_id": "ChIJgUP9hNmVj4ARaDH0BwLYe0k",
+    "data_id": "0x808f95d984fd4381:0x497bd80207f43168",
+    "data_cid": "5295063290139128168",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f95d984fd4381%3A0x497bd80207f43168&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f95d984fd4381%3A0x497bd80207f43168&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.597150899999995,
+     "longitude": -122.07863599999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJgUP9hNmVj4ARaDH0BwLYe0k",
+    "provider_id": "/g/11bw20jdj7",
+    "rating": 4.2,
+    "reviews": 97,
+    "type": "Farmers' market",
+    "types": [
+     "Farmers' market"
+    ],
+    "address": "30940 Watkins St, Union City, CA 94587",
+    "country": "United States",
+    "open_state": "Closed · Opens 9 AM Sat",
+    "hours": "Closed · Opens 9 AM Sat",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "Closed",
+     "wednesday": "Closed",
+     "thursday": "Closed",
+     "friday": "Closed",
+     "saturday": "9 AM–1 PM",
+     "sunday": "Closed"
+    },
+    "phone": "(925) 825-9090",
+    "website": "http://pcfma.org/unioncity",
+    "description": "Farmers' market for seasonal fare. Farmers' market featuring vendors with seasonal fruits & vegetables, plus artisanal goods.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLc0l_l6imdFYNh7CVUAbvRuy3PFlz8eskxdDvltNAMLwukxCtrtsSLYnois8lHxkjacCIV5OV4R13PlVyFxxqwQ--KwYA2Bqm58zR4-4UOnTaQq2P5gwfT6HdW69PGFaC6YxNMS=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/0KOYvnicHcTLDYIwAADQiSogH9HEQ8WgRkREwHAyWBCQ0gottrKgM7iNie_wvp-K8ydbKAqu9ElJaYmLgRU9ooQXhE8QbZWyzxgDiCkQrprWQyq-Yqtuczf1q5mTxPD2Coe3Hrh4tAvWyHz9wtyHB08MjXR4z9nZSwmtmY23snlkyNkl5jExQk0PcPJ2pezECYC9SOF01bWmPYYGMOIjibJTNw3MUtwja5tfrHmwcTPHSqV_OC-FpqoqqP4jQH4Y1kVy"
+   },
+   {
+    "position": 10,
+    "title": "Pleasanton Farmers' Market",
+    "place_id": "ChIJOfr0J73pj4ARbf9oHzAG0kU",
+    "data_id": "0x808fe9bd27f4fa39:0x45d206301f68ff6d",
+    "data_cid": "5031090537481437037",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fe9bd27f4fa39%3A0x45d206301f68ff6d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fe9bd27f4fa39%3A0x45d206301f68ff6d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.6593567,
+     "longitude": -121.8757236
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJOfr0J73pj4ARbf9oHzAG0kU",
+    "provider_id": "/g/11ckvh4cn3",
+    "rating": 4.6,
+    "reviews": 533,
+    "type": "Farmers' market",
+    "types": [
+     "Farmers' market"
+    ],
+    "address": "46 W Angela St, Pleasanton, CA 94566",
+    "country": "United States",
+    "open_state": "Closed · Opens 9 AM Sat",
+    "hours": "Closed · Opens 9 AM Sat",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "Closed",
+     "wednesday": "Closed",
+     "thursday": "Closed",
+     "friday": "Closed",
+     "saturday": "9 AM–1 PM",
+     "sunday": "Closed"
+    },
+    "phone": "(925) 825-9090",
+    "website": "http://pcfma.org/pleasanton",
+    "description": "Farmers' market for seasonal fare. Farmers' market featuring vendors with seasonal fruits & vegetables, plus artisanal goods.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdcpMX9hSWQX1MBMXXNQ7gcRLcVTTtMwcyQTW3duPg3w99FBVCvpaA4FUu_n3hSPh2KHJPz_6cxkog8z7OvNsqOUfCbjSgQmYH6N9zpeQAtrL3xu_WihrEVJZGAbN55NY0MLao_ng=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/s7hbcnicHcRNcoIwGADQEyHY-FOccRGcWkdJJIKA3TD4SROrJEiCIDf0CL2NM77F-38KYyo9s-2rQAOuFL8WjS5qUNIU0gxAlTavc60t0DbG3qX0T1CR1BVhwtIh8UiaUjblsPMhjiJDWniwKEGnJuCodd2lFy_uVY5Hy32TSSTCQHxsVuugzybQXRT_7KfbO9W37f53cfwLOSsPqwl1-6pg2NQ-6posOYv6K17_fOMjHY_pwSF-rjLJ5-3QcRxLvAdLvgApiUX7"
+   },
+   {
+    "position": 11,
+    "title": "Jamal farm and produce",
+    "place_id": "ChIJpenpHTa_j4ARFFw1CzIPXfY",
+    "data_id": "0x808fbf361de9e9a5:0xf65d0f320b355c14",
+    "data_cid": "17752362013775191060",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf361de9e9a5%3A0xf65d0f320b355c14&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf361de9e9a5%3A0xf65d0f320b355c14&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5583212,
+     "longitude": -122.0087293
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpenpHTa_j4ARFFw1CzIPXfY",
+    "provider_id": "/g/11lm_4pdjd",
+    "rating": 4.8,
+    "reviews": 30,
+    "type": "Produce market",
+    "types": [
+     "Produce market"
+    ],
+    "address": "4064 Bonde Way, Fremont, CA 94536",
+    "country": "United States",
+    "open_state": "Opens soon · 10:30 AM",
+    "hours": "Opens soon · 10:30 AM",
+    "operating_hours": {
+     "monday": "10:30 AM–6:30 PM",
+     "tuesday": "10:30 AM–6:30 PM",
+     "wednesday": "10:30 AM–6:30 PM",
+     "thursday": "10:30 AM–6:30 PM",
+     "friday": "10:30 AM–6:30 PM",
+     "saturday": "10:30 AM–6:30 PM",
+     "sunday": "10:30 AM–6:30 PM"
+    },
+    "phone": "(510) 706-2586",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLd1yxE5tOLTwMUXBCCDW8Dlof7YPqTwpEP111EPP-JkQnZ9eXkrWauL3Wb4akbeGAFoBtTov3iTNA2XfWEYdmT4SZ6F2Wt5AwmaGzbYPWesZqAjU6tDIwFuEhbauTwXsxPFEBdO=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/TXR_tXicHcTbDoIgAADQLzIlzS5bD5jYala0aKhvqKjlhRKM6gf7hv6mrfNwvp9KqZtcmGZT2aNSiLLhg-R9JjrFOzXKRGuWPZPSyKQJoVe3YQ5eTzRRh5Do3TnyViufzvxGFNMY34m-IQwAQBgb2_rYJXMe1T1lQ2jT1GF1ytcwEJ4i4mFfyB6Oo4KiOG-Jc0rcYEzVBOqWrd9pjCmXyR1ez67yNzoYUJWygehIPnGAvPyw1MCyLKP6nxndD1XUROc"
+   },
+   {
+    "position": 12,
+    "title": "Sunol AgPark",
+    "place_id": "ChIJhRboC7XDj4ARgm4JVswbDV4",
+    "data_id": "0x808fc3b50be81685:0x5e0d1bcc56096e82",
+    "data_cid": "6777103578693201538",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc3b50be81685%3A0x5e0d1bcc56096e82&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc3b50be81685%3A0x5e0d1bcc56096e82&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.589426499999995,
+     "longitude": -121.88382419999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJhRboC7XDj4ARgm4JVswbDV4",
+    "provider_id": "/g/11bwkfd551",
+    "rating": 4.9,
+    "reviews": 10,
+    "unclaimed_listing": true,
+    "type": "Farm",
+    "types": [
+     "Farm",
+     "Tourist attraction"
+    ],
+    "address": "505 Paloma Way, Sunol, CA 94586",
+    "country": "United States",
+    "website": "https://acrcd.org/projects/sunol-agpark/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLd2YKuv3V8nHM7ADIMAW31vVahnY3AdiMTwU5DBtvero4ir9xdWgItYmKj0aDlOc0MKqjcfvLt2Q2T9PkuGUvojEMLHTCdmf_5H-KbKDlYhpxfwP12AvTZ6nIeyYdtTnVmW8-8=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/zaiH3nicHcRRboMgAADQE1FR19Yu2QedyzRI1iVUQ38WByi1Ap0gdhfcHXabJn0f7_9PeX91z1E0qnTVW9uPcnZy4tZ4afyKWx31U-sc4C5CaH_RlUgYnkNaZ6YgW5SXBDVpHOpWGZYicSZ0Oa7zvQ9ysk_naXcTTV96pvEA23z84JDgn4F3ofLJZ0J3h8v8fgx2eCNVQV-F7r7WBcDfOB-Zut665RAnKNDTxpTylwlPTa2bDGQvSwwhBOoxB-YOK5ZEkw"
+   },
+   {
+    "position": 13,
+    "title": "Yeso Coconut Pudding",
+    "place_id": "ChIJISJABwC_j4ARNRgtsKDtVgY",
+    "data_id": "0x808fbf0007402221:0x656eda0b02d1835",
+    "data_cid": "456813686630979637",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf0007402221%3A0x656eda0b02d1835&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf0007402221%3A0x656eda0b02d1835&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5254489,
+     "longitude": -122.0029173
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJISJABwC_j4ARNRgtsKDtVgY",
+    "provider_id": "/g/11ych6v5t6",
+    "rating": 5,
+    "reviews": 1,
+    "unclaimed_listing": true,
+    "type": "Farmers' market",
+    "types": [
+     "Farmers' market"
+    ],
+    "address": "GXGW+5R, 2086 Newpark Mall Rd, Newark, CA 94560",
+    "country": "United States",
+    "website": "https://www.instagram.com/yesococonut?igsh=MWhidGlxeWhnYmx3eg==",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdDMygrmJRKjO62_nsIdf0Z2TkhWw6Ji91S4hl8UyLhv4X2-DqwDA9lt3lB-G7-YqjHbXivX9HNIkUKbTN5eo0KEA_0_GnaLx0pHJQBd5ZHBC-H6mwDNHs7F_1-SSrGRsgZljSkyI1q4BM=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/6ls00nicHcTNboIwAADgJyoURBSTHahslB9ZJhoZF4LAWqG0QjuRl_Tu25j4Hb7ngyp1lRtdZ3ShESEIa_5lM1aCq4YrrRK9TsZSSlBJ3XVR18e1t5vJ2If7qP22zYLLoP6DuXno6Gmyw4tjpBZl6-Mc05uVmcAbJs91mFowBPwV-B1afM4ut8zBSdAdo_MhWTYCRp9uAQufl_EdXnH4g-pljtEWYLufvATL1VdhgDQd_b0kOWvTbg6MwUK7j8mAEAL6vgL8Bft2RVg"
+   },
+   {
+    "position": 14,
+    "title": "Downtown Palo Alto Farmers' Market",
+    "place_id": "ChIJO5IjYDm7j4ARZMIANcQX2LU",
+    "data_id": "0x808fbb396023923b:0xb5d817c43500c264",
+    "data_cid": "13103249247304729188",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbb396023923b%3A0xb5d817c43500c264&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbb396023923b%3A0xb5d817c43500c264&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.445448899999995,
+     "longitude": -122.15890359999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJO5IjYDm7j4ARZMIANcQX2LU",
+    "provider_id": "/g/11xvm6k2k",
+    "rating": 4.5,
+    "reviews": 251,
+    "type": "Farmers' market",
+    "types": [
+     "Farmers' market"
+    ],
+    "address": "601-699 Gilman St, Palo Alto, CA 94301",
+    "country": "United States",
+    "open_state": "Closed · Opens 8 AM Sat",
+    "hours": "Closed · Opens 8 AM Sat",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "Closed",
+     "wednesday": "Closed",
+     "thursday": "Closed",
+     "friday": "Closed",
+     "saturday": "8 AM–12 PM",
+     "sunday": "Closed"
+    },
+    "phone": "(415) 598-8172",
+    "website": "https://www.pafarmersmarket.org/",
+    "description": "Weekly setup for fresh produce & foods. Lively Saturday market with a variety of vendors selling produce, flowers, global plates & more.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLd0UvWWS6vt8YL8AwpDE4Qy_Z2q5L2_ADMK94CP6-GSljrmsR7yVMJztELOD14YFfXO1wpZIucNcZUwQJLikyFdQTupS_7AdJGpmjXE1HDaEeKjaOvUKbcxfNh_nLVSEew7v2M55zMhf2ew=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Rx4OinicHcRLcoIwAADQEyGfgmhnuogSbSFIKQWVDYMhEJFPSgIRL9l1b9MZ3-L9_VIhGH9V1Ya-LKq-rxoycjLgvhOkEwvct2o15JwrmKsAbG4tKrR4Oh6j5SRWZ7QCkjnQDOcsNX4sZGTA8b21uf1cKvuoqYeWf9lz4rsPAVHg6OZ5V54CXbL0Y8QHnMYydNH1Nu-K8HtkUWaDwt2ztj5B_d3JIfHqPJhi74Lv5YFmHUoiSKQ9Gb5lPXxaGkS-SV3TNIU-x0r3D2zBRz8"
+   },
+   {
+    "position": 15,
+    "title": "Hayward Farmers Market",
+    "place_id": "ChIJp6G_CNiTj4ARe3lSiZIwX_8",
+    "data_id": "0x808f93d808bfa1a7:0xff5f30928952797b",
+    "data_cid": "18401480008386378107",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f93d808bfa1a7%3A0xff5f30928952797b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f93d808bfa1a7%3A0xff5f30928952797b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.671065299999995,
+     "longitude": -122.0846151
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJp6G_CNiTj4ARe3lSiZIwX_8",
+    "provider_id": "/g/1hf70y4gg",
+    "rating": 4.5,
+    "reviews": 384,
+    "unclaimed_listing": true,
+    "type": "Farmers' market",
+    "types": [
+     "Farmers' market"
+    ],
+    "address": "777 B St, Hayward, CA 94541",
+    "country": "United States",
+    "open_state": "Closed · Opens 9 AM Sat",
+    "hours": "Closed · Opens 9 AM Sat",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "Closed",
+     "wednesday": "Closed",
+     "thursday": "Closed",
+     "friday": "Closed",
+     "saturday": "9 AM–1 PM",
+     "sunday": "Closed"
+    },
+    "phone": "(415) 472-6100",
+    "website": "https://www.hayward-ca.gov/residents/arts-leisure/hayward-farmers-market",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfHsvfve3sZbeaZNJFkiwYjBiQ4wi0fPkB0_-wSmPmw9Ccol-c9mj6JSs1s3nboZUMDbldNF0JB6-xBVwSppxS_brDq2aexN0VnLTIAzT5e2i9pXn_r3qrGLs1pXl6x5ETq_dLTW_5dfe5W=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/DiUWh3icHcTbToMwGADgJ-ooQ0gw8YI6t0mQzIDb5KaBUg6jJ_rjSnxJr30bE7-L7_dnWBYDj54nhmDTa90L_gXcMq0WrpYN09LrbQ2AGHhJQiaZdUe4d3ceQNXwusrT_TS6zxsZ3x_ciLvTRDBFrpAn6eJnpgVisbxFaQE-BKrR1cfbrhFtvscpidBKzq4wZi1oY3fztuZrjs8qK1-T7zLk2zE2V0VtMNtDBr65imgNX8qZtll5oWHb8fDy5HyMMRr-Z0j9AUoTSJo"
+   },
+   {
+    "position": 16,
+    "title": "Milpitas Farmers' Market",
+    "place_id": "ChIJqw0oZdbOj4AR8BXP7OU9xhw",
+    "data_id": "0x808fced665280dab:0x1cc63de5eccf15f0",
+    "data_cid": "2073412736180491760",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fced665280dab%3A0x1cc63de5eccf15f0&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fced665280dab%3A0x1cc63de5eccf15f0&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.4122286,
+     "longitude": -121.8969875
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJqw0oZdbOj4AR8BXP7OU9xhw",
+    "provider_id": "/g/12606g235",
+    "rating": 4.4,
+    "reviews": 416,
+    "type": "Farmers' market",
+    "types": [
+     "Farmers' market"
+    ],
+    "address": "882 Great Mall Dr, Milpitas, CA 95035",
+    "country": "United States",
+    "open_state": "Closed · Opens 8 AM Sun",
+    "hours": "Closed · Opens 8 AM Sun",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "Closed",
+     "wednesday": "Closed",
+     "thursday": "Closed",
+     "friday": "Closed",
+     "saturday": "Closed",
+     "sunday": "8 AM–1 PM"
+    },
+    "phone": "(925) 825-9090",
+    "website": "http://pcfma.org/milpitas",
+    "description": "Farmers' market for seasonal fare. Farmers' market featuring vendors with seasonal fruits & vegetables, plus artisanal goods.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfqg9x2fqoVw3UVq_dN864O6PLOvddx4Ii3mxmbUQKQZAzx2AkPuvwq6jm7lyoPJkaFOCFEX606hflxFLRZ2kPyuSMA0NzLj3T6-GNlLza6R0ACP4aDtpyypIQnr6g8jIevWgc=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/sQVyKHicHcRdboIwAADgEyEVSHVL9tA5MbgOis6f-LJggSK0FGiBwgG9w26zZN_D9_sstG7Uq23zwl0wKRnPepV1VNY6q_WCSmGzLlHKospG6L0SOG_Zi3HyVp5H93Ruf9JwDb0IEhwNaWq84OEKI-6n-DO-odk4qCL9MLawFCs-SbKvEj_a-NsrBLDIufHx4eZUZOqPXwiEMy7db2jtQo7nBB4A2hAv-dDNNDVBXHeQrcsgGy6Mvo1LAIBV_E-t-g928EUG"
+   },
+   {
+    "position": 17,
+    "title": "California Avenue Farmers' Market",
+    "place_id": "ChIJefba-OW6j4AR9wxmBnwZek4",
+    "data_id": "0x808fbae5f8daf679:0x4e7a197c06660cf7",
+    "data_cid": "5654860302591069431",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbae5f8daf679%3A0x4e7a197c06660cf7&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbae5f8daf679%3A0x4e7a197c06660cf7&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.4253241,
+     "longitude": -122.1458742
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJefba-OW6j4AR9wxmBnwZek4",
+    "provider_id": "/g/11b7f1lgnp",
+    "rating": 4.7,
+    "reviews": 428,
+    "unclaimed_listing": true,
+    "type": "Farmers' market",
+    "types": [
+     "Farmers' market"
+    ],
+    "address": "400 California Ave, Palo Alto, CA 94306",
+    "country": "United States",
+    "open_state": "Closed · Opens 9 AM Sun",
+    "hours": "Closed · Opens 9 AM Sun",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "Closed",
+     "wednesday": "Closed",
+     "thursday": "Closed",
+     "friday": "Closed",
+     "saturday": "Closed",
+     "sunday": "9 AM–1 PM"
+    },
+    "phone": "(510) 745-7100",
+    "website": "https://uvfm.org/palo-alto-sundays",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfGr9UBMIyOMjwtIkbgsKDwYRuZ5dVZUETbUSexHAnjcm-Ci-E0_swJxoYtNKQzwlYibEiG3TbOKBKg0Qd5cBsffc9NHDaQQQgJ0TLXNDMOY7eHQEh5q1p_WYM4LcPhfHooFWgp=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/pddvsXicHcTvEoEwAADwJ5rm6Bx3PpQi-mcU5ourtbaoljY3vKBn8Dbu_D78vh-uVCdnhlHz0YAJwWr6kLQnolW0VQMiGoP1mZSASMOy7FsTlKt-mtrh-hWHV63Wt5xJ39F49zibxeGcukme7unTs9oracCiAi68SL15CqwiH711javcrVajJI9922cQFSaxZVmSaeQ5GUKIbWASnCInjPGEesjl5n3YXY44HAdky0tPiOWRdXM9hBAC_p-A9gfPA0Uz"
+   },
+   {
+    "position": 18,
+    "title": "Taste of Tradition",
+    "place_id": "ChIJubxKwT-_j4AR1QEL0N6s_5U",
+    "data_id": "0x808fbf3fc14abcb9:0x95ffacded00b01d5",
+    "data_cid": "10808547703685579221",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf3fc14abcb9%3A0x95ffacded00b01d5&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf3fc14abcb9%3A0x95ffacded00b01d5&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5458036,
+     "longitude": -122.0399836
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJubxKwT-_j4AR1QEL0N6s_5U",
+    "provider_id": "/g/11xng92971",
+    "type": "Farmers' market",
+    "types": [
+     "Farmers' market"
+    ],
+    "address": "35872 Newark Blvd, Newark, CA 94560",
+    "country": "United States",
+    "phone": "(713) 430-6678",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=xVpee7JoQ_R4QN0QshiP2g&cb_client=search.gws-prod.grass&w=80&h=92&yaw=45.31582&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/TQgMxHicHc1BDsIgEADA33ATaG1jNSHePRjrwWtDcYVNaCEslvocn-VvNH5g5vN2OUc6CEE5AeQFoURcwdMmam5DsB50ROImTGKpRHbPaZw1-mPUc8C7Wm8RYHcK_XBt-rPsyeGltsyMg_EIc1YEOhnHbfmJKdy5TZqIFdVJ5tS-Zi9dVNPybdV2NYuYjVOS_ZtHWFQl5RfDVDom"
+   },
+   {
+    "position": 19,
+    "title": "feral heart farm",
+    "place_id": "ChIJhRboC7XDj4ARFhjNPbYIJBE",
+    "data_id": "0x808fc3b50be81685:0x112408b63dcd1816",
+    "data_cid": "1235121776620279830",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc3b50be81685%3A0x112408b63dcd1816&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc3b50be81685%3A0x112408b63dcd1816&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5880587,
+     "longitude": -121.8847285
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJhRboC7XDj4ARFhjNPbYIJBE",
+    "provider_id": "/g/11gr462s2n",
+    "rating": 4.5,
+    "reviews": 2,
+    "unclaimed_listing": true,
+    "type": "Farm",
+    "types": [
+     "Farm"
+    ],
+    "address": "505 Paloma Way, Sunol, CA 94586",
+    "country": "United States",
+    "phone": "(415) 722-1564",
+    "website": "http://www.feralheartfarm.com/contact/",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLd3jJZEGBVn9dezd2zIh_GmNgeQ-4u5SluuWGejJEO4rDx-an4dDDl6OsmLbT_bo5y-DEX1guBxvufvHMM5kfiJy_EWJVDY8XrrgTu_nQz4f2mBXiCkzROssQ44Wtv79ygUCxU=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/TpX383icHcRJDoIwAADAF1VQi4qJB7EEJSLBDfRCFEpRaGu6IPBA_-BvTJzDfD-lUi85N4y6HA8I56TGWmKRcaYwU4OMU4OIm5Qgk8Zy6VR0m4-f_tX1nDOzc9zno35Tph7dERwBqK1DrXXs4afvhlCgFtwYzBGqJ6Gk2_sxvXOrA8hNhkQ7baOLZh0EVlU8_C51Y_-MLrNECHLUKYt6WIyokzxWVb8PpYwgjFUztTtyWrWnxXtomiYo_2eA_QByWkWB"
+   },
+   {
+    "position": 20,
+    "title": "Mountain View Farmers' Market",
+    "place_id": "ChIJLTO4uTa3j4AR2P332vDw4aY",
+    "data_id": "0x808fb736b9b8332d:0xa6e1f0f0daf7fdd8",
+    "data_cid": "12025157397312437720",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fb736b9b8332d%3A0xa6e1f0f0daf7fdd8&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fb736b9b8332d%3A0xa6e1f0f0daf7fdd8&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.3936324,
+     "longitude": -122.0748572
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJLTO4uTa3j4AR2P332vDw4aY",
+    "provider_id": "/g/1v6l7qw1",
+    "rating": 4.7,
+    "reviews": 1877,
+    "type": "Farmers' market",
+    "types": [
+     "Farmers' market"
+    ],
+    "address": "600 W Evelyn Ave, Mountain View, CA 94041",
+    "country": "United States",
+    "open_state": "Closed · Opens 9 AM Sun",
+    "hours": "Closed · Opens 9 AM Sun",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "Closed",
+     "wednesday": "Closed",
+     "thursday": "Closed",
+     "friday": "Closed",
+     "saturday": "Closed",
+     "sunday": "9 AM–1 PM"
+    },
+    "phone": "(800) 806-3276",
+    "website": "https://www.cafarmersmkts.com/mountain-view-farmers-market",
+    "description": "Weekly source for local organic produce. Extensive, open-air market held each Sunday, with local organic produce, baked goods & flowers.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfUusbN0BB6mVsxbvXrQZKQyr3gcBSZ2rWlOzY_iPKuTVc4qxJoYMfXzahwZXV7kvWOKSvIJoS_CMWg-vOgEgQl4CmWvK7vQzT-FDnUgBgiTelMPsE3a4WOCsR9C_w3QtFdMskV=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/hPMCQ3icHcTRboIwFADQL6owITNb4oNlmihjWEGKvBCseDEUuvWWovzgvsG_WbLzcJ6_jTHf-O44svFmoBTIesBaC9WbujczoToHdIVIBDqrFW27z-txwPOXS-lrl-H9bHPNipA9tAeCJsVccxlPp_K2D4c0E_7PfadO0TWfqmYs8mzRWh6Hid3uVFIGEQdiY1gDk37QcRsuLJtSsvnoj0DhltYy2uPaq3weB3h4C8rRY2ZzibDNluOL67qk-V-Q_g83z0Zv"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&gl=us&google_domain=google.com&hl=en&ll=%4037.555%2C-121.982%2C13z&q=farmers+market&start=20&type=search"
+  }
+ }
+}

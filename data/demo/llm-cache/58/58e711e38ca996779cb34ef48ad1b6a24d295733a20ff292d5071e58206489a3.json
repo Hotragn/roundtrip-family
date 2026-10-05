@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791223486665",
+  "object": "chat.completion",
+  "created": 1791223486,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"place:ChIJDVfCeAC_j4ARFjVmjGXXljs\",\"parent\":\"mother\",\"reason\":\"This temple provides a shared cultural experience they enjoyed previously.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"place:ChIJDVfCeAC_j4ARFjVmjGXXljs\",\"parent\":\"father\",\"reason\":\"This lively temple offers a shared cultural connection.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"place:ChIJ7UUd_5nAj4ARTgpnvmrjfFU\",\"parent\":\"mother\",\"reason\":\"They like visiting Indian grocery stores for shared cultural items.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"place:ChIJ7UUd_5nAj4ARTgpnvmrjfFU\",\"parent\":\"father\",\"reason\":\"An Indian market offers familiar food and culture.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"event:Telugu events in Fremont, California#Niles Fremont Farmers Market | Niles Fremont Farmers Market | level 3 (Language barely matters) | market | Sat 09:00 | about 18 min | mother: with you, Sat leave 08:37, back 10:28; score 4.60; +Morning, before the nap, +Good weather for it, -They rated market outings low | father: with you, Sat leave 08:37, back 10:28; score 4.49; +Morning, before the nap, +Good weather for it, -They rated market outings low\",\"parent\":\"both\",\"reason\":\"A morning market visit during pleasant weather.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false}],\"note\":\"No Telugu events were found this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2697,
+   "completion_tokens": 427,
+   "total_tokens": 3124,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 36.16363525390625
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:04:47.330Z",
+ "latencyMs": 13754
+}

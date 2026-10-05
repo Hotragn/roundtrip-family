@@ -1,0 +1,6 @@
+{
+ "body": "{\"fluency\": 4, \"correctness\": 5, \"note\": \"\\\"గ్రూప్\\\" could be \\\"సమూహం\\\"; otherwise natural\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:05:45.552Z"
+}

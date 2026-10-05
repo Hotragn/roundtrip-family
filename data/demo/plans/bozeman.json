@@ -1,0 +1,414 @@
+{
+ "demoWeek": "bozeman",
+ "label": "Bozeman, no Telugu events (live search)",
+ "provenance": "synthetic",
+ "householdId": "hh_bozeman",
+ "week": "2026-W41",
+ "sourceOfCandidates": "live_search",
+ "suggestions": [
+  {
+   "id": "hh_bozeman:2026-W41:pl_7067f205",
+   "candidate": {
+    "id": "pl_7067f205",
+    "kind": "place",
+    "title": "Peets Hill/Burke Park",
+    "venueName": "Peets Hill/Burke Park",
+    "address": "429 E Story St, Bozeman, MT 59715",
+    "location": {
+     "lat": 45.6738998,
+     "lng": -111.0293315
+    },
+    "ladderLevel": 3,
+    "languageMatch": 0,
+    "category": "park",
+    "indoor": false,
+    "costUsd": 0,
+    "foodAvailable": false,
+    "languageNeeded": false,
+    "groupSize": "medium",
+    "description": "Well-known spot for hiking & sledding. Green space featuring a popular hiking trail & a hill with scenic views & wintertime sledding.",
+    "photo": {
+     "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T9yIDjUejglTZwt9Q44IEl2bwa4L756jcx38PjuzrlPO_x1usWY57c00dF1NCYRQQ5gFQ_ISLhLJ17Om8TqdsH99RO4MYH9khlMgogn2G-SR1-g2ZGgzLLTL_v0SC3MPwVhgI0XA=w1000-h1000-c-n",
+     "credit": "Photo: Google Maps contributor"
+    },
+    "start": null,
+    "end": null,
+    "suitsOlderAdults": true,
+    "provenance": "live_search",
+    "query": "park walking trail"
+   },
+   "role": "mother",
+   "parentIds": [
+    "p_sarala_bz"
+   ],
+   "slot": {
+    "day": "mon",
+    "depart": 510,
+    "back": 594,
+    "withAdultChild": false
+   },
+   "ladderLevel": 3,
+   "ladderLabel": "Language barely matters",
+   "score": {
+    "pGo": 0.9687,
+    "enjoyment": 3.655,
+    "combined": 3.5408,
+    "rank": 1
+   },
+   "chips": [
+    {
+     "label": "Weekday outings rated lower so far",
+     "feature": "timing",
+     "direction": "against"
+    },
+    {
+     "label": "Like the park outings they enjoyed",
+     "feature": "category",
+     "direction": "for"
+    },
+    {
+     "label": "Not in their language",
+     "feature": "languageMatch",
+     "direction": "against"
+    }
+   ],
+   "reasonText": "No Telugu events nearby this week. No language needed. She enjoys watching people and being in parks. By bus, about 12 minutes each way, back by 09:54.",
+   "reasonBy": "planner",
+   "firstRideTogether": true,
+   "bringSomeone": null,
+   "joinCard": null,
+   "features": {
+    "category": "park",
+    "languageMatch": 0,
+    "travelMinutes": 12,
+    "transfers": 0,
+    "walkingMinutes": 8,
+    "startHour": 8,
+    "dayOfWeek": "mon",
+    "weather": "pleasant",
+    "temperatureC": 21,
+    "rainChance": 0.04,
+    "indoor": false,
+    "groupSize": "medium",
+    "costUsd": 0,
+    "knowsSomeone": false,
+    "foodAvailable": false,
+    "daysSinceLastOuting": 3,
+    "withAdultChild": false,
+    "languageNeeded": false
+   }
+  },
+  {
+   "id": "hh_bozeman:2026-W41:pl_90656138",
+   "candidate": {
+    "id": "pl_90656138",
+    "kind": "place",
+    "title": "Lindley Park",
+    "venueName": "Lindley Park",
+    "address": "Bozeman, MT 59715",
+    "location": {
+     "lat": 45.6777204,
+     "lng": -111.0247153
+    },
+    "ladderLevel": 3,
+    "languageMatch": 0,
+    "category": "park",
+    "indoor": false,
+    "costUsd": 0,
+    "foodAvailable": false,
+    "languageNeeded": false,
+    "groupSize": "medium",
+    "description": "Park with a playground, trails & more. Park featuring a playground, picnic tables, a pavilion, trails, a bike rack & restrooms.",
+    "photo": {
+     "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SSX7oEI7LisJCjrTTzqMB6Mou6ikAdFvCvbHhbT6xCqplrl0gYxipKA0kaB4kAY-B6gpFyNElKqfEtEcV3dwVoQ5Oz4RLADD_XExEjFyJSe3q9i1LmuoGCORAFgAAlvMyWe0X2=w1000-h1000-c-n",
+     "credit": "Photo: Google Maps contributor"
+    },
+    "start": null,
+    "end": null,
+    "suitsOlderAdults": true,
+    "provenance": "live_search",
+    "query": "park walking trail"
+   },
+   "role": "mother",
+   "parentIds": [
+    "p_sarala_bz"
+   ],
+   "slot": {
+    "day": "wed",
+    "depart": 510,
+    "back": 594,
+    "withAdultChild": false
+   },
+   "ladderLevel": 3,
+   "ladderLabel": "Language barely matters",
+   "score": {
+    "pGo": 0.9687,
+    "enjoyment": 3.655,
+    "combined": 3.5408,
+    "rank": 2
+   },
+   "chips": [
+    {
+     "label": "Weekday outings rated lower so far",
+     "feature": "timing",
+     "direction": "against"
+    },
+    {
+     "label": "Like the park outings they enjoyed",
+     "feature": "category",
+     "direction": "for"
+    },
+    {
+     "label": "Not in their language",
+     "feature": "languageMatch",
+     "direction": "against"
+    }
+   ],
+   "reasonText": "No Telugu events nearby this week. No language needed. She enjoys quiet park settings for watching people come and go. By bus, about 12 minutes each way, back by 09:54.",
+   "reasonBy": "planner",
+   "firstRideTogether": true,
+   "bringSomeone": null,
+   "joinCard": null,
+   "features": {
+    "category": "park",
+    "languageMatch": 0,
+    "travelMinutes": 12,
+    "transfers": 0,
+    "walkingMinutes": 8,
+    "startHour": 8,
+    "dayOfWeek": "wed",
+    "weather": "pleasant",
+    "temperatureC": 20,
+    "rainChance": 0,
+    "indoor": false,
+    "groupSize": "medium",
+    "costUsd": 0,
+    "knowsSomeone": false,
+    "foodAvailable": false,
+    "daysSinceLastOuting": 3,
+    "withAdultChild": false,
+    "languageNeeded": false
+   }
+  },
+  {
+   "id": "hh_bozeman:2026-W41:pl_d8a69c6c",
+   "candidate": {
+    "id": "pl_d8a69c6c",
+    "kind": "place",
+    "title": "Bozeman Public Library | City of Bozeman",
+    "venueName": "Bozeman Public Library | City of Bozeman",
+    "address": "626 E Main St, Bozeman, MT 59715",
+    "location": {
+     "lat": 45.678519699999995,
+     "lng": -111.0272225
+    },
+    "ladderLevel": 4,
+    "languageMatch": 0,
+    "category": "library",
+    "indoor": true,
+    "costUsd": 0,
+    "foodAvailable": false,
+    "languageNeeded": false,
+    "groupSize": "small",
+    "description": "Public library",
+    "photo": {
+     "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPSZmPFXuG1mUNNSJ4a3XaW332tuBmsFVq3Pbm76ukTkd1teQhDGutcVQfvnPjV2KS6kju3-bhGIsn1CSdt7B8WaOLVXWPR6zi0TzVtbQjsho6XobUYElvq9N6mosgaAR7RWN13=w1000-h1000-c-n",
+     "credit": "Photo: Google Maps contributor"
+    },
+    "start": null,
+    "end": null,
+    "suitsOlderAdults": true,
+    "provenance": "live_search",
+    "query": "public library"
+   },
+   "role": "mother",
+   "parentIds": [
+    "p_sarala_bz"
+   ],
+   "slot": {
+    "day": "fri",
+    "depart": 510,
+    "back": 607,
+    "withAdultChild": false
+   },
+   "ladderLevel": 4,
+   "ladderLabel": "Programs for newcomers and older adults",
+   "score": {
+    "pGo": 0.9556,
+    "enjoyment": 3.529,
+    "combined": 3.3723,
+    "rank": 3
+   },
+   "chips": [
+    {
+     "label": "Weekday outings rated lower so far",
+     "feature": "timing",
+     "direction": "against"
+    },
+    {
+     "label": "No familiar faces yet",
+     "feature": "knowsSomeone",
+     "direction": "against"
+    },
+    {
+     "label": "Short errands rated lower so far",
+     "feature": "trip",
+     "direction": "against"
+    }
+   ],
+   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. By bus, about 11 minutes each way, back by 10:07.",
+   "reasonBy": "fallback",
+   "firstRideTogether": true,
+   "bringSomeone": null,
+   "joinCard": null,
+   "features": {
+    "category": "library",
+    "languageMatch": 0,
+    "travelMinutes": 11,
+    "transfers": 0,
+    "walkingMinutes": 8,
+    "startHour": 8,
+    "dayOfWeek": "fri",
+    "weather": "pleasant",
+    "temperatureC": 22,
+    "rainChance": 0,
+    "indoor": true,
+    "groupSize": "small",
+    "costUsd": 0,
+    "knowsSomeone": false,
+    "foodAvailable": false,
+    "daysSinceLastOuting": 3,
+    "withAdultChild": false,
+    "languageNeeded": false
+   }
+  },
+  {
+   "id": "hh_bozeman:2026-W41:pl_62980384",
+   "candidate": {
+    "id": "pl_62980384",
+    "kind": "place",
+    "title": "Bozeman Senior Social Center",
+    "venueName": "Bozeman Senior Social Center",
+    "address": "807 N Tracy Ave, Bozeman, MT 59715",
+    "location": {
+     "lat": 45.6878629,
+     "lng": -111.0376076
+    },
+    "ladderLevel": 4,
+    "languageMatch": 0,
+    "category": "senior_center",
+    "indoor": true,
+    "costUsd": 0,
+    "foodAvailable": false,
+    "languageNeeded": true,
+    "groupSize": "medium",
+    "description": "Senior citizen center",
+    "photo": {
+     "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SZFlQDWCaP_mgc8ZvdS8nYL7DQstsmcQwEepOepdJH7veEq4xlhVLpSbpViFVQc-wBV_IMgZbBrKVSb_Y_-i2lOEcGND_8ynuW4MH0Mdncj3CzUEMTTlKEn0euc3U3dFcFG3yA=w1000-h1000-c-n",
+     "credit": "Photo: Google Maps contributor"
+    },
+    "start": null,
+    "end": null,
+    "suitsOlderAdults": true,
+    "provenance": "live_search",
+    "query": "senior center"
+   },
+   "role": "father",
+   "parentIds": [
+    "p_venkat_bz"
+   ],
+   "slot": {
+    "day": "mon",
+    "depart": 510,
+    "back": 624,
+    "withAdultChild": false
+   },
+   "ladderLevel": 4,
+   "ladderLabel": "Programs for newcomers and older adults",
+   "score": {
+    "pGo": 0.9236,
+    "enjoyment": 3.305,
+    "combined": 3.0521,
+    "rank": 4
+   },
+   "chips": [
+    {
+     "label": "Not in their language",
+     "feature": "languageMatch",
+     "direction": "against"
+    },
+    {
+     "label": "A time that has worked before",
+     "feature": "timing",
+     "direction": "for"
+    },
+    {
+     "label": "Quiet, few people",
+     "feature": "setting",
+     "direction": "against"
+    }
+   ],
+   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. He has enjoyed social programs that worked for him before. By bus, about 12 minutes each way, back by 10:24.",
+   "reasonBy": "planner",
+   "firstRideTogether": true,
+   "bringSomeone": null,
+   "joinCard": {
+    "kind": "join",
+    "local": "I would like to join. I speak Telugu and Hindi. Who can help me sign up?",
+    "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
+    "askWho": "Ask the staff at the front desk."
+   },
+   "features": {
+    "category": "senior_center",
+    "languageMatch": 0,
+    "travelMinutes": 12,
+    "transfers": 0,
+    "walkingMinutes": 8,
+    "startHour": 8,
+    "dayOfWeek": "mon",
+    "weather": "pleasant",
+    "temperatureC": 21,
+    "rainChance": 0.04,
+    "indoor": true,
+    "groupSize": "medium",
+    "costUsd": 0,
+    "knowsSomeone": false,
+    "foodAvailable": false,
+    "daysSinceLastOuting": 3,
+    "withAdultChild": false,
+    "languageNeeded": true
+   }
+  }
+ ],
+ "note": "No Telugu events or groups were found nearby this week.",
+ "sameLanguageFound": false,
+ "rejected": [],
+ "stats": {
+  "ms": 193376,
+  "modelCalls": 1,
+  "cachedModelCalls": 0,
+  "fallbacks": 0,
+  "retries": 0,
+  "toolCalls": [
+   {
+    "tool": "rankOutings",
+    "ms": 89718,
+    "detail": "mother: 4 feasible"
+   },
+   {
+    "tool": "rankOutings",
+    "ms": 97392,
+    "detail": "father: 4 feasible"
+   },
+   {
+    "tool": "agent",
+    "ms": 6257,
+    "detail": "1 steps"
+   }
+  ],
+  "rankerCalls": 2,
+  "candidates": 8,
+  "feasible": 4,
+  "agentChoicesUsed": 3
+ }
+}

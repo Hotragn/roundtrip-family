@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791224150968",
+  "object": "chat.completion",
+  "created": 1791224150,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c3\",\"parent\":\"mother\",\"reason\":\"She enjoys visiting temples and religious places.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c3\",\"parent\":\"father\",\"reason\":\"He likes visiting temples and places of worship.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c13\",\"parent\":\"mother\",\"reason\":\"She would enjoy meeting people who speak Telugu.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c7\",\"parent\":\"father\",\"reason\":\"He likes spending time in Indian grocery aisles.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c1\",\"parent\":\"both\",\"reason\":\"The pleasant Saturday weather is good for a market walk.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c4\",\"parent\":\"father\",\"reason\":\"He enjoys watching people at the park.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":false}],\"note\":\"Telugu options were included this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2690,
+   "completion_tokens": 250,
+   "total_tokens": 2940,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 31.27272605895996
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:15:51.034Z",
+ "latencyMs": 7110
+}

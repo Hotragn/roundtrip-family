@@ -1,0 +1,688 @@
+{
+  "provenance": "synthetic",
+  "note": "40 synthetic listings built from known attributes; truth is the attributes they were built from.",
+  "week": "Monday 2026-10-05 to Sunday 2026-10-11",
+  "offset": "-07:00",
+  "items": [
+    {
+      "id": "ev01",
+      "listing": "Bathukamma celebration\nWhen: Sat, Oct 10, 4 PM – 8 PM\nWhere: Fremont community hall\nAddress: 3300 Capitol Ave, Fremont, CA\nAbout: The Telugu association invites families to build and celebrate Bathukamma with songs and dinner.\nTickets: Free",
+      "truth": {
+        "languageMatch": 2,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "festival",
+        "start": "2026-10-10T16:00:00-07:00",
+        "end": "2026-10-10T20:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev02",
+      "listing": "Telugu Association monthly meeting\nWhen: Wed, Oct 7, 6:30 PM – 8 PM\nWhere: India Community Center\nAddress: 525 Los Coches St, Milpitas, CA\nAbout: Members meet to plan Sankranti and welcome newcomers. Telugu spoken.\nTickets: Free",
+      "truth": {
+        "languageMatch": 2,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "association_meeting",
+        "start": "2026-10-07T18:30:00-07:00",
+        "end": "2026-10-07T20:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev03",
+      "listing": "Telugu movie night: family drama with English subtitles\nWhen: Sat, Oct 10, 3 PM – 5:45 PM\nWhere: Cinemark Fremont\nAddress: 39160 Paseo Padre Pkwy, Fremont, CA\nAbout: A new Telugu family film. All ages.\nTickets: $14",
+      "truth": {
+        "languageMatch": 2,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": false,
+          "amount": 14,
+          "currency": "USD"
+        },
+        "category": "film_screening",
+        "start": "2026-10-10T15:00:00-07:00",
+        "end": "2026-10-10T17:45:00-07:00"
+      }
+    },
+    {
+      "id": "ev04",
+      "listing": "Annamacharya keerthana evening\nWhen: Fri, Oct 9, 6 PM – 7:30 PM\nWhere: Sri Venkateswara temple hall\nAddress: Livermore, CA\nAbout: Devotional Telugu songs by local singers. Prasadam served.\nTickets: Free",
+      "truth": {
+        "languageMatch": 2,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "religious",
+        "start": "2026-10-09T18:00:00-07:00",
+        "end": "2026-10-09T19:30:00-07:00"
+      }
+    },
+    {
+      "id": "ev05",
+      "listing": "Telugu book club: Yandamuri novels\nWhen: Tue, Oct 6, 10:30 AM – 12 PM\nWhere: Fremont Main Library, meeting room B\nAddress: 2400 Stevenson Blvd, Fremont, CA\nAbout: Readers discuss a Telugu novel. Tea provided.\nTickets: Free",
+      "truth": {
+        "languageMatch": 2,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "library_program",
+        "start": "2026-10-06T10:30:00-07:00",
+        "end": "2026-10-06T12:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev06",
+      "listing": "Telugu walking group at Lake Elizabeth\nWhere: Lake Elizabeth, Central Park\nAddress: 40000 Paseo Padre Pkwy, Fremont, CA\nAbout: Telugu-speaking seniors walk the lake loop together, slow pace.\nTickets: Free",
+      "truth": {
+        "languageMatch": 2,
+        "suitsOlderAdults": true,
+        "indoor": false,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "walking_group",
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "id": "ev07",
+      "listing": "Ugadi pachadi cooking class\nWhen: Thu, Oct 8, 11 AM – 12:30 PM\nWhere: Shiva Murugan Temple kitchen\nAddress: Concord, CA\nAbout: Learn the Telugu new year dish in Telugu and English.\nTickets: $10",
+      "truth": {
+        "languageMatch": 2,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": false,
+          "amount": 10,
+          "currency": "USD"
+        },
+        "category": "class",
+        "start": "2026-10-08T11:00:00-07:00",
+        "end": "2026-10-08T12:30:00-07:00"
+      }
+    },
+    {
+      "id": "ev08",
+      "listing": "Telugu poetry recital and talk\nWhen: Mon, Oct 5, 2 PM – 3:30 PM\nWhere: Milpitas Library\nAddress: 160 N Main St, Milpitas, CA\nAbout: A retired professor reads Sri Sri and takes questions.\nTickets: Free",
+      "truth": {
+        "languageMatch": 2,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "talk",
+        "start": "2026-10-05T14:00:00-07:00",
+        "end": "2026-10-05T15:30:00-07:00"
+      }
+    },
+    {
+      "id": "ev09",
+      "listing": "Telugu youth DJ night\nWhen: Fri, Oct 9, 10 PM – 2 AM\nWhere: Opal Social Club\nAddress: Santa Clara, CA\nAbout: Tollywood hits, 21+, cover charge at the door.\nTickets: $25",
+      "truth": {
+        "languageMatch": 2,
+        "suitsOlderAdults": false,
+        "indoor": true,
+        "cost": {
+          "free": false,
+          "amount": 25,
+          "currency": "USD"
+        },
+        "category": "music_dance",
+        "start": "2026-10-09T22:00:00-07:00",
+        "end": "2026-10-10T02:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev10",
+      "listing": "Sankranti muggulu contest\nWhen: Sat, Oct 10, 10 AM – 1 PM\nWhere: Central Park picnic area\nAddress: Fremont, CA\nAbout: Rangoli contest on the lawn, prizes for all ages.\nTickets: Free",
+      "truth": {
+        "languageMatch": 2,
+        "suitsOlderAdults": true,
+        "indoor": false,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "festival",
+        "start": "2026-10-10T10:00:00-07:00",
+        "end": "2026-10-10T13:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev11",
+      "listing": "Sanskriti Durga Puja\nWhen: Thu, Oct 8, 5:30 PM – 9 PM\nWhere: Fremont Hindu Temple\nAddress: 3676 Delaware Dr, Fremont, CA\nAbout: Bengali community puja, aarti and bhog. Everyone welcome.\nTickets: Free",
+      "truth": {
+        "languageMatch": 1,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "religious",
+        "start": "2026-10-08T17:30:00-07:00",
+        "end": "2026-10-08T21:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev12",
+      "listing": "Diwali mela\nWhen: Sat, Oct 10, 12 PM – 6 PM\nWhere: Fremont Hub plaza\nAddress: 39281 Fremont Hub, Fremont, CA\nAbout: Outdoor stalls, sweets and lamps. Free entry.\nTickets: Free",
+      "truth": {
+        "languageMatch": 1,
+        "suitsOlderAdults": true,
+        "indoor": false,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "festival",
+        "start": "2026-10-10T12:00:00-07:00",
+        "end": "2026-10-10T18:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev13",
+      "listing": "Navratri garba night\nWhen: Fri, Oct 9, 7:30 PM – 11:30 PM\nWhere: Santa Clara Convention Center\nAddress: 5001 Great America Pkwy, Santa Clara, CA\nAbout: Garba and dandiya with live music. Tickets required.\nTickets: $20",
+      "truth": {
+        "languageMatch": 1,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": false,
+          "amount": 20,
+          "currency": "USD"
+        },
+        "category": "music_dance",
+        "start": "2026-10-09T19:30:00-07:00",
+        "end": "2026-10-09T23:30:00-07:00"
+      }
+    },
+    {
+      "id": "ev14",
+      "listing": "Hindi poetry evening (kavi sammelan)\nWhen: Wed, Oct 7, 5 PM – 7 PM\nWhere: ICC hall\nAddress: 525 Los Coches St, Milpitas, CA\nAbout: Poets read in Hindi and Urdu.\nTickets: $5",
+      "truth": {
+        "languageMatch": 1,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": false,
+          "amount": 5,
+          "currency": "USD"
+        },
+        "category": "talk",
+        "start": "2026-10-07T17:00:00-07:00",
+        "end": "2026-10-07T19:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev15",
+      "listing": "Bollywood dance class for beginners\nWhen: Mon, Oct 5, 7 PM – 8 PM\nWhere: Dance studio on Mowry Ave\nAddress: Mowry Ave, Fremont, CA\nAbout: Drop-in class, all ages welcome.\nTickets: $15",
+      "truth": {
+        "languageMatch": 1,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": false,
+          "amount": 15,
+          "currency": "USD"
+        },
+        "category": "class",
+        "start": "2026-10-05T19:00:00-07:00",
+        "end": "2026-10-05T20:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev16",
+      "listing": "Tamil cultural fair\nWhen: Sat, Oct 10, 11 AM – 4 PM\nWhere: Newark Community Center\nAddress: 35501 Cedar Blvd, Newark, CA\nAbout: Food, music and crafts from Tamil Nadu.\nTickets: Free",
+      "truth": {
+        "languageMatch": 1,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "festival",
+        "start": "2026-10-10T11:00:00-07:00",
+        "end": "2026-10-10T16:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev17",
+      "listing": "Punjabi bhangra night\nWhen: Fri, Oct 9, 9:30 PM – 1:30 AM\nWhere: Morni Lounge\nAddress: San Jose, CA\nAbout: Bhangra DJ, bar open, 21 and over.\nTickets: $30",
+      "truth": {
+        "languageMatch": 1,
+        "suitsOlderAdults": false,
+        "indoor": true,
+        "cost": {
+          "free": false,
+          "amount": 30,
+          "currency": "USD"
+        },
+        "category": "music_dance",
+        "start": "2026-10-09T21:30:00-07:00",
+        "end": "2026-10-10T01:30:00-07:00"
+      }
+    },
+    {
+      "id": "ev18",
+      "listing": "Gujarati samaj potluck\nWhen: Sun, Oct 11, 12 PM – 3 PM\nWhere: Quarry Lakes picnic site\nAddress: 2100 Isherwood Way, Fremont, CA\nAbout: Bring a dish, games for children and elders.\nTickets: Free",
+      "truth": {
+        "languageMatch": 1,
+        "suitsOlderAdults": true,
+        "indoor": false,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "other",
+        "start": "2026-10-11T12:00:00-07:00",
+        "end": "2026-10-11T15:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev19",
+      "listing": "Bengali film screening\nWhen: Wed, Oct 7, 2 PM – 4 PM\nWhere: Fremont Main Library auditorium\nAddress: 2400 Stevenson Blvd, Fremont, CA\nAbout: Satyajit Ray classic with English subtitles.\nTickets: Free",
+      "truth": {
+        "languageMatch": 1,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "film_screening",
+        "start": "2026-10-07T14:00:00-07:00",
+        "end": "2026-10-07T16:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev20",
+      "listing": "Volunteer morning at the temple kitchen\nWhen: Tue, Oct 6, 9 AM – 11:30 AM\nWhere: Fremont Hindu Temple\nAddress: 3676 Delaware Dr, Fremont, CA\nAbout: Help prepare annadanam. Ask at the office to sign up.\nTickets: Free",
+      "truth": {
+        "languageMatch": 1,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "volunteering",
+        "start": "2026-10-06T09:00:00-07:00",
+        "end": "2026-10-06T11:30:00-07:00"
+      }
+    },
+    {
+      "id": "ev21",
+      "listing": "Irvington farmers market\nWhen: Sun, Oct 11, 9 AM – 1 PM\nWhere: Irvington district\nAddress: Bay St, Fremont, CA\nAbout: Fresh produce in the open air every Sunday.\nTickets: Free",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": false,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "market",
+        "start": "2026-10-11T09:00:00-07:00",
+        "end": "2026-10-11T13:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev22",
+      "listing": "English conversation circle for newcomers\nWhen: Wed, Oct 7, 10:30 AM – 11:30 AM\nWhere: Fremont Main Library\nAddress: 2400 Stevenson Blvd, Fremont, CA\nAbout: Practice everyday English with volunteers. All levels.\nTickets: Free",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "conversation_circle",
+        "start": "2026-10-07T10:30:00-07:00",
+        "end": "2026-10-07T11:30:00-07:00"
+      }
+    },
+    {
+      "id": "ev23",
+      "listing": "Chair yoga for seniors\nWhen: Tue, Oct 6, 10 AM – 11 AM\nWhere: Age Well Center at Lake Elizabeth\nAddress: 40086 Paseo Padre Pkwy, Fremont, CA\nAbout: Gentle seated yoga. Free for members, $3 drop-in.\nTickets: $3",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": false,
+          "amount": 3,
+          "currency": "USD"
+        },
+        "category": "senior_program",
+        "start": "2026-10-06T10:00:00-07:00",
+        "end": "2026-10-06T11:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev24",
+      "listing": "Community garden volunteer day\nWhen: Sat, Oct 10, 9 AM – 11 AM\nWhere: Fremont community garden\nAddress: Fremont, CA\nAbout: Weed, water and harvest. Gloves provided.\nTickets: Free",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": false,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "volunteering",
+        "start": "2026-10-10T09:00:00-07:00",
+        "end": "2026-10-10T11:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev25",
+      "listing": "Salsa night at the lounge\nWhen: Fri, Oct 9, 9 PM – 1 AM\nWhere: Latin Lounge\nAddress: Fremont, CA\nAbout: Dance till late. Bar open. 21+.\nTickets: $15",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": false,
+        "indoor": true,
+        "cost": {
+          "free": false,
+          "amount": 15,
+          "currency": "USD"
+        },
+        "category": "music_dance",
+        "start": "2026-10-09T21:00:00-07:00",
+        "end": "2026-10-10T01:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev26",
+      "listing": "Charity 5K run\nWhen: Sat, Oct 10, 7 AM – 9:30 AM\nWhere: Central Park\nAddress: Fremont, CA\nAbout: Timed 5K race, registration required.\nTickets: $35",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": false,
+        "indoor": false,
+        "cost": {
+          "free": false,
+          "amount": 35,
+          "currency": "USD"
+        },
+        "category": "other",
+        "start": "2026-10-10T07:00:00-07:00",
+        "end": "2026-10-10T09:30:00-07:00"
+      }
+    },
+    {
+      "id": "ev27",
+      "listing": "Jazz at the plaza\nWhen: Sat, Oct 10, 12 PM – 2 PM\nWhere: Niles Town Plaza\nAddress: 37592 Niles Blvd, Fremont, CA\nAbout: Free outdoor concert, bring a chair.\nTickets: Free",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": false,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "music_dance",
+        "start": "2026-10-10T12:00:00-07:00",
+        "end": "2026-10-10T14:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev28",
+      "listing": "Museum free day\nWhen: Sun, Oct 11, 11 AM – 4 PM\nWhere: Museum of Local History\nAddress: 190 Anza St, Fremont, CA\nAbout: Free admission for all visitors.\nTickets: Free",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "other",
+        "start": "2026-10-11T11:00:00-07:00",
+        "end": "2026-10-11T16:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev29",
+      "listing": "Toddler story time\nWhen: Tue, Oct 6, 10 AM – 10:30 AM\nWhere: Centerville Library\nAddress: 3801 Nicolet Ave, Fremont, CA\nAbout: Songs and stories for children ages 1 to 3 with a caregiver.\nTickets: Free",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": false,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "library_program",
+        "start": "2026-10-06T10:00:00-07:00",
+        "end": "2026-10-06T10:30:00-07:00"
+      }
+    },
+    {
+      "id": "ev30",
+      "listing": "Watercolor class for adults\nWhen: Thu, Oct 8, 1:30 PM – 3:30 PM\nWhere: Olive Hyde Art Gallery\nAddress: 123 Washington Blvd, Fremont, CA\nAbout: Beginner class, materials included.\nTickets: $40",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": false,
+          "amount": 40,
+          "currency": "USD"
+        },
+        "category": "class",
+        "start": "2026-10-08T13:30:00-07:00",
+        "end": "2026-10-08T15:30:00-07:00"
+      }
+    },
+    {
+      "id": "ev31",
+      "listing": "Morning walking club\nWhen: Mon, Oct 5, 8 AM – 9 AM\nWhere: Coyote Hills Regional Park\nAddress: 8000 Patterson Ranch Rd, Fremont, CA\nAbout: Easy two-mile loop on paved paths, every weekday.\nTickets: Free",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": false,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "walking_group",
+        "start": "2026-10-05T08:00:00-07:00",
+        "end": "2026-10-05T09:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev32",
+      "listing": "Medicare basics talk\nWhen: Thu, Oct 8, 10 AM – 11:30 AM\nWhere: Age Well Center at Lake Elizabeth\nAddress: 40086 Paseo Padre Pkwy, Fremont, CA\nAbout: A counselor explains Medicare options. Q&A after.\nTickets: Free",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "talk",
+        "start": "2026-10-08T10:00:00-07:00",
+        "end": "2026-10-08T11:30:00-07:00"
+      }
+    },
+    {
+      "id": "ev33",
+      "listing": "Flea market and car meet\nWhen: Sat, Oct 10, 9 AM – 3 PM\nWhere: Ohlone College parking lot\nAddress: 43600 Mission Blvd, Fremont, CA\nAbout: Vendors and classic cars, open air.\nTickets: $2",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": false,
+        "cost": {
+          "free": false,
+          "amount": 2,
+          "currency": "USD"
+        },
+        "category": "market",
+        "start": "2026-10-10T09:00:00-07:00",
+        "end": "2026-10-10T15:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev34",
+      "listing": "Cribbage club\nWhen: Sat, Oct 10, 10 AM – 12 PM\nWhere: New Pizza Italia\nAddress: Fremont, CA\nAbout: Friendly cribbage, singles and doubles.\nTickets: Free",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "other",
+        "start": "2026-10-10T10:00:00-07:00",
+        "end": "2026-10-10T12:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev35",
+      "listing": "Craft beer festival\nWhen: Sat, Oct 10, 2 PM – 7 PM\nWhere: Downtown plaza\nAddress: Fremont, CA\nAbout: Tastings from local breweries. ID required.\nTickets: $45",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": false,
+        "indoor": false,
+        "cost": {
+          "free": false,
+          "amount": 45,
+          "currency": "USD"
+        },
+        "category": "festival",
+        "start": "2026-10-10T14:00:00-07:00",
+        "end": "2026-10-10T19:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev36",
+      "listing": "Library tech help for seniors\nWhen: Fri, Oct 9, 2 PM – 4 PM\nWhere: Irvington Library\nAddress: 41825 Greenpark Dr, Fremont, CA\nAbout: Bring your phone; volunteers help with apps and video calls.\nTickets: Free",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": true,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "library_program",
+        "start": "2026-10-09T14:00:00-07:00",
+        "end": "2026-10-09T16:00:00-07:00"
+      }
+    },
+    {
+      "id": "ev37",
+      "listing": "Tai chi in the park\nWhen: Wed, Oct 7, 8:30 AM – 9:30 AM\nWhere: Lake Elizabeth lawn\nAddress: Fremont, CA\nAbout: Slow tai chi practice for all ages, outdoors.\nTickets: Free",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": false,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "class",
+        "start": "2026-10-07T08:30:00-07:00",
+        "end": "2026-10-07T09:30:00-07:00"
+      }
+    },
+    {
+      "id": "ev38",
+      "listing": "Gardening workshop: winter vegetables\nWhen: Sun, Oct 11, 10 AM – 11:30 AM\nWhere: Fremont community garden shed\nAddress: Fremont, CA\nAbout: Hands-on workshop. Sign up at the door.\nTickets: $5",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": false,
+        "cost": {
+          "free": false,
+          "amount": 5,
+          "currency": "USD"
+        },
+        "category": "class",
+        "start": "2026-10-11T10:00:00-07:00",
+        "end": "2026-10-11T11:30:00-07:00"
+      }
+    },
+    {
+      "id": "ev39",
+      "listing": "Neighborhood cleanup\nWhere: Meet at the community center\nAddress: Fremont, CA\nAbout: Volunteers pick up litter on nearby streets. Date to be announced.\nTickets: Free",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": true,
+        "indoor": false,
+        "cost": {
+          "free": true,
+          "amount": 0,
+          "currency": "USD"
+        },
+        "category": "volunteering",
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "id": "ev40",
+      "listing": "Open mic comedy\nWhen: Fri, Oct 9, 10:30 PM – 12:30 AM\nWhere: The Basement Bar\nAddress: San Jose, CA\nAbout: Late-night stand-up. 18+.\nTickets: $10",
+      "truth": {
+        "languageMatch": 0,
+        "suitsOlderAdults": false,
+        "indoor": true,
+        "cost": {
+          "free": false,
+          "amount": 10,
+          "currency": "USD"
+        },
+        "category": "other",
+        "start": "2026-10-09T22:30:00-07:00",
+        "end": "2026-10-10T00:30:00-07:00"
+      }
+    }
+  ]
+}

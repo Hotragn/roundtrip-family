@@ -1,0 +1,39 @@
+{
+ "body": {
+  "id": "id-1791219931687",
+  "object": "chat.completion",
+  "created": 1791219931,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "Come home within an hour, have lunch, and rest for a while.",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": 106,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 68,
+   "completion_tokens": 16,
+   "total_tokens": 84,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 1.0545454025268555
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:05:31.754Z"
+}

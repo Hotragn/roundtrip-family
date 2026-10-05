@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791224130968",
+  "object": "chat.completion",
+  "created": 1791224130,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c3\",\"parent\":\"mother\",\"reason\":\"They enjoyed visiting temples previously.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c3\",\"parent\":\"father\",\"reason\":\"They enjoyed visiting temples previously.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c5\",\"parent\":\"mother\",\"reason\":\"They liked previous outings to Indian grocery stores.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c7\",\"parent\":\"father\",\"reason\":\"They enjoyed spending time in the spice aisle at Indian groceries.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c4\",\"parent\":\"mother\",\"reason\":\"They enjoyed visiting parks in the past.\",\"firstRideTogether\":false,\"bringSomeone\":\"the neighbor two doors down\",\"joinHelp\":true},{\"candidateId\":\"c1\",\"parent\":\"father\",\"reason\":\"They enjoy watching people at the park during pleasant weather.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true}],\"note\":\"No Telugu events or groups were found nearby this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2601,
+   "completion_tokens": 255,
+   "total_tokens": 2856,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 30.600000381469727
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:15:31.124Z",
+ "latencyMs": 7342
+}

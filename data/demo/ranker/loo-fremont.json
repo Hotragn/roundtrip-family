@@ -1,0 +1,440 @@
+{
+ "provenance": "synthetic",
+ "area": "fremont",
+ "poolSize": 21,
+ "topK": 3,
+ "runs": {
+  "all features": {
+   "summary": {
+    "liked": {
+     "n": 14,
+     "model": 0.7142857142857143,
+     "distance": 0.35714285714285715,
+     "random": 0.1448
+    },
+    "disliked": {
+     "n": 5,
+     "model": 0.0,
+     "distance": 0.6,
+     "random": 0.1448
+    },
+    "wantedNotWent": {
+     "n": 2,
+     "model": 0.0,
+     "distance": 0.0,
+     "random": 0.1448
+    }
+   },
+   "rows": [
+    {
+     "id": "o_fremont_1",
+     "title": "Shiva Vishnu Temple (San Jose)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 1,
+     "distanceRank": 14
+    },
+    {
+     "id": "o_fremont_2",
+     "title": "India Cash and Carry (Newark)",
+     "went": 1,
+     "enjoyment": 4,
+     "rank": 3,
+     "distanceRank": 2
+    },
+    {
+     "id": "o_fremont_3",
+     "title": "Apartment complex loop",
+     "went": 1,
+     "enjoyment": 3,
+     "rank": 20,
+     "distanceRank": 4
+    },
+    {
+     "id": "o_fremont_4",
+     "title": "Safeway",
+     "went": 1,
+     "enjoyment": 2,
+     "rank": 20,
+     "distanceRank": 2
+    },
+    {
+     "id": "o_fremont_5",
+     "title": "Shiva Vishnu Temple (San Jose)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 1,
+     "distanceRank": 14
+    },
+    {
+     "id": "o_fremont_6",
+     "title": "Fremont Hub",
+     "went": 1,
+     "enjoyment": 3,
+     "rank": 9,
+     "distanceRank": 2
+    },
+    {
+     "id": "o_fremont_7",
+     "title": "College friend's home (Milpitas)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 1,
+     "distanceRank": 11
+    },
+    {
+     "id": "o_fremont_8",
+     "title": "Mail room and parking lot",
+     "went": 1,
+     "enjoyment": 3,
+     "rank": 19,
+     "distanceRank": 1
+    },
+    {
+     "id": "o_fremont_9",
+     "title": "Gurdwara",
+     "went": 1,
+     "enjoyment": 4,
+     "rank": 10,
+     "distanceRank": 4
+    },
+    {
+     "id": "o_fremont_10",
+     "title": "Walgreens",
+     "went": 1,
+     "enjoyment": 2,
+     "rank": 20,
+     "distanceRank": 2
+    },
+    {
+     "id": "o_fremont_11",
+     "title": "Shiva Vishnu Temple (San Jose)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 1,
+     "distanceRank": 14
+    },
+    {
+     "id": "o_fremont_12",
+     "title": "99 Ranch Market",
+     "went": 1,
+     "enjoyment": 4,
+     "rank": 17,
+     "distanceRank": 8
+    },
+    {
+     "id": "o_fremont_13",
+     "title": "Friend's home (Santa Clara)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 5,
+     "distanceRank": 15
+    },
+    {
+     "id": "o_fremont_14",
+     "title": "Lake Elizabeth (Fremont)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 2,
+     "distanceRank": 2
+    },
+    {
+     "id": "o_fremont_15",
+     "title": "Indian grocery (Newark)",
+     "went": 1,
+     "enjoyment": 4,
+     "rank": 1,
+     "distanceRank": 2
+    },
+    {
+     "id": "o_fremont_16",
+     "title": "Walk to Safeway",
+     "went": 1,
+     "enjoyment": 2,
+     "rank": 14,
+     "distanceRank": 11
+    },
+    {
+     "id": "o_fremont_17",
+     "title": "Shiva Vishnu Temple (San Jose)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 1,
+     "distanceRank": 14
+    },
+    {
+     "id": "o_fremont_18",
+     "title": "Starbucks",
+     "went": 1,
+     "enjoyment": 2,
+     "rank": 7,
+     "distanceRank": 2
+    },
+    {
+     "id": "o_fremont_19",
+     "title": "Balcony people-watching",
+     "went": 1,
+     "enjoyment": 4,
+     "rank": 9,
+     "distanceRank": 1
+    },
+    {
+     "id": "o_fremont_20",
+     "title": "Shiva Vishnu Temple (San Jose) with cafeteria lunch",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 1,
+     "distanceRank": 14
+    },
+    {
+     "id": "o_fremont_21",
+     "title": "Costco",
+     "went": 1,
+     "enjoyment": 2,
+     "rank": 5,
+     "distanceRank": 4
+    },
+    {
+     "id": "o_fremont_22",
+     "title": "Mrs. Chen's apartment (tea)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 1,
+     "distanceRank": 1
+    },
+    {
+     "id": "o_fremont_23",
+     "title": "Diwali event at a school venue (Fremont)",
+     "went": 0,
+     "enjoyment": null,
+     "rank": 21,
+     "distanceRank": 17
+    },
+    {
+     "id": "o_fremont_24",
+     "title": "Telugu association meeting (Santa Clara)",
+     "went": 0,
+     "enjoyment": null,
+     "rank": 21,
+     "distanceRank": 17
+    }
+   ]
+  },
+  "without with_adult_child": {
+   "summary": {
+    "liked": {
+     "n": 14,
+     "model": 0.7142857142857143,
+     "distance": 0.35714285714285715,
+     "random": 0.1448
+    },
+    "disliked": {
+     "n": 5,
+     "model": 0.0,
+     "distance": 0.6,
+     "random": 0.1448
+    },
+    "wantedNotWent": {
+     "n": 2,
+     "model": 0.0,
+     "distance": 0.0,
+     "random": 0.1448
+    }
+   },
+   "rows": [
+    {
+     "id": "o_fremont_1",
+     "title": "Shiva Vishnu Temple (San Jose)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 1,
+     "distanceRank": 14
+    },
+    {
+     "id": "o_fremont_2",
+     "title": "India Cash and Carry (Newark)",
+     "went": 1,
+     "enjoyment": 4,
+     "rank": 3,
+     "distanceRank": 2
+    },
+    {
+     "id": "o_fremont_3",
+     "title": "Apartment complex loop",
+     "went": 1,
+     "enjoyment": 3,
+     "rank": 20,
+     "distanceRank": 4
+    },
+    {
+     "id": "o_fremont_4",
+     "title": "Safeway",
+     "went": 1,
+     "enjoyment": 2,
+     "rank": 20,
+     "distanceRank": 2
+    },
+    {
+     "id": "o_fremont_5",
+     "title": "Shiva Vishnu Temple (San Jose)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 1,
+     "distanceRank": 14
+    },
+    {
+     "id": "o_fremont_6",
+     "title": "Fremont Hub",
+     "went": 1,
+     "enjoyment": 3,
+     "rank": 11,
+     "distanceRank": 2
+    },
+    {
+     "id": "o_fremont_7",
+     "title": "College friend's home (Milpitas)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 1,
+     "distanceRank": 11
+    },
+    {
+     "id": "o_fremont_8",
+     "title": "Mail room and parking lot",
+     "went": 1,
+     "enjoyment": 3,
+     "rank": 20,
+     "distanceRank": 1
+    },
+    {
+     "id": "o_fremont_9",
+     "title": "Gurdwara",
+     "went": 1,
+     "enjoyment": 4,
+     "rank": 13,
+     "distanceRank": 4
+    },
+    {
+     "id": "o_fremont_10",
+     "title": "Walgreens",
+     "went": 1,
+     "enjoyment": 2,
+     "rank": 20,
+     "distanceRank": 2
+    },
+    {
+     "id": "o_fremont_11",
+     "title": "Shiva Vishnu Temple (San Jose)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 1,
+     "distanceRank": 14
+    },
+    {
+     "id": "o_fremont_12",
+     "title": "99 Ranch Market",
+     "went": 1,
+     "enjoyment": 4,
+     "rank": 17,
+     "distanceRank": 8
+    },
+    {
+     "id": "o_fremont_13",
+     "title": "Friend's home (Santa Clara)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 5,
+     "distanceRank": 15
+    },
+    {
+     "id": "o_fremont_14",
+     "title": "Lake Elizabeth (Fremont)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 3,
+     "distanceRank": 2
+    },
+    {
+     "id": "o_fremont_15",
+     "title": "Indian grocery (Newark)",
+     "went": 1,
+     "enjoyment": 4,
+     "rank": 1,
+     "distanceRank": 2
+    },
+    {
+     "id": "o_fremont_16",
+     "title": "Walk to Safeway",
+     "went": 1,
+     "enjoyment": 2,
+     "rank": 15,
+     "distanceRank": 11
+    },
+    {
+     "id": "o_fremont_17",
+     "title": "Shiva Vishnu Temple (San Jose)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 1,
+     "distanceRank": 14
+    },
+    {
+     "id": "o_fremont_18",
+     "title": "Starbucks",
+     "went": 1,
+     "enjoyment": 2,
+     "rank": 9,
+     "distanceRank": 2
+    },
+    {
+     "id": "o_fremont_19",
+     "title": "Balcony people-watching",
+     "went": 1,
+     "enjoyment": 4,
+     "rank": 9,
+     "distanceRank": 1
+    },
+    {
+     "id": "o_fremont_20",
+     "title": "Shiva Vishnu Temple (San Jose) with cafeteria lunch",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 1,
+     "distanceRank": 14
+    },
+    {
+     "id": "o_fremont_21",
+     "title": "Costco",
+     "went": 1,
+     "enjoyment": 2,
+     "rank": 5,
+     "distanceRank": 4
+    },
+    {
+     "id": "o_fremont_22",
+     "title": "Mrs. Chen's apartment (tea)",
+     "went": 1,
+     "enjoyment": 5,
+     "rank": 1,
+     "distanceRank": 1
+    },
+    {
+     "id": "o_fremont_23",
+     "title": "Diwali event at a school venue (Fremont)",
+     "went": 0,
+     "enjoyment": null,
+     "rank": 21,
+     "distanceRank": 17
+    },
+    {
+     "id": "o_fremont_24",
+     "title": "Telugu association meeting (Santa Clara)",
+     "went": 0,
+     "enjoyment": null,
+     "rank": 21,
+     "distanceRank": 17
+    }
+   ]
+  }
+ }
+}

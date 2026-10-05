@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 4, \"correctness\": 4, \"note\": \"\\\"Tap\\\" untranslated; \\\"ఒకసారి\\\" slightly odd here.\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:03:28.095Z"
+}

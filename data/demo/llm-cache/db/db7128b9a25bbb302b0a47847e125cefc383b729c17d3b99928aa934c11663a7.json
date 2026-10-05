@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 3, \"correctness\": 2, \"note\": \"Should be 'అయిదు సెంట్లు' not 'ఐదు'; 'fifty cents' is 'అయిదు వందల సెంట్లు' or 'అరవై సెంట్లు' — actually 'fifty cents' = 'అయిదు వందల' is wrong; correct is 'అయిదు వందల' no, 'fifty cents' = 'అయిదు వందల' no. 'fifty cents' = 'అయిదు వందల' is incorrect. Correct: '",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:05:00.678Z"
+}

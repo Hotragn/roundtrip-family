@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 3, \"correctness\": 4, \"note\": \"\\\"యవనిూలో\\\" typo for \\\"అవెన్యూలో\\\"; \\\"మిస్సెస్\\\" awkward, use \\\"శ్రీమతి\\\"\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:05:03.399Z"
+}

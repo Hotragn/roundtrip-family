@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219800862",
+  "object": "chat.completion",
+  "created": 1791219800,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "Mrs. Chen asked to go to the Asian market on Mowry Avenue.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 51,
+   "completion_tokens": 16,
+   "total_tokens": 67,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.8999999761581421
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:03:21.175Z"
+}

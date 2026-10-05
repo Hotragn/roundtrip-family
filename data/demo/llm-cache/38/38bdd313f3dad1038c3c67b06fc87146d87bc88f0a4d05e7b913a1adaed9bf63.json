@@ -1,0 +1,6 @@
+{
+ "body": "{\"fluency\": 4, \"correctness\": 4, \"note\": \"Natural but 'strip' transliterated; 'దాటిన' slightly off for 'after' in this context.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:05:22.140Z"
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791223872577",
+  "object": "chat.completion",
+  "created": 1791223872,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c3\",\"parent\":\"mother\",\"reason\":\"She enjoys visiting the temple for worship.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c3\",\"parent\":\"father\",\"reason\":\"He likes visiting the temple as well.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c7\",\"parent\":\"father\",\"reason\":\"He enjoys spending time in the spice aisle of Indian grocery stores.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c4\",\"parent\":\"mother\",\"reason\":\"She enjoys watching people come and go from her balcony and likes parks.\",\"firstRideTogether\":true,\"bringSomeone\":\"the neighbor two doors down\",\"joinHelp\":false},{\"candidateId\":\"c1\",\"parent\":\"both\",\"reason\":\"The pleasant weather makes for a good market visit.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false}],\"note\":\"No Telugu events were found this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2702,
+   "completion_tokens": 224,
+   "total_tokens": 2926,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 30.672725677490234
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:11:12.653Z",
+ "latencyMs": 6071
+}

@@ -1,0 +1,494 @@
+{
+ "provenance": "live_search",
+ "engine": "google",
+ "request": "https://serpapi.com/search.json?engine=google&q=Indian+community+events+in+Fremont%2C+California+this+week&location=Fremont%2C+California%2C+United+States&gl=us&hl=en&google_domain=google.com",
+ "note": "events: Indian community events",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:21:38.253Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google",
+   "q": "Indian community events in Fremont, California this week",
+   "location_requested": "Fremont, California, United States",
+   "location_used": "Fremont,California,United States",
+   "google_domain": "google.com",
+   "hl": "en",
+   "gl": "us",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "Indian community events in Fremont, California this week",
+   "total_results": 112,
+   "time_taken_displayed": 0.41,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "events_results": [
+   {
+    "title": "Niles Fremont Farmers Market",
+    "type": "Niles Fremont Farmer's Market",
+    "date": "Oct 10",
+    "time": "9:00 AM",
+    "address": [
+     "Niles Fremont Farmer's Market",
+     "Fremont, CA"
+    ],
+    "thumbnail": "https://serpapi.com/searches/6ac3dc8174268ee2d6bfa7cc/images/Hb2O8WAoL-DSqiX6bfTPFQ01KVOCkS1PtZkgoCt_Pl0.jpeg"
+   },
+   {
+    "title": "ARTS Q3 - Bengal's gift to Bollywood",
+    "type": "Bengali musical showcase",
+    "date": "Oct 10",
+    "time": "4:00 PM",
+    "address": [
+     "Raunak",
+     "Milpitas, CA"
+    ],
+    "thumbnail": "https://serpapi.com/searches/6ac3dc8174268ee2d6bfa7cc/images/4kOZbPL7g74mbmbeuEBYnz5lLe5W3UmL73Jp-69TtKg.jpeg"
+   },
+   {
+    "title": "Sanskriti Durga Puja",
+    "type": "Hindu cultural festival",
+    "date": "Oct 9",
+    "time": "5:30 PM",
+    "address": [
+     "Newark Pavilion",
+     "Newark, CA"
+    ],
+    "thumbnail": "https://serpapi.com/searches/6ac3dc8174268ee2d6bfa7cc/images/C1W0Gy0-RAoLoBUbKCgyuY9H06T6w7pUIJonduchMzU.jpeg"
+   },
+   {
+    "title": "Rum Rock And Raaga",
+    "type": "India Community Center (ICC)",
+    "date": "Oct 9",
+    "time": "12:00 AM",
+    "address": [
+     "India Community Center (ICC)",
+     "Milpitas, CA"
+    ],
+    "thumbnail": "https://serpapi.com/searches/6ac3dc8174268ee2d6bfa7cc/images/td8s7FkXckNu509nW15rtsazuEIVKVH_d_r6IvqLpcY.jpeg"
+   },
+   {
+    "title": "Bollywood Dance Classes",
+    "type": "Bollywood dance workshop",
+    "date": "Oct 6",
+    "time": "7:00 PM",
+    "address": [
+     "Motion Arts Center",
+     "San Mateo, CA"
+    ],
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRnIpqyRwGU22bgVjjeZsyM97krmgBoF6cbn6BAkbTXg00ik0ObiI7g3wtiwYG-Is7-24NWd9jgYxNCOSM"
+   },
+   {
+    "title": "Diwali EXPO",
+    "type": "Festive shopping expo",
+    "date": "Oct 10",
+    "time": "12:00 PM",
+    "address": [
+     "Hilton Garden Inn Cupertino",
+     "Cupertino, CA"
+    ],
+    "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRuqrh5_gKdizaCX7HVHRjPse1eQERCrndtFHhieOiYD5rK-NpLcQ6q-at5M4pEnTxbOcwFlowwQoEQbug"
+   },
+   {
+    "title": "Morni Punjabi Night @ Opal Nightclub",
+    "type": "Opal Social Club",
+    "date": "Oct 9",
+    "time": "10:00 PM",
+    "address": [
+     "Opal Social Club",
+     "Mountain View, CA"
+    ],
+    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQsqlcj_BHhIs3aDMKXQz75kxVmNR69__jIiGjRmbB4VGKNUH40M7mqrEX83P9nj6gqDOLkujzznXRzXWQ"
+   }
+  ],
+  "related_questions": [
+   {
+    "question": "What is happening in Fremont, CA this weekend?",
+    "type": "ai_overview",
+    "page_token": "qKto93icHdBdbpswAABg7TJ9bLBJsiZSVM2LoUL8yMY2iV8mMEmIf8AqlDR52xV2hp1qp6m07wjf77_22pt_3_500-TH7WJxu92eL8NwsadnNbhFPd57tVC1tU2tzHb9fQ1ez2qHZ4V-vitEuPdiT4MS5B9NiB8EeF1pWfAHngQERQZXBYuja95HWnG-5FZaYQCT2BYUjkHphkDyJeTVAAnYmBPurpTlh0ZIeqzGkAUdoHFisrgtcyHvKsw1Bd1IoNTqzUoFfCoYSqn1t5RP51NvCdGizsGmaOJEZ33CMpwDJazhewMbhspqr5YZjCg7dDMPVkm1F0RyvyahWSlMmYp-BFnl4_KtjSh4-SxZFBJg78fgZcrvoMddO7Pe4-MBpZmhjobep1VLGoDcEU5I0OFKOH0obR0PEVBmM1MnPkqLXOZo0sKpJjqhHCdSWFFw8nRW8y58-n-9-3V209a_D5cvh3yK2A",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=qKto93icHdBdbpswAABg7TJ9bLBJsiZSVM2LoUL8yMY2iV8mMEmIf8AqlDR52xV2hp1qp6m07wjf77_22pt_3_500-TH7WJxu92eL8NwsadnNbhFPd57tVC1tU2tzHb9fQ1ez2qHZ4V-vitEuPdiT4MS5B9NiB8EeF1pWfAHngQERQZXBYuja95HWnG-5FZaYQCT2BYUjkHphkDyJeTVAAnYmBPurpTlh0ZIeqzGkAUdoHFisrgtcyHvKsw1Bd1IoNTqzUoFfCoYSqn1t5RP51NvCdGizsGmaOJEZ33CMpwDJazhewMbhspqr5YZjCg7dDMPVkm1F0RyvyahWSlMmYp-BFnl4_KtjSh4-SxZFBJg78fgZcrvoMddO7Pe4-MBpZmhjobep1VLGoDcEU5I0OFKOH0obR0PEVBmM1MnPkqLXOZo0sKpJjqhHCdSWFFw8nRW8y58-n-9-3V209a_D5cvh3yK2A",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVJsOVdVMWROWmkwNFQyTmllVFJxVFU5WGJtWm1hWGRCZG5sWlJYRk5XbmgzWVdWRFUxUkdlRUYwYUc5NUxYQkpkVmxFWm5ONlpYbFpWekJvZVVkeU0xOXpSak5STldRNGRXdzRMVGd0VVRGNGRGOTVabVpQVUZSaFp4SVhiMDU2UkdGd1N6SkVaa2Q2YVMxblVHOVFabU5yUVZVYUlrRkVjM0k1WmxGa1ExTnhOSFoyVW1aNVV6QmFUR0kxT0MwMmRtSjNTM1pNWTFFIiwiZmN2IjoiMyIsImVpIjoib056RGFwSzJEZkd6aS1nUG9QZmNrQVUiLCJxYyI6IkNqZHBibVJwWVc0Z1kyOXRiWFZ1YVhSNUlHVjJaVzUwY3lCcGJpQm1jbVZ0YjI1MElHTmhiR2xtYjNKdWFXRWdkR2hwY3lCM1pXVnJFQUI5cnlBU1B3IiwicXVlc3Rpb24iOiJXaGF0IGlzIGhhcHBlbmluZyBpbiBGcmVtb250LCBDQSB0aGlzIHdlZWtlbmQ/IiwibGsiOiJHaXgzYUdGMElHbHpJR2hoY0hCbGJtbHVaeUJwYmlCbWNtVnRiMjUwSUdOaElIUm9hWE1nZDJWbGEyVnVaQSIsImJzIjoiYzIyT01RLUNNQkNGNDlySjFacVlXOFNGTVBRUEVHSWtZZFBKMVFZT2FZUXJvVlhpdjdjUkVGU21TLTY5NzczSExpdzRGOUtDTWxESXVrWlNkQVZGRURkWWFiSS03Q093aFZOYnhCdFNGb3FBLS0wY2tYY0VwUElMWUVmbUo4YTlzRUdRQkFsbHlwMVVWOVdkbEgzLWxJVUMtRWJOZU1aNGRtRGVzTm5GRGpURWFLeDZ5QkowM3JXRVlzMVhBNWRQMUhjLU96RXZjcHY2WlZCcS15SEpUR2FGWXNlMzh0LXBSbWRmc2x5OEFBIiwiaWQiOiJmY19vTnpEYXBLMkRmR3ppLWdQb1BmY2tBVV81In0=",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVJsOVdVMWROWmkwNFQyTmllVFJxVFU5WGJtWm1hWGRCZG5sWlJYRk5XbmgzWVdWRFUxUkdlRUYwYUc5NUxYQkpkVmxFWm5ONlpYbFpWekJvZVVkeU0xOXpSak5STldRNGRXdzRMVGd0VVRGNGRGOTVabVpQVUZSaFp4SVhiMDU2UkdGd1N6SkVaa2Q2YVMxblVHOVFabU5yUVZVYUlrRkVjM0k1WmxGa1ExTnhOSFoyVW1aNVV6QmFUR0kxT0MwMmRtSjNTM1pNWTFFIiwiZmN2IjoiMyIsImVpIjoib056RGFwSzJEZkd6aS1nUG9QZmNrQVUiLCJxYyI6IkNqZHBibVJwWVc0Z1kyOXRiWFZ1YVhSNUlHVjJaVzUwY3lCcGJpQm1jbVZ0YjI1MElHTmhiR2xtYjNKdWFXRWdkR2hwY3lCM1pXVnJFQUI5cnlBU1B3IiwicXVlc3Rpb24iOiJXaGF0IGlzIGhhcHBlbmluZyBpbiBGcmVtb250LCBDQSB0aGlzIHdlZWtlbmQ%2FIiwibGsiOiJHaXgzYUdGMElHbHpJR2hoY0hCbGJtbHVaeUJwYmlCbWNtVnRiMjUwSUdOaElIUm9hWE1nZDJWbGEyVnVaQSIsImJzIjoiYzIyT01RLUNNQkNGNDlySjFacVlXOFNGTVBRUEVHSWtZZFBKMVFZT2FZUXJvVlhpdjdjUkVGU21TLTY5NzczSExpdzRGOUtDTWxESXVrWlNkQVZGRURkWWFiSS03Q093aFZOYnhCdFNGb3FBLS0wY2tYY0VwUElMWUVmbUo4YTlzRUdRQkFsbHlwMVVWOVdkbEgzLWxJVUMtRWJOZU1aNGRtRGVzTm5GRGpURWFLeDZ5QkowM3JXRVlzMVhBNWRQMUhjLU96RXZjcHY2WlZCcS15SEpUR2FGWXNlMzh0LXBSbWRmc2x5OEFBIiwiaWQiOiJmY19vTnpEYXBLMkRmR3ppLWdQb1BmY2tBVV81In0%3D"
+   },
+   {
+    "question": "Is there an Indian community in Fremont, CA?",
+    "type": "ai_overview",
+    "page_token": "9Qtq93icHdBRTsIwAADQeBk_ZV2dCgkxFooOR7Hd2lF-TFk3xtptVSpT_ryLp_I0Jr4jvO8fe-jM78Wp9t4dJ6PRMAxX-77f2_Kq6NuROn51xahQ1u5UYSY3tzfgviqm-CNGs7cYUe6cmLMgmwuZBncRmetlntNBWzdTYDWUmILVI4UELJ4lZyuZx15bxHI8JrQV19posBYP0Zr7pjR1nGTkhXU13z6O39VGemkN5E_oXFpUyfAIqWEHcSY-wyzhdjnjrVbMRLGwHO54_KU6A3QYEdUIV254RAITpJkYisU4KRuG03C75sINqouhbvSnzh0lneilECbL6_M6BZBhBnGtT1nnsNygZGVYy6BzSa7pDqBWhh4J1h8oZ-eisS0HZCna7YI3JKahQ-liH8gQVAS6TYaPXgTjgdPLqjhN4eX_5_S1av3Evff7P3xMgoU",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=9Qtq93icHdBRTsIwAADQeBk_ZV2dCgkxFooOR7Hd2lF-TFk3xtptVSpT_ryLp_I0Jr4jvO8fe-jM78Wp9t4dJ6PRMAxX-77f2_Kq6NuROn51xahQ1u5UYSY3tzfgviqm-CNGs7cYUe6cmLMgmwuZBncRmetlntNBWzdTYDWUmILVI4UELJ4lZyuZx15bxHI8JrQV19posBYP0Zr7pjR1nGTkhXU13z6O39VGemkN5E_oXFpUyfAIqWEHcSY-wyzhdjnjrVbMRLGwHO54_KU6A3QYEdUIV254RAITpJkYisU4KRuG03C75sINqouhbvSnzh0lneilECbL6_M6BZBhBnGtT1nnsNygZGVYy6BzSa7pDqBWhh4J1h8oZ-eisS0HZCna7YI3JKahQ-liH8gQVAS6TYaPXgTjgdPLqjhN4eX_5_S1av3Evff7P3xMgoU",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVJsOVdVMWROWmkwNFQyTmllVFJxVFU5WGJtWm1hWGRCZG5sWlJYRk5XbmgzWVdWRFUxUkdlRUYwYUc5NUxYQkpkVmxFWm5ONlpYbFpWekJvZVVkeU0xOXpSak5STldRNGRXdzRMVGd0VVRGNGRGOTVabVpQVUZSaFp4SVhiMDU2UkdGd1N6SkVaa2Q2YVMxblVHOVFabU5yUVZVYUlrRkVjM0k1WmxGa1ExTnhOSFoyVW1aNVV6QmFUR0kxT0MwMmRtSjNTM1pNWTFFIiwiZmN2IjoiMyIsImVpIjoib056RGFwSzJEZkd6aS1nUG9QZmNrQVUiLCJxYyI6IkNqZHBibVJwWVc0Z1kyOXRiWFZ1YVhSNUlHVjJaVzUwY3lCcGJpQm1jbVZ0YjI1MElHTmhiR2xtYjNKdWFXRWdkR2hwY3lCM1pXVnJFQUI5cnlBU1B3IiwicXVlc3Rpb24iOiJJcyB0aGVyZSBhbiBJbmRpYW4gY29tbXVuaXR5IGluIEZyZW1vbnQsIENBPyIsImxrIjoiR2g1cGJtUnBZVzRnWTI5dGJYVnVhWFI1SUdsdUlHWnlaVzF2Ym5RZ1kyRSIsImJzIjoiYzIyT01RLUNNQkNGNDlySjFacVlXOFNGTVBRUEVHSWtZZFBKMVFZT2FZUXJvVlhpdjdjUkVGU21TLTY5NzczSExpdzRGOUtDTWxESXVrWlNkQVZGRURkWWFiSS03Q093aFZOYnhCdFNGb3FBLS0wY2tYY0VwUElMWUVmbUo4YTlzRUdRQkFsbHlwMVVWOVdkbEgzLWxJVUMtRWJOZU1aNGRtRGVzTm5GRGpURWFLeDZ5QkowM3JXRVlzMVhBNWRQMUhjLU96RXZjcHY2WlZCcS15SEpUR2FGWXNlMzh0LXBSbWRmc2x5OEFBIiwiaWQiOiJmY19vTnpEYXBLMkRmR3ppLWdQb1BmY2tBVV81In0=",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVJsOVdVMWROWmkwNFQyTmllVFJxVFU5WGJtWm1hWGRCZG5sWlJYRk5XbmgzWVdWRFUxUkdlRUYwYUc5NUxYQkpkVmxFWm5ONlpYbFpWekJvZVVkeU0xOXpSak5STldRNGRXdzRMVGd0VVRGNGRGOTVabVpQVUZSaFp4SVhiMDU2UkdGd1N6SkVaa2Q2YVMxblVHOVFabU5yUVZVYUlrRkVjM0k1WmxGa1ExTnhOSFoyVW1aNVV6QmFUR0kxT0MwMmRtSjNTM1pNWTFFIiwiZmN2IjoiMyIsImVpIjoib056RGFwSzJEZkd6aS1nUG9QZmNrQVUiLCJxYyI6IkNqZHBibVJwWVc0Z1kyOXRiWFZ1YVhSNUlHVjJaVzUwY3lCcGJpQm1jbVZ0YjI1MElHTmhiR2xtYjNKdWFXRWdkR2hwY3lCM1pXVnJFQUI5cnlBU1B3IiwicXVlc3Rpb24iOiJJcyB0aGVyZSBhbiBJbmRpYW4gY29tbXVuaXR5IGluIEZyZW1vbnQsIENBPyIsImxrIjoiR2g1cGJtUnBZVzRnWTI5dGJYVnVhWFI1SUdsdUlHWnlaVzF2Ym5RZ1kyRSIsImJzIjoiYzIyT01RLUNNQkNGNDlySjFacVlXOFNGTVBRUEVHSWtZZFBKMVFZT2FZUXJvVlhpdjdjUkVGU21TLTY5NzczSExpdzRGOUtDTWxESXVrWlNkQVZGRURkWWFiSS03Q093aFZOYnhCdFNGb3FBLS0wY2tYY0VwUElMWUVmbUo4YTlzRUdRQkFsbHlwMVVWOVdkbEgzLWxJVUMtRWJOZU1aNGRtRGVzTm5GRGpURWFLeDZ5QkowM3JXRVlzMVhBNWRQMUhjLU96RXZjcHY2WlZCcS15SEpUR2FGWXNlMzh0LXBSbWRmc2x5OEFBIiwiaWQiOiJmY19vTnpEYXBLMkRmR3ppLWdQb1BmY2tBVV81In0%3D"
+   },
+   {
+    "question": "What is the Fremont Festival of India?",
+    "type": "ai_overview",
+    "page_token": "9gGugXicHdDBboIwAADQ7Gc8CtTppolZglqUKEuLLdrL0rUq0haqEAre9i_7qn3Nll3f8X1962upfp4OedPYeuZ5zrnhpaou-jQUlfF43ZfCE1zrTy7UbPIyCd7OYr6qXbioXIiItXSJ_X2U9GmGze6gear0TWgK_6wjkSx3UIEttWsaHd0JWiYLAZCGkBPWkgfdJn68p2Z8S4MNYJTdpFEuU113GJHuCGyCiFyQQvfH4LUh0HICpjkH-Z3pnUNGFnvIMgkah0CicYSvZL0JEIAtBzLFfr5hj_iaqdyJDCfSrMaIshJlKIVg-n5SOBeruscRW5-MalgQtiRiBfchja5xiNdJ_54xkqnNMy7kHZkcJSUuRRDHO5r4lNgxPuQdXsbl4Cza-WjwPzb_OJtmZu_V5RcMN3rU",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=9gGugXicHdDBboIwAADQ7Gc8CtTppolZglqUKEuLLdrL0rUq0haqEAre9i_7qn3Nll3f8X1962upfp4OedPYeuZ5zrnhpaou-jQUlfF43ZfCE1zrTy7UbPIyCd7OYr6qXbioXIiItXSJ_X2U9GmGze6gear0TWgK_6wjkSx3UIEttWsaHd0JWiYLAZCGkBPWkgfdJn68p2Z8S4MNYJTdpFEuU113GJHuCGyCiFyQQvfH4LUh0HICpjkH-Z3pnUNGFnvIMgkah0CicYSvZL0JEIAtBzLFfr5hj_iaqdyJDCfSrMaIshJlKIVg-n5SOBeruscRW5-MalgQtiRiBfchja5xiNdJ_54xkqnNMy7kHZkcJSUuRRDHO5r4lNgxPuQdXsbl4Cza-WjwPzb_OJtmZu_V5RcMN3rU",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVJsOVdVMWROWmkwNFQyTmllVFJxVFU5WGJtWm1hWGRCZG5sWlJYRk5XbmgzWVdWRFUxUkdlRUYwYUc5NUxYQkpkVmxFWm5ONlpYbFpWekJvZVVkeU0xOXpSak5STldRNGRXdzRMVGd0VVRGNGRGOTVabVpQVUZSaFp4SVhiMDU2UkdGd1N6SkVaa2Q2YVMxblVHOVFabU5yUVZVYUlrRkVjM0k1WmxGa1ExTnhOSFoyVW1aNVV6QmFUR0kxT0MwMmRtSjNTM1pNWTFFIiwiZmN2IjoiMyIsImVpIjoib056RGFwSzJEZkd6aS1nUG9QZmNrQVUiLCJxYyI6IkNqZHBibVJwWVc0Z1kyOXRiWFZ1YVhSNUlHVjJaVzUwY3lCcGJpQm1jbVZ0YjI1MElHTmhiR2xtYjNKdWFXRWdkR2hwY3lCM1pXVnJFQUI5cnlBU1B3IiwicXVlc3Rpb24iOiJXaGF0IGlzIHRoZSBGcmVtb250IEZlc3RpdmFsIG9mIEluZGlhPyIsImxrIjoiR2hsbWNtVnRiMjUwSUdabGMzUnBkbUZzSUc5bUlHbHVaR2xoIiwiYnMiOiJjMjJPTVEtQ01CQ0Y0OXJKMVpxWVc4U0ZNUFFQRUdJa1lkUEoxUVlPYVlRcm9WWGl2N2NSRUZTbVMtNjk3NzNITGl3NEY5S0NNbERJdWtaU2RBVkZFRGRZYWJJLTdDT3doVk5ieEJ0U0ZvcUEtLTBja1hjRXBQSUxZRWZtSjhhOXNFR1FCQWxseXAxVVY5V2RsSDMtbElVQy1FYk5lTVo0ZG1EZXNObkZEalRFYUt4NnlCSjAzcldFWXMxWEE1ZFAxSGMtT3pFdmNwdjZaVkJxLXlISlRHYUZZc2UzOHQtcFJtZGZzbHk4QUEiLCJpZCI6ImZjX29OekRhcEsyRGZHemktZ1BvUGZja0FVXzUifQ==",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVJsOVdVMWROWmkwNFQyTmllVFJxVFU5WGJtWm1hWGRCZG5sWlJYRk5XbmgzWVdWRFUxUkdlRUYwYUc5NUxYQkpkVmxFWm5ONlpYbFpWekJvZVVkeU0xOXpSak5STldRNGRXdzRMVGd0VVRGNGRGOTVabVpQVUZSaFp4SVhiMDU2UkdGd1N6SkVaa2Q2YVMxblVHOVFabU5yUVZVYUlrRkVjM0k1WmxGa1ExTnhOSFoyVW1aNVV6QmFUR0kxT0MwMmRtSjNTM1pNWTFFIiwiZmN2IjoiMyIsImVpIjoib056RGFwSzJEZkd6aS1nUG9QZmNrQVUiLCJxYyI6IkNqZHBibVJwWVc0Z1kyOXRiWFZ1YVhSNUlHVjJaVzUwY3lCcGJpQm1jbVZ0YjI1MElHTmhiR2xtYjNKdWFXRWdkR2hwY3lCM1pXVnJFQUI5cnlBU1B3IiwicXVlc3Rpb24iOiJXaGF0IGlzIHRoZSBGcmVtb250IEZlc3RpdmFsIG9mIEluZGlhPyIsImxrIjoiR2hsbWNtVnRiMjUwSUdabGMzUnBkbUZzSUc5bUlHbHVaR2xoIiwiYnMiOiJjMjJPTVEtQ01CQ0Y0OXJKMVpxWVc4U0ZNUFFQRUdJa1lkUEoxUVlPYVlRcm9WWGl2N2NSRUZTbVMtNjk3NzNITGl3NEY5S0NNbERJdWtaU2RBVkZFRGRZYWJJLTdDT3doVk5ieEJ0U0ZvcUEtLTBja1hjRXBQSUxZRWZtSjhhOXNFR1FCQWxseXAxVVY5V2RsSDMtbElVQy1FYk5lTVo0ZG1EZXNObkZEalRFYUt4NnlCSjAzcldFWXMxWEE1ZFAxSGMtT3pFdmNwdjZaVkJxLXlISlRHYUZZc2UzOHQtcFJtZGZzbHk4QUEiLCJpZCI6ImZjX29OekRhcEsyRGZHemktZ1BvUGZja0FVXzUifQ%3D%3D"
+   },
+   {
+    "question": "Are there a lot of Indians in Fremont?",
+    "type": "ai_overview",
+    "page_token": "VBITLXicHdBRboIwAADQ7DJ-TrDiNhOzpFpAJ7AWWiY_C7QoQgt16wD92112qp1myd4R3vePPLfN711fGaM_l9PpMAz3p647yfKed2qaf15bPuW5lEXOm-XiYWE_H_kKfW3h-rKFmGrNNsSKrYolV3vO1PjClOOXiDi0di8JCNt9GjbRRu5wgg1pMRC1HEKls7xFQ-o219iyDa6rmCgBYhDYCd313CcqVXodArIvVLbNNwxns6eulC4hSEqW0FEopytbOEZeMy_o2Geeu-ZosPKZZbjn3LhL_JgJHyv7NQNuIzxzSV0ZMTd8KShD8Q2NQQ29A3s03M4WwWyMSh8CVlcQVaJPWo0Ob3AfNEQRoPU-FbiwoTrMDGSkO2NKbryWiiH9laDxNWBsE9_gTlDHj3zRJIDNI6rHGD1piidH3q_A5P9z9X5UZqk_utMffvuDfg",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=VBITLXicHdBRboIwAADQ7DJ-TrDiNhOzpFpAJ7AWWiY_C7QoQgt16wD92112qp1myd4R3vePPLfN711fGaM_l9PpMAz3p647yfKed2qaf15bPuW5lEXOm-XiYWE_H_kKfW3h-rKFmGrNNsSKrYolV3vO1PjClOOXiDi0di8JCNt9GjbRRu5wgg1pMRC1HEKls7xFQ-o219iyDa6rmCgBYhDYCd313CcqVXodArIvVLbNNwxns6eulC4hSEqW0FEopytbOEZeMy_o2Geeu-ZosPKZZbjn3LhL_JgJHyv7NQNuIzxzSV0ZMTd8KShD8Q2NQQ29A3s03M4WwWyMSh8CVlcQVaJPWo0Ob3AfNEQRoPU-FbiwoTrMDGSkO2NKbryWiiH9laDxNWBsE9_gTlDHj3zRJIDNI6rHGD1piidH3q_A5P9z9X5UZqk_utMffvuDfg",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVJsOVdVMWROWmkwNFQyTmllVFJxVFU5WGJtWm1hWGRCZG5sWlJYRk5XbmgzWVdWRFUxUkdlRUYwYUc5NUxYQkpkVmxFWm5ONlpYbFpWekJvZVVkeU0xOXpSak5STldRNGRXdzRMVGd0VVRGNGRGOTVabVpQVUZSaFp4SVhiMDU2UkdGd1N6SkVaa2Q2YVMxblVHOVFabU5yUVZVYUlrRkVjM0k1WmxGa1ExTnhOSFoyVW1aNVV6QmFUR0kxT0MwMmRtSjNTM1pNWTFFIiwiZmN2IjoiMyIsImVpIjoib056RGFwSzJEZkd6aS1nUG9QZmNrQVUiLCJxYyI6IkNqZHBibVJwWVc0Z1kyOXRiWFZ1YVhSNUlHVjJaVzUwY3lCcGJpQm1jbVZ0YjI1MElHTmhiR2xtYjNKdWFXRWdkR2hwY3lCM1pXVnJFQUI5cnlBU1B3IiwicXVlc3Rpb24iOiJBcmUgdGhlcmUgYSBsb3Qgb2YgSW5kaWFucyBpbiBGcmVtb250PyIsImxrIjoiYzVOU1RTeEtWU2pKU0FXU2lRbzUtU1VLLVdrS21Ya3BtWWw1eFVCYUlhMG9OVGNfcndRQSIsImJzIjoiYzIyT01RLUNNQkNGNDlySjFacVlXOFNGTVBRUEVHSWtZZFBKMVFZT2FZUXJvVlhpdjdjUkVGU21TLTY5NzczSExpdzRGOUtDTWxESXVrWlNkQVZGRURkWWFiSS03Q093aFZOYnhCdFNGb3FBLS0wY2tYY0VwUElMWUVmbUo4YTlzRUdRQkFsbHlwMVVWOVdkbEgzLWxJVUMtRWJOZU1aNGRtRGVzTm5GRGpURWFLeDZ5QkowM3JXRVlzMVhBNWRQMUhjLU96RXZjcHY2WlZCcS15SEpUR2FGWXNlMzh0LXBSbWRmc2x5OEFBIiwiaWQiOiJmY19vTnpEYXBLMkRmR3ppLWdQb1BmY2tBVV81In0=",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVJsOVdVMWROWmkwNFQyTmllVFJxVFU5WGJtWm1hWGRCZG5sWlJYRk5XbmgzWVdWRFUxUkdlRUYwYUc5NUxYQkpkVmxFWm5ONlpYbFpWekJvZVVkeU0xOXpSak5STldRNGRXdzRMVGd0VVRGNGRGOTVabVpQVUZSaFp4SVhiMDU2UkdGd1N6SkVaa2Q2YVMxblVHOVFabU5yUVZVYUlrRkVjM0k1WmxGa1ExTnhOSFoyVW1aNVV6QmFUR0kxT0MwMmRtSjNTM1pNWTFFIiwiZmN2IjoiMyIsImVpIjoib056RGFwSzJEZkd6aS1nUG9QZmNrQVUiLCJxYyI6IkNqZHBibVJwWVc0Z1kyOXRiWFZ1YVhSNUlHVjJaVzUwY3lCcGJpQm1jbVZ0YjI1MElHTmhiR2xtYjNKdWFXRWdkR2hwY3lCM1pXVnJFQUI5cnlBU1B3IiwicXVlc3Rpb24iOiJBcmUgdGhlcmUgYSBsb3Qgb2YgSW5kaWFucyBpbiBGcmVtb250PyIsImxrIjoiYzVOU1RTeEtWU2pKU0FXU2lRbzUtU1VLLVdrS21Ya3BtWWw1eFVCYUlhMG9OVGNfcndRQSIsImJzIjoiYzIyT01RLUNNQkNGNDlySjFacVlXOFNGTVBRUEVHSWtZZFBKMVFZT2FZUXJvVlhpdjdjUkVGU21TLTY5NzczSExpdzRGOUtDTWxESXVrWlNkQVZGRURkWWFiSS03Q093aFZOYnhCdFNGb3FBLS0wY2tYY0VwUElMWUVmbUo4YTlzRUdRQkFsbHlwMVVWOVdkbEgzLWxJVUMtRWJOZU1aNGRtRGVzTm5GRGpURWFLeDZ5QkowM3JXRVlzMVhBNWRQMUhjLU96RXZjcHY2WlZCcS15SEpUR2FGWXNlMzh0LXBSbWRmc2x5OEFBIiwiaWQiOiJmY19vTnpEYXBLMkRmR3ppLWdQb1BmY2tBVV81In0%3D"
+   }
+  ],
+  "ai_overview": {
+   "page_token": "OeB-B3iczZXfcro4FMcfYJ9jubEqaJdiZ5jfhBiUWq1pq1ZvmAgYUf6oAVHv9l32qfZN9m4jYout-vtzsbOZ0QjnnOSc5Hz8_vmX5wbzv3_7ZxpFC3ZfLidJUqJhSD2nZIV-mbBtYJUnocdW1vQb9dSYCVNPdQIhjj1HTQoQGNiABn0OHrzxoBbbcFMfDjaLkV_bjn1v-qj3Y_L27I2g9mo3dHH01ha2a7UqWEwVBcdVw86uThatSn3S2LlF2g27E2sOekK6s2qOCXNmPLHNjJXNMv-a_16t84cSKzlBiYVkOVwT-22llCpipVp6KhOfO4D_dmBAgQYg_wDjohM3wh9ZDCHuawCUi9TSKRdNuVnbTwZOn_Urq6VhCNM0Az7MzWxX52ENevSZX4w-sTQOC2AjnREPh5erPZ_MSbLXgi_Z6MkKYPjFdHZoWt7Ijw4_gSYC-OMtPvGHH4d_OPQ0HoEn2rbqluFe2SpND4Nmm0LsXnfjYwmm3ePetCXybco25f0rlscrPkll15pa6Y8V27c1fK2JoV7cjNaDl3a73k4kUhtGWzCEdSp1LQ2XrTH380JiO7Y5NcVv6bNUkf4Qa9U75SblyWLvQLE8UK16v-PpC6X4wkqPJU060gTz95E_qf3b3unRHcYehv1taxfqxueuC2Gca3qYOfAOJwigPA_cqDf35nfO-Y8NBfHposcITskXmjKWPpDa04S1rJZn_B59Up2BNDcXka-u-aUceKZ6-nS0HTs360wEPv87QKTtEXtPIMkb9_8lkDOtHVhY3hqHQtu5cxXRw-c2To9iykOztxnex8sd5o9vfwYckCHAD8DQkPGiH271sPt-DZhlrgF6iis61xK8Uohh8h10Lo7WD_hwejJsPlGQp6fBAtjthv6d3Ef9eluuNTvANPBOeVSS87SE_vgn9Mf63_GUqRM9qNNlnuCP8MTViZ5Rp6wbYHYPB3XCD5k6XeZJdw-Z0iNPR3VqflGnrzzN8zxl6vQcXlCnn-XJuMKTcZUn_RxP9DJPqTrlecKxcaJO6Kw6ffD0K-rU-kV1SvFyDtOpVMUzelGyUCdWbhdPwcumS1aeMkE7yV-3piYb29-XrIkf3fvE9m5M177XKg_R1r4x-Yvw3rGFpWoEtkuCAsfUjwM32hactRNErOAGBX3l-GEQ3RQg8dxJuApcUoimLiskjjMXfG8VqiK561n-YFCZGqG4AEiyrVUwioNN1B7I0sQrLh0s60XZrrVgf7Pzo-Jy8KrJjWfs1Hpr0mC9mUuS17bitcBubm90seVIy2WPKJ3xqNrxQqsTaWFPi7eVuLte16sNsvVQIjuUPPb7yJi1nE2lAXx7YU46ozFQkjQvplaVgWdS2W8uQoEXyxxVEvyVpfIuuaWgg8GAAgtA3k9cKXsk5HMCcEMGGGkV3g0Cs4jpsLU6VpSxrFiypEjibU2WBZ9G24V6KwksWKnSv1d1bIg",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=OeB-B3iczZXfcro4FMcfYJ9jubEqaJdiZ5jfhBiUWq1pq1ZvmAgYUf6oAVHv9l32qfZN9m4jYout-vtzsbOZ0QjnnOSc5Hz8_vmX5wbzv3_7ZxpFC3ZfLidJUqJhSD2nZIV-mbBtYJUnocdW1vQb9dSYCVNPdQIhjj1HTQoQGNiABn0OHrzxoBbbcFMfDjaLkV_bjn1v-qj3Y_L27I2g9mo3dHH01ha2a7UqWEwVBcdVw86uThatSn3S2LlF2g27E2sOekK6s2qOCXNmPLHNjJXNMv-a_16t84cSKzlBiYVkOVwT-22llCpipVp6KhOfO4D_dmBAgQYg_wDjohM3wh9ZDCHuawCUi9TSKRdNuVnbTwZOn_Urq6VhCNM0Az7MzWxX52ENevSZX4w-sTQOC2AjnREPh5erPZ_MSbLXgi_Z6MkKYPjFdHZoWt7Ijw4_gSYC-OMtPvGHH4d_OPQ0HoEn2rbqluFe2SpND4Nmm0LsXnfjYwmm3ePetCXybco25f0rlscrPkll15pa6Y8V27c1fK2JoV7cjNaDl3a73k4kUhtGWzCEdSp1LQ2XrTH380JiO7Y5NcVv6bNUkf4Qa9U75SblyWLvQLE8UK16v-PpC6X4wkqPJU060gTz95E_qf3b3unRHcYehv1taxfqxueuC2Gca3qYOfAOJwigPA_cqDf35nfO-Y8NBfHposcITskXmjKWPpDa04S1rJZn_B59Up2BNDcXka-u-aUceKZ6-nS0HTs360wEPv87QKTtEXtPIMkb9_8lkDOtHVhY3hqHQtu5cxXRw-c2To9iykOztxnex8sd5o9vfwYckCHAD8DQkPGiH271sPt-DZhlrgF6iis61xK8Uohh8h10Lo7WD_hwejJsPlGQp6fBAtjthv6d3Ef9eluuNTvANPBOeVSS87SE_vgn9Mf63_GUqRM9qNNlnuCP8MTViZ5Rp6wbYHYPB3XCD5k6XeZJdw-Z0iNPR3VqflGnrzzN8zxl6vQcXlCnn-XJuMKTcZUn_RxP9DJPqTrlecKxcaJO6Kw6ffD0K-rU-kV1SvFyDtOpVMUzelGyUCdWbhdPwcumS1aeMkE7yV-3piYb29-XrIkf3fvE9m5M177XKg_R1r4x-Yvw3rGFpWoEtkuCAsfUjwM32hactRNErOAGBX3l-GEQ3RQg8dxJuApcUoimLiskjjMXfG8VqiK561n-YFCZGqG4AEiyrVUwioNN1B7I0sQrLh0s60XZrrVgf7Pzo-Jy8KrJjWfs1Hpr0mC9mUuS17bitcBubm90seVIy2WPKJ3xqNrxQqsTaWFPi7eVuLte16sNsvVQIjuUPPb7yJi1nE2lAXx7YU46ozFQkjQvplaVgWdS2W8uQoEXyxxVEvyVpfIuuaWgg8GAAgtA3k9cKXsk5HMCcEMGGGkV3g0Cs4jpsLU6VpSxrFiypEjibU2WBZ9G24V6KwksWKnSv1d1bIg"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Fremont, California Upcoming Indian Events, Concerts ...",
+    "link": "https://events.sulekha.com/fremont-ca",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESYAHrOzAV56Jr9dXi_2rYxhEdT_lWsQAwzTEBt1QEJHY337xmBMcGzmEOGLCHslPLowUiE7x9gfx0uPnD3jZXOJiifbWBRMcgdJiCjXPFh3t7usXQxt69EbtgGBuyH8wgyQ&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQFnoECB4QAQ&uoh=1",
+    "displayed_link": "https://events.sulekha.com › fremont-ca",
+    "favicon": "https://serpapi.com/images/i/UklGRqYAAABXRUJQVlA4IJoAAADwAgCdASoQABAAAsBMJbACdDiAN4vIikkKOxXXL9QiAAD--rAJCBKSpY810l_YGo1mj9pm2ZB8vrVgWdgCbGQTGiiuuvZcM4QS-XA_rWnyNE3SktgjyspxBO-vAQ8R1LYUzaViJ_wX9UyD7KE-zUr_6aTx_mXQNc-Dvpo5f6O-a_fcAIt_RjQt_4JCj_TMC9WZe78ecXnK5AAA.webp",
+    "snippet": "Just Listed Events in and around Fremont, CA · Falguni Pathak Dandiya Night (oct 3rd, 2026) · Hindu Matrimonial Singles Meetup - San Jose · L. Shankar · Unlimited ...",
+    "snippet_highlighted_words": [
+     "Just Listed Events in and around Fremont, CA"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Just Listed Events in and around Fremont, CA · Falguni Pathak Dandiya Night (oct 3rd, 2026) · Hindu Matrimonial Singles Meetup - San Jose · L. Shankar · Unlimited ...",
+      "source_info_link": "https://events.sulekha.com/fremont-ca",
+      "icon": "https://serpapi.com/images/i/UklGRqYAAABXRUJQVlA4IJoAAADwAgCdASoQABAAAsBMJbACdDiAN4vIikkKOxXXL9QiAAD--rAJCBKSpY810l_YGo1mj9pm2ZB8vrVgWdgCbGQTGiiuuvZcM4QS-XA_rWnyNE3SktgjyspxBO-vAQ8R1LYUzaViJ_wX9UyD7KE-zUr_6aTx_mXQNc-Dvpo5f6O-a_fcAIt_RjQt_4JCj_TMC9WZe78ecXnK5AAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpABL2dvdG8_dXJsPUNBRVNZQUhyT3pBVjU2SnI5ZFhpXzJyWXhoRWRUX2xXc1FBd3pURUJ0MVFFSkhZMzM3eG1CTWNHem1FT0dMQ0hzbFBMb3dVaUU3eDlnZngwdVBuRDNqWlhPSmlpZmJXQlJNY2dkSmlDalhQRmgzdDd1c1hReHQ2OUVidGdHQnV5SDh3Z3lREgQaAggAGpUJEgIIABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQNwICAAQABgAIAAqLAoGaW5kaWFuFS47R0AaBWhpbmR1GgVpbmRpYRoPaW5kaWFuY29tbXVuaXR5KkEKCWNvbW11bml0eRWajTs_GgVsb2NhbBoGc29jaWFsGg9pbmRpYW5jb21tdW5pdHkaD2NvbW11bml0eWV2ZW50cyo7CgZldmVudHMVrimoQBoKYWN0aXZpdGllcxoIY2FsZW5kYXIaBWV2ZW50Gg9jb21tdW5pdHlldmVudHMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBU8yLhAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRWA1TlAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAykAEvZ290bz91cmw9Q0FFU1lBSHJPekFWNTZKcjlkWGlfMnJZeGhFZFRfbFdzUUF3elRFQnQxUUVKSFkzMzd4bUJNY0d6bUVPR0xDSHNsUExvd1VpRTd4OWdmeDB1UG5EM2paWE9KaWlmYldCUk1jZ2RKaUNqWFBGaDN0N3VzWFF4dDY5RWJ0Z0dCdXlIOHdneVE6TTxiPkZyZW1vbnQ8L2I-LCA8Yj5DYWxpZm9ybmlhPC9iPiBVcGNvbWluZyA8Yj5JbmRpYW4gRXZlbnRzPC9iPiwgQ29uY2VydHMgLi4uQs4BPGI-SnVzdCBMaXN0ZWQgRXZlbnRzIGluIGFuZCBhcm91bmQgRnJlbW9udCwgQ0E8L2I-ICZtaWRkb3Q7IEZhbGd1bmkgUGF0aGFrIERhbmRpeWEgTmlnaHQgKG9jdCAzcmQsIDIwMjYpICZtaWRkb3Q7IEhpbmR1IE1hdHJpbW9uaWFsIFNpbmdsZXMgTWVldHVwIC0gU2FuIEpvc2UgJm1pZGRvdDsgTC4gU2hhbmthciAmbWlkZG90OyBVbmxpbWl0ZWQmbmJzcDsuLi5KBHRoaXNKAmluIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpABL2dvdG8_dXJsPUNBRVNZQUhyT3pBVjU2SnI5ZFhpXzJyWXhoRWRUX2xXc1FBd3pURUJ0MVFFSkhZMzM3eG1CTWNHem1FT0dMQ0hzbFBMb3dVaUU3eDlnZngwdVBuRDNqWlhPSmlpZmJXQlJNY2dkSmlDalhQRmgzdDd1c1hReHQ2OUVidGdHQnV5SDh3Z3lREgQaAggAGpUJEgIIABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQNwICAAQABgAIAAqLAoGaW5kaWFuFS47R0AaBWhpbmR1GgVpbmRpYRoPaW5kaWFuY29tbXVuaXR5KkEKCWNvbW11bml0eRWajTs_GgVsb2NhbBoGc29jaWFsGg9pbmRpYW5jb21tdW5pdHkaD2NvbW11bml0eWV2ZW50cyo7CgZldmVudHMVrimoQBoKYWN0aXZpdGllcxoIY2FsZW5kYXIaBWV2ZW50Gg9jb21tdW5pdHlldmVudHMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBU8yLhAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRWA1TlAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAykAEvZ290bz91cmw9Q0FFU1lBSHJPekFWNTZKcjlkWGlfMnJZeGhFZFRfbFdzUUF3elRFQnQxUUVKSFkzMzd4bUJNY0d6bUVPR0xDSHNsUExvd1VpRTd4OWdmeDB1UG5EM2paWE9KaWlmYldCUk1jZ2RKaUNqWFBGaDN0N3VzWFF4dDY5RWJ0Z0dCdXlIOHdneVE6TTxiPkZyZW1vbnQ8L2I-LCA8Yj5DYWxpZm9ybmlhPC9iPiBVcGNvbWluZyA8Yj5JbmRpYW4gRXZlbnRzPC9iPiwgQ29uY2VydHMgLi4uQs4BPGI-SnVzdCBMaXN0ZWQgRXZlbnRzIGluIGFuZCBhcm91bmQgRnJlbW9udCwgQ0E8L2I-ICZtaWRkb3Q7IEZhbGd1bmkgUGF0aGFrIERhbmRpeWEgTmlnaHQgKG9jdCAzcmQsIDIwMjYpICZtaWRkb3Q7IEhpbmR1IE1hdHJpbW9uaWFsIFNpbmdsZXMgTWVldHVwIC0gU2FuIEpvc2UgJm1pZGRvdDsgTC4gU2hhbmthciAmbWlkZG90OyBVbmxpbWl0ZWQmbmJzcDsuLi5KBHRoaXNKAmluIgIQAUgAWABoAA",
+    "source": "events.sulekha.com",
+    "read_more_link": "https://events.sulekha.com/fremont-ca#:~:text=Just%20Listed%20Events%20in%20and,around%20Fremont%2C%20CA&text=Falguni%20Pathak%20Dandiya%20Night%20(oct,3rd%2C%202026)&text=Hindu%20Matrimonial%20Singles%20Meetup%20%2D,San%20Jose&text=L.%20Shankar&text=Unlimited%20Aura%20%2D%20Sivaangi%20Maanasi,Live%20%2D%20Bay%20Area"
+   },
+   {
+    "position": 2,
+    "title": "Discover Indian Events & Activities in Fremont, CA",
+    "link": "https://www.eventbrite.com/d/ca--fremont/indian/",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESawHrOzAVH9FChdN3Isbn8PZCuluiRSwLwHwzzdGQKwr5QueeHVv5IGdQayCstDeWywExgdR2ROxE65rhWI3_9N58f_gXIVq85jSVvjnm7YgFyOAcly12hqQ-aGslapmKisif4WLYGDYp4OgA&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQFnoECCQQAQ&uoh=1",
+    "displayed_link": "https://www.eventbrite.com › ... › Indian Events",
+    "favicon": "https://serpapi.com/images/i/UklGRgoBAABXRUJQVlA4IP4AAADwBgCdASocABwAPtE-tFooIigoFAEAGglsALEbd_nPCGakhCveQivA9wzx0KILzWkxu3YGfUKpWshTuLrmyolgAP72E6eJlkGPyZwW9QtGk-k5Rr4eTwBs7YpQlNV92tXRnuTGOF4BsTFRcHtw5f2ifKWO_8hNaliaSdFLiAo4_KgXD4bt6Bz4rkrS11odZytobiOYsela2lqT0zUkPb09Mr0ImLl_EDE72afX_L7mtUukbSLDrmEkOXxJwBg0i6swq6leXWGtiqUY2fXWsuQlAVRj18DJqFxVhLYg9uz_bs7mAx1k3JE56GvBr0nmIvDY9u6A0pbhT8-nAp-AAA.webp",
+    "snippet": "Indian Events and Things to do in Fremont, CA ; Indian Matrimonial Matchmaking Event – Bay Area, California. Sun, Oct 18 • 1:00 PM. Milpitas · India Community ...",
+    "snippet_highlighted_words": [
+     "Indian Events and Things to do in Fremont, CA"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Indian Events and Things to do in Fremont, CA ; Indian Matrimonial Matchmaking Event – Bay Area, California. Sun, Oct 18 • 1:00 PM. Milpitas · India Community ...",
+      "source_info_link": "https://www.eventbrite.com/d/ca--fremont/indian/",
+      "icon": "https://serpapi.com/images/i/UklGRgoBAABXRUJQVlA4IP4AAADwBgCdASocABwAPtE-tFooIigoFAEAGglsALEbd_nPCGakhCveQivA9wzx0KILzWkxu3YGfUKpWshTuLrmyolgAP72E6eJlkGPyZwW9QtGk-k5Rr4eTwBs7YpQlNV92tXRnuTGOF4BsTFRcHtw5f2ifKWO_8hNaliaSdFLiAo4_KgXD4bt6Bz4rkrS11odZytobiOYsela2lqT0zUkPb09Mr0ImLl_EDE72afX_L7mtUukbSLDrmEkOXxJwBg0i6swq6leXWGtiqUY2fXWsuQlAVRj18DJqFxVhLYg9uz_bs7mAx1k3JE56GvBr0nmIvDY9u6A0pbhT8-nAp-AAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cp4BL2dvdG8_dXJsPUNBRVNhd0hyT3pBVkg5RkNoZE4zSXNibjhQWkN1bHVpUlN3THdId3p6ZEdRS3dyNVF1ZWVIVnY1SUdkUWF5Q3N0RGVXeXdFeGdkUjJST3hFNjVyaFdJM185TjU4Zl9nWElWcTg1alNWdmpubTdZZ0Z5T0FjbHkxMmhxUS1hR3NsYXBtS2lzaWY0V0xZR0RZcDRPZ0ESBBoCCAAakQkSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQNoICAAQABgAIAAqLAoGaW5kaWFuFY2650AaBWhpbmR1GgVpbmRpYRoPaW5kaWFuY29tbXVuaXR5KkEKCWNvbW11bml0eRUIPnRAGgVsb2NhbBoGc29jaWFsGg9pbmRpYW5jb21tdW5pdHkaD2NvbW11bml0eWV2ZW50cyo7CgZldmVudHMVU5zaQBoKYWN0aXZpdGllcxoIY2FsZW5kYXIaBWV2ZW50Gg9jb21tdW5pdHlldmVudHMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBWescJAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRU0aDtAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxW11WY-GgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyngEvZ290bz91cmw9Q0FFU2F3SHJPekFWSDlGQ2hkTjNJc2JuOFBaQ3VsdWlSU3dMd0h3enpkR1FLd3I1UXVlZUhWdjVJR2RRYXlDc3REZVd5d0V4Z2RSMlJPeEU2NXJoV0kzXzlONThmX2dYSVZxODVqU1Z2am5tN1lnRnlPQWNseTEyaHFRLWFHc2xhcG1LaXNpZjRXTFlHRFlwNE9nQTpYRGlzY292ZXIgPGI-SW5kaWFuIEV2ZW50czwvYj4gJmFtcDsgPGI-QWN0aXZpdGllcyBpbiBGcmVtb250PC9iPiwgPGI-Q0E8L2I-IC0gRXZlbnRicml0ZUKzATxiPkluZGlhbiBFdmVudHMgYW5kIFRoaW5ncyB0byBkbyBpbiBGcmVtb250LCBDQTwvYj4gOyBJbmRpYW4gTWF0cmltb25pYWwgTWF0Y2htYWtpbmcgRXZlbnQg4oCTIEJheSBBcmVhLCBDYWxpZm9ybmlhLiBTdW4sIE9jdCAxOCDigKIgMTowMCBQTS4gTWlscGl0YXMgwrcgSW5kaWEgQ29tbXVuaXR5Jm5ic3A7Li4uSgJpbkoEdGhpcyICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cp4BL2dvdG8_dXJsPUNBRVNhd0hyT3pBVkg5RkNoZE4zSXNibjhQWkN1bHVpUlN3THdId3p6ZEdRS3dyNVF1ZWVIVnY1SUdkUWF5Q3N0RGVXeXdFeGdkUjJST3hFNjVyaFdJM185TjU4Zl9nWElWcTg1alNWdmpubTdZZ0Z5T0FjbHkxMmhxUS1hR3NsYXBtS2lzaWY0V0xZR0RZcDRPZ0ESBBoCCAAakQkSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQNoICAAQABgAIAAqLAoGaW5kaWFuFY2650AaBWhpbmR1GgVpbmRpYRoPaW5kaWFuY29tbXVuaXR5KkEKCWNvbW11bml0eRUIPnRAGgVsb2NhbBoGc29jaWFsGg9pbmRpYW5jb21tdW5pdHkaD2NvbW11bml0eWV2ZW50cyo7CgZldmVudHMVU5zaQBoKYWN0aXZpdGllcxoIY2FsZW5kYXIaBWV2ZW50Gg9jb21tdW5pdHlldmVudHMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBWescJAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRU0aDtAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxW11WY-GgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyngEvZ290bz91cmw9Q0FFU2F3SHJPekFWSDlGQ2hkTjNJc2JuOFBaQ3VsdWlSU3dMd0h3enpkR1FLd3I1UXVlZUhWdjVJR2RRYXlDc3REZVd5d0V4Z2RSMlJPeEU2NXJoV0kzXzlONThmX2dYSVZxODVqU1Z2am5tN1lnRnlPQWNseTEyaHFRLWFHc2xhcG1LaXNpZjRXTFlHRFlwNE9nQTpYRGlzY292ZXIgPGI-SW5kaWFuIEV2ZW50czwvYj4gJmFtcDsgPGI-QWN0aXZpdGllcyBpbiBGcmVtb250PC9iPiwgPGI-Q0E8L2I-IC0gRXZlbnRicml0ZUKzATxiPkluZGlhbiBFdmVudHMgYW5kIFRoaW5ncyB0byBkbyBpbiBGcmVtb250LCBDQTwvYj4gOyBJbmRpYW4gTWF0cmltb25pYWwgTWF0Y2htYWtpbmcgRXZlbnQg4oCTIEJheSBBcmVhLCBDYWxpZm9ybmlhLiBTdW4sIE9jdCAxOCDigKIgMTowMCBQTS4gTWlscGl0YXMgwrcgSW5kaWEgQ29tbXVuaXR5Jm5ic3A7Li4uSgJpbkoEdGhpcyICEAFIAFgAaAA",
+    "source": "Eventbrite",
+    "read_more_link": "https://www.eventbrite.com/d/ca--fremont/indian/#:~:text=Indian%20Events%20and%20Things%20to,do%20in%20Fremont%2C%20CA&text=Indian%20Matrimonial%20Matchmaking%20Event%20%E2%80%93,%C2%B7%20India%20Community%20Center%20(ICC)"
+   },
+   {
+    "position": 3,
+    "title": "Festival of Globe FOGSV.org | Fremont CA",
+    "link": "https://www.facebook.com/fogsv.org/",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESXgHrOzAVDaswp2FVAj57ko3nfy_7w81EEBjp0909RI5Tx1oFyidlMdfcGMJAesKGFXFJMfqKbT-NvXgzb63O7WSdzxYvjLh1zpj5Omdxzr4Tf0wFqOzANaCON0G7tqQ&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQFnoECCcQAQ&uoh=1",
+    "displayed_link": "17.3K+ followers",
+    "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+    "snippet": "FOG Founder Dr. Romesh Japra inviting to join in on Saturday, October 24th for FOG Diwali - Festival of Lights from 10 am to 7 pm at Washington High School ...",
+    "snippet_highlighted_words": [
+     "FOG Diwali - Festival of Lights from 10 am to 7 pm"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "FOG Founder Dr. Romesh Japra inviting to join in on Saturday, October 24th for FOG Diwali - Festival of Lights from 10 am to 7 pm at Washington High School ...",
+      "source_info_link": "https://www.facebook.com/fogsv.org/",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Co0BL2dvdG8_dXJsPUNBRVNYZ0hyT3pBVkRhc3dwMkZWQWo1N2tvM25meV83dzgxRUVCanAwOTA5Ukk1VHgxb0Z5aWRsTWRmY0dNSkFlc0tHRlhGSk1mcUtiVC1OdlhnemI2M083V1NkenhZdmpMaDF6cGo1T21keHpyNFRmMHdGcU96QU5hQ09OMEc3dHFREgQaAggAGtwIEgIIABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQKMICAAQABgAIAAqLAoGaW5kaWFuFa89yz4aBWhpbmR1GgVpbmRpYRoPaW5kaWFuY29tbXVuaXR5KkEKCWNvbW11bml0eRW_Enw-GgVsb2NhbBoGc29jaWFsGg9pbmRpYW5jb21tdW5pdHkaD2NvbW11bml0eWV2ZW50cyo7CgZldmVudHMVAAAAABoKYWN0aXZpdGllcxoIY2FsZW5kYXIaBWV2ZW50Gg9jb21tdW5pdHlldmVudHMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBW2e2NAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRUAAAAAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyjQEvZ290bz91cmw9Q0FFU1hnSHJPekFWRGFzd3AyRlZBajU3a28zbmZ5Xzd3ODFFRUJqcDA5MDlSSTVUeDFvRnlpZGxNZGZjR01KQWVzS0dGWEZKTWZxS2JULU52WGd6YjYzTzdXU2R6eFl2akxoMXpwajVPbWR4enI0VGYwd0ZxT3pBTmFDT04wRzd0cVE6OkZlc3RpdmFsIG9mIEdsb2JlIEZPR1NWLm9yZyB8IDxiPkZyZW1vbnQgQ0E8L2I-IC0gRmFjZWJvb2tCqwFGT0cgRm91bmRlciBEci4gUm9tZXNoIEphcHJhIGludml0aW5nIHRvIGpvaW4gaW4gb24gU2F0dXJkYXksIE9jdG9iZXIgMjR0aCBmb3IgPGI-Rk9HIERpd2FsaSAtIEZlc3RpdmFsIG9mIExpZ2h0cyBmcm9tIDEwIGFtIHRvIDcgcG08L2I-IGF0IFdhc2hpbmd0b24gSGlnaCBTY2hvb2wmbmJzcDsuLi5KAmluSgR0aGlzIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Co0BL2dvdG8_dXJsPUNBRVNYZ0hyT3pBVkRhc3dwMkZWQWo1N2tvM25meV83dzgxRUVCanAwOTA5Ukk1VHgxb0Z5aWRsTWRmY0dNSkFlc0tHRlhGSk1mcUtiVC1OdlhnemI2M083V1NkenhZdmpMaDF6cGo1T21keHpyNFRmMHdGcU96QU5hQ09OMEc3dHFREgQaAggAGtwIEgIIABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQKMICAAQABgAIAAqLAoGaW5kaWFuFa89yz4aBWhpbmR1GgVpbmRpYRoPaW5kaWFuY29tbXVuaXR5KkEKCWNvbW11bml0eRW_Enw-GgVsb2NhbBoGc29jaWFsGg9pbmRpYW5jb21tdW5pdHkaD2NvbW11bml0eWV2ZW50cyo7CgZldmVudHMVAAAAABoKYWN0aXZpdGllcxoIY2FsZW5kYXIaBWV2ZW50Gg9jb21tdW5pdHlldmVudHMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBW2e2NAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRUAAAAAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyjQEvZ290bz91cmw9Q0FFU1hnSHJPekFWRGFzd3AyRlZBajU3a28zbmZ5Xzd3ODFFRUJqcDA5MDlSSTVUeDFvRnlpZGxNZGZjR01KQWVzS0dGWEZKTWZxS2JULU52WGd6YjYzTzdXU2R6eFl2akxoMXpwajVPbWR4enI0VGYwd0ZxT3pBTmFDT04wRzd0cVE6OkZlc3RpdmFsIG9mIEdsb2JlIEZPR1NWLm9yZyB8IDxiPkZyZW1vbnQgQ0E8L2I-IC0gRmFjZWJvb2tCqwFGT0cgRm91bmRlciBEci4gUm9tZXNoIEphcHJhIGludml0aW5nIHRvIGpvaW4gaW4gb24gU2F0dXJkYXksIE9jdG9iZXIgMjR0aCBmb3IgPGI-Rk9HIERpd2FsaSAtIEZlc3RpdmFsIG9mIExpZ2h0cyBmcm9tIDEwIGFtIHRvIDcgcG08L2I-IGF0IFdhc2hpbmd0b24gSGlnaCBTY2hvb2wmbmJzcDsuLi5KAmluSgR0aGlzIgIQAUgAWABoAA",
+    "source": "Facebook · Festival of Globe FOGSV.org",
+    "read_more_link": "https://www.facebook.com/fogsv.org/#:~:text=FOG%20Founder%20Dr.%20Romesh%20Japra,High%20School%20in%20Fremont%2C%20CA!!"
+   },
+   {
+    "position": 4,
+    "title": "TOP 10 BEST Indian Community in Fremont, CA",
+    "link": "https://www.yelp.com/search?find_desc=Indian+Community&find_loc=Fremont%2C+CA",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiAEB6zswFb-APT46kg78SpWajRhARdi6OdeIzKyKIAvkND0VIda8mm0PYnF5URGYVKwsvT5eeZQ3cVuE2Q4SyljKj679iWHtPQ7DFtPAlFMeEPuz272w4txZY4NfXXGCKM-iVH1L-o-xWdnM6ieAXvokGYRrepKWDJB9n5aIogemzcSN6SbcEPGu&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQFnoECCMQAQ&uoh=1",
+    "displayed_link": "https://www.yelp.com › Local Services",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAACwBgCdASocABwAPtEutFooIagoGAEAGglsAJ0yhILPkCeK_QA6Tz9oCNWF_rP-eF3ZPBBRno5GbFHHMi_AAAD-uJE7kphdQla9byybJTaTejHACSavJ_HcCKiX6y0w_NvHpi6tuV5O3pb1_paxPivP-l1_-cSlKzjQ-zdqjo_V0CnOPdIJitS8J3RGy_M4qshx_Fpws7cf-kvYHtAeBbronsGqcjIpvKnnlCfU4cfRdVPxl39f8f8UVNs1dTnJXNy0yYnqGu7LC37TLHThp76eQNKA-9rCqszsRziowx89O69SvnvMXdQLUu86l8P8lgNAdE3ie94S_sdSWRi2iueUbY3D8-qeMXWvf5m_6_65Pj13_wl7j5IAAAA.webp",
+    "snippet": "Top 10 Best Indian Community Near Fremont, California (Updated 2026) · 1. India Community Center · 2. Karya Siddhi Hanuman Temple · 3. Fremont Hindu Temple · 4. Sri ...",
+    "snippet_highlighted_words": [
+     "1. India Community Center"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "rating": 4,
+       "reviews": 11913
+      },
+      "extensions": [
+       "4.0(11,913)"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "Top 10 Best Indian Community Near Fremont, California (Updated 2026) · 1. India Community Center · 2. Karya Siddhi Hanuman Temple · 3. Fremont Hindu Temple · 4. Sri ...",
+      "source_info_link": "https://www.yelp.com/search?find_desc=Indian+Community&find_loc=Fremont%2C+CA",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAACwBgCdASocABwAPtEutFooIagoGAEAGglsAJ0yhILPkCeK_QA6Tz9oCNWF_rP-eF3ZPBBRno5GbFHHMi_AAAD-uJE7kphdQla9byybJTaTejHACSavJ_HcCKiX6y0w_NvHpi6tuV5O3pb1_paxPivP-l1_-cSlKzjQ-zdqjo_V0CnOPdIJitS8J3RGy_M4qshx_Fpws7cf-kvYHtAeBbronsGqcjIpvKnnlCfU4cfRdVPxl39f8f8UVNs1dTnJXNy0yYnqGu7LC37TLHThp76eQNKA-9rCqszsRziowx89O69SvnvMXdQLUu86l8P8lgNAdE3ie94S_sdSWRi2iueUbY3D8-qeMXWvf5m_6_65Pj13_wl7j5IAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZiLUFQVDQ2a2c3OFNwV2FqUmhBUmRpNk9kZUl6S3lLSUF2a05EMFZJZGE4bW0wUFluRjVVUkdZVkt3c3ZUNWVlWlEzY1Z1RTJRNFN5bGpLajY3OWlXSHRQUTdERnRQQWxGTWVFUHV6MjcydzR0eFpZNE5mWFhHQ0tNLWlWSDFMLW8teFdkbk02aWVBWHZva0dZUnJlcEtXREpCOW41YUlvZ2VtemNTTjZTYmNFUEd1EgQaAggAGs0JEgAaACIAKgA6AEIECAEQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkCWCQgAEAAYACAAKiwKBmluZGlhbhURleFAGgVoaW5kdRoFaW5kaWEaD2luZGlhbmNvbW11bml0eSpBCgljb21tdW5pdHkVVCLHQBoFbG9jYWwaBnNvY2lhbBoPaW5kaWFuY29tbXVuaXR5Gg9jb21tdW5pdHlldmVudHMqOwoGZXZlbnRzFZZ9mz8aCmFjdGl2aXRpZXMaCGNhbGVuZGFyGgVldmVudBoPY29tbXVuaXR5ZXZlbnRzKgkKAmluFQAAAAAqhwEKB2ZyZW1vbnQVPhSxQBoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgxpdjtwO2ZyZW1vbnQqjAEKCmNhbGlmb3JuaWEVQmE1QBoCY2EaA2NhbBoFY2FsaWYaEWZyZW1vbnRjYWxpZm9ybmlhGhRnZW87ODA4ZjkwMDAwMDAwMDAwMBoUZ2VvOzgwOGZiMDAwMDAwMDAwMDAaFGdlbzs4MDhmZDAwMDAwMDAwMDAwGhRnZW87ODA4ZmYwMDAwMDAwMDAwMCoLCgR0aGlzFQAAAAAqtQEKBHdlZWsVUQ3iPRoDY2FsGgVjYWxpZhoGd2VlaydzGgd3ZWVrZW5kGgZ3ZWVrbHkaBXdlZWtzGhBnbTtkYXRlOzIwMjYxMDA0GhBnbTtkYXRlOzIwMjYxMDA1GhBnbTtkYXRlOzIwMjYxMDA2GhBnbTtkYXRlOzIwMjYxMDA3GhBnbTtkYXRlOzIwMjYxMDA4GhBnbTtkYXRlOzIwMjYxMDA5GhBnbTtkYXRlOzIwMjYxMDEwMsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZiLUFQVDQ2a2c3OFNwV2FqUmhBUmRpNk9kZUl6S3lLSUF2a05EMFZJZGE4bW0wUFluRjVVUkdZVkt3c3ZUNWVlWlEzY1Z1RTJRNFN5bGpLajY3OWlXSHRQUTdERnRQQWxGTWVFUHV6MjcydzR0eFpZNE5mWFhHQ0tNLWlWSDFMLW8teFdkbk02aWVBWHZva0dZUnJlcEtXREpCOW41YUlvZ2VtemNTTjZTYmNFUEd1Ok9UT1AgMTAgQkVTVCA8Yj5JbmRpYW4gQ29tbXVuaXR5PC9iPiBpbiA8Yj5GcmVtb250PC9iPiwgPGI-Q0E8L2I-IC0gVXBkYXRlZCAyMDI2QtABVG9wIDEwIEJlc3QgSW5kaWFuIENvbW11bml0eSBOZWFyIEZyZW1vbnQsIENhbGlmb3JuaWEgKFVwZGF0ZWQgMjAyNikgJm1pZGRvdDsgPGI-MS4gSW5kaWEgQ29tbXVuaXR5IENlbnRlcjwvYj4gJm1pZGRvdDsgMi4gS2FyeWEgU2lkZGhpIEhhbnVtYW4gVGVtcGxlICZtaWRkb3Q7IDMuIEZyZW1vbnQgSGluZHUgVGVtcGxlICZtaWRkb3Q7IDQuIFNyaSZuYnNwOy4uLkoCaW5KBHRoaXMiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZiLUFQVDQ2a2c3OFNwV2FqUmhBUmRpNk9kZUl6S3lLSUF2a05EMFZJZGE4bW0wUFluRjVVUkdZVkt3c3ZUNWVlWlEzY1Z1RTJRNFN5bGpLajY3OWlXSHRQUTdERnRQQWxGTWVFUHV6MjcydzR0eFpZNE5mWFhHQ0tNLWlWSDFMLW8teFdkbk02aWVBWHZva0dZUnJlcEtXREpCOW41YUlvZ2VtemNTTjZTYmNFUEd1EgQaAggAGs0JEgAaACIAKgA6AEIECAEQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkCWCQgAEAAYACAAKiwKBmluZGlhbhURleFAGgVoaW5kdRoFaW5kaWEaD2luZGlhbmNvbW11bml0eSpBCgljb21tdW5pdHkVVCLHQBoFbG9jYWwaBnNvY2lhbBoPaW5kaWFuY29tbXVuaXR5Gg9jb21tdW5pdHlldmVudHMqOwoGZXZlbnRzFZZ9mz8aCmFjdGl2aXRpZXMaCGNhbGVuZGFyGgVldmVudBoPY29tbXVuaXR5ZXZlbnRzKgkKAmluFQAAAAAqhwEKB2ZyZW1vbnQVPhSxQBoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgxpdjtwO2ZyZW1vbnQqjAEKCmNhbGlmb3JuaWEVQmE1QBoCY2EaA2NhbBoFY2FsaWYaEWZyZW1vbnRjYWxpZm9ybmlhGhRnZW87ODA4ZjkwMDAwMDAwMDAwMBoUZ2VvOzgwOGZiMDAwMDAwMDAwMDAaFGdlbzs4MDhmZDAwMDAwMDAwMDAwGhRnZW87ODA4ZmYwMDAwMDAwMDAwMCoLCgR0aGlzFQAAAAAqtQEKBHdlZWsVUQ3iPRoDY2FsGgVjYWxpZhoGd2VlaydzGgd3ZWVrZW5kGgZ3ZWVrbHkaBXdlZWtzGhBnbTtkYXRlOzIwMjYxMDA0GhBnbTtkYXRlOzIwMjYxMDA1GhBnbTtkYXRlOzIwMjYxMDA2GhBnbTtkYXRlOzIwMjYxMDA3GhBnbTtkYXRlOzIwMjYxMDA4GhBnbTtkYXRlOzIwMjYxMDA5GhBnbTtkYXRlOzIwMjYxMDEwMsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZiLUFQVDQ2a2c3OFNwV2FqUmhBUmRpNk9kZUl6S3lLSUF2a05EMFZJZGE4bW0wUFluRjVVUkdZVkt3c3ZUNWVlWlEzY1Z1RTJRNFN5bGpLajY3OWlXSHRQUTdERnRQQWxGTWVFUHV6MjcydzR0eFpZNE5mWFhHQ0tNLWlWSDFMLW8teFdkbk02aWVBWHZva0dZUnJlcEtXREpCOW41YUlvZ2VtemNTTjZTYmNFUEd1Ok9UT1AgMTAgQkVTVCA8Yj5JbmRpYW4gQ29tbXVuaXR5PC9iPiBpbiA8Yj5GcmVtb250PC9iPiwgPGI-Q0E8L2I-IC0gVXBkYXRlZCAyMDI2QtABVG9wIDEwIEJlc3QgSW5kaWFuIENvbW11bml0eSBOZWFyIEZyZW1vbnQsIENhbGlmb3JuaWEgKFVwZGF0ZWQgMjAyNikgJm1pZGRvdDsgPGI-MS4gSW5kaWEgQ29tbXVuaXR5IENlbnRlcjwvYj4gJm1pZGRvdDsgMi4gS2FyeWEgU2lkZGhpIEhhbnVtYW4gVGVtcGxlICZtaWRkb3Q7IDMuIEZyZW1vbnQgSGluZHUgVGVtcGxlICZtaWRkb3Q7IDQuIFNyaSZuYnNwOy4uLkoCaW5KBHRoaXMiAhABSABYAGgA",
+    "source": "Yelp",
+    "read_more_link": "https://www.yelp.com/search?find_desc=Indian+Community&find_loc=Fremont,+CA#:~:text=Top%2010%20Best%20Indian%20Community,Near%20Fremont%2C%20California%20(Updated%202026)&text=1.%20India%20Community%20Center&text=2.%20Karya%20Siddhi%20Hanuman%20Temple&text=3.%20Fremont%20Hindu%20Temple&text=4.%20Sri%20Siddhi%20Vinayaka%20Cultural,Center"
+   },
+   {
+    "position": 5,
+    "title": "Event Tickets in Fremont, CA",
+    "link": "https://events.sulekha.com/event-tickets_in-and-near_fremont-ca",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESegHrOzAVnSP28k8-tN7Os-Wlg7V13G73G5VXv_xna5J1_KV3sIlidwrWmyv7EWiquwhuqX72T0uHice3OKM11O5e8xlu00GaDprCVRLZGPG5WFK2970FhsrCcC8_EyKXz90MjsfXIb8suth2P7c3P0F9cJa4KXzndewu&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQFnoECCUQAQ&uoh=1",
+    "displayed_link": "https://events.sulekha.com › event-tickets_in-and-near_fr...",
+    "favicon": "https://serpapi.com/images/i/UklGRqYAAABXRUJQVlA4IJoAAADwAgCdASoQABAAAsBMJbACdDiAN4vIikkKOxXXL9QiAAD--rAJCBKSpY810l_YGo1mj9pm2ZB8vrVgWdgCbGQTGiiuuvZcM4QS-XA_rWnyNE3SktgjyspxBO-vAQ8R1LYUzaViJ_wX9UyD7KE-zUr_6aTx_mXQNc-Dvpo5f6O-a_fcAIt_RjQt_4JCj_TMC9WZe78ecXnK5AAA.webp",
+    "snippet": "Find the list of upcoming events near Fremont, CA ; Gruhapravesh: India Property Expo In Santa Clara, CA - Oct 3rd · SAT,10:00 AM to 8:00 PM (PDT) ; Sunnyvale ...",
+    "snippet_highlighted_words": [
+     "Gruhapravesh: India Property Expo In Santa Clara, CA - Oct 3rd"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find the list of upcoming events near Fremont, CA ; Gruhapravesh: India Property Expo In Santa Clara, CA - Oct 3rd · SAT,10:00 AM to 8:00 PM (PDT) ; Sunnyvale ...",
+      "source_info_link": "https://events.sulekha.com/event-tickets_in-and-near_fremont-ca",
+      "icon": "https://serpapi.com/images/i/UklGRqYAAABXRUJQVlA4IJoAAADwAgCdASoQABAAAsBMJbACdDiAN4vIikkKOxXXL9QiAAD--rAJCBKSpY810l_YGo1mj9pm2ZB8vrVgWdgCbGQTGiiuuvZcM4QS-XA_rWnyNE3SktgjyspxBO-vAQ8R1LYUzaViJ_wX9UyD7KE-zUr_6aTx_mXQNc-Dvpo5f6O-a_fcAIt_RjQt_4JCj_TMC9WZe78ecXnK5AAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVm5TUDI4azgtdE43T3MtV2xnN1YxM0c3M0c1Vlh2X3huYTVKMV9LVjNzSWxpZHdyV215djdFV2lxdXdodXFYNzJUMHVIaWNlM09LTTExTzVlOHhsdTAwR2FEcHJDVlJMWkdQRzVXRksyOTcwRmhzckNjQzhfRXlLWHo5ME1qc2ZYSWI4c3V0aDJQN2MzUDBGOWNKYTRLWHpuZGV3dRIEGgIIABqCCRICCAAaACIAKgA6AEIECAEQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkDJCAgAEAAYACAAKiwKBmluZGlhbhUCIKQ_GgVoaW5kdRoFaW5kaWEaD2luZGlhbmNvbW11bml0eSpBCgljb21tdW5pdHkVMruNPxoFbG9jYWwaBnNvY2lhbBoPaW5kaWFuY29tbXVuaXR5Gg9jb21tdW5pdHlldmVudHMqOwoGZXZlbnRzFaDIkkAaCmFjdGl2aXRpZXMaCGNhbGVuZGFyGgVldmVudBoPY29tbXVuaXR5ZXZlbnRzKgkKAmluFQAAAAAqhwEKB2ZyZW1vbnQVaSBdQBoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgxpdjtwO2ZyZW1vbnQqjAEKCmNhbGlmb3JuaWEVnLBgPxoCY2EaA2NhbBoFY2FsaWYaEWZyZW1vbnRjYWxpZm9ybmlhGhRnZW87ODA4ZjkwMDAwMDAwMDAwMBoUZ2VvOzgwOGZiMDAwMDAwMDAwMDAaFGdlbzs4MDhmZDAwMDAwMDAwMDAwGhRnZW87ODA4ZmYwMDAwMDAwMDAwMCoLCgR0aGlzFQAAAAAqtQEKBHdlZWsVAAAAABoDY2FsGgVjYWxpZhoGd2VlaydzGgd3ZWVrZW5kGgZ3ZWVrbHkaBXdlZWtzGhBnbTtkYXRlOzIwMjYxMDA0GhBnbTtkYXRlOzIwMjYxMDA1GhBnbTtkYXRlOzIwMjYxMDA2GhBnbTtkYXRlOzIwMjYxMDA3GhBnbTtkYXRlOzIwMjYxMDA4GhBnbTtkYXRlOzIwMjYxMDA5GhBnbTtkYXRlOzIwMjYxMDEwMrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVm5TUDI4azgtdE43T3MtV2xnN1YxM0c3M0c1Vlh2X3huYTVKMV9LVjNzSWxpZHdyV215djdFV2lxdXdodXFYNzJUMHVIaWNlM09LTTExTzVlOHhsdTAwR2FEcHJDVlJMWkdQRzVXRksyOTcwRmhzckNjQzhfRXlLWHo5ME1qc2ZYSWI4c3V0aDJQN2MzUDBGOWNKYTRLWHpuZGV3dToxPGI-RXZlbnQ8L2I-IFRpY2tldHMgaW4gPGI-RnJlbW9udDwvYj4sIDxiPkNBPC9iPkK1AUZpbmQgdGhlIGxpc3Qgb2YgdXBjb21pbmcgZXZlbnRzIG5lYXIgRnJlbW9udCwgQ0EgOyA8Yj5HcnVoYXByYXZlc2g6IEluZGlhIFByb3BlcnR5IEV4cG8gSW4gU2FudGEgQ2xhcmEsIENBIC0gT2N0IDNyZDwvYj4gJm1pZGRvdDsgU0FULDEwOjAwIEFNIHRvIDg6MDAgUE0gKFBEVCkgOyBTdW5ueXZhbGUmbmJzcDsuLi5KAmluSgR0aGlzIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVm5TUDI4azgtdE43T3MtV2xnN1YxM0c3M0c1Vlh2X3huYTVKMV9LVjNzSWxpZHdyV215djdFV2lxdXdodXFYNzJUMHVIaWNlM09LTTExTzVlOHhsdTAwR2FEcHJDVlJMWkdQRzVXRksyOTcwRmhzckNjQzhfRXlLWHo5ME1qc2ZYSWI4c3V0aDJQN2MzUDBGOWNKYTRLWHpuZGV3dRIEGgIIABqCCRICCAAaACIAKgA6AEIECAEQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkDJCAgAEAAYACAAKiwKBmluZGlhbhUCIKQ_GgVoaW5kdRoFaW5kaWEaD2luZGlhbmNvbW11bml0eSpBCgljb21tdW5pdHkVMruNPxoFbG9jYWwaBnNvY2lhbBoPaW5kaWFuY29tbXVuaXR5Gg9jb21tdW5pdHlldmVudHMqOwoGZXZlbnRzFaDIkkAaCmFjdGl2aXRpZXMaCGNhbGVuZGFyGgVldmVudBoPY29tbXVuaXR5ZXZlbnRzKgkKAmluFQAAAAAqhwEKB2ZyZW1vbnQVaSBdQBoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgxpdjtwO2ZyZW1vbnQqjAEKCmNhbGlmb3JuaWEVnLBgPxoCY2EaA2NhbBoFY2FsaWYaEWZyZW1vbnRjYWxpZm9ybmlhGhRnZW87ODA4ZjkwMDAwMDAwMDAwMBoUZ2VvOzgwOGZiMDAwMDAwMDAwMDAaFGdlbzs4MDhmZDAwMDAwMDAwMDAwGhRnZW87ODA4ZmYwMDAwMDAwMDAwMCoLCgR0aGlzFQAAAAAqtQEKBHdlZWsVAAAAABoDY2FsGgVjYWxpZhoGd2VlaydzGgd3ZWVrZW5kGgZ3ZWVrbHkaBXdlZWtzGhBnbTtkYXRlOzIwMjYxMDA0GhBnbTtkYXRlOzIwMjYxMDA1GhBnbTtkYXRlOzIwMjYxMDA2GhBnbTtkYXRlOzIwMjYxMDA3GhBnbTtkYXRlOzIwMjYxMDA4GhBnbTtkYXRlOzIwMjYxMDA5GhBnbTtkYXRlOzIwMjYxMDEwMrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVm5TUDI4azgtdE43T3MtV2xnN1YxM0c3M0c1Vlh2X3huYTVKMV9LVjNzSWxpZHdyV215djdFV2lxdXdodXFYNzJUMHVIaWNlM09LTTExTzVlOHhsdTAwR2FEcHJDVlJMWkdQRzVXRksyOTcwRmhzckNjQzhfRXlLWHo5ME1qc2ZYSWI4c3V0aDJQN2MzUDBGOWNKYTRLWHpuZGV3dToxPGI-RXZlbnQ8L2I-IFRpY2tldHMgaW4gPGI-RnJlbW9udDwvYj4sIDxiPkNBPC9iPkK1AUZpbmQgdGhlIGxpc3Qgb2YgdXBjb21pbmcgZXZlbnRzIG5lYXIgRnJlbW9udCwgQ0EgOyA8Yj5HcnVoYXByYXZlc2g6IEluZGlhIFByb3BlcnR5IEV4cG8gSW4gU2FudGEgQ2xhcmEsIENBIC0gT2N0IDNyZDwvYj4gJm1pZGRvdDsgU0FULDEwOjAwIEFNIHRvIDg6MDAgUE0gKFBEVCkgOyBTdW5ueXZhbGUmbmJzcDsuLi5KAmluSgR0aGlzIgIQAUgAWABoAA",
+    "source": "events.sulekha.com",
+    "read_more_link": "https://events.sulekha.com/event-tickets_in-and-near_fremont-ca#:~:text=Find%20the%20list%20of%20upcoming,events%20near%20Fremont%2C%20CA&text=Gruhapravesh%3A%20India%20Property%20Expo%20In,Clara%2C%20CA%20%2D%20Oct%203rd&text=SAT%2C10%3A00%20AM%20to%208%3A00%20PM,(PDT)%20Santa%20Clara%20Convention%20Cent...&text=Sunnyvale%20Diwali%20Mela%202026%20%2D,(Free%20Registration%20Mandatory)"
+   },
+   {
+    "position": 6,
+    "title": "Festival Of India Returns To Fremont. Here's What To Know",
+    "link": "https://patch.com/california/fremont/festival-india-returns-fremont-heres-what-know",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjgEB6zswFe3JzTmterUAPFtfmJEvGUIneU-Jy5zYUKhbKPOReaRW_5bubk5bHKq0cik9QKWW13HiSlV-u1rhIbtFJ5gb3OocZSEJqFG8Nz7F-egmc4q12lTIaxSyfneTZDxkLtDWSNXMSclDr2URifw_SZMXndsjPv33UGUnhjuqbpnLhy9NqTXOcq92Ch2C&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQFnoECCgQAQ&uoh=1",
+    "displayed_link": "https://patch.com › california › festival-india-returns-fre...",
+    "favicon": "https://serpapi.com/images/i/UklGRqwAAABXRUJQVlA4IKAAAACQBACdASocABwAPrUurVanIacnG_DgFolkAAPjMwkG-tcVNkosilFXSuWk_gAA_vitt-5-Xod0yHQ9-HyZ_-1D7xofGQb78xAFjjNRiu4OLkkqrQiHtxvuERBwZ5_wYZWvS-KLOUDuq-OnnKETker83DBNsh55VRO3L4wwscGpP-I5IBb7_iRbIYVXqsAfWH9DT639JMF4HW84nV8BIAAA.webp",
+    "date": "Jul 29, 2026",
+    "snippet": "Festival of India Mela & Parade, presented by Festival of Globe, will take place Saturday, Aug. 15, and Sunday, Aug. 16, at 39439 Paseo Padre ...",
+    "snippet_highlighted_words": [
+     "Festival of India Mela & Parade, presented by Festival of Globe"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Festival of India Mela & Parade, presented by Festival of Globe, will take place Saturday, Aug. 15, and Sunday, Aug. 16, at 39439 Paseo Padre ...",
+      "source_info_link": "https://patch.com/california/fremont/festival-india-returns-fremont-heres-what-know",
+      "icon": "https://serpapi.com/images/i/UklGRqwAAABXRUJQVlA4IKAAAACQBACdASocABwAPrUurVanIacnG_DgFolkAAPjMwkG-tcVNkosilFXSuWk_gAA_vitt-5-Xod0yHQ9-HyZ_-1D7xofGQb78xAFjjNRiu4OLkkqrQiHtxvuERBwZ5_wYZWvS-KLOUDuq-OnnKETker83DBNsh55VRO3L4wwscGpP-I5IBb7_iRbIYVXqsAfWH9DT639JMF4HW84nV8BIAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZlM0p6VG10ZXJVQVBGdGZtSkV2R1VJbmVVLUp5NXpZVUtoYktQT1JlYVJXXzVidWJrNWJIS3EwY2lrOVFLV1cxM0hpU2xWLXUxcmhJYnRGSjVnYjNPb2NaU0VKcUZHOE56N0YtZWdtYzRxMTJsVElheFN5Zm5lVFpEeGtMdERXU05YTVNjbERyMlVSaWZ3X1NaTVhuZHNqUHYzM1VHVW5oanVxYnBuTGh5OU5xVFhPY3E5MkNoMkMSBBoCCAAaogkSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQOsICAAQABgAIAAqLAoGaW5kaWFuFZqsXj8aBWhpbmR1GgVpbmRpYRoPaW5kaWFuY29tbXVuaXR5KkEKCWNvbW11bml0eRWUwt4_GgVsb2NhbBoGc29jaWFsGg9pbmRpYW5jb21tdW5pdHkaD2NvbW11bml0eWV2ZW50cyo7CgZldmVudHMVf5BtPxoKYWN0aXZpdGllcxoIY2FsZW5kYXIaBWV2ZW50Gg9jb21tdW5pdHlldmVudHMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBUpLchAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRX5B9Y_GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyzgEvZ290bz91cmw9Q0FFU2pnRUI2enN3RmUzSnpUbXRlclVBUEZ0Zm1KRXZHVUluZVUtSnk1ellVS2hiS1BPUmVhUldfNWJ1Yms1YkhLcTBjaWs5UUtXVzEzSGlTbFYtdTFyaElidEZKNWdiM09vY1pTRUpxRkc4Tno3Ri1lZ21jNHExMmxUSWF4U3lmbmVUWkR4a0x0RFdTTlhNU2NsRHIyVVJpZndfU1pNWG5kc2pQdjMzVUdVbmhqdXFicG5MaHk5TnFUWE9jcTkyQ2gyQzpLRmVzdGl2YWwgT2YgPGI-SW5kaWE8L2I-IFJldHVybnMgVG8gPGI-RnJlbW9udDwvYj4uIEhlcmUmIzM5O3MgV2hhdCBUbyBLbm93QqEBPGI-RmVzdGl2YWwgb2YgSW5kaWEgTWVsYSAmYW1wOyBQYXJhZGUsIHByZXNlbnRlZCBieSBGZXN0aXZhbCBvZiBHbG9iZTwvYj4sIHdpbGwgdGFrZSBwbGFjZSBTYXR1cmRheSwgQXVnLiAxNSwgYW5kIFN1bmRheSwgQXVnLiAxNiwgYXQgMzk0MzkgUGFzZW8gUGFkcmUmbmJzcDsuLi5KAmluSgR0aGlzIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZlM0p6VG10ZXJVQVBGdGZtSkV2R1VJbmVVLUp5NXpZVUtoYktQT1JlYVJXXzVidWJrNWJIS3EwY2lrOVFLV1cxM0hpU2xWLXUxcmhJYnRGSjVnYjNPb2NaU0VKcUZHOE56N0YtZWdtYzRxMTJsVElheFN5Zm5lVFpEeGtMdERXU05YTVNjbERyMlVSaWZ3X1NaTVhuZHNqUHYzM1VHVW5oanVxYnBuTGh5OU5xVFhPY3E5MkNoMkMSBBoCCAAaogkSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQOsICAAQABgAIAAqLAoGaW5kaWFuFZqsXj8aBWhpbmR1GgVpbmRpYRoPaW5kaWFuY29tbXVuaXR5KkEKCWNvbW11bml0eRWUwt4_GgVsb2NhbBoGc29jaWFsGg9pbmRpYW5jb21tdW5pdHkaD2NvbW11bml0eWV2ZW50cyo7CgZldmVudHMVf5BtPxoKYWN0aXZpdGllcxoIY2FsZW5kYXIaBWV2ZW50Gg9jb21tdW5pdHlldmVudHMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBUpLchAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRX5B9Y_GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyzgEvZ290bz91cmw9Q0FFU2pnRUI2enN3RmUzSnpUbXRlclVBUEZ0Zm1KRXZHVUluZVUtSnk1ellVS2hiS1BPUmVhUldfNWJ1Yms1YkhLcTBjaWs5UUtXVzEzSGlTbFYtdTFyaElidEZKNWdiM09vY1pTRUpxRkc4Tno3Ri1lZ21jNHExMmxUSWF4U3lmbmVUWkR4a0x0RFdTTlhNU2NsRHIyVVJpZndfU1pNWG5kc2pQdjMzVUdVbmhqdXFicG5MaHk5TnFUWE9jcTkyQ2gyQzpLRmVzdGl2YWwgT2YgPGI-SW5kaWE8L2I-IFJldHVybnMgVG8gPGI-RnJlbW9udDwvYj4uIEhlcmUmIzM5O3MgV2hhdCBUbyBLbm93QqEBPGI-RmVzdGl2YWwgb2YgSW5kaWEgTWVsYSAmYW1wOyBQYXJhZGUsIHByZXNlbnRlZCBieSBGZXN0aXZhbCBvZiBHbG9iZTwvYj4sIHdpbGwgdGFrZSBwbGFjZSBTYXR1cmRheSwgQXVnLiAxNSwgYW5kIFN1bmRheSwgQXVnLiAxNiwgYXQgMzk0MzkgUGFzZW8gUGFkcmUmbmJzcDsuLi5KAmluSgR0aGlzIgIQAUgAWABoAA",
+    "source": "Patch",
+    "read_more_link": "https://patch.com/california/fremont/festival-india-returns-fremont-heres-what-know#:~:text=Festival%20of%20India%20Mela%20%26,10%20a.m.%20to%206%20p.m."
+   },
+   {
+    "position": 7,
+    "title": "Best Indian Events in Bay Area | Desi Events in Bay Area",
+    "link": "https://eventmozo.com/",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESUQHrOzAVc3VfSloAnxL7n87TLMCpoB8Uz3_YP5eCVhFbzysUhX2U7vU_7IgqFrZ-hAD62f5yxR64TCv895XlvAIlyTH8GlhHNVzMv9t3XCuD4Q&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQFnoECCIQAQ&uoh=1",
+    "displayed_link": "https://eventmozo.com",
+    "favicon": "https://serpapi.com/images/i/UklGRrgAAABXRUJQVlA4IKwAAADQAgCdASoQABAAAsBMJbACdBHAIs7_sCzZKNFek1-AAP7VF72j7VXs8du_EfmCmeEeJeRfqn-av2WRFjzxHz_-qASP__xX5j2xOxtVHw3WX_3IHzR6Lnm3R_nefpzH-Do5yR8Hsz-Ux3iL_8A8lfxin5x6GM_7ci2EI2_UfgX0K_X_kO84uQCMwo5tWll3w7E1qAJqggHRgA__nbFMCODrOBF272sK3WctGgAA.webp",
+    "snippet": "GCA Bay Area Raas Garba 2026. Oct 17, 2026 7:30 PM. Washington High School,Fremont,CA. GCA Bay Area · Buy Tickets. Fog Diwali Mela 2026.",
+    "snippet_highlighted_words": [
+     "GCA Bay Area Raas Garba 2026"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "GCA Bay Area Raas Garba 2026. Oct 17, 2026 7:30 PM. Washington High School,Fremont,CA. GCA Bay Area · Buy Tickets. Fog Diwali Mela 2026.",
+      "source_info_link": "https://eventmozo.com/",
+      "icon": "https://serpapi.com/images/i/UklGRrgAAABXRUJQVlA4IKwAAADQAgCdASoQABAAAsBMJbACdBHAIs7_sCzZKNFek1-AAP7VF72j7VXs8du_EfmCmeEeJeRfqn-av2WRFjzxHz_-qASP__xX5j2xOxtVHw3WX_3IHzR6Lnm3R_nefpzH-Do5yR8Hsz-Ux3iL_8A8lfxin5x6GM_7ci2EI2_UfgX0K_X_kO84uQCMwo5tWll3w7E1qAJqggHRgA__nbFMCODrOBF272sK3WctGgAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CnwvZ290bz91cmw9Q0FFU1VRSHJPekFWYzNWZlNsb0FueEw3bjg3VExNQ3BvQjhVejNfWVA1ZUNWaEZienlzVWhYMlU3dlVfN0lncUZyWi1oQUQ2MmY1eXhSNjRUQ3Y4OTVYbHZBSWx5VEg4R2xoSE5Wek12OXQzWEN1RDRREgQaAggAGsEIEgIIABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAJaAHIAegCCQIgICAAQABgAIAAqLAoGaW5kaWFuFby7jz8aBWhpbmR1GgVpbmRpYRoPaW5kaWFuY29tbXVuaXR5KkEKCWNvbW11bml0eRWbPL89GgVsb2NhbBoGc29jaWFsGg9pbmRpYW5jb21tdW5pdHkaD2NvbW11bml0eWV2ZW50cyo7CgZldmVudHMVxIp8QBoKYWN0aXZpdGllcxoIY2FsZW5kYXIaBWV2ZW50Gg9jb21tdW5pdHlldmVudHMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBW8TQxAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRVO9mE_GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyfC9nb3RvP3VybD1DQUVTVVFIck96QVZjM1ZmU2xvQW54TDduODdUTE1DcG9COFV6M19ZUDVlQ1ZoRmJ6eXNVaFgyVTd2VV83SWdxRnJaLWhBRDYyZjV5eFI2NFRDdjg5NVhsdkFJbHlUSDhHbGhITlZ6TXY5dDNYQ3VENFE6RkJlc3QgPGI-SW5kaWFuIEV2ZW50czwvYj4gaW4gQmF5IEFyZWEgfCBEZXNpIDxiPkV2ZW50czwvYj4gaW4gQmF5IEFyZWFClgE8Yj5HQ0EgQmF5IEFyZWEgUmFhcyBHYXJiYSAyMDI2PC9iPi4gT2N0IDE3LCAyMDI2IDc6MzAgUE0uIFdhc2hpbmd0b24gSGlnaCBTY2hvb2wsRnJlbW9udCxDQS4gR0NBIEJheSBBcmVhICZtaWRkb3Q7IEJ1eSBUaWNrZXRzLiBGb2cgRGl3YWxpIE1lbGEgMjAyNi5KAmluSgR0aGlzIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CnwvZ290bz91cmw9Q0FFU1VRSHJPekFWYzNWZlNsb0FueEw3bjg3VExNQ3BvQjhVejNfWVA1ZUNWaEZienlzVWhYMlU3dlVfN0lncUZyWi1oQUQ2MmY1eXhSNjRUQ3Y4OTVYbHZBSWx5VEg4R2xoSE5Wek12OXQzWEN1RDRREgQaAggAGsEIEgIIABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAJaAHIAegCCQIgICAAQABgAIAAqLAoGaW5kaWFuFby7jz8aBWhpbmR1GgVpbmRpYRoPaW5kaWFuY29tbXVuaXR5KkEKCWNvbW11bml0eRWbPL89GgVsb2NhbBoGc29jaWFsGg9pbmRpYW5jb21tdW5pdHkaD2NvbW11bml0eWV2ZW50cyo7CgZldmVudHMVxIp8QBoKYWN0aXZpdGllcxoIY2FsZW5kYXIaBWV2ZW50Gg9jb21tdW5pdHlldmVudHMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBW8TQxAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRVO9mE_GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyfC9nb3RvP3VybD1DQUVTVVFIck96QVZjM1ZmU2xvQW54TDduODdUTE1DcG9COFV6M19ZUDVlQ1ZoRmJ6eXNVaFgyVTd2VV83SWdxRnJaLWhBRDYyZjV5eFI2NFRDdjg5NVhsdkFJbHlUSDhHbGhITlZ6TXY5dDNYQ3VENFE6RkJlc3QgPGI-SW5kaWFuIEV2ZW50czwvYj4gaW4gQmF5IEFyZWEgfCBEZXNpIDxiPkV2ZW50czwvYj4gaW4gQmF5IEFyZWFClgE8Yj5HQ0EgQmF5IEFyZWEgUmFhcyBHYXJiYSAyMDI2PC9iPi4gT2N0IDE3LCAyMDI2IDc6MzAgUE0uIFdhc2hpbmd0b24gSGlnaCBTY2hvb2wsRnJlbW9udCxDQS4gR0NBIEJheSBBcmVhICZtaWRkb3Q7IEJ1eSBUaWNrZXRzLiBGb2cgRGl3YWxpIE1lbGEgMjAyNi5KAmluSgR0aGlzIgIQAUgAWABoAA",
+    "source": "EventMozo",
+    "read_more_link": "https://eventmozo.com/#:~:text=GCA%20Bay%20Area%20Raas%20Garba"
+   },
+   {
+    "position": 8,
+    "title": "https://www.fremont.gov/Home/Components/Calendar/E...",
+    "link": "https://www.fremont.gov/Home/Components/Calendar/Event/1699/17?toggle=next7days&curm=8&cury=2026",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESmwEB6zswFS6hsqGQNOjVRBtDs-NIg_Zi1PDTwkBthUTIV40Dz4MFV5AXB8nsSiljQu0xjT5tYq1WDH41Ec17hy91AJHUmHXmz0Z5i8uxT-XAf-BZye9yriY4ZiJdsNH5xu4gH2ga3-3uyKSN8Abr1azP2BWoZ7us5JAu_E78XrxLeMKd7iHRk0Rj09m6OUE2YjMZHG9MIc-RVWw9XQ&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQFnoECCYQAQ&uoh=1",
+    "displayed_link": "https://www.fremont.gov › Home › Calendar › Event",
+    "favicon": "https://serpapi.com/images/i/UklGRogAAABXRUJQVlA4IHwAAABwBACdASocABwAPtE-tFooIigoFAEAGglAE6ZQADXAGWeWzv04VdJyhr4AAAD-DHcH14TDFxMDnuaNhqHeZQHTmq8jj9SrDzbp6bFeU5km7aUYAOCmRUYFBnYLYdZGMkxmhx6G4FicNSlcLvSws6TnWQa9fWqpcWLIdI4A.webp",
+    "snippet": "No information is available for this page.",
+    "about_this_result": {
+     "source": {
+      "source_info_link": "https://www.fremont.gov/Home/Components/Calendar/Event/1699/17?toggle=next7days&curm=8&cury=2026",
+      "icon": "https://serpapi.com/images/i/UklGRogAAABXRUJQVlA4IHwAAABwBACdASocABwAPtE-tFooIigoFAEAGglAE6ZQADXAGWeWzv04VdJyhr4AAAD-DHcH14TDFxMDnuaNhqHeZQHTmq8jj9SrDzbp6bFeU5km7aUYAOCmRUYFBnYLYdZGMkxmhx6G4FicNSlcLvSws6TnWQa9fWqpcWLIdI4A.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CuABL2dvdG8_dXJsPUNBRVNtd0VCNnpzd0ZTNmhzcUdRTk9qVlJCdERzLU5JZ19aaTFQRFR3a0J0aFVUSVY0MER6NE1GVjVBWEI4bnNTaWxqUXUweGpUNXRZcTFXREg0MUVjMTdoeTkxQUpIVW1IWG16MFo1aTh1eFQtWEFmLUJaeWU5eXJpWTRaaUpkc05INXh1NGdIMmdhMy0zdXlLU044QWJyMWF6UDJCV29aN3VzNUpBdV9FNzhYcnhMZU1LZDdpSFJrMFJqMDltNk9VRTJZak1aSEc5TUljLVJWV3c5WFESBBoCCAAaxQcSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQI4HCAAQABgAIAAqLAoGaW5kaWFuFQAAAAAaBWhpbmR1GgVpbmRpYRoPaW5kaWFuY29tbXVuaXR5KkEKCWNvbW11bml0eRUAAAAAGgVsb2NhbBoGc29jaWFsGg9pbmRpYW5jb21tdW5pdHkaD2NvbW11bml0eWV2ZW50cyo7CgZldmVudHMVAAAAABoKYWN0aXZpdGllcxoIY2FsZW5kYXIaBWV2ZW50Gg9jb21tdW5pdHlldmVudHMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBUAAAA_GhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRUAAAAAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAy4AEvZ290bz91cmw9Q0FFU213RUI2enN3RlM2aHNxR1FOT2pWUkJ0RHMtTklnX1ppMVBEVHdrQnRoVVRJVjQwRHo0TUZWNUFYQjhuc1NpbGpRdTB4alQ1dFlxMVdESDQxRWMxN2h5OTFBSkhVbUhYbXowWjVpOHV4VC1YQWYtQlp5ZTl5cmlZNFppSmRzTkg1eHU0Z0gyZ2EzLTN1eUtTTjhBYnIxYXpQMkJXb1o3dXM1SkF1X0U3OFhyeExlTUtkN2lIUmswUmowOW02T1VFMllqTVpIRzlNSWMtUlZXdzlYUToASgR0aGlzSgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CuABL2dvdG8_dXJsPUNBRVNtd0VCNnpzd0ZTNmhzcUdRTk9qVlJCdERzLU5JZ19aaTFQRFR3a0J0aFVUSVY0MER6NE1GVjVBWEI4bnNTaWxqUXUweGpUNXRZcTFXREg0MUVjMTdoeTkxQUpIVW1IWG16MFo1aTh1eFQtWEFmLUJaeWU5eXJpWTRaaUpkc05INXh1NGdIMmdhMy0zdXlLU044QWJyMWF6UDJCV29aN3VzNUpBdV9FNzhYcnhMZU1LZDdpSFJrMFJqMDltNk9VRTJZak1aSEc5TUljLVJWV3c5WFESBBoCCAAaxQcSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQI4HCAAQABgAIAAqLAoGaW5kaWFuFQAAAAAaBWhpbmR1GgVpbmRpYRoPaW5kaWFuY29tbXVuaXR5KkEKCWNvbW11bml0eRUAAAAAGgVsb2NhbBoGc29jaWFsGg9pbmRpYW5jb21tdW5pdHkaD2NvbW11bml0eWV2ZW50cyo7CgZldmVudHMVAAAAABoKYWN0aXZpdGllcxoIY2FsZW5kYXIaBWV2ZW50Gg9jb21tdW5pdHlldmVudHMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBUAAAA_GhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRUAAAAAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAy4AEvZ290bz91cmw9Q0FFU213RUI2enN3RlM2aHNxR1FOT2pWUkJ0RHMtTklnX1ppMVBEVHdrQnRoVVRJVjQwRHo0TUZWNUFYQjhuc1NpbGpRdTB4alQ1dFlxMVdESDQxRWMxN2h5OTFBSkhVbUhYbXowWjVpOHV4VC1YQWYtQlp5ZTl5cmlZNFppSmRzTkg1eHU0Z0gyZ2EzLTN1eUtTTjhBYnIxYXpQMkJXb1o3dXM1SkF1X0U3OFhyeExlTUtkN2lIUmswUmowOW02T1VFMllqTVpIRzlNSWMtUlZXdzlYUToASgR0aGlzSgJpbiICEAFIAFgAaAA",
+    "source": "City of Fremont, CA (.gov)"
+   },
+   {
+    "position": 9,
+    "title": "Family-friendly groups in Fremont, California for Indian ...",
+    "link": "https://www.facebook.com/groups/1247354331964390/posts/26250440377895773/",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShAEB6zswFXMptdti0pY7DblPXza1BcBxnl2KnuPnbro-YKNIVqDzPNeiQAZyRDYv95RdoGaD8bdYjB4ftctXa3lwtfe6R0xAlH4EFC1h0Pqa_YcL7V2pn3fXosa4oolszcDdZ8d5Ze07b0UYuj4ZgUydT4n0JqywPc8I6OH-vKDabv7pn3c&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQFnoECCkQAQ&uoh=1",
+    "displayed_link": "8 comments · 9 months ago",
+    "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+    "snippet": "For in person art classes (drawing and painting) for kids and adults in Fremont contact Roopali's Kala Art Studio at 925-315-9424 and schedule ...",
+    "snippet_highlighted_words": [
+     "contact Roopali's Kala Art Studio at 925-315-9424"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "For in person art classes (drawing and painting) for kids and adults in Fremont contact Roopali's Kala Art Studio at 925-315-9424 and schedule ...",
+      "source_info_link": "https://www.facebook.com/groups/1247354331964390/posts/26250440377895773/",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0ZYTXB0ZHRpMHBZN0RibFBYemExQmNCeG5sMktudVBuYnJvLVlLTklWcUR6UE5laVFBWnlSRFl2OTVSZG9HYUQ4YmRZakI0ZnRjdFhhM2x3dGZlNlIweEFsSDRFRkMxaDBQcWFfWWNMN1YycG4zZlhvc2E0b29sc3pjRGRaOGQ1WmUwN2IwVVl1ajRaZ1V5ZFQ0bjBKcXl3UGM4STZPSC12S0RhYnY3cG4zYxIEGgIIABqhCRIAGgAiACoAOgBCBAgBEABKGwgBEhNGcmVtb250LCBDYWxpZm9ybmlhGgIIAVoAcgB6AIJA6ggIABAAGAAgACosCgZpbmRpYW4Vrlp4QBoFaGluZHUaBWluZGlhGg9pbmRpYW5jb21tdW5pdHkqQQoJY29tbXVuaXR5FW2bij8aBWxvY2FsGgZzb2NpYWwaD2luZGlhbmNvbW11bml0eRoPY29tbXVuaXR5ZXZlbnRzKjsKBmV2ZW50cxX0NVw_GgphY3Rpdml0aWVzGghjYWxlbmRhchoFZXZlbnQaD2NvbW11bml0eWV2ZW50cyoJCgJpbhUAAAAAKocBCgdmcmVtb250FWW0ikAaEWZyZW1vbnRjYWxpZm9ybmlhGhRnZW87ODA4ZjkwMDAwMDAwMDAwMBoUZ2VvOzgwOGZiMDAwMDAwMDAwMDAaFGdlbzs4MDhmZDAwMDAwMDAwMDAwGhRnZW87ODA4ZmYwMDAwMDAwMDAwMBoMaXY7cDtmcmVtb250KowBCgpjYWxpZm9ybmlhFY-wXkAaAmNhGgNjYWwaBWNhbGlmGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAqCwoEdGhpcxUAAAAAKrUBCgR3ZWVrFWA7ojwaA2NhbBoFY2FsaWYaBndlZWsncxoHd2Vla2VuZBoGd2Vla2x5GgV3ZWVrcxoQZ207ZGF0ZTsyMDI2MTAwNBoQZ207ZGF0ZTsyMDI2MTAwNRoQZ207ZGF0ZTsyMDI2MTAwNhoQZ207ZGF0ZTsyMDI2MTAwNxoQZ207ZGF0ZTsyMDI2MTAwOBoQZ207ZGF0ZTsyMDI2MTAwORoQZ207ZGF0ZTsyMDI2MTAxMDLBAS9nb3RvP3VybD1DQUVTaEFFQjZ6c3dGWE1wdGR0aTBwWTdEYmxQWHphMUJjQnhubDJLbnVQbmJyby1ZS05JVnFEelBOZWlRQVp5UkRZdjk1UmRvR2FEOGJkWWpCNGZ0Y3RYYTNsd3RmZTZSMHhBbEg0RUZDMWgwUHFhX1ljTDdWMnBuM2ZYb3NhNG9vbHN6Y0RkWjhkNVplMDdiMFVZdWo0WmdVeWRUNG4wSnF5d1BjOEk2T0gtdktEYWJ2N3BuM2M6VkZhbWlseS1mcmllbmRseSBncm91cHMgaW4gPGI-RnJlbW9udDwvYj4sIDxiPkNhbGlmb3JuaWE8L2I-IGZvciA8Yj5JbmRpYW48L2I-IGZhbWlsaWVzQqIBRm9yIGluIHBlcnNvbiBhcnQgY2xhc3NlcyAoZHJhd2luZyBhbmQgcGFpbnRpbmcpIGZvciBraWRzIGFuZCBhZHVsdHMgaW4gRnJlbW9udCA8Yj5jb250YWN0IFJvb3BhbGkmIzM5O3MgS2FsYSBBcnQgU3R1ZGlvIGF0IDkyNS0zMTUtOTQyNDwvYj4gYW5kIHNjaGVkdWxlJm5ic3A7Li4uSgJpbkoEdGhpcyICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0ZYTXB0ZHRpMHBZN0RibFBYemExQmNCeG5sMktudVBuYnJvLVlLTklWcUR6UE5laVFBWnlSRFl2OTVSZG9HYUQ4YmRZakI0ZnRjdFhhM2x3dGZlNlIweEFsSDRFRkMxaDBQcWFfWWNMN1YycG4zZlhvc2E0b29sc3pjRGRaOGQ1WmUwN2IwVVl1ajRaZ1V5ZFQ0bjBKcXl3UGM4STZPSC12S0RhYnY3cG4zYxIEGgIIABqhCRIAGgAiACoAOgBCBAgBEABKGwgBEhNGcmVtb250LCBDYWxpZm9ybmlhGgIIAVoAcgB6AIJA6ggIABAAGAAgACosCgZpbmRpYW4Vrlp4QBoFaGluZHUaBWluZGlhGg9pbmRpYW5jb21tdW5pdHkqQQoJY29tbXVuaXR5FW2bij8aBWxvY2FsGgZzb2NpYWwaD2luZGlhbmNvbW11bml0eRoPY29tbXVuaXR5ZXZlbnRzKjsKBmV2ZW50cxX0NVw_GgphY3Rpdml0aWVzGghjYWxlbmRhchoFZXZlbnQaD2NvbW11bml0eWV2ZW50cyoJCgJpbhUAAAAAKocBCgdmcmVtb250FWW0ikAaEWZyZW1vbnRjYWxpZm9ybmlhGhRnZW87ODA4ZjkwMDAwMDAwMDAwMBoUZ2VvOzgwOGZiMDAwMDAwMDAwMDAaFGdlbzs4MDhmZDAwMDAwMDAwMDAwGhRnZW87ODA4ZmYwMDAwMDAwMDAwMBoMaXY7cDtmcmVtb250KowBCgpjYWxpZm9ybmlhFY-wXkAaAmNhGgNjYWwaBWNhbGlmGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAqCwoEdGhpcxUAAAAAKrUBCgR3ZWVrFWA7ojwaA2NhbBoFY2FsaWYaBndlZWsncxoHd2Vla2VuZBoGd2Vla2x5GgV3ZWVrcxoQZ207ZGF0ZTsyMDI2MTAwNBoQZ207ZGF0ZTsyMDI2MTAwNRoQZ207ZGF0ZTsyMDI2MTAwNhoQZ207ZGF0ZTsyMDI2MTAwNxoQZ207ZGF0ZTsyMDI2MTAwOBoQZ207ZGF0ZTsyMDI2MTAwORoQZ207ZGF0ZTsyMDI2MTAxMDLBAS9nb3RvP3VybD1DQUVTaEFFQjZ6c3dGWE1wdGR0aTBwWTdEYmxQWHphMUJjQnhubDJLbnVQbmJyby1ZS05JVnFEelBOZWlRQVp5UkRZdjk1UmRvR2FEOGJkWWpCNGZ0Y3RYYTNsd3RmZTZSMHhBbEg0RUZDMWgwUHFhX1ljTDdWMnBuM2ZYb3NhNG9vbHN6Y0RkWjhkNVplMDdiMFVZdWo0WmdVeWRUNG4wSnF5d1BjOEk2T0gtdktEYWJ2N3BuM2M6VkZhbWlseS1mcmllbmRseSBncm91cHMgaW4gPGI-RnJlbW9udDwvYj4sIDxiPkNhbGlmb3JuaWE8L2I-IGZvciA8Yj5JbmRpYW48L2I-IGZhbWlsaWVzQqIBRm9yIGluIHBlcnNvbiBhcnQgY2xhc3NlcyAoZHJhd2luZyBhbmQgcGFpbnRpbmcpIGZvciBraWRzIGFuZCBhZHVsdHMgaW4gRnJlbW9udCA8Yj5jb250YWN0IFJvb3BhbGkmIzM5O3MgS2FsYSBBcnQgU3R1ZGlvIGF0IDkyNS0zMTUtOTQyNDwvYj4gYW5kIHNjaGVkdWxlJm5ic3A7Li4uSgJpbkoEdGhpcyICEAFIAFgAaAA",
+    "source": "Facebook · Bay Area Desi Vibes",
+    "read_more_link": "https://www.facebook.com/groups/1247354331964390/posts/26250440377895773/#:~:text=For%20in%20person%20art%20classes,schedule%20your%20free%20trial%20class."
+   }
+  ],
+  "related_searches": [
+   {
+    "block_position": 1,
+    "query": "Free indian community events in fremont california this week",
+    "link": "https://www.google.com/search?sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&q=Free+indian+community+events+in+fremont+california+this+week&sa=X&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ1QJ6BAhHEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Free+indian+community+events+in+fremont+california+this+week"
+   },
+   {
+    "block_position": 1,
+    "query": "Free indian community events in fremont california this weekend",
+    "link": "https://www.google.com/search?sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&q=Free+indian+community+events+in+fremont+california+this+weekend&sa=X&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ1QJ6BAhNEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Free+indian+community+events+in+fremont+california+this+weekend"
+   },
+   {
+    "block_position": 1,
+    "query": "Indian events in fremont ca",
+    "link": "https://www.google.com/search?sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&q=Indian+events+in+fremont+ca&sa=X&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ1QJ6BAhGEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Indian+events+in+fremont+ca"
+   },
+   {
+    "block_position": 1,
+    "query": "Events in Fremont, CA This Weekend",
+    "link": "https://www.google.com/search?sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&q=Events+in+Fremont,+CA+This+Weekend&sa=X&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ1QJ6BAhIEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Events+in+Fremont%2C+CA+This+Weekend"
+   },
+   {
+    "block_position": 1,
+    "query": "Fremont Events today free",
+    "link": "https://www.google.com/search?sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&q=Fremont+Events+today+free&sa=X&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ1QJ6BAhMEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Fremont+Events+today+free"
+   },
+   {
+    "block_position": 1,
+    "query": "Fremont, CA events today",
+    "link": "https://www.google.com/search?sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&q=Fremont,+CA+events+today&sa=X&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ1QJ6BAhJEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Fremont%2C+CA+events+today"
+   },
+   {
+    "block_position": 1,
+    "query": "Indian events Near me This weekend",
+    "link": "https://www.google.com/search?sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&q=Indian+events+Near+me+This+weekend&sa=X&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ1QJ6BAhLEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Indian+events+Near+me+This+weekend"
+   },
+   {
+    "block_position": 1,
+    "query": "Sulekha events Bay Area",
+    "link": "https://www.google.com/search?sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&q=Sulekha+events+Bay+Area&sa=X&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ1QJ6BAhKEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Sulekha+events+Bay+Area"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.com/search?q=Indian+community+events+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&ei=oNzDapK2DfGzi-gPoPfckAU&start=10&sa=N&sstk=AS6-VmJIfUnrEeitM572X6KdL8SCf0Cmr1JxJY9AJc93oMIdnNo3KsYOgjJ88XveAyNF1FbK-LxRxyp3_F4RTW8CziwgGPauxwNadw&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ8NMDegQIQhAW",
+   "other_pages": {
+    "2": "https://www.google.com/search?q=Indian+community+events+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&ei=oNzDapK2DfGzi-gPoPfckAU&start=10&sa=N&sstk=AS6-VmJIfUnrEeitM572X6KdL8SCf0Cmr1JxJY9AJc93oMIdnNo3KsYOgjJ88XveAyNF1FbK-LxRxyp3_F4RTW8CziwgGPauxwNadw&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ8tMDegQIQhAE",
+    "3": "https://www.google.com/search?q=Indian+community+events+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&ei=oNzDapK2DfGzi-gPoPfckAU&start=20&sa=N&sstk=AS6-VmJIfUnrEeitM572X6KdL8SCf0Cmr1JxJY9AJc93oMIdnNo3KsYOgjJ88XveAyNF1FbK-LxRxyp3_F4RTW8CziwgGPauxwNadw&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ8tMDegQIQhAG",
+    "4": "https://www.google.com/search?q=Indian+community+events+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&ei=oNzDapK2DfGzi-gPoPfckAU&start=30&sa=N&sstk=AS6-VmJIfUnrEeitM572X6KdL8SCf0Cmr1JxJY9AJc93oMIdnNo3KsYOgjJ88XveAyNF1FbK-LxRxyp3_F4RTW8CziwgGPauxwNadw&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ8tMDegQIQhAI",
+    "5": "https://www.google.com/search?q=Indian+community+events+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&ei=oNzDapK2DfGzi-gPoPfckAU&start=40&sa=N&sstk=AS6-VmJIfUnrEeitM572X6KdL8SCf0Cmr1JxJY9AJc93oMIdnNo3KsYOgjJ88XveAyNF1FbK-LxRxyp3_F4RTW8CziwgGPauxwNadw&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ8tMDegQIQhAK",
+    "6": "https://www.google.com/search?q=Indian+community+events+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&ei=oNzDapK2DfGzi-gPoPfckAU&start=50&sa=N&sstk=AS6-VmJIfUnrEeitM572X6KdL8SCf0Cmr1JxJY9AJc93oMIdnNo3KsYOgjJ88XveAyNF1FbK-LxRxyp3_F4RTW8CziwgGPauxwNadw&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ8tMDegQIQhAM",
+    "7": "https://www.google.com/search?q=Indian+community+events+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&ei=oNzDapK2DfGzi-gPoPfckAU&start=60&sa=N&sstk=AS6-VmJIfUnrEeitM572X6KdL8SCf0Cmr1JxJY9AJc93oMIdnNo3KsYOgjJ88XveAyNF1FbK-LxRxyp3_F4RTW8CziwgGPauxwNadw&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ8tMDegQIQhAO",
+    "8": "https://www.google.com/search?q=Indian+community+events+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&ei=oNzDapK2DfGzi-gPoPfckAU&start=70&sa=N&sstk=AS6-VmJIfUnrEeitM572X6KdL8SCf0Cmr1JxJY9AJc93oMIdnNo3KsYOgjJ88XveAyNF1FbK-LxRxyp3_F4RTW8CziwgGPauxwNadw&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ8tMDegQIQhAQ",
+    "9": "https://www.google.com/search?q=Indian+community+events+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&ei=oNzDapK2DfGzi-gPoPfckAU&start=80&sa=N&sstk=AS6-VmJIfUnrEeitM572X6KdL8SCf0Cmr1JxJY9AJc93oMIdnNo3KsYOgjJ88XveAyNF1FbK-LxRxyp3_F4RTW8CziwgGPauxwNadw&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ8tMDegQIQhAS",
+    "10": "https://www.google.com/search?q=Indian+community+events+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnsPFRlNwr3y_AEUnLOvcRyxxbFa-g:1791220896228&ei=oNzDapK2DfGzi-gPoPfckAU&start=90&sa=N&sstk=AS6-VmJIfUnrEeitM572X6KdL8SCf0Cmr1JxJY9AJc93oMIdnNo3KsYOgjJ88XveAyNF1FbK-LxRxyp3_F4RTW8CziwgGPauxwNadw&ved=2ahUKEwiShu_psaOXAxXx2QIHHaA7F1IQ8tMDegQIQhAU"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Indian+community+events+in+Fremont%2C+California+this+week&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Indian+community+events+in+Fremont%2C+California+this+week&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Indian+community+events+in+Fremont%2C+California+this+week&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Indian+community+events+in+Fremont%2C+California+this+week&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Indian+community+events+in+Fremont%2C+California+this+week&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Indian+community+events+in+Fremont%2C+California+this+week&start=40",
+    "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Indian+community+events+in+Fremont%2C+California+this+week&start=50",
+    "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Indian+community+events+in+Fremont%2C+California+this+week&start=60",
+    "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Indian+community+events+in+Fremont%2C+California+this+week&start=70",
+    "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Indian+community+events+in+Fremont%2C+California+this+week&start=80",
+    "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Indian+community+events+in+Fremont%2C+California+this+week&start=90"
+   }
+  }
+ }
+}

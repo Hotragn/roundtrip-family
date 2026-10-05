@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219876794",
+  "object": "chat.completion",
+  "created": 1791219876,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "There is a walking group in the park at 9 AM today.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 54,
+   "completion_tokens": 15,
+   "total_tokens": 69,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.8999999761581421
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:04:36.857Z"
+}

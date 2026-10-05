@@ -1,0 +1,1182 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps",
+ "request": "https://serpapi.com/search.json?engine=google_maps&type=search&q=public+library&ll=%4037.555%2C-121.982%2C13z&gl=us&hl=en",
+ "note": "places: public library",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:05:44.877Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "public library",
+   "ll": "@37.555,-121.982,13z",
+   "google_domain": "google.com",
+   "hl": "en",
+   "gl": "us"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "public library"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Fremont Main Library",
+    "place_id": "ChIJq5MEbpPAj4AR8_aqX4v_HA8",
+    "data_id": "0x808fc0936e0493ab:0xf1cff8b5faaf6f3",
+    "data_cid": "1089026183987394291",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc0936e0493ab%3A0xf1cff8b5faaf6f3&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc0936e0493ab%3A0xf1cff8b5faaf6f3&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5508224,
+     "longitude": -121.97097889999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJq5MEbpPAj4AR8_aqX4v_HA8",
+    "provider_id": "/g/1tffpl5t",
+    "rating": 4.5,
+    "reviews": 565,
+    "type": "Public library",
+    "types": [
+     "Public library"
+    ],
+    "type_id": "public_library",
+    "type_ids": [
+     "public_library"
+    ],
+    "address": "2400 Stevenson Blvd, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Closed · Opens 12 PM",
+    "hours": "Closed · Opens 12 PM",
+    "operating_hours": {
+     "monday": "12–8 PM",
+     "tuesday": "12–8 PM",
+     "wednesday": "11 AM–6 PM",
+     "thursday": "11 AM–6 PM",
+     "friday": "10 AM–5 PM",
+     "saturday": "10 AM–5 PM",
+     "sunday": "1–5 PM"
+    },
+    "phone": "(510) 745-1400",
+    "website": "https://aclibrary.org/locations/FRM",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards"
+      ]
+     },
+     {
+      "children": [
+       "Has changing table(s)"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Paid parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"The library offers a huge parking lot, making it super convenient to visit.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOUPsEgXa_y4pIBwXu-x82OmrtcXaCjXDFZMhF_mqt1HBQ0Lmbv2KiRzotLByHRgcgFVsX8gerF6GByPDgE44Y7Ja-zpKMRIwHJ31Kul5ul6j9f8IbqtnQvL1btHao4gBJrtcxePQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/deKSBXicHc3dboIwGADQJ6qAorIlu7Aq488IJDPdbkxp6sdMS5F-gPiGewTfZstuzu15_tSIrX11HFUvZmAMKNlb2QnToGxwJox2oOPWEmGdzXZolT5-5HYPjJ8nv43pyHpyD-ZH3aFgfHtlu_DrUIdnfUMvooWb6WqYp9_lw2BGp6gEAeHJsgBkF67e6ZTvYO_7n-uEk0ebHsp4jJKFl_Zq2avV9eUSxNUNm2LIvAojbnygyd90l3nxNnqu65L6X0GaX4GLRno"
+   },
+   {
+    "position": 2,
+    "title": "Union City Library",
+    "place_id": "ChIJ706YNH2Vj4ARxbxxKKbobEs",
+    "data_id": "0x808f957d34984eef:0x4b6ce8a62871bcc5",
+    "data_cid": "5434974650670103749",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f957d34984eef%3A0x4b6ce8a62871bcc5&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f957d34984eef%3A0x4b6ce8a62871bcc5&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.58792,
+     "longitude": -122.0271514
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ706YNH2Vj4ARxbxxKKbobEs",
+    "provider_id": "/g/1tdrflph",
+    "rating": 4.4,
+    "reviews": 119,
+    "type": "Public library",
+    "types": [
+     "Public library"
+    ],
+    "type_id": "public_library",
+    "type_ids": [
+     "public_library"
+    ],
+    "address": "34007 Alvarado-Niles Rd, Union City, CA 94587",
+    "country": "United States",
+    "open_state": "Closed · Opens 10 AM Tue",
+    "hours": "Closed · Opens 10 AM Tue",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "10 AM–6 PM",
+     "wednesday": "10 AM–6 PM",
+     "thursday": "10 AM–8 PM",
+     "friday": "12–6 PM",
+     "saturday": "10 AM–5 PM",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 745-1464",
+    "website": "https://aclibrary.org/locations/UCY",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot"
+      ]
+     }
+    ],
+    "user_review": "\"Huge collection of books,Very nice and maintained well..\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPZRwrtDh6aOV7Cu9qxCZSyLFySmSzD46S1f7x9uglpcthVGEn3BDF8V_by65GlMBZ6A92TrZ0B3xBFuL_9M4h-s9y1MLehTWGZ7H9owlXzAgJCbdqsM5rlZB4s7kECzu9jr_GO=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/fbbZVHicHcRJboMwAADAFxGgbHWkHrAJRBWIqkSk8gWBS201BoOXsnwwb-hvImUO839nWk_qaNuceQcqBOW9Ub0kYtT9qA9EDDaVrVIWUXaM_iY-fODPReqEhW1ZR8iAeUW42vJ0q4ZqT_ywcn-iFRjKJ6JZnZ1GDybpa910WxhkvIA4jMHLRWIHeitMTd6AwmeWAptb5D27XDMcnYFY-Nce03fUfc-qCCTH0FfR7YR2A35lk5Vvi-s4jsWeE2t8AIgfRIY"
+   },
+   {
+    "position": 3,
+    "title": "Newark Library",
+    "place_id": "ChIJFzsuqhu_j4ARApubzTkTjK8",
+    "data_id": "0x808fbf1baa2e3b17:0xaf8c1339cd9b9b02",
+    "data_cid": "12649506592360471298",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf1baa2e3b17%3A0xaf8c1339cd9b9b02&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf1baa2e3b17%3A0xaf8c1339cd9b9b02&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.536293799999996,
+     "longitude": -122.0302849
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJFzsuqhu_j4ARApubzTkTjK8",
+    "provider_id": "/g/1v75s46m",
+    "rating": 4.7,
+    "reviews": 228,
+    "type": "Public library",
+    "types": [
+     "Public library"
+    ],
+    "type_id": "public_library",
+    "type_ids": [
+     "public_library"
+    ],
+    "address": "37055 Newark Blvd, Newark, CA 94560",
+    "country": "United States",
+    "open_state": "Closed · Opens 12 PM",
+    "hours": "Closed · Opens 12 PM",
+    "operating_hours": {
+     "monday": "12–8 PM",
+     "tuesday": "12–8 PM",
+     "wednesday": "10 AM–6 PM",
+     "thursday": "10 AM–6 PM",
+     "friday": "Closed",
+     "saturday": "10 AM–5 PM",
+     "sunday": "1–5 PM"
+    },
+    "phone": "(510) 284-0675",
+    "website": "https://www.aclibrary.org/locations/NWK",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards"
+      ]
+     },
+     {
+      "children": [
+       "Has changing table(s)"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Paid parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Quiet, quieter and cleaner than Fremont Main library.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPUKgOv3RbVH9-9RdkfQrNzOC6ZJXbwcp4qx891A8kxxS3mhHBMeggTqkjuqVJNztZrwZecnUmooAxDYm0c5i8dCM_FDCaBGaSKfCv5lTRl0GHMKas2Ir_1_ptq8nXt-pZreYg2TA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/1c2DznicHcRLjoIwAADQE1WK6ARMXGDNyEjwg0iUDcFai9IfbQXiDecI3sbEt3jv_9paZWaOw2pvRKWkjDwN0VgKS4QdYckdqitjADZOiDrF-O4Y023npZc8CkCQXpvbXm9eW_RTrE-XHqtJO_iBG_rNMBw8XkeLhFCatc3j2ebrzcsWui8IFkcuZTgszxzi6d2_oqT8XaJqsaoO8Q11U5alDK6iJK7M-E-Xbqls64uTBarQ5EzHWTjvXQghqL9jID6Ln0a0"
+   },
+   {
+    "position": 4,
+    "title": "Niles Library",
+    "place_id": "ChIJlcnhjm7Aj4ARqZTk-CHV3qw",
+    "data_id": "0x808fc06e8ee1c995:0xacded521f8e494a9",
+    "data_cid": "12456627961239737513",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc06e8ee1c995%3A0xacded521f8e494a9&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc06e8ee1c995%3A0xacded521f8e494a9&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5760565,
+     "longitude": -121.97816999999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJlcnhjm7Aj4ARqZTk-CHV3qw",
+    "provider_id": "/g/1tjtjhyk",
+    "rating": 4.9,
+    "reviews": 9,
+    "type": "Public library",
+    "types": [
+     "Public library"
+    ],
+    "type_id": "public_library",
+    "type_ids": [
+     "public_library"
+    ],
+    "address": "150 I St, Fremont, CA 94536",
+    "country": "United States",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "Closed",
+     "wednesday": "Closed",
+     "thursday": "Closed",
+     "friday": "10 AM–5 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 795-2626",
+    "website": "https://aclibrary.org/locations/nls/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "user_review": "\"Good small library with fast wifi here - would come here again to study!\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNrR6VN3lb7wynWzfMYQjm_qzyPG1W7KAuIHJmyJOTCVGv7UDONd3ktNFP5RiWw2m96sl4Su_EwWlQuESKD97oFg3Va4Z4UoD5JjGWlnwtjwuYHTbipzgas8PQ9GYszrgc7u6iFAQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/N4VSoXicHcTbboIwAADQL0JwIBUTH4hcHEYELzTshWDFAuuF0dYG_tBP2N8s2Xk4v-9WykFsTJO09gJzjkmjRDMizmTD5AJxauKxFsJAwvR3r4HQdDy7RWqTO9ATg_PzWOY9rX7mKYuXEBx89blP6JScrrsifoFbcEof9rdMo2x17qD-oJ4riHNRVaghyVV4OQQe4BG2i9r5cm48WCV9DAnTsteq3F_v3TDjWqyz3ItLMY8YAeV2kZ9v9dKyLKP9HxnsD3z_RqQ"
+   },
+   {
+    "position": 5,
+    "title": "Centerville Library",
+    "place_id": "ChIJafe6pri_j4ARJpGEv1W87xg",
+    "data_id": "0x808fbfb8a6baf769:0x18efbc55bf849126",
+    "data_cid": "1796861852815495462",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbfb8a6baf769%3A0x18efbc55bf849126&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbfb8a6baf769%3A0x18efbc55bf849126&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5680343,
+     "longitude": -122.0222203
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJafe6pri_j4ARJpGEv1W87xg",
+    "provider_id": "/g/1vs1s3br",
+    "rating": 4.5,
+    "reviews": 88,
+    "type": "Public library",
+    "types": [
+     "Public library",
+     "Library"
+    ],
+    "type_id": "public_library",
+    "type_ids": [
+     "public_library",
+     "library"
+    ],
+    "address": "3801 Nicolet Ave, Fremont, CA 94536",
+    "country": "United States",
+    "open_state": "Closed · Opens 10 AM Tue",
+    "hours": "Closed · Opens 10 AM Tue",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "10 AM–5 PM",
+     "wednesday": "1–8 PM",
+     "thursday": "11 AM–6 PM",
+     "friday": "Closed",
+     "saturday": "10 AM–5 PM",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 795-2629",
+    "website": "https://aclibrary.org/locations/CTV/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "On-site parking"
+      ]
+     }
+    ],
+    "user_review": "\"Perfect library for the community, reliable and friendly staff.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNrdBBfmB_GKP5mRqNvjXqT9Q_CnKzpPx-bwPUuH1PBv9u4Z5HnrQt8mVxmZ25Y2NCloifQoCUDqOepWtYahvislf6P16zmEWs1lssaf72AYFt5-o3cqqNwcwzEyKtJDFW6P6k3=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/frT2bHicHcRJDoIwFADQE1UmwSFxIThFEixGRdgYrAxqB8ovoFzQM3gbE9_ifT-lUhVMNY2W1qAQoqBZA1lNBFcZVwMimFbUKQAioM29tqIsqG-umzP3svaxzfYyaB9neZiEF4_7fYVf6NrhY7MxsNtOmmFib3gdqjE7vVhi2rEZeFTc81B4x4XcZVWk4rRs70BzBxtOz5YRGBQgzUfmPF4pGwmLSBl0pOuXb19tF6vIwc7TmnWGruuo_E8Q_wEcfkY6"
+   },
+   {
+    "position": 6,
+    "title": "Irvington High School Library",
+    "place_id": "ChIJeUudvmLHj4ARmy2AWTbaznY",
+    "data_id": "0x808fc762be9d4b79:0x76ceda3659802d9b",
+    "data_cid": "8561019868642553243",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc762be9d4b79%3A0x76ceda3659802d9b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc762be9d4b79%3A0x76ceda3659802d9b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5231797,
+     "longitude": -121.9682414
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJeUudvmLHj4ARmy2AWTbaznY",
+    "provider_id": "/g/11tc1jwp97",
+    "rating": 3.7,
+    "reviews": 3,
+    "unclaimed_listing": true,
+    "type": "Library",
+    "types": [
+     "Library"
+    ],
+    "type_id": "library",
+    "type_ids": [
+     "library"
+    ],
+    "address": "41800 Blacow Rd, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Open · Closes 3:45 PM",
+    "hours": "Open · Closes 3:45 PM",
+    "operating_hours": {
+     "monday": "8 AM–3:45 PM",
+     "tuesday": "8 AM–3:45 PM",
+     "wednesday": "8 AM–3:45 PM",
+     "thursday": "8 AM–3:45 PM",
+     "friday": "8 AM–3:45 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 656-5711",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "user_review": "\"Awesome library for the high school students there.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOaP9FlcP7pUp6wbRQ51FlqgXdId1eIkGWXfCDLJxmULzfEzGFpIjRXXythcTlwT0IuTDlqjMCuh296xzvl2EuAtWcFhfRWscDYF3U8h4zV5Xoi9XMBHTYpl-Y_I8IPQnlQsLSLGQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/1Ma2CnicHcRREoFAGADgE6VCyIwHymZNRqW0PRlWtfhrl91EN3QEtzHje_i-H6aUkFNdBzbolZyXkDcyf1Beq7xWPcorvXwcpdSo1OfOU0C1PQY2AhqMRSJG7SkKLRPBvSRnfDZzfPNSUjiuv35Vid8Vy85DAl8jQt6K0Rja2MBN7ML9unEa1rdHr-4J_WUzVylFrIhSSd0MDZIJG3Z7i_CLTTaLVZwJ0LIDnuAgrCGU_s73wllrGoahsf9Uq3-LmkZm"
+   },
+   {
+    "position": 7,
+    "title": "Ohlone College Library",
+    "place_id": "ChIJITL33wnHj4AR-psG28BBffE",
+    "data_id": "0x808fc709dff73221:0xf17d41c0db069bfa",
+    "data_cid": "17401136831793634298",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc709dff73221%3A0xf17d41c0db069bfa&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc709dff73221%3A0xf17d41c0db069bfa&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.529332,
+     "longitude": -121.91455599999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJITL33wnHj4AR-psG28BBffE",
+    "provider_id": "/g/11sd1tjhh4",
+    "rating": 4.5,
+    "reviews": 4,
+    "type": "University library",
+    "types": [
+     "University library"
+    ],
+    "type_id": "university_library",
+    "type_ids": [
+     "university_library"
+    ],
+    "address": "43600 Mission Blvd, Fremont, CA 94539",
+    "country": "United States",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "monday": "9 AM–7 PM",
+     "tuesday": "9 AM–7 PM",
+     "wednesday": "9 AM–7 PM",
+     "thursday": "9 AM–7 PM",
+     "friday": "Closed",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 659-6160",
+    "website": "https://www.ohlone.edu/library",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM5UM_MAjIA2MZqb1x-Mk1Cn3Uy6N9NfkzsytYQF8sDNNBIxzgRX_90RQR6hda1xxF6SmVf8_77T9x_VrtjYuPvkgsO0sg6Q3Y5lYxq3q3Tvzre4EnkElfQc_4YzMVlKU43Ft3-0A=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/B_s_b3icHcRBjoIwFADQE1XKFFFMXKAjiTHFAYXY2TROB0qkFOFXrNzQI3gbE9_ivZ6VMVdYOI6qyES2rVTFDYpetNoU2kxE2ziyPwMgAU64Hq6qodOMchpetuEX_e3-XIto7a41yR5-HMRlPcLDsCSaw3ccr7Z2lOmJBzhNUr_6P7vWRv6hycs5n82OgeV5by7s9jPUEvYYpJ8QNlXMdqQjx2HsC2-j640qE8E9NtJc7TKPRIYgHC7vLsYYVZ8F0m8VX0Vo"
+   },
+   {
+    "position": 8,
+    "title": "Alameda County Library Foundation",
+    "place_id": "ChIJAQDARJPAj4ARCabGV2QZTHs",
+    "data_id": "0x808fc09344c00001:0x7b4c196457c6a609",
+    "data_cid": "8884504083655206409",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc09344c00001%3A0x7b4c196457c6a609&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc09344c00001%3A0x7b4c196457c6a609&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5508515,
+     "longitude": -121.97103919999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJAQDARJPAj4ARCabGV2QZTHs",
+    "provider_id": "/g/11g2t9g6kp",
+    "rating": 4.7,
+    "reviews": 19,
+    "unclaimed_listing": true,
+    "type": "Foundation",
+    "types": [
+     "Foundation"
+    ],
+    "type_id": "foundation",
+    "type_ids": [
+     "foundation"
+    ],
+    "address": "2450 Stevenson Blvd, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Closed · Opens 12 PM",
+    "hours": "Closed · Opens 12 PM",
+    "operating_hours": {
+     "monday": "12–8 PM",
+     "tuesday": "12–8 PM",
+     "wednesday": "11 AM–6 PM",
+     "thursday": "11 AM–6 PM",
+     "friday": "10 AM–5 PM",
+     "saturday": "10 AM–5 PM",
+     "sunday": "1–5 PM"
+    },
+    "phone": "(510) 505-7077",
+    "website": "https://aclibrary.org/locations/FRM/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "user_review": "\"Vast collection of books with a very comfortable environment for reading.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmO06KSoXt14K9b-0qwqzdQY-N-5RgseV_ks3408zxS9QK-iK-Op36AhzMmIBahQfYyrqXk2IHUTFMiDvWr5yUUUTSv2c2Rcfoew8OccPFpIU0zkWm-_STEwHzVw2d_2EhidXlhH=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/tDgXcXicHcRLDoIwFADAEz2pRY2auPAbCFFEqOKKaKmU8CnQSrUX9AzexsRZzPfDlWrk3LJKbg8yIbKSPSXrqKgVq9WAisrKupuUQKW1XPdNWflo4oUiVsORN7sDanVr0uAKBxifMsnOSSHtEZqaVzgLPMg98Bt7suRmX7mrGw8e13fXxgV2HRLt9vmmv3TjNyEkCntM8Yk-BNNTn9LjrnEJMsWlgiSMttoxZ43TBG95nsYldxZ6iBAC_p9C_QNUfkTV"
+   },
+   {
+    "position": 9,
+    "title": "Ohlone College Newark library",
+    "place_id": "ChIJcXUBqIS_j4ARvIInuAbS0Ic",
+    "data_id": "0x808fbf84a8017571:0x87d0d206b82782bc",
+    "data_cid": "9786552916577321660",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf84a8017571%3A0x87d0d206b82782bc&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf84a8017571%3A0x87d0d206b82782bc&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5175815,
+     "longitude": -122.0048302
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJcXUBqIS_j4ARvIInuAbS0Ic",
+    "provider_id": "/g/11y1lph3p8",
+    "rating": 4.3,
+    "reviews": 3,
+    "type": "Library",
+    "types": [
+     "Library"
+    ],
+    "type_id": "library",
+    "type_ids": [
+     "library"
+    ],
+    "address": "Ohlone College Newark Campus, 39399 Cherry St, Newark, CA 94560",
+    "country": "United States",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "monday": "9 AM–6 PM",
+     "tuesday": "9 AM–6 PM",
+     "wednesday": "9 AM–6 PM",
+     "thursday": "9 AM–6 PM",
+     "friday": "Closed",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 742-3128",
+    "website": "https://www.ohlone.edu/library",
+    "user_review": "\"I hope they open on Friday as well\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMIxXu-WPLux29DDmxPTT5K5GiUNnqgUJCaHrtwyQ0VMEuSzAp7AecJ1uTGr_ZPDkTNkeZIQvmSCHcKln6i_Fg3ZHE8gPWd2AUcMjfQnkxf-K96HTxQqb4diw4SZY0HBX8WhfpoB4NLGRDo=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/L_5CvXicHcTBboIwAADQL6pURadLdkBwVBECUobjYlwthQEt0la6_eTO-xsT3-H9_1VK9fLVstpqPmFCsJZqSQciuKJcTYjoLDZcpAREWo5779su3JmTBnl80Ga29rzOxBgvgoVfZxG_sWzvXtCgxp8EfoRbnf46_YtDyX6qsT-ci9hrcNTQYpfcu9RFJGj5sj6_s3mBtisW59eZk5Hwu0x4Y0oQrJcIm-T2ZV_r0U6LT4g2p1Velb3Y2NHBP3ribZxCCEH1nAD-AAUPR6g"
+   },
+   {
+    "position": 10,
+    "title": "Chelsea Little Free Library",
+    "place_id": "ChIJ4boEhCK_j4AROiNUBPxrOSo",
+    "data_id": "0x808fbf228404bae1:0x2a396bfc0454233a",
+    "data_cid": "3042581753414034234",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf228404bae1%3A0x2a396bfc0454233a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf228404bae1%3A0x2a396bfc0454233a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5538597,
+     "longitude": -122.03236469999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ4boEhCK_j4AROiNUBPxrOSo",
+    "provider_id": "/g/11v06h0jj6",
+    "unclaimed_listing": true,
+    "type": "Library",
+    "types": [
+     "Library"
+    ],
+    "type_id": "library",
+    "type_ids": [
+     "library"
+    ],
+    "address": "5064 Chelsea Dr, Newark, CA 94560",
+    "country": "United States",
+    "open_state": "Open · Closes 4 PM",
+    "hours": "Open · Closes 4 PM",
+    "operating_hours": {
+     "monday": "9 AM–4 PM",
+     "tuesday": "9 AM–4 PM",
+     "wednesday": "9 AM–4 PM",
+     "thursday": "9 AM–4 PM",
+     "friday": "9 AM–4 PM",
+     "saturday": "Closed",
+     "sunday": "Closed"
+    },
+    "phone": "(715) 690-2488",
+    "website": "https://littlefreelibrary.org/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=7_N6xp_LLQDIgLu-5DNsZQ&cb_client=search.gws-prod.grass&w=80&h=92&yaw=125.85444&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/OGxzeHicHc1RDoIgGADg2_AmoMOyNtaLL23OzddeHCIBGwrjR7HrdKtuU-sC3_d5m5QCXAmBFJVKu1U52EM5KILA2nvtlAgWsPQL2UuSzLZMq7DuFsTq7czPY386wth1Q3vX3VbUbQ-PAclplM6qNXFQIkqDdf6J0c9YRwGAMm8oMvxSoZfIvKxq3NSMMRRskoZT9H-efuclpV_UZTny"
+   },
+   {
+    "position": 11,
+    "title": "Little Free Library",
+    "place_id": "ChIJdRM32H-_j4ARFHm8EXbEJCo",
+    "data_id": "0x808fbf7fd8371375:0x2a24c47611bc7914",
+    "data_cid": "3036768060137306388",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf7fd8371375%3A0x2a24c47611bc7914&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf7fd8371375%3A0x2a24c47611bc7914&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5693309,
+     "longitude": -122.020834
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJdRM32H-_j4ARFHm8EXbEJCo",
+    "provider_id": "/g/11h33xzpm0",
+    "unclaimed_listing": true,
+    "type": "Library",
+    "types": [
+     "Library"
+    ],
+    "type_id": "library",
+    "type_ids": [
+     "library"
+    ],
+    "address": "35799 Caxton Pl, Fremont, CA 94536",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(715) 690-2488",
+    "website": "https://app.littlefreelibrary.org/ourmap",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmO560l2FcF-N2VAUMXeT6Gg3_4E0pdRk3E1l_qj1pWVNUnz377KydxUkKwvxPl3IQDpmcDLqpnF6hQ4_YpCAJajXustx2_e0vsY_0KfftKgvnrRaz3aZY1rFLQwa75wBRCrsBhJlw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/wlqB83icHcRRboIwAADQEyGFKiRL_EAUo6gbZKj40zS1ttFSalso44Y7grcx8X281z-3Vpkv3xccTljbMkE7QzVppaXSTkjb-ExjYzxi_CTtlWi-ZxEQYUYy7xAek2p_pr_RmkE0XQF1LR9wFQj0vAfqdDxUcoRxnP9dh-qRu374EXBTLFVDlrunklnEiymqVZps8f3cGTuEiILe1Ajkt5vNWS91iUeIL3Wgs13hcDxzizLVZsG3ws1dAADw-GfiyTfk8kYM"
+   },
+   {
+    "position": 12,
+    "title": "Alameda County Library Administration",
+    "place_id": "ChIJkQ-Qu3jBj4ARG9UsJfoeA2A",
+    "data_id": "0x808fc178bb900f91:0x60031efa252cd51b",
+    "data_cid": "6918407512285566235",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc178bb900f91%3A0x60031efa252cd51b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc178bb900f91%3A0x60031efa252cd51b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5508515,
+     "longitude": -121.97103919999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJkQ-Qu3jBj4ARG9UsJfoeA2A",
+    "provider_id": "/g/11vhgv9sn4",
+    "rating": 5,
+    "reviews": 2,
+    "unclaimed_listing": true,
+    "type": "Government office",
+    "types": [
+     "Government office"
+    ],
+    "type_id": "government_office",
+    "type_ids": [
+     "government_office"
+    ],
+    "address": "2450 Stevenson Blvd, Fremont, CA 94538",
+    "country": "United States",
+    "phone": "(510) 745-1500",
+    "website": "http://aclibrary.org/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     },
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     },
+     {
+      "parking": [
+       "On-site parking"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UwAdtPCw8rJMP06XJdjdow&cb_client=search.gws-prod.grass&w=80&h=92&yaw=100.62101&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Z8gpH3icHc1LCsIwFEDR3WRmPh2UKgQRZ4VCJ4IzSZOYRNImJM8-3Y67cjd-xhfOfb88QK47xioUa2ENFnN42Fg3WVGXkotW5VCpTjNbBQN_n6dFhbjPaknByBMeDIxH7Eo_jLw99-ZmEhI9XXQMdgFZrSraU4dfsSRDXVG1EpQdJ15uG_JUKAXntG0EFyQH0F5y8v9c0_pLHwKoOms"
+   },
+   {
+    "position": 13,
+    "title": "East Palo Alto Library",
+    "place_id": "ChIJ_49s0Xy7j4ARvJtJ6-su85M",
+    "data_id": "0x808fbb7cd16c8fff:0x93f32eebeb499bbc",
+    "data_cid": "10660916333715758012",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbb7cd16c8fff%3A0x93f32eebeb499bbc&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbb7cd16c8fff%3A0x93f32eebeb499bbc&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.4723162,
+     "longitude": -122.1398212
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ_49s0Xy7j4ARvJtJ6-su85M",
+    "provider_id": "/m/04hy2hc",
+    "rating": 4.5,
+    "reviews": 73,
+    "type": "Public library",
+    "types": [
+     "Public library"
+    ],
+    "type_id": "public_library",
+    "type_ids": [
+     "public_library"
+    ],
+    "address": "2415 University Ave, East Palo Alto, CA 94303",
+    "country": "United States",
+    "open_state": "Open · Closes 8 PM",
+    "hours": "Open · Closes 8 PM",
+    "operating_hours": {
+     "monday": "10 AM–8 PM",
+     "tuesday": "10 AM–8 PM",
+     "wednesday": "10 AM–8 PM",
+     "thursday": "10 AM–8 PM",
+     "friday": "10 AM–5 PM",
+     "saturday": "10 AM–5 PM",
+     "sunday": "Closed"
+    },
+    "phone": "(833) 937-7625",
+    "website": "http://smcl.org/eastpaloalto",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards"
+      ]
+     }
+    ],
+    "user_review": "\"They recently remodeled the library and it looks really good.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNQR5S6tWbMZ78Nl2gfH5WAMAo-P4aODp5_Lrvh2S-4A4LN3BYu7aaxnReetcnUeAKDadWsbtjRiUIwcdu1QhXg4TWm76SrCw1NEaiEzdEMS6Yx2ueeyhlSjfZ9hy1p-TWWpq0=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/0zco2XicHcTdzsEwAADQJ6r92A8SF8USwoaVFDdSXbWka2vtDA_oHb63-RLn4vx9hXPGjjxPin6Pa80lay1rqFaOKdejuvZ4Q6wF1Hpw-jSyLrZljBKHL_kpHRQy5Nd5jGEONdhEZD0z8XnVPEWIQASjVdGfHNuUkJcqGXNU7RlczkiF7cXdy9t-0dGqDbbiwKMdrtMENdMuKDJyyz5VlqPk-Apbxt5Covv1NBTvwIAdxubhj7vA930gflOg_gEJlkSR"
+   },
+   {
+    "position": 14,
+    "title": "Milpitas Library",
+    "place_id": "ChIJndQ-LdTIj4ARBgBr-nlY0eY",
+    "data_id": "0x808fc8d42d3ed49d:0xe6d15879fa6b0006",
+    "data_cid": "16632172179771555846",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc8d42d3ed49d%3A0xe6d15879fa6b0006&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc8d42d3ed49d%3A0xe6d15879fa6b0006&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.4323653,
+     "longitude": -121.90709679999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJndQ-LdTIj4ARBgBr-nlY0eY",
+    "provider_id": "/m/06_vkdz",
+    "rating": 4.7,
+    "reviews": 744,
+    "type": "Public library",
+    "types": [
+     "Public library"
+    ],
+    "type_id": "public_library",
+    "type_ids": [
+     "public_library"
+    ],
+    "address": "160 N Main St, Milpitas, CA 95035",
+    "country": "United States",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "monday": "10 AM–9 PM",
+     "tuesday": "10 AM–9 PM",
+     "wednesday": "10 AM–9 PM",
+     "thursday": "10 AM–9 PM",
+     "friday": "10 AM–7 PM",
+     "saturday": "10 AM–7 PM",
+     "sunday": "10 AM–7 PM"
+    },
+    "phone": "(408) 262-1171",
+    "website": "https://sccld.org/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards"
+      ]
+     },
+     {
+      "children": [
+       "Has changing table(s)"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking garage",
+       "Free parking lot",
+       "Free street parking",
+       "Paid parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"spacious, quiet, and offers a great collection of books and resources.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmP6nf36kfKD_bHlOhqEm68mfv-LIh9EFDY_XbVelVNSQeE_ZqbP8fh4cOyTmP5JQ6FebQrBz_TQK_dQ9BsclGd9v-IinMqUpn5yT472r-275RuopcLpLBBxfkJkojZY6n8UY9W8=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/8SFDzHicHcRZcoIwAADQE0WoSoTO9KMorrSSigv-ZCQmRMkGQVwu2DN4G2d8H-_5z5vG2E_HEbzXKbQuBL1YWhOtGqqaDtHSKeqDtYBY53vYGiETqFgPlmwxwvlULHkVSehL1oJ4xoNoPMrwLt9QsfldIRrhfZUnPuN9srynMvHmCI5pjurwgVO0wEcUhJaIyTFoweykfqq1Ud497Q-6NegOvL-LNiQ2cRjeWDkv9XmfQeWvs2Drf10_XNcF_D0B6gWaZ0TO"
+   },
+   {
+    "position": 15,
+    "title": "Weekes Branch Library",
+    "place_id": "ChIJT1M7FRyUj4AR28q7HKSZXEg",
+    "data_id": "0x808f941c153b534f:0x485c99a41cbbcadb",
+    "data_cid": "5214211398723947227",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f941c153b534f%3A0x485c99a41cbbcadb&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f941c153b534f%3A0x485c99a41cbbcadb&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.633361,
+     "longitude": -122.0789123
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJT1M7FRyUj4AR28q7HKSZXEg",
+    "provider_id": "/g/1tsbmbxl",
+    "rating": 3.8,
+    "reviews": 66,
+    "type": "Public library",
+    "types": [
+     "Public library"
+    ],
+    "type_id": "public_library",
+    "type_ids": [
+     "public_library"
+    ],
+    "address": "27300 Patrick Ave, Hayward, CA 94544",
+    "country": "United States",
+    "open_state": "Closed · Opens 10 AM Tue",
+    "hours": "Closed · Opens 10 AM Tue",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "10 AM–7 PM",
+     "wednesday": "10 AM–7 PM",
+     "thursday": "10 AM–5 PM",
+     "friday": "10 AM–5 PM",
+     "saturday": "10 AM–5 PM",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 782-2155",
+    "website": "https://www.hayward-ca.gov/public-library",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "user_review": "\"Loved walking the aisles and exploring and discovering books for the kids.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNjgGX6OUQmWgGJtp1TD7Lv1r6fZmrwq_14WWOg_sk402qHvr31XHPzOVDfo4njb4pzax7psmX16Nd1CdxI_mh6HWomzkBlM4Iy02hZfTiR4mhhqyNf1bsDMwM5fKAsEVTUZuugSw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/cL6dTHicHcRNjoIwGADQEyGtdjAxcaEyEUcBf1AIG6JIW5XS0q-AckOP4G1M5i3e582NUTCx7ZKPBkxKVhYNFDqXlSkqM8ilsJk-A1g52LNFq0oR3NkyccLjTsRs-WcUjtzxpsXaoanQXZ1hEschy-BB0LD2Wj3Cibftw5NLJanuF6L683OsQCTYCa54cX2uMsEdL5aif8xLn6xeaMhTGt32RHBevwKKL-D6nf9D1zP4PUXHtGnYoZt2GCFk8f9zq_oCdaJG2w"
+   },
+   {
+    "position": 16,
+    "title": "Harvey Green Elementary's Little Free Library",
+    "place_id": "ChIJzSyQqwfHj4ARClWWcsQ0GoQ",
+    "data_id": "0x808fc707ab902ccd:0x841a34c47296550a",
+    "data_cid": "9518978780741653770",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc707ab902ccd%3A0x841a34c47296550a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc707ab902ccd%3A0x841a34c47296550a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.518999099999995,
+     "longitude": -121.9585973
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJzSyQqwfHj4ARClWWcsQ0GoQ",
+    "provider_id": "/g/11shj992gm",
+    "unclaimed_listing": true,
+    "type": "Public library",
+    "types": [
+     "Public library"
+    ],
+    "type_id": "public_library",
+    "type_ids": [
+     "public_library"
+    ],
+    "address": "Fremont, CA 94538",
+    "country": "United States",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOkx6g88_oE3JApb58GxB4sxBjkRhAJxOuaY6ILqZkQHVi-pdV_8lyAboX1icJ1lzHP_aHslv0-T4USGD6eD86k_YlQU2BIhNja_DBr8KmltCL0C-FjJ6LMylOfplLwH1lVQdw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Uq16SHicHcTdboIwGADQJyqU6ZrGxAt-NgFRxjbJ3E2DBSnwQTtaBX1A32Fvs2Tn4vw-hDFKr2wbxMKqpayhuuhq5HIw1WAsLnu7HgutEde2618V9Gk3k5pSJl8WsatOz3Qze0s9e233Ltx4Ti_FkUTJz3eXhXmDVJkzCjf3JL-chscO3MM3VoQarhh9Lg8fm4BUASUdO0J2ePIisW8LFngj3fZg_AT76LWNSbK7QXpWkEyhA3lWTuvJwRgj8T9Hwx8-bEQ_"
+   },
+   {
+    "position": 17,
+    "title": "SchoolPress Site",
+    "place_id": "ChIJq6p67duVj4ARXQz9_DwsrRk",
+    "data_id": "0x808f95dbed7aaaab:0x19ad2c3cfcfd0c5d",
+    "data_cid": "1850183662373243997",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f95dbed7aaaab%3A0x19ad2c3cfcfd0c5d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f95dbed7aaaab%3A0x19ad2c3cfcfd0c5d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.595510499999996,
+     "longitude": -122.076776
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJq6p67duVj4ARXQz9_DwsrRk",
+    "provider_id": "/g/11srgjrwdl",
+    "unclaimed_listing": true,
+    "type": "Library",
+    "types": [
+     "Library"
+    ],
+    "type_id": "library",
+    "type_ids": [
+     "library"
+    ],
+    "address": "31100 Fredi St, Union City, CA 94587",
+    "country": "United States",
+    "phone": "(510) 471-1039",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kbDirkPNDPFEV7w871EVkA&cb_client=search.gws-prod.grass&w=80&h=92&yaw=100.49924&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/OYBdKnicHc1LCsMgFEDR3TirmhJIUpBSSDosGWVajLH6iImir7HdTnfV3fQzvnDu-2URQzowljBqjRvoHOChXdoFSY33xmkZIFHlF7YVDO19GVcJ7hjk6mES89hCnPtL25-7ocp1VXTDfCJqvCoHekWRtIzKUpO_YvQTNVGmRLKoObGi2ZOnzKLgnJZNsy9JAFRWcPL_3Pz2Sx_SSTnc"
+   },
+   {
+    "position": 18,
+    "title": "Redwood City Public Library",
+    "place_id": "ChIJcy9sW6yjj4ARjJ-jcqUsICY",
+    "data_id": "0x808fa3ac5b6c2f73:0x26202ca572a39f8c",
+    "data_cid": "2747244861800554380",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fa3ac5b6c2f73%3A0x26202ca572a39f8c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fa3ac5b6c2f73%3A0x26202ca572a39f8c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.4840501,
+     "longitude": -122.2273354
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJcy9sW6yjj4ARjJ-jcqUsICY",
+    "provider_id": "/m/0j8wgs7",
+    "rating": 4.6,
+    "reviews": 274,
+    "type": "Public library",
+    "types": [
+     "Public library"
+    ],
+    "type_id": "public_library",
+    "type_ids": [
+     "public_library"
+    ],
+    "address": "1044 Middlefield Rd, Redwood City, CA 94063",
+    "country": "United States",
+    "open_state": "Open · Closes 8 PM",
+    "hours": "Open · Closes 8 PM",
+    "operating_hours": {
+     "monday": "10 AM–8 PM",
+     "tuesday": "10 AM–8 PM",
+     "wednesday": "10 AM–8 PM",
+     "thursday": "10 AM–8 PM",
+     "friday": "10 AM–5 PM",
+     "saturday": "10 AM–5 PM",
+     "sunday": "12–5 PM"
+    },
+    "phone": "(650) 780-7018",
+    "website": "https://www.redwoodcity.org/departments/library",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Assistive hearing loop",
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Paid parking lot",
+       "Paid street parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"A fantastic local library ataffed by friendly, kind people.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM4lO0YNiKl1c0MsYCxbwFDJTdZ4RRMDOLFl-31xNBpXJ5rFWlEvtUV1iD4oofIIm7S8IY2_sSQkiXMcpAJMWeTzupTjHBI8hldughuwSnz6ddmLKokmejGshwqXg7ww5JQgJo=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/16t543icHcRdDsEwAADgE8065icSD5ixUsKGzYvQVTvatdZOZQd0B7eR-B6-74cZo_TQdTnrtKiUlJNakwrL0pDStLAULq0uWjtYu-PpS3GBfL4B2bpYcg8DpLPp-2rDACb5yd_tULBZhdzpeO_1RKWwW4VHPnuZ_cErAl_KWxSJfjyIsvZZx9tHkSKsxhAdSdLUKrkvJtGA8bymrLZx2fTyXKyW8iHIfa6Zfaa0b20XbimUI-sBABz2HzvlD0yuRck"
+   },
+   {
+    "position": 19,
+    "title": "Hayward Public Library",
+    "place_id": "ChIJSzixutiTj4ARvgg30CwF5AQ",
+    "data_id": "0x808f93d8bab1384b:0x4e4052cd03708be",
+    "data_cid": "352412360871708862",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f93d8bab1384b%3A0x4e4052cd03708be&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f93d8bab1384b%3A0x4e4052cd03708be&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.6711205,
+     "longitude": -122.083445
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJSzixutiTj4ARvgg30CwF5AQ",
+    "provider_id": "/m/0j8wb0z",
+    "rating": 4.7,
+    "reviews": 351,
+    "type": "Public library",
+    "types": [
+     "Public library",
+     "Children's library",
+     "Literacy program"
+    ],
+    "type_id": "public_library",
+    "type_ids": [
+     "public_library",
+     "childrens_library",
+     "literacy_program"
+    ],
+    "address": "888 C St, Hayward, CA 94541",
+    "country": "United States",
+    "open_state": "Closed · Opens 10 AM Tue",
+    "hours": "Closed · Opens 10 AM Tue",
+    "operating_hours": {
+     "monday": "Closed",
+     "tuesday": "10 AM–7 PM",
+     "wednesday": "10 AM–7 PM",
+     "thursday": "10 AM–5 PM",
+     "friday": "10 AM–5 PM",
+     "saturday": "10 AM–5 PM",
+     "sunday": "Closed"
+    },
+    "phone": "(510) 293-8685",
+    "website": "https://www.hayward-ca.gov/public-library",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards"
+      ]
+     },
+     {
+      "children": [
+       "Has changing table(s)"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking garage",
+       "Free parking lot",
+       "Free street parking",
+       "Paid parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Friendly, clean, warm, welcoming and well-stocked library!\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNfPSk95hFsW5lHd61rTuO2wz91LlTJ_UOBiilKp90a1PYjH6w6I6FEYShQN7-CZ-fxW_KSHGkEe0k_WyEeaAYOj4wdXnU3HvZdMIVbcNXO2659sAavR9lHtD5EfHySJNcfh1Y=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/iwCEgHicHcTvEoEwAADwJ5o2NDd3PiQx_woh-dJlrUZTXZvCA3oHb-PO78Pv-xFaV2poGFL0OllZZpI_FK9ZWWhe6A4r70ZWx0oBpgzLbip5d9ONnxNTTFVgSppgVO8fXrd9E7SS-0V08MbXq1xWBMZoE94obvEcT53QF1t3AOwzSJ9BtPTpLHc4zKPg5fDYCr1bv01OxaFHm3Oynh8vzD15XWwSZcXNjkiqJ6aT0pe_cFkqUDhqEYQQiP8MFD_lFUNF"
+   },
+   {
+    "position": 20,
+    "title": "City of Pleasanton Library",
+    "place_id": "ChIJXVP8hv-nXYYRRDoyQfCklqs",
+    "data_id": "0x865da7ff86fc535d:0xab96a4f041323a44",
+    "data_cid": "12364251178785192516",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x865da7ff86fc535d%3A0xab96a4f041323a44&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x865da7ff86fc535d%3A0xab96a4f041323a44&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.6572853,
+     "longitude": -121.8809137
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJXVP8hv-nXYYRRDoyQfCklqs",
+    "provider_id": "/m/0dv41j",
+    "rating": 4.7,
+    "reviews": 289,
+    "type": "Public library",
+    "types": [
+     "Public library"
+    ],
+    "type_id": "public_library",
+    "type_ids": [
+     "public_library"
+    ],
+    "address": "400 Old Bernal Ave, Pleasanton, CA 94566",
+    "country": "United States",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "monday": "10 AM–6 PM",
+     "tuesday": "1–9 PM",
+     "wednesday": "1–9 PM",
+     "thursday": "10 AM–6 PM",
+     "friday": "9 AM–5 PM",
+     "saturday": "9 AM–5 PM",
+     "sunday": "Closed"
+    },
+    "phone": "(925) 931-3400",
+    "website": "https://www.cityofpleasantonca.gov/your-community/pleasanton-library/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards"
+      ]
+     },
+     {
+      "children": [
+       "Has changing table(s)",
+       "Kid-friendly activities"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "On-site parking"
+      ]
+     }
+    ],
+    "user_review": "\"It's a Beautiful spacious clean Library with great customer service\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOGQnlyav1fmL9g5kd6GkO4-mutKK3ZOLao2wxY9IlrPKerbqKVZaaocuiSZ8M8X-tnngORWmuYuGZ-0ZnU6q2gInlLQRvQYXR0u7HrClVJuubN-M7Bk0xUgkwS--M2NlzpF7fg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/RF9e6nicHcRbrsFAGADgFf06ylEkHhyJoq1qhaPzNubUVDqXmkuLDVqD3Uh8D9_7VVnbmKnn8WrQY0oxXjpTaqqkLaXtUSU8pokxQI03X7QNF2mYSf4gbf8i4gn7qf9HYZ0OQTgbRQOcxkT53b2YrLneRaU-36IjJkRRd93jcTI-gZWSpfmfcIULMSAsD6Obz9aSx1neZsUpRy5Y6QU_bpw7byEJfmt0P7C62wMk_pY_m2VwYbOujxCC6jsF-QEIIUXO"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&gl=us&google_domain=google.com&hl=en&ll=%4037.555%2C-121.982%2C13z&q=public+library&start=20&type=search"
+  }
+ }
+}

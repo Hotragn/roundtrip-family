@@ -1,0 +1,6 @@
+{
+ "body": "{\"fluency\": 4, \"correctness\": 4, \"note\": \"'ఏమైనా సందేహం' softens 'lost'; 'ఆ' added unnecessarily\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:05:47.948Z"
+}

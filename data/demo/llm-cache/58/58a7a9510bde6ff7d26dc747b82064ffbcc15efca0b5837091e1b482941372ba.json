@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791224676452",
+  "object": "chat.completion",
+  "created": 1791224676,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c1\",\"parent\":\"father\",\"reason\":\"He enjoys reading and quiet environments like he does with his Telugu novels.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c2\",\"parent\":\"mother\",\"reason\":\"She enjoys meeting other women her age in calm settings.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true}],\"note\":\"No Telugu events were found this week.\"}\n```",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": 106,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1282,
+   "completion_tokens": 105,
+   "total_tokens": 1387,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 14.518180847167969
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:24:36.528Z",
+ "latencyMs": 1471
+}

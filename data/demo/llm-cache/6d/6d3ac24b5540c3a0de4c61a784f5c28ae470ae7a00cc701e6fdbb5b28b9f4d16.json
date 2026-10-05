@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219749232",
+  "object": "chat.completion",
+  "created": 1791219749,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "బస్సు ఉదయం పది గంటలకు వస్తుంది.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 88,
+   "completion_tokens": 14,
+   "total_tokens": 102,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 1.1818181276321411
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:02:29.303Z"
+}

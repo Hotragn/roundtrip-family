@@ -1,0 +1,465 @@
+{
+ "provenance": "live_search",
+ "engine": "google",
+ "request": "https://serpapi.com/search.json?engine=google&q=senior+events+library+programs+in+Fremont%2C+California+this+week&location=Fremont%2C+California%2C+United+States&gl=us&hl=en&google_domain=google.com",
+ "note": "events: senior events library programs",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:21:39.505Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google",
+   "q": "senior events library programs in Fremont, California this week",
+   "location_requested": "Fremont, California, United States",
+   "location_used": "Fremont,California,United States",
+   "google_domain": "google.com",
+   "hl": "en",
+   "gl": "us",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "senior events library programs in Fremont, California this week",
+   "total_results": 53,
+   "time_taken_displayed": 0.48,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "local_map": {
+   "link": "https://www.google.com/search?q=senior+events+library+programs+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&hl=en&gl=us&sxsrf=APpeQnsq_tB_Iin39fTSYYjo_YjycqcLAQ:1791220898493&udm=local&lsack=otzDas7bHb_bkPIPjY2oqA0&sa=X&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQtgN6BAg_EAM",
+   "image": "https://serpapi.com/searches/6ac3dca2a8dce6c0156b8ac1/images/Swz0Ns6gCGNx96Emnm-CRA.png",
+   "gps_coordinates": {
+    "latitude": 37.55247109621965,
+    "longitude": -121.9781970977783
+   }
+  },
+  "local_results": {
+   "places": [
+    {
+     "position": 1,
+     "title": "Age Well Center at Lake Elizabeth",
+     "type": "Senior citizen center",
+     "rating": 4.4,
+     "reviews": 126,
+     "description": "\"User friendly for seniors with many facilities and primary health checkup.\"",
+     "links": {
+      "phone": "tel:(510) 790-6600",
+      "website": "https://www.fremont.gov/government/departments/human-services/age-well-centers"
+     },
+     "place_id": "10888051856901281615",
+     "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&ludocid=10888051856901281615&q=senior+events+library+programs+in+Fremont%2C+California+this+week",
+     "provider_id": "/g/1tddb2cf",
+     "gps_coordinates": {
+      "latitude": 37.546353,
+      "longitude": -121.966908
+     },
+     "address": "40086 Paseo Padre Pkwy, Fremont, CA 94538",
+     "hours": "Open · Closes 4:30 PM",
+     "phone": "(510) 790-6600"
+    },
+    {
+     "position": 2,
+     "title": "Cogir of Fremont",
+     "type": "Retirement community",
+     "rating": 4.6,
+     "reviews": 66,
+     "description": "\"2. Activities and Exercises.\"",
+     "links": {
+      "phone": "tel:(510) 616-4713",
+      "website": "https://cogirusa.com/communities/cogir-of-fremont/?utm_campaign=google-business-profile&utm_medium=organic&utm_source=gmb&utm_content=cogir-of-fremont"
+     },
+     "place_id": "11850197488382647344",
+     "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&ludocid=11850197488382647344&q=senior+events+library+programs+in+Fremont%2C+California+this+week",
+     "provider_id": "/g/11bwl3nkzn",
+     "gps_coordinates": {
+      "latitude": 37.556834,
+      "longitude": -121.985631
+     },
+     "address": "2860 Country Dr, Fremont, CA 94536",
+     "hours": "Open 24 hours",
+     "phone": "(510) 616-4713"
+    },
+    {
+     "position": 3,
+     "title": "Fremont Main Library",
+     "type": "Public library",
+     "rating": 4.5,
+     "reviews": 565,
+     "description": "\"Lots of activities for everyone\"",
+     "links": {
+      "phone": "tel:(510) 745-1400",
+      "website": "https://aclibrary.org/locations/FRM"
+     },
+     "place_id": "1089026183987394291",
+     "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&ludocid=1089026183987394291&q=senior+events+library+programs+in+Fremont%2C+California+this+week",
+     "provider_id": "/g/1tffpl5t",
+     "gps_coordinates": {
+      "latitude": 37.550822,
+      "longitude": -121.970979
+     },
+     "address": "2400 Stevenson Blvd, Fremont, CA 94538",
+     "hours": "Closed · Opens 12 PM",
+     "phone": "(510) 745-1400"
+    }
+   ],
+   "more_locations_link": "https://www.google.com/search?q=senior+events+library+programs+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&hl=en&gl=us&sxsrf=APpeQnsq_tB_Iin39fTSYYjo_YjycqcLAQ:1791220898493&udm=local&lsack=otzDas7bHb_bkPIPjY2oqA0&sa=X&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQjGp6BAhAEAE"
+  },
+  "knowledge_graph": {
+   "place_id": "ChIJVZZJlsHAj4ARTxei-nkhGpc"
+  },
+  "related_questions": [
+   {
+    "question": "What are some fun activities for seniors in San Francisco?",
+    "type": "ai_overview",
+    "page_token": "rbFcjnicHdBdbpswAABg9TJ9bLA9mBopmkSCydzFkQ3mxy-TsUkImJ8kKJC87Qo9Q0_V07TaDT59_z7sqWs-n96rcRyuy8VimqaXY98fbfmi-3ahrvdOL7SytlC6WXo_PfDroFfBTfvri_aZGIZkw504HGeJ5DmO6bUMx5ohijScQY6kKuMK5VauTWbv1CGXAr56RWAiExJQQCz3IfFFZ1yaGcWhedunOI9gpSQaXBn8_qES_KY7sslb6piH9GhMkArmWnXU8i2ZkweBJa48sfGjXWjCsibEOO7ZNPNE4Sh5Yy2rqzO3DMb42yWAywDeliFYCwfMMuNZgao9S3hCH_IPi8A-TXs3Tu2oAclSIUkU0zZBtqMI06AyN7MdgjzbobypThkkFxFYpmxzLxD2d35_YoI_dG1bgTBigJzzLAlMw8X3USdEdTJwGHcQ3w2WqZmeD_q2Qs__r1d_D-24HC798Qun2osh",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=rbFcjnicHdBdbpswAABg9TJ9bLA9mBopmkSCydzFkQ3mxy-TsUkImJ8kKJC87Qo9Q0_V07TaDT59_z7sqWs-n96rcRyuy8VimqaXY98fbfmi-3ahrvdOL7SytlC6WXo_PfDroFfBTfvri_aZGIZkw504HGeJ5DmO6bUMx5ohijScQY6kKuMK5VauTWbv1CGXAr56RWAiExJQQCz3IfFFZ1yaGcWhedunOI9gpSQaXBn8_qES_KY7sslb6piH9GhMkArmWnXU8i2ZkweBJa48sfGjXWjCsibEOO7ZNPNE4Sh5Yy2rqzO3DMb42yWAywDeliFYCwfMMuNZgao9S3hCH_IPi8A-TXs3Tu2oAclSIUkU0zZBtqMI06AyN7MdgjzbobypThkkFxFYpmxzLxD2d35_YoI_dG1bgTBigJzzLAlMw8X3USdEdTJwGHcQ3w2WqZmeD_q2Qs__r1d_D-24HC798Qun2osh",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVZHWldRa0pKUjBoNVRGZ3hRVTFSVGxZeWVXWlJibU5FVW5CU1ZXaDZkVlpZT0hCcVJVOW9hRlZhWkdjd2VWZzBXa0l3Wm01V2QyRlBTV1kzWHpKNFMwaFpjWEUzV0VoTWVXUkVhelE1Tlc4MGJtZGplVFJMUlhsUlFSSVhiM1I2UkdGek4ySklZbDlpYTFCSlVHcFpNbTl4UVRBYUlrRkVjM0k1WmxGVmFVSnVRazlSZW1aaWFqUlNkM015V1RocWVFZHBkMmRtYjNjIiwiZmN2IjoiMyIsImVpIjoib3R6RGFzN2JIYl9ia1BJUGpZMm9xQTAiLCJxYyI6IkNqNXpaVzVwYjNJZ1pYWmxiblJ6SUd4cFluSmhjbmtnY0hKdlozSmhiWE1nYVc0Z1puSmxiVzl1ZENCallXeHBabTl5Ym1saElIUm9hWE1nZDJWbGF4QUFmVEYyQlQ4IiwicXVlc3Rpb24iOiJXaGF0IGFyZSBzb21lIGZ1biBhY3Rpdml0aWVzIGZvciBzZW5pb3JzIGluIFNhbiBGcmFuY2lzY28/IiwibGsiOiJHaWRoWTNScGRtbDBhV1Z6SUdadmNpQnpaVzVwYjNKeklHbHVJSE5oYmlCbWNtRnVZMmx6WTI4IiwiYnMiOiJjM1hQdlF2Q01CQ0hZVnd6T1ZlcUJ5cmk0dERScGRTaDRDQU9EcDJ2OVdLRE5nZEoydUpfYjZSVV9LanpQYnpIVDF6RU5pdlJBUm9DeXhXQnJEVmc0VlNqbkNJTGtnMVkwb3FOQmFYaGhCcFNnN3BRdHVBNFdnZXJfOVo2SzNzckVqSE5TdkpmSEVQRHQxbzdJdk5rcWFHS3RZdWpXUkMyZzBKMlFoekVva3NVdnJ5SE0ydDBCRG56MVg2RWxzRzhmVG4xNF9yY1VXeS1waHVpOS0zZXVwSmdoM2RJREdFY2hjRmt3T1QtN2hzNEhqMEEiLCJpZCI6ImZjX290ekRhczdiSGJfYmtQSVBqWTJvcUEwXzYifQ==",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVZHWldRa0pKUjBoNVRGZ3hRVTFSVGxZeWVXWlJibU5FVW5CU1ZXaDZkVlpZT0hCcVJVOW9hRlZhWkdjd2VWZzBXa0l3Wm01V2QyRlBTV1kzWHpKNFMwaFpjWEUzV0VoTWVXUkVhelE1Tlc4MGJtZGplVFJMUlhsUlFSSVhiM1I2UkdGek4ySklZbDlpYTFCSlVHcFpNbTl4UVRBYUlrRkVjM0k1WmxGVmFVSnVRazlSZW1aaWFqUlNkM015V1RocWVFZHBkMmRtYjNjIiwiZmN2IjoiMyIsImVpIjoib3R6RGFzN2JIYl9ia1BJUGpZMm9xQTAiLCJxYyI6IkNqNXpaVzVwYjNJZ1pYWmxiblJ6SUd4cFluSmhjbmtnY0hKdlozSmhiWE1nYVc0Z1puSmxiVzl1ZENCallXeHBabTl5Ym1saElIUm9hWE1nZDJWbGF4QUFmVEYyQlQ4IiwicXVlc3Rpb24iOiJXaGF0IGFyZSBzb21lIGZ1biBhY3Rpdml0aWVzIGZvciBzZW5pb3JzIGluIFNhbiBGcmFuY2lzY28%2FIiwibGsiOiJHaWRoWTNScGRtbDBhV1Z6SUdadmNpQnpaVzVwYjNKeklHbHVJSE5oYmlCbWNtRnVZMmx6WTI4IiwiYnMiOiJjM1hQdlF2Q01CQ0hZVnd6T1ZlcUJ5cmk0dERScGRTaDRDQU9EcDJ2OVdLRE5nZEoydUpfYjZSVV9LanpQYnpIVDF6RU5pdlJBUm9DeXhXQnJEVmc0VlNqbkNJTGtnMVkwb3FOQmFYaGhCcFNnN3BRdHVBNFdnZXJfOVo2SzNzckVqSE5TdkpmSEVQRHQxbzdJdk5rcWFHS3RZdWpXUkMyZzBKMlFoekVva3NVdnJ5SE0ydDBCRG56MVg2RWxzRzhmVG4xNF9yY1VXeS1waHVpOS0zZXVwSmdoM2RJREdFY2hjRmt3T1QtN2hzNEhqMEEiLCJpZCI6ImZjX290ekRhczdiSGJfYmtQSVBqWTJvcUEwXzYifQ%3D%3D"
+   },
+   {
+    "question": "Where to volunteer in Fremont?",
+    "type": "ai_overview",
+    "page_token": "QVz3j3icHdBLbqMwAABQzWW6TAhOWyVSNCqNDYkGI_8geFOB3QRiA25KobCbu8yp5jStungXeH__2bo1_38NVd-79-1yOY7j4tJ1F_u6UF2zLN6nVi1VYW1ZKLN9eHxY_T6rHfw4BM9vh4AI59I99ZjBgEH7lgN64A2acZgKaimQAvfCVnvCD2NsqnXu433uyXMM5RyH-Mr8TciyHlOIB8ZlwAG9kcwltNEJ8xFUgFoVBZGe0VGjTSD8e5-vuilvJZKQRsQccSJQTNLLVH6Trb3JFnrFXnzG0K34lXIGEdXXahLCAh45RLKKpAbhJHK1zjQrPe_-5Mtaz3T9Gsqh8HQLKz3oyMH8FIPcVPXJP94EtKSwZioBCuKgq4mgs7raRlgHYm815p5ZM_60plk3a159pFD-KcPjc5LiUJC7sxp24O7nc_dybvqtu3WXL2FTgnc",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=QVz3j3icHdBLbqMwAABQzWW6TAhOWyVSNCqNDYkGI_8geFOB3QRiA25KobCbu8yp5jStungXeH__2bo1_38NVd-79-1yOY7j4tJ1F_u6UF2zLN6nVi1VYW1ZKLN9eHxY_T6rHfw4BM9vh4AI59I99ZjBgEH7lgN64A2acZgKaimQAvfCVnvCD2NsqnXu433uyXMM5RyH-Mr8TciyHlOIB8ZlwAG9kcwltNEJ8xFUgFoVBZGe0VGjTSD8e5-vuilvJZKQRsQccSJQTNLLVH6Trb3JFnrFXnzG0K34lXIGEdXXahLCAh45RLKKpAbhJHK1zjQrPe_-5Mtaz3T9Gsqh8HQLKz3oyMH8FIPcVPXJP94EtKSwZioBCuKgq4mgs7raRlgHYm815p5ZM_60plk3a159pFD-KcPjc5LiUJC7sxp24O7nc_dybvqtu3WXL2FTgnc",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVZHWldRa0pKUjBoNVRGZ3hRVTFSVGxZeWVXWlJibU5FVW5CU1ZXaDZkVlpZT0hCcVJVOW9hRlZhWkdjd2VWZzBXa0l3Wm01V2QyRlBTV1kzWHpKNFMwaFpjWEUzV0VoTWVXUkVhelE1Tlc4MGJtZGplVFJMUlhsUlFSSVhiM1I2UkdGek4ySklZbDlpYTFCSlVHcFpNbTl4UVRBYUlrRkVjM0k1WmxGVmFVSnVRazlSZW1aaWFqUlNkM015V1RocWVFZHBkMmRtYjNjIiwiZmN2IjoiMyIsImVpIjoib3R6RGFzN2JIYl9ia1BJUGpZMm9xQTAiLCJxYyI6IkNqNXpaVzVwYjNJZ1pYWmxiblJ6SUd4cFluSmhjbmtnY0hKdlozSmhiWE1nYVc0Z1puSmxiVzl1ZENCallXeHBabTl5Ym1saElIUm9hWE1nZDJWbGF4QUFmVEYyQlQ4IiwicXVlc3Rpb24iOiJXaGVyZSB0byB2b2x1bnRlZXIgaW4gRnJlbW9udD8iLCJsayI6IkdoMTNhR1Z5WlNCMGJ5QjJiMngxYm5SbFpYSWdhVzRnWm5KbGJXOXVkQSIsImJzIjoiYzNYUHZRdkNNQkNIWVZ3ek9WZXFCeXJpNHREUnBkU2g0Q0FPRHAydjlXS0ROZ2RKMnVKX2I2UlVfS2p6UGJ6SFQxekVOaXZSQVJvQ3l4V0JyRFZnNFZTam5DSUxrZzFZMG9xTkJhWGhoQnBTZzdwUXR1QTRXZ2VyXzlaNkszc3JFakhOU3ZKZkhFUER0MW83SXZOa3FhR0t0WXVqV1JDMmcwSjJRaHpFb2tzVXZyeUhNMnQwQkRuejFYNkVsc0c4ZlRuMTRfcmNVV3ktcGh1aTktM2V1cEpnaDNkSURHRWNoY0Zrd09ULTdoczRIajBBIiwiaWQiOiJmY19vdHpEYXM3YkhiX2JrUElQalkyb3FBMF82In0=",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVZHWldRa0pKUjBoNVRGZ3hRVTFSVGxZeWVXWlJibU5FVW5CU1ZXaDZkVlpZT0hCcVJVOW9hRlZhWkdjd2VWZzBXa0l3Wm01V2QyRlBTV1kzWHpKNFMwaFpjWEUzV0VoTWVXUkVhelE1Tlc4MGJtZGplVFJMUlhsUlFSSVhiM1I2UkdGek4ySklZbDlpYTFCSlVHcFpNbTl4UVRBYUlrRkVjM0k1WmxGVmFVSnVRazlSZW1aaWFqUlNkM015V1RocWVFZHBkMmRtYjNjIiwiZmN2IjoiMyIsImVpIjoib3R6RGFzN2JIYl9ia1BJUGpZMm9xQTAiLCJxYyI6IkNqNXpaVzVwYjNJZ1pYWmxiblJ6SUd4cFluSmhjbmtnY0hKdlozSmhiWE1nYVc0Z1puSmxiVzl1ZENCallXeHBabTl5Ym1saElIUm9hWE1nZDJWbGF4QUFmVEYyQlQ4IiwicXVlc3Rpb24iOiJXaGVyZSB0byB2b2x1bnRlZXIgaW4gRnJlbW9udD8iLCJsayI6IkdoMTNhR1Z5WlNCMGJ5QjJiMngxYm5SbFpYSWdhVzRnWm5KbGJXOXVkQSIsImJzIjoiYzNYUHZRdkNNQkNIWVZ3ek9WZXFCeXJpNHREUnBkU2g0Q0FPRHAydjlXS0ROZ2RKMnVKX2I2UlVfS2p6UGJ6SFQxekVOaXZSQVJvQ3l4V0JyRFZnNFZTam5DSUxrZzFZMG9xTkJhWGhoQnBTZzdwUXR1QTRXZ2VyXzlaNkszc3JFakhOU3ZKZkhFUER0MW83SXZOa3FhR0t0WXVqV1JDMmcwSjJRaHpFb2tzVXZyeUhNMnQwQkRuejFYNkVsc0c4ZlRuMTRfcmNVV3ktcGh1aTktM2V1cEpnaDNkSURHRWNoY0Zrd09ULTdoczRIajBBIiwiaWQiOiJmY19vdHpEYXM3YkhiX2JrUElQalkyb3FBMF82In0%3D"
+   },
+   {
+    "question": "Where can I donate books in Fremont?",
+    "type": "ai_overview",
+    "page_token": "1zz5EnicHdBRbpswGABg7TJ9bHBZsxEpmkZiAqgwxcHG8ctkbBIT_4DTZjHhbXfZqXaaSfuO8P3-A91g_366m9vNfawWC-_983kcz9A-q7FfyI_HoBZKAjRS2dXyyxJ9O6k1_pXFm2sW76lzbEuCQ4cSPpcnhUpZMbdRIUPHl9dNk4qQ2ikvKP6sq3xX9yilFLwOpqDC08jSBGQvPA0mVzEwxwAsScygAUJ6SYje5e6A8lnSwv_AScZAPATPkNqNt7YmWA061lZs9zSam1DMPDCOwlevLHqTVl9brknJviOKUa9m7UuILoee1AXOTRFCeRgMCBwtm7S8sjrqiq0J6l0UY6PvOnX4yIvwaE3HX_J3imEvwT6aMImLeOz2lMzqAj3ty7vk5Wtbnac3rnyL6VRVbMNqkRFuSFEJKvzTSd3X4dP_z_XPU39buffx_A-m54Sr",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=1zz5EnicHdBRbpswGABg7TJ9bHBZsxEpmkZiAqgwxcHG8ctkbBIT_4DTZjHhbXfZqXaaSfuO8P3-A91g_366m9vNfawWC-_983kcz9A-q7FfyI_HoBZKAjRS2dXyyxJ9O6k1_pXFm2sW76lzbEuCQ4cSPpcnhUpZMbdRIUPHl9dNk4qQ2ikvKP6sq3xX9yilFLwOpqDC08jSBGQvPA0mVzEwxwAsScygAUJ6SYje5e6A8lnSwv_AScZAPATPkNqNt7YmWA061lZs9zSam1DMPDCOwlevLHqTVl9brknJviOKUa9m7UuILoee1AXOTRFCeRgMCBwtm7S8sjrqiq0J6l0UY6PvOnX4yIvwaE3HX_J3imEvwT6aMImLeOz2lMzqAj3ty7vk5Wtbnac3rnyL6VRVbMNqkRFuSFEJKvzTSd3X4dP_z_XPU39buffx_A-m54Sr",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVZHWldRa0pKUjBoNVRGZ3hRVTFSVGxZeWVXWlJibU5FVW5CU1ZXaDZkVlpZT0hCcVJVOW9hRlZhWkdjd2VWZzBXa0l3Wm01V2QyRlBTV1kzWHpKNFMwaFpjWEUzV0VoTWVXUkVhelE1Tlc4MGJtZGplVFJMUlhsUlFSSVhiM1I2UkdGek4ySklZbDlpYTFCSlVHcFpNbTl4UVRBYUlrRkVjM0k1WmxGVmFVSnVRazlSZW1aaWFqUlNkM015V1RocWVFZHBkMmRtYjNjIiwiZmN2IjoiMyIsImVpIjoib3R6RGFzN2JIYl9ia1BJUGpZMm9xQTAiLCJxYyI6IkNqNXpaVzVwYjNJZ1pYWmxiblJ6SUd4cFluSmhjbmtnY0hKdlozSmhiWE1nYVc0Z1puSmxiVzl1ZENCallXeHBabTl5Ym1saElIUm9hWE1nZDJWbGF4QUFmVEYyQlQ4IiwicXVlc3Rpb24iOiJXaGVyZSBjYW4gSSBkb25hdGUgYm9va3MgaW4gRnJlbW9udD8iLCJsayI6IkdpTjNhR1Z5WlNCallXNGdhU0JrYjI1aGRHVWdZbTl2YTNNZ2FXNGdabkpsYlc5dWRBIiwiYnMiOiJjM1hQdlF2Q01CQ0hZVnd6T1ZlcUJ5cmk0dERScGRTaDRDQU9EcDJ2OVdLRE5nZEoydUpfYjZSVV9LanpQYnpIVDF6RU5pdlJBUm9DeXhXQnJEVmc0VlNqbkNJTGtnMVkwb3FOQmFYaGhCcFNnN3BRdHVBNFdnZXJfOVo2SzNzckVqSE5TdkpmSEVQRHQxbzdJdk5rcWFHS3RZdWpXUkMyZzBKMlFoekVva3NVdnJ5SE0ydDBCRG56MVg2RWxzRzhmVG4xNF9yY1VXeS1waHVpOS0zZXVwSmdoM2RJREdFY2hjRmt3T1QtN2hzNEhqMEEiLCJpZCI6ImZjX290ekRhczdiSGJfYmtQSVBqWTJvcUEwXzYifQ==",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVZHWldRa0pKUjBoNVRGZ3hRVTFSVGxZeWVXWlJibU5FVW5CU1ZXaDZkVlpZT0hCcVJVOW9hRlZhWkdjd2VWZzBXa0l3Wm01V2QyRlBTV1kzWHpKNFMwaFpjWEUzV0VoTWVXUkVhelE1Tlc4MGJtZGplVFJMUlhsUlFSSVhiM1I2UkdGek4ySklZbDlpYTFCSlVHcFpNbTl4UVRBYUlrRkVjM0k1WmxGVmFVSnVRazlSZW1aaWFqUlNkM015V1RocWVFZHBkMmRtYjNjIiwiZmN2IjoiMyIsImVpIjoib3R6RGFzN2JIYl9ia1BJUGpZMm9xQTAiLCJxYyI6IkNqNXpaVzVwYjNJZ1pYWmxiblJ6SUd4cFluSmhjbmtnY0hKdlozSmhiWE1nYVc0Z1puSmxiVzl1ZENCallXeHBabTl5Ym1saElIUm9hWE1nZDJWbGF4QUFmVEYyQlQ4IiwicXVlc3Rpb24iOiJXaGVyZSBjYW4gSSBkb25hdGUgYm9va3MgaW4gRnJlbW9udD8iLCJsayI6IkdpTjNhR1Z5WlNCallXNGdhU0JrYjI1aGRHVWdZbTl2YTNNZ2FXNGdabkpsYlc5dWRBIiwiYnMiOiJjM1hQdlF2Q01CQ0hZVnd6T1ZlcUJ5cmk0dERScGRTaDRDQU9EcDJ2OVdLRE5nZEoydUpfYjZSVV9LanpQYnpIVDF6RU5pdlJBUm9DeXhXQnJEVmc0VlNqbkNJTGtnMVkwb3FOQmFYaGhCcFNnN3BRdHVBNFdnZXJfOVo2SzNzckVqSE5TdkpmSEVQRHQxbzdJdk5rcWFHS3RZdWpXUkMyZzBKMlFoekVva3NVdnJ5SE0ydDBCRG56MVg2RWxzRzhmVG4xNF9yY1VXeS1waHVpOS0zZXVwSmdoM2RJREdFY2hjRmt3T1QtN2hzNEhqMEEiLCJpZCI6ImZjX290ekRhczdiSGJfYmtQSVBqWTJvcUEwXzYifQ%3D%3D"
+   },
+   {
+    "question": "What are some free activities in the Bay Area?",
+    "type": "ai_overview",
+    "page_token": "cBnICXicHdBLjpswAABQ9TKznAQzpE2kqJKHj4UCFGObz6YCm8TEBlyCAslurtAz9FQ9TUe9wdP7-KO7Qf398lvOs7kdNptlWV4v43jR7Ssf-019ewx8w2utm5qrw-7rzvp-5kfvzuH7xGFKjWEu3hJ0sVoUyiaz1sitSAoWRyAJK4JrhmRAPeXQvJzj7bxlRUVa6pCcyR8RgiFmGGVK9qUVT9lT3GIWviUFfxLbAAGEy_t1SHzZMQufONgvWO1dBlha632RKh3iQOvYZ6QpQq_ZYsTRaAsfTpmqVKurIXGlXfYM5y580qsvK0v-akkc42v5xnxsN8CYKMdD67E1z5eVPaxd68kuoxrwQM5kwNmnBXLrm5MwDD0p7gIZrywiu1SyK0A4UU9_etSjsX0YwbFLKX7yq-5ZoHc8WOmpMMGJCVUN4l2ock4Q1gT4oGLcoenLmd-P9sv_6-PPcz8fzDRe_gHZ94zT",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=cBnICXicHdBLjpswAABQ9TKznAQzpE2kqJKHj4UCFGObz6YCm8TEBlyCAslurtAz9FQ9TUe9wdP7-KO7Qf398lvOs7kdNptlWV4v43jR7Ssf-019ewx8w2utm5qrw-7rzvp-5kfvzuH7xGFKjWEu3hJ0sVoUyiaz1sitSAoWRyAJK4JrhmRAPeXQvJzj7bxlRUVa6pCcyR8RgiFmGGVK9qUVT9lT3GIWviUFfxLbAAGEy_t1SHzZMQufONgvWO1dBlha632RKh3iQOvYZ6QpQq_ZYsTRaAsfTpmqVKurIXGlXfYM5y580qsvK0v-akkc42v5xnxsN8CYKMdD67E1z5eVPaxd68kuoxrwQM5kwNmnBXLrm5MwDD0p7gIZrywiu1SyK0A4UU9_etSjsX0YwbFLKX7yq-5ZoHc8WOmpMMGJCVUN4l2ock4Q1gT4oGLcoenLmd-P9sv_6-PPcz8fzDRe_gHZ94zT",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVZHWldRa0pKUjBoNVRGZ3hRVTFSVGxZeWVXWlJibU5FVW5CU1ZXaDZkVlpZT0hCcVJVOW9hRlZhWkdjd2VWZzBXa0l3Wm01V2QyRlBTV1kzWHpKNFMwaFpjWEUzV0VoTWVXUkVhelE1Tlc4MGJtZGplVFJMUlhsUlFSSVhiM1I2UkdGek4ySklZbDlpYTFCSlVHcFpNbTl4UVRBYUlrRkVjM0k1WmxGVmFVSnVRazlSZW1aaWFqUlNkM015V1RocWVFZHBkMmRtYjNjIiwiZmN2IjoiMyIsImVpIjoib3R6RGFzN2JIYl9ia1BJUGpZMm9xQTAiLCJxYyI6IkNqNXpaVzVwYjNJZ1pYWmxiblJ6SUd4cFluSmhjbmtnY0hKdlozSmhiWE1nYVc0Z1puSmxiVzl1ZENCallXeHBabTl5Ym1saElIUm9hWE1nZDJWbGF4QUFmVEYyQlQ4IiwicXVlc3Rpb24iOiJXaGF0IGFyZSBzb21lIGZyZWUgYWN0aXZpdGllcyBpbiB0aGUgQmF5IEFyZWE/IiwibGsiOiJHaHRtY21WbElHRmpkR2wyYVhScFpYTWdhVzRnWW1GNUlHRnlaV0UiLCJicyI6ImMzWFB2UXZDTUJDSFlWd3pPVmVxQnlyaTR0RFJwZFNoNENBT0RwMnY5V0tETmdkSjJ1Sl9iNlJVX0tqelBiekhUMXpFTml2UkFSb0N5eFdCckRWZzRWU2puQ0lMa2cxWTBvcU5CYVhoaEJwU2c3cFF0dUE0V2dlcl85WjZLM3NyRWpITlN2SmZIRVBEdDFvN0l2TmtxYUdLdFl1aldSQzJnMEoyUWh6RW9rc1V2cnlITTJ0MEJEbnoxWDZFbHNHOGZUbjE0X3JjVVd5LXBodWk5LTNldXBKZ2gzZElER0VjaGNGa3dPVC03aHM0SGowQSIsImlkIjoiZmNfb3R6RGFzN2JIYl9ia1BJUGpZMm9xQTBfNiJ9",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTVZHWldRa0pKUjBoNVRGZ3hRVTFSVGxZeWVXWlJibU5FVW5CU1ZXaDZkVlpZT0hCcVJVOW9hRlZhWkdjd2VWZzBXa0l3Wm01V2QyRlBTV1kzWHpKNFMwaFpjWEUzV0VoTWVXUkVhelE1Tlc4MGJtZGplVFJMUlhsUlFSSVhiM1I2UkdGek4ySklZbDlpYTFCSlVHcFpNbTl4UVRBYUlrRkVjM0k1WmxGVmFVSnVRazlSZW1aaWFqUlNkM015V1RocWVFZHBkMmRtYjNjIiwiZmN2IjoiMyIsImVpIjoib3R6RGFzN2JIYl9ia1BJUGpZMm9xQTAiLCJxYyI6IkNqNXpaVzVwYjNJZ1pYWmxiblJ6SUd4cFluSmhjbmtnY0hKdlozSmhiWE1nYVc0Z1puSmxiVzl1ZENCallXeHBabTl5Ym1saElIUm9hWE1nZDJWbGF4QUFmVEYyQlQ4IiwicXVlc3Rpb24iOiJXaGF0IGFyZSBzb21lIGZyZWUgYWN0aXZpdGllcyBpbiB0aGUgQmF5IEFyZWE%2FIiwibGsiOiJHaHRtY21WbElHRmpkR2wyYVhScFpYTWdhVzRnWW1GNUlHRnlaV0UiLCJicyI6ImMzWFB2UXZDTUJDSFlWd3pPVmVxQnlyaTR0RFJwZFNoNENBT0RwMnY5V0tETmdkSjJ1Sl9iNlJVX0tqelBiekhUMXpFTml2UkFSb0N5eFdCckRWZzRWU2puQ0lMa2cxWTBvcU5CYVhoaEJwU2c3cFF0dUE0V2dlcl85WjZLM3NyRWpITlN2SmZIRVBEdDFvN0l2TmtxYUdLdFl1aldSQzJnMEoyUWh6RW9rc1V2cnlITTJ0MEJEbnoxWDZFbHNHOGZUbjE0X3JjVVd5LXBodWk5LTNldXBKZ2gzZElER0VjaGNGa3dPVC03aHM0SGowQSIsImlkIjoiZmNfb3R6RGFzN2JIYl9ia1BJUGpZMm9xQTBfNiJ9"
+   }
+  ],
+  "ai_overview": {
+   "page_token": "7VwjvniczVXbcqpIFP2BqfmL4cWoiMZLqqhTTYuCmiiaaPTF4mYDclEaJOTt_Mt81XzNNAgGjeZcHqamq7Dp7r03e-9ey_X9b9t0t__88acRBDv8UK1GUVRBnodsvaJ6TlXGsatWN56NfdX4Ztis7lLYC31VNzVWNXzP0SlksyGmwtDW2agEgSiJUERTd2Ari06owbfucvG2WzmdWHFsY9Sbh_Lr1F5B7lnr9-jV6yMVH9g6pWKWpnST9YL3roxbiqCsle1EnFhLxtsDmkozYdeKjHWLJPpm4eq6Sn62f9W7ZFHBFd2t9FvPO6vMvAiCWGFopl4ZV2WHGID_dCARSIADkDxAvGlFDuHPRON5YisCvuDJpVPBG5FjLplEKV33bkcT00CicQqwtgSnHwHwdIol3fQeFBej4yQ-HrMhXhz_yePLcUwAoiy1H1pe30xLP45-4fRm53niVyyRNIufINJUPndB55-RivaJTZS-CSKYcE0gRdLtdifuIoAOeBpIX1cIEkRMX9EwXymAJjtVDRH80lXFJ1OtaqqGmr74OIE1fO7QXi9eDpfManEvN6ZbzECT69an1ng2ZFRQVRViZ3uypmtrY01_S9c1pnZPd-qt9l3KJxWfCIWLhFpGxlIxGfw0AJVRhavlbILF5hY7mey-XENPQoakeu7KWeb4yQ1C72yZXQpBuMwD_ryXsCckxyeek5c3BMLzi8w9CEs-sSmD0gfMUjZxWVLTj7s7S1Pk4Uci8Ayk489FXuKK-Ivd_GuP-V50SuSsWWiQADH_ArzsF8mVg6Q1KO3TXOWPoT74IAGeg3nE0-0RaCYNRQgUa89oWfBOHOepfZ8n9IHcNAZIArOsoiQXLyuuBy_LRJ_qPo4FeUa3EPH14K7g5ZpVTpsLFpyxR6st7HG_XBaM-3m5Lzb8jmRK5hyOALrOFs9RfkF_1P8bn3J1Qkd1us0n-DN8IuqErqhTRoYjkk7qNMjU6TafhmkimTol3rk6TTKTM3W6wNWgyKdcndrHgi7V6Zf5xH_Bp9N_9hU-kdKv8Um8xadcnQp82l6qU7HuD3XK-fR76iT9njql9NKP07lUhRa6LVkvxrCuxY7aMISDYppBfzLQg6gJXg30Q8naOMGDI2v23drUHjhmEMTa3ZpseA-6Ru1ZrLum55f0g-4GuGSbii_7cWnne8iXHVwy3VLP1x3PDe5KULbNjee7plwKDBOXIl3fUo7teywtt0JzuBqiPZxoU78xu7dws2bvA2m-dO2wjmw835VXQqMhMI96fSa8mCsrGj3bTOzom7HSdHYujptOuAb9fX0XH2RrOtwtJ4DuGJvFRtqafc3pOgEdzzqoKXV8d407PWVs8TvnvXyQXz3hfWzK9dYWtWbW_DnNCrOWX97T3b1U2zxSpGKsszXK8VWWYKaBwJMEFgioAC6BRGD7IntkjoDUJzDgOYZcMIVVea3jA6u020qzrTZr7Rrd6DSblIOCeMc2GhR2fbb2L_orbzI",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=7VwjvniczVXbcqpIFP2BqfmL4cWoiMZLqqhTTYuCmiiaaPTF4mYDclEaJOTt_Mt81XzNNAgGjeZcHqamq7Dp7r03e-9ey_X9b9t0t__88acRBDv8UK1GUVRBnodsvaJ6TlXGsatWN56NfdX4Ztis7lLYC31VNzVWNXzP0SlksyGmwtDW2agEgSiJUERTd2Ari06owbfucvG2WzmdWHFsY9Sbh_Lr1F5B7lnr9-jV6yMVH9g6pWKWpnST9YL3roxbiqCsle1EnFhLxtsDmkozYdeKjHWLJPpm4eq6Sn62f9W7ZFHBFd2t9FvPO6vMvAiCWGFopl4ZV2WHGID_dCARSIADkDxAvGlFDuHPRON5YisCvuDJpVPBG5FjLplEKV33bkcT00CicQqwtgSnHwHwdIol3fQeFBej4yQ-HrMhXhz_yePLcUwAoiy1H1pe30xLP45-4fRm53niVyyRNIufINJUPndB55-RivaJTZS-CSKYcE0gRdLtdifuIoAOeBpIX1cIEkRMX9EwXymAJjtVDRH80lXFJ1OtaqqGmr74OIE1fO7QXi9eDpfManEvN6ZbzECT69an1ng2ZFRQVRViZ3uypmtrY01_S9c1pnZPd-qt9l3KJxWfCIWLhFpGxlIxGfw0AJVRhavlbILF5hY7mey-XENPQoakeu7KWeb4yQ1C72yZXQpBuMwD_ryXsCckxyeek5c3BMLzi8w9CEs-sSmD0gfMUjZxWVLTj7s7S1Pk4Uci8Ayk489FXuKK-Ivd_GuP-V50SuSsWWiQADH_ArzsF8mVg6Q1KO3TXOWPoT74IAGeg3nE0-0RaCYNRQgUa89oWfBOHOepfZ8n9IHcNAZIArOsoiQXLyuuBy_LRJ_qPo4FeUa3EPH14K7g5ZpVTpsLFpyxR6st7HG_XBaM-3m5Lzb8jmRK5hyOALrOFs9RfkF_1P8bn3J1Qkd1us0n-DN8IuqErqhTRoYjkk7qNMjU6TafhmkimTol3rk6TTKTM3W6wNWgyKdcndrHgi7V6Zf5xH_Bp9N_9hU-kdKv8Um8xadcnQp82l6qU7HuD3XK-fR76iT9njql9NKP07lUhRa6LVkvxrCuxY7aMISDYppBfzLQg6gJXg30Q8naOMGDI2v23drUHjhmEMTa3ZpseA-6Ru1ZrLum55f0g-4GuGSbii_7cWnne8iXHVwy3VLP1x3PDe5KULbNjee7plwKDBOXIl3fUo7teywtt0JzuBqiPZxoU78xu7dws2bvA2m-dO2wjmw835VXQqMhMI96fSa8mCsrGj3bTOzom7HSdHYujptOuAb9fX0XH2RrOtwtJ4DuGJvFRtqafc3pOgEdzzqoKXV8d407PWVs8TvnvXyQXz3hfWzK9dYWtWbW_DnNCrOWX97T3b1U2zxSpGKsszXK8VWWYKaBwJMEFgioAC6BRGD7IntkjoDUJzDgOYZcMIVVea3jA6u020qzrTZr7Rrd6DSblIOCeMc2GhR2fbb2L_orbzI"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Fremont, CA Fremont Library Events Next Month",
+    "link": "https://www.eventbrite.com/d/ca--fremont/events--next-month/fremont-library/?page=6",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjgEB6zswFfKPhF2MENE7KzzAS3TWYeB114l4xyX_oJKqQSEJhaEeSd5v2EwlS_q_HFosobbKyz8UYLMXJznREeO0lHKIFM1TWkWIwJBi40CVteyRsSZrpspiWa3cbFPck9kAT0lmhr2JzsVxoL0N0RwksxOEjvTU68pIgH5lXRnEB5iVJe8y-jPprkWr1x-B&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQFnoECCIQAQ&uoh=1",
+    "displayed_link": "https://www.eventbrite.com › ca--fremont › fremont-lib...",
+    "favicon": "https://serpapi.com/images/i/UklGRgoBAABXRUJQVlA4IP4AAADwBgCdASocABwAPtE-tFooIigoFAEAGglsALEbd_nPCGakhCveQivA9wzx0KILzWkxu3YGfUKpWshTuLrmyolgAP72E6eJlkGPyZwW9QtGk-k5Rr4eTwBs7YpQlNV92tXRnuTGOF4BsTFRcHtw5f2ifKWO_8hNaliaSdFLiAo4_KgXD4bt6Bz4rkrS11odZytobiOYsela2lqT0zUkPb09Mr0ImLl_EDE72afX_L7mtUukbSLDrmEkOXxJwBg0i6swq6leXWGtiqUY2fXWsuQlAVRj18DJqFxVhLYg9uz_bs7mAx1k3JE56GvBr0nmIvDY9u6A0pbhT8-nAp-AAA.webp",
+    "snippet": "Fremont library Events and Things to do in Fremont, CA next month · 1. Mothers day · 2. Memorial day weekend events · 3. Cinco de mayo festival · 4. Free kids ...",
+    "snippet_highlighted_words": [
+     "Fremont library Events and Things to do in Fremont, CA next month"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Fremont library Events and Things to do in Fremont, CA next month · 1. Mothers day · 2. Memorial day weekend events · 3. Cinco de mayo festival · 4. Free kids ...",
+      "source_info_link": "https://www.eventbrite.com/d/ca--fremont/events--next-month/fremont-library/?page=6",
+      "icon": "https://serpapi.com/images/i/UklGRgoBAABXRUJQVlA4IP4AAADwBgCdASocABwAPtE-tFooIigoFAEAGglsALEbd_nPCGakhCveQivA9wzx0KILzWkxu3YGfUKpWshTuLrmyolgAP72E6eJlkGPyZwW9QtGk-k5Rr4eTwBs7YpQlNV92tXRnuTGOF4BsTFRcHtw5f2ifKWO_8hNaliaSdFLiAo4_KgXD4bt6Bz4rkrS11odZytobiOYsela2lqT0zUkPb09Mr0ImLl_EDE72afX_L7mtUukbSLDrmEkOXxJwBg0i6swq6leXWGtiqUY2fXWsuQlAVRj18DJqFxVhLYg9uz_bs7mAx1k3JE56GvBr0nmIvDY9u6A0pbhT8-nAp-AAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZmS1BoRjJNRU5FN0t6ekFTM1RXWWVCMTE0bDR4eVhfb0pLcVFTRUpoYUVlU2Q1djJFd2xTX3FfSEZvc29iYkt5ejhVWUxNWEp6blJFZU8wbEhLSUZNMVRXa1dJd0pCaTQwQ1Z0ZXlSc1NacnBzcGlXYTNjYkZQY2s5a0FUMGxtaHIySnpzVnhvTDBOMFJ3a3N4T0VqdlRVNjhwSWdINWxYUm5FQjVpVkplOHktalBwcmtXcjF4LUISBBoCCAAasAoSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQPkJCAAQABgAIAAqNAoGc2VuaW9yFQAAAAAaB2VsZGVybHkaBW9sZGVyGgdzZW5pb3JzGgxzZW5pb3JldmVudHMqLgoGZXZlbnRzFewsvkAaCmFjdGl2aXRpZXMaBWV2ZW50GgxzZW5pb3JldmVudHMqHwoHbGlicmFyeRU-46pAGg9saWJyYXJ5cHJvZ3JhbXMqcAoIcHJvZ3JhbXMVAAAAABoHY2xhc3NlcxoGY291cnNlGgdjb3Vyc2VzGgdwcm9ncmFtGgpwcm9ncmFtbWVzGgtwcm9ncmFtbWluZxoGc2Nob29sGg9saWJyYXJ5cHJvZ3JhbXMaCmFjdGl2aXRpZXMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBVkVK5AGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqiAQoKY2FsaWZvcm5pYRUAAAAAGgJjYRoDY2FsGgVjYWxpZhoMY2FsaWZvcm5pYSdzGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaBmNvdW50eSoLCgR0aGlzFQAAAAAqtQEKBHdlZWsVgyBtPhoDY2FsGgVjYWxpZhoGd2VlaydzGgd3ZWVrZW5kGgZ3ZWVrbHkaBXdlZWtzGhBnbTtkYXRlOzIwMjYxMDA0GhBnbTtkYXRlOzIwMjYxMDA1GhBnbTtkYXRlOzIwMjYxMDA2GhBnbTtkYXRlOzIwMjYxMDA3GhBnbTtkYXRlOzIwMjYxMDA4GhBnbTtkYXRlOzIwMjYxMDA5GhBnbTtkYXRlOzIwMjYxMDEwMs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZmS1BoRjJNRU5FN0t6ekFTM1RXWWVCMTE0bDR4eVhfb0pLcVFTRUpoYUVlU2Q1djJFd2xTX3FfSEZvc29iYkt5ejhVWUxNWEp6blJFZU8wbEhLSUZNMVRXa1dJd0pCaTQwQ1Z0ZXlSc1NacnBzcGlXYTNjYkZQY2s5a0FUMGxtaHIySnpzVnhvTDBOMFJ3a3N4T0VqdlRVNjhwSWdINWxYUm5FQjVpVkplOHktalBwcmtXcjF4LUI6TzxiPkZyZW1vbnQ8L2I-LCA8Yj5DQTwvYj4gRnJlbW9udCA8Yj5MaWJyYXJ5IEV2ZW50czwvYj4gTmV4dCBNb250aCB8IEV2ZW50YnJpdGVCygE8Yj5GcmVtb250IGxpYnJhcnkgRXZlbnRzIGFuZCBUaGluZ3MgdG8gZG8gaW4gRnJlbW9udCwgQ0EgbmV4dCBtb250aDwvYj4gJm1pZGRvdDsgMS4gTW90aGVycyBkYXkgJm1pZGRvdDsgMi4gTWVtb3JpYWwgZGF5IHdlZWtlbmQgZXZlbnRzICZtaWRkb3Q7IDMuIENpbmNvIGRlIG1heW8gZmVzdGl2YWwgJm1pZGRvdDsgNC4gRnJlZSBraWRzJm5ic3A7Li4uSgJpbkoEdGhpcyICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZmS1BoRjJNRU5FN0t6ekFTM1RXWWVCMTE0bDR4eVhfb0pLcVFTRUpoYUVlU2Q1djJFd2xTX3FfSEZvc29iYkt5ejhVWUxNWEp6blJFZU8wbEhLSUZNMVRXa1dJd0pCaTQwQ1Z0ZXlSc1NacnBzcGlXYTNjYkZQY2s5a0FUMGxtaHIySnpzVnhvTDBOMFJ3a3N4T0VqdlRVNjhwSWdINWxYUm5FQjVpVkplOHktalBwcmtXcjF4LUISBBoCCAAasAoSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQPkJCAAQABgAIAAqNAoGc2VuaW9yFQAAAAAaB2VsZGVybHkaBW9sZGVyGgdzZW5pb3JzGgxzZW5pb3JldmVudHMqLgoGZXZlbnRzFewsvkAaCmFjdGl2aXRpZXMaBWV2ZW50GgxzZW5pb3JldmVudHMqHwoHbGlicmFyeRU-46pAGg9saWJyYXJ5cHJvZ3JhbXMqcAoIcHJvZ3JhbXMVAAAAABoHY2xhc3NlcxoGY291cnNlGgdjb3Vyc2VzGgdwcm9ncmFtGgpwcm9ncmFtbWVzGgtwcm9ncmFtbWluZxoGc2Nob29sGg9saWJyYXJ5cHJvZ3JhbXMaCmFjdGl2aXRpZXMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBVkVK5AGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqiAQoKY2FsaWZvcm5pYRUAAAAAGgJjYRoDY2FsGgVjYWxpZhoMY2FsaWZvcm5pYSdzGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaBmNvdW50eSoLCgR0aGlzFQAAAAAqtQEKBHdlZWsVgyBtPhoDY2FsGgVjYWxpZhoGd2VlaydzGgd3ZWVrZW5kGgZ3ZWVrbHkaBXdlZWtzGhBnbTtkYXRlOzIwMjYxMDA0GhBnbTtkYXRlOzIwMjYxMDA1GhBnbTtkYXRlOzIwMjYxMDA2GhBnbTtkYXRlOzIwMjYxMDA3GhBnbTtkYXRlOzIwMjYxMDA4GhBnbTtkYXRlOzIwMjYxMDA5GhBnbTtkYXRlOzIwMjYxMDEwMs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZmS1BoRjJNRU5FN0t6ekFTM1RXWWVCMTE0bDR4eVhfb0pLcVFTRUpoYUVlU2Q1djJFd2xTX3FfSEZvc29iYkt5ejhVWUxNWEp6blJFZU8wbEhLSUZNMVRXa1dJd0pCaTQwQ1Z0ZXlSc1NacnBzcGlXYTNjYkZQY2s5a0FUMGxtaHIySnpzVnhvTDBOMFJ3a3N4T0VqdlRVNjhwSWdINWxYUm5FQjVpVkplOHktalBwcmtXcjF4LUI6TzxiPkZyZW1vbnQ8L2I-LCA8Yj5DQTwvYj4gRnJlbW9udCA8Yj5MaWJyYXJ5IEV2ZW50czwvYj4gTmV4dCBNb250aCB8IEV2ZW50YnJpdGVCygE8Yj5GcmVtb250IGxpYnJhcnkgRXZlbnRzIGFuZCBUaGluZ3MgdG8gZG8gaW4gRnJlbW9udCwgQ0EgbmV4dCBtb250aDwvYj4gJm1pZGRvdDsgMS4gTW90aGVycyBkYXkgJm1pZGRvdDsgMi4gTWVtb3JpYWwgZGF5IHdlZWtlbmQgZXZlbnRzICZtaWRkb3Q7IDMuIENpbmNvIGRlIG1heW8gZmVzdGl2YWwgJm1pZGRvdDsgNC4gRnJlZSBraWRzJm5ic3A7Li4uSgJpbkoEdGhpcyICEAFIAFgAaAA",
+    "source": "Eventbrite",
+    "read_more_link": "https://www.eventbrite.com/d/ca--fremont/events--next-month/fremont-library/?page=6#:~:text=Fremont%20library%20Events%20and%20Things,in%20Fremont%2C%20CA%20next%20month&text=1.%20Mothers%20day&text=2.%20Memorial%20day%20weekend%20events&text=3.%20Cinco%20de%20mayo%20festival&text=4.%20Free%20kids%20activities"
+   },
+   {
+    "position": 2,
+    "title": "Free Fremont, CA Free Adult Events",
+    "link": "https://www.eventbrite.com/d/ca--fremont/free--events/free-adult-events/",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFYJsr21fBIaMlMjt-RoihGeyChXcedc828127WPqR9cPG7Zep_unIqP_dQtytqI5Fp_UArtTpe-IUDXM1UnBZOC_Dgt8oZtKFQqnbsJZZQtVGxsDBw4yywKl6It4t4yjZLLge-purtA-b9d3xJppbn2zZPLTRy7obXyxiroXLA&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQFnoECB8QAQ&uoh=1",
+    "displayed_link": "https://www.eventbrite.com › ... › Free Adult Events",
+    "favicon": "https://serpapi.com/images/i/UklGRgoBAABXRUJQVlA4IP4AAADwBgCdASocABwAPtE-tFooIigoFAEAGglsALEbd_nPCGakhCveQivA9wzx0KILzWkxu3YGfUKpWshTuLrmyolgAP72E6eJlkGPyZwW9QtGk-k5Rr4eTwBs7YpQlNV92tXRnuTGOF4BsTFRcHtw5f2ifKWO_8hNaliaSdFLiAo4_KgXD4bt6Bz4rkrS11odZytobiOYsela2lqT0zUkPb09Mr0ImLl_EDE72afX_L7mtUukbSLDrmEkOXxJwBg0i6swq6leXWGtiqUY2fXWsuQlAVRj18DJqFxVhLYg9uz_bs7mAx1k3JE56GvBr0nmIvDY9u6A0pbhT8-nAp-AAA.webp",
+    "snippet": "Free free adult Events and Things to do in Fremont, CA. Oct 12 • 7:00 PM +. Adult Art Classes – Acrylic, Watercolor & More! Sat, Oct 3 • 10:30 AM. Tue, Oct 20 ...",
+    "snippet_highlighted_words": [
+     "Free free adult Events and Things to do in Fremont, CA"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Free free adult Events and Things to do in Fremont, CA. Oct 12 • 7:00 PM +. Adult Art Classes – Acrylic, Watercolor & More! Sat, Oct 3 • 10:30 AM. Tue, Oct 20 ...",
+      "source_info_link": "https://www.eventbrite.com/d/ca--fremont/free--events/free-adult-events/",
+      "icon": "https://serpapi.com/images/i/UklGRgoBAABXRUJQVlA4IP4AAADwBgCdASocABwAPtE-tFooIigoFAEAGglsALEbd_nPCGakhCveQivA9wzx0KILzWkxu3YGfUKpWshTuLrmyolgAP72E6eJlkGPyZwW9QtGk-k5Rr4eTwBs7YpQlNV92tXRnuTGOF4BsTFRcHtw5f2ifKWO_8hNaliaSdFLiAo4_KgXD4bt6Bz4rkrS11odZytobiOYsela2lqT0zUkPb09Mr0ImLl_EDE72afX_L7mtUukbSLDrmEkOXxJwBg0i6swq6leXWGtiqUY2fXWsuQlAVRj18DJqFxVhLYg9uz_bs7mAx1k3JE56GvBr0nmIvDY9u6A0pbhT8-nAp-AAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZZSnNyMjFmQklhTWxNanQtUm9paEdleUNoWGNlZGM4MjgxMjdXUHFSOWNQRzdaZXBfdW5JcVBfZFF0eXRxSTVGcF9VQXJ0VHBlLUlVRFhNMVVuQlpPQ19EZ3Q4b1p0S0ZRcW5ic0paWlF0Vkd4c0RCdzR5eXdLbDZJdDR0NHlqWkxMZ2UtcHVydEEtYjlkM3hKcHBibjJ6WlBMVFJ5N29iWHl4aXJvWExBEgQaAggAGoUKEgAaACIAKgA6AEIECAEQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkDOCQgAEAAYACAAKjQKBnNlbmlvchXfIBY-GgdlbGRlcmx5GgVvbGRlchoHc2VuaW9ycxoMc2VuaW9yZXZlbnRzKi4KBmV2ZW50cxX5PppAGgphY3Rpdml0aWVzGgVldmVudBoMc2VuaW9yZXZlbnRzKh8KB2xpYnJhcnkVj7G7PhoPbGlicmFyeXByb2dyYW1zKnAKCHByb2dyYW1zFQAAAAAaB2NsYXNzZXMaBmNvdXJzZRoHY291cnNlcxoHcHJvZ3JhbRoKcHJvZ3JhbW1lcxoLcHJvZ3JhbW1pbmcaBnNjaG9vbBoPbGlicmFyeXByb2dyYW1zGgphY3Rpdml0aWVzKgkKAmluFQAAAAAqhwEKB2ZyZW1vbnQVcKaVQBoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgxpdjtwO2ZyZW1vbnQqogEKCmNhbGlmb3JuaWEVAAAAABoCY2EaA2NhbBoFY2FsaWYaDGNhbGlmb3JuaWEncxoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgZjb3VudHkqCwoEdGhpcxUAAAAAKrUBCgR3ZWVrFfaWaz4aA2NhbBoFY2FsaWYaBndlZWsncxoHd2Vla2VuZBoGd2Vla2x5GgV3ZWVrcxoQZ207ZGF0ZTsyMDI2MTAwNBoQZ207ZGF0ZTsyMDI2MTAwNRoQZ207ZGF0ZTsyMDI2MTAwNhoQZ207ZGF0ZTsyMDI2MTAwNxoQZ207ZGF0ZTsyMDI2MTAwOBoQZ207ZGF0ZTsyMDI2MTAwORoQZ207ZGF0ZTsyMDI2MTAxMDLAAS9nb3RvP3VybD1DQUVTZ3dFQjZ6c3dGWUpzcjIxZkJJYU1sTWp0LVJvaWhHZXlDaFhjZWRjODI4MTI3V1BxUjljUEc3WmVwX3VuSXFQX2RRdHl0cUk1RnBfVUFydFRwZS1JVURYTTFVbkJaT0NfRGd0OG9adEtGUXFuYnNKWlpRdFZHeHNEQnc0eXl3S2w2SXQ0dDR5alpMTGdlLXB1cnRBLWI5ZDN4SnBwYm4yelpQTFRSeTdvYlh5eGlyb1hMQTpERnJlZSA8Yj5GcmVtb250PC9iPiwgPGI-Q0E8L2I-IEZyZWUgQWR1bHQgPGI-RXZlbnRzPC9iPiAtIEV2ZW50YnJpdGVCuAE8Yj5GcmVlIGZyZWUgYWR1bHQgRXZlbnRzIGFuZCBUaGluZ3MgdG8gZG8gaW4gRnJlbW9udCwgQ0E8L2I-LiBPY3QgMTIg4oCiIDc6MDAgUE0gKy4gQWR1bHQgQXJ0IENsYXNzZXMg4oCTIEFjcnlsaWMsIFdhdGVyY29sb3IgJmFtcDsgTW9yZSEgU2F0LCBPY3QgMyDigKIgMTA6MzAgQU0uIFR1ZSwgT2N0IDIwJm5ic3A7Li4uSgJpbkoEdGhpcyICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZZSnNyMjFmQklhTWxNanQtUm9paEdleUNoWGNlZGM4MjgxMjdXUHFSOWNQRzdaZXBfdW5JcVBfZFF0eXRxSTVGcF9VQXJ0VHBlLUlVRFhNMVVuQlpPQ19EZ3Q4b1p0S0ZRcW5ic0paWlF0Vkd4c0RCdzR5eXdLbDZJdDR0NHlqWkxMZ2UtcHVydEEtYjlkM3hKcHBibjJ6WlBMVFJ5N29iWHl4aXJvWExBEgQaAggAGoUKEgAaACIAKgA6AEIECAEQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkDOCQgAEAAYACAAKjQKBnNlbmlvchXfIBY-GgdlbGRlcmx5GgVvbGRlchoHc2VuaW9ycxoMc2VuaW9yZXZlbnRzKi4KBmV2ZW50cxX5PppAGgphY3Rpdml0aWVzGgVldmVudBoMc2VuaW9yZXZlbnRzKh8KB2xpYnJhcnkVj7G7PhoPbGlicmFyeXByb2dyYW1zKnAKCHByb2dyYW1zFQAAAAAaB2NsYXNzZXMaBmNvdXJzZRoHY291cnNlcxoHcHJvZ3JhbRoKcHJvZ3JhbW1lcxoLcHJvZ3JhbW1pbmcaBnNjaG9vbBoPbGlicmFyeXByb2dyYW1zGgphY3Rpdml0aWVzKgkKAmluFQAAAAAqhwEKB2ZyZW1vbnQVcKaVQBoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgxpdjtwO2ZyZW1vbnQqogEKCmNhbGlmb3JuaWEVAAAAABoCY2EaA2NhbBoFY2FsaWYaDGNhbGlmb3JuaWEncxoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgZjb3VudHkqCwoEdGhpcxUAAAAAKrUBCgR3ZWVrFfaWaz4aA2NhbBoFY2FsaWYaBndlZWsncxoHd2Vla2VuZBoGd2Vla2x5GgV3ZWVrcxoQZ207ZGF0ZTsyMDI2MTAwNBoQZ207ZGF0ZTsyMDI2MTAwNRoQZ207ZGF0ZTsyMDI2MTAwNhoQZ207ZGF0ZTsyMDI2MTAwNxoQZ207ZGF0ZTsyMDI2MTAwOBoQZ207ZGF0ZTsyMDI2MTAwORoQZ207ZGF0ZTsyMDI2MTAxMDLAAS9nb3RvP3VybD1DQUVTZ3dFQjZ6c3dGWUpzcjIxZkJJYU1sTWp0LVJvaWhHZXlDaFhjZWRjODI4MTI3V1BxUjljUEc3WmVwX3VuSXFQX2RRdHl0cUk1RnBfVUFydFRwZS1JVURYTTFVbkJaT0NfRGd0OG9adEtGUXFuYnNKWlpRdFZHeHNEQnc0eXl3S2w2SXQ0dDR5alpMTGdlLXB1cnRBLWI5ZDN4SnBwYm4yelpQTFRSeTdvYlh5eGlyb1hMQTpERnJlZSA8Yj5GcmVtb250PC9iPiwgPGI-Q0E8L2I-IEZyZWUgQWR1bHQgPGI-RXZlbnRzPC9iPiAtIEV2ZW50YnJpdGVCuAE8Yj5GcmVlIGZyZWUgYWR1bHQgRXZlbnRzIGFuZCBUaGluZ3MgdG8gZG8gaW4gRnJlbW9udCwgQ0E8L2I-LiBPY3QgMTIg4oCiIDc6MDAgUE0gKy4gQWR1bHQgQXJ0IENsYXNzZXMg4oCTIEFjcnlsaWMsIFdhdGVyY29sb3IgJmFtcDsgTW9yZSEgU2F0LCBPY3QgMyDigKIgMTA6MzAgQU0uIFR1ZSwgT2N0IDIwJm5ic3A7Li4uSgJpbkoEdGhpcyICEAFIAFgAaAA",
+    "source": "Eventbrite"
+   },
+   {
+    "position": 3,
+    "title": "Fremont Main Library Events",
+    "link": "https://www.facebook.com/fb-answers/fremont-main-library-events/?locale=pt_BR",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiAEB6zswFfAGe8xuZPx9Q2XFrPPvE0210UK6_XEe359a7lt1lw6PCJFIigfc-_QjhhvaFs7hsrQnZTHgBYAKhz0tfn-yVzdwgPJOGhTfUIQREUHCnJqY2iaALKyTvqlKQrhI6xCnihiU82p-BFxRv3__fJ-xUZJ3ujsVGAMs8Xbw-dnWLPkqTiP_&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQFnoECB4QAQ&uoh=1",
+    "displayed_link": "https://www.facebook.com › fb-answers › fremont-mai...",
+    "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+    "snippet": "The library also hosts music programs, seniors fitness, and informational seminars in Fukaya Room A & B. Public Fremont's weekly events",
+    "snippet_highlighted_words": [
+     "library",
+     "programs",
+     "seniors",
+     "Fremont's weekly events"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "The library also hosts music programs, seniors fitness, and informational seminars in Fukaya Room A & B. Public Fremont's weekly events",
+      "source_info_link": "https://www.facebook.com/fb-answers/fremont-main-library-events/?locale=pt_BR",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZmQUdlOHh1WlB4OVEyWEZyUFB2RTAyMTBVSzZfWEVlMzU5YTdsdDFsdzZQQ0pGSWlnZmMtX1FqaGh2YUZzN2hzclFuWlRIZ0JZQUtoejB0Zm4teVZ6ZHdnUEpPR2hUZlVJUVJFVUhDbkpxWTJpYUFMS3lUdnFsS1FyaEk2eENuaWhpVTgycC1CRnhSdjNfX2ZKLXhVWkozdWpzVkdBTXM4WGJ3LWRuV0xQa3FUaVBfEgQaAggAGu4JEgAaACIAKgA6AEIECAEQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkC3CQgAEAAYACAAKjQKBnNlbmlvchUAAAAAGgdlbGRlcmx5GgVvbGRlchoHc2VuaW9ycxoMc2VuaW9yZXZlbnRzKi4KBmV2ZW50cxWA-3VAGgphY3Rpdml0aWVzGgVldmVudBoMc2VuaW9yZXZlbnRzKh8KB2xpYnJhcnkV5BedQBoPbGlicmFyeXByb2dyYW1zKnAKCHByb2dyYW1zFW69ej8aB2NsYXNzZXMaBmNvdXJzZRoHY291cnNlcxoHcHJvZ3JhbRoKcHJvZ3JhbW1lcxoLcHJvZ3JhbW1pbmcaBnNjaG9vbBoPbGlicmFyeXByb2dyYW1zGgphY3Rpdml0aWVzKgkKAmluFQAAAAAqhwEKB2ZyZW1vbnQVmPa1QBoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgxpdjtwO2ZyZW1vbnQqogEKCmNhbGlmb3JuaWEVWjM-PxoCY2EaA2NhbBoFY2FsaWYaDGNhbGlmb3JuaWEncxoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgZjb3VudHkqCwoEdGhpcxUAAAAAKrUBCgR3ZWVrFQAAAAAaA2NhbBoFY2FsaWYaBndlZWsncxoHd2Vla2VuZBoGd2Vla2x5GgV3ZWVrcxoQZ207ZGF0ZTsyMDI2MTAwNBoQZ207ZGF0ZTsyMDI2MTAwNRoQZ207ZGF0ZTsyMDI2MTAwNhoQZ207ZGF0ZTsyMDI2MTAwNxoQZ207ZGF0ZTsyMDI2MTAwOBoQZ207ZGF0ZTsyMDI2MTAwORoQZ207ZGF0ZTsyMDI2MTAxMDLGAS9nb3RvP3VybD1DQUVTaUFFQjZ6c3dGZkFHZTh4dVpQeDlRMlhGclBQdkUwMjEwVUs2X1hFZTM1OWE3bHQxbHc2UENKRklpZ2ZjLV9RamhodmFGczdoc3JRblpUSGdCWUFLaHowdGZuLXlWemR3Z1BKT0doVGZVSVFSRVVIQ25KcVkyaWFBTEt5VHZxbEtRcmhJNnhDbmloaVU4MnAtQkZ4UnYzX19mSi14VVpKM3Vqc1ZHQU1zOFhidy1kbldMUGtxVGlQXzo0PGI-RnJlbW9udDwvYj4gTWFpbiA8Yj5MaWJyYXJ5IEV2ZW50czwvYj4gLSBGYWNlYm9va0KrAVRoZSA8Yj5saWJyYXJ5PC9iPiBhbHNvIGhvc3RzIG11c2ljIDxiPnByb2dyYW1zPC9iPiwgPGI-c2VuaW9yczwvYj4gZml0bmVzcywgYW5kIGluZm9ybWF0aW9uYWwgc2VtaW5hcnMgaW4gRnVrYXlhIFJvb20gQSAmYW1wOyBCLiBQdWJsaWMgPGI-RnJlbW9udCYjMzk7cyB3ZWVrbHkgZXZlbnRzPC9iPkoCaW5KBHRoaXMiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZmQUdlOHh1WlB4OVEyWEZyUFB2RTAyMTBVSzZfWEVlMzU5YTdsdDFsdzZQQ0pGSWlnZmMtX1FqaGh2YUZzN2hzclFuWlRIZ0JZQUtoejB0Zm4teVZ6ZHdnUEpPR2hUZlVJUVJFVUhDbkpxWTJpYUFMS3lUdnFsS1FyaEk2eENuaWhpVTgycC1CRnhSdjNfX2ZKLXhVWkozdWpzVkdBTXM4WGJ3LWRuV0xQa3FUaVBfEgQaAggAGu4JEgAaACIAKgA6AEIECAEQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkC3CQgAEAAYACAAKjQKBnNlbmlvchUAAAAAGgdlbGRlcmx5GgVvbGRlchoHc2VuaW9ycxoMc2VuaW9yZXZlbnRzKi4KBmV2ZW50cxWA-3VAGgphY3Rpdml0aWVzGgVldmVudBoMc2VuaW9yZXZlbnRzKh8KB2xpYnJhcnkV5BedQBoPbGlicmFyeXByb2dyYW1zKnAKCHByb2dyYW1zFW69ej8aB2NsYXNzZXMaBmNvdXJzZRoHY291cnNlcxoHcHJvZ3JhbRoKcHJvZ3JhbW1lcxoLcHJvZ3JhbW1pbmcaBnNjaG9vbBoPbGlicmFyeXByb2dyYW1zGgphY3Rpdml0aWVzKgkKAmluFQAAAAAqhwEKB2ZyZW1vbnQVmPa1QBoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgxpdjtwO2ZyZW1vbnQqogEKCmNhbGlmb3JuaWEVWjM-PxoCY2EaA2NhbBoFY2FsaWYaDGNhbGlmb3JuaWEncxoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgZjb3VudHkqCwoEdGhpcxUAAAAAKrUBCgR3ZWVrFQAAAAAaA2NhbBoFY2FsaWYaBndlZWsncxoHd2Vla2VuZBoGd2Vla2x5GgV3ZWVrcxoQZ207ZGF0ZTsyMDI2MTAwNBoQZ207ZGF0ZTsyMDI2MTAwNRoQZ207ZGF0ZTsyMDI2MTAwNhoQZ207ZGF0ZTsyMDI2MTAwNxoQZ207ZGF0ZTsyMDI2MTAwOBoQZ207ZGF0ZTsyMDI2MTAwORoQZ207ZGF0ZTsyMDI2MTAxMDLGAS9nb3RvP3VybD1DQUVTaUFFQjZ6c3dGZkFHZTh4dVpQeDlRMlhGclBQdkUwMjEwVUs2X1hFZTM1OWE3bHQxbHc2UENKRklpZ2ZjLV9RamhodmFGczdoc3JRblpUSGdCWUFLaHowdGZuLXlWemR3Z1BKT0doVGZVSVFSRVVIQ25KcVkyaWFBTEt5VHZxbEtRcmhJNnhDbmloaVU4MnAtQkZ4UnYzX19mSi14VVpKM3Vqc1ZHQU1zOFhidy1kbldMUGtxVGlQXzo0PGI-RnJlbW9udDwvYj4gTWFpbiA8Yj5MaWJyYXJ5IEV2ZW50czwvYj4gLSBGYWNlYm9va0KrAVRoZSA8Yj5saWJyYXJ5PC9iPiBhbHNvIGhvc3RzIG11c2ljIDxiPnByb2dyYW1zPC9iPiwgPGI-c2VuaW9yczwvYj4gZml0bmVzcywgYW5kIGluZm9ybWF0aW9uYWwgc2VtaW5hcnMgaW4gRnVrYXlhIFJvb20gQSAmYW1wOyBCLiBQdWJsaWMgPGI-RnJlbW9udCYjMzk7cyB3ZWVrbHkgZXZlbnRzPC9iPkoCaW5KBHRoaXMiAhABSABYAGgA",
+    "source": "Facebook"
+   },
+   {
+    "position": 4,
+    "title": "Free Newark, CA Fremont Library August Events",
+    "link": "https://www.eventbrite.com/d/ca--newark/free--events/fremont-library-august/",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShwEB6zswFe5ltt9pXECBIGO7RKFrLAeuyOGwpMW5UwIA60rxBPugMD-LY1Kw8drWbSaFjbH7uemWDlGRwaqBnpgLJKgqIXWSEzPMq5R5fXCPp8W1NoVpVnWDHEtj1JW-YoFbaDny1959hdaCdEIG6i0Py77QcxuP8qUSGtwu2tko8eqnc3qNEyI&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQFnoECCAQAQ&uoh=1",
+    "displayed_link": "https://www.eventbrite.com › ca--newark › fremont-libr...",
+    "favicon": "https://serpapi.com/images/i/UklGRgoBAABXRUJQVlA4IP4AAADwBgCdASocABwAPtE-tFooIigoFAEAGglsALEbd_nPCGakhCveQivA9wzx0KILzWkxu3YGfUKpWshTuLrmyolgAP72E6eJlkGPyZwW9QtGk-k5Rr4eTwBs7YpQlNV92tXRnuTGOF4BsTFRcHtw5f2ifKWO_8hNaliaSdFLiAo4_KgXD4bt6Bz4rkrS11odZytobiOYsela2lqT0zUkPb09Mr0ImLl_EDE72afX_L7mtUukbSLDrmEkOXxJwBg0i6swq6leXWGtiqUY2fXWsuQlAVRj18DJqFxVhLYg9uz_bs7mAx1k3JE56GvBr0nmIvDY9u6A0pbhT8-nAp-AAA.webp",
+    "snippet": "Free fremont library august Events and Things to do in Newark, CA · Conference · Seminar · Expo · Convention · Festival · Performance · Screening · Gala ...",
+    "snippet_highlighted_words": [
+     "Free fremont library august Events"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Free fremont library august Events and Things to do in Newark, CA · Conference · Seminar · Expo · Convention · Festival · Performance · Screening · Gala ...",
+      "source_info_link": "https://www.eventbrite.com/d/ca--newark/free--events/fremont-library-august/",
+      "icon": "https://serpapi.com/images/i/UklGRgoBAABXRUJQVlA4IP4AAADwBgCdASocABwAPtE-tFooIigoFAEAGglsALEbd_nPCGakhCveQivA9wzx0KILzWkxu3YGfUKpWshTuLrmyolgAP72E6eJlkGPyZwW9QtGk-k5Rr4eTwBs7YpQlNV92tXRnuTGOF4BsTFRcHtw5f2ifKWO_8hNaliaSdFLiAo4_KgXD4bt6Bz4rkrS11odZytobiOYsela2lqT0zUkPb09Mr0ImLl_EDE72afX_L7mtUukbSLDrmEkOXxJwBg0i6swq6leXWGtiqUY2fXWsuQlAVRj18DJqFxVhLYg9uz_bs7mAx1k3JE56GvBr0nmIvDY9u6A0pbhT8-nAp-AAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZlNWx0dDlwWEVDQklHTzdSS0ZyTEFldXlPR3dwTVc1VXdJQTYwcnhCUHVnTUQtTFkxS3c4ZHJXYlNhRmpiSDd1ZW1XRGxHUndhcUJucGdMSktncUlYV1NFelBNcTVSNWZYQ1BwOFcxTm9WcFZuV0RIRXRqMUpXLVlvRmJhRG55MTk1OWhkYUNkRUlHNmkwUHk3N1FjeHVQOHFVU0d0d3UydGtvOGVxbmMzcU5FeUkSBBoCCAAatgoSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQP8JCAAQABgAIAAqNAoGc2VuaW9yFQAAAAAaB2VsZGVybHkaBW9sZGVyGgdzZW5pb3JzGgxzZW5pb3JldmVudHMqLgoGZXZlbnRzFSKjzUAaCmFjdGl2aXRpZXMaBWV2ZW50GgxzZW5pb3JldmVudHMqHwoHbGlicmFyeRW34bhAGg9saWJyYXJ5cHJvZ3JhbXMqcAoIcHJvZ3JhbXMVAAAAABoHY2xhc3NlcxoGY291cnNlGgdjb3Vyc2VzGgdwcm9ncmFtGgpwcm9ncmFtbWVzGgtwcm9ncmFtbWluZxoGc2Nob29sGg9saWJyYXJ5cHJvZ3JhbXMaCmFjdGl2aXRpZXMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBWWhr1AGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqiAQoKY2FsaWZvcm5pYRUAAAAAGgJjYRoDY2FsGgVjYWxpZhoMY2FsaWZvcm5pYSdzGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaBmNvdW50eSoLCgR0aGlzFQAAAAAqtQEKBHdlZWsVDg5OPhoDY2FsGgVjYWxpZhoGd2VlaydzGgd3ZWVrZW5kGgZ3ZWVrbHkaBXdlZWtzGhBnbTtkYXRlOzIwMjYxMDA0GhBnbTtkYXRlOzIwMjYxMDA1GhBnbTtkYXRlOzIwMjYxMDA2GhBnbTtkYXRlOzIwMjYxMDA3GhBnbTtkYXRlOzIwMjYxMDA4GhBnbTtkYXRlOzIwMjYxMDA5GhBnbTtkYXRlOzIwMjYxMDEwMsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZlNWx0dDlwWEVDQklHTzdSS0ZyTEFldXlPR3dwTVc1VXdJQTYwcnhCUHVnTUQtTFkxS3c4ZHJXYlNhRmpiSDd1ZW1XRGxHUndhcUJucGdMSktncUlYV1NFelBNcTVSNWZYQ1BwOFcxTm9WcFZuV0RIRXRqMUpXLVlvRmJhRG55MTk1OWhkYUNkRUlHNmkwUHk3N1FjeHVQOHFVU0d0d3UydGtvOGVxbmMzcU5FeUk6SEZyZWUgTmV3YXJrLCA8Yj5DQSBGcmVtb250IExpYnJhcnk8L2I-IEF1Z3VzdCA8Yj5FdmVudHM8L2I-IC0gRXZlbnRicml0ZULgATxiPkZyZWUgZnJlbW9udCBsaWJyYXJ5IGF1Z3VzdCBFdmVudHM8L2I-IGFuZCBUaGluZ3MgdG8gZG8gaW4gTmV3YXJrLCBDQSAmbWlkZG90OyBDb25mZXJlbmNlICZtaWRkb3Q7IFNlbWluYXIgJm1pZGRvdDsgRXhwbyAmbWlkZG90OyBDb252ZW50aW9uICZtaWRkb3Q7IEZlc3RpdmFsICZtaWRkb3Q7IFBlcmZvcm1hbmNlICZtaWRkb3Q7IFNjcmVlbmluZyAmbWlkZG90OyBHYWxhJm5ic3A7Li4uSgR0aGlzSgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZlNWx0dDlwWEVDQklHTzdSS0ZyTEFldXlPR3dwTVc1VXdJQTYwcnhCUHVnTUQtTFkxS3c4ZHJXYlNhRmpiSDd1ZW1XRGxHUndhcUJucGdMSktncUlYV1NFelBNcTVSNWZYQ1BwOFcxTm9WcFZuV0RIRXRqMUpXLVlvRmJhRG55MTk1OWhkYUNkRUlHNmkwUHk3N1FjeHVQOHFVU0d0d3UydGtvOGVxbmMzcU5FeUkSBBoCCAAatgoSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQP8JCAAQABgAIAAqNAoGc2VuaW9yFQAAAAAaB2VsZGVybHkaBW9sZGVyGgdzZW5pb3JzGgxzZW5pb3JldmVudHMqLgoGZXZlbnRzFSKjzUAaCmFjdGl2aXRpZXMaBWV2ZW50GgxzZW5pb3JldmVudHMqHwoHbGlicmFyeRW34bhAGg9saWJyYXJ5cHJvZ3JhbXMqcAoIcHJvZ3JhbXMVAAAAABoHY2xhc3NlcxoGY291cnNlGgdjb3Vyc2VzGgdwcm9ncmFtGgpwcm9ncmFtbWVzGgtwcm9ncmFtbWluZxoGc2Nob29sGg9saWJyYXJ5cHJvZ3JhbXMaCmFjdGl2aXRpZXMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBWWhr1AGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqiAQoKY2FsaWZvcm5pYRUAAAAAGgJjYRoDY2FsGgVjYWxpZhoMY2FsaWZvcm5pYSdzGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaBmNvdW50eSoLCgR0aGlzFQAAAAAqtQEKBHdlZWsVDg5OPhoDY2FsGgVjYWxpZhoGd2VlaydzGgd3ZWVrZW5kGgZ3ZWVrbHkaBXdlZWtzGhBnbTtkYXRlOzIwMjYxMDA0GhBnbTtkYXRlOzIwMjYxMDA1GhBnbTtkYXRlOzIwMjYxMDA2GhBnbTtkYXRlOzIwMjYxMDA3GhBnbTtkYXRlOzIwMjYxMDA4GhBnbTtkYXRlOzIwMjYxMDA5GhBnbTtkYXRlOzIwMjYxMDEwMsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZlNWx0dDlwWEVDQklHTzdSS0ZyTEFldXlPR3dwTVc1VXdJQTYwcnhCUHVnTUQtTFkxS3c4ZHJXYlNhRmpiSDd1ZW1XRGxHUndhcUJucGdMSktncUlYV1NFelBNcTVSNWZYQ1BwOFcxTm9WcFZuV0RIRXRqMUpXLVlvRmJhRG55MTk1OWhkYUNkRUlHNmkwUHk3N1FjeHVQOHFVU0d0d3UydGtvOGVxbmMzcU5FeUk6SEZyZWUgTmV3YXJrLCA8Yj5DQSBGcmVtb250IExpYnJhcnk8L2I-IEF1Z3VzdCA8Yj5FdmVudHM8L2I-IC0gRXZlbnRicml0ZULgATxiPkZyZWUgZnJlbW9udCBsaWJyYXJ5IGF1Z3VzdCBFdmVudHM8L2I-IGFuZCBUaGluZ3MgdG8gZG8gaW4gTmV3YXJrLCBDQSAmbWlkZG90OyBDb25mZXJlbmNlICZtaWRkb3Q7IFNlbWluYXIgJm1pZGRvdDsgRXhwbyAmbWlkZG90OyBDb252ZW50aW9uICZtaWRkb3Q7IEZlc3RpdmFsICZtaWRkb3Q7IFBlcmZvcm1hbmNlICZtaWRkb3Q7IFNjcmVlbmluZyAmbWlkZG90OyBHYWxhJm5ic3A7Li4uSgR0aGlzSgJpbiICEAFIAFgAaAA",
+    "source": "Eventbrite",
+    "read_more_link": "https://www.eventbrite.com/d/ca--newark/free--events/fremont-library-august/#:~:text=Free%20fremont%20library%20august%20Events,to%20do%20in%20Newark%2C%20CA&text=Category&text=Category&text=Category&text=Category&text=Category&text=Category&text=Category&text=Category"
+   },
+   {
+    "position": 5,
+    "title": "TOP 10 BEST Senior Activities in Fremont, CA",
+    "link": "https://www.yelp.com/search?find_desc=Senior+Activities&find_loc=Fremont%2C+CA",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiQEB6zswFcDeFH7xS7IRn0L4ST0KnVExMMK7mFzf2S7N6wJ5ZNFNGCYgq77WP0b1mj1zrVql-WAh8bN66bM5Bn-bhjQcbvdV1FNdsj1e7nuWEgDnJroohJ8-rHp-09FOEOzuF4zrb7CCKUad9nREFM24Ylj3rIXSeb2F-g7iwAzNpaeaRdS3pt8Log&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQFnoECCEQAQ&uoh=1",
+    "displayed_link": "https://www.yelp.com › Local Services",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAACwBgCdASocABwAPtEutFooIagoGAEAGglsAJ0yhILPkCeK_QA6Tz9oCNWF_rP-eF3ZPBBRno5GbFHHMi_AAAD-uJE7kphdQla9byybJTaTejHACSavJ_HcCKiX6y0w_NvHpi6tuV5O3pb1_paxPivP-l1_-cSlKzjQ-zdqjo_V0CnOPdIJitS8J3RGy_M4qshx_Fpws7cf-kvYHtAeBbronsGqcjIpvKnnlCfU4cfRdVPxl39f8f8UVNs1dTnJXNy0yYnqGu7LC37TLHThp76eQNKA-9rCqszsRziowx89O69SvnvMXdQLUu86l8P8lgNAdE3ie94S_sdSWRi2iueUbY3D8-qeMXWvf5m_6_65Pj13_wl7j5IAAAA.webp",
+    "snippet": "Senior Activities Near Fremont, California. It is close to many supermarkets, restaurants, library and senior center. (650) 322-3742. Virtual Classes Virtual ...",
+    "snippet_highlighted_words": [
+     "Senior Activities",
+     "Fremont",
+     "California",
+     "library",
+     "senior",
+     "Classes"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "rating": 4.2,
+       "reviews": 1163
+      },
+      "extensions": [
+       "4.2(1,163)"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "Senior Activities Near Fremont, California. It is close to many supermarkets, restaurants, library and senior center. (650) 322-3742. Virtual Classes Virtual ...",
+      "source_info_link": "https://www.yelp.com/search?find_desc=Senior+Activities&find_loc=Fremont%2C+CA",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAACwBgCdASocABwAPtEutFooIagoGAEAGglsAJ0yhILPkCeK_QA6Tz9oCNWF_rP-eF3ZPBBRno5GbFHHMi_AAAD-uJE7kphdQla9byybJTaTejHACSavJ_HcCKiX6y0w_NvHpi6tuV5O3pb1_paxPivP-l1_-cSlKzjQ-zdqjo_V0CnOPdIJitS8J3RGy_M4qshx_Fpws7cf-kvYHtAeBbronsGqcjIpvKnnlCfU4cfRdVPxl39f8f8UVNs1dTnJXNy0yYnqGu7LC37TLHThp76eQNKA-9rCqszsRziowx89O69SvnvMXdQLUu86l8P8lgNAdE3ie94S_sdSWRi2iueUbY3D8-qeMXWvf5m_6_65Pj13_wl7j5IAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZjRGVGSDd4UzdJUm4wTDRTVDBLblZFeE1NSzdtRnpmMlM3TjZ3SjVaTkZOR0NZZ3E3N1dQMGIxbWoxenJWcWwtV0FoOGJONjZiTTVCbi1iaGpRY2J2ZFYxRk5kc2oxZTdudVdFZ0RuSnJvb2hKOC1ySHAtMDlGT0VPenVGNHpyYjdDQ0tVYWQ5blJFRk0yNFlsajNySVhTZWIyRi1nN2l3QXpOcGFlYVJkUzNwdDhMb2cSBBoCCAAasQoSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQPoJCAAQABgAIAAqNAoGc2VuaW9yFWrS30AaB2VsZGVybHkaBW9sZGVyGgdzZW5pb3JzGgxzZW5pb3JldmVudHMqLgoGZXZlbnRzFfN2KT8aCmFjdGl2aXRpZXMaBWV2ZW50GgxzZW5pb3JldmVudHMqHwoHbGlicmFyeRWAFkw9Gg9saWJyYXJ5cHJvZ3JhbXMqcAoIcHJvZ3JhbXMVA8SbPhoHY2xhc3NlcxoGY291cnNlGgdjb3Vyc2VzGgdwcm9ncmFtGgpwcm9ncmFtbWVzGgtwcm9ncmFtbWluZxoGc2Nob29sGg9saWJyYXJ5cHJvZ3JhbXMaCmFjdGl2aXRpZXMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBWeBqlAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqiAQoKY2FsaWZvcm5pYRVzZihAGgJjYRoDY2FsGgVjYWxpZhoMY2FsaWZvcm5pYSdzGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaBmNvdW50eSoLCgR0aGlzFQAAAAAqtQEKBHdlZWsVaKWMPRoDY2FsGgVjYWxpZhoGd2VlaydzGgd3ZWVrZW5kGgZ3ZWVrbHkaBXdlZWtzGhBnbTtkYXRlOzIwMjYxMDA0GhBnbTtkYXRlOzIwMjYxMDA1GhBnbTtkYXRlOzIwMjYxMDA2GhBnbTtkYXRlOzIwMjYxMDA3GhBnbTtkYXRlOzIwMjYxMDA4GhBnbTtkYXRlOzIwMjYxMDA5GhBnbTtkYXRlOzIwMjYxMDEwMsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZjRGVGSDd4UzdJUm4wTDRTVDBLblZFeE1NSzdtRnpmMlM3TjZ3SjVaTkZOR0NZZ3E3N1dQMGIxbWoxenJWcWwtV0FoOGJONjZiTTVCbi1iaGpRY2J2ZFYxRk5kc2oxZTdudVdFZ0RuSnJvb2hKOC1ySHAtMDlGT0VPenVGNHpyYjdDQ0tVYWQ5blJFRk0yNFlsajNySVhTZWIyRi1nN2l3QXpOcGFlYVJkUzNwdDhMb2c6UFRPUCAxMCBCRVNUIDxiPlNlbmlvciBBY3Rpdml0aWVzPC9iPiBpbiA8Yj5GcmVtb250PC9iPiwgPGI-Q0E8L2I-IC0gVXBkYXRlZCAyMDI2QtABPGI-U2VuaW9yIEFjdGl2aXRpZXM8L2I-IE5lYXIgPGI-RnJlbW9udDwvYj4sIDxiPkNhbGlmb3JuaWE8L2I-LiBJdCBpcyBjbG9zZSB0byBtYW55IHN1cGVybWFya2V0cywgcmVzdGF1cmFudHMsIDxiPmxpYnJhcnk8L2I-IGFuZCA8Yj5zZW5pb3I8L2I-IGNlbnRlci4gKDY1MCkgMzIyLTM3NDIuIFZpcnR1YWwgPGI-Q2xhc3NlczwvYj4gVmlydHVhbCZuYnNwOy4uLkoEdGhpc0oCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZjRGVGSDd4UzdJUm4wTDRTVDBLblZFeE1NSzdtRnpmMlM3TjZ3SjVaTkZOR0NZZ3E3N1dQMGIxbWoxenJWcWwtV0FoOGJONjZiTTVCbi1iaGpRY2J2ZFYxRk5kc2oxZTdudVdFZ0RuSnJvb2hKOC1ySHAtMDlGT0VPenVGNHpyYjdDQ0tVYWQ5blJFRk0yNFlsajNySVhTZWIyRi1nN2l3QXpOcGFlYVJkUzNwdDhMb2cSBBoCCAAasQoSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQPoJCAAQABgAIAAqNAoGc2VuaW9yFWrS30AaB2VsZGVybHkaBW9sZGVyGgdzZW5pb3JzGgxzZW5pb3JldmVudHMqLgoGZXZlbnRzFfN2KT8aCmFjdGl2aXRpZXMaBWV2ZW50GgxzZW5pb3JldmVudHMqHwoHbGlicmFyeRWAFkw9Gg9saWJyYXJ5cHJvZ3JhbXMqcAoIcHJvZ3JhbXMVA8SbPhoHY2xhc3NlcxoGY291cnNlGgdjb3Vyc2VzGgdwcm9ncmFtGgpwcm9ncmFtbWVzGgtwcm9ncmFtbWluZxoGc2Nob29sGg9saWJyYXJ5cHJvZ3JhbXMaCmFjdGl2aXRpZXMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBWeBqlAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqiAQoKY2FsaWZvcm5pYRVzZihAGgJjYRoDY2FsGgVjYWxpZhoMY2FsaWZvcm5pYSdzGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaBmNvdW50eSoLCgR0aGlzFQAAAAAqtQEKBHdlZWsVaKWMPRoDY2FsGgVjYWxpZhoGd2VlaydzGgd3ZWVrZW5kGgZ3ZWVrbHkaBXdlZWtzGhBnbTtkYXRlOzIwMjYxMDA0GhBnbTtkYXRlOzIwMjYxMDA1GhBnbTtkYXRlOzIwMjYxMDA2GhBnbTtkYXRlOzIwMjYxMDA3GhBnbTtkYXRlOzIwMjYxMDA4GhBnbTtkYXRlOzIwMjYxMDA5GhBnbTtkYXRlOzIwMjYxMDEwMsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZjRGVGSDd4UzdJUm4wTDRTVDBLblZFeE1NSzdtRnpmMlM3TjZ3SjVaTkZOR0NZZ3E3N1dQMGIxbWoxenJWcWwtV0FoOGJONjZiTTVCbi1iaGpRY2J2ZFYxRk5kc2oxZTdudVdFZ0RuSnJvb2hKOC1ySHAtMDlGT0VPenVGNHpyYjdDQ0tVYWQ5blJFRk0yNFlsajNySVhTZWIyRi1nN2l3QXpOcGFlYVJkUzNwdDhMb2c6UFRPUCAxMCBCRVNUIDxiPlNlbmlvciBBY3Rpdml0aWVzPC9iPiBpbiA8Yj5GcmVtb250PC9iPiwgPGI-Q0E8L2I-IC0gVXBkYXRlZCAyMDI2QtABPGI-U2VuaW9yIEFjdGl2aXRpZXM8L2I-IE5lYXIgPGI-RnJlbW9udDwvYj4sIDxiPkNhbGlmb3JuaWE8L2I-LiBJdCBpcyBjbG9zZSB0byBtYW55IHN1cGVybWFya2V0cywgcmVzdGF1cmFudHMsIDxiPmxpYnJhcnk8L2I-IGFuZCA8Yj5zZW5pb3I8L2I-IGNlbnRlci4gKDY1MCkgMzIyLTM3NDIuIFZpcnR1YWwgPGI-Q2xhc3NlczwvYj4gVmlydHVhbCZuYnNwOy4uLkoEdGhpc0oCaW4iAhABSABYAGgA",
+    "source": "Yelp"
+   },
+   {
+    "position": 6,
+    "title": "recreation programs in Fremont, ca",
+    "link": "https://www.findhelp.org/care/recreation--fremont-ca",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbwHrOzAVRrImDgnvlyhDuwDJ2ge4m6zDi5XycXkd3lcj1hkJC-FL-mlRenMB-nO0njpBZw3eCD-EKVGtVho4_rUF0jjc45PCFEiEDeTVKNWR6yfX8EemKpAyJ3B8cUUTyULfpOaQeVLrTAizRAh31Q&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQFnoECFcQAQ&uoh=1",
+    "displayed_link": "https://www.findhelp.org › care › recreation--fremont-ca",
+    "favicon": "https://serpapi.com/images/i/UklGRooBAABXRUJQVlA4IH4BAABwCACdASoaABwAPtE-tFooIigoFAEAGglsAJ0OIA3jNv3hoMO5Mv8gGoB0VfQA_WYPPRgTGDK-P76v7disn35-w-zrBNA8z71v8aAAAP72Dhf-PFGOg9axrEeC4Eh41nnCBbt-BhtyAMv5V2aqNsOXXDCPYznAIuQYiSb-B--zUb_e7AhOL0qDmbKwwH7ENM12VYGsgV857sWREE87OKYMdP9xqXh350lX9UbVUmNYf1JryRdhsrje2f7BcCQLljtfHGofvttEzcpiXpw8Gz-a4cNeaRjw670_XKjYo6LlUmi3NXn9Hbz1S6GPFq0n_b1X0WwINkdW0-bpoY4nGW_YjP0PHRe4fLTGQn2vNFwukKOmqjuGOTo2r35VsQND3o4CU2vHZbSFfcE8sgAeCuNaSNbceB99vGb6FOsJLf175F0-5MKP92rf9ztQ1Kmed_UapTCgXcCsyV2Y8jj4F38C76s-3qwl_ztXwHoVgmPyIX7XrbyID6F1-C2DJgAA.webp",
+    "snippet": "The Fremont Senior Center offers a variety of classes and activities for elders. Classes and events Classes types include: - Exercise - ...",
+    "snippet_highlighted_words": [
+     "Fremont Senior",
+     "classes",
+     "activities",
+     "Classes",
+     "events Classes"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "The Fremont Senior Center offers a variety of classes and activities for elders. Classes and events Classes types include: - Exercise - ...",
+      "source_info_link": "https://www.findhelp.org/care/recreation--fremont-ca",
+      "icon": "https://serpapi.com/images/i/UklGRooBAABXRUJQVlA4IH4BAABwCACdASoaABwAPtE-tFooIigoFAEAGglsAJ0OIA3jNv3hoMO5Mv8gGoB0VfQA_WYPPRgTGDK-P76v7disn35-w-zrBNA8z71v8aAAAP72Dhf-PFGOg9axrEeC4Eh41nnCBbt-BhtyAMv5V2aqNsOXXDCPYznAIuQYiSb-B--zUb_e7AhOL0qDmbKwwH7ENM12VYGsgV857sWREE87OKYMdP9xqXh350lX9UbVUmNYf1JryRdhsrje2f7BcCQLljtfHGofvttEzcpiXpw8Gz-a4cNeaRjw670_XKjYo6LlUmi3NXn9Hbz1S6GPFq0n_b1X0WwINkdW0-bpoY4nGW_YjP0PHRe4fLTGQn2vNFwukKOmqjuGOTo2r35VsQND3o4CU2vHZbSFfcE8sgAeCuNaSNbceB99vGb6FOsJLf175F0-5MKP92rf9ztQ1Kmed_UapTCgXcCsyV2Y8jj4F38C76s-3qwl_ztXwHoVgmPyIX7XrbyID6F1-C2DJgAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CqQBL2dvdG8_dXJsPUNBRVNid0hyT3pBVlJySW1EZ252bHloRHV3REoyZ2U0bTZ6RGk1WHljWGtkM2xjajFoa0pDLUZMLW1sUmVuTUItbk8wbmpwQlp3M2VDRC1FS1ZHdFZobzRfclVGMGpqYzQ1UENGRWlFRGVUVktOV1I2eWZYOEVlbUtwQXlKM0I4Y1VVVHlVTGZwT2FRZVZMclRBaXpSQWgzMVESBBoCCAAa6AkSAggAGgAiACoAOgBCBAgBEABKGwgBEhNGcmVtb250LCBDYWxpZm9ybmlhGgIIAVoAcgB6AIJArwkIABAAGAAgACo0CgZzZW5pb3IVduM-PxoHZWxkZXJseRoFb2xkZXIaB3NlbmlvcnMaDHNlbmlvcmV2ZW50cyouCgZldmVudHMVVFfZPhoKYWN0aXZpdGllcxoFZXZlbnQaDHNlbmlvcmV2ZW50cyofCgdsaWJyYXJ5FQAAAAAaD2xpYnJhcnlwcm9ncmFtcypwCghwcm9ncmFtcxVcACNAGgdjbGFzc2VzGgZjb3Vyc2UaB2NvdXJzZXMaB3Byb2dyYW0aCnByb2dyYW1tZXMaC3Byb2dyYW1taW5nGgZzY2hvb2waD2xpYnJhcnlwcm9ncmFtcxoKYWN0aXZpdGllcyoJCgJpbhUAAAAAKocBCgdmcmVtb250FbqLUkAaEWZyZW1vbnRjYWxpZm9ybmlhGhRnZW87ODA4ZjkwMDAwMDAwMDAwMBoUZ2VvOzgwOGZiMDAwMDAwMDAwMDAaFGdlbzs4MDhmZDAwMDAwMDAwMDAwGhRnZW87ODA4ZmYwMDAwMDAwMDAwMBoMaXY7cDtmcmVtb250KqIBCgpjYWxpZm9ybmlhFQAAAAAaAmNhGgNjYWwaBWNhbGlmGgxjYWxpZm9ybmlhJ3MaEWZyZW1vbnRjYWxpZm9ybmlhGhRnZW87ODA4ZjkwMDAwMDAwMDAwMBoUZ2VvOzgwOGZiMDAwMDAwMDAwMDAaFGdlbzs4MDhmZDAwMDAwMDAwMDAwGhRnZW87ODA4ZmYwMDAwMDAwMDAwMBoGY291bnR5KgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAypAEvZ290bz91cmw9Q0FFU2J3SHJPekFWUnJJbURnbnZseWhEdXdESjJnZTRtNnpEaTVYeWNYa2QzbGNqMWhrSkMtRkwtbWxSZW5NQi1uTzBuanBCWnczZUNELUVLVkd0VmhvNF9yVUYwampjNDVQQ0ZFaUVEZVRWS05XUjZ5Zlg4RWVtS3BBeUozQjhjVVVUeVVMZnBPYVFlVkxyVEFpelJBaDMxUTpGcmVjcmVhdGlvbiA8Yj5wcm9ncmFtczwvYj4gaW4gPGI-RnJlbW9udDwvYj4sIDxiPmNhPC9iPiAtIEZpbmRIZWxwLm9yZ0KzAVRoZSA8Yj5GcmVtb250IFNlbmlvcjwvYj4gQ2VudGVyIG9mZmVycyBhIHZhcmlldHkgb2YgPGI-Y2xhc3NlczwvYj4gYW5kIDxiPmFjdGl2aXRpZXM8L2I-IGZvciBlbGRlcnMuIDxiPkNsYXNzZXM8L2I-IGFuZCA8Yj5ldmVudHMgQ2xhc3NlczwvYj4gdHlwZXMgaW5jbHVkZTogLSBFeGVyY2lzZSAtJm5ic3A7Li4uSgJpbkoEdGhpcyICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CqQBL2dvdG8_dXJsPUNBRVNid0hyT3pBVlJySW1EZ252bHloRHV3REoyZ2U0bTZ6RGk1WHljWGtkM2xjajFoa0pDLUZMLW1sUmVuTUItbk8wbmpwQlp3M2VDRC1FS1ZHdFZobzRfclVGMGpqYzQ1UENGRWlFRGVUVktOV1I2eWZYOEVlbUtwQXlKM0I4Y1VVVHlVTGZwT2FRZVZMclRBaXpSQWgzMVESBBoCCAAa6AkSAggAGgAiACoAOgBCBAgBEABKGwgBEhNGcmVtb250LCBDYWxpZm9ybmlhGgIIAVoAcgB6AIJArwkIABAAGAAgACo0CgZzZW5pb3IVduM-PxoHZWxkZXJseRoFb2xkZXIaB3NlbmlvcnMaDHNlbmlvcmV2ZW50cyouCgZldmVudHMVVFfZPhoKYWN0aXZpdGllcxoFZXZlbnQaDHNlbmlvcmV2ZW50cyofCgdsaWJyYXJ5FQAAAAAaD2xpYnJhcnlwcm9ncmFtcypwCghwcm9ncmFtcxVcACNAGgdjbGFzc2VzGgZjb3Vyc2UaB2NvdXJzZXMaB3Byb2dyYW0aCnByb2dyYW1tZXMaC3Byb2dyYW1taW5nGgZzY2hvb2waD2xpYnJhcnlwcm9ncmFtcxoKYWN0aXZpdGllcyoJCgJpbhUAAAAAKocBCgdmcmVtb250FbqLUkAaEWZyZW1vbnRjYWxpZm9ybmlhGhRnZW87ODA4ZjkwMDAwMDAwMDAwMBoUZ2VvOzgwOGZiMDAwMDAwMDAwMDAaFGdlbzs4MDhmZDAwMDAwMDAwMDAwGhRnZW87ODA4ZmYwMDAwMDAwMDAwMBoMaXY7cDtmcmVtb250KqIBCgpjYWxpZm9ybmlhFQAAAAAaAmNhGgNjYWwaBWNhbGlmGgxjYWxpZm9ybmlhJ3MaEWZyZW1vbnRjYWxpZm9ybmlhGhRnZW87ODA4ZjkwMDAwMDAwMDAwMBoUZ2VvOzgwOGZiMDAwMDAwMDAwMDAaFGdlbzs4MDhmZDAwMDAwMDAwMDAwGhRnZW87ODA4ZmYwMDAwMDAwMDAwMBoGY291bnR5KgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAypAEvZ290bz91cmw9Q0FFU2J3SHJPekFWUnJJbURnbnZseWhEdXdESjJnZTRtNnpEaTVYeWNYa2QzbGNqMWhrSkMtRkwtbWxSZW5NQi1uTzBuanBCWnczZUNELUVLVkd0VmhvNF9yVUYwampjNDVQQ0ZFaUVEZVRWS05XUjZ5Zlg4RWVtS3BBeUozQjhjVVVUeVVMZnBPYVFlVkxyVEFpelJBaDMxUTpGcmVjcmVhdGlvbiA8Yj5wcm9ncmFtczwvYj4gaW4gPGI-RnJlbW9udDwvYj4sIDxiPmNhPC9iPiAtIEZpbmRIZWxwLm9yZ0KzAVRoZSA8Yj5GcmVtb250IFNlbmlvcjwvYj4gQ2VudGVyIG9mZmVycyBhIHZhcmlldHkgb2YgPGI-Y2xhc3NlczwvYj4gYW5kIDxiPmFjdGl2aXRpZXM8L2I-IGZvciBlbGRlcnMuIDxiPkNsYXNzZXM8L2I-IGFuZCA8Yj5ldmVudHMgQ2xhc3NlczwvYj4gdHlwZXMgaW5jbHVkZTogLSBFeGVyY2lzZSAtJm5ic3A7Li4uSgJpbkoEdGhpcyICEAFIAFgAaAA",
+    "source": "FindHelp.org"
+   },
+   {
+    "position": 7,
+    "title": "Fremont, CA Fremont Library Events Next Month",
+    "link": "https://www.eventbrite.com/d/ca--fremont/events--next-month/fremont-library/",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShwEB6zswFX65Iui_V2rcJ8xdCAwoELRMAPs8fNH0uEhoxH419-D53-QYgRHi8HpcJuunEkFST71RHL8WCIgCYsDOmK1dZ0L2SKm2F6JhbM2-PgC4adcjNIgk9zL2GGA-5YuiNhTyfDnpZbvUFVfskonGD2tedzntdUdwwC00e3L-76JDT8YXF_s&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQFnoECF0QAQ&uoh=1",
+    "displayed_link": "https://www.eventbrite.com › ca--fremont › fremont-lib...",
+    "favicon": "https://serpapi.com/images/i/UklGRgoBAABXRUJQVlA4IP4AAADwBgCdASocABwAPtE-tFooIigoFAEAGglsALEbd_nPCGakhCveQivA9wzx0KILzWkxu3YGfUKpWshTuLrmyolgAP72E6eJlkGPyZwW9QtGk-k5Rr4eTwBs7YpQlNV92tXRnuTGOF4BsTFRcHtw5f2ifKWO_8hNaliaSdFLiAo4_KgXD4bt6Bz4rkrS11odZytobiOYsela2lqT0zUkPb09Mr0ImLl_EDE72afX_L7mtUukbSLDrmEkOXxJwBg0i6swq6leXWGtiqUY2fXWsuQlAVRj18DJqFxVhLYg9uz_bs7mAx1k3JE56GvBr0nmIvDY9u6A0pbhT8-nAp-AAA.webp",
+    "snippet": "Fremont library Events and Things to do in Fremont, CA next month · Santa Clara City Library Comic Con · Santa Clara City Library Comic Con · 5th Annual Upscale ...",
+    "snippet_highlighted_words": [
+     "Fremont library Events and Things to do in Fremont, CA next month"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Fremont library Events and Things to do in Fremont, CA next month · Santa Clara City Library Comic Con · Santa Clara City Library Comic Con · 5th Annual Upscale ...",
+      "source_info_link": "https://www.eventbrite.com/d/ca--fremont/events--next-month/fremont-library/",
+      "icon": "https://serpapi.com/images/i/UklGRgoBAABXRUJQVlA4IP4AAADwBgCdASocABwAPtE-tFooIigoFAEAGglsALEbd_nPCGakhCveQivA9wzx0KILzWkxu3YGfUKpWshTuLrmyolgAP72E6eJlkGPyZwW9QtGk-k5Rr4eTwBs7YpQlNV92tXRnuTGOF4BsTFRcHtw5f2ifKWO_8hNaliaSdFLiAo4_KgXD4bt6Bz4rkrS11odZytobiOYsela2lqT0zUkPb09Mr0ImLl_EDE72afX_L7mtUukbSLDrmEkOXxJwBg0i6swq6leXWGtiqUY2fXWsuQlAVRj18DJqFxVhLYg9uz_bs7mAx1k3JE56GvBr0nmIvDY9u6A0pbhT8-nAp-AAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZYNjVJdWlfVjJyY0o4eGRDQXdvRUxSTUFQczhmTkgwdUVob3hINDE5LUQ1My1RWWdSSGk4SHBjSnV1bkVrRlNUNzFSSEw4V0NJZ0NZc0RPbUsxZFowTDJTS20yRjZKaGJNMi1QZ0M0YWRjak5JZ2s5ekwyR0dBLTVZdWlOaFR5ZkRucFpidlVGVmZza29uR0QydGVkem50ZFVkd3dDMDBlM0wtNzZKRFQ4WVhGX3MSBBoCCAAaogoSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQOsJCAAQABgAIAAqNAoGc2VuaW9yFQAAAAAaB2VsZGVybHkaBW9sZGVyGgdzZW5pb3JzGgxzZW5pb3JldmVudHMqLgoGZXZlbnRzFaq8wkAaCmFjdGl2aXRpZXMaBWV2ZW50GgxzZW5pb3JldmVudHMqHwoHbGlicmFyeRWk7sdAGg9saWJyYXJ5cHJvZ3JhbXMqcAoIcHJvZ3JhbXMVAAAAABoHY2xhc3NlcxoGY291cnNlGgdjb3Vyc2VzGgdwcm9ncmFtGgpwcm9ncmFtbWVzGgtwcm9ncmFtbWluZxoGc2Nob29sGg9saWJyYXJ5cHJvZ3JhbXMaCmFjdGl2aXRpZXMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBVXYbJAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqiAQoKY2FsaWZvcm5pYRUAAAAAGgJjYRoDY2FsGgVjYWxpZhoMY2FsaWZvcm5pYSdzGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaBmNvdW50eSoLCgR0aGlzFQAAAAAqtQEKBHdlZWsVZDF1PhoDY2FsGgVjYWxpZhoGd2VlaydzGgd3ZWVrZW5kGgZ3ZWVrbHkaBXdlZWtzGhBnbTtkYXRlOzIwMjYxMDA0GhBnbTtkYXRlOzIwMjYxMDA1GhBnbTtkYXRlOzIwMjYxMDA2GhBnbTtkYXRlOzIwMjYxMDA3GhBnbTtkYXRlOzIwMjYxMDA4GhBnbTtkYXRlOzIwMjYxMDA5GhBnbTtkYXRlOzIwMjYxMDEwMsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZYNjVJdWlfVjJyY0o4eGRDQXdvRUxSTUFQczhmTkgwdUVob3hINDE5LUQ1My1RWWdSSGk4SHBjSnV1bkVrRlNUNzFSSEw4V0NJZ0NZc0RPbUsxZFowTDJTS20yRjZKaGJNMi1QZ0M0YWRjak5JZ2s5ekwyR0dBLTVZdWlOaFR5ZkRucFpidlVGVmZza29uR0QydGVkem50ZFVkd3dDMDBlM0wtNzZKRFQ4WVhGX3M6TzxiPkZyZW1vbnQ8L2I-LCA8Yj5DQTwvYj4gRnJlbW9udCA8Yj5MaWJyYXJ5IEV2ZW50czwvYj4gTmV4dCBNb250aCAtIEV2ZW50YnJpdGVCxQE8Yj5GcmVtb250IGxpYnJhcnkgRXZlbnRzIGFuZCBUaGluZ3MgdG8gZG8gaW4gRnJlbW9udCwgQ0EgbmV4dCBtb250aDwvYj4gJm1pZGRvdDsgU2FudGEgQ2xhcmEgQ2l0eSBMaWJyYXJ5IENvbWljIENvbiAmbWlkZG90OyBTYW50YSBDbGFyYSBDaXR5IExpYnJhcnkgQ29taWMgQ29uICZtaWRkb3Q7IDV0aCBBbm51YWwgVXBzY2FsZSZuYnNwOy4uLkoCaW5KBHRoaXMiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZYNjVJdWlfVjJyY0o4eGRDQXdvRUxSTUFQczhmTkgwdUVob3hINDE5LUQ1My1RWWdSSGk4SHBjSnV1bkVrRlNUNzFSSEw4V0NJZ0NZc0RPbUsxZFowTDJTS20yRjZKaGJNMi1QZ0M0YWRjak5JZ2s5ekwyR0dBLTVZdWlOaFR5ZkRucFpidlVGVmZza29uR0QydGVkem50ZFVkd3dDMDBlM0wtNzZKRFQ4WVhGX3MSBBoCCAAaogoSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQOsJCAAQABgAIAAqNAoGc2VuaW9yFQAAAAAaB2VsZGVybHkaBW9sZGVyGgdzZW5pb3JzGgxzZW5pb3JldmVudHMqLgoGZXZlbnRzFaq8wkAaCmFjdGl2aXRpZXMaBWV2ZW50GgxzZW5pb3JldmVudHMqHwoHbGlicmFyeRWk7sdAGg9saWJyYXJ5cHJvZ3JhbXMqcAoIcHJvZ3JhbXMVAAAAABoHY2xhc3NlcxoGY291cnNlGgdjb3Vyc2VzGgdwcm9ncmFtGgpwcm9ncmFtbWVzGgtwcm9ncmFtbWluZxoGc2Nob29sGg9saWJyYXJ5cHJvZ3JhbXMaCmFjdGl2aXRpZXMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBVXYbJAGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqiAQoKY2FsaWZvcm5pYRUAAAAAGgJjYRoDY2FsGgVjYWxpZhoMY2FsaWZvcm5pYSdzGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaBmNvdW50eSoLCgR0aGlzFQAAAAAqtQEKBHdlZWsVZDF1PhoDY2FsGgVjYWxpZhoGd2VlaydzGgd3ZWVrZW5kGgZ3ZWVrbHkaBXdlZWtzGhBnbTtkYXRlOzIwMjYxMDA0GhBnbTtkYXRlOzIwMjYxMDA1GhBnbTtkYXRlOzIwMjYxMDA2GhBnbTtkYXRlOzIwMjYxMDA3GhBnbTtkYXRlOzIwMjYxMDA4GhBnbTtkYXRlOzIwMjYxMDA5GhBnbTtkYXRlOzIwMjYxMDEwMsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZYNjVJdWlfVjJyY0o4eGRDQXdvRUxSTUFQczhmTkgwdUVob3hINDE5LUQ1My1RWWdSSGk4SHBjSnV1bkVrRlNUNzFSSEw4V0NJZ0NZc0RPbUsxZFowTDJTS20yRjZKaGJNMi1QZ0M0YWRjak5JZ2s5ekwyR0dBLTVZdWlOaFR5ZkRucFpidlVGVmZza29uR0QydGVkem50ZFVkd3dDMDBlM0wtNzZKRFQ4WVhGX3M6TzxiPkZyZW1vbnQ8L2I-LCA8Yj5DQTwvYj4gRnJlbW9udCA8Yj5MaWJyYXJ5IEV2ZW50czwvYj4gTmV4dCBNb250aCAtIEV2ZW50YnJpdGVCxQE8Yj5GcmVtb250IGxpYnJhcnkgRXZlbnRzIGFuZCBUaGluZ3MgdG8gZG8gaW4gRnJlbW9udCwgQ0EgbmV4dCBtb250aDwvYj4gJm1pZGRvdDsgU2FudGEgQ2xhcmEgQ2l0eSBMaWJyYXJ5IENvbWljIENvbiAmbWlkZG90OyBTYW50YSBDbGFyYSBDaXR5IExpYnJhcnkgQ29taWMgQ29uICZtaWRkb3Q7IDV0aCBBbm51YWwgVXBzY2FsZSZuYnNwOy4uLkoCaW5KBHRoaXMiAhABSABYAGgA",
+    "source": "Eventbrite",
+    "read_more_link": "https://www.eventbrite.com/d/ca--fremont/events--next-month/fremont-library/#:~:text=Fremont%20library%20Events%20and%20Things,in%20Fremont%2C%20CA%20next%20month&text=Santa%20Clara%20City%20Library%20Comic,Con&text=5th%20Annual%20Upscale%20Pub%20Crawl&text=5th%20Annual%20Upscale%20Pub%20Crawl"
+   },
+   {
+    "position": 8,
+    "title": "Fremont Main Library Events",
+    "link": "https://www.facebook.com/fb-answers/fremont-main-library-events/?locale=sq_AL",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiAEB6zswFe1v76SVukLPG-9BSyMo6K7YStqWMKp7nKn-1ZvrTjuV9FV3_vX2FQ8DZ6-8FJW7oy67M8ASouN_BTUyyH235rnNJwY6auWkT1sZlw1P5XGzhF1vCl0SgdoSmMhzZnDOxqya9fkVSf-7jbKf0uqlfEWwTS4YXF04BSLf7EWPOEyvUgqE&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQFnoECFwQAQ&uoh=1",
+    "displayed_link": "https://www.facebook.com › fb-answers › fremont-mai...",
+    "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+    "snippet": "The library also hosts music programs, seniors fitness, and informational seminars in Fukaya Room A & B.",
+    "snippet_highlighted_words": [
+     "music programs, seniors fitness, and informational seminars"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "The library also hosts music programs, seniors fitness, and informational seminars in Fukaya Room A & B.",
+      "source_info_link": "https://www.facebook.com/fb-answers/fremont-main-library-events/?locale=sq_AL",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZlMXY3NlNWdWtMUEctOUJTeU1vNks3WVN0cVdNS3A3bktuLTFadnJUanVWOUZWM192WDJGUThEWjYtOEZKVzdveTY3TThBU291Tl9CVFV5eUgyMzVybk5Kd1k2YXVXa1Qxc1psdzFQNVhHemhGMXZDbDBTZ2RvU21NaHpabkRPeHF5YTlma1ZTZi03amJLZjB1cWxmRVd3VFM0WVhGMDRCU0xmN0VXUE9FeXZVZ3FFEgQaAggAGrUJEgAaACIAKgA6AEIECAEQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkD-CAgAEAAYACAAKjQKBnNlbmlvchUAAAAAGgdlbGRlcmx5GgVvbGRlchoHc2VuaW9ycxoMc2VuaW9yZXZlbnRzKi4KBmV2ZW50cxUe1XdAGgphY3Rpdml0aWVzGgVldmVudBoMc2VuaW9yZXZlbnRzKh8KB2xpYnJhcnkV3oKXQBoPbGlicmFyeXByb2dyYW1zKnAKCHByb2dyYW1zFbN3TT8aB2NsYXNzZXMaBmNvdXJzZRoHY291cnNlcxoHcHJvZ3JhbRoKcHJvZ3JhbW1lcxoLcHJvZ3JhbW1pbmcaBnNjaG9vbBoPbGlicmFyeXByb2dyYW1zGgphY3Rpdml0aWVzKgkKAmluFQAAAAAqhwEKB2ZyZW1vbnQV_JupQBoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgxpdjtwO2ZyZW1vbnQqogEKCmNhbGlmb3JuaWEV2GOzPhoCY2EaA2NhbBoFY2FsaWYaDGNhbGlmb3JuaWEncxoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgZjb3VudHkqCwoEdGhpcxUAAAAAKrUBCgR3ZWVrFQAAAAAaA2NhbBoFY2FsaWYaBndlZWsncxoHd2Vla2VuZBoGd2Vla2x5GgV3ZWVrcxoQZ207ZGF0ZTsyMDI2MTAwNBoQZ207ZGF0ZTsyMDI2MTAwNRoQZ207ZGF0ZTsyMDI2MTAwNhoQZ207ZGF0ZTsyMDI2MTAwNxoQZ207ZGF0ZTsyMDI2MTAwOBoQZ207ZGF0ZTsyMDI2MTAwORoQZ207ZGF0ZTsyMDI2MTAxMDLGAS9nb3RvP3VybD1DQUVTaUFFQjZ6c3dGZTF2NzZTVnVrTFBHLTlCU3lNbzZLN1lTdHFXTUtwN25Lbi0xWnZyVGp1VjlGVjNfdlgyRlE4RFo2LThGSlc3b3k2N004QVNvdU5fQlRVeXlIMjM1cm5OSndZNmF1V2tUMXNabHcxUDVYR3poRjF2Q2wwU2dkb1NtTWh6Wm5ET3hxeWE5ZmtWU2YtN2piS2YwdXFsZkVXd1RTNFlYRjA0QlNMZjdFV1BPRXl2VWdxRTo0PGI-RnJlbW9udDwvYj4gTWFpbiA8Yj5MaWJyYXJ5IEV2ZW50czwvYj4gLSBGYWNlYm9va0JzVGhlIGxpYnJhcnkgYWxzbyBob3N0cyA8Yj5tdXNpYyBwcm9ncmFtcywgc2VuaW9ycyBmaXRuZXNzLCBhbmQgaW5mb3JtYXRpb25hbCBzZW1pbmFyczwvYj4gaW4gRnVrYXlhIFJvb20gQSAmYW1wOyBCLkoCaW5KBHRoaXMiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZlMXY3NlNWdWtMUEctOUJTeU1vNks3WVN0cVdNS3A3bktuLTFadnJUanVWOUZWM192WDJGUThEWjYtOEZKVzdveTY3TThBU291Tl9CVFV5eUgyMzVybk5Kd1k2YXVXa1Qxc1psdzFQNVhHemhGMXZDbDBTZ2RvU21NaHpabkRPeHF5YTlma1ZTZi03amJLZjB1cWxmRVd3VFM0WVhGMDRCU0xmN0VXUE9FeXZVZ3FFEgQaAggAGrUJEgAaACIAKgA6AEIECAEQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkD-CAgAEAAYACAAKjQKBnNlbmlvchUAAAAAGgdlbGRlcmx5GgVvbGRlchoHc2VuaW9ycxoMc2VuaW9yZXZlbnRzKi4KBmV2ZW50cxUe1XdAGgphY3Rpdml0aWVzGgVldmVudBoMc2VuaW9yZXZlbnRzKh8KB2xpYnJhcnkV3oKXQBoPbGlicmFyeXByb2dyYW1zKnAKCHByb2dyYW1zFbN3TT8aB2NsYXNzZXMaBmNvdXJzZRoHY291cnNlcxoHcHJvZ3JhbRoKcHJvZ3JhbW1lcxoLcHJvZ3JhbW1pbmcaBnNjaG9vbBoPbGlicmFyeXByb2dyYW1zGgphY3Rpdml0aWVzKgkKAmluFQAAAAAqhwEKB2ZyZW1vbnQV_JupQBoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgxpdjtwO2ZyZW1vbnQqogEKCmNhbGlmb3JuaWEV2GOzPhoCY2EaA2NhbBoFY2FsaWYaDGNhbGlmb3JuaWEncxoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwGgZjb3VudHkqCwoEdGhpcxUAAAAAKrUBCgR3ZWVrFQAAAAAaA2NhbBoFY2FsaWYaBndlZWsncxoHd2Vla2VuZBoGd2Vla2x5GgV3ZWVrcxoQZ207ZGF0ZTsyMDI2MTAwNBoQZ207ZGF0ZTsyMDI2MTAwNRoQZ207ZGF0ZTsyMDI2MTAwNhoQZ207ZGF0ZTsyMDI2MTAwNxoQZ207ZGF0ZTsyMDI2MTAwOBoQZ207ZGF0ZTsyMDI2MTAwORoQZ207ZGF0ZTsyMDI2MTAxMDLGAS9nb3RvP3VybD1DQUVTaUFFQjZ6c3dGZTF2NzZTVnVrTFBHLTlCU3lNbzZLN1lTdHFXTUtwN25Lbi0xWnZyVGp1VjlGVjNfdlgyRlE4RFo2LThGSlc3b3k2N004QVNvdU5fQlRVeXlIMjM1cm5OSndZNmF1V2tUMXNabHcxUDVYR3poRjF2Q2wwU2dkb1NtTWh6Wm5ET3hxeWE5ZmtWU2YtN2piS2YwdXFsZkVXd1RTNFlYRjA0QlNMZjdFV1BPRXl2VWdxRTo0PGI-RnJlbW9udDwvYj4gTWFpbiA8Yj5MaWJyYXJ5IEV2ZW50czwvYj4gLSBGYWNlYm9va0JzVGhlIGxpYnJhcnkgYWxzbyBob3N0cyA8Yj5tdXNpYyBwcm9ncmFtcywgc2VuaW9ycyBmaXRuZXNzLCBhbmQgaW5mb3JtYXRpb25hbCBzZW1pbmFyczwvYj4gaW4gRnVrYXlhIFJvb20gQSAmYW1wOyBCLkoCaW5KBHRoaXMiAhABSABYAGgA",
+    "source": "Facebook"
+   },
+   {
+    "position": 9,
+    "title": "Upcoming Events at Fremont Senior Center",
+    "link": "https://patch.com/california/fremont/upcoming-events-fremont-senior-center",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShQEB6zswFaS3rbA47SGZKfK4fIw1507P-H1Quf7jS0mMfyIE8hZ-69QSpJX6HwlGMgBUNbv9yYvyoZ4MqXQ0WyCcnB48zYPUv7rsw6v13BZ5gF7AwOPqQNNEXMhPJepMA7BHtqpSGbsXtn9mqNkqIT9th2n0M2STO-n_eX-ofZihyOwRbT62&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQFnoECFoQAQ&uoh=1",
+    "displayed_link": "https://patch.com › california › upcoming-events-fremo...",
+    "favicon": "https://serpapi.com/images/i/UklGRqwAAABXRUJQVlA4IKAAAACQBACdASocABwAPrUurVanIacnG_DgFolkAAPjMwkG-tcVNkosilFXSuWk_gAA_vitt-5-Xod0yHQ9-HyZ_-1D7xofGQb78xAFjjNRiu4OLkkqrQiHtxvuERBwZ5_wYZWvS-KLOUDuq-OnnKETker83DBNsh55VRO3L4wwscGpP-I5IBb7_iRbIYVXqsAfWH9DT639JMF4HW84nV8BIAAA.webp",
+    "date": "Feb 5, 2017",
+    "snippet": "FREMONT, CA — The Fremont Senior Center is offering a variety of programs and activities over the next couple of months.",
+    "snippet_highlighted_words": [
+     "offering a variety of programs and activities"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "FREMONT, CA — The Fremont Senior Center is offering a variety of programs and activities over the next couple of months.",
+      "source_info_link": "https://patch.com/california/fremont/upcoming-events-fremont-senior-center",
+      "icon": "https://serpapi.com/images/i/UklGRqwAAABXRUJQVlA4IKAAAACQBACdASocABwAPrUurVanIacnG_DgFolkAAPjMwkG-tcVNkosilFXSuWk_gAA_vitt-5-Xod0yHQ9-HyZ_-1D7xofGQb78xAFjjNRiu4OLkkqrQiHtxvuERBwZ5_wYZWvS-KLOUDuq-OnnKETker83DBNsh55VRO3L4wwscGpP-I5IBb7_iRbIYVXqsAfWH9DT639JMF4HW84nV8BIAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsIBL2dvdG8_dXJsPUNBRVNoUUVCNnpzd0ZhUzNyYkE0N1NHWktmSzRmSXcxNTA3UC1IMVF1ZjdqUzBtTWZ5SUU4aFotNjlRU3BKWDZId2xHTWdCVU5idjl5WXZ5b1o0TXFYUTBXeUNjbkI0OHpZUFV2N3JzdzZ2MTNCWjVnRjdBd09QcVFOTkVYTWhQSmVwTUE3Qkh0cXBTR2JzWHRuOW1xTmtxSVQ5dGgybjBNMlNUTy1uX2VYLW9mWmloeU93UmJUNjISBBoCCAAaygkSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQJMJCAAQABgAIAAqNAoGc2VuaW9yFRJj2kAaB2VsZGVybHkaBW9sZGVyGgdzZW5pb3JzGgxzZW5pb3JldmVudHMqLgoGZXZlbnRzFQ4QoEAaCmFjdGl2aXRpZXMaBWV2ZW50GgxzZW5pb3JldmVudHMqHwoHbGlicmFyeRUAAAAAGg9saWJyYXJ5cHJvZ3JhbXMqcAoIcHJvZ3JhbXMVe92APxoHY2xhc3NlcxoGY291cnNlGgdjb3Vyc2VzGgdwcm9ncmFtGgpwcm9ncmFtbWVzGgtwcm9ncmFtbWluZxoGc2Nob29sGg9saWJyYXJ5cHJvZ3JhbXMaCmFjdGl2aXRpZXMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBVx2QFBGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqiAQoKY2FsaWZvcm5pYRX55wVAGgJjYRoDY2FsGgVjYWxpZhoMY2FsaWZvcm5pYSdzGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaBmNvdW50eSoLCgR0aGlzFQAAAAAqtQEKBHdlZWsVAAAAABoDY2FsGgVjYWxpZhoGd2VlaydzGgd3ZWVrZW5kGgZ3ZWVrbHkaBXdlZWtzGhBnbTtkYXRlOzIwMjYxMDA0GhBnbTtkYXRlOzIwMjYxMDA1GhBnbTtkYXRlOzIwMjYxMDA2GhBnbTtkYXRlOzIwMjYxMDA3GhBnbTtkYXRlOzIwMjYxMDA4GhBnbTtkYXRlOzIwMjYxMDA5GhBnbTtkYXRlOzIwMjYxMDEwMsIBL2dvdG8_dXJsPUNBRVNoUUVCNnpzd0ZhUzNyYkE0N1NHWktmSzRmSXcxNTA3UC1IMVF1ZjdqUzBtTWZ5SUU4aFotNjlRU3BKWDZId2xHTWdCVU5idjl5WXZ5b1o0TXFYUTBXeUNjbkI0OHpZUFV2N3JzdzZ2MTNCWjVnRjdBd09QcVFOTkVYTWhQSmVwTUE3Qkh0cXBTR2JzWHRuOW1xTmtxSVQ5dGgybjBNMlNUTy1uX2VYLW9mWmloeU93UmJUNjI6PlVwY29taW5nIDxiPkV2ZW50czwvYj4gYXQgPGI-RnJlbW9udCBTZW5pb3I8L2I-IENlbnRlciAtIFBhdGNoQoEBRlJFTU9OVCwgQ0Eg4oCUIFRoZSBGcmVtb250IFNlbmlvciBDZW50ZXIgaXMgPGI-b2ZmZXJpbmcgYSB2YXJpZXR5IG9mIHByb2dyYW1zIGFuZCBhY3Rpdml0aWVzPC9iPiBvdmVyIHRoZSBuZXh0IGNvdXBsZSBvZiBtb250aHMuSgR0aGlzSgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsIBL2dvdG8_dXJsPUNBRVNoUUVCNnpzd0ZhUzNyYkE0N1NHWktmSzRmSXcxNTA3UC1IMVF1ZjdqUzBtTWZ5SUU4aFotNjlRU3BKWDZId2xHTWdCVU5idjl5WXZ5b1o0TXFYUTBXeUNjbkI0OHpZUFV2N3JzdzZ2MTNCWjVnRjdBd09QcVFOTkVYTWhQSmVwTUE3Qkh0cXBTR2JzWHRuOW1xTmtxSVQ5dGgybjBNMlNUTy1uX2VYLW9mWmloeU93UmJUNjISBBoCCAAaygkSABoAIgAqADoAQgQIARAAShsIARITRnJlbW9udCwgQ2FsaWZvcm5pYRoCCAFaAHIAegCCQJMJCAAQABgAIAAqNAoGc2VuaW9yFRJj2kAaB2VsZGVybHkaBW9sZGVyGgdzZW5pb3JzGgxzZW5pb3JldmVudHMqLgoGZXZlbnRzFQ4QoEAaCmFjdGl2aXRpZXMaBWV2ZW50GgxzZW5pb3JldmVudHMqHwoHbGlicmFyeRUAAAAAGg9saWJyYXJ5cHJvZ3JhbXMqcAoIcHJvZ3JhbXMVe92APxoHY2xhc3NlcxoGY291cnNlGgdjb3Vyc2VzGgdwcm9ncmFtGgpwcm9ncmFtbWVzGgtwcm9ncmFtbWluZxoGc2Nob29sGg9saWJyYXJ5cHJvZ3JhbXMaCmFjdGl2aXRpZXMqCQoCaW4VAAAAACqHAQoHZnJlbW9udBVx2QFBGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqiAQoKY2FsaWZvcm5pYRX55wVAGgJjYRoDY2FsGgVjYWxpZhoMY2FsaWZvcm5pYSdzGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaBmNvdW50eSoLCgR0aGlzFQAAAAAqtQEKBHdlZWsVAAAAABoDY2FsGgVjYWxpZhoGd2VlaydzGgd3ZWVrZW5kGgZ3ZWVrbHkaBXdlZWtzGhBnbTtkYXRlOzIwMjYxMDA0GhBnbTtkYXRlOzIwMjYxMDA1GhBnbTtkYXRlOzIwMjYxMDA2GhBnbTtkYXRlOzIwMjYxMDA3GhBnbTtkYXRlOzIwMjYxMDA4GhBnbTtkYXRlOzIwMjYxMDA5GhBnbTtkYXRlOzIwMjYxMDEwMsIBL2dvdG8_dXJsPUNBRVNoUUVCNnpzd0ZhUzNyYkE0N1NHWktmSzRmSXcxNTA3UC1IMVF1ZjdqUzBtTWZ5SUU4aFotNjlRU3BKWDZId2xHTWdCVU5idjl5WXZ5b1o0TXFYUTBXeUNjbkI0OHpZUFV2N3JzdzZ2MTNCWjVnRjdBd09QcVFOTkVYTWhQSmVwTUE3Qkh0cXBTR2JzWHRuOW1xTmtxSVQ5dGgybjBNMlNUTy1uX2VYLW9mWmloeU93UmJUNjI6PlVwY29taW5nIDxiPkV2ZW50czwvYj4gYXQgPGI-RnJlbW9udCBTZW5pb3I8L2I-IENlbnRlciAtIFBhdGNoQoEBRlJFTU9OVCwgQ0Eg4oCUIFRoZSBGcmVtb250IFNlbmlvciBDZW50ZXIgaXMgPGI-b2ZmZXJpbmcgYSB2YXJpZXR5IG9mIHByb2dyYW1zIGFuZCBhY3Rpdml0aWVzPC9iPiBvdmVyIHRoZSBuZXh0IGNvdXBsZSBvZiBtb250aHMuSgR0aGlzSgJpbiICEAFIAFgAaAA",
+    "source": "Patch",
+    "read_more_link": "https://patch.com/california/fremont/upcoming-events-fremont-senior-center#:~:text=FREMONT%2C%20CA%20%E2%80%94%20The%20Fremont,the%20next%20couple%20of%20months."
+   }
+  ],
+  "related_searches": [
+   {
+    "block_position": 1,
+    "query": "Senior events library programs in fremont california this week near me",
+    "link": "https://www.google.com/search?sca_esv=b88b68c618104966&hl=en&gl=us&sxsrf=APpeQnsq_tB_Iin39fTSYYjo_YjycqcLAQ:1791220898493&q=Senior+events+library+programs+in+fremont+california+this+week+near+me&sa=X&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQ1QJ6BAhVEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Senior+events+library+programs+in+fremont+california+this+week+near+me"
+   },
+   {
+    "block_position": 1,
+    "query": "Senior events library programs in fremont california this week near",
+    "link": "https://www.google.com/search?sca_esv=b88b68c618104966&hl=en&gl=us&sxsrf=APpeQnsq_tB_Iin39fTSYYjo_YjycqcLAQ:1791220898493&q=Senior+events+library+programs+in+fremont+california+this+week+near&sa=X&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQ1QJ6BAhWEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Senior+events+library+programs+in+fremont+california+this+week+near"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.com/search?q=senior+events+library+programs+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&hl=en&gl=us&sxsrf=APpeQnsq_tB_Iin39fTSYYjo_YjycqcLAQ:1791220898493&ei=otzDas7bHb_bkPIPjY2oqA0&start=10&sa=N&sstk=AS6-VmJ6gjIzseo6pBN5Svh-8RZ4HY7OYlnz57MFpp-nW9h2KC07fg-dsw4lTwlfuFtSMC8GiKjjcFnXyfz9nui_DVVjiP6eStXejw&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQ8NMDegQIUxAO",
+   "other_pages": {
+    "2": "https://www.google.com/search?q=senior+events+library+programs+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&hl=en&gl=us&sxsrf=APpeQnsq_tB_Iin39fTSYYjo_YjycqcLAQ:1791220898493&ei=otzDas7bHb_bkPIPjY2oqA0&start=10&sa=N&sstk=AS6-VmJ6gjIzseo6pBN5Svh-8RZ4HY7OYlnz57MFpp-nW9h2KC07fg-dsw4lTwlfuFtSMC8GiKjjcFnXyfz9nui_DVVjiP6eStXejw&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQ8tMDegQIUxAE",
+    "3": "https://www.google.com/search?q=senior+events+library+programs+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&hl=en&gl=us&sxsrf=APpeQnsq_tB_Iin39fTSYYjo_YjycqcLAQ:1791220898493&ei=otzDas7bHb_bkPIPjY2oqA0&start=20&sa=N&sstk=AS6-VmJ6gjIzseo6pBN5Svh-8RZ4HY7OYlnz57MFpp-nW9h2KC07fg-dsw4lTwlfuFtSMC8GiKjjcFnXyfz9nui_DVVjiP6eStXejw&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQ8tMDegQIUxAG",
+    "4": "https://www.google.com/search?q=senior+events+library+programs+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&hl=en&gl=us&sxsrf=APpeQnsq_tB_Iin39fTSYYjo_YjycqcLAQ:1791220898493&ei=otzDas7bHb_bkPIPjY2oqA0&start=30&sa=N&sstk=AS6-VmJ6gjIzseo6pBN5Svh-8RZ4HY7OYlnz57MFpp-nW9h2KC07fg-dsw4lTwlfuFtSMC8GiKjjcFnXyfz9nui_DVVjiP6eStXejw&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQ8tMDegQIUxAI",
+    "5": "https://www.google.com/search?q=senior+events+library+programs+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&hl=en&gl=us&sxsrf=APpeQnsq_tB_Iin39fTSYYjo_YjycqcLAQ:1791220898493&ei=otzDas7bHb_bkPIPjY2oqA0&start=40&sa=N&sstk=AS6-VmJ6gjIzseo6pBN5Svh-8RZ4HY7OYlnz57MFpp-nW9h2KC07fg-dsw4lTwlfuFtSMC8GiKjjcFnXyfz9nui_DVVjiP6eStXejw&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQ8tMDegQIUxAK",
+    "6": "https://www.google.com/search?q=senior+events+library+programs+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&hl=en&gl=us&sxsrf=APpeQnsq_tB_Iin39fTSYYjo_YjycqcLAQ:1791220898493&ei=otzDas7bHb_bkPIPjY2oqA0&start=50&sa=N&sstk=AS6-VmJ6gjIzseo6pBN5Svh-8RZ4HY7OYlnz57MFpp-nW9h2KC07fg-dsw4lTwlfuFtSMC8GiKjjcFnXyfz9nui_DVVjiP6eStXejw&ved=2ahUKEwjOtPnqsaOXAxW_LUQIHY0GCtUQ8tMDegQIUxAM"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=senior+events+library+programs+in+Fremont%2C+California+this+week&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=senior+events+library+programs+in+Fremont%2C+California+this+week&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=senior+events+library+programs+in+Fremont%2C+California+this+week&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=senior+events+library+programs+in+Fremont%2C+California+this+week&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=senior+events+library+programs+in+Fremont%2C+California+this+week&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=senior+events+library+programs+in+Fremont%2C+California+this+week&start=40",
+    "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=senior+events+library+programs+in+Fremont%2C+California+this+week&start=50"
+   }
+  }
+ }
+}

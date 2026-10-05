@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 3, \"correctness\": 2, \"note\": \"\\\"బిల్లెట్\\\" is wrong; should be \\\"టిక్కెట్\\\". \\\"పదిహేను\\\" means fifteen, not fifty.\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:04:11.177Z"
+}

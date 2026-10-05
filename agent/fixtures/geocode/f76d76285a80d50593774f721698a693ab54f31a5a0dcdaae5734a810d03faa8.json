@@ -1,0 +1,9 @@
+{
+ "query": "Niles Town Plaza, Fremont, CA",
+ "location": {
+  "lat": 37.5772572,
+  "lng": -121.9785817
+ },
+ "displayName": "Niles Town Plaza, Niles District, Fremont, Alameda County, California, United States",
+ "source": "OpenStreetMap Nominatim (ODbL)"
+}

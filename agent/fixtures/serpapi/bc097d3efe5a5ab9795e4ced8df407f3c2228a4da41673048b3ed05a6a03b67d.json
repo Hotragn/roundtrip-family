@@ -1,0 +1,942 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps",
+ "request": "https://serpapi.com/search.json?engine=google_maps&type=search&q=Park&ll=%4048.1%2C11.646%2C13z&gl=de&hl=de",
+ "note": "places: Park",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:05:47.951Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "Park",
+   "ll": "@48.1,11.646,13z",
+   "google_domain": "google.com",
+   "hl": "de",
+   "gl": "de"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "Park"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Westpark",
+    "place_id": "ChIJMxhd_ZTYnUcRhgW7Il3JiCk",
+    "data_id": "0x479dd894fd5d1833:0x2988c95d22bb0586",
+    "data_cid": "2992863354239518086",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd894fd5d1833%3A0x2988c95d22bb0586&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd894fd5d1833%3A0x2988c95d22bb0586&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.123098999999996,
+     "longitude": 11.513714499999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJMxhd_ZTYnUcRhgW7Il3JiCk",
+    "provider_id": "/m/02ql_k0",
+    "rating": 4.6,
+    "reviews": 12612,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Sehenswürdigkeit"
+    ],
+    "address": "Sendling-Westpark, 81373 München",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "website": "https://www.muenchen.de/sehenswuerdigkeiten/parks-und-gaerten/westpark",
+    "description": "Großer Stadtpark mit Seen. Öffentlicher Park mit asiatischen Gärten, Rosenbeeten und einer Seebühne für Musik, Film und Theater.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMh01-QexeoJonJ9DBRzZXChRlg5njlRGGReEE-6uNqOUn2r_SiYEaIQhBftv1zRnwpCsv4q4RntPAbe16BEnIbVojMQ6bsWWkTz-NYlxJCZR6XNEv_hdBv84eVcc4aIzmck88kTQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/kHbU13icHcRLDoIwFADAE1VAkaCJC8HGQCJK_bMhUCtVyivSWg039AjexsRZzPfDtW7V1LIEHw0qKSvBnop1VIJmoAdUNlbVFUohqqx5aFrRrLjtoJS9mYwlxJNFQPrsFHIiqjHcBVkuCcMYec_ksd7DsMu3tzMuopQHV22cnsCrDZVxHy4BvZmXzPECDFF5kPdV6pXqeKx3PUrO4h2HGfFOCTY5vwTGd9mBUreI-obWvl_v0tnLsW0b8f8UwQ9s40Zt"
+   },
+   {
+    "position": 2,
+    "title": "Schlosspark Nymphenburg",
+    "place_id": "ChIJ78jp3Mp3nkcR3dl2Bf1BKh4",
+    "data_id": "0x479e77cadce9c8ef:0x1e2a41fd0576d9dd",
+    "data_cid": "2173622325133892061",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e77cadce9c8ef%3A0x1e2a41fd0576d9dd&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e77cadce9c8ef%3A0x1e2a41fd0576d9dd&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.155577699999995,
+     "longitude": 11.493571099999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ78jp3Mp3nkcR3dl2Bf1BKh4",
+    "provider_id": "/g/121_hswn",
+    "rating": 4.7,
+    "reviews": 22034,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Sehenswürdigkeit"
+    ],
+    "address": "Neuhausen-Nymphenburg, 80638 München",
+    "country": "Deutschland",
+    "open_state": "Geöffnet · Schließt um 21:30",
+    "hours": "Geöffnet · Schließt um 21:30",
+    "operating_hours": {
+     "montag": "06:00–21:30",
+     "dienstag": "06:00–21:30",
+     "mittwoch": "06:00–21:30",
+     "donnerstag": "06:00–21:30",
+     "freitag": "06:00–21:30",
+     "samstag": "06:00–21:30",
+     "sonntag": "06:00–21:30"
+    },
+    "phone": "089 179080",
+    "website": "http://www.schloss-nymphenburg.de/",
+    "description": "Formaler Landschaftsgarten (18. Jh.). Klassisches Schloss mit englischem Garten, akkuraten Blumenbeeten, Zierteich und versteckt liegendem Wald.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMmwFnsDMkRVT8vfu19kpRnzqxjsZB7LNMngNQdOjhjjAYnZjK5fk4TgHz3CU2Kkb1eTVSi6c4b83h3fDozpkqhekrU3rhfh5kAM2hmB0yzNXxwcupD2oZIHKivjXcl0O1ar-k=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/ldbhdHicHcRLDoIwFADAEyGF-k9coMRoEIyKRtlpLX220NaWj3JA7-BtTJzFfD9QVdpOXbcA3GNKsYLWlhqiZEVl1SOqdJm5WusQ6waLRhdlXLZLacNY7E_puMlrbyL0XnbPF7fZfLRJYsmS3X3LgfPgIjMeDXLRT9mqw4ujH4mbR9PT4TEk_dsYA85D1WnxBCrMERvIYSCC2Idyjt5dcn61pNahr7L1Kno0_EwKtPWuxhGz1kMIOfCfOPIHEthGjQ"
+   },
+   {
+    "position": 3,
+    "title": "Ostpark",
+    "place_id": "ChIJFUD79OPfnUcR-fZ4tQF-ywU",
+    "data_id": "0x479ddfe3f4fb4015:0x5cb7e01b578f6f9",
+    "data_cid": "417565936266573561",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddfe3f4fb4015%3A0x5cb7e01b578f6f9&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddfe3f4fb4015%3A0x5cb7e01b578f6f9&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.113887399999996,
+     "longitude": 11.6386031
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJFUD79OPfnUcR-fZ4tQF-ywU",
+    "provider_id": "/m/0t54bny",
+    "rating": 4.6,
+    "reviews": 5449,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Sehenswürdigkeit"
+    ],
+    "address": "Feichtstr. 19, 81735 München",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "website": "http://www.muenchen.de/sehenswuerdigkeiten/orte/120226.html",
+    "description": "Park mit Picknick- & Spielbereichen. 56 Hektar großer Park mit Spiel- und Sportplätzen, Joggingstrecken, einem See und Picknickbereichen.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNhEoZBuCMX-EoQ2c9wLUieRZ8IBQcJ6t4h6xbZaYh-XbvGIP_T1cRy2V1Feb5ZpBg6RpfqqzWHYhIuPUf5MutV0232tTthlu4KEA1Y9VxTPkdl3a3g-cvz1lnlI_oFKHYluzUp=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/aeLRG3icHcRdDoIgAADgE5Gi5qqth3RW9jdzaupLUyJokaCAlRfsDN2mre_h-36oUkLODINRe0Q4JwxriTvEG4UbNUL8YZCukhIgaSz8XrDHgQa89LS_z0HAjxaaPnfpDcflJPSOaOMqh7qvuqwKCvK6X4XROYEoflsZXOJ6XAqPuLG4tu1wWhc01FF6He-1ykzLtlSiKNPONljAYpq9kuh-YXZlE4D6AbKGhWe-3K4LpodUzJ_QNE1A_yPQ_ACIYUU3"
+   },
+   {
+    "position": 4,
+    "title": "Riemer Park",
+    "place_id": "ChIJ63zktoMKnkcRZ0pG7Kb0suU",
+    "data_id": "0x479e0a83b6e47ceb:0xe5b2f4a6ec464a67",
+    "data_cid": "16551560578305772135",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e0a83b6e47ceb%3A0xe5b2f4a6ec464a67&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e0a83b6e47ceb%3A0xe5b2f4a6ec464a67&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.125573599999996,
+     "longitude": 11.6935398
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ63zktoMKnkcRZ0pG7Kb0suU",
+    "provider_id": "/g/121qm1hb",
+    "rating": 4.6,
+    "reviews": 792,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "address": "Trudering-Riem, 81829 München",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "website": "https://www.muenchen.de/sehenswuerdigkeiten/orte/119360.html",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPsrmz9vY1gByKhR0Ej6pTgEyQ0F4OezeLi4CA-4a7YWAAYz5XO84XsJM60cxBfONga0ytxj8qdBjI7e2yaH2HcyyctGqM6galJvHnksutj_M_f1LZ9P8ZanyBMGki_0XUaU90h=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_FRXSXicHcRLDoIwFADAEwEPRQQTF2BQ_CBqJIIb0tTailCQVrRc0DN4GxNnMd8Pk7IRE8Mo2VCndU1L8hSkxTWXhEsd15VBWySEhoXhzbqmrHairXq3y0zqqzU7QFDYzZEGag9zKyY92dysmadZaJydPC_rR2nsWKlYRTbgt3-NtxSBku_CeVz8YjkmA4XCQYiVwnLxiGyKylUX8rt4yiKP8qu5Obs754y48qPF_ZZDmqDEBTZ9mQCgsf9Y4z-kjEUv"
+   },
+   {
+    "position": 5,
+    "title": "Südpark (Sendlinger Wald)",
+    "place_id": "ChIJ2S4I69zYnUcRStZQDG44qmE",
+    "data_id": "0x479dd8dceb082ed9:0x61aa386e0c50d64a",
+    "data_cid": "7037499413024003658",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd8dceb082ed9%3A0x61aa386e0c50d64a&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd8dceb082ed9%3A0x61aa386e0c50d64a&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1032746,
+     "longitude": 11.511187
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ2S4I69zYnUcRStZQDG44qmE",
+    "provider_id": "/g/11bw65ykd6",
+    "rating": 4.5,
+    "reviews": 1416,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Sehenswürdigkeit"
+    ],
+    "address": "200, Südparkallee, 81379 München-Sendling-Westpark",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "phone": "01512 5378422",
+    "website": "http://www.muenchen.de/sehenswuerdigkeiten/orte/120244.html",
+    "description": "Bewaldeter Park mit Fitnessmöglichkeiten. Weitläufiger Park mit Spazier- und Laufwegen im Schatten von Bäumen, Fitnessbereichen, Bänken und Tischtennis.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOYE2yK6VdUevuoafYt6noroV77T78AFGoQqnxtf9Byh04IC9lzekcK_w-gPGBFaOfsgPIl7-itQK5TaclYJ5GidwjNJV11LhSlWnc25UTUnvOaFl4GmrtVL6Q9kiyfQpn6Z0Rb=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/7h8QOXicHcTvEoEwAADwJ5oW_ZE7H3DqyElULl_czNpibWlT8oKewdu48_vw-36Y1rWaGAZnowGVknLyVKTBUmgi9ADLyqANUgpgZcwWbc2rKF8O-9DJrilpnxIVuXaEbGTmuok7nvmBjB_ipQtv3jNorRYef5M7Ds8doLtg7qOoUHS34i4odRzaCcI8X9tBee1u23Vmmht24EeBh3aapKKNkM-toGp0tnFi7172RVwL5wT3l2lnQggB-4-B-AHnBkWa"
+   },
+   {
+    "position": 6,
+    "title": "Maximiliansanlagen",
+    "place_id": "ChIJowqouYZ1nkcRuS69G6cgbjs",
+    "data_id": "0x479e7586b9a80aa3:0x3b6e20a71bbd2eb9",
+    "data_cid": "4282396197772930745",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e7586b9a80aa3%3A0x3b6e20a71bbd2eb9&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e7586b9a80aa3%3A0x3b6e20a71bbd2eb9&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1394684,
+     "longitude": 11.596482799999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJowqouYZ1nkcRuS69G6cgbjs",
+    "provider_id": "/g/121bw24p",
+    "rating": 4.6,
+    "reviews": 2318,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Sehenswürdigkeit"
+    ],
+    "address": "Maria-Theresia-Straße 4, 81675 München-Au-Haidhausen",
+    "country": "Deutschland",
+    "open_state": "Jetzt geöffnet",
+    "website": "https://www.muenchen.de/en/sights/parks/maximiliansanlagen",
+    "description": "Park am Flussufer zum Joggen & Rodeln. Ruhiger, baumreicher Park am Flussufer mit Walking- und Joggingstrecken sowie Rodelhängen im Winter.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMrcVrvyFpU7q-k_pAA6UDeNHuTwu2fMJuOwjHKfGUV5ojfaBrjB1m9rg9efbMgMdv3_0Gg0UTJBk65qsb_YecVFhvyPaOvHV1RJLhLI7X7iKNlzJIHa58W3pGMprtE-ujfADcoNQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/YyFmAHicHcTbboIwAADQL6qUEWSa7AHmBNHiJcK2J4K1FxFo7Y3oH-4T_BuTnYfz_OPGSD33vI4HEyYE64jVRGExGDKYCRa9x1SjNcDaiz-d7HqkcKXcfSnL6AautYzjabkgRWaPo32jKLfbsc3WNC2rULS0SVSb-P1MsRmhJ8TQ2QU1TBksj3lynYY3fap_Ca6W3N13zdZllX_IN3yzin6iy7roHvkqa8L370CmSCrzBWxL4wUWxf5j9CGEgP-PwfACmA1GUA"
+   },
+   {
+    "position": 7,
+    "title": "Kronepark am Nockherberg",
+    "place_id": "ChIJcZwqIm7fnUcRMVKeZw88Rh4",
+    "data_id": "0x479ddf6e222a9c71:0x1e463c0f679e5231",
+    "data_cid": "2181497106368188977",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf6e222a9c71%3A0x1e463c0f679e5231&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf6e222a9c71%3A0x1e463c0f679e5231&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1205722,
+     "longitude": 11.5808804
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJcZwqIm7fnUcRMVKeZw88Rh4",
+    "provider_id": "/g/11gc9gfbl_",
+    "rating": 4.4,
+    "reviews": 464,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "address": "Nockherstraße 1, 81541 München",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "phone": "089 115",
+    "website": "http://www.muenchen.de/dienstleistungsfinder/muenchen/1058064/",
+    "description": "Park mit Spielplatz und Fußwegen. Einfacher Park mit Spazierwegen und Bänken unter Bäumen sowie Spielplatz und Rasenfläche.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNwm8_dEC9kj0fpQikZWZnOQNwPvICnNbdxYngjv4yg3da5LWprRy7UHi-sdzG2zgmaXes_lx7KnORFOxs--a_hXc7KcvmEHU_HguW6ZMkdSDHWC1XEc_WQv4MYkBuSyBQulA6bsw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/FGcUEXicHcRLDoIwFADAE1Xwi5q4UEQxKojGFNk02GJR2kJ4UMAbegRvY-Is5vtJq6qAuWGIdNjjec5FUkNS0lxViap6NJcGL2MARMFY2roQ0mvklDDHnmUv81EEzyzCkfIDrznpna28O2tvir_0qONDFo8PuCjPnXV1nwjYezt4cxmHCRDRWnvlnzd-CwjFJA2ptadaOu6VuLzGk-iYscvaxXY_dCjBgR4db9mqvnSroBbLyR2aRdM3TROl_ylSP__qR7I"
+   },
+   {
+    "position": 8,
+    "title": "Alter Botanischer Garten",
+    "place_id": "ChIJUYaFpvB1nkcRHLHMm23OcwY",
+    "data_id": "0x479e75f0a6858651:0x673ce6d9bccb11c",
+    "data_cid": "464942156709933340",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75f0a6858651%3A0x673ce6d9bccb11c&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75f0a6858651%3A0x673ce6d9bccb11c&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1423092,
+     "longitude": 11.5644797
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJUYaFpvB1nkcRHLHMm23OcwY",
+    "provider_id": "/m/0hnb77w",
+    "rating": 4.2,
+    "reviews": 4872,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Garten",
+     "Botanischer Garten",
+     "Sehenswürdigkeit"
+    ],
+    "address": "Sophienstraße 7, 80333 München-Maxvorstadt",
+    "country": "Deutschland",
+    "open_state": "Jetzt geöffnet",
+    "phone": "089 23396500",
+    "website": "https://www.muenchen.de/sehenswuerdigkeiten/top-sehenswuerdigkeiten/alter-botanischer-garten",
+    "description": "Rasenflächen, Café und Neptunbrunnen. Park mit Rasenflächen, Bäumen, Café und Biergarten, einem Neptunbrunnen und Eisstockschießen im Winter.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz",
+       "Rollstuhlgerechtes WC"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMzZqf7y73k7ro5UMaaR2Cvn2mx_KlLxCM9ihju-51qhjdv1x9R7bB8xo7BwLCDn9EdJHqYZ9r6gmlKRteALkGLTYNgkb54rUbrXiMhCAuoY0wdC6A3MExfVLkYO6Va80P-Kc65=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/qaWi_3icHcRRboIwAADQE1WKDCom-8DObBntZsg0w58FCrZKaaUt0O2CO4O3MfF9vNu_cO5q10EgRbTgWnPZjrY1TCvXKrdgug-4qawFzAYZnq6yp3_H4YR-UdQho-M9rapiiSe17P1PLonHND2LywjicBCXZgp9WqB6s_IabWaCX1S6bd7fhvKYmoT3Mi9cm5HulXyVH7yr4yezr833mQqcjbqEc4OTLKJbfzqQrvxMDtUK7kDOkvh5DiGEQDxmQN0Bu9BEfQ"
+   },
+   {
+    "position": 9,
+    "title": "Zamilapark",
+    "place_id": "ChIJO3pJvkh1nkcRMgFgkmv4bAg",
+    "data_id": "0x479e7548be497a3b:0x86cf86b92600132",
+    "data_cid": "607133190689128754",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e7548be497a3b%3A0x86cf86b92600132&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e7548be497a3b%3A0x86cf86b92600132&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1438503,
+     "longitude": 11.6450619
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJO3pJvkh1nkcRMgFgkmv4bAg",
+    "provider_id": "/m/012vtlp9",
+    "rating": 4.5,
+    "reviews": 471,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Sehenswürdigkeit"
+    ],
+    "address": "Ina-Seidel-Bogen 72, 81929 München-Bogenhausen",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "website": "https://zamilapark.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPC3yzZ4Hb8WzjfUadNB9UtzmeX0eohFV5LXHt3WH5HEq8bsw_XL70WgzIfui-FWlrVISCdVsxV6I7CP5b0JRpeE4GmaGH4YpXcdEGHQYKcYLb-_IDICIESXZ1s4Np-bXL-3q9rRQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/tBXLT3icHcTbDoIgAADQLyJparethyITyjmrpehLEyStqZDQzT_sE_qbts7D-X4qY5SeWVZd2YNSyrIWdy06LlsjWjPgsrHKLtcacG0t0EPVTYTsd585mE2S_no-5kW4nB5N3wgKhazWsRtQbOwEu9i7TZh-nmgwhknZk_P9AtZJ3cXkgIpYv-IRGaPIZXCzV8Jz_Cb3sZMqygvPx7t0y9OAgRNZEUS8A82G2gkVYDQA9m3a7Xfz5xBCCKr_HLQ_CfVEVQ"
+   },
+   {
+    "position": 10,
+    "title": "Sendlinger Park",
+    "place_id": "ChIJHR6fCjLfnUcRSmsYb7v2nik",
+    "data_id": "0x479ddf320a9f1e1d:0x299ef6bb6f186b4a",
+    "data_cid": "2999105686758517578",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf320a9f1e1d%3A0x299ef6bb6f186b4a&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf320a9f1e1d%3A0x299ef6bb6f186b4a&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1079614,
+     "longitude": 11.5416309
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJHR6fCjLfnUcRSmsYb7v2nik",
+    "provider_id": "/g/11dzsbzb9d",
+    "rating": 4.7,
+    "reviews": 171,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Sehenswürdigkeit"
+    ],
+    "address": "Alois-Johannes-Lippl-Weg, 81371 München-Sendling",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmN7zPIyE98dnAau1Oa0YaCNlBXttYTrS6j4ALLqJ_dWx9hD6RyjvIiwNe2CaJnSA1_bCqfapqwz6RO9MRAqmflvdL_rNK8GUdT3YzFh4tOvvr7-v6EaoJjHahN-HawMridjdSAisQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/eh6P13icHcTdboIwGADQJ6rANCgmu-iYf4hlAxflinyjSCGlhbaWyRv6CHubJTsX5_fJjOn12nE4m89qKWte3XWlSilMJcyslJ1TK9AaldrBoe15R5bTx-GxCVZUYLh7Cbg5hIS_XY3Jzyrz2wWO4yEq6OUnYO9--mjtoRlJ9RJCJDLsFd_hcIN-GCc_TYJTiofuxi2NC0WOq90XPc_zacsWJrFWLZH1NyCjdg-MoD2MJ9XQlma40Z-vo-e6LmL_l0j8AW86Rs8"
+   },
+   {
+    "position": 11,
+    "title": "Heckenstaller Park",
+    "place_id": "ChIJOdYCFM7YnUcRoWcaxBberMQ",
+    "data_id": "0x479dd8ce1402d639:0xc4acde16c41a67a1",
+    "data_cid": "14171946316788819873",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd8ce1402d639%3A0xc4acde16c41a67a1&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd8ce1402d639%3A0xc4acde16c41a67a1&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1101203,
+     "longitude": 11.5296039
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJOdYCFM7YnUcRoWcaxBberMQ",
+    "provider_id": "/g/11f60xyfb3",
+    "rating": 4.4,
+    "reviews": 383,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Sehenswürdigkeit"
+    ],
+    "address": "Heckenstallerstraße 109, 81369 München-Sendling-Westpark",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "website": "http://xn--mnchen-3ya.de/",
+    "description": "Kleiner Park über einem Straßentunnel. Grünanlage mit Basketballplatz, Spielbereich und Kletterwand auf dem Dach eines Straßentunnels.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcv9JT9YV3JmwNATt2dRs37iqRIxwZ9usKSgIcB-nG2bnLL7aZbyh62wypBvF0E4Mqn2fuuzH-V5Y7i3Sp2nMdZC1BKl-nHsAtqQzMsw5f3rw2si4JvWhLbJ_diGosx5NPTb4I=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/iGCcTHicHcRLDoIwFADAE1WwBQkmLsAogmD8EI1sjJRPidACr1D1gN7B25g4i_l-mJQtzDWtZmRSClHW-QB5TwWXOZcTKhqt7O8AiILmOO6jCeloB7F9PZOgUTsnljg7ArGq7ug_VWIPsD2VPnUR93DKw9C6J-mLzbB6te641ldG1HFcDMN7g87m1arIqcU8ypLl1N3WiG_Akd3hHYEyC9IrDJURjBcWpsEtqzwBT3O3j1PDX6ipruuI_aeI_wAz7ESa"
+   },
+   {
+    "position": 12,
+    "title": "Weißenseepark",
+    "place_id": "ChIJjwgVfwnfnUcRCsMYEjDiwjI",
+    "data_id": "0x479ddf097f15088f:0x32c2e2301218c30a",
+    "data_cid": "3657734543468184330",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf097f15088f%3A0x32c2e2301218c30a&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf097f15088f%3A0x32c2e2301218c30a&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.108240699999996,
+     "longitude": 11.5859521
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJjwgVfwnfnUcRCsMYEjDiwjI",
+    "provider_id": "/g/11c6xl076f",
+    "rating": 4.4,
+    "reviews": 985,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Öffentlicher Park"
+    ],
+    "address": "Sintpertstraße, 81539 München-Obergiesing-Fasangarten",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "website": "http://weissenseepark.de/",
+    "description": "Spazierwege, Spielplätze und Sportanlagen. Von Fußwegen durchzogener Park mit Basketball- und Fußballplätzen, Tischtennisplatten und Spielbereichen.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM3QTIK8R-v-rml8Hb6PByxmnmDSbNHyv_GOvlRPSuEuPWLhmm9Z_yJ6Xg62VDR6ARqGHZvIIH8vf2amUgroAVFdT3H9UqKP3oRi_4SN2ZFhvSWAPz5ZNTZ0wjON5GKXFaqlAuG=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/QqteYHicHcRLjoIwAADQE1UQlKCJizoKZVCsBT_phiDDtE5aKhSqeEHP4G1M5i3e-8W77qbnliW4O2JKMVH1umpLVXdV3Y1KJS3WFlqDUlvwy9yE3Lr7LIp9AgxopfDRxcPL4SFruUovCRpMHu6MIDjt1z0-bbiUM5oP396Zec5xRTxImhBRE0XIN79OIQ-sVfAY_GQumh2aGLuKXPNJmjg04CY9Qfyc0iSj9v1vl0zD-BwUjYB9uLiPbdsG_P8S1B-PMkSJ"
+   },
+   {
+    "position": 13,
+    "title": "Grünwaldpark",
+    "place_id": "ChIJS-_U6T92nkcRF_uqv9cXndU",
+    "data_id": "0x479e763fe9d4ef4b:0xd59d17d7bfaafb17",
+    "data_cid": "15392485316823284503",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e763fe9d4ef4b%3A0xd59d17d7bfaafb17&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e763fe9d4ef4b%3A0xd59d17d7bfaafb17&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1579163,
+     "longitude": 11.5295182
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJS-_U6T92nkcRF_uqv9cXndU",
+    "provider_id": "/g/11gbk2v7v_",
+    "rating": 4.5,
+    "reviews": 477,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "address": "Nymphenburger Str. 216, 80639 München",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMkAXr6S_hBDbwDe6oCf_Dt6F7kD00TvyDdCVbcOSHfkm4DJ0dJDzY24Mb1IYel96NzY0VHgIahhBUaz-e25XGCdLf8Q0WJejPfcwUA27Xzp-E9xmaQ91gpGKKQC50sIhyfPRw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/0YMBnXicHcRbcoIwFADQFUUuqCjO-IFJq-CTWi18ORDymPIIQ6IIC3QP7qYzPR_n_ZLGNHphWaUcj4RSomR3zVqqasNqM6KqskSbao2otnz8aMpqX_hx655vckWyjjBXYX4jxv2cFQTg-9GTHF8zejxveFFNSAh5SIbEmewzO0hY6bmHIYHrRgSplKtLOiDmTOM1znd8HsFPyH5PnHYX35nFQ4M-vGeVRp4tmvV2G-Ep6ED2_PTVLTsbAJD8n6L6D-U_QzI"
+   },
+   {
+    "position": 14,
+    "title": "Bavariapark",
+    "place_id": "ChIJv4-uV6zYnUcRYNGuuejMyrM",
+    "data_id": "0x479dd8ac57ae8fbf:0xb3cacce8b9aed160",
+    "data_cid": "12955392578004373856",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd8ac57ae8fbf%3A0xb3cacce8b9aed160&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd8ac57ae8fbf%3A0xb3cacce8b9aed160&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.131013599999996,
+     "longitude": 11.5435815
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJv4-uV6zYnUcRYNGuuejMyrM",
+    "provider_id": "/g/120x6y42",
+    "rating": 4.6,
+    "reviews": 1350,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Sehenswürdigkeit"
+    ],
+    "address": "Am Bavariapark 1, 80339 München-Schwanthalerhöhe",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "phone": "089 115",
+    "website": "http://www.muenchen.de/sehenswuerdigkeiten/orte/120257.html",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNiX76qLLUqGBZqeaDtQFlgAyEcpenNuzFDosddaDiVVDyiukAM5s7RZcLH70KZV3-nw7hzwuWgzSiEjAowbb9mYFeLRwhrCGXPhvpInc2p8j9Mb95QHGp7OFVE0Pv_Xg9tuYad=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/EDFh9HicHcTbDoIgAADQLzKpVmRbD5aXWnZfZr40RQaWAgrI8gf7hv6mrfNwvh-qlJBz267oeEA4JxXWEreIM4WZGiBe26TNpLSQtN1VJ6p6XyZw2kTRtQmXaYMzT52CirhvHwnM9roPPC6LIvPKOPbepX65u4mE5xRFawi2aTy2mIG0N_pG-kvpP11u8typ7wGOzoa2qzA50k5sGBqJ2dPZ5c7ktA4FPASxD47dIyGO0vesWJghAMCi_5HFfj79Rn4"
+   },
+   {
+    "position": 15,
+    "title": "Hofgarten",
+    "place_id": "ChIJySIbSo11nkcR6g3VmgfXU40",
+    "data_id": "0x479e758d4a1b22c9:0x8d53d7079ad50dea",
+    "data_cid": "10183719610077220330",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e758d4a1b22c9%3A0x8d53d7079ad50dea&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e758d4a1b22c9%3A0x8d53d7079ad50dea&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1427778,
+     "longitude": 11.58
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJySIbSo11nkcR6g3VmgfXU40",
+    "provider_id": "/m/0csbp8",
+    "rating": 4.7,
+    "reviews": 9937,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Sehenswürdigkeit"
+    ],
+    "address": "Hofgartenstraße 1, 80538 München",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "website": "https://www.schloesser.bayern.de/deutsch/garten/objekte/mu_hofg.htm",
+    "description": "Renaissancegärten aus dem 17. Jh.. Stadtpark mit gepflegtem Rasen und Blumenbeeten, der im 17. Jahrhundert Hofgarten der Fürstenresidenz war.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNyqI08FfODRGmZDmSPaE_2SAikOyMEIjY_PMplkefHcWl-0PbJjyGSIdVULH7Cz4yVbB_ZbuhjShoCLEm2yGDYNRRwYmV5P71ghys5W8qnyUEVWnHZieSDeYjUDMWsSTmLWT3CVg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/FV8ckHicHcRLjoIwAADQEyH1F43JLByKgAElVNrAhkitrdgPWtTUG84R5jYmvsX7_xPD0NuV70sxHXFjuGQPy-7U6IHpYUSN8vn9aK1Hrb8Onr1UO3dLwHJz3sMiUjVUKD-GzQStL9e9y8Kkq5o86-WVnWNKpAfydtu5CCUnXKbxInjPHG5_m7p9iA4JE6ShmrgIVruieFUKz_PFmAtn52R5064MMdFxfWEIsqorYUYsOqiUHKYB5j-vMQDAE9-ppz9VDUYy"
+   },
+   {
+    "position": 16,
+    "title": "Rodelhügel im Riemer Park",
+    "place_id": "ChIJ-2GmqnwKnkcRxmyTUWXpXgY",
+    "data_id": "0x479e0a7caaa661fb:0x65ee96551936cc6",
+    "data_cid": "459060833407954118",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e0a7caaa661fb%3A0x65ee96551936cc6&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e0a7caaa661fb%3A0x65ee96551936cc6&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1308419,
+     "longitude": 11.7108454
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ-2GmqnwKnkcRxmyTUWXpXgY",
+    "provider_id": "/g/11bxc6gz9f",
+    "rating": 4.6,
+    "reviews": 160,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "address": "Trudering-Riem, 81829 München",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "phone": "089 115",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfg0oInPXB77ImG-8bBz9TAQ_7LHu8cpnpqJRcqWg3PJjZGi_YPW2UMbaMrp6GV-i_xV_jrQZq2IrhuBVifjLkYZINIUYcGjL44d46V_wwoq8dcMRKT0r8a7yDG4tbVBmjnwD_t=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/ewza3HicHcRRboIwAADQE1WqEkGTfdCYdHVg0Ggd_DRQoFClhbaE6QV3ht3GZO_j_f22zg1253mPdr0QWotHPdnacK1crdyC694TprAWcOtFEbr3cSOgJir9RkFAegzCEr22l-jEgvhzCvmghvFw5uNNrNODzHHHsvS2uiZlkZhhgyno2A9l0pzycUVMOyHaNTK-Zzk5kmvGsYx9v_I3lM2zHsOKJ-evCzRhETz32HclRb1U8565j3kJIQTt_xyoN21aRQw"
+   },
+   {
+    "position": 17,
+    "title": "Kustermannpark",
+    "place_id": "ChIJeXRWX4PfnUcR7052SGChtEI",
+    "data_id": "0x479ddf835f567479:0x42b4a16048764eef",
+    "data_cid": "4806644137215807215",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf835f567479%3A0x42b4a16048764eef&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf835f567479%3A0x42b4a16048764eef&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1228888,
+     "longitude": 11.601988299999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJeXRWX4PfnUcR7052SGChtEI",
+    "provider_id": "/g/11cmd2k3xg",
+    "rating": 4.3,
+    "reviews": 193,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "address": "Rosenheimer Str. 120, 81669 München-Ramersdorf-Perlach",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOqaNI2aoDmCA6De45_BjDGhrx3Na1s7VjaOk0PZ5NdmRGO7xj4nblwm1ghacRnzSzWBEeIOSZahdy2O8XfSNiB1Tggt0v0r0NE7YFxaDD2KT3xmERNUj_GUjea9-ornn9UEYy_ww=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/1fX3q3icHcRRboIwGADgEyEFVOaSPYhFYpa0C8g2fSH_atdaaevaKugNd4TdxmTfw_f3K0M4--c47mU2EdaKnl88d8yawE2YMKtj4cD7iPl4ubqee01_gGxSsFivlnPMp7OuULiSbswIJD5_V0BP6G0_IwddVzQf1dR89YNOhARWm3tz_yhKvqHNHuThltKnz--GHItkK0RAV-QQKfPdegSM09dtNuqyJq3qqlZxWETWGbNoy92tG4aXIUEIRfJ_FpkHHUJFzQ"
+   },
+   {
+    "position": 18,
+    "title": "Isarpark",
+    "place_id": "ChIJMSaSpfTfnUcR1WmK1Xy_mR8",
+    "data_id": "0x479ddff4a5922631:0x1f99bf7cd58a69d5",
+    "data_cid": "2277061629491964373",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddff4a5922631%3A0x1f99bf7cd58a69d5&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddff4a5922631%3A0x1f99bf7cd58a69d5&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1257557,
+     "longitude": 11.5742318
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJMSaSpfTfnUcR1WmK1Xy_mR8",
+    "provider_id": "/g/11kq9jfgbq",
+    "rating": 4.8,
+    "reviews": 174,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "address": "Wittelsbacherstraße 2b, 80469 München",
+    "country": "Deutschland",
+    "open_state": "Jetzt geöffnet",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPNZiXz79qft5vI0yaTjePXORado3fmKsxM_iOcR8CbbJGP34Y5rA3Dg0vm7q6TX8PtzPEbsKAfIQgjAN5vOOYK0yBsj_o6Y4zIY_23zbc4OzPaXhrpNPPBLeb63Pxr03vljA0WaNVuP5U=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/LLRpgXicHcTBToMwGADgJ2JUC2yaeOg2YxClv8tU2IW0tZQRoKzt6taH9O7bmPgdvt-fzrnZ3sfx0OGF0loN8mylEXpycnILocdYGWZtJGxMNn4eRigPxyos706tS32OrmzfS6jojn1p3I6Fvbw2Ryp2qw3nz0-Akzo1BG8V8uPylO2rFbgAj9wWpM3fVE_K1FNaF-i6tn2jszoJed3c4sBFQgOwqjNzCbB-kTzDcDEI-6En6JOVH2dI3x--bxBCUfe_iKY_v2tHXA"
+   },
+   {
+    "position": 19,
+    "title": "Ortspark Unterhaching",
+    "place_id": "ChIJ9UF_4BDenUcRARUHM5ftiZw",
+    "data_id": "0x479dde10e07f41f5:0x9c89ed9733071501",
+    "data_cid": "11279807975378064641",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dde10e07f41f5%3A0x9c89ed9733071501&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dde10e07f41f5%3A0x9c89ed9733071501&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.064926,
+     "longitude": 11.608375299999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ9UF_4BDenUcRARUHM5ftiZw",
+    "provider_id": "/g/1v83028t",
+    "rating": 4.5,
+    "reviews": 850,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park",
+     "Sehenswürdigkeit"
+    ],
+    "address": "Wallbergstraße, 82008 Unterhaching",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "website": "https://www.unterhaching.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmO--tZ2pkL-ygqwGNHeOAs6mwPQuyMi95fUx6-GShI1L4OqLJutKAuXPR7dXnMH85gtQk7LtqAkX15R87noNZRLOU1UUNFn-2YPGsVv0IntiP6NYzmjb9HQAR7XV2i8ZDYGAySz=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/-QHAfHicHcRJDoIwFADQE5VJGTRx0WgEtDIZDLBTxIJAC_Yj4gU9g7cx8S3e91MCdGIpy005kyjntCkGUTxyzqBgIOW8lenjLATKhYzXz65pfYQg07qaoIn2o-05hY-F0Y5BOEyHaqHf4peB7GPpqmTu92Q3wB4PSRCZ14QdHEunENYmgR7XiapHlsm4l0XEj9U49rYMaWlgi9NTcRlUgeGl7_Z-WTghjszkpFVWtkltPB3fq1FVFAWV_3PEfl3IQ-c"
+   },
+   {
+    "position": 20,
+    "title": "Balan Park",
+    "place_id": "ChIJRWDIHknfnUcRNTdiwXG2TP4",
+    "data_id": "0x479ddf491ec86045:0xfe4cb671c1623735",
+    "data_cid": "18324221583555704629",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf491ec86045%3A0xfe4cb671c1623735&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf491ec86045%3A0xfe4cb671c1623735&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1136213,
+     "longitude": 11.601256999999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJRWDIHknfnUcRNTdiwXG2TP4",
+    "provider_id": "/g/11h5d4y5r3",
+    "rating": 4.5,
+    "reviews": 93,
+    "unclaimed_listing": true,
+    "type": "Park",
+    "types": [
+     "Park"
+    ],
+    "address": "Oggersheimer Str. 11, 81539 München-Ramersdorf-Perlach",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPdzerS4Gz-nsYUgGya46QTP_OcOJm5zMWoEQvE4wbE8bfFlPxMyMaGYxCxCAfwhxbPGDf7ithmeS110uK17JAFCoNa-yB_WRqFYU4x0cUfXn7sY_5Bd1Y6ZklfLUj6BIfqjjjlbQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/FFsht3icHcRRboIwAADQE1XaDMEs2QcgkOmYMCWu_hCoLR2WVmmVwg09wm6zZO_j_T65MVf96jiCvyxapVpB75oORElDpVkQ1TvtUGsNiHaC6HEVfX6e6bB30xlIjcs2nWrXKw55tSO7Tb-cs6OKi0fsjk28algicptNWZ1iG9koYCO3TZ6umf9jeE_3CMH7FvmbIInUZw2msDp-3RJcuhaSkn1LX-NqGZ4R9k4XwT7Kzgvf2a3rOtEUbyOCEAL-PwHyD33JRkg"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&gl=de&google_domain=google.com&hl=de&ll=%4048.1%2C11.646%2C13z&q=Park&start=20&type=search"
+  }
+ }
+}

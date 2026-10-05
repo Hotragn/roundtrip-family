@@ -8,6 +8,8 @@ export interface CachedResponse {
   provider: string;
   model: string;
   createdAt: string;
+  /** Latency of the original call, so replays can report it. */
+  latencyMs?: number;
 }
 
 /** Response cache keyed by a hash of the prompt. The file cache under data/demo is the recording CI replays. */

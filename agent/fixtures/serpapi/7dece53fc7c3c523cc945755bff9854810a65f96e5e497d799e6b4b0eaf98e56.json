@@ -1,0 +1,1425 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps_directions",
+ "request": "https://serpapi.com/search.json?engine=google_maps_directions&start_coords=37.5547%2C-121.9848&travel_mode=3&hl=en&gl=us&distance_unit=1&end_coords=37.5302%2C-121.9625&time=depart_at%3A1791214200&route=2",
+ "note": "directions: Mowry Ave & Fremont Blvd to Karya Siddhi Hanuman Temple - Fremont (transit)",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T18:18:14.668Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps_directions",
+   "hl": "en",
+   "gl": "us",
+   "start_coords": "37.5547,-121.9848",
+   "end_coords": "37.5302,-121.9625",
+   "travel_mode": "3",
+   "distance_unit": "1",
+   "route": "2",
+   "time": "depart_at:1791214200"
+  },
+  "places_info": [
+   {
+    "address": "37.5547000, -121.9848000",
+    "gps_coordinates": {
+     "latitude": 37.5547,
+     "longitude": -121.98479999999999
+    }
+   },
+   {
+    "address": "37.5302000, -121.9625000",
+    "gps_coordinates": {
+     "latitude": 37.5302,
+     "longitude": -121.96249999999999
+    }
+   }
+  ],
+  "directions": [
+   {
+    "travel_mode": "Transit",
+    "start_time": "3:48 PM",
+    "end_time": "4:19 PM",
+    "distance": 4751,
+    "duration": 1842,
+    "formatted_distance": "3.0 miles",
+    "formatted_duration": "31 min",
+    "cost": 3,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 877,
+      "duration": 767,
+      "formatted_distance": "0.5 mi",
+      "formatted_duration": "13 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot",
+        "action": "straight",
+        "distance": 73,
+        "duration": 57,
+        "formatted_distance": "240 ft",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BzTocy9LgREpbIzqk9yiVg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=307.73526&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55476208897778,
+         "longitude": -121.98484409452159
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  Paseo Padre Pkwy",
+        "action": "turn-left",
+        "distance": 36,
+        "duration": 31,
+        "formatted_distance": "118 ft",
+        "formatted_duration": "31 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=d3cu94FMu96DiMk7jzw-Xw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=303.14227&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55446204078258,
+         "longitude": -121.98424418946331
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  toward  Paseo Padre Pkwy",
+        "action": "turn-right",
+        "distance": 34,
+        "duration": 28,
+        "formatted_distance": "112 ft",
+        "formatted_duration": "28 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=iIC1KHiff0ux2MyJK9bH4Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=32.32592&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55449372387831,
+         "longitude": -121.98398987523332
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Paseo Padre Pkwy",
+        "action": "turn-right",
+        "distance": 734,
+        "duration": 651,
+        "formatted_distance": "0.5 mi",
+        "formatted_duration": "11 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_iW6V6tnaliWx-FVX1t4SQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=259.95734&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55468011382921,
+         "longitude": -121.98377529985375
+        },
+        "extensions": [
+         "Destination will be on the right"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "239 Milpitas Blvd. & Dixon Landing Road",
+      "duration": 420,
+      "formatted_duration": "7 min",
+      "start_stop": {
+       "name": "Paseo Padre Pkwy & Walnut Av",
+       "stop_id": "50944",
+       "time": "4:01 PM",
+       "data_id": "0x808fc0919ce46e3f:0x6cbfc21a61c1bbfe"
+      },
+      "end_stop": {
+       "name": "Grimmer Blvd & Irvington Av",
+       "stop_id": "56157",
+       "time": "4:08 PM",
+       "data_id": "0x808fc0c9fa0e8be5:0x8abcc5c0d77b02b3"
+      },
+      "stops": [
+       {
+        "name": "Paseo Padre Pkwy & Kearney St",
+        "stop_id": "50915",
+        "time": "4:02 PM",
+        "data_id": "0x808fc09388da780b:0x2e0f9afbb5dbcd94"
+       },
+       {
+        "name": "Paseo Padre Pkwy & Sailway Dr",
+        "stop_id": "56970",
+        "time": "4:03 PM",
+        "data_id": "0x808fc0eabf1f4599:0xb4a323a99c76f4b8"
+       },
+       {
+        "name": "Paseo Padre Pkwy & Mission View Dr",
+        "stop_id": "50244",
+        "time": "4:03 PM",
+        "data_id": "0x808fc0c19d5dd385:0x76c52fcd7f640106"
+       },
+       {
+        "name": "Paseo Padre Pkwy & Rockett Dr",
+        "stop_id": "56370",
+        "time": "4:04 PM",
+        "data_id": "0x808fc0c4f5904c3d:0xc891251e28d06574"
+       },
+       {
+        "name": "Grimmer Blvd & Fremont Blvd",
+        "stop_id": "52990",
+        "time": "4:06 PM",
+        "data_id": "0x808fc0c8eb2f61e3:0x5e99dc7b788a33cf"
+       },
+       {
+        "name": "Grimmer Blvd & Davis St",
+        "stop_id": "57944",
+        "time": "4:07 PM",
+        "data_id": "0x808fc0c9bab68183:0x83d250bc319458c8"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/239"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 776,
+      "duration": 655,
+      "formatted_distance": "0.5 mi",
+      "formatted_duration": "11 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot toward  Grimmer Blvd",
+        "action": "straight",
+        "distance": 8,
+        "duration": 6,
+        "formatted_distance": "26 ft",
+        "formatted_duration": "6 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Grimmer Blvd",
+        "action": "turn-left",
+        "distance": 44,
+        "duration": 37,
+        "formatted_distance": "144 ft",
+        "formatted_duration": "37 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Irvington Ave",
+        "action": "turn-right",
+        "distance": 568,
+        "duration": 485,
+        "formatted_distance": "0.4 mi",
+        "formatted_duration": "8 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Chapel Way",
+        "action": "turn-right",
+        "distance": 96,
+        "duration": 79,
+        "formatted_distance": "315 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Laurel St",
+        "action": "turn-left",
+        "distance": 60,
+        "duration": 48,
+        "formatted_distance": "197 ft",
+        "formatted_duration": "48 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kQdkDrzYguOTs8hkoqMMgA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=97.16974&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.53009822929217,
+         "longitude": -121.96317662304696
+        },
+        "extensions": [
+         "Destination will be on the left"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "4:01 PM",
+    "end_time": "4:31 PM",
+    "distance": 5290,
+    "duration": 1795,
+    "formatted_distance": "3.3 miles",
+    "formatted_duration": "30 min",
+    "cost": 3,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 765,
+      "duration": 653,
+      "formatted_distance": "0.5 mi",
+      "formatted_duration": "11 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot",
+        "action": "straight",
+        "distance": 73,
+        "duration": 57,
+        "formatted_distance": "240 ft",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BzTocy9LgREpbIzqk9yiVg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=307.73526&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55476208897778,
+         "longitude": -121.98484409452159
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  Paseo Padre Pkwy",
+        "action": "turn-left",
+        "distance": 36,
+        "duration": 31,
+        "formatted_distance": "118 ft",
+        "formatted_duration": "31 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=d3cu94FMu96DiMk7jzw-Xw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=303.14227&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55446204078258,
+         "longitude": -121.98424418946331
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  toward  Paseo Padre Pkwy",
+        "action": "turn-right",
+        "distance": 34,
+        "duration": 28,
+        "formatted_distance": "112 ft",
+        "formatted_duration": "28 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=iIC1KHiff0ux2MyJK9bH4Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=32.32592&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55449372387831,
+         "longitude": -121.98398987523332
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Paseo Padre Pkwy",
+        "action": "turn-right",
+        "distance": 585,
+        "duration": 508,
+        "formatted_distance": "0.4 mi",
+        "formatted_duration": "8 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_iW6V6tnaliWx-FVX1t4SQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=259.95734&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55468011382921,
+         "longitude": -121.98377529985375
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Walnut Ave",
+        "action": "turn-right",
+        "distance": 37,
+        "duration": 29,
+        "formatted_distance": "121 ft",
+        "formatted_duration": "29 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "231 Milpitas BART",
+      "duration": 628,
+      "formatted_duration": "11 min",
+      "start_stop": {
+       "name": "Walnut Av & Paseo Padre Pkwy",
+       "stop_id": "52958",
+       "time": "4:12 PM",
+       "data_id": "0x808fc091b6003edd:0x5c7ec578f563a3ef"
+      },
+      "end_stop": {
+       "name": "Fremont Blvd & Carol Av",
+       "stop_id": "56003",
+       "time": "4:23 PM",
+       "data_id": "0x808fc72d81f6867f:0xb19b90a83c2d5eaa"
+      },
+      "stops": [
+       {
+        "name": "Walnut Ave. at Liberty St.",
+        "stop_id": "56155",
+        "time": "4:13 PM",
+        "data_id": "0x808fc09092ed385b:0x2cf39a4c5bedfbb7"
+       },
+       {
+        "name": "Fremont Blvd & Sundale Dr",
+        "stop_id": "52600",
+        "time": "4:16 PM",
+        "data_id": "0x808fc0977fb7f11d:0xadd6e49df6f57b00"
+       },
+       {
+        "name": "Fremont Blvd & Bidwell Dr",
+        "stop_id": "56616",
+        "time": "4:17 PM",
+        "data_id": "0x808fc0bddc9e09b3:0xd5156455fd538a75"
+       },
+       {
+        "name": "Fremont Blvd & Stevenson Blvd",
+        "stop_id": "53566",
+        "time": "4:18 PM",
+        "data_id": "0x808fc0bf2cd3ae07:0x99c28c3bc17852ac"
+       },
+       {
+        "name": "Fremont Blvd & Grimmer Blvd",
+        "stop_id": "52353",
+        "time": "4:20 PM",
+        "data_id": "0x808fc0c8ce1228bb:0x89acbe7655eae3da"
+       },
+       {
+        "name": "Fremont Blvd & Washington Blvd",
+        "stop_id": "58733",
+        "time": "4:21 PM",
+        "data_id": "0x808fc0cd83a17d89:0x14b5cb8e063f8b82"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/231"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 627,
+      "duration": 514,
+      "formatted_distance": "0.4 mi",
+      "formatted_duration": "8 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head toward  Carol Ave",
+        "action": "straight",
+        "distance": 30,
+        "duration": 25,
+        "formatted_distance": "98 ft",
+        "formatted_duration": "25 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=nrBi1m9nbebpphMl01llIw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=172.24527&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52761467598095,
+         "longitude": -121.95829562935108
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Carol Ave",
+        "action": "turn-left",
+        "distance": 305,
+        "duration": 247,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6X-0aBeQSzIo3TJVd2eDMQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=294.15826&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52770487350255,
+         "longitude": -121.95831203218626
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Mahoney St",
+        "action": "turn-right",
+        "distance": 270,
+        "duration": 222,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=dIgEW6Yxj4HDw9ESDEBSZw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=357.5639&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52755695439909,
+         "longitude": -121.96151800170159
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Laurel St",
+        "action": "turn-left",
+        "distance": 22,
+        "duration": 20,
+        "formatted_distance": "72 ft",
+        "formatted_duration": "20 sec",
+        "extensions": [
+         "Destination will be on the right"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "3:53 PM",
+    "end_time": "4:27 PM",
+    "distance": 4890,
+    "duration": 2041,
+    "formatted_distance": "3.0 miles",
+    "formatted_duration": "34 min",
+    "cost": 3,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 974,
+      "duration": 834,
+      "formatted_distance": "0.6 mi",
+      "formatted_duration": "14 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot toward  Mowry Ave",
+        "action": "straight",
+        "distance": 94,
+        "duration": 74,
+        "formatted_distance": "308 ft",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BzTocy9LgREpbIzqk9yiVg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=307.73526&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55476208897778,
+         "longitude": -121.98484409452159
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Mowry Ave",
+        "action": "turn-right",
+        "distance": 750,
+        "duration": 624,
+        "formatted_distance": "0.5 mi",
+        "formatted_duration": "10 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gzfn2cS09F7BsBM0gJ67hQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=123.105095&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55441583160118,
+         "longitude": -121.98415516653498
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Fremont Blvd",
+        "action": "turn-left",
+        "distance": 75,
+        "duration": 89,
+        "formatted_distance": "246 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 18,
+        "duration": 15,
+        "formatted_distance": "59 ft",
+        "formatted_duration": "15 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BWmxTaaMiVC6An3gMi-XhA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=188.75296&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5483692932182,
+         "longitude": -121.98802429996307
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 37,
+        "duration": 32,
+        "formatted_distance": "121 ft",
+        "formatted_duration": "32 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XI1wGyYKChj0_tKvB3HzAQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=77.93073&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54817813251985,
+         "longitude": -121.98787723496078
+        },
+        "extensions": [
+         "Destination will be on the left"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "210 Ohlone College",
+      "duration": 540,
+      "formatted_duration": "9 min",
+      "start_stop": {
+       "name": "Fremont Blvd & Mowry Av",
+       "stop_id": "56788",
+       "time": "4:07 PM",
+       "data_id": "0x808fc09c8466b615:0x709e4efd056edb0c"
+      },
+      "end_stop": {
+       "name": "Washington Blvd & Fremont Blvd",
+       "stop_id": "52838",
+       "time": "4:16 PM",
+       "data_id": "0x808fc0d289dda095:0x85998a3f8c13ecb4"
+      },
+      "stops": [
+       {
+        "name": "Fremont Blvd & Beacon Av",
+        "stop_id": "54114",
+        "time": "4:07 PM",
+        "data_id": "0x808fc09bd1e9744b:0xf3ef0aa29b13ed76"
+       },
+       {
+        "name": "Fremont Blvd & Sundale Dr",
+        "stop_id": "52600",
+        "time": "4:09 PM",
+        "data_id": "0x808fc0977fb7f11d:0xadd6e49df6f57b00"
+       },
+       {
+        "name": "Fremont Blvd & Bidwell Dr",
+        "stop_id": "56616",
+        "time": "4:10 PM",
+        "data_id": "0x808fc0bddc9e09b3:0xd5156455fd538a75"
+       },
+       {
+        "name": "Fremont Blvd & Stevenson Blvd",
+        "stop_id": "53566",
+        "time": "4:11 PM",
+        "data_id": "0x808fc0bf2cd3ae07:0x99c28c3bc17852ac"
+       },
+       {
+        "name": "Fremont Blvd & Grimmer Blvd",
+        "stop_id": "52353",
+        "time": "4:14 PM",
+        "data_id": "0x808fc0c8ce1228bb:0x89acbe7655eae3da"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/210"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 799,
+      "duration": 667,
+      "formatted_distance": "0.5 mi",
+      "formatted_duration": "11 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot toward  Fremont Blvd",
+        "action": "straight",
+        "distance": 8,
+        "duration": 7,
+        "formatted_distance": "26 ft",
+        "formatted_duration": "7 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=cm0ADqP7W9T7L9EH9OieWA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=179.53827&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.53273850352646,
+         "longitude": -121.95832791429417
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  Fremont Blvd",
+        "action": "turn-left",
+        "distance": 30,
+        "duration": 24,
+        "formatted_distance": "98 ft",
+        "formatted_duration": "24 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PHMDeQmARr87_Wv60IEfVw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=75.092384&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.53247577636493,
+         "longitude": -121.95834518499912
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  toward  Fremont Blvd",
+        "action": "turn-right",
+        "distance": 54,
+        "duration": 44,
+        "formatted_distance": "177 ft",
+        "formatted_duration": "44 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=1kU3d_jvE2diwtSuEkbacg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=172.21628&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.532379636099115,
+         "longitude": -121.95839586886116
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Fremont Blvd",
+        "action": "turn-left",
+        "distance": 101,
+        "duration": 82,
+        "formatted_distance": "331 ft",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=yaghFOkdqYTqBhIxu8KWlA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=80.755875&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.53213179987448,
+         "longitude": -121.9586718524938
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Irvington Ave",
+        "action": "turn-right",
+        "distance": 12,
+        "duration": 22,
+        "formatted_distance": "39 ft",
+        "formatted_duration": "22 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Fremont Blvd",
+        "action": "turn-left",
+        "distance": 185,
+        "duration": 158,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=fiQDu8AUk7yGrBXJMbGSPA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=113.18502&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.531113079593595,
+         "longitude": -121.95878537008842
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Adams Ave",
+        "action": "turn-right",
+        "distance": 223,
+        "duration": 176,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Malcolmson St",
+        "action": "turn-right",
+        "distance": 70,
+        "duration": 57,
+        "formatted_distance": "230 ft",
+        "formatted_duration": "57 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Slight  left  onto  Laurel St",
+        "action": "turn-slight-left",
+        "distance": 116,
+        "duration": 97,
+        "formatted_distance": "381 ft",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Destination will be on the right"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "4:18 PM",
+    "end_time": "4:48 PM",
+    "distance": 4751,
+    "duration": 1770,
+    "formatted_distance": "3.0 miles",
+    "formatted_duration": "30 min",
+    "cost": 3,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 877,
+      "duration": 767,
+      "formatted_distance": "0.5 mi",
+      "formatted_duration": "13 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot",
+        "action": "straight",
+        "distance": 73,
+        "duration": 57,
+        "formatted_distance": "240 ft",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BzTocy9LgREpbIzqk9yiVg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=307.73526&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55476208897778,
+         "longitude": -121.98484409452159
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  Paseo Padre Pkwy",
+        "action": "turn-left",
+        "distance": 36,
+        "duration": 31,
+        "formatted_distance": "118 ft",
+        "formatted_duration": "31 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=d3cu94FMu96DiMk7jzw-Xw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=303.14227&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55446204078258,
+         "longitude": -121.98424418946331
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  toward  Paseo Padre Pkwy",
+        "action": "turn-right",
+        "distance": 34,
+        "duration": 28,
+        "formatted_distance": "112 ft",
+        "formatted_duration": "28 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=iIC1KHiff0ux2MyJK9bH4Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=32.32592&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55449372387831,
+         "longitude": -121.98398987523332
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Paseo Padre Pkwy",
+        "action": "turn-right",
+        "distance": 734,
+        "duration": 651,
+        "formatted_distance": "0.5 mi",
+        "formatted_duration": "11 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_iW6V6tnaliWx-FVX1t4SQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=259.95734&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55468011382921,
+         "longitude": -121.98377529985375
+        },
+        "extensions": [
+         "Destination will be on the right"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "239 Milpitas Blvd. & Dixon Landing Road",
+      "duration": 348,
+      "formatted_duration": "6 min",
+      "start_stop": {
+       "name": "Paseo Padre Pkwy & Walnut Av",
+       "stop_id": "50944",
+       "time": "4:31 PM",
+       "data_id": "0x808fc0919ce46e3f:0x6cbfc21a61c1bbfe"
+      },
+      "end_stop": {
+       "name": "Grimmer Blvd & Irvington Av",
+       "stop_id": "56157",
+       "time": "4:37 PM",
+       "data_id": "0x808fc0c9fa0e8be5:0x8abcc5c0d77b02b3"
+      },
+      "stops": [
+       {
+        "name": "Paseo Padre Pkwy & Kearney St",
+        "stop_id": "50915",
+        "time": "4:31 PM",
+        "data_id": "0x808fc09388da780b:0x2e0f9afbb5dbcd94"
+       },
+       {
+        "name": "Paseo Padre Pkwy & Sailway Dr",
+        "stop_id": "56970",
+        "time": "4:32 PM",
+        "data_id": "0x808fc0eabf1f4599:0xb4a323a99c76f4b8"
+       },
+       {
+        "name": "Paseo Padre Pkwy & Mission View Dr",
+        "stop_id": "50244",
+        "time": "4:33 PM",
+        "data_id": "0x808fc0c19d5dd385:0x76c52fcd7f640106"
+       },
+       {
+        "name": "Paseo Padre Pkwy & Rockett Dr",
+        "stop_id": "56370",
+        "time": "4:33 PM",
+        "data_id": "0x808fc0c4f5904c3d:0xc891251e28d06574"
+       },
+       {
+        "name": "Grimmer Blvd & Fremont Blvd",
+        "stop_id": "52990",
+        "time": "4:35 PM",
+        "data_id": "0x808fc0c8eb2f61e3:0x5e99dc7b788a33cf"
+       },
+       {
+        "name": "Grimmer Blvd & Davis St",
+        "stop_id": "57944",
+        "time": "4:36 PM",
+        "data_id": "0x808fc0c9bab68183:0x83d250bc319458c8"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/239"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 776,
+      "duration": 655,
+      "formatted_distance": "0.5 mi",
+      "formatted_duration": "11 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot toward  Grimmer Blvd",
+        "action": "straight",
+        "distance": 8,
+        "duration": 6,
+        "formatted_distance": "26 ft",
+        "formatted_duration": "6 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Grimmer Blvd",
+        "action": "turn-left",
+        "distance": 44,
+        "duration": 37,
+        "formatted_distance": "144 ft",
+        "formatted_duration": "37 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Irvington Ave",
+        "action": "turn-right",
+        "distance": 568,
+        "duration": 485,
+        "formatted_distance": "0.4 mi",
+        "formatted_duration": "8 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Chapel Way",
+        "action": "turn-right",
+        "distance": 96,
+        "duration": 79,
+        "formatted_distance": "315 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Laurel St",
+        "action": "turn-left",
+        "distance": 60,
+        "duration": 48,
+        "formatted_distance": "197 ft",
+        "formatted_duration": "48 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kQdkDrzYguOTs8hkoqMMgA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=97.16974&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.53009822929217,
+         "longitude": -121.96317662304696
+        },
+        "extensions": [
+         "Destination will be on the left"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "4:24 PM",
+    "end_time": "4:58 PM",
+    "distance": 4890,
+    "duration": 2041,
+    "formatted_distance": "3.0 miles",
+    "formatted_duration": "34 min",
+    "cost": 3,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 974,
+      "duration": 834,
+      "formatted_distance": "0.6 mi",
+      "formatted_duration": "14 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot toward  Mowry Ave",
+        "action": "straight",
+        "distance": 94,
+        "duration": 74,
+        "formatted_distance": "308 ft",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BzTocy9LgREpbIzqk9yiVg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=307.73526&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55476208897778,
+         "longitude": -121.98484409452159
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Mowry Ave",
+        "action": "turn-right",
+        "distance": 750,
+        "duration": 624,
+        "formatted_distance": "0.5 mi",
+        "formatted_duration": "10 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gzfn2cS09F7BsBM0gJ67hQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=123.105095&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55441583160118,
+         "longitude": -121.98415516653498
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Fremont Blvd",
+        "action": "turn-left",
+        "distance": 75,
+        "duration": 89,
+        "formatted_distance": "246 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 18,
+        "duration": 15,
+        "formatted_distance": "59 ft",
+        "formatted_duration": "15 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BWmxTaaMiVC6An3gMi-XhA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=188.75296&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5483692932182,
+         "longitude": -121.98802429996307
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 37,
+        "duration": 32,
+        "formatted_distance": "121 ft",
+        "formatted_duration": "32 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XI1wGyYKChj0_tKvB3HzAQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=77.93073&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54817813251985,
+         "longitude": -121.98787723496078
+        },
+        "extensions": [
+         "Destination will be on the left"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "210 Ohlone College",
+      "duration": 540,
+      "formatted_duration": "9 min",
+      "start_stop": {
+       "name": "Fremont Blvd & Mowry Av",
+       "stop_id": "56788",
+       "time": "4:38 PM",
+       "data_id": "0x808fc09c8466b615:0x709e4efd056edb0c"
+      },
+      "end_stop": {
+       "name": "Washington Blvd & Fremont Blvd",
+       "stop_id": "52838",
+       "time": "4:47 PM",
+       "data_id": "0x808fc0d289dda095:0x85998a3f8c13ecb4"
+      },
+      "stops": [
+       {
+        "name": "Fremont Blvd & Beacon Av",
+        "stop_id": "54114",
+        "time": "4:38 PM",
+        "data_id": "0x808fc09bd1e9744b:0xf3ef0aa29b13ed76"
+       },
+       {
+        "name": "Fremont Blvd & Sundale Dr",
+        "stop_id": "52600",
+        "time": "4:40 PM",
+        "data_id": "0x808fc0977fb7f11d:0xadd6e49df6f57b00"
+       },
+       {
+        "name": "Fremont Blvd & Bidwell Dr",
+        "stop_id": "56616",
+        "time": "4:41 PM",
+        "data_id": "0x808fc0bddc9e09b3:0xd5156455fd538a75"
+       },
+       {
+        "name": "Fremont Blvd & Stevenson Blvd",
+        "stop_id": "53566",
+        "time": "4:42 PM",
+        "data_id": "0x808fc0bf2cd3ae07:0x99c28c3bc17852ac"
+       },
+       {
+        "name": "Fremont Blvd & Grimmer Blvd",
+        "stop_id": "52353",
+        "time": "4:45 PM",
+        "data_id": "0x808fc0c8ce1228bb:0x89acbe7655eae3da"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/210"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 799,
+      "duration": 667,
+      "formatted_distance": "0.5 mi",
+      "formatted_duration": "11 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot toward  Fremont Blvd",
+        "action": "straight",
+        "distance": 8,
+        "duration": 7,
+        "formatted_distance": "26 ft",
+        "formatted_duration": "7 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=cm0ADqP7W9T7L9EH9OieWA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=179.53827&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.53273850352646,
+         "longitude": -121.95832791429417
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  Fremont Blvd",
+        "action": "turn-left",
+        "distance": 30,
+        "duration": 24,
+        "formatted_distance": "98 ft",
+        "formatted_duration": "24 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PHMDeQmARr87_Wv60IEfVw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=75.092384&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.53247577636493,
+         "longitude": -121.95834518499912
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  toward  Fremont Blvd",
+        "action": "turn-right",
+        "distance": 54,
+        "duration": 44,
+        "formatted_distance": "177 ft",
+        "formatted_duration": "44 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=1kU3d_jvE2diwtSuEkbacg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=172.21628&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.532379636099115,
+         "longitude": -121.95839586886116
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Fremont Blvd",
+        "action": "turn-left",
+        "distance": 101,
+        "duration": 82,
+        "formatted_distance": "331 ft",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=yaghFOkdqYTqBhIxu8KWlA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=80.755875&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.53213179987448,
+         "longitude": -121.9586718524938
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Irvington Ave",
+        "action": "turn-right",
+        "distance": 12,
+        "duration": 22,
+        "formatted_distance": "39 ft",
+        "formatted_duration": "22 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Fremont Blvd",
+        "action": "turn-left",
+        "distance": 185,
+        "duration": 158,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=fiQDu8AUk7yGrBXJMbGSPA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=113.18502&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.531113079593595,
+         "longitude": -121.95878537008842
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Adams Ave",
+        "action": "turn-right",
+        "distance": 223,
+        "duration": 176,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Malcolmson St",
+        "action": "turn-right",
+        "distance": 70,
+        "duration": 57,
+        "formatted_distance": "230 ft",
+        "formatted_duration": "57 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Slight  left  onto  Laurel St",
+        "action": "turn-slight-left",
+        "distance": 116,
+        "duration": 97,
+        "formatted_distance": "381 ft",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Destination will be on the right"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Walking",
+    "via": "Paseo Padre Pkwy",
+    "distance": 4112,
+    "duration": 3454,
+    "formatted_distance": "2.6 miles",
+    "formatted_duration": "58 min",
+    "icon": "https://serpapi.com/assets/google_maps_directions/walking.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 4112,
+      "duration": 3454,
+      "formatted_distance": "2.6 miles",
+      "formatted_duration": "58 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot",
+        "action": "straight",
+        "distance": 73,
+        "duration": 57,
+        "formatted_distance": "240 ft",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BzTocy9LgREpbIzqk9yiVg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=307.73526&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55476208897778,
+         "longitude": -121.98484409452159
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  Paseo Padre Pkwy",
+        "action": "turn-left",
+        "distance": 36,
+        "duration": 31,
+        "formatted_distance": "118 ft",
+        "formatted_duration": "31 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=d3cu94FMu96DiMk7jzw-Xw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=303.14227&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55446204078258,
+         "longitude": -121.98424418946331
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  toward  Paseo Padre Pkwy",
+        "action": "turn-right",
+        "distance": 34,
+        "duration": 28,
+        "formatted_distance": "112 ft",
+        "formatted_duration": "28 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=iIC1KHiff0ux2MyJK9bH4Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=32.32592&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55449372387831,
+         "longitude": -121.98398987523332
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Paseo Padre Pkwy",
+        "action": "turn-right",
+        "distance": 1150,
+        "duration": 995,
+        "formatted_distance": "0.7 mi",
+        "formatted_duration": "17 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_iW6V6tnaliWx-FVX1t4SQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=259.95734&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55468011382921,
+         "longitude": -121.98377529985375
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Stevenson Blvd",
+        "action": "turn-right",
+        "distance": 943,
+        "duration": 766,
+        "formatted_distance": "0.6 mi",
+        "formatted_duration": "13 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Fremont Blvd",
+        "action": "turn-left",
+        "distance": 397,
+        "duration": 343,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "6 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Margery Dr",
+        "action": "turn-right",
+        "distance": 30,
+        "duration": 45,
+        "formatted_distance": "98 ft",
+        "formatted_duration": "45 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Fremont Blvd",
+        "action": "turn-left",
+        "distance": 343,
+        "duration": 273,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "5 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Eugene St",
+        "action": "turn-left",
+        "distance": 23,
+        "duration": 21,
+        "formatted_distance": "75 ft",
+        "formatted_duration": "21 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Fremont Blvd",
+        "action": "turn-right",
+        "distance": 187,
+        "duration": 170,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 140,
+        "duration": 112,
+        "formatted_distance": "459 ft",
+        "formatted_duration": "2 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  Bay St",
+        "action": "turn-left",
+        "distance": 12,
+        "duration": 10,
+        "formatted_distance": "39 ft",
+        "formatted_duration": "10 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  toward  Bay St",
+        "action": "turn-right",
+        "distance": 86,
+        "duration": 70,
+        "formatted_distance": "282 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Bay St",
+        "action": "turn-left",
+        "distance": 247,
+        "duration": 203,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "3 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Chapel Way",
+        "action": "turn-right",
+        "distance": 351,
+        "duration": 280,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "5 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Laurel St",
+        "action": "turn-left",
+        "distance": 60,
+        "duration": 50,
+        "formatted_distance": "197 ft",
+        "formatted_duration": "50 sec",
+        "extensions": [
+         "Destination will be on the left"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "durations": [
+   {
+    "travel_mode": "Driving",
+    "duration": 720,
+    "formatted_duration": "12 min"
+   },
+   {
+    "travel_mode": "Transit",
+    "duration": 1860,
+    "formatted_duration": "31 min"
+   },
+   {
+    "travel_mode": "Walking",
+    "duration": 3454,
+    "formatted_duration": "58 min"
+   },
+   {
+    "travel_mode": "Cycling",
+    "duration": 1176,
+    "formatted_duration": "20 min"
+   }
+  ]
+ }
+}

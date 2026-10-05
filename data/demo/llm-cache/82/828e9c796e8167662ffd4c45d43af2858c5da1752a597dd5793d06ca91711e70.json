@@ -1,0 +1,6 @@
+{
+ "body": "{\"fluency\": 2, \"correctness\": 2, \"note\": \"Mrs. Chen mistranslated as 'Chen girl'; Mowry→Marvi wrong\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:04:13.823Z"
+}

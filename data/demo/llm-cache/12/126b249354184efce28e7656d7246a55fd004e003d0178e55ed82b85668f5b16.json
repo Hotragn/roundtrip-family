@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219766972",
+  "object": "chat.completion",
+  "created": 1791219766,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "There is a shelf of Telugu books in the library.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 44,
+   "completion_tokens": 12,
+   "total_tokens": 56,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.7272726893424988
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:02:47.054Z"
+}

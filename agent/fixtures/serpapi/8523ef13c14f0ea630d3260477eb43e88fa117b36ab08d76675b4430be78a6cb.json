@@ -1,0 +1,1085 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps",
+ "request": "https://serpapi.com/search.json?engine=google_maps&type=search&q=Wochenmarkt&ll=%4048.1%2C11.646%2C13z&gl=de&hl=de",
+ "note": "places: Wochenmarkt",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:05:49.015Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "Wochenmarkt",
+   "ll": "@48.1,11.646,13z",
+   "google_domain": "google.com",
+   "hl": "de",
+   "gl": "de"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "Wochenmarkt"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Schöner Markt",
+    "place_id": "ChIJl5N4W9TYnUcRU1ETlK_TXV4",
+    "data_id": "0x479dd8d45b789397:0x5e5dd3af94135153",
+    "data_cid": "6799823763456348499",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd8d45b789397%3A0x5e5dd3af94135153&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd8d45b789397%3A0x5e5dd3af94135153&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1024616,
+     "longitude": 11.530859999999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJl5N4W9TYnUcRU1ETlK_TXV4",
+    "provider_id": "/g/1tjs3y21",
+    "rating": 4.6,
+    "reviews": 220,
+    "type": "Markt",
+    "types": [
+     "Markt"
+    ],
+    "type_id": "market",
+    "type_ids": [
+     "market"
+    ],
+    "address": "Zielstattstraße 41, 81379 München-Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Do um 09:00",
+    "hours": "Geschlossen · Öffnet Do um 09:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "09:00–18:00",
+     "freitag": "09:00–18:00",
+     "samstag": "08:00–13:00",
+     "sonntag": "Geschlossen"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     },
+     {
+      "payments": [
+       "Debitkarten"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "amenities": [
+       "WC"
+      ]
+     }
+    ],
+    "user_review": "\"Sehr schöner Markt mit tollen Geschäften und frischen lokalen Produkten.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeU-RhdEKFt9OD_rReGmWZzfI1iwA7aWId3MLTfhg0wN8VyrdM466Uf6RxnJdqHFMrL7jwkR2e_lcYZwRoP-WowlqKl_Q753TigyetNHkGHoZUaW1ixHKY3hhXTI4FclvvBLGBB=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/XzKpoHicHcTbboIwAADQL6qAOFATHyCOywAvDQzlhZBSWkah2lar_qDfsL9ZsvNwft9UqYtcGwaj9oxwThi-SSwQnxSe1Azx0SCikRIgaXieP4wpLgCk7WcSqNV-WwuIw7GsXl1s9dpzmzJu7SzNO0pMvVt-P0WbLRyn6Bz4mL7aaxRkInV_9ADnuGboXGnID6Dkml0TVh_dDzvvyROrXTSEEa-KprT6R5ScbUpPebwIELvf_TT0_Y22TNME9H8Epj-dNUU6"
+   },
+   {
+    "position": 2,
+    "title": "Bauernmarkt Mangfallplatz",
+    "place_id": "ChIJvb3UIwHfnUcRWwqjTTrKcFo",
+    "data_id": "0x479ddf0123d4bdbd:0x5a70ca3a4da30a5b",
+    "data_cid": "6516931012564552283",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf0123d4bdbd%3A0x5a70ca3a4da30a5b&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf0123d4bdbd%3A0x5a70ca3a4da30a5b&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.097465,
+     "longitude": 11.581427999999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJvb3UIwHfnUcRWwqjTTrKcFo",
+    "provider_id": "/g/11cn2m1zll",
+    "rating": 4.4,
+    "reviews": 43,
+    "unclaimed_listing": true,
+    "type": "Bauernmarkt",
+    "types": [
+     "Bauernmarkt"
+    ],
+    "type_id": "farmers_market",
+    "type_ids": [
+     "farmers_market"
+    ],
+    "address": "Mangfallpl., 81547 München-Untergiesing-Harlaching",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Mi um 14:00",
+    "hours": "Geschlossen · Öffnet Mi um 14:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "14:00–18:00",
+     "donnerstag": "Geschlossen",
+     "freitag": "Geschlossen",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "user_review": "\"Jeden Mittwoch direkt bei Landwirten einkaufen, ein echter Bauernmarkt\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLd6HOYy9lsjibW_1G_wFE-7MyXUNMaLkYlnWeRNHT4YsmeB2UBc6H-m0o8nf1Dl2kZE1ZFHfZjC0DeTgX3-pbND5b-T2UHmgm2vDlJSTlG-FwvaVxVE4rU71cns8N5E6iqhTLGPkg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/4Grt5XicHcTbDsEwAADQL6q1w1wSD2aXRmaEbmwvslV1rBfWMT7RJ_gbifNwvp-qbW9malmi6ve41lywh2EN1aplqu1RLS3eFMYAaqz53K1ldHLwOntPhLleyv0Rhccu8MFo9T4k8aqI6kyoPdvGmAwyI5lrJy51MJBQj9UZecKucx_lAT7n1wX0GOGHPriVsTcsAbETLLm0n55Y7ogIQdA9i_SV-oMmGSGqzDge-s7lXpEo3NR81iEIIaj-U6B-n9dEBg"
+   },
+   {
+    "position": 3,
+    "title": "Viktualienmarkt",
+    "place_id": "ChIJs7KGJoF1nkcRbvHy7HEBKiU",
+    "data_id": "0x479e75812686b2b3:0x252a0171ecf2f16e",
+    "data_cid": "2677954517243457902",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75812686b2b3%3A0x252a0171ecf2f16e&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75812686b2b3%3A0x252a0171ecf2f16e&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1353899,
+     "longitude": 11.5760761
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJs7KGJoF1nkcRbvHy7HEBKiU",
+    "provider_id": "/m/0dp457",
+    "rating": 4.6,
+    "reviews": 63976,
+    "type": "Bauernmarkt",
+    "types": [
+     "Bauernmarkt"
+    ],
+    "type_id": "farmers_market",
+    "type_ids": [
+     "farmers_market"
+    ],
+    "address": "3, 80331 München",
+    "country": "Deutschland",
+    "open_state": "Schließt demnächst · 20:00 · Öffnet Di um 08:00",
+    "hours": "Schließt demnächst · 20:00 · Öffnet Di um 08:00",
+    "operating_hours": {
+     "montag": "08:00–20:00",
+     "dienstag": "08:00–20:00",
+     "mittwoch": "08:00–20:00",
+     "donnerstag": "08:00–20:00",
+     "freitag": "08:00–20:00",
+     "samstag": "08:00–20:00",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 89068205",
+    "website": "https://www.viktualienmarkt-muenchen.de/",
+    "description": "Großer Bauernmarkt aus dem 19. Jahrhundert. Großer, 200 Jahre alter Markt mit über 100 Ständen mit vielfältigen Produkten wie Obst, Fleisch und Blumen.",
+    "extensions": [
+     {
+      "service_options": [
+       "Service/Leistungen vor Ort"
+      ]
+     },
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechtes WC"
+      ]
+     },
+     {
+      "amenities": [
+       "WC"
+      ]
+     },
+     {
+      "payments": [
+       "Debitkarten",
+       "Kreditkarten",
+       "Mobile Zahlungen per NFC"
+      ]
+     },
+     {
+      "parking": [
+       "Gebührenpflichtige Parkplätze"
+      ]
+     }
+    ],
+    "service_options": {
+     "service_leistungen_vor_ort": true
+    },
+    "user_review": "\"Immer frisches Obst und Gemüse, Smothies, Gewürze, freundliche Händler\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLc5q0OZdOEVjikZA-hbClWPAwplvhswffc4GgLJjl11p8T369G_WU2muOAYjDkCXmrvTINIbKdtuozpI4BJTC3f_oKMfF86XcAXDtG5QJvevS1mitqJ90oI80nsAumAuAFKo2RX=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/G264J3icHcRLDoIwFADAEyFFxKCJiycoAVT8oKAboxWo0FKkLSRe0DN4GxNnMd8PkbIRU12nxBwUnBc0UyJrMa9lVssB5kwv2psQGhY6wLxiK2y9UHR5RItT-awuoJG7Q5Mt9A3tiOjzHI-8YhWU1DAaOzbHE--aHIdMRXAu3cpJWdvF_sa_hw-p-LvxR_Mgdsz8ysN1vrTHKYbUlZ61C7qsOxjsKV_BBHHfRrUAxUDBMuTDfTrrDYSQRv5jrf4BmOFEyA"
+   },
+   {
+    "position": 4,
+    "title": "Wochenmarkt Bogenhausen",
+    "place_id": "ChIJ--8MXg11nkcRadSq3BiHG1M",
+    "data_id": "0x479e750d5e0ceffb:0x531b8718dcaad469",
+    "data_cid": "5988528670370354281",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e750d5e0ceffb%3A0x531b8718dcaad469&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e750d5e0ceffb%3A0x531b8718dcaad469&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.151463899999996,
+     "longitude": 11.6200268
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ--8MXg11nkcRadSq3BiHG1M",
+    "provider_id": "/g/11clvcb_tc",
+    "rating": 4.4,
+    "reviews": 117,
+    "unclaimed_listing": true,
+    "type": "Markt",
+    "types": [
+     "Markt"
+    ],
+    "type_id": "market",
+    "type_ids": [
+     "market"
+    ],
+    "address": "Rosenkavalierpl., 81925 München-Bogenhausen",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Do um 06:00",
+    "hours": "Geschlossen · Öffnet Do um 06:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "06:00–18:00",
+     "freitag": "Geschlossen",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "website": "http://www.wochenmarkt-muenchen.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "user_review": "\"Kaufe lieber auf anderen Märkten oder direkt bei Bauern und Gärtnereien\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcb1Ui5raP0R2VWj0XJb_5Zirl6gd9P3Jnt_Anwhey1a8ptsw2DRNj5UkCg-HpTPA9Aqkf1HSUZmFjh4bq8Wp1qIh0zyICmVfOMHYpx7J6mXWzyRe0iJgoUSUgM25swzRVplNTxPQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/kosdeXicHcTbboIwAADQL0JaFKdLfKgag2Q6hhbQFwNdbbn0Aq1B-EM_YX-zxPNw_l7cWm0-Xbfh0wlTijX0YWhHlLRU2glRwmVdboxDjIvQuhZfpIC49Ls8ArGXpBXIwuLmX8uumbPfZTQNpb0h2XM6wHyhrem9bXysfFxvmBPoc4SWqK3vMDjhq9hVfFa0i1TDds_BOOw3Irl_H4KLfn6Ec5Gl4xBTUIZM4RNmB883_Rgnujmen9HPqocAAIe_J478BxiKRh4"
+   },
+   {
+    "position": 5,
+    "title": "Bauernmarkt Schwanthalerhöhe",
+    "place_id": "ChIJlwjACjHZnUcR7pT93VGKz4w",
+    "data_id": "0x479dd9310ac00897:0x8ccf8a51ddfd94ee",
+    "data_cid": "10146480569710384366",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd9310ac00897%3A0x8ccf8a51ddfd94ee&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd9310ac00897%3A0x8ccf8a51ddfd94ee&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.133305199999995,
+     "longitude": 11.5392899
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJlwjACjHZnUcR7pT93VGKz4w",
+    "provider_id": "/g/11ghfq0lml",
+    "rating": 4.6,
+    "reviews": 61,
+    "unclaimed_listing": true,
+    "type": "Markt",
+    "types": [
+     "Markt"
+    ],
+    "type_id": "market",
+    "type_ids": [
+     "market"
+    ],
+    "address": "Schwanthalerhöhe, 80339 München",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Do um 10:00",
+    "hours": "Geschlossen · Öffnet Do um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "10:00–18:00",
+     "freitag": "Geschlossen",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "website": "https://www.muenchner-bauernmaerkte.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "user_review": "\"Donnerstag ist \" ich freue mich auf den Wochenmarkt\" Tag!!!\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLetTTTUA5gLEpfUuQY5ANtcstmkLtShVUMKvOrbkccGj7ZDXnpNFxSyGD4DViXw5z1GpAS4dDxc5UNdnIw7zuWP8egFGxxs-dXf7d5s_4NuJJRyyDpXyatX_GMDbWlDoDApVIqb=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/lx_eeXicHcTdboIwGADQJ0Iw0rCYeFFTbXSIOn7sdmOk1KJA29EPAV9wz-DbLPFcnNdfCWDs3HXrcjaRWstadFa0XCsQCiZcN65sL9Y63LoYL6smFJAkSYqRDFfmmnbHb4Qj4BaaKoS4zNLd52Pf5hXn9B78EKZMtB7ikRKfZDfWo-eUGhz7BRk4SqNCbfrg2Z0OH0Ku6TBYp2DXoED27Efddvs1jsSw8QLsTHckP9VEE2yyzW--6Kee5znle-6ofxEpRoI"
+   },
+   {
+    "position": 6,
+    "title": "Wochenmarkt Hadern",
+    "place_id": "ChIJPUSV0PXYnUcR7XTpKHH87X4",
+    "data_id": "0x479dd8f5d095443d:0x7eedfc7128e974ed",
+    "data_cid": "9146243981207237869",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd8f5d095443d%3A0x7eedfc7128e974ed&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd8f5d095443d%3A0x7eedfc7128e974ed&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1184163,
+     "longitude": 11.4905814
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJPUSV0PXYnUcR7XTpKHH87X4",
+    "provider_id": "/g/11clvfblq8",
+    "rating": 4.5,
+    "reviews": 62,
+    "unclaimed_listing": true,
+    "type": "Markt",
+    "types": [
+     "Markt"
+    ],
+    "type_id": "market",
+    "type_ids": [
+     "market"
+    ],
+    "address": "Guardinistraße 90-120, 81375 München-Hadern",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Sa um 07:00",
+    "hours": "Geschlossen · Öffnet Sa um 07:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "Geschlossen",
+     "freitag": "Geschlossen",
+     "samstag": "07:00–13:00",
+     "sonntag": "Geschlossen"
+    },
+    "website": "http://www.wochenmarkt-muenchen.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeT8T4yBbi43LyAmqecxicyedkN1Zz0wEhKP0XQDV8X_l1wD1Tb4vP8JBSjyOXL89DyBmhAPEgFN2hEK95EDuiZGoF-JLCinSE0C-hrXcPdv3zhqBpnkMDKBUE6NJ3EdSEvB-Bd=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/GEZFeXicHcRRCoIwAADQE01nWljQh2szUDNDC_Enag5n6lbOtHXBztBtgt7H-374MNzVyjRbbhuVlFXLnor1VIqBicGgsjOr_qIUoMr0PNR0EcvczNHoWjt2pL3uweirppqVTWwVbzgRHiYwP-CTm59ba8JWdnXGxA1QetP7PHKXWKOOewmp_HjGSbicE_ysi630QRBtapESuAG8z2lSjvabP9BdNDscoiNZxIFNypSMCKByPVkQQsD_UyB-MXJDRg"
+   },
+   {
+    "position": 7,
+    "title": "Wochenmarkt Fürstenried",
+    "place_id": "ChIJH6R3fQnZnUcRVF3kZBk8WJg",
+    "data_id": "0x479dd9097d77a41f:0x98583c1964e45d54",
+    "data_cid": "10977590171480120660",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd9097d77a41f%3A0x98583c1964e45d54&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd9097d77a41f%3A0x98583c1964e45d54&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.0890772,
+     "longitude": 11.480163
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJH6R3fQnZnUcRVF3kZBk8WJg",
+    "provider_id": "/g/11clv9yd6r",
+    "rating": 4.6,
+    "reviews": 97,
+    "unclaimed_listing": true,
+    "type": "Markt",
+    "types": [
+     "Markt"
+    ],
+    "type_id": "market",
+    "type_ids": [
+     "market"
+    ],
+    "address": "Ecke Graubündener Straße, Schweizer Pl., 81475 München-Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Mi um 13:00",
+    "hours": "Geschlossen · Öffnet Mi um 13:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "13:00–18:00",
+     "donnerstag": "Geschlossen",
+     "freitag": "Geschlossen",
+     "samstag": "07:00–13:00",
+     "sonntag": "Geschlossen"
+    },
+    "website": "http://www.wochenmarkt-muenchen.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "user_review": "\"Frische, regionale Ware, vieles Bioqualität.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfLHm0YEV_D2oY6RCW0_adaeH3uiNyyE5SVxrY6GkH9dEcn-qYCkjOn96yBiZUMos8wnHkQdv6vpcobmddYNNlLPRuZ5qn67RErbrb-R1SxATrtnGpFmaf4dkA3MCD0J7tWk-XF=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/fAhjqnicHcRLEoIgAADQE5GUSZ-ZFmaW05iVfXHTKJgWAgZYecLO0G2a6S3e91MaU-uxZVWl3SmkLKq80bkiUphcmA6R3CpUqjUg2nLdKePhNQw4xP7xMutJjGLvBC8pTfPAbm5R2_rO7vhWGC1YMKI-EeCBPXZfixFqp7fksJJ6-BIB29InetZEZpxSHEVVuImbxHkINIh9lakMxN3d290rIxb1nKfXPmWuvfJmcDkwJwbO88mrCyEE5X8CxA-ewUUX"
+   },
+   {
+    "position": 8,
+    "title": "Wochenmarkt Sendling",
+    "place_id": "ChIJawvSY8XYnUcRIn_uZnEds6A",
+    "data_id": "0x479dd8c563d20b6b:0xa0b31d7166ee7f22",
+    "data_cid": "11579631439795093282",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd8c563d20b6b%3A0xa0b31d7166ee7f22&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd8c563d20b6b%3A0xa0b31d7166ee7f22&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1116829,
+     "longitude": 11.5245187
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJawvSY8XYnUcRIn_uZnEds6A",
+    "provider_id": "/g/11clvhk326",
+    "rating": 4.5,
+    "reviews": 48,
+    "unclaimed_listing": true,
+    "type": "Markt",
+    "types": [
+     "Markt"
+    ],
+    "type_id": "market",
+    "type_ids": [
+     "market"
+    ],
+    "address": "Jean-Paul-Richter-Straße 9-19, 81369 München-Sendling-Westpark",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Mi um 08:00",
+    "hours": "Geschlossen · Öffnet Mi um 08:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "08:00–13:00",
+     "donnerstag": "Geschlossen",
+     "freitag": "Geschlossen",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "website": "http://www.wochenmarkt-muenchen.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "user_review": "\"Recht kleiner aber netter Wochenmarkt\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdfgH6C8dnwSeOaACDkvXTI1cWL6b3B2FxonnsSNCFgLzA7wBvvD7CUjMySnyoI4TvhyXlmjob3vRiUFt-3oXhcrB7KWTy4Qf2DGtGX519tPzH9U1CeTgaI-AGZVqTsfkJYDPo3rQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/uIlpD3icHcTRVoIwGADgJ5qAM8nO6WKMA1JYGiOpO5xjS2C_sTXCN-wRfBvP6bv4rn_K2rN58LxO4ZkEkJ34MWLgoK3Qdsah9-RQG4O48QiJ2j4_NnK9pPdHPRbitSY0bl3FsoDv8-UBR_PkF7Q2xQtNZH4h4Rg5F4e0PG2mQk-QLZhTU9X1Jzhg9_ZVJhZhqBQfovB5z6bFrpnHqU2ru2Blt5f1qgyoYLLOEEk_37-Zadqnj3gLeNg9joHv-0j9z5G-ASQsRXo"
+   },
+   {
+    "position": 9,
+    "title": "Wochenmarkt Sendling",
+    "place_id": "ChIJOWd2JTffnUcRA3rk50sU2Us",
+    "data_id": "0x479ddf3725766739:0x4bd9144be7e47a03",
+    "data_cid": "5465421939036420611",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf3725766739%3A0x4bd9144be7e47a03&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf3725766739%3A0x4bd9144be7e47a03&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.112900599999996,
+     "longitude": 11.5491092
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJOWd2JTffnUcRA3rk50sU2Us",
+    "provider_id": "/g/11clvg3ggl",
+    "rating": 4.7,
+    "reviews": 58,
+    "unclaimed_listing": true,
+    "type": "Markt",
+    "types": [
+     "Markt"
+    ],
+    "type_id": "market",
+    "type_ids": [
+     "market"
+    ],
+    "address": "Resi-Huber-Platz, 81371 München-Sendling",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Sa um 07:00",
+    "hours": "Geschlossen · Öffnet Sa um 07:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "Geschlossen",
+     "freitag": "Geschlossen",
+     "samstag": "07:00–12:30",
+     "sonntag": "Geschlossen"
+    },
+    "website": "http://www.wochenmarkt-muenchen.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLf71l1irT-gfdvFDtGCXZ16tBz4XJxUSHsHlEbfkA0LPU7YcZC0PbZ1I8M-nH6QzlZH0sP2avrAhNZBEB_bypHdNDsbF2ICvtWGfLbpWYvnNWPJM8uy8XzzFqJavODY1JFvRYo=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/YQ1bQnicHcTbDoIgAADQLyKhWrm2Hrxk5MzsNpWXJuSlRWBCVH5g_9DftHUezvfTaN2qmWXxZjSopax5-VBlx6TQpdADJm9W3RVKAaYsx3Gvt6iaIo4u3QHU1dkEvl56GUET7fbjLHwd91hhvqDV1YFRcpzmjHgwoQSt7DUQeLLtOcFQJcPCdE4TE3fhnui7xefYVzQYrjyj02UV0TbNjYjTJFzbj7ed9X1wDwuz8XMUBmaXy_kTQQhB858B8QPm6UQS"
+   },
+   {
+    "position": 10,
+    "title": "Wochenmarkt Trudering",
+    "place_id": "ChIJGWGCkTzgnUcR56fOB_gv2FU",
+    "data_id": "0x479de03c91826119:0x55d82ff807cea7e7",
+    "data_cid": "6185746830522755047",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de03c91826119%3A0x55d82ff807cea7e7&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de03c91826119%3A0x55d82ff807cea7e7&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1125433,
+     "longitude": 11.6759348
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJGWGCkTzgnUcR56fOB_gv2FU",
+    "provider_id": "/g/11clvfx688",
+    "rating": 4.6,
+    "reviews": 56,
+    "unclaimed_listing": true,
+    "type": "Markt",
+    "types": [
+     "Markt"
+    ],
+    "type_id": "market",
+    "type_ids": [
+     "market"
+    ],
+    "address": "Friedenspromenade (zwischen Hugo-Weiss-Straße und Felicias-Füss-Straße), 81827 München",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Fr um 13:00",
+    "hours": "Geschlossen · Öffnet Fr um 13:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "Geschlossen",
+     "freitag": "13:00–18:00",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "website": "https://www.muenchnerwochenmaerkte.de/maerkte/trudering/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "user_review": "\"Sehr schöner Wochenmarkt mit tollen Anbietern.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdp9huKhSroR_KtruSp409RpgXIbCZWut9iPPpCKBDA4iJBssIV7O7E9cdxaLuhIt0McNTkVc3eaiTIJTLGJU9QSCy_673i32QSCSZh_4WPxPnO09S4PXMffBlGsrkyMB5hCr1o=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/h5Aw13icHcbbCoIwAADQLzJXWrKgB2ch3mo1s_BFbJkTzY1dqL6wb-hvil4O5_NmWgu1tO2BOZOW83ZojGok5aNuRj2h_G63slbKosr2fdTf06uAzCSMSH6oEi0NES6AB9Geo0tQnoyGHcYiSNDad7sYKRUV3s7bQHp91qlhkQYZ3eZ9QZ2m7vIoztMwPsI9CV7VwnM6Z_YrKVnlnvATjzsAiYvP2e2GhlDJ_pWhOQvklK8eUwCAxf5Sa_wCgUlEMQ"
+   },
+   {
+    "position": 11,
+    "title": "Wochenmarkt Ottobrunn",
+    "place_id": "ChIJRxx-cNPhnUcRi-DqKW3J6ns",
+    "data_id": "0x479de1d3707e1c47:0x7beac96d29eae08b",
+    "data_cid": "8929170681907306635",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de1d3707e1c47%3A0x7beac96d29eae08b&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de1d3707e1c47%3A0x7beac96d29eae08b&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.0642383,
+     "longitude": 11.6632458
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJRxx-cNPhnUcRi-DqKW3J6ns",
+    "provider_id": "/g/11fd7mcrhj",
+    "rating": 4.6,
+    "reviews": 97,
+    "unclaimed_listing": true,
+    "type": "Markt",
+    "types": [
+     "Markt"
+    ],
+    "type_id": "market",
+    "type_ids": [
+     "market"
+    ],
+    "address": "Unter den Lauben, 85521 Ottobrunn",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Sa um 08:00",
+    "hours": "Geschlossen · Öffnet Sa um 08:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "Geschlossen",
+     "freitag": "Geschlossen",
+     "samstag": "08:00–14:00",
+     "sonntag": "Geschlossen"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "user_review": "\"Toller Wochenmarkt mit frischen regionalen Produkten.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLe9XFiUGPDiqh1asioCHxJpqB8vj0y3Eqa3oyO3t24ZH8ct9-h2iHAgYdi7A9nFk1JoHNn5jPaDR5DsjfXaxvHDYZaWMkaZHN7n0_5Ov-tdcyHnm-t-N2Qc261dQv75gzSf7VEf=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/vlfLanicHcThEoEwAADgJ5pWSXLnRwk7R4pD-uN2q7aVNtlEXtAzeBt3vh_f98O0vqmJYVyZPaBS0mvxUMWdSKELoQdENga9Y6UAUYbvB3WzLrx0wQ_LOOQtM7HicoZeq1sbjLsK9va8xbbst7a2hhkaE-0BZnHk03POXd8Ti9pcSRQJp4pxuHNCVZUpfnUoPGf4tKlxhiJXwIuz7YDOSY9EAzSIrIRYIzNPOteh733pHufl9GlCCAH7T4D4AVRNQ_c"
+   },
+   {
+    "position": 12,
+    "title": "Wochenmarkt Untergiesing",
+    "place_id": "ChIJpRw-F2vfnUcRTAph3jIO8Qs",
+    "data_id": "0x479ddf6b173e1ca5:0xbf10e32de610a4c",
+    "data_cid": "860484615446530636",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf6b173e1ca5%3A0xbf10e32de610a4c&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf6b173e1ca5%3A0xbf10e32de610a4c&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1164172,
+     "longitude": 11.5703979
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJpRw-F2vfnUcRTAph3jIO8Qs",
+    "provider_id": "/g/11clvbdff3",
+    "rating": 4.3,
+    "reviews": 48,
+    "unclaimed_listing": true,
+    "type": "Markt",
+    "types": [
+     "Markt"
+    ],
+    "type_id": "market",
+    "type_ids": [
+     "market"
+    ],
+    "address": "Hans-Mielich-Platz, 81543 München-Untergiesing-Harlaching",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Do um 12:00",
+    "hours": "Geschlossen · Öffnet Do um 12:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "12:00–18:00",
+     "freitag": "Geschlossen",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "website": "http://www.wochenmarkt-muenchen.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "user_review": "\"Näher bei mir, mit der Qualität des Mariahilfplatzmarktes - prima!\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfIc_egN5OtRHakbkDCravUjuKFu7k3TaBEjcw3_43QOKWqTspb6TX0WOgqMw_0buY7PZkMSt2YhsmXK3paRDqYDj76-irSTe9ZuLQS_2LWaiM3pj-n9XxQyUaB20_wWKkyb3IbW1EqJLA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/wOH1anicHcTNboIwAADgJ6pUOiWa7ABDMwVkCKbgpWmbrkjlt-2YL-ndt1my7_C9nrUxg946zr1GC9n38i6sFhPvOyM6s-B968iJag24dnw_UG38feBEyNMqNedPqpgKPyb6c2lstLeeQgUNdg2fEXlDWRrhsdADWxclxKkck5lAZivv66qS3LhVrdsyQgM9h2MVNt4a3Ka8EJurjbOcuDGmtwQNDeg25W_2uNDAhWTGkXowdGB4uRuPsf8-LyGEoP6fg-4PsypHSg"
+   },
+   {
+    "position": 13,
+    "title": "Wochenmarkt Au",
+    "place_id": "ChIJOeTkL2XfnUcR_Q1Zd2booYQ",
+    "data_id": "0x479ddf652fe4e439:0x84a1e86677590dfd",
+    "data_cid": "9557175411043536381",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf652fe4e439%3A0x84a1e86677590dfd&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf652fe4e439%3A0x84a1e86677590dfd&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.125678099999995,
+     "longitude": 11.582977099999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJOeTkL2XfnUcR_Q1Zd2booYQ",
+    "provider_id": "/g/11bwytcmcr",
+    "rating": 4.6,
+    "reviews": 280,
+    "unclaimed_listing": true,
+    "type": "Bauernmarkt",
+    "types": [
+     "Bauernmarkt"
+    ],
+    "type_id": "farmers_market",
+    "type_ids": [
+     "farmers_market"
+    ],
+    "address": "Mariahilfpl., 81541 München-Au-Haidhausen",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Mi um 07:30",
+    "hours": "Geschlossen · Öffnet Mi um 07:30",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "07:30–13:00",
+     "donnerstag": "Geschlossen",
+     "freitag": "Geschlossen",
+     "samstag": "07:30–13:00",
+     "sonntag": "Geschlossen"
+    },
+    "website": "http://www.wochenmarkt-muenchen.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     },
+     {
+      "pets": [
+       "Hunde erlaubt"
+      ]
+     }
+    ],
+    "user_review": "\"Netter kleiner Bauernmarkt.Macht Freude, dort zu kaufen\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeoBvRR7on85TD-8TLGddpOD02xHX-8SZtPFJSf2NiV6D_qGmG0rQqbWlE0xazkn8Xb1QWjEuYJKJyntrLt17gaIwknBzGo8N9EtPhaXZeG0INGb-SW-oudW7X1IJJ1tVoX9KLq=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/IrFQTHicHcTbboIwGADgJ6q0LhvVZBcSWKUSPGCkemM4VNiA_kJ_pvMFfYa9zZJ9F9_vs0a82rnjtPXLpAKoWj1aPRRgUBucFNA51ZBZSwrrLBZe00UavO_dzgXDX_c-4ftIlOV17dPpfakIT064-ZDJZRp_Ht78cy86QYdtn6dtQO_ZozFc5WybfgXjUa7kj8EhQuZWWXhrjPcQwONZgJs6UyctaBiLnCQpgbFMXcVCKRkeQM1WUf9-Y5RSUv9fEPMHJglD3A"
+   },
+   {
+    "position": 14,
+    "title": "Wochenmarkt Schwabing",
+    "place_id": "ChIJw-VXF7h1nkcRup9HqAcCHB8",
+    "data_id": "0x479e75b81757e5c3:0x1f1c0207a8479fba",
+    "data_cid": "2241668946434957242",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75b81757e5c3%3A0x1f1c0207a8479fba&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75b81757e5c3%3A0x1f1c0207a8479fba&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1623862,
+     "longitude": 11.586867699999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJw-VXF7h1nkcRup9HqAcCHB8",
+    "provider_id": "/g/11c0rlx8_1",
+    "rating": 4.6,
+    "reviews": 9,
+    "unclaimed_listing": true,
+    "type": "Bauernmarkt",
+    "types": [
+     "Bauernmarkt"
+    ],
+    "type_id": "farmers_market",
+    "type_ids": [
+     "farmers_market"
+    ],
+    "address": "Münchner Freiheit, 80802 München",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Do um 10:00",
+    "hours": "Geschlossen · Öffnet Do um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "10:00–18:00",
+     "freitag": "Geschlossen",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "website": "http://www.wochenmarkt-muenchen.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "user_review": "\"Wann ist mal wieder die italienische Variante da die manchmal da war\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdGBv0hMWD5V6ZVBDph0CBkfrpZxodFUWlth-sjBaGmQKSy951s0xS929MO30h3z6IER-REXNxk9NI7NUhq58mBD_4X1JzT6a2g-A7MFp_T3VR_9WS6ngq9qlftUNieVMu6kwR-Uw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/c0ZvqnicHcRJDoIwAADAFxWKSLEmHqiIcQEjCBgvhCC0ylKgVdAf-gR_Y-Ic5vthUrZirqoV0xXKOa3yh8j7jDcyb6SS8VqlfSoEyIRqWaSs99c1eULmxrYRoUtE7JbBJSmLvr2M_OqEcSUZEHeSruvjLnhhQxNwDPAEuwcdMv2NNisf-KuzN5bY25heyDpjVhM7mZ617fuE0gkFluk6bXLSIz_BcYAa2uGuKmTo3fLIfaBy8EE4LAYNQgjY_ww0P2ZXQ6c"
+   },
+   {
+    "position": 15,
+    "title": "Wochenmarkt Untersendling",
+    "place_id": "ChIJn4ixCLXYnUcR0rCpCylL3bU",
+    "data_id": "0x479dd8b508b1889f:0xb5dd4b290ba9b0d2",
+    "data_cid": "13104713130379423954",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd8b508b1889f%3A0xb5dd4b290ba9b0d2&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd8b508b1889f%3A0xb5dd4b290ba9b0d2&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.120421099999994,
+     "longitude": 11.5390812
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJn4ixCLXYnUcR0rCpCylL3bU",
+    "provider_id": "/g/11clvhxmj6",
+    "rating": 4.5,
+    "reviews": 92,
+    "type": "Markt",
+    "types": [
+     "Markt"
+    ],
+    "type_id": "market",
+    "type_ids": [
+     "market"
+    ],
+    "address": "Margaretenpl. 4, 81373 München-Sendling",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Sa um 07:00",
+    "hours": "Geschlossen · Öffnet Sa um 07:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "Geschlossen",
+     "freitag": "Geschlossen",
+     "samstag": "07:00–13:00",
+     "sonntag": "Geschlossen"
+    },
+    "website": "https://www.muenchnerwochenmaerkte.de/maerkte/untersendling-margaretenplatz/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "user_review": "\"Schöner Wochenmarkt mit einem tollen Angebot.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcQk5UY4Dx1LJOrbIQuunyeB5CucEJWVa5olxBGYNnb4sxjq-dA6nOpRbDiJbRYsOjO_y1s6LwLhUElm14qg3oAJnUHnzWfmpJjem38_YzuasJNOs3woXqfO0gOW-KkDPZSuVoW=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/2LY3FHicHcTdCoIwGADQJ1oqakTQhaZUS1o_mNlN6FozdZv6ObResGfobYLOxfl-ir5vYG4YdWFPuFK8ZhpYR5XsmewnVAmDdxkAomB4nl-JiB4qN06dYLQiTLp8c9BavpjvLjUNcXLOXFWP_irdydyBsWzR3ZtK0hzz4InzYwqkJLeXBdNoiIo4rIXltNxWHpbxWr6Th2hwyYQ9u6VvnQHeEbAHdWkfxOQkQdsq2F9P-qySxWCZpomK_xTJH-dnRks"
+   },
+   {
+    "position": 16,
+    "title": "Wochenmarkt Perlach",
+    "place_id": "ChIJed89FdrfnUcRLelrPCXxZ0A",
+    "data_id": "0x479ddfda153ddf79:0x4067f1253c6be92d",
+    "data_cid": "4640943083258374445",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddfda153ddf79%3A0x4067f1253c6be92d&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddfda153ddf79%3A0x4067f1253c6be92d&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.100046299999995,
+     "longitude": 11.630538399999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJed89FdrfnUcRLelrPCXxZ0A",
+    "provider_id": "/g/11clvbl0rm",
+    "rating": 4.7,
+    "reviews": 55,
+    "unclaimed_listing": true,
+    "type": "Markt",
+    "types": [
+     "Markt"
+    ],
+    "type_id": "market",
+    "type_ids": [
+     "market"
+    ],
+    "address": "Pfanzeltpl., 81737 München-Ramersdorf-Perlach",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Sa um 07:30",
+    "hours": "Geschlossen · Öffnet Sa um 07:30",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "Geschlossen",
+     "freitag": "Geschlossen",
+     "samstag": "07:30–13:00",
+     "sonntag": "Geschlossen"
+    },
+    "website": "http://www.wochenmarkt-muenchen.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "user_review": "\"Sehr gemütlicher kleiner Markt mit tollem Kaffee-Stand\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLe4f5YqI8a_r9QB4sNMLOY9SsmDvIdE4wjXkeBVV2FUIchsDo7AokoCi9aPbXhqYQi1vr4TusKHAUqzRQ7C0vhdTC0AZe4aeTc9ZFZLwpbDRjIB7NC61HvwiH9xtKMDA7i9N-aI01hYfJVA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/txhLPXicHcTBboIwGADgJ0KKdsMu8VBghk7E4YAIl6XWShGhwl9h8SU9722W7Dt8v09lzA3ebPuqFrNK6-oq7yAHoTsjOzMTurWrgQNYAmxKvaaNJD6_FD1b8u-BJB6GeBvtCvIFbTCy0zueLodGenk-X2dMKAi0S3Wj_Zrwz-NB9UVSO-OA0ztsQpr1j33i-mhUp9RHtJSYy1SQcl1G0-0Y7C_Mc2P_1QnHqQ7Jj9lsA-rWJLY4Q44qzh85XU0OQshS_wur-wOQbEZb"
+   },
+   {
+    "position": 17,
+    "title": "Wochenmarkt Solln",
+    "place_id": "ChIJMZ1S2EvZnUcREdydKZpinkU",
+    "data_id": "0x479dd94bd8529d31:0x459e629a299ddc11",
+    "data_cid": "5016555449200008209",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd94bd8529d31%3A0x459e629a299ddc11&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd94bd8529d31%3A0x459e629a299ddc11&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.0769793,
+     "longitude": 11.5175853
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJMZ1S2EvZnUcREdydKZpinkU",
+    "provider_id": "/g/11clv9yd8j",
+    "rating": 4.5,
+    "reviews": 64,
+    "unclaimed_listing": true,
+    "type": "Markt",
+    "types": [
+     "Markt"
+    ],
+    "type_id": "market",
+    "type_ids": [
+     "market"
+    ],
+    "address": "Fellererpl., 81479 München-Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Fr um 08:00",
+    "hours": "Geschlossen · Öffnet Fr um 08:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "Geschlossen",
+     "freitag": "08:00–12:00",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "website": "http://www.wochenmarkt-muenchen.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "user_review": "\"Die Wägen stehen direkt an der Straße, da kann es schonmal eng werden.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdXmbNbg_8jNY_sAKx8w83Sw8NtoSglhxXYG4Q1BS_-5gRN-q5vI7s90Tm9rqL97XGFpYn07oNQixGnF7leqJ_1fkW1FqYvT19W1g7ZUikWxZ846vbD5EU2HxFwXzpI4k1Dehed6w=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Fsdw8nicHcRRboIwAADQE1VaBVtM9oFR0GmaODSAP0Swtg5ogXa08YY7grdZsvfx3r_CmF6vPK8VixlXirfsR7OxVtIwaWa16jw-3rQGtfaiaN10x3veVbTiJfmmRamjgyOWLFJLqFEpb4XLi8Q_oXVagoB_UTAE0x7rEJ67cByOIc6TuC8kxIqeni6RMW7Z8FmiR5OheCimMwozxPH18mwydyX-cqo2wfYy37nY5q9-7zdowwS7L-2HRRBCIP6vgfwD3JJErw"
+   },
+   {
+    "position": 18,
+    "title": "Wochenmarkt Vaterstetten",
+    "place_id": "ChIJMYn7HwDjnUcRvXww-3FdvPU",
+    "data_id": "0x479de3001ffb8931:0xf5bc5d71fb307cbd",
+    "data_cid": "17707130579040894141",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de3001ffb8931%3A0xf5bc5d71fb307cbd&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de3001ffb8931%3A0xf5bc5d71fb307cbd&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1049255,
+     "longitude": 11.7704746
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJMYn7HwDjnUcRvXww-3FdvPU",
+    "provider_id": "/g/11xg5r9szw",
+    "rating": 5,
+    "reviews": 1,
+    "unclaimed_listing": true,
+    "type": "Markt",
+    "types": [
+     "Markt"
+    ],
+    "type_id": "market",
+    "type_ids": [
+     "market"
+    ],
+    "address": "85591 Vaterstetten",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Do um 08:00",
+    "hours": "Geschlossen · Öffnet Do um 08:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "08:00–13:00",
+     "freitag": "Geschlossen",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "website": "https://www.vaterstetten.de/buergerservice-1/leistungen/BAY:entry:11467-VLR/wochenmarkt/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=EvBkSRxEG1ZBJYUxRC0OzQ&cb_client=search.gws-prod.grass&w=80&h=92&yaw=195.1385&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/A0og_HicHc1dCsIgAADg2_iWP8VgCyRYjKCXaNFDvYRzTiU3RU1Xt-lY3aboAt_3easYXVgjFKIXIiYtstOzMGHhGJTWSiOY0wFyO6JEUFSPsZuYNhvHJqt72qT6fmrnZkeu9f5yntstPryOgHc3brSYIg2Cea6gzD_R2x5Kz0IAmZYYKFotwZNlSqoCklVZAKcjVxSDfzPYRAnGX6cdOdw"
+   },
+   {
+    "position": 19,
+    "title": "Wochenmarkt Neuhausen",
+    "place_id": "ChIJS8YtkxZ2nkcR9838tfJBmFk",
+    "data_id": "0x479e7616932dc64b:0x599841f2b5fccdf7",
+    "data_cid": "6455982576526740983",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e7616932dc64b%3A0x599841f2b5fccdf7&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e7616932dc64b%3A0x599841f2b5fccdf7&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.152855699999996,
+     "longitude": 11.533042
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJS8YtkxZ2nkcR9838tfJBmFk",
+    "provider_id": "/g/11c0rtm5fd",
+    "rating": 4.5,
+    "reviews": 55,
+    "unclaimed_listing": true,
+    "type": "Bauernmarkt",
+    "types": [
+     "Bauernmarkt"
+    ],
+    "type_id": "farmers_market",
+    "type_ids": [
+     "farmers_market"
+    ],
+    "address": "Rotkreuzpl., 80634 München-Neuhausen-Nymphenburg",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Do um 10:00",
+    "hours": "Geschlossen · Öffnet Do um 10:00",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "10:00–19:00",
+     "freitag": "Geschlossen",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "website": "http://www.wochenmarkt-muenchen.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     },
+     {
+      "pets": [
+       "Hunde erlaubt"
+      ]
+     }
+    ],
+    "user_review": "\"Sehr toller Wochenmarkt mit guter Auswahl und frischer Ware\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLd05oinyrcXYpE-kX9nyXDqREo67hQBUKC_uFImKDBtzaLf1X3v0-0kMnsFEjY4-i3f7bDyOV7GR1NpUvyGB6GveiVsE0QcR9A10geq1GU4Y0-_dYAG7M2uHZBi4vNAqbFMeRQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/33F8fnicHcRBjoIwFADQE1V-BSWauGgFqlGcQIIBN0RrBURaoIUJHnDuMLcx8S3e_19pTKvXlvUq7VmhVPESgxY9V9IIaWZcNVbRX7VGXFuE0Lo53mGhKjn1PM1aH9XpSk6p18W-WrplRJPDNh-CfXPwqHlfjw-c2iMgqEOpA_-ZOaiyH-7Nm37OLovxqU3GidElG0V11j5EPF4RDIXoMEucDFB-zwhzw_mwu9DKGU-kuwWhiKPNLwYAVH7nSH4A29VCnQ"
+   },
+   {
+    "position": 20,
+    "title": "Bauernmarkt Lehel am St. Anna Platz",
+    "place_id": "ChIJF5ozPo91nkcRMS1K8vlkNxQ",
+    "data_id": "0x479e758f3e339a17:0x143764f9f24a2d31",
+    "data_cid": "1456744029152226609",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e758f3e339a17%3A0x143764f9f24a2d31&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e758f3e339a17%3A0x143764f9f24a2d31&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.139961199999995,
+     "longitude": 11.5870208
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJF5ozPo91nkcRMS1K8vlkNxQ",
+    "provider_id": "/g/11hd5fmxl_",
+    "rating": 4.9,
+    "reviews": 37,
+    "unclaimed_listing": true,
+    "type": "Bauernmarkt",
+    "types": [
+     "Bauernmarkt"
+    ],
+    "type_id": "farmers_market",
+    "type_ids": [
+     "farmers_market"
+    ],
+    "address": "St.-Anna-Platz 1, 80538 München-Altstadt-Lehel",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Do um 10:30",
+    "hours": "Geschlossen · Öffnet Do um 10:30",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "Geschlossen",
+     "mittwoch": "Geschlossen",
+     "donnerstag": "10:30–18:00",
+     "freitag": "Geschlossen",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "01525 1475160",
+    "website": "http://www.muenchner-bauernmaerkte.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "user_review": "\"Immer frische Lebensmittel direkt vom Erzeuger\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeOL-yDDDpXu8Sd92oeWkjXtrqiD76D01OoTBAZJA0gdt0lxFyqvYMsBzMNmhh-lnLAtLr0iNupnGguZMymU1k2Dv3u3_CkTLVcA2jjuic1zViJ5uSJiP24cp2BoRl9Tv6KK1A=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/LQ2wG3icHcRdbsIgAADgE2GB-rtkD3REk0rVaKfOl2VBArQUaoFqPeDusNuY7Hv4_n5VCK1_SxKj0pF0ThoRvei4s0HYMOKuSWT34z3gPiEkqxsmtgwMlNL2HOeH6wI7caqrc-hums6mFKKtKzNyyQmU1wDNYznc-q_CZ89i0ygFjGUksA7qTWztSsZLMTSfqMa0T2P6_VGX7MgJrqqoOXoedT6Jh1zv8Ji3OHN7syj76XqNyPsdQQiB-p8D-wJXX0SP"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&gl=de&google_domain=google.com&hl=de&ll=%4048.1%2C11.646%2C13z&q=Wochenmarkt&start=20&type=search"
+  }
+ }
+}

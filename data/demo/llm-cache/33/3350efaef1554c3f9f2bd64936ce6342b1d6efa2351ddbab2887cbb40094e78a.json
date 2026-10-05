@@ -1,0 +1,39 @@
+{
+ "body": {
+  "id": "id-1791219764443",
+  "object": "chat.completion",
+  "created": 1791219764,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "దయచేసి ఈ నంబర్‌కు కాల్ చేయండి.",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": 106,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 85,
+   "completion_tokens": 13,
+   "total_tokens": 98,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 1.1272727251052856
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:02:44.519Z"
+}

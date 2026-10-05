@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791221131173",
+  "object": "chat.completion",
+  "created": 1791221131,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"category\": \"walking_group\",\n  \"cost\": {\n    \"amount\": 0,\n    \"currency\": \"USD\",\n    \"free\": true\n  },\n  \"end\": null,\n  \"indoor\": false,\n  \"languageMatch\": 2,\n  \"start\": null,\n  \"suitsOlderAdults\": true\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 499,
+   "completion_tokens": 84,
+   "total_tokens": 583,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.827272415161133
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:25:31.278Z",
+ "latencyMs": 4102
+}

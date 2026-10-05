@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791223629598",
+  "object": "chat.completion",
+  "created": 1791223629,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c3\",\"parent\":\"mother\",\"reason\":\"This temple offers a shared cultural experience they have enjoyed before.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c3\",\"parent\":\"father\",\"reason\":\"A cultural temple visit provides a familiar environment and shared heritage.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c7\",\"parent\":\"mother\",\"reason\":\"They like visiting Indian grocery stores for familiar items.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c7\",\"parent\":\"father\",\"reason\":\"This is a nearby Indian grocery store that aligns with their interests.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c1\",\"parent\":\"both\",\"reason\":\"A pleasant weekend morning at the farmers market with good weather.\",\"firstRideTogether\":true,\"bringSomeone\":\"the neighbor two doors down\",\"joinHelp\":false}],\"note\":\"No Telugu events were found this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2668,
+   "completion_tokens": 230,
+   "total_tokens": 2898,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 30.527273178100586
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:07:09.752Z",
+ "latencyMs": 5362
+}

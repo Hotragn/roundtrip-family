@@ -1,0 +1,16 @@
+{
+  "name": "@roundtrip/evals",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "eval": "tsx event-understanding.ts",
+    "eval:events": "tsx event-understanding.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@roundtrip/agent": "workspace:*",
+    "@roundtrip/core": "workspace:*",
+    "zod": "^4.6.5"
+  }
+}

@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791221204921",
+  "object": "chat.completion",
+  "created": 1791221204,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\n  \"category\": \"music_dance\",\n  \"cost\": {\n    \"amount\": 15,\n    \"currency\": \"USD\",\n    \"free\": false\n  },\n  \"end\": \"2026-10-10T01:00:00-07:00\",\n  \"indoor\": true,\n  \"languageMatch\": 0,\n  \"start\": \"2026-10-09T21:00:00-07:00\",\n  \"suitsOlderAdults\": false\n}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 500,
+   "completion_tokens": 135,
+   "total_tokens": 635,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 8.227272987365723
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:26:45.003Z",
+ "latencyMs": 1100
+}

@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219905049",
+  "object": "chat.completion",
+  "created": 1791219905,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "Ask the girl at the front desk how to become a volunteer.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 61,
+   "completion_tokens": 14,
+   "total_tokens": 75,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.9363636374473572
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:05:05.494Z"
+}

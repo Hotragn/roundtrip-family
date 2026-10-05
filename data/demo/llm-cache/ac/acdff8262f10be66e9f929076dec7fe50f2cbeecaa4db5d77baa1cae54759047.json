@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 4, \"correctness\": 5, \"note\": \"Natural; 'లైబ్రరీ' slightly formal, 'గ్రంథాలయం' warmer\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:03:47.698Z"
+}

@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791224258325",
+  "object": "chat.completion",
+  "created": 1791224258,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c1\",\"parent\":\"mother\",\"reason\":\"They enjoyed visiting the temple before.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c1\",\"parent\":\"father\",\"reason\":\"They enjoyed visiting the temple before.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c6\",\"parent\":\"mother\",\"reason\":\"They liked visiting indian grocery stores previously.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c6\",\"parent\":\"father\",\"reason\":\"They liked visiting indian grocery stores previously.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c8\",\"parent\":\"father\",\"reason\":\"They liked visiting indian grocery stores previously.\",\"firstRideTogether\":false,\"bringSomeone\":\"neighbor on the same floor\",\"joinHelp\":false},{\"candidateId\":\"c3\",\"parent\":\"father\",\"reason\":\"They enjoy walking in parks.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":false}],\"note\":\"No Telugu events or groups were found nearby this week.\"}\n```",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": 106,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2083,
+   "completion_tokens": 247,
+   "total_tokens": 2330,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 25.672727584838867
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:17:38.513Z",
+ "latencyMs": 3927
+}

@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 3, \"correctness\": 3, \"note\": \"\\\"అమ్మాయి\\\" means girl, not woman; \\\"అడిగి\\\" is casual; lacks respectful tone for elder.\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:05:06.531Z"
+}

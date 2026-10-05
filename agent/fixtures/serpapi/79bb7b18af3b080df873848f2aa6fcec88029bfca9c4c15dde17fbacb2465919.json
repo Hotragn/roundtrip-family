@@ -1,0 +1,390 @@
+{
+ "provenance": "live_search",
+ "engine": "google",
+ "request": "https://serpapi.com/search.json?engine=google&q=Telugu+association+in+Fremont%2C+California+this+week&location=Fremont%2C+California%2C+United+States&gl=us&hl=en&google_domain=google.com",
+ "note": "events: Telugu association",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:19:18.006Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google",
+   "q": "Telugu association in Fremont, California this week",
+   "location_requested": "Fremont, California, United States",
+   "location_used": "Fremont,California,United States",
+   "google_domain": "google.com",
+   "hl": "en",
+   "gl": "us",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "Telugu association in Fremont, California this week",
+   "total_results": 41100,
+   "time_taken_displayed": 0.36,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "local_map": {
+   "link": "https://www.google.com/search?q=Telugu+association+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnvkTsIw2faDAELi1EzT3Rqssy1QDg:1791220757221&udm=local&lsack=FdzDaqqIDa_Tp84PyOP_-AU&sa=X&ved=2ahUKEwjq5sqnsaOXAxWv6ckDHcjxH18QtgN6BAgtEAM",
+   "image": "https://serpapi.com/searches/6ac3dc15a208028f010bbcc3/images/Omrta20klZGu9PqwMBANyg.png",
+   "gps_coordinates": {
+    "latitude": 37.62510898062149,
+    "longitude": -121.95098876953125
+   }
+  },
+  "local_results": {
+   "places": [
+    {
+     "position": 1,
+     "title": "Telugu church",
+     "type": "Church",
+     "rating": 5,
+     "reviews": 3,
+     "links": {
+      "phone": "tel:(510) 688-8241"
+     },
+     "place_id": "12441020019629915633",
+     "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&ludocid=12441020019629915633&q=Telugu+association+in+Fremont%2C+California+this+week",
+     "provider_id": "/g/11njk2vx12",
+     "gps_coordinates": {
+      "latitude": 37.528432,
+      "longitude": -121.970836
+     },
+     "address": "4211 Carol Ave, Fremont, CA 94538",
+     "hours": "Closed · Opens 12 AM Tue",
+     "phone": "(510) 688-8241"
+    },
+    {
+     "position": 2,
+     "title": "Telugu Church of Silicon Valley",
+     "type": "Church",
+     "rating": 5,
+     "reviews": 5,
+     "links": {
+      "phone": "tel:(510) 844-2556",
+      "website": "https://tcosv.com/"
+     },
+     "place_id": "10630790867916695002",
+     "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&ludocid=10630790867916695002&q=Telugu+association+in+Fremont%2C+California+this+week",
+     "provider_id": "/g/11bw5m768p",
+     "gps_coordinates": {
+      "latitude": 37.551892,
+      "longitude": -121.99561
+     },
+     "address": "38451 Fremont Blvd, Fremont, CA 94536",
+     "hours": "Closed · Opens 5:30 PM Sun",
+     "phone": "(510) 844-2556"
+    },
+    {
+     "position": 3,
+     "title": "Greater Tri - Valley Telugu Association",
+     "type": "Association / Organization",
+     "links": {
+      "phone": "tel:(650) 245-2750",
+      "website": "http://greatertta.org/contact-us.html"
+     },
+     "place_id": "12416671903386666612",
+     "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&ludocid=12416671903386666612&q=Telugu+association+in+Fremont%2C+California+this+week",
+     "provider_id": "/g/11ghr0674t",
+     "gps_coordinates": {
+      "latitude": 37.760139,
+      "longitude": -121.911483
+     },
+     "address": "Posante, 5123 Rowan Dr, San Ramon, CA 94582",
+     "phone": "(650) 245-2750"
+    }
+   ],
+   "more_locations_link": "https://www.google.com/search?q=Telugu+association+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnvkTsIw2faDAELi1EzT3Rqssy1QDg:1791220757221&udm=local&lsack=FdzDaqqIDa_Tp84PyOP_-AU&sa=X&ved=2ahUKEwjq5sqnsaOXAxWv6ckDHcjxH18QjGp6BAguEAE"
+  },
+  "knowledge_graph": {
+   "place_id": "ChIJuVr6ZQDBj4AR8X2Q4cphp6w"
+  },
+  "inline_images": [
+   {
+    "source": "https://www.facebook.com/www.telanganaus.org/videos/the-telangana-american-telugu-association-tta-bay-area-chapter-is-thrilled-to-an/3883710118557881/",
+    "thumbnail": "https://serpapi.com/searches/6ac3dc15a208028f010bbcc3/images/Rd0gD5JAbq5KLIFeGvRMzYEYA_M-jllr2vVF9muMaxU.jpeg",
+    "original": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=3883710118557881&get_thumbnail=1",
+    "title": "The Telangana American Telugu Association (TTA) Bay Area Chapter is  thrilled to announce its most vibrant and eagerly awaited event of the year  “HOLI Celebrations”. Get ready to immerse yourself in a ...",
+    "source_name": "Facebook"
+   },
+   {
+    "source": "https://www.facebook.com/FOGTelugu/",
+    "thumbnail": "https://serpapi.com/searches/6ac3dc15a208028f010bbcc3/images/RaCi-HqWW1ETTMWQHVTmeqbb0O8OFbXdQw-q3-_DbZ4.jpeg",
+    "original": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100081506040611",
+    "title": "FOG Telugu Association | Fremont CA",
+    "source_name": "Facebook"
+   },
+   {
+    "source": "https://www.instagram.com/reel/DHbJyIUuCY_/",
+    "thumbnail": "https://serpapi.com/searches/6ac3dc15a208028f010bbcc3/images/PiOOlsB9yNuq7Cc0oxrO4LrBQfDXKnbA2kS301Hgxrg.jpeg",
+    "original": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3592508155088086591",
+    "title": "The Telangana American Telugu Association (TTA) Bay Area Chapter is  thrilled to announce its most vibrant and eagerly awaited event of the year  “HOLI Celebrations”. Get ready to immerse yourself in a ...",
+    "source_name": "Instagram"
+   },
+   {
+    "source": "https://www.facebook.com/groups/ttausa/posts/4046880032299428/",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO-Ws2sd5CfVPEUVZqjQjQQjzBMYJWhCemRkHj3OYYBd8jbC4IF2zs0hs&s",
+    "original": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=952121067864354",
+    "title": "The Telangana American Telugu Association (TTA) Bay Area ...",
+    "source_name": "Facebook"
+   },
+   {
+    "source": "https://www.instagram.com/p/DKioXi4th2Q/",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQktwKtymtqv6WK4Sg5BhsnQGJZJ5eUyyB32r9Uvs3Av83_giGGjeJUIfQebg&s",
+    "original": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3648656187990613392",
+    "title": "Telangana American Telugu Association (TTA) BayArea Chapter ...",
+    "source_name": "Instagram"
+   },
+   {
+    "source": "https://www.saada.org/explore/archive/items/20200323-6046",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd8GbNYhzluVeRlItdWfE06oS3Pbu4S266tAnkPQjHUnMYFZLyTCa6uBB_UA&s",
+    "original": "https://saada-website.s3.amazonaws.com/explore/archive/anisha-gade/preview-parade-aac-001.jpg",
+    "title": "Bay Area Telugu Association Float in the 2014 India Day ...",
+    "source_name": "South Asian American Digital Archive (SAADA)"
+   },
+   {
+    "source": "https://www.facebook.com/bataevents/?locale=sv_SE",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKSm_TGstGQOzvClupdpSpZzVqziVhYjVmy-2gdqlMvj85u2c9H7TQrMw&s",
+    "original": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100064346868717",
+    "title": "Bay Area Telugu Association | Fremont CA",
+    "source_name": "Facebook"
+   },
+   {
+    "source": "https://www.facebook.com/bataevents/?locale=sv_SE",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXjTAC317zUto20Q93AtOSN2k_QK08-mxgokU-P5H2NiPqllSGnWEkK_I&s",
+    "original": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1481273140694234",
+    "title": "Bay Area Telugu Association | Fremont CA",
+    "source_name": "Facebook"
+   },
+   {
+    "source": "https://www.facebook.com/groups/ttausa/posts/4046880032299428/",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUMXz-564Bh8ddK6gq3k-2LG59xlwboApO47zMYoLU6NAf7aGj-YjBInc&s",
+    "original": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=933994693010325",
+    "title": "The Telangana American Telugu Association (TTA) Bay Area ...",
+    "source_name": "Facebook"
+   }
+  ],
+  "ai_overview": {
+   "page_token": "QmcFeniczVVbkqJIFF3ArGP4sVRES7EiiI4kRQGfqFWU9UPwMkF5lKaI9l_vZVY1a5hFTIKiWGpVd39MTEZgkpn3Xs69eY_nx1-eGyz__uMfZ7N5x0_lchzHJRSGyLNLZuiXdbwPzPI89PDadL5FkWdzcQECSZGghMaB7BlqM7LgrjVTd-9vfnNv-J7Ta79E-uvYe4P81Oq06bfXPoU8LsKU43F2QO23XJUyMUdTtsu1re8tfbWSWro2fWdro_1wpBXBM5V-mdMMHdsLAmy3wGWtTH6Wf1ZbZFHCJTsodRrT90WReRZFqcTQTLU0LOs-MQD_6UASUAAPIHmAdNeKHMKfiSYIxFYCQs6TT6ecNyLHfDJJSrpu348mpYEk5xRAW4h-JwZgcIql3PWW84veYZL6BzTEixeuPD4dBwAQHaF9aXl7M039MDq507uVF4hfPkVSLGGESFGFzAVdfkbJ2yc2cfomSmDE14ESK_fLnbhLAPpgICufZwiSjhi_om62MgBNdsoWIv1Ll401mSpl13TM9GWNk7aG0yYdtvez7ox5Ux_12niJGejyrep4MZx0GROUTYPYeaFu2ZbmaPS3dF1hKo90s9pgH1I-mfhEKJwn1Cx2ZobL4IEMSr0SX8nYBPPFzVcy2X2-1T0JGZLs-RtnyT1K4LrpIAwvlsdLIR2uC0C4rCVsi8nxiefkZYdAdHmRmQdhyRWbYIbkjJjY8UdQ4_PdXcCUBHgGAi-adHiVJf-xr4i_1MrO-tlefAJyUSwkJ42YfQF-rBfBykNSGpTW6cUUDqHOfFD4Pg_H2XdPAJLaEy90iMmfoqe_Z-_k4CW17wiEPpAfTwBSwOSYUYIlPCbXhh_TRFd5H4ZKnt7tjvhq8Df65ZZVRpsPLMizR5yztSWMtI7sTBjRt6P1XK4ZdXm_kcBttoS-8Qv6Y_7f-JSpEzqo030-wZ_hE1EndEOdjmQ4dNJJneSjOt3nUzcFclSnxDtTp9HR5KxO13yS83zK1Ik9JPRRnX6ZT8InfDr9Z9_gE0n9Fp-ke3zK1CnHp-VHdcrnfVanjE-_p07K76lTSi_7MF1KVbRAdyVLVGKpKMDVdjqqTLD-goSixexwY7J14i8la-5vnnzd8h4013riGXmztx40shE-2Ra14qa2F6GooGMcmq6-ccOg4AaF9tr2w2DzUIC6587DdeDqhY3j4kJs20vK99YhR-v1Yb-3aHcjbRq0tPryuzViJy-asqpJxVEX1eiqvh_OBqs-ip2OWqvL1akoNs3GsrPtt583A7Fo7NVOILyK4BVvG32TbrE7VhTMmSXpRaM5lQdbr7hR16phPxphdRAOIrqJZ7O5YKtxsafyO0ntM8xgRjesx-pQSXFhzozqoVUc9dhOn_LXJkc6pIbAQAEqAiaAM6CQJlUIvRUYk4dcusAz5DopbOqajbecwbJGnTXrFbZC15r1OuWjzf6da9IUDtZc5V-gqF7Y",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=QmcFeniczVVbkqJIFF3ArGP4sVRES7EiiI4kRQGfqFWU9UPwMkF5lKaI9l_vZVY1a5hFTIKiWGpVd39MTEZgkpn3Xs69eY_nx1-eGyz__uMfZ7N5x0_lchzHJRSGyLNLZuiXdbwPzPI89PDadL5FkWdzcQECSZGghMaB7BlqM7LgrjVTd-9vfnNv-J7Ta79E-uvYe4P81Oq06bfXPoU8LsKU43F2QO23XJUyMUdTtsu1re8tfbWSWro2fWdro_1wpBXBM5V-mdMMHdsLAmy3wGWtTH6Wf1ZbZFHCJTsodRrT90WReRZFqcTQTLU0LOs-MQD_6UASUAAPIHmAdNeKHMKfiSYIxFYCQs6TT6ecNyLHfDJJSrpu348mpYEk5xRAW4h-JwZgcIql3PWW84veYZL6BzTEixeuPD4dBwAQHaF9aXl7M039MDq507uVF4hfPkVSLGGESFGFzAVdfkbJ2yc2cfomSmDE14ESK_fLnbhLAPpgICufZwiSjhi_om62MgBNdsoWIv1Ll401mSpl13TM9GWNk7aG0yYdtvez7ox5Ux_12niJGejyrep4MZx0GROUTYPYeaFu2ZbmaPS3dF1hKo90s9pgH1I-mfhEKJwn1Cx2ZobL4IEMSr0SX8nYBPPFzVcy2X2-1T0JGZLs-RtnyT1K4LrpIAwvlsdLIR2uC0C4rCVsi8nxiefkZYdAdHmRmQdhyRWbYIbkjJjY8UdQ4_PdXcCUBHgGAi-adHiVJf-xr4i_1MrO-tlefAJyUSwkJ42YfQF-rBfBykNSGpTW6cUUDqHOfFD4Pg_H2XdPAJLaEy90iMmfoqe_Z-_k4CW17wiEPpAfTwBSwOSYUYIlPCbXhh_TRFd5H4ZKnt7tjvhq8Df65ZZVRpsPLMizR5yztSWMtI7sTBjRt6P1XK4ZdXm_kcBttoS-8Qv6Y_7f-JSpEzqo030-wZ_hE1EndEOdjmQ4dNJJneSjOt3nUzcFclSnxDtTp9HR5KxO13yS83zK1Ik9JPRRnX6ZT8InfDr9Z9_gE0n9Fp-ke3zK1CnHp-VHdcrnfVanjE-_p07K76lTSi_7MF1KVbRAdyVLVGKpKMDVdjqqTLD-goSixexwY7J14i8la-5vnnzd8h4013riGXmztx40shE-2Ra14qa2F6GooGMcmq6-ccOg4AaF9tr2w2DzUIC6587DdeDqhY3j4kJs20vK99YhR-v1Yb-3aHcjbRq0tPryuzViJy-asqpJxVEX1eiqvh_OBqs-ip2OWqvL1akoNs3GsrPtt583A7Fo7NVOILyK4BVvG32TbrE7VhTMmSXpRaM5lQdbr7hR16phPxphdRAOIrqJZ7O5YKtxsafyO0ntM8xgRjesx-pQSXFhzozqoVUc9dhOn_LXJkc6pIbAQAEqAiaAM6CQJlUIvRUYk4dcusAz5DopbOqajbecwbJGnTXrFbZC15r1OuWjzf6da9IUDtZc5V-gqF7Y"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "TATA SwaraBadi",
+    "link": "https://www.facebook.com/events/fremont-california/tata-swarabadi/441931979497680/?locale=gl_ES",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESmgEB6zswFXrkHPkvSJDIk8tfS4ctekP1FGjNKz3tCroJeDSo03VZ-6I_jIU6vQ_gGBC1EEirwZ4EJm9ZChW3lTmj1XG7V5He3XTVGV4MW3iwQ_pPj0OsH53VmOIzGfibUFvzV9PrERbRcD-URnn_EUhNqSwVwbo0APKBSFgIA1Mtz04Fl1iDrIRyeQ4KToYvilde2SFvnx0CVR53&ved=2ahUKEwjq5sqnsaOXAxWv6ckDHcjxH18QFnoECCAQAQ&uoh=1",
+    "displayed_link": "https://www.facebook.com › events › fremont-california",
+    "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+    "snippet": "TATA SwaraBadi · Público · Hosted by Telangana American Telugu Association - BAY AREA, CA · Fremont, California.",
+    "snippet_highlighted_words": [
+     "Association"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "TATA SwaraBadi · Público · Hosted by Telangana American Telugu Association - BAY AREA, CA · Fremont, California.",
+      "source_info_link": "https://www.facebook.com/events/fremont-california/tata-swarabadi/441931979497680/?locale=gl_ES",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Ct4BL2dvdG8_dXJsPUNBRVNtZ0VCNnpzd0ZYcmtIUGt2U0pESWs4dGZTNGN0ZWtQMUZHak5LejN0Q3JvSmVEU28wM1ZaLTZJX2pJVTZ2UV9nR0JDMUVFaXJ3WjRFSm05WkNoVzNsVG1qMVhHN1Y1SGUzWFRWR1Y0TVczaXdRX3BQajBPc0g1M1ZtT0l6R2ZpYlVGdnpWOVByRVJiUmNELVVSbm5fRVVoTnFTd1Z3Ym8wQVBLQlNGZ0lBMU10ejA0RmwxaURySVJ5ZVE0S1RvWXZpbGRlMlNGdm54MENWUjUzEgQaAggAGvwHEgAaACIAKgA6AEIECAIQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkDFBwgAEAAYACAAKg0KBnRlbHVndRXdkEY_KjMKC2Fzc29jaWF0aW9uFd2QRj8aDGFzc29jaWF0aW9ucxoJY29tbXVuaXR5GgZwZW9wbGUqCQoCaW4VAAAAACqHAQoHZnJlbW9udBWrsoM_GhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRUaxMs_GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAy3gEvZ290bz91cmw9Q0FFU21nRUI2enN3Rlhya0hQa3ZTSkRJazh0ZlM0Y3Rla1AxRkdqTkt6M3RDcm9KZURTbzAzVlotNklfaklVNnZRX2dHQkMxRUVpcndaNEVKbTlaQ2hXM2xUbWoxWEc3VjVIZTNYVFZHVjRNVzNpd1FfcFBqME9zSDUzVm1PSXpHZmliVUZ2elY5UHJFUmJSY0QtVVJubl9FVWhOcVN3VndibzBBUEtCU0ZnSUExTXR6MDRGbDFpRHJJUnllUTRLVG9ZdmlsZGUyU0Z2bngwQ1ZSNTM6GVRBVEEgU3dhcmFCYWRpIC0gRmFjZWJvb2tChwFUQVRBIFN3YXJhQmFkaSAmbWlkZG90OyBQw7pibGljbyDCtyBIb3N0ZWQgYnkgVGVsYW5nYW5hIEFtZXJpY2FuIFRlbHVndSA8Yj5Bc3NvY2lhdGlvbjwvYj4gLSBCQVkgQVJFQSwgQ0EgJm1pZGRvdDsgRnJlbW9udCwgQ2FsaWZvcm5pYS5KAmluSgR0aGlzIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Ct4BL2dvdG8_dXJsPUNBRVNtZ0VCNnpzd0ZYcmtIUGt2U0pESWs4dGZTNGN0ZWtQMUZHak5LejN0Q3JvSmVEU28wM1ZaLTZJX2pJVTZ2UV9nR0JDMUVFaXJ3WjRFSm05WkNoVzNsVG1qMVhHN1Y1SGUzWFRWR1Y0TVczaXdRX3BQajBPc0g1M1ZtT0l6R2ZpYlVGdnpWOVByRVJiUmNELVVSbm5fRVVoTnFTd1Z3Ym8wQVBLQlNGZ0lBMU10ejA0RmwxaURySVJ5ZVE0S1RvWXZpbGRlMlNGdm54MENWUjUzEgQaAggAGvwHEgAaACIAKgA6AEIECAIQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkDFBwgAEAAYACAAKg0KBnRlbHVndRXdkEY_KjMKC2Fzc29jaWF0aW9uFd2QRj8aDGFzc29jaWF0aW9ucxoJY29tbXVuaXR5GgZwZW9wbGUqCQoCaW4VAAAAACqHAQoHZnJlbW9udBWrsoM_GhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRUaxMs_GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAy3gEvZ290bz91cmw9Q0FFU21nRUI2enN3Rlhya0hQa3ZTSkRJazh0ZlM0Y3Rla1AxRkdqTkt6M3RDcm9KZURTbzAzVlotNklfaklVNnZRX2dHQkMxRUVpcndaNEVKbTlaQ2hXM2xUbWoxWEc3VjVIZTNYVFZHVjRNVzNpd1FfcFBqME9zSDUzVm1PSXpHZmliVUZ2elY5UHJFUmJSY0QtVVJubl9FVWhOcVN3VndibzBBUEtCU0ZnSUExTXR6MDRGbDFpRHJJUnllUTRLVG9ZdmlsZGUyU0Z2bngwQ1ZSNTM6GVRBVEEgU3dhcmFCYWRpIC0gRmFjZWJvb2tChwFUQVRBIFN3YXJhQmFkaSAmbWlkZG90OyBQw7pibGljbyDCtyBIb3N0ZWQgYnkgVGVsYW5nYW5hIEFtZXJpY2FuIFRlbHVndSA8Yj5Bc3NvY2lhdGlvbjwvYj4gLSBCQVkgQVJFQSwgQ0EgJm1pZGRvdDsgRnJlbW9udCwgQ2FsaWZvcm5pYS5KAmluSgR0aGlzIgIQAUgAWABoAA",
+    "source": "Facebook",
+    "read_more_link": "https://www.facebook.com/events/fremont-california/tata-swarabadi/441931979497680/?locale=gl_ES#:~:text=TATA%20SwaraBadi&text=P%C3%BAblico%20%C2%B7%20Hosted%20by%20Telangana,Association%20%2D%20BAY%20AREA%2C%20CA&text=Fremont%2C%20California"
+   },
+   {
+    "position": 2,
+    "title": "TATA SwaraBadi",
+    "link": "https://www.facebook.com/events/fremont-california/tata-swarabadi/441931979497680/?locale=eo_EO",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESmgEB6zswFT3ovDZ9tfsbT6qrHaNECuOwQVoU6MWeIKNiHzyzhZlsfMIEbpKIz1NWIzwshtld9UVZtWAipdUMzjf5yatjfeTPt7fT1CE153BI1cmYqrvzOLdvoLaHSg5glBeqKKHL_-pqqfbpG7G8FupuzIr5Eu5yOMJkQ_REyibO10VtywWW7M4joBq2m6YrhbdDjPVnFsl9-jRU&ved=2ahUKEwjq5sqnsaOXAxWv6ckDHcjxH18QFnoECCMQAQ&uoh=1",
+    "displayed_link": "https://www.facebook.com › events › fremont-california",
+    "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+    "snippet": "TATA SwaraBadi · Publika · Hosted by Telangana American Telugu Association - BAY AREA, CA · Fremont, California.",
+    "snippet_highlighted_words": [
+     "Association"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "TATA SwaraBadi · Publika · Hosted by Telangana American Telugu Association - BAY AREA, CA · Fremont, California.",
+      "source_info_link": "https://www.facebook.com/events/fremont-california/tata-swarabadi/441931979497680/?locale=eo_EO",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Ct4BL2dvdG8_dXJsPUNBRVNtZ0VCNnpzd0ZUM292RFo5dGZzYlQ2cXJIYU5FQ3VPd1FWb1U2TVdlSUtOaUh6eXpoWmxzZk1JRWJwS0l6MU5XSXp3c2h0bGQ5VVZadFdBaXBkVU16amY1eWF0amZlVFB0N2ZUMUNFMTUzQkkxY21ZcXJ2ek9MZHZvTGFIU2c1Z2xCZXFLS0hMXy1wcXFmYnBHN0c4RnVwdXpJcjVFdTV5T01Ka1FfUkV5aWJPMTBWdHl3V1c3TTRqb0JxMm02WXJoYmREalBWbkZzbDktalJVEgQaAggAGvsHEgAaACIAKgA6AEIECAIQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkDEBwgAEAAYACAAKg0KBnRlbHVndRXdkEY_KjMKC2Fzc29jaWF0aW9uFd2QRj8aDGFzc29jaWF0aW9ucxoJY29tbXVuaXR5GgZwZW9wbGUqCQoCaW4VAAAAACqHAQoHZnJlbW9udBVOXIY_GhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRW8xM4_GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAy3gEvZ290bz91cmw9Q0FFU21nRUI2enN3RlQzb3ZEWjl0ZnNiVDZxckhhTkVDdU93UVZvVTZNV2VJS05pSHp5emhabHNmTUlFYnBLSXoxTldJendzaHRsZDlVVlp0V0FpcGRVTXpqZjV5YXRqZmVUUHQ3ZlQxQ0UxNTNCSTFjbVlxcnZ6T0xkdm9MYUhTZzVnbEJlcUtLSExfLXBxcWZicEc3RzhGdXB1eklyNUV1NXlPTUprUV9SRXlpYk8xMFZ0eXdXVzdNNGpvQnEybTZZcmhiZERqUFZuRnNsOS1qUlU6GVRBVEEgU3dhcmFCYWRpIC0gRmFjZWJvb2tChgFUQVRBIFN3YXJhQmFkaSAmbWlkZG90OyBQdWJsaWthIMK3IEhvc3RlZCBieSBUZWxhbmdhbmEgQW1lcmljYW4gVGVsdWd1IDxiPkFzc29jaWF0aW9uPC9iPiAtIEJBWSBBUkVBLCBDQSAmbWlkZG90OyBGcmVtb250LCBDYWxpZm9ybmlhLkoCaW5KBHRoaXMiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Ct4BL2dvdG8_dXJsPUNBRVNtZ0VCNnpzd0ZUM292RFo5dGZzYlQ2cXJIYU5FQ3VPd1FWb1U2TVdlSUtOaUh6eXpoWmxzZk1JRWJwS0l6MU5XSXp3c2h0bGQ5VVZadFdBaXBkVU16amY1eWF0amZlVFB0N2ZUMUNFMTUzQkkxY21ZcXJ2ek9MZHZvTGFIU2c1Z2xCZXFLS0hMXy1wcXFmYnBHN0c4RnVwdXpJcjVFdTV5T01Ka1FfUkV5aWJPMTBWdHl3V1c3TTRqb0JxMm02WXJoYmREalBWbkZzbDktalJVEgQaAggAGvsHEgAaACIAKgA6AEIECAIQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkDEBwgAEAAYACAAKg0KBnRlbHVndRXdkEY_KjMKC2Fzc29jaWF0aW9uFd2QRj8aDGFzc29jaWF0aW9ucxoJY29tbXVuaXR5GgZwZW9wbGUqCQoCaW4VAAAAACqHAQoHZnJlbW9udBVOXIY_GhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRW8xM4_GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAy3gEvZ290bz91cmw9Q0FFU21nRUI2enN3RlQzb3ZEWjl0ZnNiVDZxckhhTkVDdU93UVZvVTZNV2VJS05pSHp5emhabHNmTUlFYnBLSXoxTldJendzaHRsZDlVVlp0V0FpcGRVTXpqZjV5YXRqZmVUUHQ3ZlQxQ0UxNTNCSTFjbVlxcnZ6T0xkdm9MYUhTZzVnbEJlcUtLSExfLXBxcWZicEc3RzhGdXB1eklyNUV1NXlPTUprUV9SRXlpYk8xMFZ0eXdXVzdNNGpvQnEybTZZcmhiZERqUFZuRnNsOS1qUlU6GVRBVEEgU3dhcmFCYWRpIC0gRmFjZWJvb2tChgFUQVRBIFN3YXJhQmFkaSAmbWlkZG90OyBQdWJsaWthIMK3IEhvc3RlZCBieSBUZWxhbmdhbmEgQW1lcmljYW4gVGVsdWd1IDxiPkFzc29jaWF0aW9uPC9iPiAtIEJBWSBBUkVBLCBDQSAmbWlkZG90OyBGcmVtb250LCBDYWxpZm9ybmlhLkoCaW5KBHRoaXMiAhABSABYAGgA",
+    "source": "Facebook",
+    "read_more_link": "https://www.facebook.com/events/fremont-california/tata-swarabadi/441931979497680/?locale=eo_EO#:~:text=TATA%20SwaraBadi&text=Publika%20%C2%B7%20Hosted%20by%20Telangana,Association%20%2D%20BAY%20AREA%2C%20CA&text=Fremont%2C%20California"
+   },
+   {
+    "position": 3,
+    "title": "Telugu People in Bay Area",
+    "link": "https://www.facebook.com/groups/730613967331377/posts/2915746542151431/",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESggEB6zswFXXWpdgMIgAF1CvagDNVqG3-Oze47PNhoRlQbCmqyw6KsQ3e-RtVweeBr9EVULMPNFKcz9xBECtWUd1bNPwFSn3WNKXF6C2udtqcn4Jd5uueif7-ADHy9YGEOWB1IVhJNXQIHGby5r2vHBSqOlFhJRZVEsVIyXFFMI05LlbY&ved=2ahUKEwjq5sqnsaOXAxWv6ckDHcjxH18QFnoECCkQAQ&uoh=1",
+    "displayed_link": "2 days ago",
+    "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+    "snippet": "5h. MADRAS IDLI KADAI – FREMONT 🍽️ Weekend Special ... 46356 Warm Springs Blvd, Unit 848, Fremont, CA (510) 573-4066 ...",
+    "snippet_highlighted_words": [
+     "46356 Warm Springs Blvd, Unit 848, Fremont, CA"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "5h. MADRAS IDLI KADAI – FREMONT 🍽️ Weekend Special ... 46356 Warm Springs Blvd, Unit 848, Fremont, CA (510) 573-4066 ...",
+      "source_info_link": "https://www.facebook.com/groups/730613967331377/posts/2915746542151431/",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZYWFdwZGdNSWdBRjFDdmFnRE5WcUczLU96ZTQ3UE5ob1JsUWJDbXF5dzZLc1EzZS1SdFZ3ZWVCcjlFVlVMTVBORktjejl4QkVDdFdVZDFiTlB3RlNuM1dOS1hGNkMydWR0cWNuNEpkNXV1ZWlmNy1BREh5OVlHRU9XQjFJVmhKTlhRSUhHYnk1cjJ2SEJTcU9sRmhKUlpWRXNWSXlYRkZNSTA1TGxiWRIEGgIIABrrBxIAGgAiAggBKgA6AEIECAEQAEoSCAESCkNhbGlmb3JuaWEaAggDWgByAHoAgkC7BwgAEAAYACAAKg0KBnRlbHVndRVS7mlAKjMKC2Fzc29jaWF0aW9uFQAAAAAaDGFzc29jaWF0aW9ucxoJY29tbXVuaXR5GgZwZW9wbGUqCQoCaW4VAAAAACqHAQoHZnJlbW9udBXm7Yw_GhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRUAAAAAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyvgEvZ290bz91cmw9Q0FFU2dnRUI2enN3RlhYV3BkZ01JZ0FGMUN2YWdETlZxRzMtT3plNDdQTmhvUmxRYkNtcXl3NktzUTNlLVJ0VndlZUJyOUVWVUxNUE5GS2N6OXhCRUN0V1VkMWJOUHdGU24zV05LWEY2QzJ1ZHRxY240SmQ1dXVlaWY3LUFESHk5WUdFT1dCMUlWaEpOWFFJSEdieTVyMnZIQlNxT2xGaEpSWlZFc1ZJeVhGRk1JMDVMbGJZOis8Yj5UZWx1Z3UgUGVvcGxlPC9iPiBpbiBCYXkgQXJlYSAtIEZhY2Vib29rQosBNWguIE1BRFJBUyBJRExJIEtBREFJIOKAkyBGUkVNT05UIPCfjb3vuI8gV2Vla2VuZCBTcGVjaWFsIC4uLiA8Yj40NjM1NiBXYXJtIFNwcmluZ3MgQmx2ZCwgVW5pdCA4NDgsIEZyZW1vbnQsIENBPC9iPiAoNTEwKSA1NzMtNDA2NiZuYnNwOy4uLkoCaW5KBHRoaXMiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZYWFdwZGdNSWdBRjFDdmFnRE5WcUczLU96ZTQ3UE5ob1JsUWJDbXF5dzZLc1EzZS1SdFZ3ZWVCcjlFVlVMTVBORktjejl4QkVDdFdVZDFiTlB3RlNuM1dOS1hGNkMydWR0cWNuNEpkNXV1ZWlmNy1BREh5OVlHRU9XQjFJVmhKTlhRSUhHYnk1cjJ2SEJTcU9sRmhKUlpWRXNWSXlYRkZNSTA1TGxiWRIEGgIIABrrBxIAGgAiAggBKgA6AEIECAEQAEoSCAESCkNhbGlmb3JuaWEaAggDWgByAHoAgkC7BwgAEAAYACAAKg0KBnRlbHVndRVS7mlAKjMKC2Fzc29jaWF0aW9uFQAAAAAaDGFzc29jaWF0aW9ucxoJY29tbXVuaXR5GgZwZW9wbGUqCQoCaW4VAAAAACqHAQoHZnJlbW9udBXm7Yw_GhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRUAAAAAGgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyvgEvZ290bz91cmw9Q0FFU2dnRUI2enN3RlhYV3BkZ01JZ0FGMUN2YWdETlZxRzMtT3plNDdQTmhvUmxRYkNtcXl3NktzUTNlLVJ0VndlZUJyOUVWVUxNUE5GS2N6OXhCRUN0V1VkMWJOUHdGU24zV05LWEY2QzJ1ZHRxY240SmQ1dXVlaWY3LUFESHk5WUdFT1dCMUlWaEpOWFFJSEdieTVyMnZIQlNxT2xGaEpSWlZFc1ZJeVhGRk1JMDVMbGJZOis8Yj5UZWx1Z3UgUGVvcGxlPC9iPiBpbiBCYXkgQXJlYSAtIEZhY2Vib29rQosBNWguIE1BRFJBUyBJRExJIEtBREFJIOKAkyBGUkVNT05UIPCfjb3vuI8gV2Vla2VuZCBTcGVjaWFsIC4uLiA8Yj40NjM1NiBXYXJtIFNwcmluZ3MgQmx2ZCwgVW5pdCA4NDgsIEZyZW1vbnQsIENBPC9iPiAoNTEwKSA1NzMtNDA2NiZuYnNwOy4uLkoCaW5KBHRoaXMiAhABSABYAGgA",
+    "source": "Facebook · Telugu People in Bay Area",
+    "read_more_link": "https://www.facebook.com/groups/730613967331377/posts/2915746542151431/#:~:text=Madras%20Idli%20Kadai%20Fremont%F3%B0%9E%8B5h%F3%B0%9E%8B%F3%B1%9F%A0,FREMONT%20%F0%9F%8C%BF%20%F0%9F%8D%BD%EF%B8%8F%20Weekend%20Special&text=%F0%9F%93%8D%2046356%20Warm%20Springs%20Blvd%2C,Fremont%2C%20CA%20%F0%9F%93%9E%20(510)%20573%2D4066"
+   },
+   {
+    "position": 4,
+    "title": "Join for *FOG Republic Day event on Jan 24th with Dance ...",
+    "link": "https://www.facebook.com/fogsv.org/posts/join-for-fog-republic-day-event-on-jan-24th-with-dance-performances-by-fog-from-/1346695427485915/",
+    "displayed_link": "5 reactions · 8 months ago",
+    "thumbnail": "https://serpapi.com/searches/6ac3dc15a208028f010bbcc3/images/ugboCyCQk1IjiM4J9iJhe9P5a6gv2ZZA1x2tXITESPc.jpeg",
+    "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+    "snippet": "Join for *FOG Republic Day event on Jan 24th with Dance performances by FOG from 11.30AM to 6.30 PM* Dignitaries from 4pm to 5pm *Sankranthi ...",
+    "duration": "1:02",
+    "about_this_result": {
+     "source": {
+      "description": "Join for *FOG Republic Day event on Jan 24th with Dance performances by FOG from 11.30AM to 6.30 PM* Dignitaries from 4pm to 5pm *Sankranthi ...",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     }
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpoCL2dvdG8_dXJsPUNBRVN4d0VCNnpzd0ZjRk9vc3VjU21sMHBNeW1xOVdld1FDdU5EX3VoUVZyZ0ZPMWp0c0RWX21fbDl4UXVYd3RXdGJpSkd3QnRKanRCeHpNS1lCNW1pMGdtMkJuTHBsS2NNaVVFQ1AwYzlZbXBHMXFQUGpFUzVPWVoyT1hMeXNJU3BmYUZqZzVkQ2Jsc1FNci1zUmRuTXpwOEQxU2NvUHE5TDdQSk00V3dDbkdlX0Z2YldMeHQ3Y2NtMTR5ZDRwVGlfZ0E1ay10ekVzdjEyUG1CNFBrZ3FkNV9fRk44M19OdVhzWmVEbVkzMEF5dVcyTG5oZFIwQk9tRzUwR2htN3YyaEVlQVgxazJldWtnZk1OEhYKEAoECDBIAgoECEhIAgoCCD8aAggAGhYSABoAIgAqADIAOgBCAEoAWgByAHoAIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpoCL2dvdG8_dXJsPUNBRVN4d0VCNnpzd0ZjRk9vc3VjU21sMHBNeW1xOVdld1FDdU5EX3VoUVZyZ0ZPMWp0c0RWX21fbDl4UXVYd3RXdGJpSkd3QnRKanRCeHpNS1lCNW1pMGdtMkJuTHBsS2NNaVVFQ1AwYzlZbXBHMXFQUGpFUzVPWVoyT1hMeXNJU3BmYUZqZzVkQ2Jsc1FNci1zUmRuTXpwOEQxU2NvUHE5TDdQSk00V3dDbkdlX0Z2YldMeHQ3Y2NtMTR5ZDRwVGlfZ0E1ay10ekVzdjEyUG1CNFBrZ3FkNV9fRk44M19OdVhzWmVEbVkzMEF5dVcyTG5oZFIwQk9tRzUwR2htN3YyaEVlQVgxazJldWtnZk1OEhYKEAoECDBIAgoECEhIAgoCCD8aAggAGhYSABoAIgAqADIAOgBCAEoAWgByAHoAIgIQAUgAWABoAA",
+    "source": "Facebook · Festival of Globe FOGSV.org"
+   },
+   {
+    "position": 5,
+    "title": "Telugu People in Bay Area",
+    "link": "https://www.facebook.com/groups/730613967331377/posts/2915078082218277/",
+    "displayed_link": "2 days ago",
+    "thumbnail": "https://serpapi.com/searches/6ac3dc15a208028f010bbcc3/images/ugboCyCQk1IjiM4J9iJhe3XedNjG1HWqdx4S2m-W_xw.jpeg",
+    "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+    "snippet": "Join us for their captivating festival on 17th and 18th Oct tickets www.womennow.tv#bayarea #bayareaevents #cupertino #durgapuja #womennowtv.",
+    "about_this_result": {
+     "source": {
+      "description": "Join us for their captivating festival on 17th and 18th Oct tickets www.womennow.tv#bayarea #bayareaevents #cupertino #durgapuja #womennowtv.",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     }
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZkWTBPM0JCVlJ1enBucTAxbWo3SmZKUnJ2bWZ4aTZrbTJpbGh4S1Z5ZG9kd19UeDY4OUwtNmY5VGR5ZWhzNVJXR21XWDFvTTI0V2d6eFlteHJpUjh6WXQ5RFUyblRvTUVnOG1uZG9EV3FCOVlCQmpTLWdpbXVTN0d3RzI0bjlUUzgyXzRCa0JWaElUMG1rVTZEY0VDRi14aTZuU0IzZTNucnFZRURjbhIWChAKBAgwSAIKBAhISAIKAgg_GgIIABoWEgAaACIAKgAyADoAQgBKAFoAcgB6ACICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZkWTBPM0JCVlJ1enBucTAxbWo3SmZKUnJ2bWZ4aTZrbTJpbGh4S1Z5ZG9kd19UeDY4OUwtNmY5VGR5ZWhzNVJXR21XWDFvTTI0V2d6eFlteHJpUjh6WXQ5RFUyblRvTUVnOG1uZG9EV3FCOVlCQmpTLWdpbXVTN0d3RzI0bjlUUzgyXzRCa0JWaElUMG1rVTZEY0VDRi14aTZuU0IzZTNucnFZRURjbhIWChAKBAgwSAIKBAhISAIKAgg_GgIIABoWEgAaACIAKgAyADoAQgBKAFoAcgB6ACICEAFIAFgAaAA",
+    "source": "Facebook · Telugu People in Bay Area"
+   },
+   {
+    "position": 6,
+    "title": "ONLY ONE WEEK TO GO! 🇺🇸🇮🇳 The countdown is ...",
+    "link": "https://www.instagram.com/reel/DbTD--BM5KH/",
+    "displayed_link": "10+ likes · 2 months ago",
+    "thumbnail": "https://serpapi.com/searches/6ac3dc15a208028f010bbcc3/images/ugboCyCQk1IjiM4J9iJhe5TJ_TOxddIL3lf-oZNSAY0.jpeg",
+    "favicon": "https://serpapi.com/images/i/UklGRs4BAABXRUJQVlA4IMIBAACwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHXnqv4q8gZxcYcQlttR3oGAAfrN6ZPsZeUqUy7yrvQBaXZxUNd6xeyZ_zpu3z7vEbG_rI9uLR3JAAD-bPWFChRsYA73DNfFBGB39AY4cc2rgYfPUbTnZSkmPIT9f5LwLGh1tr6GbI8_Wg5YyMLqPP_I5v8_74-PGNsMjg_WUbMOAh-IjBPzRGbszqR7w-L8gERR1HCDCy9n1undGs3qkDheeBATd9L9I-Aoo9FTSOQx_H8nQUHIFM6kvout0x-QCvYDa5PYNlH6Q0wXP9J5qEyzdAEM65Q3dTRjK18i8klikng6N72k76S7vLx-v9Mv8y6H-iwfMsRMuFs27Yye-WnY5LGgqhsZeH8167oiT3hIlNwprV8Gv8bjmAvv3_4d59fmIOOf_PXX3B5Q_PPQprbEq6U97aH_XlCEDWm5v9GJuV7HyOamOUMgseUuj_-piTqcRYQhGxTGIPcM4c15P3Imbj7QTHY5HyOiSVI1eHnj9YtD1bBIugmEKf-KfDkltWl0LUiTqQwVPaxvhDKQ1Wf35o_kqQp7rNwi0ci1WW30iEwAAAA.webp",
+    "snippet": "ONLY ONE WEEK TO GO! The countdown is ON! Join thousands of Telugu families at the ATA 19th Conference & Youth Convention, ...",
+    "duration": "0:51",
+    "about_this_result": {
+     "source": {
+      "description": "ONLY ONE WEEK TO GO! The countdown is ON! Join thousands of Telugu families at the ATA 19th Conference & Youth Convention, ...",
+      "icon": "https://serpapi.com/images/i/UklGRs4BAABXRUJQVlA4IMIBAACwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHXnqv4q8gZxcYcQlttR3oGAAfrN6ZPsZeUqUy7yrvQBaXZxUNd6xeyZ_zpu3z7vEbG_rI9uLR3JAAD-bPWFChRsYA73DNfFBGB39AY4cc2rgYfPUbTnZSkmPIT9f5LwLGh1tr6GbI8_Wg5YyMLqPP_I5v8_74-PGNsMjg_WUbMOAh-IjBPzRGbszqR7w-L8gERR1HCDCy9n1undGs3qkDheeBATd9L9I-Aoo9FTSOQx_H8nQUHIFM6kvout0x-QCvYDa5PYNlH6Q0wXP9J5qEyzdAEM65Q3dTRjK18i8klikng6N72k76S7vLx-v9Mv8y6H-iwfMsRMuFs27Yye-WnY5LGgqhsZeH8167oiT3hIlNwprV8Gv8bjmAvv3_4d59fmIOOf_PXX3B5Q_PPQprbEq6U97aH_XlCEDWm5v9GJuV7HyOamOUMgseUuj_-piTqcRYQhGxTGIPcM4c15P3Imbj7QTHY5HyOiSVI1eHnj9YtD1bBIugmEKf-KfDkltWl0LUiTqQwVPaxvhDKQ1Wf35o_kqQp7rNwi0ci1WW30iEwAAAA.webp"
+     }
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVjZ3N0JGWGxvY1F6ZmZqYXB4WVdkbnhPVnktOVZ4eUR2UnBoU0RDd1BTQnpKdTBpd1ZXRFQ0bmR6M2VjVHR6R1RlaFFJR0FZM3hKTE9pNnlnTzRYNElDb2ljcGk0VE9VRHA0aWJRWm1ueUZ2dDJvYjNrSkd0Y3ZheDVOODJuZWJwQ2cSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVjZ3N0JGWGxvY1F6ZmZqYXB4WVdkbnhPVnktOVZ4eUR2UnBoU0RDd1BTQnpKdTBpd1ZXRFQ0bmR6M2VjVHR6R1RlaFFJR0FZM3hKTE9pNnlnTzRYNElDb2ljcGk0VE9VRHA0aWJRWm1ueUZ2dDJvYjNrSkd0Y3ZheDVOODJuZWJwQ2cSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "source": "Instagram · adamerindo_promo_vault"
+   },
+   {
+    "position": 7,
+    "title": "Looking for authentic brahmin Telugu vantallu in Fremont ...",
+    "link": "https://www.facebook.com/groups/574814262643901/posts/7705041512954438/",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESggEB6zswFYNuptuC40CUfPvqYa3Z0mcLKEFnLw9zt1i7T8JlYS4YsIRf2kL_cOsDYbD2GYkDUhwBf4FCGP20uMdyno_Y4m0pFFbVpqUi6PYbNF_OnYUijQewU2R2M-yR8Q2qzVoh5MuwSg6CThAsyQJm2gPvfcy1T3BNtEg-cQGMAJNu&ved=2ahUKEwjq5sqnsaOXAxWv6ckDHcjxH18QFnoECEEQAQ&uoh=1",
+    "displayed_link": "5 comments · 1 year ago",
+    "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+    "snippet": "Looking for authentic brahmin Telugu vantallu in Fremont for 3-4 days for 25 members . · Am staying in Fremont only · Dates needed, i am both ...",
+    "snippet_highlighted_words": [
+     "Telugu",
+     "Fremont",
+     "Fremont"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Looking for authentic brahmin Telugu vantallu in Fremont for 3-4 days for 25 members . · Am staying in Fremont only · Dates needed, i am both ...",
+      "source_info_link": "https://www.facebook.com/groups/574814262643901/posts/7705041512954438/",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZZTnVwdHVDNDBDVWZQdnFZYTNaMG1jTEtFRm5Mdzl6dDFpN1Q4SmxZUzRZc0lSZjJrTF9jT3NEWWJEMkdZa0RVaHdCZjRGQ0dQMjB1TWR5bm9fWTRtMHBGRmJWcHFVaTZQWWJORl9PbllVaWpRZXdVMlIyTS15UjhRMnF6Vm9oNU11d1NnNkNUaEFzeVFKbTJnUHZmY3kxVDNCTnRFZy1jUUdNQUpOdRIEGgIIABqyCBIAGgAiACoAMgYIAxICdXM6AEIECAEQAEoAWgByAHoAgkCOCAgAEAAYACAAKg0KBnRlbHVndRX7YXtAKjMKC2Fzc29jaWF0aW9uFQAAAAAaDGFzc29jaWF0aW9ucxoJY29tbXVuaXR5GgZwZW9wbGUqCQoCaW4VAAAAACqHAQoHZnJlbW9udBWcoI5AGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRWTIPg9GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUlzDg-GgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyvgEvZ290bz91cmw9Q0FFU2dnRUI2enN3RllOdXB0dUM0MENVZlB2cVlhM1owbWNMS0VGbkx3OXp0MWk3VDhKbFlTNFlzSVJmMmtMX2NPc0RZYkQyR1lrRFVod0JmNEZDR1AyMHVNZHlub19ZNG0wcEZGYlZwcVVpNlBZYk5GX09uWVVpalFld1UyUjJNLXlSOFEycXpWb2g1TXV3U2c2Q1RoQXN5UUptMmdQdmZjeTFUM0JOdEVnLWNRR01BSk51OlBMb29raW5nIGZvciBhdXRoZW50aWMgYnJhaG1pbiA8Yj5UZWx1Z3U8L2I-IHZhbnRhbGx1IGluIDxiPkZyZW1vbnQ8L2I-IGZvciAzIC4uLkK5AUxvb2tpbmcgZm9yIGF1dGhlbnRpYyBicmFobWluIDxiPlRlbHVndTwvYj4gdmFudGFsbHUgaW4gPGI-RnJlbW9udDwvYj4gZm9yIDMtNCBkYXlzIGZvciAyNSBtZW1iZXJzIC4gJm1pZGRvdDsgQW0gc3RheWluZyBpbiA8Yj5GcmVtb250PC9iPiBvbmx5ICZtaWRkb3Q7IERhdGVzIG5lZWRlZCwgaSBhbSBib3RoJm5ic3A7Li4uSgR0aGlzSgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZZTnVwdHVDNDBDVWZQdnFZYTNaMG1jTEtFRm5Mdzl6dDFpN1Q4SmxZUzRZc0lSZjJrTF9jT3NEWWJEMkdZa0RVaHdCZjRGQ0dQMjB1TWR5bm9fWTRtMHBGRmJWcHFVaTZQWWJORl9PbllVaWpRZXdVMlIyTS15UjhRMnF6Vm9oNU11d1NnNkNUaEFzeVFKbTJnUHZmY3kxVDNCTnRFZy1jUUdNQUpOdRIEGgIIABqyCBIAGgAiACoAMgYIAxICdXM6AEIECAEQAEoAWgByAHoAgkCOCAgAEAAYACAAKg0KBnRlbHVndRX7YXtAKjMKC2Fzc29jaWF0aW9uFQAAAAAaDGFzc29jaWF0aW9ucxoJY29tbXVuaXR5GgZwZW9wbGUqCQoCaW4VAAAAACqHAQoHZnJlbW9udBWcoI5AGhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRWTIPg9GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUlzDg-GgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAyvgEvZ290bz91cmw9Q0FFU2dnRUI2enN3RllOdXB0dUM0MENVZlB2cVlhM1owbWNMS0VGbkx3OXp0MWk3VDhKbFlTNFlzSVJmMmtMX2NPc0RZYkQyR1lrRFVod0JmNEZDR1AyMHVNZHlub19ZNG0wcEZGYlZwcVVpNlBZYk5GX09uWVVpalFld1UyUjJNLXlSOFEycXpWb2g1TXV3U2c2Q1RoQXN5UUptMmdQdmZjeTFUM0JOdEVnLWNRR01BSk51OlBMb29raW5nIGZvciBhdXRoZW50aWMgYnJhaG1pbiA8Yj5UZWx1Z3U8L2I-IHZhbnRhbGx1IGluIDxiPkZyZW1vbnQ8L2I-IGZvciAzIC4uLkK5AUxvb2tpbmcgZm9yIGF1dGhlbnRpYyBicmFobWluIDxiPlRlbHVndTwvYj4gdmFudGFsbHUgaW4gPGI-RnJlbW9udDwvYj4gZm9yIDMtNCBkYXlzIGZvciAyNSBtZW1iZXJzIC4gJm1pZGRvdDsgQW0gc3RheWluZyBpbiA8Yj5GcmVtb250PC9iPiBvbmx5ICZtaWRkb3Q7IERhdGVzIG5lZWRlZCwgaSBhbSBib3RoJm5ic3A7Li4uSgR0aGlzSgJpbiICEAFIAFgAaAA",
+    "source": "Facebook · Bay Area Home Cooked Indian Food",
+    "read_more_link": "https://www.facebook.com/groups/574814262643901/posts/7705041512954438/#:~:text=Looking%20for%20authentic%20brahmin%20Telugu,days%20for%2025%20members%20.&text=Am%20staying%20in%20Fremont%20only&text=Dates%20needed%2C%20i%20am%20both,and%20Tamil%20%3A)%20NSS%20Kitchen"
+   },
+   {
+    "position": 8,
+    "title": "TATA SwaraBadi",
+    "link": "https://www.facebook.com/events/fremont-california/tata-swarabadi/441931979497680/?locale=vi_VN",
+    "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESmgEB6zswFZ2XJSX2YdF7maBArBFrThmflv5jFP8bPsEP3HRFzyTAgCeH6wAQ8t-pHQ__0po3OzwTVPqkpLLj8imcr3XcVhYH1nueMB_m-6VpLSrCtQD3iSfV6ijI2u4lGXX9uZdeJftYcLQy26dWFr__8GQdp0tdkrYv1njJH3CBOC_qIBUGHyHppy7lPPxG0ckKsqU7lqtei49M&ved=2ahUKEwjq5sqnsaOXAxWv6ckDHcjxH18QFnoECDwQAQ&uoh=1",
+    "displayed_link": "https://www.facebook.com › events › fremont-california",
+    "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+    "snippet": "TATA SwaraBadi · Công khai · Người tổ chức: Telangana American Telugu Association - BAY AREA, CA · Fremont, California.",
+    "snippet_highlighted_words": [
+     "Telangana American Telugu Association - BAY AREA, CA"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "TATA SwaraBadi · Công khai · Người tổ chức: Telangana American Telugu Association - BAY AREA, CA · Fremont, California.",
+      "source_info_link": "https://www.facebook.com/events/fremont-california/tata-swarabadi/441931979497680/?locale=vi_VN",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "US"
+     ]
+    },
+    "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=Ct4BL2dvdG8_dXJsPUNBRVNtZ0VCNnpzd0ZaMlhKU1gyWWRGN21hQkFyQkZyVGhtZmx2NWpGUDhiUHNFUDNIUkZ6eVRBZ0NlSDZ3QVE4dC1wSFFfXzBwbzNPendUVlBxa3BMTGo4aW1jcjNYY1ZoWUgxbnVlTUJfbS02VnBMU3JDdFFEM2lTZlY2aWpJMnU0bEdYWDl1WmRlSmZ0WWNMUXkyNmRXRnJfXzhHUWRwMHRka3JZdjFuakpIM0NCT0NfcUlCVUdIeUhwcHk3bFBQeEcwY2tLc3FVN2xxdGVpNDlNEgQaAggAGooIEgAaACIAKgA6AEIECAIQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkDTBwgAEAAYACAAKg0KBnRlbHVndRW6blM_KjMKC2Fzc29jaWF0aW9uFbpuUz8aDGFzc29jaWF0aW9ucxoJY29tbXVuaXR5GgZwZW9wbGUqCQoCaW4VAAAAACqHAQoHZnJlbW9udBXE1Ic_GhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRWsOsY_GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAy3gEvZ290bz91cmw9Q0FFU21nRUI2enN3RloyWEpTWDJZZEY3bWFCQXJCRnJUaG1mbHY1akZQOGJQc0VQM0hSRnp5VEFnQ2VINndBUTh0LXBIUV9fMHBvM096d1RWUHFrcExMajhpbWNyM1hjVmhZSDFudWVNQl9tLTZWcExTckN0UUQzaVNmVjZpakkydTRsR1hYOXVaZGVKZnRZY0xReTI2ZFdGcl9fOEdRZHAwdGRrcll2MW5qSkgzQ0JPQ19xSUJVR0h5SHBweTdsUFB4RzBja0tzcVU3bHF0ZWk0OU06GVRBVEEgU3dhcmFCYWRpIC0gRmFjZWJvb2tClQFUQVRBIFN3YXJhQmFkaSAmbWlkZG90OyBDw7RuZyBraGFpIMK3IE5nxrDhu51pIHThu5UgY2jhu6ljOiA8Yj5UZWxhbmdhbmEgQW1lcmljYW4gVGVsdWd1IEFzc29jaWF0aW9uIC0gQkFZIEFSRUEsIENBPC9iPiAmbWlkZG90OyBGcmVtb250LCBDYWxpZm9ybmlhLkoEdGhpc0oCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=Ct4BL2dvdG8_dXJsPUNBRVNtZ0VCNnpzd0ZaMlhKU1gyWWRGN21hQkFyQkZyVGhtZmx2NWpGUDhiUHNFUDNIUkZ6eVRBZ0NlSDZ3QVE4dC1wSFFfXzBwbzNPendUVlBxa3BMTGo4aW1jcjNYY1ZoWUgxbnVlTUJfbS02VnBMU3JDdFFEM2lTZlY2aWpJMnU0bEdYWDl1WmRlSmZ0WWNMUXkyNmRXRnJfXzhHUWRwMHRka3JZdjFuakpIM0NCT0NfcUlCVUdIeUhwcHk3bFBQeEcwY2tLc3FVN2xxdGVpNDlNEgQaAggAGooIEgAaACIAKgA6AEIECAIQAEobCAESE0ZyZW1vbnQsIENhbGlmb3JuaWEaAggBWgByAHoAgkDTBwgAEAAYACAAKg0KBnRlbHVndRW6blM_KjMKC2Fzc29jaWF0aW9uFbpuUz8aDGFzc29jaWF0aW9ucxoJY29tbXVuaXR5GgZwZW9wbGUqCQoCaW4VAAAAACqHAQoHZnJlbW9udBXE1Ic_GhFmcmVtb250Y2FsaWZvcm5pYRoUZ2VvOzgwOGY5MDAwMDAwMDAwMDAaFGdlbzs4MDhmYjAwMDAwMDAwMDAwGhRnZW87ODA4ZmQwMDAwMDAwMDAwMBoUZ2VvOzgwOGZmMDAwMDAwMDAwMDAaDGl2O3A7ZnJlbW9udCqMAQoKY2FsaWZvcm5pYRWsOsY_GgJjYRoDY2FsGgVjYWxpZhoRZnJlbW9udGNhbGlmb3JuaWEaFGdlbzs4MDhmOTAwMDAwMDAwMDAwGhRnZW87ODA4ZmIwMDAwMDAwMDAwMBoUZ2VvOzgwOGZkMDAwMDAwMDAwMDAaFGdlbzs4MDhmZjAwMDAwMDAwMDAwKgsKBHRoaXMVAAAAACq1AQoEd2VlaxUAAAAAGgNjYWwaBWNhbGlmGgZ3ZWVrJ3MaB3dlZWtlbmQaBndlZWtseRoFd2Vla3MaEGdtO2RhdGU7MjAyNjEwMDQaEGdtO2RhdGU7MjAyNjEwMDUaEGdtO2RhdGU7MjAyNjEwMDYaEGdtO2RhdGU7MjAyNjEwMDcaEGdtO2RhdGU7MjAyNjEwMDgaEGdtO2RhdGU7MjAyNjEwMDkaEGdtO2RhdGU7MjAyNjEwMTAy3gEvZ290bz91cmw9Q0FFU21nRUI2enN3RloyWEpTWDJZZEY3bWFCQXJCRnJUaG1mbHY1akZQOGJQc0VQM0hSRnp5VEFnQ2VINndBUTh0LXBIUV9fMHBvM096d1RWUHFrcExMajhpbWNyM1hjVmhZSDFudWVNQl9tLTZWcExTckN0UUQzaVNmVjZpakkydTRsR1hYOXVaZGVKZnRZY0xReTI2ZFdGcl9fOEdRZHAwdGRrcll2MW5qSkgzQ0JPQ19xSUJVR0h5SHBweTdsUFB4RzBja0tzcVU3bHF0ZWk0OU06GVRBVEEgU3dhcmFCYWRpIC0gRmFjZWJvb2tClQFUQVRBIFN3YXJhQmFkaSAmbWlkZG90OyBDw7RuZyBraGFpIMK3IE5nxrDhu51pIHThu5UgY2jhu6ljOiA8Yj5UZWxhbmdhbmEgQW1lcmljYW4gVGVsdWd1IEFzc29jaWF0aW9uIC0gQkFZIEFSRUEsIENBPC9iPiAmbWlkZG90OyBGcmVtb250LCBDYWxpZm9ybmlhLkoEdGhpc0oCaW4iAhABSABYAGgA",
+    "source": "Facebook",
+    "read_more_link": "https://www.facebook.com/events/fremont-california/tata-swarabadi/441931979497680/?locale=vi_VN#:~:text=TATA%20SwaraBadi&text=C%C3%B4ng%20khai%20%C2%B7%20Ng%C6%B0%E1%BB%9Di%20t%E1%BB%95,Association%20%2D%20BAY%20AREA%2C%20CA&text=Fremont%2C%20California"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.com/search?q=Telugu+association+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnvkTsIw2faDAELi1EzT3Rqssy1QDg:1791220757221&ei=FdzDaqqIDa_Tp84PyOP_-AU&start=10&sa=N&sstk=AS6-VmJ3Qs4q4fJlOKyE7r84WrlgFXzwRUU_MXboBM8RLpykNpYoFC9L2hTs533cGAuwnKOsjISiyDybzdFfD4Q5HkeCPlfL8CbiQg&ved=2ahUKEwjq5sqnsaOXAxWv6ckDHcjxH18Q8NMDegQINBAG",
+   "other_pages": {
+    "2": "https://www.google.com/search?q=Telugu+association+in+Fremont,+California+this+week&sca_esv=b88b68c618104966&gl=us&hl=en&sxsrf=APpeQnvkTsIw2faDAELi1EzT3Rqssy1QDg:1791220757221&ei=FdzDaqqIDa_Tp84PyOP_-AU&start=10&sa=N&sstk=AS6-VmJ3Qs4q4fJlOKyE7r84WrlgFXzwRUU_MXboBM8RLpykNpYoFC9L2hTs533cGAuwnKOsjISiyDybzdFfD4Q5HkeCPlfL8CbiQg&ved=2ahUKEwjq5sqnsaOXAxWv6ckDHcjxH18Q8tMDegQINBAE"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Telugu+association+in+Fremont%2C+California+this+week&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Telugu+association+in+Fremont%2C+California+this+week&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Fremont%2C+California%2C+United+States&q=Telugu+association+in+Fremont%2C+California+this+week&start=10"
+   }
+  }
+ }
+}

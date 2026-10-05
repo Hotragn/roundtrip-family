@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219891692",
+  "object": "chat.completion",
+  "created": 1791219891,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "It will be very hot today, so take water and walk in the shade.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 58,
+   "completion_tokens": 17,
+   "total_tokens": 75,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.9909090995788574
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:04:51.952Z"
+}

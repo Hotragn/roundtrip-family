@@ -1,0 +1,39 @@
+{
+ "body": {
+  "id": "id-1791219787642",
+  "object": "chat.completion",
+  "created": 1791219787,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "This group meets every Wednesday, and English is not required for this.",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": 106,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 51,
+   "completion_tokens": 15,
+   "total_tokens": 66,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.8727272748947144
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:03:07.718Z"
+}

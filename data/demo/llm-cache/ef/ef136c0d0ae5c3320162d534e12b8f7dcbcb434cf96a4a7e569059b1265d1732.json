@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791221211237",
+  "object": "chat.completion",
+  "created": 1791221211,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\n  \"category\": \"other\",\n  \"cost\": {\n    \"amount\": 0,\n    \"currency\": \"USD\",\n    \"free\": true\n  },\n  \"end\": \"2026-10-11T16:00:00-07:00\",\n  \"indoor\": true,\n  \"languageMatch\": 0,\n  \"start\": \"2026-10-11T11:00:00-07:00\",\n  \"suitsOlderAdults\": true\n}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 502,
+   "completion_tokens": 132,
+   "total_tokens": 634,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 8.163636207580566
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:26:51.615Z",
+ "latencyMs": 2295
+}

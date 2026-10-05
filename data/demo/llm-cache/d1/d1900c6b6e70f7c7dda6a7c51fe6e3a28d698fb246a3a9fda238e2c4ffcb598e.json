@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219795053",
+  "object": "chat.completion",
+  "created": 1791219795,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "మీకు దారి తెలియక కంగారుగా అనిపిస్తే, కౌంటర్ దగ్గర ఉన్నవారికి ఈ help card చూపించండి.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 94,
+   "completion_tokens": 29,
+   "total_tokens": 123,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 1.6454545259475708
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:03:15.115Z"
+}

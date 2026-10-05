@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219960426",
+  "object": "chat.completion",
+  "created": 1791219960,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "Sit in front so that the screen is clearly visible.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 47,
+   "completion_tokens": 12,
+   "total_tokens": 59,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.7545454502105713
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:06:00.498Z"
+}

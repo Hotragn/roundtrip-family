@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219758853",
+  "object": "chat.completion",
+  "created": 1791219758,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "Bathroom ఎక్కడ ఉంది?",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 84,
+   "completion_tokens": 6,
+   "total_tokens": 90,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.9272726774215698
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:02:38.947Z"
+}

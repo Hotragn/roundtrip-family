@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 2, \"correctness\": 4, \"note\": \"English words Wednesday, English, group unassimilated; unnatural code-mixing.\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:03:09.415Z"
+}

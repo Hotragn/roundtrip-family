@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219752136",
+  "object": "chat.completion",
+  "created": 1791219752,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "After passing the big Safeway, press that red strip.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 53,
+   "completion_tokens": 13,
+   "total_tokens": 66,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.8363636136054993
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:02:32.206Z"
+}

@@ -1,0 +1,821 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps",
+ "request": "https://serpapi.com/search.json?engine=google_maps&type=search&q=Seniorentreff&ll=%4048.1%2C11.646%2C13z&gl=de&hl=de",
+ "note": "places: Seniorentreff",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:05:50.095Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "Seniorentreff",
+   "ll": "@48.1,11.646,13z",
+   "google_domain": "google.com",
+   "hl": "de",
+   "gl": "de"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "Seniorentreff"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Seniorentreff Neuhausen e.V.",
+    "place_id": "ChIJ0ffxThF2nkcRzT0j5g_odM0",
+    "data_id": "0x479e76114ef1f7d1:0xcd74e80fe6233dcd",
+    "data_cid": "14804713030056885709",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e76114ef1f7d1%3A0xcd74e80fe6233dcd&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e76114ef1f7d1%3A0xcd74e80fe6233dcd&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1529886,
+     "longitude": 11.5358512
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ0ffxThF2nkcRzT0j5g_odM0",
+    "provider_id": "/g/1v6qgm5m",
+    "rating": 4,
+    "reviews": 11,
+    "unclaimed_listing": true,
+    "type": "Verein",
+    "types": [
+     "Verein"
+    ],
+    "address": "Leonrodstraße 14B, 80634 München-Neuhausen-Nymphenburg",
+    "country": "Deutschland",
+    "phone": "089 1392841910",
+    "website": "http://www.seniorentreff-neuhausen.de/"
+   },
+   {
+    "position": 2,
+    "title": "Seniorentreff",
+    "place_id": "ChIJO5YHSvDfnUcRPzQLQRT9FeQ",
+    "data_id": "0x479ddff04a07963b:0xe415fd14410b343f",
+    "data_cid": "16435320678590919743",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddff04a07963b%3A0xe415fd14410b343f&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddff04a07963b%3A0xe415fd14410b343f&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.120228999999995,
+     "longitude": 11.630928299999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJO5YHSvDfnUcRPzQLQRT9FeQ",
+    "provider_id": "/g/1tfcxswm",
+    "unclaimed_listing": true,
+    "type": "Verein",
+    "types": [
+     "Verein"
+    ],
+    "address": "St.-Michael-Straße 118, 81671 München-Berg am Laim",
+    "country": "Deutschland",
+    "phone": "089 491368",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=K_ef5ADEDB3frbiau8Snsw&cb_client=search.gws-prod.grass&w=80&h=92&yaw=252.75932&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/A-YyqHicHc1RDoIgGADg2_AWoM6lbazV7KnHDuAQEf4NgfGj1HW6VbepdYHv-7xtzhFPjGFOWucddInw1A4PUVITgnFaRkCqwsr2imW7rZOX4M5R-gCzuI96aS_Dbbg2S5pAbt3DYyFqGpUD7bNALZOy1JSfmMJMTZKIpIiOEyv6mrxkEXVb02PbNzWJkJUVnPyfJeyi4vwL-QA6bA"
+   },
+   {
+    "position": 3,
+    "title": "AWO Seniorentreff Arcisstraße",
+    "place_id": "ChIJ5XeWTOh1nkcRbHNWh-Dd8As",
+    "data_id": "0x479e75e84c9677e5:0xbf0dde08756736c",
+    "data_cid": "860431485240767340",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75e84c9677e5%3A0xbf0dde08756736c&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75e84c9677e5%3A0xbf0dde08756736c&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.153056899999996,
+     "longitude": 11.5713788
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ5XeWTOh1nkcRbHNWh-Dd8As",
+    "provider_id": "/g/11bzyqp7rg",
+    "rating": 4.5,
+    "reviews": 2,
+    "unclaimed_listing": true,
+    "type": "Vereinigung / Organisation",
+    "types": [
+     "Vereinigung / Organisation"
+    ],
+    "address": "Arcisstraße 45, 80799 München-Maxvorstadt",
+    "country": "Deutschland",
+    "phone": "089 32805821",
+    "website": "https://www.awo-muenchen.de/senioren/begegnung-und-beratung/seniorentreff-arcisstrasse",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM1hvKQqULAEnGLYyYnJd8AYjBxjN-UNlV_M08cSfkqjK9Emu1xZh3hXYUzhyFzvTwxOwmh1rUgAY5R0NKnxLc3nqhFIlwIWTeqDfXCcSKGh630fw7pPNys8CemJZAZti96OvqLdA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/CNyo4XicHcTbboIwGADgJ0JKyBCX7KLiIQrikc1yY0wt_GNtobRS8A19BN_GZN_F93qCMY3-dF0O_qis65Kzu2YtraVh0oxoLdyyvWrtUO3iqGu42HjQxXuVJXgulwkZiFzfQkyqaV-lTpby78sGhfRY_KkqnszF3etz8OFMsgcMi0d3sv3WCvDarMTk44DSWPYJ9aWCxYrb1c-JqVlxjugxXkLgo8KOm1066DBiYp3j3PxOgm2nkhv-sh5CyIH_qSPfonxG5A"
+   },
+   {
+    "position": 4,
+    "title": "AWO Seniorentreff Heideckstraße",
+    "place_id": "ChIJIxswZmx2nkcRN8aB06VXqPM",
+    "data_id": "0x479e766c66301b23:0xf3a857a5d381c637",
+    "data_cid": "17557379517033596471",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e766c66301b23%3A0xf3a857a5d381c637&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e766c66301b23%3A0xf3a857a5d381c637&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.161510299999996,
+     "longitude": 11.5402158
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJIxswZmx2nkcRN8aB06VXqPM",
+    "provider_id": "/g/11b6d82_6t",
+    "unclaimed_listing": true,
+    "type": "Verein",
+    "types": [
+     "Verein"
+    ],
+    "address": "Heideckstraße 16, 80637 München-Neuhausen-Nymphenburg",
+    "country": "Deutschland",
+    "phone": "089 1578272",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMtNL28dri26-IR5UZrTBCDQkhZeGpMNX9ASY3Ve3WOuaNUvADFJcze7iCd8Fp_nAhvEGgA5wqho-LUa-_LdwNhUVfpma74ZG4VDps913325-gBLpquh-WluGGeaK2GtoLM6RBw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/h7sqI3icHcTbDoIgAADQLyJNstvWA2qxCm1dtPKlMSRoqZCgbv1g39DftHUezvcjrdVm7jilhAOhlCh5a3jDVG15bQdMVY5oqDGAGQeFnS6r2CbEmxbNwxuD9cFP8-YUhNH-KXOOdZxcZuh4hRmH511Lk7RD0WrD3nzyCIvpSt9qJLslFsjvX1IBklJwI0WfyDS764pORjkeZZE2syGEng9EQPSrleBcthhzuvWwVSQeH4J-0Q9d1wXyPwP1DytSQ6Q"
+   },
+   {
+    "position": 5,
+    "title": "Caritas Promenadentreff Offene Altenarbeit",
+    "place_id": "ChIJrcDfWTvgnUcRBrFPgpt1YaY",
+    "data_id": "0x479de03b59dfc0ad:0xa661759b824fb106",
+    "data_cid": "11988992993803612422",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de03b59dfc0ad%3A0xa661759b824fb106&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de03b59dfc0ad%3A0xa661759b824fb106&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1135569,
+     "longitude": 11.6775735
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJrcDfWTvgnUcRBrFPgpt1YaY",
+    "provider_id": "/g/11bw2_8sdc",
+    "type": "Seniorenzentrum",
+    "types": [
+     "Seniorenzentrum",
+     "Freizeitzentrum"
+    ],
+    "address": "Ottilienstraße 28a, 81827 München",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 09:00",
+    "hours": "Geschlossen · Öffnet Di um 09:00",
+    "operating_hours": {
+     "montag": "09:00–17:00",
+     "dienstag": "09:00–17:00",
+     "mittwoch": "09:00–17:00",
+     "donnerstag": "09:00–17:00",
+     "freitag": "09:00–14:00",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 43707661",
+    "website": "https://www.caritas-promenadentreff-trudering.de/de",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMIrga2u9xm7y3UgOHKADd3eLE8AuG-sEjt4cllko4tUw1K7r_Ojxrp8EZ5tszzkF0Nzxk-T_t3vqXU0tOOrQLk4GUKou0GQSh-SSO_P6y-25bFQ9llxZSEKAokxmBlJcEqkvwz=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/T-JrDXicHcTdDoIgGADQJyIp7XfrwoqsrMiZW-vGFTlcoBh8KvmCPUNv09a5ON9PDlCZmePI3O1xpbjMapNppkrISugxVThc34xBzDj-sqlkcdhqfhvUU1uM327C6Sb0Vw8325OJXwfIkCd4TEqhPEjafjjWKX1aXU3IdQim68QaHzsr0DkFt3ldEgyU6mgvvCAJVY2DKM5RHNP0NHqjwfC-jqZS2mtMQl8JWyzkjpGXaNpu3vYxxij_z1D5A9v9RfU"
+   },
+   {
+    "position": 6,
+    "title": "Münchner Seniorenbörse",
+    "place_id": "ChIJA-yG52HfnUcRVCIJar3Bsng",
+    "data_id": "0x479ddf61e786ec03:0x78b2c1bd6a092254",
+    "data_cid": "8697226849677812308",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf61e786ec03%3A0x78b2c1bd6a092254&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf61e786ec03%3A0x78b2c1bd6a092254&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.133905299999995,
+     "longitude": 11.5786052
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJA-yG52HfnUcRVCIJar3Bsng",
+    "provider_id": "/g/1tgg8yys",
+    "rating": 4.9,
+    "reviews": 8,
+    "unclaimed_listing": true,
+    "type": "Seniorenzentrum",
+    "types": [
+     "Seniorenzentrum"
+    ],
+    "address": "Rumfordstraße 25, 80469 München-Altstadt-Lehel",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 11:00",
+    "hours": "Geschlossen · Öffnet Di um 11:00",
+    "operating_hours": {
+     "montag": "11:00–16:00",
+     "dienstag": "11:00–16:00",
+     "mittwoch": "11:00–16:00",
+     "donnerstag": "11:00–16:00",
+     "freitag": "11:00–14:00",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 29162477",
+    "website": "http://www.muenchner-seniorenboerse.de/",
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XwBV28jmDGibBhldUx2iMg&cb_client=search.gws-prod.grass&w=80&h=92&yaw=3.8106558&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_HhNhXicHc1RCsIgGADg2_iWusXCAglG0FOPRW_h3J_-4aao6bpOt-o2RRf4vs_b5hzSjrGUI0AuCDXgAi6tgqLGe-NABUxU-4mVhmX7nIZZodsHNXsc5bX2l1Y8psMRh9668by0eDJEDzftEOYsE6ioLTX1J0Y_UhNVSqRKwYmV25a8VJVrKhq-6TpBAmZtJSf_5-6LbDj_AgAjOng"
+   },
+   {
+    "position": 7,
+    "title": "Seniorentreff Schollheim „H1L5“",
+    "place_id": "ChIJp3jeg0B1nkcRudwSp9H1hcs",
+    "data_id": "0x479e754083de78a7:0xcb85f5d1a712dcb9",
+    "data_cid": "14665398042401889465",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e754083de78a7%3A0xcb85f5d1a712dcb9&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e754083de78a7%3A0xcb85f5d1a712dcb9&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1512515,
+     "longitude": 11.5653999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJp3jeg0B1nkcRudwSp9H1hcs",
+    "provider_id": "/g/11khtn20jz",
+    "unclaimed_listing": true,
+    "type": "Seniorenzentrum",
+    "types": [
+     "Seniorenzentrum"
+    ],
+    "address": "H1L5, Steinickeweg 7/5.Stock, 80798 München",
+    "country": "Deutschland",
+    "open_state": "Geöffnet · Schließt um 22:00",
+    "hours": "Geöffnet · Schließt um 22:00",
+    "operating_hours": {
+     "montag": "17:00–22:00",
+     "dienstag": "17:00–22:00",
+     "mittwoch": "17:00–22:00",
+     "donnerstag": "17:00–22:00",
+     "freitag": "17:00–22:00",
+     "samstag": "17:00–22:00",
+     "sonntag": "17:00–22:00"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wKssW7VerezJmtGO3n-Y3A&cb_client=search.gws-prod.grass&w=80&h=92&yaw=358.92084&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/vStf9HicHc3BDcIgFADQbbgVaKuxNSHGk4kevGk8GUq_QEKB8LGo47iV22hc4L3P2-Qccc0Y5gSQZwsl2gc4rKKkOgTtQEaLVIWJzTXL5j4NXlq3idIHO4pyQDyvTpDgtZ_y7tj66tJuiRquylnwWSDIpAzV5SemMFKdJCIpouPEiL4hT1lEu-xo3_BuQaLNyghO_s8tzKLm_AsMBTqF"
+   },
+   {
+    "position": 8,
+    "title": "Haus der Senioren",
+    "place_id": "ChIJu_vZ0ODgnUcR_ROOQPa9CR8",
+    "data_id": "0x479de0e0d0d9fbbb:0x1f09bdf6408e13fd",
+    "data_cid": "2236527555308819453",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de0e0d0d9fbbb%3A0x1f09bdf6408e13fd&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de0e0d0d9fbbb%3A0x1f09bdf6408e13fd&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.0665026,
+     "longitude": 11.672076899999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJu_vZ0ODgnUcR_ROOQPa9CR8",
+    "provider_id": "/g/1td1nw6g",
+    "rating": 4.6,
+    "reviews": 7,
+    "type": "Sozialeinrichtung",
+    "types": [
+     "Sozialeinrichtung"
+    ],
+    "address": "Mozartstraße 68, 85521 Ottobrunn",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 08:30",
+    "hours": "Geschlossen · Öffnet Di um 08:30",
+    "operating_hours": {
+     "montag": "08:30–12:00",
+     "dienstag": "08:30–12:00",
+     "mittwoch": "08:30–12:00",
+     "donnerstag": "08:30–12:00, 14:00–16:00",
+     "freitag": "08:30–12:00",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 60857289",
+    "website": "https://www.hds-ottobrunn.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMY0cl1IO7zeBIt9OEGOiYyfc763vKDx0Rtcm93PcYjO47m7WZ_HsTbYncekeTRySNcZroNtazh9BCHwqz7XGLQpPwFomC1PiCDPgnr_d1Exkz67C533s6tDwg8asv__ep5OEVW=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_O-v-3icHcTbboIwGADgJwJKOuhYsotZ8BCdxUNUvCH4rytM2jJaAXnBPcPexsTv4vv_K61tzJvn1SV2hdai5jfDW9DKcmVd0NITbWGMA8b7oF1Ty88MQe0vGBn5ZGEjlsxYld2_gYS4W8YD2lqQEU4h-2EvRJLjOZ-b_SVTwK98v73v1nBu9doWYxlN6Lz_Hclptto0aT_VkvppReNUqDb_8pPhOoaEBhib0Ma9eC1Ml-e8CVhyOL73PkLIKZ-Dox6z80V5"
+   },
+   {
+    "position": 9,
+    "title": "Nachbarschaftstreff: Alte Heimat Treff",
+    "place_id": "ChIJ0VYqYcjZnUcRl00Vuhe5Hk8",
+    "data_id": "0x479dd9c8612a56d1:0x4f1eb917ba154d97",
+    "data_cid": "5701197689854971287",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd9c8612a56d1%3A0x4f1eb917ba154d97&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd9c8612a56d1%3A0x4f1eb917ba154d97&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1342941,
+     "longitude": 11.5139129
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ0VYqYcjZnUcRl00Vuhe5Hk8",
+    "provider_id": "/g/11zh1wzml5",
+    "rating": 5,
+    "reviews": 2,
+    "type": "Sozialeinrichtung",
+    "types": [
+     "Sozialeinrichtung"
+    ],
+    "address": "Kiem-Pauli-Weg 26-30, 80686 München",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:00",
+    "hours": "Geschlossen · Öffnet Di um 10:00",
+    "operating_hours": {
+     "montag": "13:00–16:00",
+     "dienstag": "10:00–14:00",
+     "mittwoch": "13:00–16:00",
+     "donnerstag": "13:00–15:00",
+     "freitag": "Geschlossen",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 8776628211",
+    "website": "https://www.muenchner-wohnen.de/mieterservice-soziales/gemeinschaft-soziales/nachbarschaftstreffs",
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=09fRbN51aqaYthst8s3-BA&cb_client=search.gws-prod.grass&w=80&h=92&yaw=354.73532&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/CxeIu3icHc3BDcIgFADQbbgVqNjYmhCjA3jw5sn8UlpIaEH-t-g6buU2Ghd47_N2RAn3QiBla2n1tiT_tAGrBHyKcQoWkkdu4izWWpB7zP0CPhwSLNEPWnbjpT83NdzhSg6pRVWdjsz0NxO8XUijhWwcn8pPzHHgUwZEVnQrmdPdhr2gaNVs-U41asOSJ-O0ZP9njKuupfwC1TU59A"
+   },
+   {
+    "position": 10,
+    "title": "Frauentreffpunkt Neuperlach",
+    "place_id": "ChIJnWVu72jgnUcRaUmnlWd50Og",
+    "data_id": "0x479de068ef6e659d:0xe8d0796795a74969",
+    "data_cid": "16776042097754458473",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de068ef6e659d%3A0xe8d0796795a74969&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de068ef6e659d%3A0xe8d0796795a74969&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.0977354,
+     "longitude": 11.6596883
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJnWVu72jgnUcRaUmnlWd50Og",
+    "provider_id": "/g/1tf5_8jt",
+    "rating": 4.5,
+    "reviews": 4,
+    "unclaimed_listing": true,
+    "type": "Verein",
+    "types": [
+     "Verein"
+    ],
+    "address": "Oskar-Maria-Graf-Ring 22, 81737 München-Ramersdorf-Perlach",
+    "country": "Deutschland",
+    "phone": "089 6706463",
+    "website": "http://www.frauentreffpunkt-neuperlach.de/",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmO36kVHF3jWN9aA5PXn4_LPFTqL5BKPsGVqkQjY4Fb_5_D7Obo3rMP7ia0U0zTnudux63HZYdSrZ-Yt3hJCeEgT0iDoUDt_v9t2IDgO9T34qg-W9y-nNxfPxbG-PnRYwn-YAi9cZQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/e_a-P3icHcRLEoIgAADQE5EUWkMzLSyzf1LZBzeOkqFlkIJp3bAjdJtmeov3_aRaP1TfMPIUtbiUPE8qlZRMCp0I3WLybvAyUgowZdij5yO_e6h7O0xddD2ucWRb5CTMcElcv1hawwVRk0Nx21yp6cahFTo9L5aoXJFeFsE9fPuiOldNF00Det6VAaAapfNRMuY-zBy5d3T4xLozc7iHfWQWHBzxC4h1cyFNPAFEbGktALUzzILNoG5DCEH6nwHxA5wjRFY"
+   },
+   {
+    "position": 11,
+    "title": "MÜNCHENSTIFT Queer Quartier Herzog*in",
+    "place_id": "ChIJd3J-i1rZnUcRkua8K3Pi6zQ",
+    "data_id": "0x479dd95a8b7e7277:0x34ebe2732bbce692",
+    "data_cid": "3813390493782173330",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479dd95a8b7e7277%3A0x34ebe2732bbce692&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479dd95a8b7e7277%3A0x34ebe2732bbce692&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1255607,
+     "longitude": 11.541744999999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJd3J-i1rZnUcRkua8K3Pi6zQ",
+    "provider_id": "/g/11kr5qhhfq",
+    "rating": 5,
+    "reviews": 2,
+    "type": "Einrichtung für betreutes Wohnen",
+    "types": [
+     "Einrichtung für betreutes Wohnen"
+    ],
+    "address": "Radlkoferstraße 14, 81373 München",
+    "country": "Deutschland",
+    "open_state": "Rund um die Uhr geöffnet",
+    "hours": "Rund um die Uhr geöffnet",
+    "operating_hours": {
+     "montag": "24 Stunden geöffnet",
+     "dienstag": "24 Stunden geöffnet",
+     "mittwoch": "24 Stunden geöffnet",
+     "donnerstag": "24 Stunden geöffnet",
+     "freitag": "24 Stunden geöffnet",
+     "samstag": "24 Stunden geöffnet",
+     "sonntag": "24 Stunden geöffnet"
+    },
+    "website": "https://muenchenstift.de/de/haeuser/wohnheime/herzog-in.html",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechte Sitzgelegenheiten",
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechtes WC"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdgfq3UJ0iQbyzGhpNLyHnQjRTQCFyuEukBqRQAfuAktH1wwSD1-9MWWHLSRVXFHnun7YHHhFTBlJrS8x2QmxlkhmqeJr7Bz2P32wQuIXfLtlZObMyrerHvgGxmkNgLZZkuARe3=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/938B2HicHcRLUoMwAADQE1F-C6ozLoJKI5NWA7RQdi0NieZDyUc-F_QM3sYZ3-L9_jBr7-bR9wWLN3QYqCDOEN0NyhJlN90gfaovxnid8QFIuUQ32o_xMQ8-8XVZd-x-QAtU-Kuo8HO2uFfH07HAoHeAWxhOU_kSeg_7uoaoLE5NBpVTyRlCllWpyHW5nSMsZ8GZHEmuk3SNPuJowu6t6ZEV7ft1v2ii4TfdzZIfKGpb7kBB4qcpDILAY_93nvoD_wBGig"
+   },
+   {
+    "position": 12,
+    "title": "Seniorenzentrum",
+    "place_id": "ChIJ79uK3fHgnUcRwTGNNGdbcw4",
+    "data_id": "0x479de0f1dd8adbef:0xe735b67348d31c1",
+    "data_cid": "1041276437674144193",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de0f1dd8adbef%3A0xe735b67348d31c1&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de0f1dd8adbef%3A0xe735b67348d31c1&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.0758649,
+     "longitude": 11.6632065
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ79uK3fHgnUcRwTGNNGdbcw4",
+    "provider_id": "/g/1tp2zcfs",
+    "rating": 4,
+    "reviews": 4,
+    "unclaimed_listing": true,
+    "type": "Seniorenzentrum",
+    "types": [
+     "Seniorenzentrum"
+    ],
+    "address": "Hauptstraße 12, 85579 Neubiberg",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 09:00",
+    "hours": "Geschlossen · Öffnet Di um 09:00",
+    "operating_hours": {
+     "montag": "09:00–12:00, 13:00–17:00",
+     "dienstag": "09:00–12:00, 13:00–17:00",
+     "mittwoch": "09:00–12:00, 13:00–17:00",
+     "donnerstag": "09:00–12:00, 13:00–17:00",
+     "freitag": "09:00–12:00",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 60012856",
+    "website": "https://www.neubiberg.de/Szene",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz",
+       "Rollstuhlgerechtes WC"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=v7QWoEiBRXLPH_bPSZV6AA&cb_client=search.gws-prod.grass&w=80&h=92&yaw=188.80084&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/j4DVpnicHc1RCsIgGADg2_iWuoiyQGJB0EMPq6Cil-Gc6Q9uiprWdbpVtym6wPd93iYlH1eExBSUShlU8fBUNk68wNo5bZXwELF0A8kVSeYxdKMAu_ZidNDzvDhc3BY2x-u-2bVdc7qd53WNZNdKC2pMPCoRpMG6_MTgeqyDiBEVzigyfDlFL1F4xRhmlLIZ8pCk4RT9n7vLvKL0C9bUOfM"
+   },
+   {
+    "position": 13,
+    "title": "Alten- und Servicezentrum Schwabing Ost",
+    "place_id": "ChIJ43m6q7l1nkcRGARdba9kVU4",
+    "data_id": "0x479e75b9abba79e3:0x4e5564af6d5d0418",
+    "data_cid": "5644528412595651608",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479e75b9abba79e3%3A0x4e5564af6d5d0418&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479e75b9abba79e3%3A0x4e5564af6d5d0418&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1612431,
+     "longitude": 11.5884156
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ43m6q7l1nkcRGARdba9kVU4",
+    "provider_id": "/g/1tdl53hf",
+    "rating": 4.8,
+    "reviews": 17,
+    "unclaimed_listing": true,
+    "type": "Seniorenzentrum",
+    "types": [
+     "Seniorenzentrum"
+    ],
+    "address": "Siegesstraße 31, 80802 München-Schwabing-Freimann",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 08:30",
+    "hours": "Geschlossen · Öffnet Di um 08:30",
+    "operating_hours": {
+     "montag": "08:30–16:30",
+     "dienstag": "08:30–16:30",
+     "mittwoch": "08:30–16:30",
+     "donnerstag": "08:30–16:30",
+     "freitag": "08:30–13:30",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 68979230",
+    "website": "http://www.asz-schwabing-ost.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPHVIJYfvOfT-e2yMCksbCSuzRcHRsupsQub0gwgwPfFYa3oGsr3P5AoLGqo-JgRBvnO6X7r6DPXgmAHlR6uELYrGnFMEq5_i9gLE7m9LSWiQPxKEiqkj7i5ADKQorOip2pOSJV=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/8fKa13icHcTdboIwGADQJ6qgBIgmXjDkZ4ihgHFytUgDpRPa0o-C7gX3DL7NEs_Fef110yRhZxh9Z62oELRvNDSKCD41fFoRMRhU3QAQAcPzZ9kPOL58JlU7Z-0ZNZvnyb9D7Zf6tyBxAVpCrmuTLnTBbVjdLBGBsrDtiTQaBUpo8THzzLm6yjngKx28uC8cHaSVinh4Ckb7m21pGrjDNi2_WI4fx4CN9x-X2d7hmAuVMbmRWZlc9svaNE3UvSeI_wMD7EWg"
+   },
+   {
+    "position": 14,
+    "title": "Alten- und Service-Zentrum Thalkirchen",
+    "place_id": "ChIJqWtL5ijfnUcRWRZqfC9uDlU",
+    "data_id": "0x479ddf28e64b6ba9:0x550e6e2f7c6a1659",
+    "data_cid": "6128957293127669337",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf28e64b6ba9%3A0x550e6e2f7c6a1659&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf28e64b6ba9%3A0x550e6e2f7c6a1659&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1011169,
+     "longitude": 11.544361199999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJqWtL5ijfnUcRWRZqfC9uDlU",
+    "provider_id": "/g/1tj1r1js",
+    "rating": 4.5,
+    "reviews": 8,
+    "type": "Seniorenzentrum",
+    "types": [
+     "Seniorenzentrum"
+    ],
+    "address": "Emil-Geis-Straße 35, 81379 München-Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 14:00",
+    "hours": "Geschlossen · Öffnet Di um 14:00",
+    "operating_hours": {
+     "montag": "09:00–12:30, 14:00–16:00",
+     "dienstag": "14:00–16:00",
+     "mittwoch": "09:00–12:30, 14:00–16:00",
+     "donnerstag": "09:00–12:30, 14:00–16:00",
+     "freitag": "09:00–12:30",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 74127790",
+    "website": "https://www.brk-muenchen.de/start/angebote/senioren/alten-und-servicezentren/asz-thalkirchen.html",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=FAIVDFYZEJ7l6Dt0j3KlSg&cb_client=search.gws-prod.grass&w=80&h=92&yaw=96.9349&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Vm5ej3icHc1RCsIgGADg2_iWuhYrAxnBGlSPQVAv4Zyp4abo36zbdK1uU3SB7_u8DUBIa0ISRKVgsioH-1QuzYLA2nvtlAg2YekHMhUEzGPoRmFdHcTobc_bze7UtOfLdr90VQP0Xh7cUSPZXaWzagSelIjSYJ1_YvQ91lGkhDJfUWQ4m6OXyJxVmJULhoIFaThF_-XmJ15Q-gVIujlH"
+   },
+   {
+    "position": 15,
+    "title": "AWO München gemeinnützige Betriebs-GmbH",
+    "place_id": "ChIJzbBlTZ7fnUcRX3ZeT9YOjLk",
+    "data_id": "0x479ddf9e4d65b0cd:0xb98c0ed64f5e765f",
+    "data_cid": "13370077707373540959",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf9e4d65b0cd%3A0xb98c0ed64f5e765f&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf9e4d65b0cd%3A0xb98c0ed64f5e765f&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1151408,
+     "longitude": 11.5942759
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJzbBlTZ7fnUcRX3ZeT9YOjLk",
+    "provider_id": "/g/11g9dp4x_p",
+    "rating": 4.1,
+    "reviews": 7,
+    "unclaimed_listing": true,
+    "type": "Vereinigung / Organisation",
+    "types": [
+     "Vereinigung / Organisation"
+    ],
+    "address": "Werinherstraße 71, 81541 München-Obergiesing-Fasangarten",
+    "country": "Deutschland",
+    "phone": "089 6906162",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UtKjb7BozFJVymDpn1ZG-Q&cb_client=search.gws-prod.grass&w=80&h=92&yaw=340.48102&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/qIUy3XicHc1NCgIhGADQ27gbf6aBpkCCiIJatahFm3AcU8NR0a-x6TjdqtsUXeC9z9sAxLwkJENSCkarSrRP5XIVBdYhaKdEtBnLMJCRETCPofPCulUUPtien-Bw7-br8Nruz9OwiZ5ddtURye4qnVUeeFYiSYN1-Ykp9FgnkTMqvKXI8EWNJlH4rKG4aRmtUbQgDafo_9zCyBmlX_zZOlY"
+   },
+   {
+    "position": 16,
+    "title": "Senioren-Wohngemeinschaft e.V.",
+    "place_id": "ChIJL1fbwjffnUcRZYh5_apglIc",
+    "data_id": "0x479ddf37c2db572f:0x879460aafd798865",
+    "data_cid": "9769539779186755685",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf37c2db572f%3A0x879460aafd798865&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf37c2db572f%3A0x879460aafd798865&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1163351,
+     "longitude": 11.5513707
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJL1fbwjffnUcRZYh5_apglIc",
+    "provider_id": "/g/11b6dp5yn5",
+    "rating": 5,
+    "reviews": 1,
+    "unclaimed_listing": true,
+    "type": "Seniorenheim",
+    "types": [
+     "Seniorenheim"
+    ],
+    "address": "Thalkirchner Str. 138, 81371 München-Sendling",
+    "country": "Deutschland",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ]
+   },
+   {
+    "position": 17,
+    "title": "Alten- und Service-Zentrum Perlach",
+    "place_id": "ChIJ3cJsOXbgnUcRvJDbzdF8aB8",
+    "data_id": "0x479de076396cc2dd:0x1f687cd1cddb90bc",
+    "data_cid": "2263196053297402044",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de076396cc2dd%3A0x1f687cd1cddb90bc&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de076396cc2dd%3A0x1f687cd1cddb90bc&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1013471,
+     "longitude": 11.640452699999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ3cJsOXbgnUcRvJDbzdF8aB8",
+    "provider_id": "/g/11b75j89ly",
+    "rating": 4.8,
+    "reviews": 11,
+    "type": "Seniorenzentrum",
+    "types": [
+     "Seniorenzentrum",
+     "Freizeitzentrum"
+    ],
+    "address": "Theodor-Heuss-Platz 5, 81737 München-Ramersdorf-Perlach",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 09:00",
+    "hours": "Geschlossen · Öffnet Di um 09:00",
+    "operating_hours": {
+     "montag": "09:00–17:00",
+     "dienstag": "09:00–17:00",
+     "mittwoch": "09:00–17:00",
+     "donnerstag": "09:00–17:00",
+     "freitag": "09:00–15:00",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 67820260",
+    "website": "https://www.asz-perlach.de/de",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz",
+       "Rollstuhlgerechtes WC"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLf45YEvCCleWod06U_tiNEUAXxQ5np4WGTMgnhCzzWKEJeggTpUYcHkhts_iPSuVc_4UlT8FrzXGpnAXssB6O7bQDts-fzHPYjx7sdxjbvJMVJdlsBU3PrG8Bg9Vsvt87VLZL-1pA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/DiQAO3icHcTdboIwGADQJ6pgRGEmXhTGMAwVM8qPN0RLbdXaNnyVEd5wj7C3WbJzcX5_hLUG1o4jxWLGteaSvYD1VCvLlJ1R_XR4fwZAFByMw8czu3rLJh6iSLJKd-6KtPa2jwmux-NSGa9Kih1XIpqm6jNOGeeFIQ3dPoSF9pZ_vUraekQWwUc_1YlRuAYIVwf_cny3gK7TNm_uow_deL8M6a5MOwkhWeR9EoT8rYTBBn6ZnTI0N3jzPXddF4n_KVJ_fKNGiw"
+   },
+   {
+    "position": 18,
+    "title": "Nachbarschaftstreff Ramersdorf-Süd",
+    "place_id": "ChIJEZR_yLzfnUcRqwUa40cqXd4",
+    "data_id": "0x479ddfbcc87f9411:0xde5d2a47e31a05ab",
+    "data_cid": "16023009537495270827",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddfbcc87f9411%3A0xde5d2a47e31a05ab&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddfbcc87f9411%3A0xde5d2a47e31a05ab&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.1076347,
+     "longitude": 11.6047145
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJEZR_yLzfnUcRqwUa40cqXd4",
+    "provider_id": "/g/11hzwfpc3k",
+    "rating": 5,
+    "reviews": 7,
+    "unclaimed_listing": true,
+    "type": "Vereinigung / Organisation",
+    "types": [
+     "Vereinigung / Organisation"
+    ],
+    "address": "Balanstraße 111, 81549 München-Ramersdorf-Perlach",
+    "country": "Deutschland",
+    "website": "http://www.nt-ramersdorfsued.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MOfj514eYugsvYYEFJ-zYA&cb_client=search.gws-prod.grass&w=80&h=92&yaw=94.463684&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/4nYdDHicHc3BDcIgFADQbbiVUsWmNSHGgx5MjGdOhtIvYGghQEEdx63cRuMC733eOiUft3UdUwBI2UDx5gE2Vl5g5ZyyILyJWLqpzk2d9DINszB258XszMjOl9t901Dgi4qZ88PxVL34HsnhKq2BObEIIkiNVfmJwY1YBREjKqwjSLN-hZ6isJ5i2q7bjiJvktSMoP9zc5k1hHwB69c6PQ"
+   },
+   {
+    "position": 19,
+    "title": "Alten- und Service-Zentrum Isarvorstadt",
+    "place_id": "ChIJ2f2XxF3fnUcRKstXhFmdYWU",
+    "data_id": "0x479ddf5dc497fdd9:0x65619d598457cb2a",
+    "data_cid": "7305293078369651498",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479ddf5dc497fdd9%3A0x65619d598457cb2a&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479ddf5dc497fdd9%3A0x65619d598457cb2a&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.129569499999995,
+     "longitude": 11.5696935
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJ2f2XxF3fnUcRKstXhFmdYWU",
+    "provider_id": "/g/1tfbrwbz",
+    "rating": 5,
+    "reviews": 5,
+    "type": "Seniorenzentrum",
+    "types": [
+     "Seniorenzentrum",
+     "Freizeitzentrum"
+    ],
+    "address": "Hans-Sachs-Straße 14, 80469 München-Ludwigsvorstadt-Isarvorstadt",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 09:00",
+    "hours": "Geschlossen · Öffnet Di um 09:00",
+    "operating_hours": {
+     "montag": "09:00–16:00",
+     "dienstag": "09:00–16:00",
+     "mittwoch": "09:00–17:00",
+     "donnerstag": "09:00–17:00",
+     "freitag": "09:00–13:00",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 232398840",
+    "website": "http://www.asz-isarvorstadt.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz",
+       "Rollstuhlgerechtes WC"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPFC57d54IyFPtw2NkfGuZNNNXpGJ8DUSmpjNCYTaYn6IXIwiPG64x5sQaWllWgTmJwBWzwSxNeNOmPIAJtjMde--sUfC6tWPrZ-4b7v7S906xx0P0EIatnFIhX2GfJPVhcmJ7g8w=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/SdmuNHicHcRLjsIgAADQE2EZpx81mYVW20AyiKna6q4ihXGANgWlekOP4G1MfIv3ekrnOjsLAiW_R6JtheJXy3vWGseNG7FWB6KvrQXMBvP01ilNszRKzlGI7hl1fkz-m_x6JIRUXY4ny12huwtJD9v6YGJUIf9H8zgcIrupS6VKsdXYL8qHLwbCyVpTNMfu8nvmANhdk8aupP0RhKfklhRTGA8DpHCFamcyJKtx3mC6l0zjREz8j_-CEAL5mQHzBgoERRw"
+   },
+   {
+    "position": 20,
+    "title": "Nachbarschaftstreff Trudering",
+    "place_id": "ChIJs9YGLxvgnUcRPTyTOkfBBhM",
+    "data_id": "0x479de01b2f06d6b3:0x1306c1473a933c3d",
+    "data_cid": "1370995648250461245",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x479de01b2f06d6b3%3A0x1306c1473a933c3d&engine=google_maps_reviews&hl=de",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x479de01b2f06d6b3%3A0x1306c1473a933c3d&engine=google_maps_photos&hl=de",
+    "gps_coordinates": {
+     "latitude": 48.118930999999996,
+     "longitude": 11.660357399999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=de&place_id=ChIJs9YGLxvgnUcRPTyTOkfBBhM",
+    "provider_id": "/g/11c2lrrdpt",
+    "rating": 4.2,
+    "reviews": 22,
+    "type": "Veranstaltungsstätte",
+    "types": [
+     "Veranstaltungsstätte",
+     "Zentrum für Familienplanung",
+     "Gemeinnützige Einrichtung",
+     "Freizeitzentrum",
+     "Sozialeinrichtung"
+    ],
+    "address": "Bajuwarenstraße 92, 81825 München-Trudering-Riem",
+    "country": "Deutschland",
+    "open_state": "Geschlossen · Öffnet Di um 10:45",
+    "hours": "Geschlossen · Öffnet Di um 10:45",
+    "operating_hours": {
+     "montag": "Geschlossen",
+     "dienstag": "10:45–12:30",
+     "mittwoch": "08:30–12:30",
+     "donnerstag": "16:30–19:00",
+     "freitag": "Geschlossen",
+     "samstag": "Geschlossen",
+     "sonntag": "Geschlossen"
+    },
+    "phone": "089 43665780",
+    "website": "http://www.nt-trudering.de/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Rollstuhlgerechter Eingang",
+       "Rollstuhlgerechter Parkplatz"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNbymIRlmgAyKsnPa6v5yFlCu_l-r0k274Q_iCseZ5dD8Uek9oJJvXjKrQqdwFM4-1Y4CQnLLGiRVT8dhTKvi_QcVJCqD3RkVeiMFSDQHFb2UKs5k4YWSvU7rV1iijMu1rK75QE=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/OmRxq3icHcRdDoIgAADgE5FamtXWQ8OsJFtY2s-LK2RKIhQozRN2hm7T1vfwfT9V2z71zLJ4NRqUUpacdpoqIkVLRTsgsrFKddMaEG0toHnyZnfvm03Cm3LRIy32t7Hx-pDDLudA2fXQd3HOoKZXrwgmKa2nMorM-YEUfhXvMHaBc3EhFtvtiiXZcVJUR2RYjkkWwVcwSuqMsjg8BHgd3ocp0l7tXk4Hk_oqcxh7xJ2jkO_h5fzt2LYNqv8EiB_K_0Ss"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&gl=de&google_domain=google.com&hl=de&ll=%4048.1%2C11.646%2C13z&q=Seniorentreff&start=20&type=search"
+  }
+ }
+}

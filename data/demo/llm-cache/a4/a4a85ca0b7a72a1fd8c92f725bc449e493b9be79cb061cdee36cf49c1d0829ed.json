@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 2, \"correctness\": 3, \"note\": \"కొడండి is wrong word; use దయచేసి. Mixed Telugu-English awkward.\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:03:45.675Z"
+}

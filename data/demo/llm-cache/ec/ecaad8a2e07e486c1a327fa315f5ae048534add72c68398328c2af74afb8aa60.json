@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219852472",
+  "object": "chat.completion",
+  "created": 1791219852,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "You recommended the Asian market in Marvel Avenue, Remma Chen's girl.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 57,
+   "completion_tokens": 17,
+   "total_tokens": 74,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.9818181991577148
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:04:12.545Z"
+}

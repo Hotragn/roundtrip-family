@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219970714",
+  "object": "chat.completion",
+  "created": 1791219970,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"category\": \"education\",\n  \"costAmount\": null,\n  \"free\": true,\n  \"indoor\": true,\n  \"languageMatch\": 0,\n  \"suitsOlderAdults\": true\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 131,
+   "completion_tokens": 53,
+   "total_tokens": 184,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 2.6363635063171387
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:06:10.782Z"
+}

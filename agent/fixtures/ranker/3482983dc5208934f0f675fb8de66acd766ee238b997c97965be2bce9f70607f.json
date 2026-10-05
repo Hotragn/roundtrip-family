@@ -1,0 +1,1 @@
+{"results":[{"index":0,"pGo":0.8766,"enjoyment":3.233,"combined":2.834,"reasons":[{"feature":"languageMatch","direction":"against","label":"Not in their language"},{"feature":"timing","direction":"for","label":"A time that has worked before"},{"feature":"costUsd","direction":"for","label":"Free"}]}],"usage":{"apiCalls":10,"cacheHits":0},"ms":16417}

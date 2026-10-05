@@ -1,0 +1,79 @@
+{
+ "provenance": "live_search",
+ "lat": 48.1,
+ "lng": 11.646,
+ "fetchedAt": "2026-10-05T18:12:28.029Z",
+ "response": {
+  "latitude": 48.1,
+  "longitude": 11.639999,
+  "generationtime_ms": 3.246426582336426,
+  "utc_offset_seconds": 7200,
+  "timezone": "Europe/Berlin",
+  "timezone_abbreviation": "GMT+2",
+  "elevation": 543,
+  "daily_units": {
+   "time": "iso8601",
+   "temperature_2m_max": "°C",
+   "temperature_2m_min": "°C",
+   "precipitation_probability_max": "%",
+   "snowfall_sum": "cm",
+   "weather_code": "wmo code"
+  },
+  "daily": {
+   "time": [
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10",
+    "2026-10-11"
+   ],
+   "temperature_2m_max": [
+    19.9,
+    21.3,
+    23.3,
+    18.3,
+    12.9,
+    14.5,
+    14
+   ],
+   "temperature_2m_min": [
+    11.5,
+    7.8,
+    11.7,
+    8.2,
+    5.4,
+    10.8,
+    9.8
+   ],
+   "precipitation_probability_max": [
+    78,
+    3,
+    5,
+    90,
+    57,
+    64,
+    65
+   ],
+   "snowfall_sum": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weather_code": [
+    80,
+    45,
+    61,
+    61,
+    61,
+    80,
+    80
+   ]
+  }
+ }
+}

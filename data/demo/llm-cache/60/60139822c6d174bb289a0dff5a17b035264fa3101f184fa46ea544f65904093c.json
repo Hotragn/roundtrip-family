@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219883557",
+  "object": "chat.completion",
+  "created": 1791219883,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "Show this card to the driver.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 45,
+   "completion_tokens": 8,
+   "total_tokens": 53,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 0.6272727251052856
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:04:43.632Z"
+}

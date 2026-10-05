@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219795865",
+  "object": "chat.completion",
+  "created": 1791219795,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "If you feel anxious because you don't know the way, show this help card to the person at the counter.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 61,
+   "completion_tokens": 25,
+   "total_tokens": 86,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 1.2363636493682861
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:03:15.998Z"
+}

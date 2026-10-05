@@ -1,0 +1,161 @@
+{
+ "liveSearches": 25,
+ "log": [
+  {
+   "ts": "2026-10-05T17:05:37.992Z",
+   "engine": "google_maps",
+   "key": "7e9519337ecb7808eb7b7afd44919673ec887e1941fbfb821370103482dd098f",
+   "note": "places: Hindu temple"
+  },
+  {
+   "ts": "2026-10-05T17:05:39.000Z",
+   "engine": "google_maps",
+   "key": "08669d1fe6a78bd7467dba37bb49e9f53a49f4139a48294efa73655f0a9eb33b",
+   "note": "places: Indian grocery store"
+  },
+  {
+   "ts": "2026-10-05T17:05:40.037Z",
+   "engine": "google_maps",
+   "key": "64f2419aaffa6a8f418d2aae5f2e6f7f2ae8c23c0de0c273def4e3662cef080f",
+   "note": "places: park walking trail"
+  },
+  {
+   "ts": "2026-10-05T17:05:41.192Z",
+   "engine": "google_maps",
+   "key": "d0ad8ee111fe2ec19edce448cf249b00e3ab808858a475b9b080e6f1c67a2f0d",
+   "note": "places: farmers market"
+  },
+  {
+   "ts": "2026-10-05T17:05:43.270Z",
+   "engine": "google_maps",
+   "key": "1e71f66c8d15a3c11e1c654a68e498798a22635302fcb2fda32ac68254555a10",
+   "note": "places: senior center"
+  },
+  {
+   "ts": "2026-10-05T17:05:44.875Z",
+   "engine": "google_maps",
+   "key": "d9dcc171d52db30b0e2e653330efef76a896096ad64e93289a7dd5f65a80b7e5",
+   "note": "places: public library"
+  },
+  {
+   "ts": "2026-10-05T17:05:46.044Z",
+   "engine": "google_maps",
+   "key": "111a7b99a1a91a64ff0b6aaddd5565ff13e2824c7d80ce208ca24ef97a59a3b5",
+   "note": "places: Hindu Tempel"
+  },
+  {
+   "ts": "2026-10-05T17:05:47.044Z",
+   "engine": "google_maps",
+   "key": "0e297967a1e3a1851f17176597196fc8ee439a14fd0c83934bb662be49cfc0fc",
+   "note": "places: Indischer Supermarkt"
+  },
+  {
+   "ts": "2026-10-05T17:05:47.948Z",
+   "engine": "google_maps",
+   "key": "bc097d3efe5a5ab9795e4ced8df407f3c2228a4da41673048b3ed05a6a03b67d",
+   "note": "places: Park"
+  },
+  {
+   "ts": "2026-10-05T17:05:49.013Z",
+   "engine": "google_maps",
+   "key": "8523ef13c14f0ea630d3260477eb43e88fa117b36ab08d76675b4430be78a6cb",
+   "note": "places: Wochenmarkt"
+  },
+  {
+   "ts": "2026-10-05T17:05:50.093Z",
+   "engine": "google_maps",
+   "key": "ed6acc30742de819e8fe63b0c8eefcd12b314088638bce1454b44b19faf5493e",
+   "note": "places: Seniorentreff"
+  },
+  {
+   "ts": "2026-10-05T17:05:51.400Z",
+   "engine": "google_maps",
+   "key": "0eba345de0914dbeed4acce42d68661939d7621f7a3305ea6803199df8762991",
+   "note": "places: Stadtbibliothek"
+  },
+  {
+   "ts": "2026-10-05T17:05:52.501Z",
+   "engine": "google_maps",
+   "key": "aa40f65fe26c54a525c13c3b12998f5fce35a4eed9972a2d33412ffca6586bd5",
+   "note": "places: park walking trail"
+  },
+  {
+   "ts": "2026-10-05T17:05:53.830Z",
+   "engine": "google_maps",
+   "key": "6dc3a7b0db83f95e95b2f81f9c5e6d45e59299a8e581dc16257a82f157eb35f1",
+   "note": "places: senior center"
+  },
+  {
+   "ts": "2026-10-05T17:40:00Z",
+   "engine": "reconcile",
+   "key": "",
+   "note": "Set to the account API's this_month_usage (14); 10 failed google_events requests were not billed"
+  },
+  {
+   "ts": "2026-10-05T17:18:01.422Z",
+   "engine": "google",
+   "key": "b74455836ff9075647560a98f5eb1c8013a6bdcb16ded47bbf1a83ebd831c0c5",
+   "note": "events: Telugu events"
+  },
+  {
+   "ts": "2026-10-05T17:19:17.997Z",
+   "engine": "google",
+   "key": "79bb7b18af3b080df873848f2aa6fcec88029bfca9c4c15dde17fbacb2465919",
+   "note": "events: Telugu association"
+  },
+  {
+   "ts": "2026-10-05T17:21:05.612Z",
+   "engine": "google",
+   "key": "47a06cd1c80651c3038677b08bf6371f0bd061ce60a2c0ed373c1c952053d5d2",
+   "note": "events: Dasara celebration"
+  },
+  {
+   "ts": "2026-10-05T17:21:38.250Z",
+   "engine": "google",
+   "key": "c5033452449600c870ed3195b007c8ce39ee737eead54b38394c0cc20487dfa5",
+   "note": "events: Indian community events"
+  },
+  {
+   "ts": "2026-10-05T17:21:39.502Z",
+   "engine": "google",
+   "key": "b4cf115191d78ced3f1272e7b228d4ca8b25fa6774c489b2219a507dae738996",
+   "note": "events: senior events library programs"
+  },
+  {
+   "ts": "2026-10-05T17:21:41.513Z",
+   "engine": "google",
+   "key": "dc6b4c0231d56f049c087d7b2908c5d65ce0cbaeeee59807256e2639e8ab27fb",
+   "note": "events: Telugu events"
+  },
+  {
+   "ts": "2026-10-05T17:22:05.982Z",
+   "engine": "google",
+   "key": "e335bfd54fef65f42ae8a11ca96fe9e9729e67e3af1c1d9cb23e5180b557ee52",
+   "note": "events: Telugu events"
+  },
+  {
+   "ts": "2026-10-05T17:22:17.369Z",
+   "engine": "google",
+   "key": "e03d6f6525ff51330f3d50cc0869427bf164a8cb17f00b418953311e590f3b20",
+   "note": "events: Indian community events"
+  },
+  {
+   "ts": "2026-10-05T18:18:14.662Z",
+   "engine": "google_maps_directions",
+   "key": "7dece53fc7c3c523cc945755bff9854810a65f96e5e497d799e6b4b0eaf98e56",
+   "note": "directions: Mowry Ave & Fremont Blvd to Karya Siddhi Hanuman Temple - Fremont (transit)"
+  },
+  {
+   "ts": "2026-10-05T18:20:47.006Z",
+   "engine": "google",
+   "key": "e448633008e0f1cbfd72c3fdd0d05561f36e1126c40b7d2c8768961edfdd0651",
+   "note": "events: Bathukamma celebration"
+  },
+  {
+   "ts": "2026-10-05T18:20:48.020Z",
+   "engine": "google_maps",
+   "key": "98edea29ba22185efa6b3ce1aa72f6047ff4cdb9738e64b3ce81790ea1c29126",
+   "note": "places: public library"
+  }
+ ]
+}

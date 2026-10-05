@@ -1,0 +1,1004 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps",
+ "request": "https://serpapi.com/search.json?engine=google_maps&type=search&q=Indian+grocery+store&ll=%4037.555%2C-121.982%2C13z&gl=us&hl=en",
+ "note": "places: Indian grocery store",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T17:05:39.003Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "Indian grocery store",
+   "ll": "@37.555,-121.982,13z",
+   "google_domain": "google.com",
+   "hl": "en",
+   "gl": "us"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "Indian grocery store"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Bharat Bazar",
+    "place_id": "ChIJGWIQ6ITAj4ARh8atwJtA10Q",
+    "data_id": "0x808fc084e8106219:0x44d7409bc0adc687",
+    "data_cid": "4960504552268613255",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc084e8106219%3A0x44d7409bc0adc687&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc084e8106219%3A0x44d7409bc0adc687&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5520269,
+     "longitude": -121.98512489999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJGWIQ6ITAj4ARh8atwJtA10Q",
+    "provider_id": "/g/11c6qnz8rf",
+    "rating": 4.1,
+    "reviews": 1815,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store",
+     "Grocery store",
+     "Supermarket"
+    ],
+    "address": "3400 Mowry Ave, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "monday": "9 AM–10 PM",
+     "tuesday": "9 AM–10 PM",
+     "wednesday": "9 AM–10 PM",
+     "thursday": "9 AM–10 PM",
+     "friday": "9 AM–10 PM",
+     "saturday": "9 AM–10 PM",
+     "sunday": "9 AM–10 PM"
+    },
+    "phone": "(510) 894-1399",
+    "website": "http://www.shopbharatbazar.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcwWo2Hytv1gmJAWIPBcUFvUfujNnI9PVF1Z37YBa3Xx3r2cNra0vpXyNKsphP9zkZ2lnGHsb9WQTZ7gEOhys30uqgln06s_kZ23Rjo7On_JfkcrrdHjdlz95mys6WIRQ4qoQgdoQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Y0EzbnicHcnBboIwGADgJ0IKdRBMdoBEBbcgGBXGxWCBNlBa7F9w-IY-wt5Gs8t3-f6eTOsBVqbJGV5QKSmvR6gVkULXQi-I7E2qSgCDgOn7Qdd_k3sm7XDWk0X7nZ9FSUBOm-nUjG0sIi85b6wCuz9BifNfrGwSqxJNQz7HXzCwxHt0hc3FNoSrl6XHwqXrPZsBo_FGuUAOXN6PD6109-KyazqiVBW2FX94H_0MThYd0uVNprSS6efdQggZ7F9iiBdm5kbg"
+   },
+   {
+    "position": 2,
+    "title": "Madras Groceries",
+    "place_id": "ChIJ9bW4mfK_j4ARf7Kk5RRAwyI",
+    "data_id": "0x808fbff299b8b5f5:0x22c34014e5a4b27f",
+    "data_cid": "2504916276244427391",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbff299b8b5f5%3A0x22c34014e5a4b27f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbff299b8b5f5%3A0x22c34014e5a4b27f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5380997,
+     "longitude": -122.0170673
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ9bW4mfK_j4ARf7Kk5RRAwyI",
+    "provider_id": "/g/11k_1smgtw",
+    "rating": 4.5,
+    "reviews": 298,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store"
+    ],
+    "address": "5438 Central Ave, Newark, CA 94560",
+    "country": "United States",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "monday": "9 AM–10 PM",
+     "tuesday": "9 AM–10 PM",
+     "wednesday": "9 AM–10 PM",
+     "thursday": "9 AM–10 PM",
+     "friday": "9 AM–10 PM",
+     "saturday": "9 AM–10 PM",
+     "sunday": "9 AM–10 PM"
+    },
+    "phone": "(510) 894-1431",
+    "website": "http://www.madrasgroceries.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcFKim6vGFpRlKwpC7UpIEtbOku0FMwZri1RyPcyP4wWS3PYqEvpJ4rNWoUczLQZ-ceae4g_K70oaZ1_eixvxIjvTyQtfii2ycxB7N94-mLFEsCDrQoS-BMQK6wbFh23Jyz-mpPnw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/TgjvQXicHcTdboIwGADQJ6oUIRJNdiGMLgo68CdGbgx-6aCT0tpWSn3DPYJvs8RzcV5_rTFSLzyva4NJI0TT0YemCkRvaG8mILjXqFprBNpbLuMbz4FkjM-GLyJ3XWZlEh3lKjXX79sDk42tFPN3rgBXhPa0D4rzPR3kOlTbkzjCMy8rBLSmYXPJIizqyr9QNg7j6nc4uNL8MDZ1MMbRdh4inpNUJ5-qFHsUb8psZq-knQZr90RcFr39sD7GGLXvAfX_iyxGpA"
+   },
+   {
+    "position": 3,
+    "title": "New India Bazar",
+    "place_id": "ChIJ-zedcV2_j4ARnfmLDMruSic",
+    "data_id": "0x808fbf5d719d37fb:0x274aeeca0c8bf99d",
+    "data_cid": "2831337867317082525",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf5d719d37fb%3A0x274aeeca0c8bf99d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf5d719d37fb%3A0x274aeeca0c8bf99d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.536403,
+     "longitude": -122.00081
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ-zedcV2_j4ARnfmLDMruSic",
+    "provider_id": "/g/1tjy1r4z",
+    "rating": 4.1,
+    "reviews": 1079,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store"
+    ],
+    "address": "5113 Mowry Ave, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Open · Closes 9:30 PM",
+    "hours": "Open · Closes 9:30 PM",
+    "operating_hours": {
+     "monday": "8 AM–9:30 PM",
+     "tuesday": "9 AM–12 AM",
+     "wednesday": "8 AM–12 AM",
+     "thursday": "8 AM–12 AM",
+     "friday": "8 AM–12 AM",
+     "saturday": "8 AM–12 AM",
+     "sunday": "8 AM–12 AM"
+    },
+    "phone": "(510) 742-0555",
+    "website": "http://www.newindiabazar.com/",
+    "description": "Grocery store with produce & many spices. Small local chain stocking Indian, Pakistani & Sri Lankan foodstuffs, spices & produce galore.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLder9Gau8un3hm8jJgSIXjdyfeZzkiSp6gjHbWxq7tYXUYaJZp6ACrBEDOkTSHqmSuNPyRDprtwPB_uglv0LoP4xP-Ht6xh_3dFOV-9fKOcFuHnOO_Y_9fGoWnt4TiG50Cq7vqO=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Jw1kC3icHcRLjoIwAADQE1VqcFBMXICO4CeWiI7ihmAprXxa6EfRC3oGb2Myb_E-b6Z1q6aWVTN7QIWgNTGKSCy4JlwPsGgsKjOlAFaW5_lVs82JdIPMTAy3WTMp1zRencv8WZDLq7rFrUPL8Hrqu7FOzsckW19ax5tL_3eBqkMcdk1sdtFzv2ilfkR-amh9h1sRjfoIhNrpWWrnS_QH3GKD8NKEHKE0Sd0iECeuR4db8APn3fjeodljCCEE7H8M-Bc8t0ZN"
+   },
+   {
+    "position": 4,
+    "title": "Coconut Hill Indian Grocery Fremont",
+    "place_id": "ChIJ2wjUvFvGj4ARkp7WGqaVQYE",
+    "data_id": "0x808fc65bbcd408db:0x814195a61ad69e92",
+    "data_cid": "9313890045026279058",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc65bbcd408db%3A0x814195a61ad69e92&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc65bbcd408db%3A0x814195a61ad69e92&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.4931335,
+     "longitude": -121.9317093
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ2wjUvFvGj4ARkp7WGqaVQYE",
+    "provider_id": "/g/1tmkl6b2",
+    "rating": 4.3,
+    "reviews": 1443,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store",
+     "Asian grocery store",
+     "Farmers' market",
+     "Fresh food market",
+     "Grocery store",
+     "Meat products store",
+     "Supermarket"
+    ],
+    "address": "46129 Warm Springs Blvd, Fremont, CA 94539",
+    "country": "United States",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "monday": "9 AM–10 PM",
+     "tuesday": "9 AM–10 PM",
+     "wednesday": "9 AM–10 PM",
+     "thursday": "9 AM–10 PM",
+     "friday": "9 AM–10 PM",
+     "saturday": "9 AM–10 PM",
+     "sunday": "9 AM–10 PM"
+    },
+    "phone": "(510) 656-9671",
+    "website": "https://www.coconuthill.com/",
+    "description": "Indian food market with ready-made items. Indian grocery store specializing in Southern Indian ingredients, plus produce & prepared foods.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdZn_sHfiKsIhSahzHq13bXWf9kAnA3yg1xlA-XsL_7jsmnHoe-HwCA2bND52rDvK3bZ9O1pTDmDnLg45Yj8E1Z1RIWgku5vzzUEqpXvJEj9r4usThE2l155cIB8W93nmokAfQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/VgvtNXicHcRRboIwGADgE1UotRGW-FCFBAbZsk0D8mKkQjugLfIDKgf0Dt7GxO_hez7kMHTwYVmtJAthjGjLEcqeGz2UelhwoyzRnwAQB4uxTaOSc66PEFb_MUTy7yTn8IJJkaWV1zDNyF3gW8tQBslxVYPSoSlReN0yp_jyqdP7U0yK3PvG3c5Xvk7Ekh5qN8A5_o1S0Yx0mud9cOmy6TOovX45wk4GTosp5dHGTT2ilWlY9bO-Ytu2kXzPkX4BRDZECA"
+   },
+   {
+    "position": 5,
+    "title": "Trinethra Indian Super Markets",
+    "place_id": "ChIJnbhzzk-_j4ARN1nIZo3V-pY",
+    "data_id": "0x808fbf4fce73b89d:0x96fad58d66c85937",
+    "data_cid": "10879242653158365495",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf4fce73b89d%3A0x96fad58d66c85937&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf4fce73b89d%3A0x96fad58d66c85937&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5226537,
+     "longitude": -122.00514319999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJnbhzzk-_j4ARN1nIZo3V-pY",
+    "provider_id": "/g/11r9hw377",
+    "rating": 4,
+    "reviews": 430,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store",
+     "Supermarket"
+    ],
+    "address": "39207 Cedar Blvd, Newark, CA 94560",
+    "country": "United States",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "monday": "9 AM–9 PM",
+     "tuesday": "9 AM–9 PM",
+     "wednesday": "9 AM–9 PM",
+     "thursday": "9 AM–9 PM",
+     "friday": "9 AM–10 PM",
+     "saturday": "9 AM–10 PM",
+     "sunday": "9 AM–10 PM"
+    },
+    "phone": "(510) 742-8704",
+    "website": "https://www.facebook.com/trinethra.newark",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLf_lxtnWdv69g1SOCPufSFRvhW2hgb3qMMsF8B9AmGuPaF-vCnDatTxoPnfHHgMfSaBDhbIuL0365bz1lFNP_bzy_58SZYU1xEOv888UsAA0Yh1QWzzArJvpa8XbaoZQ5ej2xHP=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/SMMm8nicHcTRroIgAADQLzIhZ6O2HrAya1mUt1m9ODCFlUIJkvmDfUN_c7fOw_l-hDEPPXHdSngDrhSvilYXTa6kKaQZ5Kp2eUO1dnLtYhzc602ZVZ2R6dWOxhwmuxlpyyQ8WJEOBWfeM451iIIxrpctoaFjZ3JOzV-niCyjiMdlQoO5YKt2A7yRz3pYhVuSsf6d-Si5nI-wW-wsQuioMQZnAfdp3-NmbR8UnRhVl71f3IZdRKYvCABwxO_ckf-mY0Tp"
+   },
+   {
+    "position": 6,
+    "title": "Spice House",
+    "place_id": "ChIJI2eZkyqUj4AR6SO0-cyDRSI",
+    "data_id": "0x808f942a93996723:0x224583ccf9b423e9",
+    "data_cid": "2469524887068484585",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f942a93996723%3A0x224583ccf9b423e9&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f942a93996723%3A0x224583ccf9b423e9&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.609173,
+     "longitude": -122.083106
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJI2eZkyqUj4AR6SO0-cyDRSI",
+    "provider_id": "/g/1wfvmw_6",
+    "rating": 3.8,
+    "reviews": 207,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store",
+     "Grocery store",
+     "Spice store"
+    ],
+    "address": "29266 Union City Blvd, Union City, CA 94587",
+    "country": "United States",
+    "open_state": "Open · Closes 8 PM",
+    "hours": "Open · Closes 8 PM",
+    "operating_hours": {
+     "monday": "10 AM–8 PM",
+     "tuesday": "10 AM–8 PM",
+     "wednesday": "10 AM–8 PM",
+     "thursday": "10 AM–8 PM",
+     "friday": "10 AM–8 PM",
+     "saturday": "10 AM–8 PM",
+     "sunday": "10 AM–8 PM"
+    },
+    "phone": "(510) 489-6857",
+    "website": "https://shopspicehouse.com/",
+    "description": "Spacious market for Indian grocery items. Spacious market carrying Indian groceries, bulk spices, produce & home goods in a utilitarian space.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdrTR3evObUk2z3S9u51Lbp6z-WsmRLgaZkiyBnS7QmUd3PsI_A7MGXJ92z4bx1xdU6n0_440RAFSTGx7UY4IDL9F8vh0DIu_vSJVRFT0yK7YciEJUuHbNrAP0GAlZrTICSZQjv=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/abfRYXicHcTbEkJAAADQL5J1KWmmhy0R6WZtFy8myyCsZhfhB_uG_qaZzsP5frKmefGFKJaZMknrOi2TlieM1LRJaDMhdSWm7MG5QLgI4aqo3Jj5npJ0xwgX8qggvZ1KbvSajcKVV56bPoIiH1YUaecKx8qJ2yHU9tbN0eVRjXqpj_GMglBVgQdN5Fu9hu-qbbi6Oe8yYNht2CHn4pk-GHbaneQbB7fb6MDgCViwDJhvr1FwfnbLtwQAELL_RKA_Fd9DPw"
+   },
+   {
+    "position": 7,
+    "title": "Rythu Bazaar",
+    "place_id": "ChIJkwG3ZA_Bj4ARMNZrSzJBNtY",
+    "data_id": "0x808fc10f64b70193:0xd63641324b6bd630",
+    "data_cid": "15435596457128482352",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc10f64b70193%3A0xd63641324b6bd630&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc10f64b70193%3A0xd63641324b6bd630&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5509632,
+     "longitude": -121.9807967
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJkwG3ZA_Bj4ARMNZrSzJBNtY",
+    "provider_id": "/g/11yt42w9jl",
+    "rating": 4.3,
+    "reviews": 35,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store"
+    ],
+    "address": "3185 Walnut Ave, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "monday": "9 AM–10 PM",
+     "tuesday": "9 AM–10 PM",
+     "wednesday": "9 AM–10 PM",
+     "thursday": "9 AM–10 PM",
+     "friday": "9 AM–12 AM",
+     "saturday": "9 AM–12 AM",
+     "sunday": "9 AM–10 PM"
+    },
+    "phone": "(510) 565-1108",
+    "website": "http://www.rythubazaar.us/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLf-ZpmDo9MEMgTpKsQgv9WPDo_qjLJie_5zXSUKdaMu_X7tsk7srlEgWVNAnTNFesqUYf088u4HOOXJGHe5haiAAQBIt3gCNA8iDNPYXhvLTg_6PdB-HJj4zT5h_pGXiRAjXT_fo82h3o8=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/guw5oHicHcTBboIwGADgJ6qwIbOaeCjiZAiIWrV6aQiWFgSK_EUTH3J332bJvsP3_lXGdDCzrFo5I6m1rMUAos91a0RrRrluLNlnACgHixDv1kQFunSNr6fxMpa0W8NWPqan1Nf8XkVhKbj7YvvD-prFA2cTA7cJ9PVSno4JaWnyLeB-OBc2xsM42GxYuAqEq7KSkK33Yxy5SAgu_SQ9M_WIqORf6dVDQViNX9RVvFuxckcqRnmh8adyNJ4_P2zbRur_HLV_qo1HAQ"
+   },
+   {
+    "position": 8,
+    "title": "Sekhri Mart",
+    "place_id": "ChIJMa3ZtS2_j4ARjSg7KHnFPI8",
+    "data_id": "0x808fbf2db5d9ad31:0x8f3cc579283b288d",
+    "data_cid": "10321341570183014541",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf2db5d9ad31%3A0x8f3cc579283b288d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf2db5d9ad31%3A0x8f3cc579283b288d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5709324,
+     "longitude": -122.0309427
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJMa3ZtS2_j4ARjSg7KHnFPI8",
+    "provider_id": "/g/11wqjkr34n",
+    "rating": 4.8,
+    "reviews": 139,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store",
+     "Grocery store",
+     "Produce market"
+    ],
+    "address": "3912 Decoto Rd, Fremont, CA 94555",
+    "country": "United States",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "monday": "10 AM–9 PM",
+     "tuesday": "10 AM–9 PM",
+     "wednesday": "10 AM–9 PM",
+     "thursday": "10 AM–9 PM",
+     "friday": "10 AM–9 PM",
+     "saturday": "9:30 AM–9 PM",
+     "sunday": "9:30 AM–9 PM"
+    },
+    "phone": "(408) 420-6807",
+    "website": "https://sekhrimart.instacart.com/store/sekhri-mart/storefront",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLf_OT-w-Nyoj3liKaN3gn5sWTtZJAaRiNaO4PVThD1YbPEr91_HnCiqjWWR-MKe3XTH5o5lR7DHGtqmyoXe0frqWAPOmPZPf36ZjTrA86AY4E5LjvCug0TkxUo6Chhz9gBXkRKw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/gI8mi3icHcRdboIwAADgE1VKKqhL9lDQSEShId1AXgyS0vLXSluHesGdYbdZ4vfw_f0Ka2_mw3EGgRZcKT6wu2G6VtIyaRe1Gh2uK2NAbRyMg348NpeUghkkT9WhoY2rBHHpmZza8oCrrE2qdEm-qdi65yvZ6Y17iWTYTl2eZ-AUM1TQyFPekK220d5O41MVDDZ6yjFJR1KSBvllRzVe-_i83HnH7ie8c0j7x5fyQyFeGx4UfRbPn7MLIQTifQ3kP1eKRGI"
+   },
+   {
+    "position": 9,
+    "title": "Bharat Bazar",
+    "place_id": "ChIJReD9dWKVj4ARa9fiLweIRPk",
+    "data_id": "0x808f956275fde045:0xf94488072fe2d76b",
+    "data_cid": "17961630778309924715",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f956275fde045%3A0xf94488072fe2d76b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f956275fde045%3A0xf94488072fe2d76b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.587317999999996,
+     "longitude": -122.02313799999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJReD9dWKVj4ARa9fiLweIRPk",
+    "provider_id": "/g/1tk8nv3p",
+    "rating": 4,
+    "reviews": 1044,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store",
+     "Grocery store",
+     "Supermarket"
+    ],
+    "address": "34301 Alvarado-Niles Rd, Union City, CA 94587",
+    "country": "United States",
+    "open_state": "Open · Closes 9:30 PM",
+    "hours": "Open · Closes 9:30 PM",
+    "operating_hours": {
+     "monday": "9 AM–9:30 PM",
+     "tuesday": "9 AM–9:30 PM",
+     "wednesday": "9 AM–9:30 PM",
+     "thursday": "9 AM–9:30 PM",
+     "friday": "9 AM–9:30 PM",
+     "saturday": "9 AM–9:30 PM",
+     "sunday": "9 AM–9:30 PM"
+    },
+    "phone": "(510) 324-1011",
+    "website": "http://www.shopbharatbazar.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcWJu0mtpHe5_ew-t5vIWQJMc1tnPSuw85npXoon_emUn71cCUYp-P2gdHD2BOrp3qP-yzTEXC7Usjopupvt24SHzNFC12ZsLABph9lyAiqDA4E_-TZyGQ5NcwGZ7S8Z08s_dDW=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Y1u2e3icHcRdCoIwAADgE03nH1rQw9TKpExRsXyRWEMr3Zabil6wM3SboO_h-34aKblYq2rbGErNWN2SQZAeMyoJlQpmnVr3NyEAFipC7qs74iIcYCd5QKyKTEBa46FIwhPWJI3TYXIsyi-M0Yp0ObU17OVXDmK9vge-7p57brxjMC_Z9uLZuXgyPvBR6mYaLNHO0_RSHJHLm1U7o8fbR-a2Alk57xMrwtO-tFOnhI6o7n6xmTQIIWj-Y0B_tT5Eqw"
+   },
+   {
+    "position": 10,
+    "title": "Coconut Hill Indian Grocery Meat & Kitchen Union City",
+    "place_id": "ChIJQf5UWRi_j4AReAn1nrtGolc",
+    "data_id": "0x808fbf185954fe41:0x57a246bb9ef50978",
+    "data_cid": "6314687399166544248",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf185954fe41%3A0x57a246bb9ef50978&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf185954fe41%3A0x57a246bb9ef50978&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5866328,
+     "longitude": -122.01781159999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQf5UWRi_j4AReAn1nrtGolc",
+    "provider_id": "/g/11h1klz3gx",
+    "rating": 4.3,
+    "reviews": 329,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store",
+     "Asian grocery store",
+     "Farmers' market",
+     "Halal restaurant",
+     "Meat products store",
+     "Supermarket"
+    ],
+    "address": "34720 Alvarado-Niles Rd, Union City, CA 94587",
+    "country": "United States",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "monday": "9 AM–9 PM",
+     "tuesday": "9 AM–9 PM",
+     "wednesday": "9 AM–9 PM",
+     "thursday": "9 AM–9 PM",
+     "friday": "9 AM–9 PM",
+     "saturday": "9 AM–9 PM",
+     "sunday": "9 AM–9 PM"
+    },
+    "phone": "(510) 941-4979",
+    "website": "http://coconuthill.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLc_zvbiEMh19btqVOjR5ETS10XEu-ui_GyYotjNXmiJWBUSkW6TzUQIrjV8nvijsDVllDRoS5_5jp7X4bXeLLStmSDvcxh9o87VcMMJYc_gD9qY5ss__4mALncuFmUtoC6uxjeX=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/fbcX13icHcTdDoIgGADQJzJ1ZWVbF5bWalor0vCK5TcmkkAJ2M8L9gy9TVvn4nw_zJibnrluy4aDWqm6pVbTDpQ0VJoBKOHW3UVrB7QbRYurSIG8-6pJMuaHlbkXe34MkhPyPZxYxzZk_SqV4Tssmu15kaPreXx654dNx4up7Buu46Jt46NCAQn4bYJHFaZpioxAcQ9PFqrppIAs25ZA6ji8l4HWhIxElEqwK5EbtRzbJ6d4_vA9z3PYf3DkDwXNRo4"
+   },
+   {
+    "position": 11,
+    "title": "Indian Market",
+    "place_id": "ChIJ7UUd_5nAj4ARTgpnvmrjfFU",
+    "data_id": "0x808fc099ff1d45ed:0x557ce36abe670a4e",
+    "data_cid": "6160048437936458318",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc099ff1d45ed%3A0x557ce36abe670a4e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc099ff1d45ed%3A0x557ce36abe670a4e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5464078,
+     "longitude": -121.9816967
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ7UUd_5nAj4ARTgpnvmrjfFU",
+    "provider_id": "/g/1thn5rft",
+    "rating": 3.9,
+    "reviews": 1282,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store"
+    ],
+    "address": "3890 Walnut Ave, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Open · Closes 8:30 PM",
+    "hours": "Open · Closes 8:30 PM",
+    "operating_hours": {
+     "monday": "9 AM–8:30 PM",
+     "tuesday": "9 AM–8:30 PM",
+     "wednesday": "9 AM–8:30 PM",
+     "thursday": "9 AM–8:30 PM",
+     "friday": "9 AM–8:30 PM",
+     "saturday": "9 AM–8:30 PM",
+     "sunday": "9 AM–8:30 PM"
+    },
+    "phone": "(510) 791-6033",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeDwSDTKiPFQyrv-yuPW3HEdft0fsojNsFetmQVL8U5Yn3Op8ceqOLLWntFi5D5At01Bfl5dMW26RmMvyWq2WmFk21YMcDq1ORTWORil70w1nfi_jYXKl1n1qdculPUgS1HT7m-=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/l_UMWHicHcTbCoIwAADQL5puiilBD4ZJkKaZtXyKmPO6i7qZ-IV9Q38TdB7O99NoPaitabLGNmopa0ZnRScihaZCG0Rys55eSgGiTN_f9zyiwXIN8lObhpd1eoN1TrF9PJSVhpWS3VmFVPPLPfJuTiHsZPAIHZMowkKHrRM4voZoXzGnjLG1yXj8XvFoYR72FipiEowoyXKcZC1z4YJE1T674nFiSKCxJDNLb_UVHXOXg92CIISg-U-A-AGZDESm"
+   },
+   {
+    "position": 12,
+    "title": "Everest Grocery,Food & Liquor",
+    "place_id": "ChIJvTuex8-5j4ARTxJqyyOCVRc",
+    "data_id": "0x808fb9cfc79e3bbd:0x17558223cb6a124f",
+    "data_cid": "1681393126140940879",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fb9cfc79e3bbd%3A0x17558223cb6a124f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fb9cfc79e3bbd%3A0x17558223cb6a124f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5193723,
+     "longitude": -121.9929753
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJvTuex8-5j4ARTxJqyyOCVRc",
+    "provider_id": "/g/11nc842r2q",
+    "rating": 5,
+    "reviews": 11,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store",
+     "Asian grocery store",
+     "European grocery store",
+     "Grocery store",
+     "Liquor store",
+     "Nepalese restaurant"
+    ],
+    "address": "5882 Mowry School Rd, Newark, CA 94560",
+    "country": "United States",
+    "open_state": "Open · Closes 1 AM",
+    "hours": "Open · Closes 1 AM",
+    "operating_hours": {
+     "monday": "9 AM–1 AM",
+     "tuesday": "9 AM–1 AM",
+     "wednesday": "9 AM–1 AM",
+     "thursday": "9 AM–1 AM",
+     "friday": "9 AM–1 AM",
+     "saturday": "9 AM–1 AM",
+     "sunday": "9 AM–1 AM"
+    },
+    "phone": "(510) 281-4030",
+    "website": "http://www.everestgrocery.us/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMLkhoidn7HHYn9feL3OwyMP8HS8U0MvLfbthPZp9b5Fy0cZxF8BoGAM-es5npTv-q6Q6vOsVi5Ei1ypHXUfdQ3PiqEzfvfwXVwFhd8wRfZAUJ6JY842fTkjUolB9V8_6dOASgxnFuAYhN4=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/DBCRLHicHcTBboIwAADQL6rUIViW7FAXkRgQnEKEy6KlpSi21dZW_Mmd9zdL9g7v94cbo_S75w3cn3RSdgN9aHonUhgqzITIq9fdj1oDoj38adVwzdILl30r5klSi4jR1M_dmBUo2aESZjZlJ8OLRkWnIB4haZ4xWsgVzgDVgVB7C27hNrS5rvpg2U9HlRxK1m79or8tX8wyd6hczFvkvliDy3W4rtHsje0v51IOi6hC32Gb4133FPED13wz-3BTCCHg_xMg_gANiUf0"
+   },
+   {
+    "position": 13,
+    "title": "India Cash & Carry",
+    "place_id": "ChIJY6QWmFm_j4ARAtTiIArIZ5o",
+    "data_id": "0x808fbf599816a463:0x9a67c80a20e2d402",
+    "data_cid": "11126081350269064194",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf599816a463%3A0x9a67c80a20e2d402&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf599816a463%3A0x9a67c80a20e2d402&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.530057,
+     "longitude": -121.9991039
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJY6QWmFm_j4ARAtTiIArIZ5o",
+    "provider_id": "/g/1tgmwjb_",
+    "rating": 4,
+    "reviews": 2023,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store",
+     "Supermarket"
+    ],
+    "address": "39175 Farwell Dr, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Open · Closes 12 AM",
+    "hours": "Open · Closes 12 AM",
+    "operating_hours": {
+     "monday": "9 AM–12 AM",
+     "tuesday": "9 AM–12 AM",
+     "wednesday": "9 AM–12 AM",
+     "thursday": "9 AM–12 AM",
+     "friday": "9 AM–12 AM",
+     "saturday": "9 AM–12 AM",
+     "sunday": "9 AM–12 AM"
+    },
+    "phone": "(510) 792-7383",
+    "website": "http://www.indiacashandcarry.com/",
+    "description": "Indian groceries, produce & to-go fare. Outpost of a small local chain stocking standard groceries, Indian specialty foods & takeaway meals.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfdgbP4qlZVRZv0VRpjWlSJBFnqIEk30kgXg0nosyf8wEfd_ZOj_U3I9LB6qP5H-PImkvI2nHpkH-b0NddrvlVo13DYypW0VIJgX3OCDi7-f_HPiWj1UqeD8Fsy_ebncIYV5oMS=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/0xevyHicHcTbDoIgAADQLyIxum89ZOqkdXG1sHxxiYgJgorZ_MK-ob9p6zyc76foutqsLEsWaMS15pK9DGupVh1T3YjqyuLtwxhAjbXZOKLa5xlPw0kjY3KOe0jOdRnJy87xVYM9gaDgNw6VNkO-eHt5lsSnMrkivNw7syacBiDElejxWAW1CEAKj1nW9pJoG7n3oY4gwTt-Q6et-5yDPAnCZ1Ta14a5C98MCUsVxXcy1YfL-m1DCEHxnwL1A6IGRNM"
+   },
+   {
+    "position": 14,
+    "title": "Apni Mandi Farmers Market",
+    "place_id": "ChIJySzhJrHBj4ARuoGRW-PlLpA",
+    "data_id": "0x808fc1b126e12cc9:0x902ee5e35b9181ba",
+    "data_cid": "10389494155046912442",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc1b126e12cc9%3A0x902ee5e35b9181ba&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc1b126e12cc9%3A0x902ee5e35b9181ba&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5318037,
+     "longitude": -121.9596646
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJySzhJrHBj4ARuoGRW-PlLpA",
+    "provider_id": "/g/11jgv19gsz",
+    "rating": 4.1,
+    "reviews": 2070,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store",
+     "Grocery store",
+     "Indian restaurant",
+     "Restaurant"
+    ],
+    "address": "41081 Fremont Blvd, Fremont, CA 94538",
+    "country": "United States",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours"
+    },
+    "phone": "(510) 680-2764",
+    "website": "https://apnimandi.net/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPxPXAV7Ee9HsGUb8DU1QLcTWmePmA5BBa_giueO0NTz499k0WhtDXyN0sH_SVfvoEcy9616KPbIx_dEYU3lH8PZutDblKEWUCBLA6mX8xb2NwFcvn6iOXomD0ILpnVsJ30A8A=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/viu4_HicHcTbEoFAAADQL0qbSJnxsClCU2vowkujtcrYS2O3Cx_oH_yNGefhfD-1Uo2c6zqtzVElREVJK8kTC64IVyMsmF49L1JqWOpw2TWUoQHlMJ35xAnkOiltLzH2IT5mjCAGp657Kap7S2IQHd8Tx3mArFZe_oqADIpDeuuEj1-OZVg7VG6G4uqfEpMGNjq3yivpzs-SpRtCi-X2UI6jfoU7bt3jXDAPbMKGp3JrAmjDRW8AALT6P9b4DwEVQ28"
+   },
+   {
+    "position": 15,
+    "title": "Saffron Indian Market",
+    "place_id": "ChIJ-0HsDzm_j4ARazcRZTiRlE8",
+    "data_id": "0x808fbf390fec41fb:0x4f9491386511376b",
+    "data_cid": "5734367896949307243",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbf390fec41fb%3A0x4f9491386511376b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbf390fec41fb%3A0x4f9491386511376b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5488444,
+     "longitude": -122.04497669999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ-0HsDzm_j4ARazcRZTiRlE8",
+    "provider_id": "/g/11lys3tnmf",
+    "rating": 4.7,
+    "reviews": 35,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store",
+     "Grocery store",
+     "Produce market"
+    ],
+    "address": "35278 Newark Blvd, Newark, CA 94560",
+    "country": "United States",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "monday": "9 AM–9 PM",
+     "tuesday": "9 AM–9 PM",
+     "wednesday": "9 AM–9 PM",
+     "thursday": "9 AM–9 PM",
+     "friday": "9 AM–9:30 PM",
+     "saturday": "9 AM–9:30 PM",
+     "sunday": "9 AM–9:30 PM"
+    },
+    "phone": "(510) 894-1813",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLf7JLzBvJvMy_5_7Zqj11PA6TqaJGVHeoNvnq_8hQZELYhInz_jEJ7XHypwptsqVdCOCs-MGzG3lsET9avB_GsCmbLvLn7CU1WlrSFmdGUKhaclQp_DQMAtzcG5CnIJrruK5zA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/eEq0VnicHcRRboIwGADgEyEQg7gleygdq9ayjUyd86XBymi0tNC_1tgDegdvs2Tfw_e4S-cGeI5jJaeTzphOtRdorTDatdpNhOnjzjYAkYAYoeLcs9-cslB46qsbz3i-H09p-olm67GhZLtozbvXI5_Lel-yH7nUgZ9Kmu8Wt-E6OBi3R_yBIapIIFMF5fqp8QUngPsD80zneJN-K_v11h_JZiUboeqBv9YVckGQDOsltfayygJ6uaZJkkTyfxHpP4yYRZQ"
+   },
+   {
+    "position": 16,
+    "title": "New India Market",
+    "place_id": "ChIJTV9SQ-iVj4ARwRlzNh6LaRs",
+    "data_id": "0x808f95e843525f4d:0x1b698b1e367319c1",
+    "data_cid": "1975262873457465793",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808f95e843525f4d%3A0x1b698b1e367319c1&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808f95e843525f4d%3A0x1b698b1e367319c1&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.589453299999995,
+     "longitude": -122.0708329
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJTV9SQ-iVj4ARwRlzNh6LaRs",
+    "provider_id": "/g/1tj7wm8x",
+    "rating": 3.8,
+    "reviews": 69,
+    "unclaimed_listing": true,
+    "type": "Grocery store",
+    "types": [
+     "Grocery store"
+    ],
+    "address": "31885 Alvarado Blvd #8, Union City, CA 94587",
+    "country": "United States",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "monday": "10 AM–9 PM",
+     "tuesday": "10 AM–9 PM",
+     "wednesday": "10 AM–9 PM",
+     "thursday": "10 AM–9 PM",
+     "friday": "10 AM–9 PM",
+     "saturday": "10 AM–9 PM",
+     "sunday": "10 AM–9 PM"
+    },
+    "phone": "(510) 471-4761",
+    "website": "http://new-india-market.poi.place/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmO2inPr5NV7gVS8NDmR0a2uWxHHXeATEyE98-sv-Fs94wVF_Faf1GqskVEM4wCybdIs2Jep14XcwuCwB5iA9E9S9vZYTP9rfkoV4crCbeo3S_BD-ECk0k5QmB7pxk0CIAFRZQEd=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/qVcO_HicHcRJDoIwFADQE1UKQrQmLqAWh8QRU4eNwVrBFCj2A9UTegZvY-JbvO8nb5oaRo5T5P1epnVWyBakEbpqZNX0hC6dzKQASIAT0q4uyrX3qDYmWPFBxpPhalLucOq1h9dsdpThnr0ZGSLoUAzEtzy-xOndnT5Bcbb0LX1fb3PwFrJ2_aOwLbVR8AgJIwnpzqf9hpi70twXhl6l7ieXaIIYVVgF2zIa1C-F6TyMd-ctu42tizFG-X-Bqh8wd0N4"
+   },
+   {
+    "position": 17,
+    "title": "Namaste India",
+    "place_id": "ChIJr_0g4Dq-j4ARoBJmO908o38",
+    "data_id": "0x808fbe3ae020fdaf:0x7fa33cdd3b6612a0",
+    "data_cid": "9197261784902668960",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbe3ae020fdaf%3A0x7fa33cdd3b6612a0&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbe3ae020fdaf%3A0x7fa33cdd3b6612a0&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.567100499999995,
+     "longitude": -122.05259699999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJr_0g4Dq-j4ARoBJmO908o38",
+    "provider_id": "/g/1thz1xf8",
+    "rating": 3.4,
+    "reviews": 183,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store",
+     "Supermarket"
+    ],
+    "address": "4930 Paseo Padre Pkwy, Fremont, CA 94555",
+    "country": "United States",
+    "open_state": "Open · Closes 9:30 PM",
+    "hours": "Open · Closes 9:30 PM",
+    "operating_hours": {
+     "monday": "9 AM–9:30 PM",
+     "tuesday": "9 AM–9:30 PM",
+     "wednesday": "9 AM–9:30 PM",
+     "thursday": "9 AM–9:30 PM",
+     "friday": "9 AM–9:30 PM",
+     "saturday": "9 AM–9:30 PM",
+     "sunday": "9 AM–9:30 PM"
+    },
+    "phone": "(510) 790-9034",
+    "website": "https://www.namasteindiastore.com/",
+    "description": "Simple grocery store with Indian goods. Indian market selling grocery staples, produce, dairy & more, plus a wide selection of DVDs.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLf9NeB7dcD5MdIuPoSkNiB928jsq0QFCshXlkPEeAbWzfgalsQQhweoePlIzo8GgpZXuL847tNZ2mk75bfTPmXyAhz8Bxpja9DbRtSVYP04p_GzvxobWtm2SlM9wVzRceS7mf_z=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/eQEWpnicHcRRDoIgAADQE5lkNrWtD81qbeUwW5o_TgmhBLHANC7YGbpNW-_jfT9UqU4uTJPR2YQIQRjuJX4i0SrcqgkS3CTPUkoDSdP3g4bvay_CgXNF4fxw3fVQJE10CzzLvcsHiDcrSTPWwDX2q1TXpGQyjumABYZsp4W7JV2e9XvXdlSUW7xx5lV9gjx7-1S7wdjdSy-sjio5XyCwu2KrX6OoUsWthB284ayPCCcOrwu9HKYAAIP-R0b7A-ZzRqQ"
+   },
+   {
+    "position": 18,
+    "title": "New Nilgiri Cash & Carry",
+    "place_id": "ChIJ21tObl3Gj4ARlOiFCjZ8gkQ",
+    "data_id": "0x808fc65d6e4e5bdb:0x44827c360a85e894",
+    "data_cid": "4936644713098111124",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fc65d6e4e5bdb%3A0x44827c360a85e894&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fc65d6e4e5bdb%3A0x44827c360a85e894&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.4925,
+     "longitude": -121.9280556
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ21tObl3Gj4ARlOiFCjZ8gkQ",
+    "provider_id": "/g/1tkmms_6",
+    "rating": 4,
+    "reviews": 155,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store",
+     "Restaurant"
+    ],
+    "address": "46481 Mission Blvd, Fremont, CA 94539",
+    "country": "United States",
+    "open_state": "Open · Closes 9:30 PM",
+    "hours": "Open · Closes 9:30 PM",
+    "operating_hours": {
+     "monday": "9 AM–9:30 PM",
+     "tuesday": "9 AM–9:30 PM",
+     "wednesday": "9 AM–9:30 PM",
+     "thursday": "9 AM–9:30 PM",
+     "friday": "9 AM–9:30 PM",
+     "saturday": "9 AM–9:30 PM",
+     "sunday": "9 AM–9:30 PM"
+    },
+    "phone": "(510) 857-4819",
+    "website": "https://www.lemonhat.io/store/tatva-foods---indian-grocery/MDBtOWhtZDUwMEdTMTAwMDAwMF9fbGVtb25oYXQ=",
+    "description": "Snug shop with Indian groceries. Cozy store carrying produce, prepared food & Indian groceries including spices & snacks plus DVDs.",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOwUSMTp04pwPdZTe0X0jtGI5ZN2zc5Hm1uNY6LNL5xWUTFerIyreHkYgj2ET4astrJ1y0gJQRcTgrezJz5GWaw-lP7aWAeUPOyR-hpG4uGzMa4IHvHOP6clKILOsYQ33_-yIyUsQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/j_g0AXicHcRdDoIgAADgE5GYWltbD62VYuZP4cxeGiOGK1QGmOENO0K3aet7-L6fxhipV44jGm_G-54LNmimaN8Z1pkZ7VuHK6I1oNrZbF9StNlYno9YQl-O-f2KGbzAhwlRcE3nEw2i1h3SepGkSfCuSrxnClnFomfNH_Md9ok2KnYt5HFxopgrNsVTEFZkBCJfkmrDyjyzJ9DI0B_C6Uh8FL2iLF9QcUBJpuvC827AIlvqYj26EELQ_Keg-wE3B0Wg"
+   },
+   {
+    "position": 19,
+    "title": "Dulhan Grocery",
+    "place_id": "ChIJCdNRQym-j4AR2hATXHW9PqM",
+    "data_id": "0x808fbe294351d309:0xa33ebd755c1310da",
+    "data_cid": "11763047588491890906",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbe294351d309%3A0xa33ebd755c1310da&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbe294351d309%3A0xa33ebd755c1310da&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.5754519,
+     "longitude": -122.04391229999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJCdNRQym-j4AR2hATXHW9PqM",
+    "provider_id": "/g/1tfcnl75",
+    "rating": 3.6,
+    "reviews": 306,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store",
+     "Grocery store"
+    ],
+    "address": "34161 Fremont Blvd, Fremont, CA 94555",
+    "country": "United States",
+    "open_state": "Closed · Opens 12:30 PM",
+    "hours": "Closed · Opens 12:30 PM",
+    "operating_hours": {
+     "monday": "12:30–8 PM",
+     "tuesday": "9:30 AM–8:30 PM",
+     "wednesday": "9:30 AM–8:30 PM",
+     "thursday": "9:30 AM–8:30 PM",
+     "friday": "9:30 AM–8:30 PM",
+     "saturday": "9:30 AM–8:30 PM",
+     "sunday": "9:30 AM–8:30 PM"
+    },
+    "phone": "(510) 794-8201",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOrsNmBntxsZOqcL8R2DrrIayCV9xb7gzbKA-U5JcSuqnbwVQc1jDJuouQtDlSTFlSqoEZhbUV7g9uGQB0_VstU80StK0XeP63hfrWnjjS3HyOsEEgFdXFV87dLgfHCyJlrV1NT=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_Z5LRnicHcTdboIwGADQJ0LKiIJLvFB-5tCIWKnGGwMF25DSSr92ii-4Z_BtluxcnPcvN-YOn64ruD9hSjHRWmg1VdK00kyo6l2mKwCHgruMfu6izzXs-pU0T7jkA92Gh49Y6-9qjMj8WQfsVW-WTjnNKLaDrB-koF4XZ1bZwsQCH1OBB5VceF2SgM3tV7FCVwKmDBE2G3Ru9zOf3_RJdh3212MOScLS5pySMGi27LaOxkxo4u2Oi4eHEHL4_9SRf0A6Rh0"
+   },
+   {
+    "position": 20,
+    "title": "Siddhartha International - Indian Grocery",
+    "place_id": "ChIJk3h4eL2_j4AR0f_8sfZBS68",
+    "data_id": "0x808fbfbd78787893:0xaf4b41f6b1fcffd1",
+    "data_cid": "12631262107694596049",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x808fbfbd78787893%3A0xaf4b41f6b1fcffd1&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x808fbfbd78787893%3A0xaf4b41f6b1fcffd1&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 37.562712,
+     "longitude": -122.014772
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJk3h4eL2_j4AR0f_8sfZBS68",
+    "provider_id": "/g/1tdnlc25",
+    "rating": 3.9,
+    "reviews": 100,
+    "type": "Indian grocery store",
+    "types": [
+     "Indian grocery store"
+    ],
+    "address": "36464 Fremont Blvd, Fremont, CA 94536",
+    "country": "United States",
+    "open_state": "Closed · Opens 11 AM",
+    "hours": "Closed · Opens 11 AM",
+    "operating_hours": {
+     "monday": "11 AM–8 PM",
+     "tuesday": "11 AM–8 PM",
+     "wednesday": "11 AM–8 PM",
+     "thursday": "11 AM–8 PM",
+     "friday": "11 AM–8 PM",
+     "saturday": "11 AM–8 PM",
+     "sunday": "11 AM–8 PM"
+    },
+    "phone": "(510) 792-8500",
+    "website": "https://siddharthaintl.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfbN1XkYo57KyWOzR9oSuVsq7mHiuU7U74gczVc_HfS8qsItUdEDsSdZPf7XRyOmedt849ps69jOOYuS3LpuzGM_c8O0lb4T_-y5NgLvkM8ocwzzKhiUTzHVnQtyvBfMM7PCDc=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/2keUwXicHcRJDoIwFADQEyEY0YKJC6eIESyK4LAh-oGiDEV-q6EH9A7exsS3eN9PLkSDY10v80GPcc7KVGLaAq9FWose8Epn7RVRA9Sn01lRudlt2z8VZz4km-5I1d7mgYzwSSrnLkMSEpOBiiB2ssB64lqEyXKBQXLxM3Lad7RKE2GZdoMj-0HpWQYDt5Fq5cVgUaO8mYdY64Zb5r4Kz-LwVmqT38ODcqJ6J7rXLPM84s8XMHn3DcPQ8v-g1T-jKEXN"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&gl=us&google_domain=google.com&hl=en&ll=%4037.555%2C-121.982%2C13z&q=Indian+grocery+store&start=20&type=search"
+  }
+ }
+}

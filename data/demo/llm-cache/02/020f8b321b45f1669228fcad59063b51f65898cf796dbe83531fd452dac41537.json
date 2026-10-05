@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791224380241",
+  "object": "chat.completion",
+  "created": 1791224380,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c1\",\"parent\":\"mother\",\"reason\":\"The quiet atmosphere and people watching remind her of her balcony observations.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c1\",\"parent\":\"father\",\"reason\":\"He enjoys regular routines and seeing new people in a calm setting.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true}],\"note\":\"No Telugu events or groups were found this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1151,
+   "completion_tokens": 108,
+   "total_tokens": 1259,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 13.409090995788574
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:19:40.820Z",
+ "latencyMs": 3130
+}

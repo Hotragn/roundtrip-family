@@ -1,0 +1,6 @@
+{
+ "body": "{\"fluency\": 4, \"correctness\": 5, \"note\": \"Natural but 'Bathroom' could be 'బాత్రూం'\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:02:43.973Z"
+}

@@ -1,0 +1,31 @@
+{
+ "body": {
+  "id": "id-1791219800131",
+  "object": "chat.completion",
+  "created": 1791219800,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "Mrs. Chen గారు Mowry Avenue లో ఉన్న Asian market కి వెళ్ళమని చెప్పారు.",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 91,
+   "completion_tokens": 19,
+   "total_tokens": 110,
+   "prompt_tokens_details": {
+    "cached_tokens": 64
+   },
+   "neurons": 1.0545451641082764
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T17:03:20.200Z"
+}

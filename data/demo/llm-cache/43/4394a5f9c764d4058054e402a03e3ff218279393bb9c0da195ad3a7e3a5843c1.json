@@ -1,0 +1,6 @@
+{
+ "body": "```json\n{\"fluency\": 1, \"correctness\": 1, \"note\": \"Complete nonsense; 'సబ్బాతేజులకు' and 'వేటాడుతుంది' are wrong words.\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-05T17:03:54.570Z"
+}
