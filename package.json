@@ -18,7 +18,8 @@
     "typecheck": "pnpm -r --parallel typecheck",
     "seed": "pnpm --filter @roundtrip/scripts exec tsx seed.ts",
     "privacy-check": "pnpm --filter @roundtrip/scripts exec tsx privacy-check.ts",
-    "check-env": "tsx scripts/check-env.ts"
+    "check-env": "tsx scripts/check-env.ts",
+    "costs": "pnpm --filter @roundtrip/scripts exec tsx costs.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.15",

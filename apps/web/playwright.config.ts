@@ -4,7 +4,8 @@ import { defineConfig, devices } from "@playwright/test";
  * End-to-end, offline, accessibility and screenshot checks. Locally this drives the installed
  * Chrome (this machine is Windows on ARM64); CI uses Playwright's own Chromium.
  */
-const baseURL = process.env.E2E_BASE_URL ?? "http://localhost:3000";
+// CI runs the standalone production server bound to 127.0.0.1 (GitHub sets HOSTNAME to the runner name).
+const baseURL = process.env.E2E_BASE_URL ?? (process.env.CI ? "http://127.0.0.1:3000" : "http://localhost:3000");
 const channel = process.env.CI ? undefined : "chrome";
 
 export default defineConfig({
@@ -19,6 +20,7 @@ export default defineConfig({
     ? undefined
     : {
         command: process.env.CI ? "pnpm start" : "pnpm dev",
+        env: process.env.CI ? { HOSTNAME: "127.0.0.1", PORT: "3000" } : {},
         url: baseURL,
         reuseExistingServer: true,
         timeout: 240_000,

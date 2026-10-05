@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791225137041",
+  "object": "chat.completion",
+  "created": 1791225137,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"నాన్నగారు, శనివారం 08:37కి Niles Fremont Farmers Market కి వెళ్దాం. మనం కారులో వెళ్తున్నాం. అక్కడ రకరకాల తాజా కూరగాయలు, పండ్లు ఉంటాయి. 10:28కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Niles Fremont Farmers Market కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 992,
+   "completion_tokens": 87,
+   "total_tokens": 1079,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 11.390909194946289
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:32:17.125Z",
+ "latencyMs": 13313
+}

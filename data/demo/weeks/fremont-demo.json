@@ -1,0 +1,1057 @@
+{
+ "provenance": "synthetic",
+ "note": "Fictional household. Places, events and routes come from live searches; cards are written by the card writer.",
+ "household": {
+  "id": "hh_fremont",
+  "slug": "fremont-demo",
+  "hostCountry": "US",
+  "localLanguage": "en",
+  "timezone": "America/Los_Angeles",
+  "metroArea": "Fremont, California (San Francisco Bay Area)",
+  "homeArea": "Mowry Ave & Fremont Blvd",
+  "helpCardText": "Hello. I am visiting my family and I speak very little English. Please call my family at this number. Thank you.",
+  "localPhrases": {
+   "helpTitle": "Please help me.",
+   "myName": "My name is {name}.",
+   "stayingNear": "I am staying near {area}.",
+   "callFamily": "Please call my family:",
+   "askWay": "Please show me the way to:"
+  },
+  "contact": {
+   "role": "adult_child",
+   "label": "Your child",
+   "phone": "+1 510 555 0142",
+   "fictional": true
+  },
+  "emergency": {
+   "number": "911",
+   "covers": "Police, fire and ambulance",
+   "source": "https://www.911.gov/",
+   "verifiedOn": "2026-10-05"
+  },
+  "secondaryEmergency": null,
+  "safety": {
+   "bufferMinutes": 45,
+   "nudgeWaitMinutes": 20,
+   "daylightOnly": true,
+   "weather": {
+    "blockIce": true,
+    "blockHeavySnow": true,
+    "blockHeatAdvisory": true,
+    "shadeWarningAboveC": 30
+   }
+  }
+ },
+ "parents": [
+  {
+   "id": "p_sarala",
+   "firstName": "Sarala",
+   "addressAs": "అమ్మా",
+   "role": "mother",
+   "language": "te",
+   "readingSupport": "audio_first"
+  },
+  {
+   "id": "p_venkat",
+   "firstName": "Venkat",
+   "addressAs": "నాన్నగారు",
+   "role": "father",
+   "language": "te",
+   "readingSupport": "text_with_sign_words"
+  }
+ ],
+ "people": [
+  {
+   "id": "pp_chen",
+   "label": "Mrs. Chen",
+   "relation": "Neighbor two doors down",
+   "language": "zh",
+   "knownParentIds": [
+    "p_sarala"
+   ],
+   "words": [
+    {
+     "id": "hello",
+     "local": "你好",
+     "romanized": "nǐ hǎo",
+     "pronunciation": "నీ హావ్",
+     "meaning": "నమస్కారం"
+    },
+    {
+     "id": "thanks",
+     "local": "谢谢",
+     "romanized": "xièxie",
+     "pronunciation": "షియె షియె",
+     "meaning": "ధన్యవాదాలు"
+    },
+    {
+     "id": "delicious",
+     "local": "好吃",
+     "romanized": "hǎo chī",
+     "pronunciation": "హావ్ చి",
+     "meaning": "చాలా రుచిగా ఉంది"
+    }
+   ]
+  }
+ ],
+ "feelingWords": [
+  {
+   "feeling": "happy",
+   "words": [
+    "బాగుంది (baagundi)",
+    "సంతోషం (santosham)",
+    "మనసు బాగుంది (manasu baagundi, I feel good inside)"
+   ]
+  },
+  {
+   "feeling": "missing home",
+   "words": [
+    "ఊరు గుర్తొచ్చింది (ooru gurthochindi, I remembered home)"
+   ],
+   "note": "Sarala specifically wants ఊరు, not a formal word for homeland."
+  },
+  {
+   "feeling": "tired",
+   "words": [
+    "అలిసిపోయా (alisipoya)",
+    "ఒళ్లు నొప్పులు (ollu noppulu, body aches)"
+   ]
+  },
+  {
+   "feeling": "bored",
+   "words": [
+    "బోరు (boru)",
+    "ఏం చెయ్యాలో తోచడం లేదు (em cheyyalo tochatam ledu, I don't know what to do)"
+   ]
+  },
+  {
+   "feeling": "lonely",
+   "words": [
+    "ఒంటరిగా ఉంది (ontariga undi)",
+    "ఎవరూ లేరు (evaru leru, nobody is here)"
+   ]
+  },
+  {
+   "feeling": "worried",
+   "words": [
+    "టెన్షన్ (tension)",
+    "కంగారు (kangaru)"
+   ]
+  }
+ ],
+ "week": {
+  "key": "2026-W41",
+  "monday": "2026-10-05",
+  "label": "5 to 11 October 2026"
+ },
+ "planNote": "No Telugu events or groups were found nearby this week.",
+ "outings": [
+  {
+   "id": "hh_fremont:2026-W41:pl_906a027f",
+   "status": "approved",
+   "venue": "Sri Siddhi Vinayaka Cultural Center",
+   "title": "Sri Siddhi Vinayaka Cultural Center",
+   "address": "40155 Blacow Rd, Fremont, CA 94538",
+   "location": {
+    "lat": 37.5275575,
+    "lng": -121.9821257
+   },
+   "category": "temple",
+   "indoor": true,
+   "ladderLevel": 2,
+   "ladderLabel": "Shared culture",
+   "reasonText": "No Telugu events nearby this week. Shared culture. By bus, about 18 minutes each way, back by 10:36.",
+   "chips": [
+    {
+     "label": "Like the temple outings they enjoyed",
+     "feature": "category",
+     "direction": "for"
+    },
+    {
+     "label": "Weekday outings rated lower so far",
+     "feature": "timing",
+     "direction": "against"
+    },
+    {
+     "label": "No familiar faces yet",
+     "feature": "knowsSomeone",
+     "direction": "against"
+    }
+   ],
+   "score": {
+    "pGo": 0.9141,
+    "enjoyment": 3.967,
+    "combined": 3.6266,
+    "rank": 1
+   },
+   "role": "father",
+   "parentIds": [
+    "p_venkat"
+   ],
+   "date": "2026-10-05",
+   "slot": {
+    "day": "mon",
+    "depart": 510,
+    "back": 668,
+    "withAdultChild": false
+   },
+   "withAdultChild": false,
+   "firstRideTogether": true,
+   "bringSomeone": null,
+   "joinCard": {
+    "kind": "volunteer",
+    "local": "I would like to volunteer. I speak Telugu and Hindi.",
+    "meaning": "నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ఈ భాషలు వచ్చు.",
+    "askWho": "Ask at the temple office."
+   },
+   "photo": {
+    "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmroueQq22DG16XNcKg9HYdMnLOtNddY1pil_UH-PBI0FIKg-SOE__lh5nizd18G-xOJJPJ1X7XI2orC5vZtjCHpl-i71q8ZOhRPRqutJHIDakm41Y5twr2v2vilUVMwa5sMo8T=w1000-h1000-c-n",
+    "credit": "Photo: Google Maps contributor"
+   },
+   "landmarkPhotos": [
+    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BWmxTaaMiVC6An3gMi-XhA&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=188.75296&pitch=0&thumbfov=100",
+    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XI1wGyYKChj0_tKvB3HzAQ&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=77.93073&pitch=0&thumbfov=100",
+    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PUCX1Me1c5Chxdv-wKdTuA&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=279.87988&pitch=0&thumbfov=100",
+    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UKPYfT9SByDO5p4yiamFaw&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=270.4353&pitch=0&thumbfov=100",
+    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Xlr6w7SKzcwH34KReKwKSQ&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=188.42485&pitch=0&thumbfov=100"
+   ],
+   "route": {
+    "legs": [
+     {
+      "mode": "walk",
+      "from": {
+       "name": "Mowry Ave & Fremont Blvd",
+       "location": {
+        "lat": 37.5482,
+        "lng": -121.989
+       }
+      },
+      "to": {
+       "name": "Fremont Blvd & Mowry Av"
+      },
+      "durationMinutes": 3,
+      "instructions": [
+       "Head toward Fremont Blvd",
+       "Turn right onto Fremont Blvd",
+       "Turn right",
+       "Turn left"
+      ],
+      "path": [
+       {
+        "lat": 37.5483692932182,
+        "lng": -121.98802429996307
+       },
+       {
+        "lat": 37.54817813251985,
+        "lng": -121.98787723496078
+       }
+      ]
+     },
+     {
+      "mode": "bus",
+      "from": {
+       "name": "Fremont Blvd & Mowry Av"
+      },
+      "to": {
+       "name": "Fremont Blvd & Stevenson Blvd",
+       "location": {
+        "lat": 37.5412429,
+        "lng": -121.973679
+       }
+      },
+      "durationMinutes": 4,
+      "line": {
+       "name": "210",
+       "headsign": "Ohlone College",
+       "agency": "AC TRANSIT"
+      },
+      "numStops": 4,
+      "departureTime": "8:33 AM",
+      "arrivalTime": "8:37 AM",
+      "stopsBetween": [
+       {
+        "name": "Fremont Blvd & Beacon Av"
+       },
+       {
+        "name": "Fremont Blvd & Sundale Dr"
+       },
+       {
+        "name": "Fremont Blvd & Bidwell Dr",
+        "location": {
+         "lat": 37.5422665,
+         "lng": -121.9763516
+        }
+       }
+      ],
+      "stopBefore": {
+       "name": "Fremont Blvd & Bidwell Dr",
+       "location": {
+        "lat": 37.5422665,
+        "lng": -121.9763516
+       }
+      },
+      "instructions": [
+       "Take 210 toward Ohlone College",
+       "Get off at Fremont Blvd & Stevenson Blvd"
+      ],
+      "path": []
+     },
+     {
+      "mode": "walk",
+      "from": {
+       "name": "Fremont Blvd & Stevenson Blvd"
+      },
+      "to": {
+       "name": "Stevenson Blvd. & Fremont Blvd."
+      },
+      "durationMinutes": 3,
+      "instructions": [
+       "Walk"
+      ],
+      "path": []
+     },
+     {
+      "mode": "bus",
+      "from": {
+       "name": "Stevenson Blvd. & Fremont Blvd."
+      },
+      "to": {
+       "name": "Stevenson Blvd & Blacow Rd",
+       "location": {
+        "lat": 37.5289482,
+        "lng": -121.9823568
+       }
+      },
+      "durationMinutes": 3,
+      "line": {
+       "name": "216",
+       "headsign": "Silliman Center",
+       "agency": "AC TRANSIT"
+      },
+      "numStops": 5,
+      "departureTime": "8:57 AM",
+      "arrivalTime": "9:01 AM",
+      "stopsBetween": [
+       {
+        "name": "Stevenson Blvd & Davis St"
+       },
+       {
+        "name": "4445 Stevenson Blvd"
+       },
+       {
+        "name": "Stevenson Blvd & Besco Dr"
+       },
+       {
+        "name": "Stevenson Blvd & Sundale Dr",
+        "location": {
+         "lat": 37.5295171,
+         "lng": -121.9822844
+        }
+       }
+      ],
+      "stopBefore": {
+       "name": "Stevenson Blvd & Sundale Dr",
+       "location": {
+        "lat": 37.5295171,
+        "lng": -121.9822844
+       }
+      },
+      "instructions": [
+       "Take 216 toward Silliman Center",
+       "Get off at Stevenson Blvd & Blacow Rd"
+      ],
+      "path": []
+     },
+     {
+      "mode": "walk",
+      "from": {
+       "name": "Stevenson Blvd & Blacow Rd"
+      },
+      "to": {
+       "name": "Sri Siddhi Vinayaka Cultural Center",
+       "location": {
+        "lat": 37.5275575,
+        "lng": -121.9821257
+       }
+      },
+      "durationMinutes": 3,
+      "instructions": [
+       "Head toward Blacow Rd",
+       "Turn right onto Blacow Rd",
+       "Turn right",
+       "Turn left"
+      ],
+      "path": [
+       {
+        "lat": 37.52821714978054,
+        "lng": -121.98326345821867
+       },
+       {
+        "lat": 37.52800676847226,
+        "lng": -121.9822461886417
+       },
+       {
+        "lat": 37.52794891683361,
+        "lng": -121.9821320879589
+       }
+      ]
+     }
+    ],
+    "totalMinutes": 34,
+    "transfers": 1,
+    "walkingMinutes": 9,
+    "source": "transit_directions",
+    "startsAt": {
+     "name": "Mowry Ave & Fremont Blvd",
+     "location": {
+      "lat": 37.5482,
+      "lng": -121.989
+     }
+    }
+   },
+   "cards": [
+    {
+     "parentId": "p_venkat",
+     "role": "father",
+     "title": "Sri Siddhi Vinayaka Cultural Center కి",
+     "body": "నాన్నగారు, సోమవారం 08:30కి Sri Siddhi Vinayaka Cultural Center కి వెళ్దాం. Fremont Blvd & Mowry Av దగ్గర Bus 210 ఎక్కి, Fremont Blvd & Stevenson Blvd దగ్గర దిగండి. అక్కడి నుండి Bus 216 ఎక్కి Stevenson Blvd & Blacow Rd దగ్గర దిగితే గుడి చేరుకోవచ్చు. అక్కడ దేవుడిని దర్శించుకోవచ్చు. 11:08కి ఇంటికి వచ్చేయొచ్చు.",
+     "writer": {
+      "kind": "gemma",
+      "model": "@cf/google/gemma-4-26b-a4b-it",
+      "latencyMs": 5320
+     },
+     "rubric": {
+      "passed": true,
+      "failures": [],
+      "words": 52,
+      "scriptOk": true
+     },
+     "phrases": [
+      {
+       "id": "shoes",
+       "local": "Where do I leave my shoes?",
+       "pronunciation": "వేర్ డూ ఐ లీవ్ మై షూస్?",
+       "meaning": "చెప్పులు ఎక్కడ విడవాలి?"
+      },
+      {
+       "id": "bathroom",
+       "local": "Where is the bathroom?",
+       "pronunciation": "వేర్ ఈజ్ ద బాత్‌రూమ్?",
+       "meaning": "బాత్‌రూమ్ ఎక్కడ ఉంది?"
+      },
+      {
+       "id": "call",
+       "local": "Please call this number.",
+       "pronunciation": "ప్లీజ్ కాల్ దిస్ నంబర్.",
+       "meaning": "దయచేసి ఈ నంబర్‌కి ఫోన్ చేయండి."
+      }
+     ],
+     "driver": {
+      "lead": "Please tell me when we reach:",
+      "stopName": "Stevenson Blvd & Blacow Rd",
+      "thanks": "Thank you."
+     },
+     "steps": [
+      {
+       "mode": "walk",
+       "text": "Fremont Blvd & Mowry Av స్టాప్ దాకా సుమారు 3 నిమిషాలు నడవండి.",
+       "signWords": [
+        "Fremont Blvd & Mowry Av"
+       ]
+      },
+      {
+       "mode": "bus",
+       "text": "Fremont Blvd & Mowry Av దగ్గర 210 బస్సు ఎక్కండి (Ohlone College వైపు వెళ్ళేది).",
+       "signWords": [
+        "210",
+        "Ohlone College",
+        "Fremont Blvd & Mowry Av"
+       ]
+      },
+      {
+       "mode": "wait",
+       "stops": 4,
+       "text": "4 స్టాపులు కూర్చోండి. Fremont Blvd & Bidwell Dr దాటగానే పసుపు రంగు స్టాప్ పట్టీ లేదా బటన్ నొక్కండి.",
+       "signWords": [
+        "Fremont Blvd & Bidwell Dr",
+        "STOP REQUESTED"
+       ]
+      },
+      {
+       "mode": "arrive",
+       "text": "Fremont Blvd & Stevenson Blvd దగ్గర దిగండి.",
+       "signWords": [
+        "Fremont Blvd & Stevenson Blvd"
+       ]
+      },
+      {
+       "mode": "walk",
+       "text": "Stevenson Blvd. & Fremont Blvd. స్టాప్ దాకా సుమారు 3 నిమిషాలు నడవండి.",
+       "signWords": [
+        "Stevenson Blvd. & Fremont Blvd."
+       ]
+      },
+      {
+       "mode": "bus",
+       "text": "Stevenson Blvd. & Fremont Blvd. దగ్గర 216 బస్సు ఎక్కండి (Silliman Center వైపు వెళ్ళేది).",
+       "signWords": [
+        "216",
+        "Silliman Center",
+        "Stevenson Blvd. & Fremont Blvd."
+       ]
+      },
+      {
+       "mode": "wait",
+       "stops": 5,
+       "text": "5 స్టాపులు కూర్చోండి. Stevenson Blvd & Sundale Dr దాటగానే పసుపు రంగు స్టాప్ పట్టీ లేదా బటన్ నొక్కండి.",
+       "signWords": [
+        "Stevenson Blvd & Sundale Dr",
+        "STOP REQUESTED"
+       ]
+      },
+      {
+       "mode": "arrive",
+       "text": "Stevenson Blvd & Blacow Rd దగ్గర దిగండి.",
+       "signWords": [
+        "Stevenson Blvd & Blacow Rd"
+       ]
+      },
+      {
+       "mode": "walk",
+       "text": "దిగిన తర్వాత Sri Siddhi Vinayaka Cultural Center దాకా సుమారు 3 నిమిషాలు నడవండి.",
+       "signWords": [
+        "Sri Siddhi Vinayaka Cultural Center"
+       ]
+      },
+      {
+       "mode": "arrive",
+       "text": "Sri Siddhi Vinayaka Cultural Center చేరుకున్నారు.",
+       "signWords": [
+        "Sri Siddhi Vinayaka Cultural Center"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hh_fremont:2026-W41:pl_d1f88c93",
+   "status": "approved",
+   "venue": "Karya Siddhi Hanuman Temple",
+   "title": "Karya Siddhi Hanuman Temple - Fremont",
+   "address": "4300 Hansen Ave, Fremont, CA 94536",
+   "location": {
+    "lat": 37.5555613,
+    "lng": -122.01172349999999
+   },
+   "category": "temple",
+   "indoor": true,
+   "ladderLevel": 2,
+   "ladderLabel": "Shared culture",
+   "reasonText": "No Telugu events nearby this week. Shared culture. They enjoyed temple outings before. By bus, about 17 minutes each way, back by 10:34.",
+   "chips": [
+    {
+     "label": "Like the temple outings they enjoyed",
+     "feature": "category",
+     "direction": "for"
+    },
+    {
+     "label": "Weekday outings rated lower so far",
+     "feature": "timing",
+     "direction": "against"
+    },
+    {
+     "label": "A longer ride",
+     "feature": "trip",
+     "direction": "against"
+    }
+   ],
+   "score": {
+    "pGo": 0.9008,
+    "enjoyment": 4.017,
+    "combined": 3.6188,
+    "rank": 2
+   },
+   "role": "mother",
+   "parentIds": [
+    "p_sarala"
+   ],
+   "date": "2026-10-05",
+   "slot": {
+    "day": "mon",
+    "depart": 510,
+    "back": 640,
+    "withAdultChild": false
+   },
+   "withAdultChild": false,
+   "firstRideTogether": true,
+   "bringSomeone": null,
+   "joinCard": {
+    "kind": "volunteer",
+    "local": "I would like to volunteer. I speak Telugu.",
+    "meaning": "నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ఈ భాషలు వచ్చు.",
+    "askWho": "Ask at the temple office."
+   },
+   "photo": {
+    "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWme9mzp-CroVT4_19jl0H6WpIGTakMq4isFoB5j-g5ewfKpxZCmmP5KEMd7vZWMcxH84alVrvkQLyeGOtp_CH1EA2xPexE0Yv1dFrbUToKl99m1uJcA_h5dVmmve47QyL5imK0JGygkiZSD=w1000-h1000-c-n",
+    "credit": "Photo: Google Maps contributor"
+   },
+   "landmarkPhotos": [
+    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=2bgZJNFsLpGvMpmX4WHMsw&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=302.49826&pitch=0&thumbfov=100",
+    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VmLgR--I5O7n2GdT5_fy9w&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=126.71456&pitch=0&thumbfov=100",
+    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ivPlrbUOy7lPHbgiEFH3mA&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=121.79942&pitch=0&thumbfov=100"
+   ],
+   "route": {
+    "legs": [
+     {
+      "mode": "walk",
+      "from": {
+       "name": "Mowry Ave & Fremont Blvd",
+       "location": {
+        "lat": 37.5482,
+        "lng": -121.989
+       }
+      },
+      "to": {
+       "name": "Fremont Blvd & Mowry Ave"
+      },
+      "durationMinutes": 3,
+      "instructions": [
+       "Head toward Fremont Blvd",
+       "Turn right onto Fremont Blvd"
+      ],
+      "path": []
+     },
+     {
+      "mode": "bus",
+      "from": {
+       "name": "Fremont Blvd & Mowry Ave"
+      },
+      "to": {
+       "name": "Fremont Blvd. at Peralta Ct."
+      },
+      "durationMinutes": 8,
+      "line": {
+       "name": "211",
+       "headsign": "Union City BART",
+       "agency": "AC TRANSIT"
+      },
+      "numStops": 7,
+      "departureTime": "8:37 AM",
+      "arrivalTime": "8:46 AM",
+      "stopsBetween": [
+       {
+        "name": "38932 Fremont Blvd (Near Mowry Av)"
+       },
+       {
+        "name": "Fremont Blvd & Country Dr"
+       },
+       {
+        "name": "Fremont Blvd & Eggers Dr"
+       },
+       {
+        "name": "Fremont Blvd & Village Ter"
+       },
+       {
+        "name": "Fremont Blvd & Centerville Jr High School"
+       },
+       {
+        "name": "Fremont Blvd & Central Av",
+        "location": {
+         "lat": 37.5560942,
+         "lng": -122.0031739
+        }
+       }
+      ],
+      "stopBefore": {
+       "name": "Fremont Blvd & Central Av",
+       "location": {
+        "lat": 37.5560942,
+        "lng": -122.0031739
+       }
+      },
+      "instructions": [
+       "Take 211 toward Union City BART",
+       "Get off at Fremont Blvd. at Peralta Ct."
+      ],
+      "path": []
+     },
+     {
+      "mode": "walk",
+      "from": {
+       "name": "Fremont Blvd. at Peralta Ct."
+      },
+      "to": {
+       "name": "Karya Siddhi Hanuman Temple",
+       "location": {
+        "lat": 37.5555613,
+        "lng": -122.01172349999999
+       }
+      },
+      "durationMinutes": 8,
+      "instructions": [
+       "Head northwest on Fremont Blvd",
+       "Turn left onto Baine Ave",
+       "Turn right toward Hansen Ave",
+       "Turn left onto Hansen Ave"
+      ],
+      "path": [
+       {
+        "lat": 37.55846159093604,
+        "lng": -122.00747045117222
+       },
+       {
+        "lat": 37.555486502422326,
+        "lng": -122.01022008451532
+       },
+       {
+        "lat": 37.555790427365345,
+        "lng": -122.01145916220044
+       }
+      ]
+     }
+    ],
+    "totalMinutes": 20,
+    "transfers": 0,
+    "walkingMinutes": 11,
+    "source": "transit_directions",
+    "startsAt": {
+     "name": "Mowry Ave & Fremont Blvd",
+     "location": {
+      "lat": 37.5482,
+      "lng": -121.989
+     }
+    }
+   },
+   "cards": [
+    {
+     "parentId": "p_sarala",
+     "role": "mother",
+     "title": "Karya Siddhi Hanuman Temple కి",
+     "body": "అమ్మా, సోమవారం 08:30కి Karya Siddhi Hanuman Temple కి వెళ్దాం. Fremont Blvd & Mowry Ave దగ్గర Bus 211 ఎక్కండి, 7 స్టాపుల తర్వాత Fremont Blvd. at Peralta Ct. దగ్గర దిగండి. అక్కడి నుండి 8 నిమిషాల నడక. అక్కడ దేవుడిని దర్శించుకోవచ్చు. 10:40కి ఇంటికి వచ్చేయొచ్చు. ఎవరికీ మీ బ్యాంక్ వివరాలు చెప్పకండి, ఎవరికీ డబ్బులు ఇవ్వకండి.",
+     "writer": {
+      "kind": "gemma",
+      "model": "@cf/google/gemma-4-26b-a4b-it",
+      "latencyMs": 5641
+     },
+     "rubric": {
+      "passed": true,
+      "failures": [],
+      "words": 52,
+      "scriptOk": true
+     },
+     "phrases": [
+      {
+       "id": "shoes",
+       "local": "Where do I leave my shoes?",
+       "pronunciation": "వేర్ డూ ఐ లీవ్ మై షూస్?",
+       "meaning": "చెప్పులు ఎక్కడ విడవాలి?"
+      },
+      {
+       "id": "bathroom",
+       "local": "Where is the bathroom?",
+       "pronunciation": "వేర్ ఈజ్ ద బాత్‌రూమ్?",
+       "meaning": "బాత్‌రూమ్ ఎక్కడ ఉంది?"
+      },
+      {
+       "id": "call",
+       "local": "Please call this number.",
+       "pronunciation": "ప్లీజ్ కాల్ దిస్ నంబర్.",
+       "meaning": "దయచేసి ఈ నంబర్‌కి ఫోన్ చేయండి."
+      }
+     ],
+     "driver": {
+      "lead": "Please tell me when we reach:",
+      "stopName": "Fremont Blvd. at Peralta Ct.",
+      "thanks": "Thank you."
+     },
+     "steps": [
+      {
+       "mode": "walk",
+       "text": "Fremont Blvd & Mowry Ave స్టాప్ దాకా సుమారు 3 నిమిషాలు నడవండి.",
+       "signWords": [
+        "Fremont Blvd & Mowry Ave"
+       ]
+      },
+      {
+       "mode": "bus",
+       "text": "Fremont Blvd & Mowry Ave దగ్గర 211 బస్సు ఎక్కండి (Union City BART వైపు వెళ్ళేది).",
+       "signWords": [
+        "211",
+        "Union City BART",
+        "Fremont Blvd & Mowry Ave"
+       ]
+      },
+      {
+       "mode": "wait",
+       "stops": 7,
+       "text": "7 స్టాపులు కూర్చోండి. Fremont Blvd & Central Av దాటగానే పసుపు రంగు స్టాప్ పట్టీ లేదా బటన్ నొక్కండి.",
+       "signWords": [
+        "Fremont Blvd & Central Av",
+        "STOP REQUESTED"
+       ]
+      },
+      {
+       "mode": "arrive",
+       "text": "Fremont Blvd. at Peralta Ct. దగ్గర దిగండి.",
+       "signWords": [
+        "Fremont Blvd. at Peralta Ct."
+       ]
+      },
+      {
+       "mode": "walk",
+       "text": "దిగిన తర్వాత Karya Siddhi Hanuman Temple దాకా సుమారు 8 నిమిషాలు నడవండి.",
+       "signWords": [
+        "Karya Siddhi Hanuman Temple"
+       ]
+      },
+      {
+       "mode": "arrive",
+       "text": "Karya Siddhi Hanuman Temple చేరుకున్నారు.",
+       "signWords": [
+        "Karya Siddhi Hanuman Temple"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hh_fremont:2026-W41:pl_7836967d",
+   "status": "suggested",
+   "venue": "Central Park",
+   "title": "Central Park",
+   "address": "40000 Paseo Padre Pkwy, Fremont, CA 94538",
+   "location": {
+    "lat": 37.5477609,
+    "lng": -121.9654384
+   },
+   "category": "park",
+   "indoor": false,
+   "ladderLevel": 3,
+   "ladderLabel": "Language barely matters",
+   "reasonText": "No Telugu events nearby this week. No language needed. They enjoyed visiting parks before. By bus, about 17 minutes each way, back by 10:04.",
+   "chips": [
+    {
+     "label": "Weekday outings rated lower so far",
+     "feature": "timing",
+     "direction": "against"
+    },
+    {
+     "label": "Like the park outings they enjoyed",
+     "feature": "category",
+     "direction": "for"
+    },
+    {
+     "label": "Not in their language",
+     "feature": "languageMatch",
+     "direction": "against"
+    }
+   ],
+   "score": {
+    "pGo": 0.9636,
+    "enjoyment": 3.48,
+    "combined": 3.3535,
+    "rank": 3
+   },
+   "role": "mother",
+   "parentIds": [
+    "p_sarala"
+   ],
+   "date": "2026-10-09",
+   "slot": {
+    "day": "fri",
+    "depart": 510,
+    "back": 604,
+    "withAdultChild": false
+   },
+   "withAdultChild": false,
+   "firstRideTogether": true,
+   "bringSomeone": {
+    "personId": "pp_chen",
+    "label": "Mrs. Chen",
+    "why": "No shared language is needed here, so a neighbor can easily come along."
+   },
+   "joinCard": null,
+   "photo": {
+    "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S2iIY3yflAA8mnwOEVuaoMJM-RVmbgZHiMrPfANEAfmkkiq1F80v_3QziWuwJqN9aX6VcR2YFaXH_iOxANsY8zjoBWox2QBwPvjDZmHo8OG0gh6FIDzGXKHkTyEXpaXyOhyJApbQ=w1000-h1000-c-n",
+    "credit": "Photo: Google Maps contributor"
+   },
+   "landmarkPhotos": [],
+   "route": null,
+   "cards": []
+  },
+  {
+   "id": "hh_fremont:2026-W41:pl_366cab34",
+   "status": "approved",
+   "venue": "Indian Market",
+   "title": "Indian Market",
+   "address": "3890 Walnut Ave, Fremont, CA 94538",
+   "location": {
+    "lat": 37.5464078,
+    "lng": -121.9816967
+   },
+   "category": "indian_grocery",
+   "indoor": true,
+   "ladderLevel": 2,
+   "ladderLabel": "Shared culture",
+   "reasonText": "No Telugu events nearby this week. Shared culture. They liked the Indian grocery outings before. A 12-minute walk, back by 09:44.",
+   "chips": [
+    {
+     "label": "Like the indian grocery outings they enjoyed",
+     "feature": "category",
+     "direction": "for"
+    },
+    {
+     "label": "Weekday outings rated lower so far",
+     "feature": "timing",
+     "direction": "against"
+    },
+    {
+     "label": "No familiar faces yet",
+     "feature": "knowsSomeone",
+     "direction": "against"
+    }
+   ],
+   "score": {
+    "pGo": 0.9315,
+    "enjoyment": 3.586,
+    "combined": 3.3409,
+    "rank": 4
+   },
+   "role": "mother",
+   "parentIds": [
+    "p_sarala"
+   ],
+   "date": "2026-10-07",
+   "slot": {
+    "day": "wed",
+    "depart": 510,
+    "back": 588,
+    "withAdultChild": false
+   },
+   "withAdultChild": false,
+   "firstRideTogether": true,
+   "bringSomeone": null,
+   "joinCard": null,
+   "photo": {
+    "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeDwSDTKiPFQyrv-yuPW3HEdft0fsojNsFetmQVL8U5Yn3Op8ceqOLLWntFi5D5At01Bfl5dMW26RmMvyWq2WmFk21YMcDq1ORTWORil70w1nfi_jYXKl1n1qdculPUgS1HT7m-=w1000-h1000-c-n",
+    "credit": "Photo: Google Maps contributor"
+   },
+   "landmarkPhotos": [
+    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=7f6jOc7BfIaXK27GawdlCw&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=234.32478&pitch=0&thumbfov=100",
+    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kfSAim0HCy817H1N2sPkqg&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=117.860405&pitch=0&thumbfov=100"
+   ],
+   "route": {
+    "legs": [
+     {
+      "mode": "walk",
+      "from": {
+       "name": "Mowry Ave & Fremont Blvd",
+       "location": {
+        "lat": 37.5482,
+        "lng": -121.989
+       }
+      },
+      "to": {
+       "name": "Indian Market",
+       "location": {
+        "lat": 37.5464078,
+        "lng": -121.9816967
+       }
+      },
+      "durationMinutes": 14,
+      "instructions": [
+       "Head toward Fremont Blvd",
+       "Turn right onto Fremont Blvd",
+       "Turn left onto Beacon Ave",
+       "Turn right onto California St",
+       "Turn right"
+      ],
+      "path": [
+       {
+        "lat": 37.54788174843091,
+        "lng": -121.98275864240937
+       },
+       {
+        "lat": 37.5471827754358,
+        "lng": -121.98145077859368
+       }
+      ]
+     }
+    ],
+    "totalMinutes": 14,
+    "transfers": 0,
+    "walkingMinutes": 14,
+    "source": "walking_directions",
+    "startsAt": {
+     "name": "Mowry Ave & Fremont Blvd",
+     "location": {
+      "lat": 37.5482,
+      "lng": -121.989
+     }
+    }
+   },
+   "cards": [
+    {
+     "parentId": "p_sarala",
+     "role": "mother",
+     "title": "Indian Market కి",
+     "body": "అమ్మా, బుధవారం 08:30కి Indian Market కి వెళ్దాం. 14 నిమిషాల నడకతో అక్కడికి చేరుకోవచ్చు. మీకు నచ్చిన భారతీయ వస్తువులు అక్కడ దొరుకుతాయి. 09:48కి ఇంటికి వచ్చేయొచ్చు.",
+     "writer": {
+      "kind": "gemma",
+      "model": "@cf/google/gemma-4-26b-a4b-it",
+      "latencyMs": 2587
+     },
+     "rubric": {
+      "passed": true,
+      "failures": [],
+      "words": 24,
+      "scriptOk": true
+     },
+     "phrases": [
+      {
+       "id": "how_much",
+       "local": "How much?",
+       "pronunciation": "హౌ మచ్?",
+       "meaning": "ఎంత?"
+      },
+      {
+       "id": "dont_understand",
+       "local": "I don't understand.",
+       "pronunciation": "ఐ డోంట్ అండర్‌స్టాండ్.",
+       "meaning": "నాకు అర్థం కాలేదు."
+      },
+      {
+       "id": "call",
+       "local": "Please call this number.",
+       "pronunciation": "ప్లీజ్ కాల్ దిస్ నంబర్.",
+       "meaning": "దయచేసి ఈ నంబర్‌కి ఫోన్ చేయండి."
+      }
+     ],
+     "driver": {
+      "lead": "Please tell me when we reach:",
+      "stopName": "Indian Market",
+      "thanks": "Thank you."
+     },
+     "steps": [
+      {
+       "mode": "walk",
+       "text": "ఇంటి దగ్గర నుండి Indian Market దాకా సుమారు 14 నిమిషాలు నడవండి.",
+       "signWords": [
+        "Indian Market"
+       ]
+      },
+      {
+       "mode": "arrive",
+       "text": "Indian Market చేరుకున్నారు.",
+       "signWords": [
+        "Indian Market"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "query": "Stevenson Blvd & Sundale Dr, Fremont",
+ "location": {
+  "lat": 37.5295171,
+  "lng": -121.9822844
+ },
+ "displayName": "Stevenson Boulevard & Sundale Drive, Stevenson Boulevard, Irvington District, Fremont, Alameda County, California, 94538, United States",
+ "source": "OpenStreetMap Nominatim (ODbL)"
+}

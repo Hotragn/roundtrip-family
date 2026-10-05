@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791225174823",
+  "object": "chat.completion",
+  "created": 1791225174,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"body\": \"నాన్నగారు, సోమవారం 08:30కి Bharat Bazar కి వెళ్దాం. 5 నిమిషాల నడకతో అక్కడికి చేరుకోవచ్చు. అక్కడ మన భారతీయ వస్తువులు, కూరగాయలు దొరుకుతాయి. మీరు 09:30కి ఇంటికి వచ్చేయొచ్చు.\" , \"title\": \"Bharat Bazar కి\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1097,
+   "completion_tokens": 88,
+   "total_tokens": 1185,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 12.372726440429688
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:32:55.017Z",
+ "latencyMs": 11563
+}

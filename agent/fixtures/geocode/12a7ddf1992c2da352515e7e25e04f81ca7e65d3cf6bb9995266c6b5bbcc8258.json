@@ -1,0 +1,9 @@
+{
+ "query": "Stevenson Blvd & Blacow Rd, Fremont",
+ "location": {
+  "lat": 37.5289482,
+  "lng": -121.9823568
+ },
+ "displayName": "Stevenson Boulevard & Blacow Road, Stevenson Boulevard, Irvington District, Fremont, Alameda County, California, 94538, United States",
+ "source": "OpenStreetMap Nominatim (ODbL)"
+}

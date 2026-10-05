@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791225485434",
+  "object": "chat.completion",
+  "created": 1791225485,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"body\": \"నాన్నగారు, సోమవారం 08:00కి Desi Markt కి వెళ్దాం. 12 నిమిషాలు నడిచి మీరు వెళ్ళవచ్చు. అక్కడ మన భారతీయ వస్తువులు దొరుకుతాయి. 09:14కి ఇంటికి వచ్చేయొచ్చు.\" , \"title\": \"Desi Markt కి\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1104,
+   "completion_tokens": 81,
+   "total_tokens": 1185,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 12.245454788208008
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:38:05.508Z",
+ "latencyMs": 2152
+}

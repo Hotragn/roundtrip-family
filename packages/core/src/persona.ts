@@ -173,7 +173,8 @@ export function loadFremontPersona(root = repoRoot()): HouseholdBundle {
     metroArea: "Fremont, California (San Francisco Bay Area)",
     homeArea: {
       label: "Mowry Ave & Fremont Blvd",
-      nearestStop: { name: "Mowry Ave & Fremont Blvd", location: { lat: 37.5547, lng: -121.9848 } },
+      // The AC Transit stop "Mowry Avenue & Fremont Boulevard" in OpenStreetMap (Nominatim, 2026-10-05).
+      nearestStop: { name: "Mowry Ave & Fremont Blvd", location: { lat: 37.5482, lng: -121.989 } },
       areaCenter: { lat: 37.555, lng: -121.982 },
       searchLocation: "Fremont, California, United States",
     },
@@ -181,6 +182,13 @@ export function loadFremontPersona(root = repoRoot()): HouseholdBundle {
     contacts: [{ role: "adult_child", label: "Your child", phone: "+1 510 555 0142", fictional: true }],
     helpCardText:
       "Hello. I am visiting my family and I speak very little English. Please call my family at this number. Thank you.",
+    localPhrases: {
+      helpTitle: "Please help me.",
+      myName: "My name is {name}.",
+      stayingNear: "I am staying near {area}.",
+      callFamily: "Please call my family:",
+      askWay: "Please show me the way to:",
+    },
     aloneWindows: ["mon", "wed", "fri"].map((day) => ({ day, start: "08:30", end: "17:30" })),
     safety: {
       bufferMinutes: 45,

@@ -27,6 +27,6 @@ Data classes: **public** (search terms with only language, interest and area; pu
 | OpenFreeMap tiles | Tile coordinates around the route | Map tiles for dashboard route previews, loaded by the browser | public | browser | [docs](https://openfreemap.org/) |
 | Google image CDN (place photos from search results) | An image request; no household data | Place photos on tickets, loaded by the browser | public | browser | [docs](https://serpapi.com/google-maps-api) |
 | Poly Haven and ambientCG | Nothing but the asset request | CC0 textures and HDRIs for baked renders | public | build | [docs](https://api.polyhaven.com/) |
-| Google Fonts (build time) | Nothing but the font request | Hind and Hind Guntur, downloaded at build time and self-hosted | public | build | [docs](https://nextjs.org/docs/app/getting-started/fonts) |
+| google/fonts on GitHub (logo build only) | Nothing but the file request | Hind and Hind Guntur source files for drawing the logo (scripts/brand). The site's own font files are committed in apps/web/app/fonts, so no font request leaves a visitor's phone | public | build | [docs](https://github.com/google/fonts) |
 
 In demo mode everything is synthetic. Diary entries are encrypted before storage in every mode, and no route carries diary content.

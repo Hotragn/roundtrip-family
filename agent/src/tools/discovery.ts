@@ -132,7 +132,10 @@ export async function searchPlaces(
 export interface DirectionsArgs {
   fromStop: { name: string; location: LatLng };
   to: { name: string; address: string; location?: LatLng | null };
-  /** Unix seconds for the departure. */
+  /**
+   * Departure as seconds. SerpApi reads this as UTC wall-clock time, so pass the local time
+   * encoded as if it were UTC (see localWallClock); checked on a live response, 2026-10-05.
+   */
   departAt: number;
   area: Area;
   weekKey: string;
@@ -160,4 +163,10 @@ export async function getDirections(serp: SerpApi, args: DirectionsArgs): Promis
     note: `directions: ${args.fromStop.name} to ${args.to.name} (${args.mode ?? "transit"})`,
   });
   return data;
+}
+
+/** Local wall-clock time as SerpApi's depart_at expects it: e.g. 08:30 on 2026-10-05 -> Date.UTC(2026, 9, 5, 8, 30). */
+export function localWallClock(date: string, minutes: number): number {
+  const [y, m, d] = date.split("-").map(Number) as [number, number, number];
+  return Math.floor(Date.UTC(y, m - 1, d, Math.floor(minutes / 60), minutes % 60) / 1000);
 }

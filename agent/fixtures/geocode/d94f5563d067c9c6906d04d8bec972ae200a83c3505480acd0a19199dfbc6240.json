@@ -1,0 +1,9 @@
+{
+ "query": "Fremont Blvd & Stevenson Blvd, Fremont",
+ "location": {
+  "lat": 37.5412429,
+  "lng": -121.973679
+ },
+ "displayName": "Fremont Boulevard & Stevenson Boulevard, Fremont Boulevard, Fremont, Alameda County, California, 94538, United States",
+ "source": "OpenStreetMap Nominatim (ODbL)"
+}

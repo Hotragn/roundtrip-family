@@ -238,13 +238,14 @@ export const OUTBOUND: OutboundRoute[] = [
   },
   {
     id: "fonts",
-    service: "Google Fonts (build time)",
-    hosts: ["fonts.googleapis.com", "fonts.gstatic.com", "raw.githubusercontent.com"],
-    purpose: "Hind and Hind Guntur, downloaded at build time and self-hosted",
-    sends: "Nothing but the font request",
+    service: "google/fonts on GitHub (logo build only)",
+    hosts: ["raw.githubusercontent.com"],
+    purpose:
+      "Hind and Hind Guntur source files for drawing the logo (scripts/brand). The site's own font files are committed in apps/web/app/fonts, so no font request leaves a visitor's phone",
+    sends: "Nothing but the file request",
     accepts: ["public"],
     when: "build",
-    docs: "https://nextjs.org/docs/app/getting-started/fonts",
+    docs: "https://github.com/google/fonts",
   },
 ];
 

@@ -1,0 +1,9 @@
+{
+ "query": "Fremont Blvd:Central Av, Fremont",
+ "location": {
+  "lat": 37.5560942,
+  "lng": -122.0031739
+ },
+ "displayName": "Fremont Boulevard & Central Avenue, Fremont Boulevard, Centerville District, Fremont, Alameda County, California, 94536, United States",
+ "source": "OpenStreetMap Nominatim (ODbL)"
+}

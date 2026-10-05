@@ -25,6 +25,8 @@ interface SerpTrip {
   end_stop?: SerpStop;
   stops?: SerpStop[];
   service_run_by?: { name?: string; link?: string } | string;
+  /** Google's transit icon, e.g. https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg */
+  icon?: string;
   details?: Array<{
     title?: string;
     gps_coordinates?: { latitude: number; longitude: number };
@@ -41,7 +43,29 @@ interface SerpDirection {
   trips?: SerpTrip[];
 }
 
-const RAIL = /\b(BART|Caltrain|ACE|U\d|S\d|U-Bahn|S-Bahn|Tram|Train|Bahn)\b/i;
+/**
+ * Bus, rail or ferry. Google's transit icon names the vehicle (bus2.svg, de-sbahn.svg,
+ * de-metro.svg, rail.svg, tram.svg, ferry.svg), so it decides first. Without an icon, only the
+ * line name and operator count: a headsign like "Union City BART" is where a bus goes, not
+ * what it is.
+ */
+const ICON_SEA = /ferry|boat/i;
+const ICON_BUS = /bus|coach|trolley/i;
+const ICON_RAIL = /rail|train|metro|subway|tram|sbahn|ubahn|cable|funicular/i;
+const LINE_RAIL = /^(?:U\d+|S\d+|RE\d*|RB\d*|ICE|IC|EC)$/i;
+const AGENCY_RAIL = /\b(BART|Caltrain|ACE|Amtrak|S-Bahn|U-Bahn|Tram|Rail|Railway|DB Regio|Bahn)\b/i;
+const AGENCY_SEA = /\b(Ferry|Ferries|Fähre|Schiff)\b/i;
+
+export function vehicleOf(t: Pick<SerpTrip, "icon" | "service_run_by">, lineName: string): TravelMode {
+  const icon = (t.icon ?? "").split("/").pop() ?? "";
+  if (ICON_SEA.test(icon)) return "sea";
+  if (ICON_BUS.test(icon)) return "bus";
+  if (ICON_RAIL.test(icon)) return "rail";
+  const agency = typeof t.service_run_by === "string" ? t.service_run_by : (t.service_run_by?.name ?? "");
+  if (AGENCY_SEA.test(agency)) return "sea";
+  if (LINE_RAIL.test(lineName) || AGENCY_RAIL.test(agency)) return "rail";
+  return "bus";
+}
 
 function lineOf(t: SerpTrip): { name: string; headsign?: string; agency?: string } {
   const title = (t.title ?? "").trim();
@@ -50,7 +74,12 @@ function lineOf(t: SerpTrip): { name: string; headsign?: string; agency?: string
   return m ? { name: m[1]!, headsign: m[2]!, agency } : { name: title, agency };
 }
 
-const clean = (s: string) => s.replace(/\s+/g, " ").trim();
+/** Stop names arrive as "Fremont Blvd:Central Av" or with doubled spaces; show them as signs do. */
+const clean = (s: string) =>
+  s
+    .replace(/\s*:\s*/g, " & ")
+    .replace(/\s+/g, " ")
+    .trim();
 
 function path(t: SerpTrip): LatLng[] {
   return (t.details ?? []).flatMap((d) =>
@@ -79,7 +108,7 @@ function toRoute(d: SerpDirection, ctx: { from: Stop; to: Stop }): Route {
     if (t.travel_mode === "Transit") {
       const line = lineOf(t);
       const between = (t.stops ?? []).map((s) => ({ name: clean(s.name) }));
-      const mode: TravelMode = RAIL.test(`${t.title ?? ""} ${line.agency ?? ""}`) ? "rail" : "bus";
+      const mode = vehicleOf(t, line.name);
       return {
         mode,
         from: { name: clean(t.start_stop?.name ?? "") },

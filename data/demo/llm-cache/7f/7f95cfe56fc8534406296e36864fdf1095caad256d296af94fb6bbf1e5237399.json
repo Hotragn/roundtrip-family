@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791225478859",
+  "object": "chat.completion",
+  "created": 1791225478,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"నాన్నగారు, మంగళవారం 08:00కి Balan Park కి వెళ్దాం. Neuperlach Zentrum కి 2 నిమిషాలు నడిచి, అక్కడ Bus 139 ఎక్కండి. 11 స్టాపుల తర్వాత Balanstraße దగ్గర దిగి, 10 నిమిషాలు నడిస్తే Balan Park చేరుకుంటారు. అక్కడ పార్కులో కాసేపు హాయిగా ఉండొచ్చు. 10:00కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Balan Park కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1042,
+   "completion_tokens": 131,
+   "total_tokens": 1173,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 13.045454025268555
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:37:59.214Z",
+ "latencyMs": 3237
+}

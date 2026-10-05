@@ -1,5 +1,5 @@
 {
- "liveSearches": 25,
+ "liveSearches": 34,
  "log": [
   {
    "ts": "2026-10-05T17:05:37.992Z",
@@ -156,6 +156,60 @@
    "engine": "google_maps",
    "key": "98edea29ba22185efa6b3ce1aa72f6047ff4cdb9738e64b3ce81790ea1c29126",
    "note": "places: public library"
+  },
+  {
+   "ts": "2026-10-05T18:32:23.063Z",
+   "engine": "google_maps_directions",
+   "key": "c985d1e54fe829a4471bba925ad7e07489941f13ff96f22c1e7f9f2b148994c7",
+   "note": "directions: Mowry Ave & Fremont Blvd to Karya Siddhi Hanuman Temple (transit)"
+  },
+  {
+   "ts": "2026-10-05T18:32:31.128Z",
+   "engine": "google_maps_directions",
+   "key": "e3b28496bebd308e5281dda5bad16920ce734adb4a57430a7427c74639840180",
+   "note": "directions: Mowry Ave & Fremont Blvd to Indian Market (transit)"
+  },
+  {
+   "ts": "2026-10-05T18:32:39.432Z",
+   "engine": "google_maps_directions",
+   "key": "ae180c0fd73a955ca6b09abc934a5b62d88dd4147f15b7b5f4a5de7ae43c7a2b",
+   "note": "directions: Mowry Ave & Fremont Blvd to Bharat Bazar (walking)"
+  },
+  {
+   "ts": "2026-10-05T18:32:56.383Z",
+   "engine": "google_maps_directions",
+   "key": "1ef0ccd3d2eee2fd2b4a4d9d94c516eff77ac4077119acd10ea998b4a9b4c277",
+   "note": "directions: Neuperlach Zentrum to Hariom Temple (transit)"
+  },
+  {
+   "ts": "2026-10-05T18:33:05.780Z",
+   "engine": "google_maps_directions",
+   "key": "f7d937cee4cb6580d8b9e6148c57031f57b6cc4e899af46ddfd47a0909db1596",
+   "note": "directions: Neuperlach Zentrum to Balan Park (transit)"
+  },
+  {
+   "ts": "2026-10-05T18:33:11.844Z",
+   "engine": "google_maps_directions",
+   "key": "b01f50df0930a937b46b3d37f74c4cbadbc02063e44a277d04a4a1bb2b97c639",
+   "note": "directions: Neuperlach Zentrum to Desi Markt (walking)"
+  },
+  {
+   "ts": "2026-10-05T18:37:42.301Z",
+   "engine": "google_maps_directions",
+   "key": "7f41cf29e64d3b1a6c6362d5399a1eae1c5e64458db5cdf3e5a24315adb8d3d6",
+   "note": "directions: Mowry Ave & Fremont Blvd to Karya Siddhi Hanuman Temple (transit)"
+  },
+  {
+   "ts": "2026-10-05T18:37:49.498Z",
+   "engine": "google_maps_directions",
+   "key": "d21b4840490e97e3c570291fa236a49331557cb1eb01b3c58355727316aec42c",
+   "note": "directions: Mowry Ave & Fremont Blvd to Indian Market (walking)"
+  },
+  {
+   "ts": "2026-10-05T18:38:50.592Z",
+   "engine": "google_maps_directions",
+   "key": "b5644813b9bb154105153aa8f7a3f12a2e6d83b76066f7411f91b25a04a4a2fb",
+   "note": "directions: Mowry Ave & Fremont Blvd to Sri Siddhi Vinayaka Cultural Center (transit)"
   }
  ]
 }

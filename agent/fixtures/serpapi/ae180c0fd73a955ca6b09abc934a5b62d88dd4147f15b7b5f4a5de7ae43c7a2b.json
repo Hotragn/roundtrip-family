@@ -1,0 +1,138 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps_directions",
+ "request": "https://serpapi.com/search.json?engine=google_maps_directions&start_coords=37.5547%2C-121.9848&travel_mode=2&hl=en&gl=us&distance_unit=1&end_coords=37.5520269%2C-121.98512489999999",
+ "note": "directions: Mowry Ave & Fremont Blvd to Bharat Bazar (walking)",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T18:32:39.433Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps_directions",
+   "hl": "en",
+   "gl": "us",
+   "start_coords": "37.5547,-121.9848",
+   "end_coords": "37.5520269,-121.98512489999999",
+   "travel_mode": "2",
+   "distance_unit": "1"
+  },
+  "places_info": [
+   {
+    "address": "37.5547000, -121.9848000",
+    "gps_coordinates": {
+     "latitude": 37.5547,
+     "longitude": -121.98479999999999
+    }
+   },
+   {
+    "address": "37.5520269, -121.9851249",
+    "gps_coordinates": {
+     "latitude": 37.5520269,
+     "longitude": -121.98512489999999
+    }
+   }
+  ],
+  "directions": [
+   {
+    "travel_mode": "Walking",
+    "via": "Mowry Ave",
+    "distance": 379,
+    "duration": 328,
+    "formatted_distance": "0.2 mile",
+    "formatted_duration": "5 min",
+    "icon": "https://serpapi.com/assets/google_maps_directions/walking.svg",
+    "elevation_profile": {
+     "ascent": 0,
+     "descent": 1,
+     "max_altitude": 17,
+     "min_altitude": 16,
+     "formatted_ascent": "0 ft",
+     "formatted_descent": "3 ft",
+     "formatted_max_altitude": "56 ft",
+     "formatted_min_altitude": "52 ft"
+    },
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "distance": 379,
+      "duration": 328,
+      "formatted_distance": "0.2 mi",
+      "formatted_duration": "5 min",
+      "details": [
+       {
+        "title": "Exit the parking lot toward  Mowry Ave",
+        "action": "straight",
+        "distance": 94,
+        "duration": 74,
+        "formatted_distance": "308 ft",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BzTocy9LgREpbIzqk9yiVg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=307.73526&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55476208897778,
+         "longitude": -121.98484409452159
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Mowry Ave",
+        "action": "turn-right",
+        "distance": 138,
+        "duration": 112,
+        "formatted_distance": "453 ft",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gzfn2cS09F7BsBM0gJ67hQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=123.105095&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55441583160118,
+         "longitude": -121.98415516653498
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Hastings St",
+        "action": "turn-left",
+        "distance": 17,
+        "duration": 26,
+        "formatted_distance": "56 ft",
+        "formatted_duration": "26 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Mowry Ave",
+        "action": "turn-right",
+        "distance": 130,
+        "duration": 116,
+        "formatted_distance": "427 ft",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=4JBt4wCCvTwsVAS2W1e1QA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=169.07137&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55315003229078,
+         "longitude": -121.98479463761915
+        },
+        "extensions": [
+         "Destination will be on the left"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "durations": [
+   {
+    "travel_mode": "Driving",
+    "duration": 96,
+    "formatted_duration": "2 min"
+   },
+   {
+    "travel_mode": "Walking",
+    "duration": 328,
+    "formatted_duration": "5 min"
+   },
+   {
+    "travel_mode": "Cycling",
+    "duration": 132,
+    "formatted_duration": "2 min"
+   }
+  ]
+ }
+}

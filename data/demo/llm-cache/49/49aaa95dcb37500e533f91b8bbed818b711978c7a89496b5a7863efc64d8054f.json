@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791225572735",
+  "object": "chat.completion",
+  "created": 1791225572,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\n  \"body\": \"అమ్మా, సోమవారం 09:30కి Hariom Temple కి వెళ్దాం. Neuperlach Zentrum నుండి Bus 139 ఎక్కి, 9 స్టాపుల తర్వాత Trudering దగ్గర దిగండి. అక్కడ నుండి Bus 193 ఎక్కి, 7 స్టాపుల తర్వాత Bahnstraße దగ్గర దిగితే గుడి చేరుకోవచ్చు. అక్కడ అందమైన హిందూ దేవాలయం ఉంటుంది. 12:04కి ఇంటికి వచ్చేయొచ్చు. ఎవరికీ మీ బ్యాంక్ వివరాలు చెప్పకండి, ఎవరికీ డబ్బులు కట్టకండి.\",\n  \"title\": \"Hariom Temple కి\"\n}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1114,
+   "completion_tokens": 149,
+   "total_tokens": 1263,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 14.190908432006836
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:39:32.840Z",
+ "latencyMs": 3204
+}

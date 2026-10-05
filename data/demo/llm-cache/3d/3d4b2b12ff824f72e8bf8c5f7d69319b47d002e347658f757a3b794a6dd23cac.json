@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791225427751",
+  "object": "chat.completion",
+  "created": 1791225427,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c2\",\"parent\":\"both\",\"reason\":\"They both enjoy visiting temples.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c3\",\"parent\":\"father\",\"reason\":\"He likes spending time in Indian grocery spice aisles.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c4\",\"parent\":\"mother\",\"reason\":\"She likes visiting Indian grocery stores.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c7\",\"parent\":\"mother\",\"reason\":\"She would enjoy a calm environment similar to previous outings.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c5\",\"parent\":\"father\",\"reason\":\"He enjoys quiet places and reading.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false}],\"note\":\"No Telugu events were found this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2073,
+   "completion_tokens": 208,
+   "total_tokens": 2281,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 24.51818084716797
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:37:08.212Z",
+ "latencyMs": 5536
+}

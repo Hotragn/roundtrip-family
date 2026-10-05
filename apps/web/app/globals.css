@@ -137,6 +137,35 @@
   --shadow-overlay: 0 12px 40px rgba(0, 0, 0, 0.45);
 }
 
+/*
+ * The parents' app keeps the light palette in dark mode: it is read outdoors, in daylight, and
+ * every line of text sits on a white panel. Same values as :root.
+ */
+[data-scheme="light"] {
+  color-scheme: light;
+  /* body resolved its color with the dark values; set it again here */
+  color: var(--text);
+  --paper: #fbfcfe;
+  --surface: #ffffff;
+  --surface-sunken: #f2f4f9;
+  --text: #1f2a44;
+  --text-muted: #4a5573;
+  --line: #e3e7f0;
+  --line-strong: #c9d0df;
+  --focus: #1c6cb0;
+  --logo-parent: #1f2a44;
+  --sky-text: #1c6cb0;
+  --sky-line: #2f8ad2;
+  --sea-text: #0b716c;
+  --sea-line: #119590;
+  --rail-text: #3b3f99;
+  --rail-line: #3b3f99;
+  --signal-text: #c8102e;
+  --home-green-text: #1e7b4f;
+  --shadow-raised: 0 1px 2px rgba(31, 42, 68, 0.08), 0 6px 16px rgba(31, 42, 68, 0.06);
+  --shadow-overlay: 0 12px 40px rgba(31, 42, 68, 0.18);
+}
+
 /* Page themes. Each page belongs to one way of traveling. */
 [data-theme="sky"] {
   --accent-text: var(--sky-text);
@@ -153,6 +182,7 @@
 [data-theme="road"] {
   --accent-text: var(--text);
   --accent-line: var(--bus);
+  --paper: #ffffff;
 }
 /* Home: warm, soft daylight for the diary and memory book. */
 [data-theme="home"] {
@@ -165,7 +195,7 @@
   --line-strong: #d8ccb8;
 }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-color-scheme="light"]) [data-theme="home"] {
+  :root:not([data-color-scheme="light"]) [data-theme="home"]:not([data-scheme="light"] *) {
     --paper: #1c1f33;
     --surface: #262a42;
     --surface-sunken: #171a2c;
@@ -173,7 +203,7 @@
     --line-strong: #4b5174;
   }
 }
-:root[data-color-scheme="dark"] [data-theme="home"] {
+:root[data-color-scheme="dark"] [data-theme="home"]:not([data-scheme="light"] *) {
   --paper: #1c1f33;
   --surface: #262a42;
   --surface-sunken: #171a2c;
@@ -184,7 +214,8 @@
 @theme inline {
   --font-sans: var(--font-hind), var(--font-hind-guntur), ui-sans-serif, system-ui, sans-serif;
   --font-heading: var(--font-hind), var(--font-hind-guntur), ui-sans-serif, system-ui, sans-serif;
-  --font-telugu: var(--font-hind-guntur), var(--font-hind), ui-sans-serif, system-ui, sans-serif;
+  /* Same order for Telugu: each face only covers its own script, so Hind Guntur still sets the Telugu. */
+  --font-telugu: var(--font-hind), var(--font-hind-guntur), ui-sans-serif, system-ui, sans-serif;
 
   --color-ink: var(--ink);
   --color-sky: var(--sky);
@@ -297,7 +328,6 @@
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
   }
   /* Telugu needs room for vowel signs and conjuncts. */
   :lang(te) {
@@ -331,6 +361,7 @@
   }
 }
 
+/* biome-ignore-start lint/complexity/noImportantStyles: reduced motion has to win over every animation */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -341,3 +372,4 @@
     scroll-behavior: auto !important;
   }
 }
+/* biome-ignore-end lint/complexity/noImportantStyles: reduced motion has to win over every animation */

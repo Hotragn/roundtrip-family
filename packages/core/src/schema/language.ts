@@ -18,5 +18,9 @@ export const LanguageRecord = z.object({
   listening: z.object({ status: Readiness, provider: z.string(), model: z.string() }),
   /** Whether ElevenLabs lists this language. */
   elevenLabs: z.boolean(),
+  /** BCP 47 tag for the phone's speech voices when no country is known, e.g. te-IN. */
+  speechLocale: z.string(),
+  /** What speakers of other languages call this one, keyed by their language code. */
+  namesIn: z.record(z.string(), z.string()).default({}),
 });
 export type LanguageRecord = z.infer<typeof LanguageRecord>;

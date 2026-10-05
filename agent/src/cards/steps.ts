@@ -13,15 +13,18 @@ const STOP_CORD: Record<string, string> = {
 
 export function stepsFor(route: Route, venue: string, localLanguage: string): CardStep[] {
   const steps: CardStep[] = [];
+  const walkOnly = route.legs.every((l) => l.mode === "walk");
   route.legs.forEach((leg, i) => {
     const last = i === route.legs.length - 1;
     if (leg.mode === "walk") {
       const target = last ? venue : leg.to.name;
       steps.push({
         mode: "walk",
-        text: last
-          ? `దిగిన తర్వాత ${venue} దాకా సుమారు ${leg.durationMinutes} నిమిషాలు నడవండి.`
-          : `${target} స్టాప్ దాకా సుమారు ${leg.durationMinutes} నిమిషాలు నడవండి.`,
+        text: walkOnly
+          ? `ఇంటి దగ్గర నుండి ${venue} దాకా సుమారు ${leg.durationMinutes} నిమిషాలు నడవండి.`
+          : last
+            ? `దిగిన తర్వాత ${venue} దాకా సుమారు ${leg.durationMinutes} నిమిషాలు నడవండి.`
+            : `${target} స్టాప్ దాకా సుమారు ${leg.durationMinutes} నిమిషాలు నడవండి.`,
         signWords: [target],
       });
       return;

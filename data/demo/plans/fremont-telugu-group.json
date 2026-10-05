@@ -1,108 +1,12 @@
 {
  "demoWeek": "fremont-telugu-group",
  "label": "Fremont, with a Telugu group meeting",
- "provenance": "synthetic",
+ "weekSource": "synthetic variant",
  "householdId": "hh_fremont",
  "week": "2026-W41",
+ "provenance": "synthetic",
  "sourceOfCandidates": "mixed",
  "suggestions": [
-  {
-   "id": "hh_fremont:2026-W41:ev_34303c4e",
-   "candidate": {
-    "id": "ev_34303c4e",
-    "kind": "event",
-    "title": "Niles Fremont Farmers Market",
-    "venueName": "Niles Fremont Farmer's Market",
-    "address": "Niles Fremont Farmer's Market, Fremont, CA",
-    "location": {
-     "lat": 37.576705,
-     "lng": -121.9784815
-    },
-    "ladderLevel": 3,
-    "languageMatch": 0,
-    "category": "market",
-    "indoor": false,
-    "costUsd": 0,
-    "foodAvailable": false,
-    "languageNeeded": false,
-    "groupSize": "medium",
-    "description": "",
-    "photo": {
-     "url": "https://serpapi.com/searches/6ac3dbc71248150d0716507e/images/OOX_VTLr9K0BcpXOymNyQQbM9Em-QsIcxy2NMx1_K6w.jpeg",
-     "credit": "Image: event listing"
-    },
-    "start": "2026-10-10T09:00:00-07:00",
-    "end": null,
-    "suitsOlderAdults": true,
-    "provenance": "live_search",
-    "query": "Telugu events in Fremont, California"
-   },
-   "role": "both",
-   "parentIds": [
-    "p_sarala",
-    "p_venkat"
-   ],
-   "slot": {
-    "day": "sat",
-    "depart": 517,
-    "back": 628,
-    "withAdultChild": true
-   },
-   "ladderLevel": 3,
-   "ladderLabel": "Language barely matters",
-   "score": {
-    "pGo": 0.9792,
-    "enjoyment": 4.477,
-    "combined": 4.3839,
-    "rank": 1
-   },
-   "chips": [
-    {
-     "label": "A time that has worked before",
-     "feature": "timing",
-     "direction": "for"
-    },
-    {
-     "label": "Good weather for it",
-     "feature": "weather",
-     "direction": "for"
-    },
-    {
-     "label": "No familiar faces yet",
-     "feature": "knowsSomeone",
-     "direction": "against"
-    }
-   ],
-   "reasonText": "No language needed. The pleasant Saturday weather is good for a market walk. By bus, about 18 minutes each way, back by 10:28.",
-   "reasonBy": "planner",
-   "firstRideTogether": false,
-   "bringSomeone": {
-    "personId": "pp_chen",
-    "label": "Mrs. Chen",
-    "why": "No shared language is needed here, so a neighbor can easily come along."
-   },
-   "joinCard": null,
-   "features": {
-    "category": "market",
-    "languageMatch": 0,
-    "travelMinutes": 18,
-    "transfers": 0,
-    "walkingMinutes": 8,
-    "startHour": 8,
-    "dayOfWeek": "sat",
-    "weather": "pleasant",
-    "temperatureC": 24,
-    "rainChance": 0.02,
-    "indoor": false,
-    "groupSize": "medium",
-    "costUsd": 0,
-    "knowsSomeone": false,
-    "foodAvailable": false,
-    "daysSinceLastOuting": 3,
-    "withAdultChild": false,
-    "languageNeeded": false
-   }
-  },
   {
    "id": "hh_fremont:2026-W41:pl_d1f88c93",
    "candidate": {
@@ -141,16 +45,16 @@
    "slot": {
     "day": "mon",
     "depart": 510,
-    "back": 636,
+    "back": 634,
     "withAdultChild": false
    },
    "ladderLevel": 2,
    "ladderLabel": "Shared culture",
    "score": {
-    "pGo": 0.9021,
-    "enjoyment": 3.997,
-    "combined": 3.6059,
-    "rank": 2
+    "pGo": 0.9008,
+    "enjoyment": 4.017,
+    "combined": 3.6188,
+    "rank": 1
    },
    "chips": [
     {
@@ -169,7 +73,7 @@
      "direction": "against"
     }
    ],
-   "reasonText": "Shared culture. She enjoys visiting temples and religious places. By bus, about 18 minutes each way, back by 10:36.",
+   "reasonText": "Shared culture. She enjoyed previous temple outings. By bus, about 17 minutes each way, back by 10:34.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
@@ -182,7 +86,7 @@
    "features": {
     "category": "temple",
     "languageMatch": 1,
-    "travelMinutes": 18,
+    "travelMinutes": 17,
     "transfers": 0,
     "walkingMinutes": 8,
     "startHour": 8,
@@ -201,16 +105,16 @@
    }
   },
   {
-   "id": "hh_fremont:2026-W41:pl_d08f3aa9",
+   "id": "hh_fremont:2026-W41:pl_366cab34",
    "candidate": {
-    "id": "pl_d08f3aa9",
+    "id": "pl_366cab34",
     "kind": "place",
-    "title": "Bharat Bazar",
-    "venueName": "Bharat Bazar",
-    "address": "3400 Mowry Ave, Fremont, CA 94538",
+    "title": "Indian Market",
+    "venueName": "Indian Market",
+    "address": "3890 Walnut Ave, Fremont, CA 94538",
     "location": {
-     "lat": 37.5520269,
-     "lng": -121.98512489999999
+     "lat": 37.5464078,
+     "lng": -121.9816967
     },
     "ladderLevel": 2,
     "languageMatch": 1,
@@ -222,7 +126,7 @@
     "groupSize": "medium",
     "description": "Indian grocery store",
     "photo": {
-     "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcwWo2Hytv1gmJAWIPBcUFvUfujNnI9PVF1Z37YBa3Xx3r2cNra0vpXyNKsphP9zkZ2lnGHsb9WQTZ7gEOhys30uqgln06s_kZ23Rjo7On_JfkcrrdHjdlz95mys6WIRQ4qoQgdoQ=w1000-h1000-c-n",
+     "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeDwSDTKiPFQyrv-yuPW3HEdft0fsojNsFetmQVL8U5Yn3Op8ceqOLLWntFi5D5At01Bfl5dMW26RmMvyWq2WmFk21YMcDq1ORTWORil70w1nfi_jYXKl1n1qdculPUgS1HT7m-=w1000-h1000-c-n",
      "credit": "Photo: Google Maps contributor"
     },
     "start": null,
@@ -231,23 +135,23 @@
     "provenance": "live_search",
     "query": "Indian grocery store"
    },
-   "role": "father",
+   "role": "mother",
    "parentIds": [
-    "p_venkat"
+    "p_sarala"
    ],
    "slot": {
-    "day": "mon",
+    "day": "wed",
     "depart": 510,
-    "back": 570,
+    "back": 584,
     "withAdultChild": false
    },
    "ladderLevel": 2,
    "ladderLabel": "Shared culture",
    "score": {
-    "pGo": 0.8824,
-    "enjoyment": 3.443,
-    "combined": 3.0383,
-    "rank": 3
+    "pGo": 0.9315,
+    "enjoyment": 3.586,
+    "combined": 3.3409,
+    "rank": 2
    },
    "chips": [
     {
@@ -261,32 +165,27 @@
      "direction": "against"
     },
     {
-     "label": "Shared culture",
-     "feature": "languageMatch",
-     "direction": "for"
+     "label": "No familiar faces yet",
+     "feature": "knowsSomeone",
+     "direction": "against"
     }
    ],
-   "reasonText": "Shared culture. He likes spending time in Indian grocery aisles. A 5-minute walk, back by 09:30.",
+   "reasonText": "Shared culture. She likes visiting Indian grocery stores. A 12-minute walk, back by 09:44.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
-   "joinCard": {
-    "kind": "visit",
-    "local": "I would like to join. I speak Telugu and Hindi. Who can help me sign up?",
-    "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
-    "askWho": "Ask the staff at the front desk."
-   },
+   "joinCard": null,
    "features": {
     "category": "indian_grocery",
     "languageMatch": 1,
-    "travelMinutes": 5,
+    "travelMinutes": 12,
     "transfers": 0,
-    "walkingMinutes": 5,
+    "walkingMinutes": 12,
     "startHour": 8,
-    "dayOfWeek": "mon",
+    "dayOfWeek": "wed",
     "weather": "air_conditioned",
-    "temperatureC": 27,
-    "rainChance": 0.02,
+    "temperatureC": 28,
+    "rainChance": 0,
     "indoor": true,
     "groupSize": "medium",
     "costUsd": 30,
@@ -333,18 +232,18 @@
     "p_venkat"
    ],
    "slot": {
-    "day": "wed",
+    "day": "mon",
     "depart": 510,
-    "back": 602,
+    "back": 604,
     "withAdultChild": false
    },
    "ladderLevel": 3,
    "ladderLabel": "Language barely matters",
    "score": {
-    "pGo": 0.9179,
-    "enjoyment": 3.297,
-    "combined": 3.0259,
-    "rank": 4
+    "pGo": 0.9141,
+    "enjoyment": 3.33,
+    "combined": 3.0444,
+    "rank": 3
    },
    "chips": [
     {
@@ -363,7 +262,7 @@
      "direction": "against"
     }
    ],
-   "reasonText": "No language needed. He enjoys watching people at the park. By bus, about 16 minutes each way, back by 10:02.",
+   "reasonText": "No language needed. He enjoys watching people at the park. By bus, about 17 minutes each way, back by 10:04.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
@@ -371,14 +270,14 @@
    "features": {
     "category": "park",
     "languageMatch": 0,
-    "travelMinutes": 16,
+    "travelMinutes": 17,
     "transfers": 0,
     "walkingMinutes": 8,
     "startHour": 8,
-    "dayOfWeek": "wed",
+    "dayOfWeek": "mon",
     "weather": "hot",
-    "temperatureC": 28,
-    "rainChance": 0,
+    "temperatureC": 27,
+    "rainChance": 0.02,
     "indoor": false,
     "groupSize": "medium",
     "costUsd": 0,
@@ -422,17 +321,17 @@
    ],
    "slot": {
     "day": "wed",
-    "depart": 582,
-    "back": 698,
+    "depart": 580,
+    "back": 700,
     "withAdultChild": false
    },
    "ladderLevel": 1,
    "ladderLabel": "Same language",
    "score": {
-    "pGo": 0.8169,
-    "enjoyment": 3.355,
-    "combined": 2.7412,
-    "rank": 5
+    "pGo": 0.8283,
+    "enjoyment": 3.338,
+    "combined": 2.7652,
+    "rank": 4
    },
    "chips": [
     {
@@ -451,20 +350,15 @@
      "direction": "against"
     }
    ],
-   "reasonText": "In their language. She would enjoy meeting people who speak Telugu. By bus, about 13 minutes each way, back by 11:38.",
+   "reasonText": "In their language. She would like to meet others who speak Telugu. By bus, about 15 minutes each way, back by 11:40.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
-   "joinCard": {
-    "kind": "join",
-    "local": "I would like to join. I speak Telugu. Who can help me sign up?",
-    "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
-    "askWho": "Ask the staff at the front desk."
-   },
+   "joinCard": null,
    "features": {
     "category": "community_meeting",
     "languageMatch": 2,
-    "travelMinutes": 13,
+    "travelMinutes": 15,
     "transfers": 0,
     "walkingMinutes": 8,
     "startHour": 9,
@@ -483,11 +377,11 @@
    }
   }
  ],
- "note": "Telugu options were included this week.",
+ "note": "Telugu options were found for the mother.",
  "sameLanguageFound": true,
  "rejected": [],
  "stats": {
-  "ms": 7252,
+  "ms": 23708,
   "modelCalls": 1,
   "cachedModelCalls": 0,
   "fallbacks": 0,
@@ -495,23 +389,23 @@
   "toolCalls": [
    {
     "tool": "rankOutings",
-    "ms": 124,
+    "ms": 18086,
     "detail": "mother: 13 feasible"
    },
    {
     "tool": "rankOutings",
-    "ms": 2,
+    "ms": 1,
     "detail": "father: 12 feasible"
    },
    {
     "tool": "agent",
-    "ms": 7124,
+    "ms": 5618,
     "detail": "1 steps"
    }
   ],
   "rankerCalls": 2,
-  "candidates": 21,
+  "candidates": 22,
   "feasible": 13,
-  "agentChoicesUsed": 5
+  "agentChoicesUsed": 4
  }
 }

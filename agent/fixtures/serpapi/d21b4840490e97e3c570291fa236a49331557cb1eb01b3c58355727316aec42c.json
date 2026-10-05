@@ -1,0 +1,265 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps_directions",
+ "request": "https://serpapi.com/search.json?engine=google_maps_directions&start_coords=37.5482%2C-121.989&travel_mode=2&hl=en&gl=us&distance_unit=1&end_coords=37.5464078%2C-121.9816967",
+ "note": "directions: Mowry Ave & Fremont Blvd to Indian Market (walking)",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T18:37:49.500Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps_directions",
+   "hl": "en",
+   "gl": "us",
+   "start_coords": "37.5482,-121.989",
+   "end_coords": "37.5464078,-121.9816967",
+   "travel_mode": "2",
+   "distance_unit": "1"
+  },
+  "places_info": [
+   {
+    "address": "37.5482000, -121.9890000",
+    "gps_coordinates": {
+     "latitude": 37.5482,
+     "longitude": -121.98899999999999
+    }
+   },
+   {
+    "address": "37.5464078, -121.9816967",
+    "gps_coordinates": {
+     "latitude": 37.5464078,
+     "longitude": -121.9816967
+    }
+   }
+  ],
+  "directions": [
+   {
+    "travel_mode": "Walking",
+    "via": "Fremont Blvd",
+    "distance": 924,
+    "duration": 816,
+    "formatted_distance": "0.6 mile",
+    "formatted_duration": "14 min",
+    "icon": "https://serpapi.com/assets/google_maps_directions/walking.svg",
+    "elevation_profile": {
+     "ascent": 0,
+     "descent": 1,
+     "max_altitude": 16,
+     "min_altitude": 15,
+     "formatted_ascent": "0 ft",
+     "formatted_descent": "3 ft",
+     "formatted_max_altitude": "52 ft",
+     "formatted_min_altitude": "49 ft"
+    },
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "distance": 924,
+      "duration": 816,
+      "formatted_distance": "0.6 mi",
+      "formatted_duration": "14 min",
+      "details": [
+       {
+        "title": "Head toward  Fremont Blvd",
+        "action": "straight",
+        "distance": 77,
+        "duration": 72,
+        "formatted_distance": "253 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Fremont Blvd",
+        "action": "turn-right",
+        "distance": 404,
+        "duration": 362,
+        "formatted_distance": "0.3 mi",
+        "formatted_duration": "6 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Beacon Ave",
+        "action": "turn-left",
+        "distance": 219,
+        "duration": 180,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min",
+        "extensions": [
+         "Pass by Bank of America Financial Center (on the right in 100 ft)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  California St",
+        "action": "turn-right",
+        "distance": 154,
+        "duration": 145,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=7f6jOc7BfIaXK27GawdlCw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=234.32478&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54788174843091,
+         "longitude": -121.98275864240937
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 70,
+        "duration": 57,
+        "formatted_distance": "230 ft",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kfSAim0HCy817H1N2sPkqg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=117.860405&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5471827754358,
+         "longitude": -121.98145077859368
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Walking",
+    "via": "Fremont Blvd and California St",
+    "distance": 1016,
+    "duration": 892,
+    "formatted_distance": "0.6 mile",
+    "formatted_duration": "15 min",
+    "icon": "https://serpapi.com/assets/google_maps_directions/walking.svg",
+    "elevation_profile": {
+     "ascent": 1,
+     "descent": 1,
+     "max_altitude": 16,
+     "min_altitude": 15,
+     "formatted_ascent": "3 ft",
+     "formatted_descent": "3 ft",
+     "formatted_max_altitude": "52 ft",
+     "formatted_min_altitude": "49 ft"
+    },
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "distance": 1016,
+      "duration": 892,
+      "formatted_distance": "0.6 mi",
+      "formatted_duration": "15 min",
+      "details": [
+       {
+        "title": "Head toward  Fremont Blvd",
+        "action": "straight",
+        "distance": 77,
+        "duration": 72,
+        "formatted_distance": "253 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Fremont Blvd",
+        "action": "turn-right",
+        "distance": 319,
+        "duration": 292,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "5 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  Memorial St",
+        "action": "turn-left",
+        "distance": 125,
+        "duration": 104,
+        "formatted_distance": "410 ft",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UWyer-mZlnF9b1EVjXNJhA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=63.972843&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54728083529734,
+         "longitude": -121.98563262541465
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Memorial St",
+        "action": "turn-right",
+        "distance": 30,
+        "duration": 25,
+        "formatted_distance": "98 ft",
+        "formatted_duration": "25 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Tr-EY0tpO-sCemW9W3c1iQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=28.828728&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5479248841527,
+         "longitude": -121.98484079739546
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Memorial St  turns  left  and becomes  Nation Ave",
+        "action": "turn-left",
+        "distance": 91,
+        "duration": 74,
+        "formatted_distance": "299 ft",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OBVaFzx2-RWqfk1-1sqnTg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=221.55783&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54804479160239,
+         "longitude": -121.98452947882781
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  California St",
+        "action": "turn-right",
+        "distance": 304,
+        "duration": 268,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=hMz68IB-tY61pZB9EOyv-w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=92.91797&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.548548656465385,
+         "longitude": -121.98394692548419
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 70,
+        "duration": 57,
+        "formatted_distance": "230 ft",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kfSAim0HCy817H1N2sPkqg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=117.860405&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5471827754358,
+         "longitude": -121.98145077859368
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "durations": [
+   {
+    "travel_mode": "Driving",
+    "duration": 250,
+    "formatted_duration": "4 min"
+   },
+   {
+    "travel_mode": "Transit",
+    "duration": 420,
+    "formatted_duration": "7 min"
+   },
+   {
+    "travel_mode": "Walking",
+    "duration": 816,
+    "formatted_duration": "14 min"
+   },
+   {
+    "travel_mode": "Cycling",
+    "duration": 275,
+    "formatted_duration": "5 min"
+   }
+  ]
+ }
+}

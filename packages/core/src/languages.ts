@@ -19,6 +19,8 @@ export const LANGUAGES: LanguageRecord[] = [
     speaking: { status: "ready", provider: "Open model, run at home", model: "AI4Bharat Indic Parler-TTS" },
     listening: { status: "ready", provider: "Open model, run at home", model: "AI4Bharat IndicConformer" },
     elevenLabs: true,
+    speechLocale: "te-IN",
+    namesIn: { te: "తెలుగు", en: "Telugu", de: "Telugu" },
   },
   {
     _id: "lang_en",
@@ -32,6 +34,8 @@ export const LANGUAGES: LanguageRecord[] = [
     speaking: { status: "ready", provider: "Open model, run at home", model: "Meta MMS-TTS (eng)" },
     listening: { status: "ready", provider: "Open model, run at home", model: "Meta MMS (mms-1b-all)" },
     elevenLabs: true,
+    speechLocale: "en-US",
+    namesIn: { te: "ఇంగ్లీష్", en: "English", de: "Englisch" },
   },
   {
     _id: "lang_de",
@@ -45,6 +49,8 @@ export const LANGUAGES: LanguageRecord[] = [
     speaking: { status: "ready", provider: "Open model, run at home", model: "Meta MMS-TTS (deu)" },
     listening: { status: "ready", provider: "Open model, run at home", model: "Meta MMS (mms-1b-all)" },
     elevenLabs: true,
+    speechLocale: "de-DE",
+    namesIn: { te: "జర్మన్", en: "German", de: "Deutsch" },
   },
   {
     _id: "lang_zh",
@@ -58,9 +64,30 @@ export const LANGUAGES: LanguageRecord[] = [
     speaking: { status: "ready", provider: "Open model, run at home", model: "Meta MMS-TTS" },
     listening: { status: "ready", provider: "Open model, run at home", model: "Meta MMS (mms-1b-all)" },
     elevenLabs: true,
+    speechLocale: "zh-CN",
+    namesIn: { te: "చైనీస్", en: "Mandarin Chinese", de: "Chinesisch" },
   },
 ];
 
 export function languageRecord(code: string): LanguageRecord | undefined {
   return LANGUAGES.find((l) => l.code === code);
+}
+
+/**
+ * The name of a language as a speaker of another language says it ("ఇంగ్లీష్" for a Telugu
+ * speaker). Uses the table first, then the browser's or Node's own language names.
+ */
+export function languageNameIn(code: string, inLanguage: string): string {
+  const listed = languageRecord(code)?.namesIn[inLanguage];
+  if (listed) return listed;
+  try {
+    return new Intl.DisplayNames([inLanguage], { type: "language" }).of(code) ?? code;
+  } catch {
+    return languageRecord(code)?.name ?? code;
+  }
+}
+
+/** Speech tag for a language spoken in a country, e.g. en + US gives en-US. */
+export function speechTag(code: string, country?: string): string {
+  return country ? `${code}-${country.toUpperCase()}` : (languageRecord(code)?.speechLocale ?? code);
 }

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791225149620",
+  "object": "chat.completion",
+  "created": 1791225149,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"అమ్మా, సోమవారం 08:30కి Karya Siddhi Hanuman Temple కి వెళ్దాం. Fremont Blvd & Mowry Ave దగ్గర Bus 210 ఎక్కండి, 7 స్టాపుల తర్వాత Fremont Blvd. at Peralta Ct. దగ్గర దిగండి. అక్కడి నుండి 8 నిమిషాల నడక. అక్కడ దేవుడిని దర్శించుకోవచ్చు. 10:36కి ఇంటికి వచ్చేయొచ్చు. ఎవరికీ మీ బ్యాంక్ వివరాలు చెప్పకండి, ఎవరికీ డబ్బులు ఇవ్వకండి.\",\n  \"title\": \"Karya Siddhi Hanuman Temple కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1076,
+   "completion_tokens": 145,
+   "total_tokens": 1221,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 13.73636245727539
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:32:29.875Z",
+ "latencyMs": 5033
+}

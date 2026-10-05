@@ -1,0 +1,9 @@
+{
+ "query": "Bahnstraße, Munich",
+ "location": {
+  "lat": 48.116679,
+  "lng": 11.6964402
+ },
+ "displayName": "Bahnstraße, Waldtrudering, Trudering-Riem, München, Bayern, 81827, Deutschland",
+ "source": "OpenStreetMap Nominatim (ODbL)"
+}

@@ -89,3 +89,47 @@ jobs:
         run: |
           uv run python eval_loo.py --area fremont --mode replay | tee loo.txt
           { echo "## Ranker leave-one-out (synthetic)"; echo ""; sed -n '/^| Features/,/^$/p' loo.txt; } >> "$GITHUB_STEP_SUMMARY"
+
+  e2e:
+    name: Parents' app offline, accessibility and bundle (Playwright)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Build the web app
+        run: pnpm build
+      - name: Install Chromium
+        run: pnpm --filter @roundtrip/web exec playwright install --with-deps chromium
+      - name: Offline, accessibility and bundle checks
+        id: e2e
+        run: pnpm --filter @roundtrip/web exec playwright test e2e/offline.spec.ts e2e/a11y.spec.ts --project=mobile
+      - name: Summary
+        if: always()
+        run: |
+          f=apps/web/test-results/e2e.json
+          {
+            echo "## Parents' app end to end"
+            echo ""
+            echo "Result: ${{ steps.e2e.outcome }}"
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ -f "$f" ]; then
+            node -e '
+              const r = require("./" + process.argv[1]);
+              const rows = [];
+              const walk = (s) => { for (const x of s.suites ?? []) walk(x); for (const sp of s.specs ?? []) for (const t of sp.tests) rows.push([sp.title, t.results.at(-1)?.status ?? "skipped"]); };
+              walk(r);
+              const lines = ["", "| Test | Result |", "|---|---|", ...rows.map(([a, b]) => `| ${a} | ${b} |`)];
+              require("fs").appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join("\n") + "\n");
+            ' "$f"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-traces
+          path: apps/web/test-results
+          retention-days: 7

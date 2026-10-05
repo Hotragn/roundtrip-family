@@ -1,0 +1,1341 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps_directions",
+ "request": "https://serpapi.com/search.json?engine=google_maps_directions&start_coords=37.5482%2C-121.989&travel_mode=3&hl=en&gl=us&distance_unit=1&end_coords=37.5275575%2C-121.9821257&time=depart_at%3A1791189000&route=2",
+ "note": "directions: Mowry Ave & Fremont Blvd to Sri Siddhi Vinayaka Cultural Center (transit)",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T18:38:50.597Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps_directions",
+   "hl": "en",
+   "gl": "us",
+   "start_coords": "37.5482,-121.989",
+   "end_coords": "37.5275575,-121.9821257",
+   "travel_mode": "3",
+   "distance_unit": "1",
+   "route": "2",
+   "time": "depart_at:1791189000"
+  },
+  "places_info": [
+   {
+    "address": "37.5482000, -121.9890000",
+    "gps_coordinates": {
+     "latitude": 37.5482,
+     "longitude": -121.98899999999999
+    }
+   },
+   {
+    "address": "37.5275575, -121.9821257",
+    "gps_coordinates": {
+     "latitude": 37.5275575,
+     "longitude": -121.9821257
+    }
+   }
+  ],
+  "directions": [
+   {
+    "travel_mode": "Transit",
+    "start_time": "8:30 AM",
+    "end_time": "9:04 AM",
+    "distance": 3812,
+    "duration": 2063,
+    "formatted_distance": "2.4 miles",
+    "formatted_duration": "34 min",
+    "cost": 6,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 192,
+      "duration": 176,
+      "formatted_distance": "0.1 mi",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head toward  Fremont Blvd",
+        "action": "straight",
+        "distance": 62,
+        "duration": 50,
+        "formatted_distance": "203 ft",
+        "formatted_duration": "50 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Fremont Blvd",
+        "action": "turn-right",
+        "distance": 75,
+        "duration": 79,
+        "formatted_distance": "246 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 18,
+        "duration": 15,
+        "formatted_distance": "59 ft",
+        "formatted_duration": "15 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BWmxTaaMiVC6An3gMi-XhA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=188.75296&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5483692932182,
+         "longitude": -121.98802429996307
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 37,
+        "duration": 32,
+        "formatted_distance": "121 ft",
+        "formatted_duration": "32 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XI1wGyYKChj0_tKvB3HzAQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=77.93073&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54817813251985,
+         "longitude": -121.98787723496078
+        },
+        "extensions": [
+         "Destination will be on the left"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "210 Ohlone College",
+      "duration": 250,
+      "formatted_duration": "4 min",
+      "start_stop": {
+       "name": "Fremont Blvd & Mowry Av",
+       "stop_id": "56788",
+       "time": "8:33 AM",
+       "data_id": "0x808fc09c8466b615:0x709e4efd056edb0c"
+      },
+      "end_stop": {
+       "name": "Fremont Blvd & Stevenson Blvd",
+       "stop_id": "53566",
+       "time": "8:37 AM",
+       "data_id": "0x808fc0bf2cd3ae07:0x99c28c3bc17852ac"
+      },
+      "stops": [
+       {
+        "name": "Fremont Blvd & Beacon Av",
+        "stop_id": "54114",
+        "time": "8:33 AM",
+        "data_id": "0x808fc09bd1e9744b:0xf3ef0aa29b13ed76"
+       },
+       {
+        "name": "Fremont Blvd & Sundale Dr",
+        "stop_id": "52600",
+        "time": "8:34 AM",
+        "data_id": "0x808fc0977fb7f11d:0xadd6e49df6f57b00"
+       },
+       {
+        "name": "Fremont Blvd & Bidwell Dr",
+        "stop_id": "56616",
+        "time": "8:36 AM",
+        "data_id": "0x808fc0bddc9e09b3:0xd5156455fd538a75"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/210"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "duration": 208,
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Walk",
+        "distance": 208,
+        "duration": 208,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "216 Silliman Center",
+      "duration": 194,
+      "formatted_duration": "4 min",
+      "start_stop": {
+       "name": "Stevenson Blvd. & Fremont Blvd.",
+       "stop_id": "56552",
+       "time": "8:57 AM",
+       "data_id": "0x808fc0b9328b73d9:0x736c08b9aa9d04e9"
+      },
+      "end_stop": {
+       "name": "Stevenson Blvd & Blacow Rd",
+       "stop_id": "53151",
+       "time": "9:01 AM",
+       "data_id": "0x808fc0ae6550ef35:0xe4f8ff2b4a6448e6"
+      },
+      "stops": [
+       {
+        "name": "Stevenson Blvd & Davis St",
+        "stop_id": "56691",
+        "time": "8:58 AM",
+        "data_id": "0x808fc0bbcda2c961:0x9490a98ba57dcd0f"
+       },
+       {
+        "name": "4445 Stevenson Blvd",
+        "stop_id": "51280",
+        "time": "8:58 AM",
+        "data_id": "0x808fc0ba44698941:0x33dd3133aa899589"
+       },
+       {
+        "name": "Stevenson Blvd & Besco Dr",
+        "stop_id": "56639",
+        "time": "8:59 AM",
+        "data_id": "0x808fc0ba835d1e05:0x766dcf523ca0f778"
+       },
+       {
+        "name": "Stevenson Blvd & Sundale Dr",
+        "stop_id": "53622",
+        "time": "9:00 AM",
+        "data_id": "0x808fc0ae304701d1:0x55ede56dd0156fe6"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/216"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 226,
+      "duration": 207,
+      "formatted_distance": "0.1 mi",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head toward  Blacow Rd",
+        "action": "straight",
+        "distance": 83,
+        "duration": 68,
+        "formatted_distance": "272 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Blacow Rd",
+        "action": "turn-right",
+        "distance": 101,
+        "duration": 103,
+        "formatted_distance": "331 ft",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PUCX1Me1c5Chxdv-wKdTuA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=279.87988&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52821714978054,
+         "longitude": -121.98326345821867
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 21,
+        "duration": 18,
+        "formatted_distance": "69 ft",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UKPYfT9SByDO5p4yiamFaw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=270.4353&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52800676847226,
+         "longitude": -121.9822461886417
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 21,
+        "duration": 18,
+        "formatted_distance": "69 ft",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Xlr6w7SKzcwH34KReKwKSQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=188.42485&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52794891683361,
+         "longitude": -121.9821320879589
+        },
+        "extensions": [
+         "Destination will be on the right"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "8:30 AM",
+    "end_time": "9:02 AM",
+    "distance": 3658,
+    "duration": 1931,
+    "formatted_distance": "2.3 miles",
+    "formatted_duration": "32 min",
+    "cost": 3,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 192,
+      "duration": 176,
+      "formatted_distance": "0.1 mi",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head toward  Fremont Blvd",
+        "action": "straight",
+        "distance": 62,
+        "duration": 50,
+        "formatted_distance": "203 ft",
+        "formatted_duration": "50 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Fremont Blvd",
+        "action": "turn-right",
+        "distance": 75,
+        "duration": 79,
+        "formatted_distance": "246 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 18,
+        "duration": 15,
+        "formatted_distance": "59 ft",
+        "formatted_duration": "15 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BWmxTaaMiVC6An3gMi-XhA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=188.75296&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5483692932182,
+         "longitude": -121.98802429996307
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 37,
+        "duration": 32,
+        "formatted_distance": "121 ft",
+        "formatted_duration": "32 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XI1wGyYKChj0_tKvB3HzAQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=77.93073&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54817813251985,
+         "longitude": -121.98787723496078
+        },
+        "extensions": [
+         "Destination will be on the left"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "210 Ohlone College",
+      "duration": 250,
+      "formatted_duration": "4 min",
+      "start_stop": {
+       "name": "Fremont Blvd & Mowry Av",
+       "stop_id": "56788",
+       "time": "8:33 AM",
+       "data_id": "0x808fc09c8466b615:0x709e4efd056edb0c"
+      },
+      "end_stop": {
+       "name": "Fremont Blvd & Stevenson Blvd",
+       "stop_id": "53566",
+       "time": "8:37 AM",
+       "data_id": "0x808fc0bf2cd3ae07:0x99c28c3bc17852ac"
+      },
+      "stops": [
+       {
+        "name": "Fremont Blvd & Beacon Av",
+        "stop_id": "54114",
+        "time": "8:33 AM",
+        "data_id": "0x808fc09bd1e9744b:0xf3ef0aa29b13ed76"
+       },
+       {
+        "name": "Fremont Blvd & Sundale Dr",
+        "stop_id": "52600",
+        "time": "8:34 AM",
+        "data_id": "0x808fc0977fb7f11d:0xadd6e49df6f57b00"
+       },
+       {
+        "name": "Fremont Blvd & Bidwell Dr",
+        "stop_id": "56616",
+        "time": "8:36 AM",
+        "data_id": "0x808fc0bddc9e09b3:0xd5156455fd538a75"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/210"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 1850,
+      "duration": 1505,
+      "formatted_distance": "1.1 mi",
+      "formatted_duration": "25 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head  northwest  on  Fremont Blvd",
+        "action": "straight",
+        "distance": 39,
+        "duration": 31,
+        "formatted_distance": "128 ft",
+        "formatted_duration": "31 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Stevenson Blvd",
+        "action": "turn-left",
+        "distance": 159,
+        "duration": 128,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "2 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 906,
+        "duration": 724,
+        "formatted_distance": "0.6 mi",
+        "formatted_duration": "12 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=uy0IuEzdcQ1t3HfSA5U_ww&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=133.62233&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5396967995646,
+         "longitude": -121.97377447541288
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  Stevenson Blvd",
+        "action": "straight",
+        "distance": 377,
+        "duration": 301,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "5 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Q7NFiUeiHOJOE5UzrSVvXA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=150.75313&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.532882725486004,
+         "longitude": -121.97904021788625
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Sundale Dr",
+        "action": "turn-right",
+        "distance": 27,
+        "duration": 24,
+        "formatted_distance": "89 ft",
+        "formatted_duration": "24 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XTlqNaYUYfCPj7e2gNqbow&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=134.38628&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.529989842561235,
+         "longitude": -121.98132019092226
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Stevenson Blvd",
+        "action": "turn-left",
+        "distance": 215,
+        "duration": 181,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MPMzC1S1M3YuxRFOY82DQw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=182.62888&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.529891407244456,
+         "longitude": -121.98143741614143
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Blacow Rd",
+        "action": "turn-left",
+        "distance": 85,
+        "duration": 80,
+        "formatted_distance": "279 ft",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=D0uJdk_Vf2Ox-zOBXYUx6A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=84.47892&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52842472577499,
+         "longitude": -121.98277669017864
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 21,
+        "duration": 18,
+        "formatted_distance": "69 ft",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UKPYfT9SByDO5p4yiamFaw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=270.4353&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52800676847226,
+         "longitude": -121.9822461886417
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 21,
+        "duration": 18,
+        "formatted_distance": "69 ft",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Xlr6w7SKzcwH34KReKwKSQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=188.42485&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52794891683361,
+         "longitude": -121.9821320879589
+        },
+        "extensions": [
+         "Destination will be on the right"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "8:52 AM",
+    "end_time": "9:23 AM",
+    "distance": 3339,
+    "duration": 1875,
+    "formatted_distance": "2.1 miles",
+    "formatted_duration": "31 min",
+    "cost": 3,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Transit",
+      "title": "200 Union City BART",
+      "duration": 154,
+      "formatted_duration": "2 min",
+      "start_stop": {
+       "name": "Mowry Av & Fremont Blvd",
+       "stop_id": "55009",
+       "time": "8:52 AM",
+       "data_id": "0x808fc09ce9644e51:0x6a96dbb3338feba8"
+      },
+      "end_stop": {
+       "name": "Mowry Av & Glenview Dr",
+       "stop_id": "56609",
+       "time": "8:54 AM",
+       "data_id": "0x808fbf60944096c9:0xbd7c25984a17e359"
+      },
+      "stops": [
+       {
+        "name": "Mowry Av & Argonaut Way",
+        "stop_id": "50766",
+        "time": "8:52 AM",
+        "data_id": "0x808fc09db95fe705:0x80455364aeaabe80"
+       },
+       {
+        "name": "Mowry Av & Logan Dr",
+        "stop_id": "54520",
+        "time": "8:53 AM",
+        "data_id": "0x808fbf61fb4720a3:0x195a20fd533b8a39"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/200"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 2053,
+      "duration": 1721,
+      "formatted_distance": "1.3 mi",
+      "formatted_duration": "29 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head toward  Mowry Ave",
+        "action": "straight",
+        "distance": 24,
+        "duration": 29,
+        "formatted_distance": "79 ft",
+        "formatted_duration": "29 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=zsWIESZaXeYLHyZWpAzAMg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=32.92991&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.53853480092714,
+         "longitude": -121.99674485778449
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  Sutter Dr",
+        "action": "straight",
+        "distance": 357,
+        "duration": 299,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "5 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=De9YkpQHcgAKF-Ra7FD52g&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=85.85774&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.538454126614674,
+         "longitude": -121.99681096662754
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Calaveras Ave",
+        "action": "turn-right",
+        "distance": 232,
+        "duration": 184,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=SXkeSWTooAHvF6ZnsRodjQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=181.02472&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.53672299085039,
+         "longitude": -121.99359770094033
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Blacow Rd",
+        "action": "turn-left",
+        "distance": 971,
+        "duration": 787,
+        "formatted_distance": "0.6 mi",
+        "formatted_duration": "13 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Boone Dr",
+        "action": "turn-right",
+        "distance": 39,
+        "duration": 43,
+        "formatted_distance": "128 ft",
+        "formatted_duration": "43 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=CaG6x_jyX-RoZrJtPNNTpw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=235.07336&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.53018598058158,
+         "longitude": -121.98569648506229
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Blacow Rd",
+        "action": "turn-left",
+        "distance": 388,
+        "duration": 343,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "6 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OGxY279RvsYnuPzYiv498Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=116.31237&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52990951833173,
+         "longitude": -121.98565292862187
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 21,
+        "duration": 18,
+        "formatted_distance": "69 ft",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UKPYfT9SByDO5p4yiamFaw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=270.4353&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52800676847226,
+         "longitude": -121.9822461886417
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 21,
+        "duration": 18,
+        "formatted_distance": "69 ft",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Xlr6w7SKzcwH34KReKwKSQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=188.42485&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52794891683361,
+         "longitude": -121.9821320879589
+        },
+        "extensions": [
+         "Destination will be on the right"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Walking",
+    "via": "Logan Dr and Sundale Dr",
+    "distance": 3115,
+    "duration": 2582,
+    "formatted_distance": "1.9 miles",
+    "formatted_duration": "44 min",
+    "icon": "https://serpapi.com/assets/google_maps_directions/walking.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 3115,
+      "duration": 2582,
+      "formatted_distance": "1.9 miles",
+      "formatted_duration": "44 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head toward  Bell St",
+        "action": "straight",
+        "distance": 53,
+        "duration": 42,
+        "formatted_distance": "174 ft",
+        "formatted_duration": "42 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Bell St",
+        "action": "turn-right",
+        "distance": 32,
+        "duration": 25,
+        "formatted_distance": "105 ft",
+        "formatted_duration": "25 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Mowry Ave",
+        "action": "turn-left",
+        "distance": 657,
+        "duration": 523,
+        "formatted_distance": "0.4 mi",
+        "formatted_duration": "9 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=7rS7bkfBnb5uXdtty4o6Xg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=63.306324&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.547741523271135,
+         "longitude": -121.98938553118414
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Logan Dr",
+        "action": "turn-left",
+        "distance": 918,
+        "duration": 767,
+        "formatted_distance": "0.6 mi",
+        "formatted_duration": "13 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wNdnIurh8uXWNvDiPxVfmg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=209.57083&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54311705438313,
+         "longitude": -121.99325985878971
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Sundale Dr",
+        "action": "turn-right",
+        "distance": 1095,
+        "duration": 892,
+        "formatted_distance": "0.7 mi",
+        "formatted_duration": "15 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=nfnEKeqTXunvJQZBvCCvug&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=200.72905&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.53745146109272,
+         "longitude": -121.9860700979606
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Stevenson Blvd",
+        "action": "turn-right",
+        "distance": 217,
+        "duration": 184,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=upfd8NkgCRkANWDiZPMJtw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=69.770546&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.53025642760443,
+         "longitude": -121.9821552551794
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Blacow Rd",
+        "action": "turn-left",
+        "distance": 101,
+        "duration": 113,
+        "formatted_distance": "331 ft",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=J6XjKrMw0jVEog81ARsIpw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=203.7902&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.528491175641115,
+         "longitude": -121.98317469479625
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 21,
+        "duration": 18,
+        "formatted_distance": "69 ft",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UKPYfT9SByDO5p4yiamFaw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=270.4353&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52800676847226,
+         "longitude": -121.9822461886417
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 21,
+        "duration": 18,
+        "formatted_distance": "69 ft",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Xlr6w7SKzcwH34KReKwKSQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=188.42485&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52794891683361,
+         "longitude": -121.9821320879589
+        },
+        "extensions": [
+         "Destination will be on the right"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "9:01 AM",
+    "end_time": "9:33 AM",
+    "distance": 3658,
+    "duration": 1931,
+    "formatted_distance": "2.3 miles",
+    "formatted_duration": "32 min",
+    "cost": 3,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 192,
+      "duration": 176,
+      "formatted_distance": "0.1 mi",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head toward  Fremont Blvd",
+        "action": "straight",
+        "distance": 62,
+        "duration": 50,
+        "formatted_distance": "203 ft",
+        "formatted_duration": "50 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Fremont Blvd",
+        "action": "turn-right",
+        "distance": 75,
+        "duration": 79,
+        "formatted_distance": "246 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 18,
+        "duration": 15,
+        "formatted_distance": "59 ft",
+        "formatted_duration": "15 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BWmxTaaMiVC6An3gMi-XhA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=188.75296&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5483692932182,
+         "longitude": -121.98802429996307
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 37,
+        "duration": 32,
+        "formatted_distance": "121 ft",
+        "formatted_duration": "32 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XI1wGyYKChj0_tKvB3HzAQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=77.93073&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54817813251985,
+         "longitude": -121.98787723496078
+        },
+        "extensions": [
+         "Destination will be on the left"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "210 Ohlone College",
+      "duration": 250,
+      "formatted_duration": "4 min",
+      "start_stop": {
+       "name": "Fremont Blvd & Mowry Av",
+       "stop_id": "56788",
+       "time": "9:04 AM",
+       "data_id": "0x808fc09c8466b615:0x709e4efd056edb0c"
+      },
+      "end_stop": {
+       "name": "Fremont Blvd & Stevenson Blvd",
+       "stop_id": "53566",
+       "time": "9:08 AM",
+       "data_id": "0x808fc0bf2cd3ae07:0x99c28c3bc17852ac"
+      },
+      "stops": [
+       {
+        "name": "Fremont Blvd & Beacon Av",
+        "stop_id": "54114",
+        "time": "9:04 AM",
+        "data_id": "0x808fc09bd1e9744b:0xf3ef0aa29b13ed76"
+       },
+       {
+        "name": "Fremont Blvd & Sundale Dr",
+        "stop_id": "52600",
+        "time": "9:05 AM",
+        "data_id": "0x808fc0977fb7f11d:0xadd6e49df6f57b00"
+       },
+       {
+        "name": "Fremont Blvd & Bidwell Dr",
+        "stop_id": "56616",
+        "time": "9:07 AM",
+        "data_id": "0x808fc0bddc9e09b3:0xd5156455fd538a75"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/210"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 1850,
+      "duration": 1505,
+      "formatted_distance": "1.1 mi",
+      "formatted_duration": "25 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head  northwest  on  Fremont Blvd",
+        "action": "straight",
+        "distance": 39,
+        "duration": 31,
+        "formatted_distance": "128 ft",
+        "formatted_duration": "31 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Stevenson Blvd",
+        "action": "turn-left",
+        "distance": 159,
+        "duration": 128,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "2 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 906,
+        "duration": 724,
+        "formatted_distance": "0.6 mi",
+        "formatted_duration": "12 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=uy0IuEzdcQ1t3HfSA5U_ww&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=133.62233&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5396967995646,
+         "longitude": -121.97377447541288
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  Stevenson Blvd",
+        "action": "straight",
+        "distance": 377,
+        "duration": 301,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "5 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Q7NFiUeiHOJOE5UzrSVvXA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=150.75313&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.532882725486004,
+         "longitude": -121.97904021788625
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Sundale Dr",
+        "action": "turn-right",
+        "distance": 27,
+        "duration": 24,
+        "formatted_distance": "89 ft",
+        "formatted_duration": "24 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XTlqNaYUYfCPj7e2gNqbow&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=134.38628&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.529989842561235,
+         "longitude": -121.98132019092226
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Stevenson Blvd",
+        "action": "turn-left",
+        "distance": 215,
+        "duration": 181,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MPMzC1S1M3YuxRFOY82DQw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=182.62888&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.529891407244456,
+         "longitude": -121.98143741614143
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Blacow Rd",
+        "action": "turn-left",
+        "distance": 85,
+        "duration": 80,
+        "formatted_distance": "279 ft",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=D0uJdk_Vf2Ox-zOBXYUx6A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=84.47892&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52842472577499,
+         "longitude": -121.98277669017864
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 21,
+        "duration": 18,
+        "formatted_distance": "69 ft",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UKPYfT9SByDO5p4yiamFaw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=270.4353&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52800676847226,
+         "longitude": -121.9822461886417
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 21,
+        "duration": 18,
+        "formatted_distance": "69 ft",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Xlr6w7SKzcwH34KReKwKSQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=188.42485&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52794891683361,
+         "longitude": -121.9821320879589
+        },
+        "extensions": [
+         "Destination will be on the right"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "9:22 AM",
+    "end_time": "9:45 AM",
+    "distance": 10112,
+    "duration": 1439,
+    "formatted_distance": "6.3 miles",
+    "formatted_duration": "23 min",
+    "cost": 6,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Transit",
+      "title": "200 Union City BART",
+      "duration": 480,
+      "formatted_duration": "8 min",
+      "start_stop": {
+       "name": "Mowry Av & Fremont Blvd",
+       "stop_id": "55009",
+       "time": "9:22 AM",
+       "data_id": "0x808fc09ce9644e51:0x6a96dbb3338feba8"
+      },
+      "end_stop": {
+       "name": "New Park Mall",
+       "stop_id": "51112",
+       "time": "9:30 AM",
+       "data_id": "0x808fbf5a93d78e59:0x69efae64783e5c32"
+      },
+      "stops": [
+       {
+        "name": "Mowry Av & Argonaut Way",
+        "stop_id": "50766",
+        "time": "9:22 AM",
+        "data_id": "0x808fc09db95fe705:0x80455364aeaabe80"
+       },
+       {
+        "name": "Mowry Av & Logan Dr",
+        "stop_id": "54520",
+        "time": "9:23 AM",
+        "data_id": "0x808fbf61fb4720a3:0x195a20fd533b8a39"
+       },
+       {
+        "name": "Mowry Av & Glenview Dr",
+        "stop_id": "56609",
+        "time": "9:24 AM",
+        "data_id": "0x808fbf60944096c9:0xbd7c25984a17e359"
+       },
+       {
+        "name": "Mowry Av & Blacow Rd",
+        "stop_id": "52844",
+        "time": "9:24 AM",
+        "data_id": "0x808fbf5e03c8aeb1:0xe1eb415eeac96987"
+       },
+       {
+        "name": "Mowry Av & Farwell Dr",
+        "stop_id": "55780",
+        "time": "9:25 AM",
+        "data_id": "0x808fbf5db32bd659:0x70365219ef5add4e"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/200"
+      }
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "216 Union City BART",
+      "duration": 540,
+      "formatted_duration": "9 min",
+      "start_stop": {
+       "name": "New Park Mall",
+       "stop_id": "51112",
+       "time": "9:34 AM",
+       "data_id": "0x808fbf5a93d78e59:0x69efae64783e5c32"
+      },
+      "end_stop": {
+       "name": "Stevenson Blvd & Blacow Rd",
+       "stop_id": "53350",
+       "time": "9:43 AM",
+       "data_id": "0x808fc0ae3c4c5f69:0x5123b4e1c1685872"
+      },
+      "stops": [
+       {
+        "name": "Mowry Av & Alpenrose Dr (Swiss Park)",
+        "stop_id": "55156",
+        "time": "9:36 AM",
+        "data_id": "0x808fbf450b1e9657:0x37bb1aac03f99e0f"
+       },
+       {
+        "name": "Cedar Blvd & Mowry Av",
+        "stop_id": "51103",
+        "time": "9:36 AM",
+        "data_id": "0x808fbf4f7ea4e963:0xbfb2853f075ab87c"
+       },
+       {
+        "name": "Cedar Blvd & N Magazine",
+        "stop_id": "53347",
+        "time": "9:37 AM",
+        "data_id": "0x808fbf4e2cd65e8d:0x2f57730878aede0c"
+       },
+       {
+        "name": "Cedar Blvd & S Magazine",
+        "stop_id": "53301",
+        "time": "9:37 AM",
+        "data_id": "0x808fbf518456ce0f:0x8333eb54d22a40b8"
+       },
+       {
+        "name": "Cedar Av & Newark High School Library",
+        "stop_id": "50567",
+        "time": "9:38 AM",
+        "data_id": "0x808fbf517d6fcdcd:0x167bbf2c14d64265"
+       },
+       {
+        "name": "Cedar Blvd & Balentine Dr",
+        "stop_id": "53112",
+        "time": "9:38 AM",
+        "data_id": "0x808fbf53e0b0e667:0xa562f8a370c3ea41"
+       },
+       {
+        "name": "Cedar Blvd & Joaquin Murieta Av",
+        "stop_id": "57011",
+        "time": "9:39 AM",
+        "data_id": "0x808fbf54e18b7855:0x8b6ea4b353fcd33e"
+       },
+       {
+        "name": "Cedar Blvd & Stevenson Blvd",
+        "stop_id": "52988",
+        "time": "9:39 AM",
+        "data_id": "0x808fc7555f073375:0xb403b95bb1f02d3e"
+       },
+       {
+        "name": "Stevenson Blvd & Cedar Blvd",
+        "stop_id": "53305",
+        "time": "9:40 AM",
+        "data_id": "0x808fc755189914f5:0xb25037804a40e279"
+       },
+       {
+        "name": "Stevenson Blvd & Omar St",
+        "stop_id": "56515",
+        "time": "9:42 AM",
+        "data_id": "0x808fc0ac2d888de5:0x7acc41b18a673a99"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/216"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 194,
+      "duration": 179,
+      "formatted_distance": "0.1 mi",
+      "formatted_duration": "2 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head toward  Blacow Rd",
+        "action": "straight",
+        "distance": 67,
+        "duration": 63,
+        "formatted_distance": "220 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Blacow Rd",
+        "action": "turn-left",
+        "distance": 85,
+        "duration": 80,
+        "formatted_distance": "279 ft",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=D0uJdk_Vf2Ox-zOBXYUx6A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=84.47892&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52842472577499,
+         "longitude": -121.98277669017864
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 21,
+        "duration": 18,
+        "formatted_distance": "69 ft",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UKPYfT9SByDO5p4yiamFaw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=270.4353&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52800676847226,
+         "longitude": -121.9822461886417
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 21,
+        "duration": 18,
+        "formatted_distance": "69 ft",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Xlr6w7SKzcwH34KReKwKSQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=188.42485&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.52794891683361,
+         "longitude": -121.9821320879589
+        },
+        "extensions": [
+         "Destination will be on the right"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "durations": [
+   {
+    "travel_mode": "Driving",
+    "duration": 420,
+    "formatted_duration": "7 min"
+   },
+   {
+    "travel_mode": "Transit",
+    "duration": 2040,
+    "formatted_duration": "34 min"
+   },
+   {
+    "travel_mode": "Walking",
+    "duration": 2581,
+    "formatted_duration": "43 min"
+   },
+   {
+    "travel_mode": "Cycling",
+    "duration": 613,
+    "formatted_duration": "10 min"
+   }
+  ]
+ }
+}

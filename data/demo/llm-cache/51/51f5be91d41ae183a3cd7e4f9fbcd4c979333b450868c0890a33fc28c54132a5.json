@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791225433779",
+  "object": "chat.completion",
+  "created": 1791225433,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c1\",\"parent\":\"mother\",\"reason\":\"She enjoyed visiting temples in the past.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c2\",\"parent\":\"mother\",\"reason\":\"She enjoyed visiting temples in the past.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c5\",\"parent\":\"mother\",\"reason\":\"She liked visiting Indian grocery stores before.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c3\",\"parent\":\"mother\",\"reason\":\"She enjoys walking in parks.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c11\",\"parent\":\"mother\",\"reason\":\"She likes meeting other women her age.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true}],\"note\":\"No Telugu events or groups were found nearby this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1973,
+   "completion_tokens": 209,
+   "total_tokens": 2182,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 23.636363983154297
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:37:14.231Z",
+ "latencyMs": 5966
+}

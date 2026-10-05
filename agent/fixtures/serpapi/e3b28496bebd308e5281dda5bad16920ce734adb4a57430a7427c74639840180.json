@@ -1,0 +1,1038 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps_directions",
+ "request": "https://serpapi.com/search.json?engine=google_maps_directions&start_coords=37.5547%2C-121.9848&travel_mode=3&hl=en&gl=us&distance_unit=1&end_coords=37.5464078%2C-121.9816967&time=depart_at%3A1791361800&route=2",
+ "note": "directions: Mowry Ave & Fremont Blvd to Indian Market (transit)",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T18:32:31.130Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps_directions",
+   "hl": "en",
+   "gl": "us",
+   "start_coords": "37.5547,-121.9848",
+   "end_coords": "37.5464078,-121.9816967",
+   "travel_mode": "3",
+   "distance_unit": "1",
+   "route": "2",
+   "time": "depart_at:1791361800"
+  },
+  "places_info": [
+   {
+    "address": "37.5547000, -121.9848000",
+    "gps_coordinates": {
+     "latitude": 37.5547,
+     "longitude": -121.98479999999999
+    }
+   },
+   {
+    "address": "37.5464078, -121.9816967",
+    "gps_coordinates": {
+     "latitude": 37.5464078,
+     "longitude": -121.9816967
+    }
+   }
+  ],
+  "directions": [
+   {
+    "travel_mode": "Walking",
+    "via": "Mowry Ave and State St",
+    "distance": 1322,
+    "duration": 1118,
+    "formatted_distance": "0.8 mile",
+    "formatted_duration": "19 min",
+    "icon": "https://serpapi.com/assets/google_maps_directions/walking.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 1322,
+      "duration": 1118,
+      "formatted_distance": "0.8 mile",
+      "formatted_duration": "19 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot toward  Mowry Ave",
+        "action": "straight",
+        "distance": 94,
+        "duration": 74,
+        "formatted_distance": "308 ft",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BzTocy9LgREpbIzqk9yiVg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=307.73526&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55476208897778,
+         "longitude": -121.98484409452159
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Mowry Ave",
+        "action": "turn-right",
+        "distance": 431,
+        "duration": 351,
+        "formatted_distance": "0.3 mi",
+        "formatted_duration": "6 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gzfn2cS09F7BsBM0gJ67hQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=123.105095&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55441583160118,
+         "longitude": -121.98415516653498
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  State St",
+        "action": "turn-left",
+        "distance": 339,
+        "duration": 299,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "5 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-KVVnLQF-2N2FI4drilZBw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=287.2006&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55128757276859,
+         "longitude": -121.98632727061263
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Nation Ave",
+        "action": "turn-right",
+        "distance": 84,
+        "duration": 69,
+        "formatted_distance": "276 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  California St",
+        "action": "turn-left",
+        "distance": 127,
+        "duration": 104,
+        "formatted_distance": "417 ft",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_OiOkOxzF8loimbnFvDKyA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=128.9457&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54888098066482,
+         "longitude": -121.98368922663546
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  California St",
+        "action": "straight",
+        "distance": 177,
+        "duration": 164,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=I4FuYgG3NGHT2A4yyXeSTg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=327.8915&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54803213278544,
+         "longitude": -121.98287968388206
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 70,
+        "duration": 57,
+        "formatted_distance": "230 ft",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kfSAim0HCy817H1N2sPkqg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=117.860405&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5471827754358,
+         "longitude": -121.98145077859368
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "8:47 AM",
+    "end_time": "9:03 AM",
+    "distance": 1498,
+    "duration": 935,
+    "formatted_distance": "0.9 mile",
+    "formatted_duration": "16 min",
+    "cost": 3,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 112,
+      "duration": 89,
+      "formatted_distance": "367 ft",
+      "formatted_duration": "2 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot toward  Mowry Ave",
+        "action": "straight",
+        "distance": 94,
+        "duration": 74,
+        "formatted_distance": "308 ft",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BzTocy9LgREpbIzqk9yiVg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=307.73526&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55476208897778,
+         "longitude": -121.98484409452159
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Mowry Ave",
+        "action": "turn-left",
+        "distance": 18,
+        "duration": 15,
+        "formatted_distance": "59 ft",
+        "formatted_duration": "15 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gzfn2cS09F7BsBM0gJ67hQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=123.105095&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55441583160118,
+         "longitude": -121.98415516653498
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "200 Union City BART",
+      "duration": 95,
+      "formatted_duration": "1 min",
+      "start_stop": {
+       "name": "Mowry Av & Paseo Padre Pkwy",
+       "stop_id": "55215",
+       "time": "8:49 AM",
+       "data_id": "0x808fc085b6a94c6d:0x410a55df372b1b1c"
+      },
+      "end_stop": {
+       "name": "Mowry Av & Lexington St",
+       "stop_id": "50711",
+       "time": "8:50 AM",
+       "data_id": "0x808fc084a900cac3:0x3bc44b7be13e69b9"
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/200"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 864,
+      "duration": 751,
+      "formatted_distance": "0.5 mi",
+      "formatted_duration": "13 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head toward  Mowry Ave",
+        "action": "straight",
+        "distance": 8,
+        "duration": 6,
+        "formatted_distance": "26 ft",
+        "formatted_duration": "6 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vAnxft_EMEY1FRQPIeVDzg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=213.62465&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55060519150533,
+         "longitude": -121.98689393332158
+        },
+        "extensions": [
+         "Restricted usage road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Mowry Ave",
+        "action": "turn-left",
+        "distance": 59,
+        "duration": 52,
+        "formatted_distance": "194 ft",
+        "formatted_duration": "52 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  State St",
+        "action": "turn-right",
+        "distance": 339,
+        "duration": 299,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "5 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Nation Ave",
+        "action": "turn-right",
+        "distance": 84,
+        "duration": 69,
+        "formatted_distance": "276 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  California St",
+        "action": "turn-left",
+        "distance": 127,
+        "duration": 104,
+        "formatted_distance": "417 ft",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_OiOkOxzF8loimbnFvDKyA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=128.9457&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54888098066482,
+         "longitude": -121.98368922663546
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  California St",
+        "action": "straight",
+        "distance": 177,
+        "duration": 164,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=I4FuYgG3NGHT2A4yyXeSTg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=327.8915&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54803213278544,
+         "longitude": -121.98287968388206
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 70,
+        "duration": 57,
+        "formatted_distance": "230 ft",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kfSAim0HCy817H1N2sPkqg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=117.860405&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5471827754358,
+         "longitude": -121.98145077859368
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "8:55 AM",
+    "end_time": "9:10 AM",
+    "distance": 1659,
+    "duration": 916,
+    "formatted_distance": "1.0 mile",
+    "formatted_duration": "15 min",
+    "cost": 3,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 765,
+      "duration": 653,
+      "formatted_distance": "0.5 mi",
+      "formatted_duration": "11 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot",
+        "action": "straight",
+        "distance": 73,
+        "duration": 57,
+        "formatted_distance": "240 ft",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BzTocy9LgREpbIzqk9yiVg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=307.73526&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55476208897778,
+         "longitude": -121.98484409452159
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  Paseo Padre Pkwy",
+        "action": "turn-left",
+        "distance": 36,
+        "duration": 31,
+        "formatted_distance": "118 ft",
+        "formatted_duration": "31 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=d3cu94FMu96DiMk7jzw-Xw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=303.14227&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55446204078258,
+         "longitude": -121.98424418946331
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  toward  Paseo Padre Pkwy",
+        "action": "turn-right",
+        "distance": 34,
+        "duration": 28,
+        "formatted_distance": "112 ft",
+        "formatted_duration": "28 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=iIC1KHiff0ux2MyJK9bH4Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=32.32592&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55449372387831,
+         "longitude": -121.98398987523332
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Paseo Padre Pkwy",
+        "action": "turn-right",
+        "distance": 585,
+        "duration": 508,
+        "formatted_distance": "0.4 mi",
+        "formatted_duration": "8 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_iW6V6tnaliWx-FVX1t4SQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=259.95734&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55468011382921,
+         "longitude": -121.98377529985375
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Walnut Ave",
+        "action": "turn-right",
+        "distance": 37,
+        "duration": 29,
+        "formatted_distance": "121 ft",
+        "formatted_duration": "29 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "211 Union City BART",
+      "duration": 67,
+      "formatted_duration": "1 min",
+      "start_stop": {
+       "name": "Walnut Av & Paseo Padre Pkwy",
+       "stop_id": "52958",
+       "time": "9:06 AM",
+       "data_id": "0x808fc091b6003edd:0x5c7ec578f563a3ef"
+      },
+      "end_stop": {
+       "name": "Walnut Av & Fremont Blvd",
+       "stop_id": "52289",
+       "time": "9:07 AM",
+       "data_id": "0x808fc099f0bb7e53:0xe7bc84073174a33c"
+      },
+      "stops": [
+       {
+        "name": "Walnut Ave. at Liberty St.",
+        "stop_id": "56155",
+        "time": "9:07 AM",
+        "data_id": "0x808fc09092ed385b:0x2cf39a4c5bedfbb7"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/211"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 210,
+      "duration": 196,
+      "formatted_distance": "0.1 mi",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head toward  California St",
+        "action": "straight",
+        "distance": 100,
+        "duration": 85,
+        "formatted_distance": "328 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  California St",
+        "action": "turn-right",
+        "distance": 40,
+        "duration": 54,
+        "formatted_distance": "131 ft",
+        "formatted_duration": "54 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=HXHumatkApJPtHfwHOF-hg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=122.732376&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.547230062908966,
+         "longitude": -121.98171351531055
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 70,
+        "duration": 57,
+        "formatted_distance": "230 ft",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kfSAim0HCy817H1N2sPkqg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=117.860405&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5471827754358,
+         "longitude": -121.98145077859368
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "9:17 AM",
+    "end_time": "9:33 AM",
+    "distance": 1498,
+    "duration": 935,
+    "formatted_distance": "0.9 mile",
+    "formatted_duration": "16 min",
+    "cost": 3,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 112,
+      "duration": 89,
+      "formatted_distance": "367 ft",
+      "formatted_duration": "2 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot toward  Mowry Ave",
+        "action": "straight",
+        "distance": 94,
+        "duration": 74,
+        "formatted_distance": "308 ft",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BzTocy9LgREpbIzqk9yiVg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=307.73526&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55476208897778,
+         "longitude": -121.98484409452159
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Mowry Ave",
+        "action": "turn-left",
+        "distance": 18,
+        "duration": 15,
+        "formatted_distance": "59 ft",
+        "formatted_duration": "15 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gzfn2cS09F7BsBM0gJ67hQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=123.105095&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55441583160118,
+         "longitude": -121.98415516653498
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "200 Union City BART",
+      "duration": 95,
+      "formatted_duration": "1 min",
+      "start_stop": {
+       "name": "Mowry Av & Paseo Padre Pkwy",
+       "stop_id": "55215",
+       "time": "9:19 AM",
+       "data_id": "0x808fc085b6a94c6d:0x410a55df372b1b1c"
+      },
+      "end_stop": {
+       "name": "Mowry Av & Lexington St",
+       "stop_id": "50711",
+       "time": "9:20 AM",
+       "data_id": "0x808fc084a900cac3:0x3bc44b7be13e69b9"
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/200"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 864,
+      "duration": 751,
+      "formatted_distance": "0.5 mi",
+      "formatted_duration": "13 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head toward  Mowry Ave",
+        "action": "straight",
+        "distance": 8,
+        "duration": 6,
+        "formatted_distance": "26 ft",
+        "formatted_duration": "6 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vAnxft_EMEY1FRQPIeVDzg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=213.62465&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55060519150533,
+         "longitude": -121.98689393332158
+        },
+        "extensions": [
+         "Restricted usage road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Mowry Ave",
+        "action": "turn-left",
+        "distance": 59,
+        "duration": 52,
+        "formatted_distance": "194 ft",
+        "formatted_duration": "52 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  State St",
+        "action": "turn-right",
+        "distance": 339,
+        "duration": 299,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "5 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Nation Ave",
+        "action": "turn-right",
+        "distance": 84,
+        "duration": 69,
+        "formatted_distance": "276 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  California St",
+        "action": "turn-left",
+        "distance": 127,
+        "duration": 104,
+        "formatted_distance": "417 ft",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_OiOkOxzF8loimbnFvDKyA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=128.9457&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54888098066482,
+         "longitude": -121.98368922663546
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  California St",
+        "action": "straight",
+        "distance": 177,
+        "duration": 164,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=I4FuYgG3NGHT2A4yyXeSTg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=327.8915&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54803213278544,
+         "longitude": -121.98287968388206
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 70,
+        "duration": 57,
+        "formatted_distance": "230 ft",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kfSAim0HCy817H1N2sPkqg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=117.860405&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5471827754358,
+         "longitude": -121.98145077859368
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "9:25 AM",
+    "end_time": "9:40 AM",
+    "distance": 1659,
+    "duration": 916,
+    "formatted_distance": "1.0 mile",
+    "formatted_duration": "15 min",
+    "cost": 3,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 765,
+      "duration": 653,
+      "formatted_distance": "0.5 mi",
+      "formatted_duration": "11 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot",
+        "action": "straight",
+        "distance": 73,
+        "duration": 57,
+        "formatted_distance": "240 ft",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BzTocy9LgREpbIzqk9yiVg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=307.73526&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55476208897778,
+         "longitude": -121.98484409452159
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  Paseo Padre Pkwy",
+        "action": "turn-left",
+        "distance": 36,
+        "duration": 31,
+        "formatted_distance": "118 ft",
+        "formatted_duration": "31 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=d3cu94FMu96DiMk7jzw-Xw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=303.14227&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55446204078258,
+         "longitude": -121.98424418946331
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  toward  Paseo Padre Pkwy",
+        "action": "turn-right",
+        "distance": 34,
+        "duration": 28,
+        "formatted_distance": "112 ft",
+        "formatted_duration": "28 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=iIC1KHiff0ux2MyJK9bH4Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=32.32592&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55449372387831,
+         "longitude": -121.98398987523332
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Paseo Padre Pkwy",
+        "action": "turn-right",
+        "distance": 585,
+        "duration": 508,
+        "formatted_distance": "0.4 mi",
+        "formatted_duration": "8 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_iW6V6tnaliWx-FVX1t4SQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=259.95734&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55468011382921,
+         "longitude": -121.98377529985375
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Walnut Ave",
+        "action": "turn-right",
+        "distance": 37,
+        "duration": 29,
+        "formatted_distance": "121 ft",
+        "formatted_duration": "29 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "211 Union City BART",
+      "duration": 67,
+      "formatted_duration": "1 min",
+      "start_stop": {
+       "name": "Walnut Av & Paseo Padre Pkwy",
+       "stop_id": "52958",
+       "time": "9:36 AM",
+       "data_id": "0x808fc091b6003edd:0x5c7ec578f563a3ef"
+      },
+      "end_stop": {
+       "name": "Walnut Av & Fremont Blvd",
+       "stop_id": "52289",
+       "time": "9:37 AM",
+       "data_id": "0x808fc099f0bb7e53:0xe7bc84073174a33c"
+      },
+      "stops": [
+       {
+        "name": "Walnut Ave. at Liberty St.",
+        "stop_id": "56155",
+        "time": "9:37 AM",
+        "data_id": "0x808fc09092ed385b:0x2cf39a4c5bedfbb7"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/211"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 210,
+      "duration": 196,
+      "formatted_distance": "0.1 mi",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head toward  California St",
+        "action": "straight",
+        "distance": 100,
+        "duration": 85,
+        "formatted_distance": "328 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  California St",
+        "action": "turn-right",
+        "distance": 40,
+        "duration": 54,
+        "formatted_distance": "131 ft",
+        "formatted_duration": "54 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=HXHumatkApJPtHfwHOF-hg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=122.732376&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.547230062908966,
+         "longitude": -121.98171351531055
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 70,
+        "duration": 57,
+        "formatted_distance": "230 ft",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kfSAim0HCy817H1N2sPkqg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=117.860405&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5471827754358,
+         "longitude": -121.98145077859368
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "9:47 AM",
+    "end_time": "10:03 AM",
+    "distance": 1498,
+    "duration": 935,
+    "formatted_distance": "0.9 mile",
+    "formatted_duration": "16 min",
+    "cost": 3,
+    "currency": "USD",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 112,
+      "duration": 89,
+      "formatted_distance": "367 ft",
+      "formatted_duration": "2 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Exit the parking lot toward  Mowry Ave",
+        "action": "straight",
+        "distance": 94,
+        "duration": 74,
+        "formatted_distance": "308 ft",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BzTocy9LgREpbIzqk9yiVg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=307.73526&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55476208897778,
+         "longitude": -121.98484409452159
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Mowry Ave",
+        "action": "turn-left",
+        "distance": 18,
+        "duration": 15,
+        "formatted_distance": "59 ft",
+        "formatted_duration": "15 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gzfn2cS09F7BsBM0gJ67hQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=123.105095&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55441583160118,
+         "longitude": -121.98415516653498
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "200 Union City BART",
+      "duration": 95,
+      "formatted_duration": "1 min",
+      "start_stop": {
+       "name": "Mowry Av & Paseo Padre Pkwy",
+       "stop_id": "55215",
+       "time": "9:49 AM",
+       "data_id": "0x808fc085b6a94c6d:0x410a55df372b1b1c"
+      },
+      "end_stop": {
+       "name": "Mowry Av & Lexington St",
+       "stop_id": "50711",
+       "time": "9:50 AM",
+       "data_id": "0x808fc084a900cac3:0x3bc44b7be13e69b9"
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "AC TRANSIT",
+       "link": "http://www.actransit.org/",
+       "route_information": "http://www.actransit.org/bus-lines-schedules/200"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Walk",
+      "distance": 864,
+      "duration": 751,
+      "formatted_distance": "0.5 mi",
+      "formatted_duration": "13 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Head toward  Mowry Ave",
+        "action": "straight",
+        "distance": 8,
+        "duration": 6,
+        "formatted_distance": "26 ft",
+        "formatted_duration": "6 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vAnxft_EMEY1FRQPIeVDzg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=213.62465&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.55060519150533,
+         "longitude": -121.98689393332158
+        },
+        "extensions": [
+         "Restricted usage road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Mowry Ave",
+        "action": "turn-left",
+        "distance": 59,
+        "duration": 52,
+        "formatted_distance": "194 ft",
+        "formatted_duration": "52 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  State St",
+        "action": "turn-right",
+        "distance": 339,
+        "duration": 299,
+        "formatted_distance": "0.2 mi",
+        "formatted_duration": "5 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Nation Ave",
+        "action": "turn-right",
+        "distance": 84,
+        "duration": 69,
+        "formatted_distance": "276 ft",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  California St",
+        "action": "turn-left",
+        "distance": 127,
+        "duration": 104,
+        "formatted_distance": "417 ft",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_OiOkOxzF8loimbnFvDKyA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=128.9457&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54888098066482,
+         "longitude": -121.98368922663546
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  California St",
+        "action": "straight",
+        "distance": 177,
+        "duration": 164,
+        "formatted_distance": "0.1 mi",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=I4FuYgG3NGHT2A4yyXeSTg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=327.8915&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.54803213278544,
+         "longitude": -121.98287968388206
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 70,
+        "duration": 57,
+        "formatted_distance": "230 ft",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kfSAim0HCy817H1N2sPkqg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=117.860405&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 37.5471827754358,
+         "longitude": -121.98145077859368
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "durations": [
+   {
+    "travel_mode": "Driving",
+    "duration": 360,
+    "formatted_duration": "6 min"
+   },
+   {
+    "travel_mode": "Transit",
+    "duration": 1080,
+    "formatted_duration": "18 min"
+   },
+   {
+    "travel_mode": "Walking",
+    "duration": 1118,
+    "formatted_duration": "19 min"
+   },
+   {
+    "travel_mode": "Cycling",
+    "duration": 296,
+    "formatted_duration": "5 min"
+   }
+  ]
+ }
+}

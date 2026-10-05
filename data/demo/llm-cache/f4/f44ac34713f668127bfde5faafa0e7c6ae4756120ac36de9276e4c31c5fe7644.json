@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791225538934",
+  "object": "chat.completion",
+  "created": 1791225538,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"నాన్నగారు, సోమవారం 08:30కి Sri Siddhi Vinayaka Cultural Center కి వెళ్దాం. Fremont Blvd & Mowry Av దగ్గర Bus 210 ఎక్కి, 4 స్టాపుల తర్వాత Fremont Blvd & Stevenson Blvd దగ్గర దిగండి. అక్కడి నుండి Stevenson Blvd. & Fremont Blvd. కి నడిచి, Bus 216 ఎక్కి 5 స్టాపుల తర్వాత Stevenson Blvd & Blacow Rd దగ్గర దిగండి. అక్కడ అందమైన హిందూ దేవాలయం ఉంది. 11:08కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Sri Siddhi Vinayaka Cultural Center కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1121,
+   "completion_tokens": 155,
+   "total_tokens": 1276,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 14.418180465698242
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:38:59.501Z",
+ "latencyMs": 5187
+}

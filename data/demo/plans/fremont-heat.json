@@ -1,107 +1,12 @@
 {
  "demoWeek": "fremont-heat",
  "label": "Fremont, heat advisory midweek",
- "provenance": "synthetic",
+ "weekSource": "synthetic variant",
  "householdId": "hh_fremont",
  "week": "2026-W41",
+ "provenance": "synthetic",
  "sourceOfCandidates": "live_search",
  "suggestions": [
-  {
-   "id": "hh_fremont:2026-W41:ev_34303c4e",
-   "candidate": {
-    "id": "ev_34303c4e",
-    "kind": "event",
-    "title": "Niles Fremont Farmers Market",
-    "venueName": "Niles Fremont Farmer's Market",
-    "address": "Niles Fremont Farmer's Market, Fremont, CA",
-    "location": {
-     "lat": 37.576705,
-     "lng": -121.9784815
-    },
-    "ladderLevel": 3,
-    "languageMatch": 0,
-    "category": "market",
-    "indoor": false,
-    "costUsd": 0,
-    "foodAvailable": false,
-    "languageNeeded": false,
-    "groupSize": "medium",
-    "description": "",
-    "photo": {
-     "url": "https://serpapi.com/searches/6ac3dbc71248150d0716507e/images/OOX_VTLr9K0BcpXOymNyQQbM9Em-QsIcxy2NMx1_K6w.jpeg",
-     "credit": "Image: event listing"
-    },
-    "start": "2026-10-10T09:00:00-07:00",
-    "end": null,
-    "suitsOlderAdults": true,
-    "provenance": "live_search",
-    "query": "Telugu events in Fremont, California"
-   },
-   "role": "mother",
-   "parentIds": [
-    "p_sarala"
-   ],
-   "slot": {
-    "day": "sat",
-    "depart": 517,
-    "back": 628,
-    "withAdultChild": true
-   },
-   "ladderLevel": 3,
-   "ladderLabel": "Language barely matters",
-   "score": {
-    "pGo": 0.9792,
-    "enjoyment": 4.477,
-    "combined": 4.3839,
-    "rank": 1
-   },
-   "chips": [
-    {
-     "label": "A time that has worked before",
-     "feature": "timing",
-     "direction": "for"
-    },
-    {
-     "label": "Good weather for it",
-     "feature": "weather",
-     "direction": "for"
-    },
-    {
-     "label": "No familiar faces yet",
-     "feature": "knowsSomeone",
-     "direction": "against"
-    }
-   ],
-   "reasonText": "No Telugu events nearby this week. No language needed. The pleasant weather is good for a walk they have enjoyed before. By bus, about 18 minutes each way, back by 10:28.",
-   "reasonBy": "planner",
-   "firstRideTogether": false,
-   "bringSomeone": {
-    "personId": "pp_chen",
-    "label": "Mrs. Chen",
-    "why": "No shared language is needed here, so a neighbor can easily come along."
-   },
-   "joinCard": null,
-   "features": {
-    "category": "market",
-    "languageMatch": 0,
-    "travelMinutes": 18,
-    "transfers": 0,
-    "walkingMinutes": 8,
-    "startHour": 8,
-    "dayOfWeek": "sat",
-    "weather": "pleasant",
-    "temperatureC": 24,
-    "rainChance": 0.02,
-    "indoor": false,
-    "groupSize": "medium",
-    "costUsd": 0,
-    "knowsSomeone": false,
-    "foodAvailable": false,
-    "daysSinceLastOuting": 3,
-    "withAdultChild": false,
-    "languageNeeded": false
-   }
-  },
   {
    "id": "hh_fremont:2026-W41:pl_d1f88c93",
    "candidate": {
@@ -140,16 +45,16 @@
    "slot": {
     "day": "mon",
     "depart": 510,
-    "back": 636,
+    "back": 634,
     "withAdultChild": false
    },
    "ladderLevel": 2,
    "ladderLabel": "Shared culture",
    "score": {
-    "pGo": 0.9021,
-    "enjoyment": 3.997,
-    "combined": 3.6059,
-    "rank": 2
+    "pGo": 0.9008,
+    "enjoyment": 4.017,
+    "combined": 3.6188,
+    "rank": 1
    },
    "chips": [
     {
@@ -168,7 +73,7 @@
      "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. Shared culture. They enjoyed visiting temples during their visit. By bus, about 18 minutes each way, back by 10:36.",
+   "reasonText": "No Telugu events nearby this week. Shared culture. They enjoyed visiting temples previously. By bus, about 17 minutes each way, back by 10:34.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
@@ -181,7 +86,7 @@
    "features": {
     "category": "temple",
     "languageMatch": 1,
-    "travelMinutes": 18,
+    "travelMinutes": 17,
     "transfers": 0,
     "walkingMinutes": 8,
     "startHour": 8,
@@ -200,16 +105,16 @@
    }
   },
   {
-   "id": "hh_fremont:2026-W41:pl_d08f3aa9",
+   "id": "hh_fremont:2026-W41:pl_366cab34",
    "candidate": {
-    "id": "pl_d08f3aa9",
+    "id": "pl_366cab34",
     "kind": "place",
-    "title": "Bharat Bazar",
-    "venueName": "Bharat Bazar",
-    "address": "3400 Mowry Ave, Fremont, CA 94538",
+    "title": "Indian Market",
+    "venueName": "Indian Market",
+    "address": "3890 Walnut Ave, Fremont, CA 94538",
     "location": {
-     "lat": 37.5520269,
-     "lng": -121.98512489999999
+     "lat": 37.5464078,
+     "lng": -121.9816967
     },
     "ladderLevel": 2,
     "languageMatch": 1,
@@ -221,7 +126,7 @@
     "groupSize": "medium",
     "description": "Indian grocery store",
     "photo": {
-     "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcwWo2Hytv1gmJAWIPBcUFvUfujNnI9PVF1Z37YBa3Xx3r2cNra0vpXyNKsphP9zkZ2lnGHsb9WQTZ7gEOhys30uqgln06s_kZ23Rjo7On_JfkcrrdHjdlz95mys6WIRQ4qoQgdoQ=w1000-h1000-c-n",
+     "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeDwSDTKiPFQyrv-yuPW3HEdft0fsojNsFetmQVL8U5Yn3Op8ceqOLLWntFi5D5At01Bfl5dMW26RmMvyWq2WmFk21YMcDq1ORTWORil70w1nfi_jYXKl1n1qdculPUgS1HT7m-=w1000-h1000-c-n",
      "credit": "Photo: Google Maps contributor"
     },
     "start": null,
@@ -237,16 +142,16 @@
    "slot": {
     "day": "mon",
     "depart": 510,
-    "back": 570,
+    "back": 584,
     "withAdultChild": false
    },
    "ladderLevel": 2,
    "ladderLabel": "Shared culture",
    "score": {
-    "pGo": 0.8824,
-    "enjoyment": 3.443,
-    "combined": 3.0383,
-    "rank": 3
+    "pGo": 0.8934,
+    "enjoyment": 3.533,
+    "combined": 3.156,
+    "rank": 2
    },
    "chips": [
     {
@@ -265,7 +170,7 @@
      "direction": "for"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. Shared culture. They enjoyed spending time in the spice aisle at Indian stores. A 5-minute walk, back by 09:30.",
+   "reasonText": "No Telugu events nearby this week. Shared culture. They liked spending time in the spice aisle at Indian grocery stores. A 12-minute walk, back by 09:44.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
@@ -273,9 +178,9 @@
    "features": {
     "category": "indian_grocery",
     "languageMatch": 1,
-    "travelMinutes": 5,
+    "travelMinutes": 12,
     "transfers": 0,
-    "walkingMinutes": 5,
+    "walkingMinutes": 12,
     "startHour": 8,
     "dayOfWeek": "mon",
     "weather": "air_conditioned",
@@ -292,7 +197,7 @@
    }
   }
  ],
- "note": "No Telugu events were found this week.",
+ "note": "No Telugu events or groups were found nearby this week.",
  "sameLanguageFound": false,
  "rejected": [
   {
@@ -300,19 +205,15 @@
    "why": "no free slot for that parent"
   },
   {
+   "candidateId": "pl_7836967d",
+   "why": "no free slot for that parent"
+  },
+  {
    "candidateId": "pl_906a027f",
    "why": "no free slot for that parent"
   },
   {
-   "candidateId": "pl_366cab34",
-   "why": "no free slot for that parent"
-  },
-  {
-   "candidateId": "pl_7836967d",
-   "why": "no free slot for that parent"
-  },
-  {
-   "candidateId": "pl_3bfe26db",
+   "candidateId": "pl_d08f3aa9",
    "why": "no free slot for that parent"
   },
   {
@@ -324,15 +225,31 @@
    "why": "no free slot for that parent"
   },
   {
-   "candidateId": "pl_86381408",
+   "candidateId": "pl_3bfe26db",
    "why": "no free slot for that parent"
   },
   {
-   "candidateId": "pl_86381408",
+   "candidateId": "pl_7836967d",
    "why": "no free slot for that parent"
   },
   {
-   "candidateId": "pl_f3a2878a",
+   "candidateId": "pl_d98ae06a",
+   "why": "no free slot for that parent"
+  },
+  {
+   "candidateId": "pl_04cf9ca7",
+   "why": "no free slot for that parent"
+  },
+  {
+   "candidateId": "pl_04cf9ca7",
+   "why": "no free slot for that parent"
+  },
+  {
+   "candidateId": "pl_d98ae06a",
+   "why": "no free slot for that parent"
+  },
+  {
+   "candidateId": "pl_d6f16381",
    "why": "no free slot for that parent"
   },
   {
@@ -344,11 +261,11 @@
    "why": "no free slot for that parent"
   },
   {
-   "candidateId": "pl_f3a2878a",
+   "candidateId": "pl_fbc0ea4f",
    "why": "no free slot for that parent"
   },
   {
-   "candidateId": "pl_fbc0ea4f",
+   "candidateId": "pl_d6f16381",
    "why": "no free slot for that parent"
   },
   {
@@ -365,7 +282,7 @@
   }
  ],
  "stats": {
-  "ms": 2118,
+  "ms": 5251,
   "modelCalls": 1,
   "cachedModelCalls": 0,
   "fallbacks": 0,
@@ -373,23 +290,23 @@
   "toolCalls": [
    {
     "tool": "rankOutings",
-    "ms": 2,
+    "ms": 9,
     "detail": "mother: 12 feasible"
    },
    {
     "tool": "rankOutings",
-    "ms": 2,
+    "ms": 4,
     "detail": "father: 12 feasible"
    },
    {
     "tool": "agent",
-    "ms": 2109,
+    "ms": 5234,
     "detail": "1 steps"
    }
   ],
   "rankerCalls": 2,
-  "candidates": 20,
+  "candidates": 21,
   "feasible": 12,
-  "agentChoicesUsed": 3
+  "agentChoicesUsed": 2
  }
 }

@@ -1,0 +1,251 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps_directions",
+ "request": "https://serpapi.com/search.json?engine=google_maps_directions&start_coords=48.1006%2C11.6466&travel_mode=2&hl=de&gl=de&distance_unit=0&end_coords=48.1064302%2C11.6451376",
+ "note": "directions: Neuperlach Zentrum to Desi Markt (walking)",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T18:33:11.846Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps_directions",
+   "hl": "de",
+   "gl": "de",
+   "start_coords": "48.1006,11.6466",
+   "end_coords": "48.1064302,11.6451376",
+   "travel_mode": "2",
+   "distance_unit": "0"
+  },
+  "places_info": [
+   {
+    "address": "48.1006000, 11.6466000",
+    "gps_coordinates": {
+     "latitude": 48.1006,
+     "longitude": 11.6466
+    }
+   },
+   {
+    "address": "48.1064302, 11.6451376",
+    "gps_coordinates": {
+     "latitude": 48.1064302,
+     "longitude": 11.6451376
+    }
+   }
+  ],
+  "directions": [
+   {
+    "travel_mode": "Walking",
+    "via": "Thomas-Dehler-Straße und Albert-Schweitzer-Straße",
+    "distance": 777,
+    "duration": 697,
+    "formatted_distance": "800 m",
+    "formatted_duration": "12 min",
+    "icon": "https://serpapi.com/assets/google_maps_directions/walking.svg",
+    "elevation_profile": {
+     "ascent": 1,
+     "descent": 3,
+     "max_altitude": 540,
+     "min_altitude": 537,
+     "formatted_ascent": "1 m",
+     "formatted_descent": "3 m",
+     "formatted_max_altitude": "540 m",
+     "formatted_min_altitude": "537 m"
+    },
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "distance": 777,
+      "duration": 698,
+      "formatted_distance": "800 m",
+      "formatted_duration": "12 min",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 293,
+        "duration": 240,
+        "formatted_distance": "290 m",
+        "formatted_duration": "4 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Fritz-Schäffer-Straße",
+        "action": "turn-left",
+        "distance": 28,
+        "duration": 42,
+        "formatted_distance": "28 m",
+        "formatted_duration": "42 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Fußgängerübergang nehmen",
+        "distance": 90,
+        "duration": 104,
+        "formatted_distance": "90 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=O0-MkHMcYGMOjTYKQjm9Gg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=69.464745&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10352182071875,
+         "longitude": 11.646285219732745
+        }
+       },
+       {
+        "title": "Weiter auf  Albert-Schweitzer-Straße",
+        "action": "straight",
+        "distance": 207,
+        "duration": 185,
+        "formatted_distance": "210 m",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=hJGuixTjqiq5-t0Nabh_pg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=317.8354&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.104007464287214,
+         "longitude": 11.646128081316679
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen",
+        "action": "turn-left",
+        "distance": 90,
+        "duration": 72,
+        "formatted_distance": "90 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Gs4yV9sQwdjjC1TtzjPQWw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=319.44867&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.105948202856396,
+         "longitude": 11.646305199956496
+        },
+        "extensions": [
+         "Das Ziel befindet sich auf der rechten Seite"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Walking",
+    "distance": 911,
+    "duration": 768,
+    "formatted_distance": "900 m",
+    "formatted_duration": "13 min",
+    "icon": "https://serpapi.com/assets/google_maps_directions/walking.svg",
+    "elevation_profile": {
+     "ascent": 7,
+     "descent": 8,
+     "max_altitude": 545,
+     "min_altitude": 537,
+     "formatted_ascent": "7 m",
+     "formatted_descent": "8 m",
+     "formatted_max_altitude": "545 m",
+     "formatted_min_altitude": "537 m"
+    },
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "distance": 911,
+      "duration": 768,
+      "formatted_distance": "900 m",
+      "formatted_duration": "13 min",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Leicht  links  abbiegen",
+        "action": "turn-slight-left",
+        "distance": 166,
+        "duration": 151,
+        "formatted_distance": "170 m",
+        "formatted_duration": "3 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       },
+       {
+        "title": "Leicht  rechts  abbiegen",
+        "action": "turn-slight-right",
+        "distance": 218,
+        "duration": 193,
+        "formatted_distance": "220 m",
+        "formatted_duration": "3 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       },
+       {
+        "title": "Fußgängerüberführung nehmen",
+        "distance": 377,
+        "duration": 304,
+        "formatted_distance": "400 m",
+        "formatted_duration": "5 min",
+        "extensions": [
+         "Treppe nehmen"
+        ]
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 40,
+        "duration": 31,
+        "formatted_distance": "40 m",
+        "formatted_duration": "31 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=7nxYhNrVotznvuSJhCJ92Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=359.88333&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10659239270396,
+         "longitude": 11.644178763735901
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 41,
+        "duration": 34,
+        "formatted_distance": "41 m",
+        "formatted_duration": "34 Sek.",
+        "extensions": [
+         "Das Ziel befindet sich auf der rechten Seite"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "durations": [
+   {
+    "travel_mode": "Driving",
+    "duration": 211,
+    "formatted_duration": "4 min"
+   },
+   {
+    "travel_mode": "Transit",
+    "duration": 540,
+    "formatted_duration": "9 min"
+   },
+   {
+    "travel_mode": "Walking",
+    "duration": 697,
+    "formatted_duration": "12 min"
+   },
+   {
+    "travel_mode": "Cycling",
+    "duration": 267,
+    "formatted_duration": "4 min"
+   }
+  ]
+ }
+}

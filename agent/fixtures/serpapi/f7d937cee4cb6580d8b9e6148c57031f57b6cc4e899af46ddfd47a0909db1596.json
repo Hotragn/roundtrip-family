@@ -1,0 +1,1394 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps_directions",
+ "request": "https://serpapi.com/search.json?engine=google_maps_directions&start_coords=48.1006%2C11.6466&travel_mode=3&hl=de&gl=de&distance_unit=0&end_coords=48.1136213%2C11.601256999999999&time=depart_at%3A1791273600&route=2",
+ "note": "directions: Neuperlach Zentrum to Balan Park (transit)",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T18:33:05.782Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps_directions",
+   "hl": "de",
+   "gl": "de",
+   "start_coords": "48.1006,11.6466",
+   "end_coords": "48.1136213,11.601256999999999",
+   "travel_mode": "3",
+   "distance_unit": "0",
+   "route": "2",
+   "time": "depart_at:1791273600"
+  },
+  "places_info": [
+   {
+    "address": "48.1006000, 11.6466000",
+    "gps_coordinates": {
+     "latitude": 48.1006,
+     "longitude": 11.6466
+    }
+   },
+   {
+    "address": "48.1136213, 11.6012570",
+    "gps_coordinates": {
+     "latitude": 48.1136213,
+     "longitude": 11.601256999999999
+    }
+   }
+  ],
+  "directions": [
+   {
+    "travel_mode": "Transit",
+    "start_time": "08:03",
+    "end_time": "08:33",
+    "distance": 7074,
+    "duration": 1801,
+    "formatted_distance": "7,1 km",
+    "formatted_duration": "30 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 168,
+      "duration": 137,
+      "formatted_distance": "170 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 42,
+        "duration": 36,
+        "formatted_distance": "42 m",
+        "formatted_duration": "36 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 57,
+        "duration": 46,
+        "formatted_distance": "57 m",
+        "formatted_duration": "46 Sek.",
+        "extensions": [
+         "Das Ziel befindet sich auf der rechten Seite"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "139 Klinikum Harlaching",
+      "duration": 1080,
+      "formatted_duration": "18 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "stop_id": "8",
+       "time": "08:06",
+       "data_id": "0x479de07140d4193b:0xe7a743e1928383ed"
+      },
+      "end_stop": {
+       "name": "Balanstraße",
+       "time": "08:24",
+       "data_id": "0x479ddfbccfce4693:0xf42eb21652818aa8"
+      },
+      "stops": [
+       {
+        "name": "Neuperlach Zentrum",
+        "stop_id": "4",
+        "time": "08:08",
+        "data_id": "0x479de0710cde14d5:0xe62a8cd67700707b"
+       },
+       {
+        "name": "Jakob-Kaiser-Straße",
+        "time": "08:10",
+        "data_id": "0x479ddfdf61dd09cb:0xa874015f7afdb1a0"
+       },
+       {
+        "name": "Holzwiesenstraße",
+        "time": "08:11",
+        "data_id": "0x479ddfd8d4f885ab:0x95fd46b9e8df9901"
+       },
+       {
+        "name": "Wilhelm-Hoegner-Straße",
+        "time": "08:13",
+        "data_id": "0x479ddfd83abb0547:0xaedee69af93a7cd"
+       },
+       {
+        "name": "Pfanzeltplatz",
+        "time": "08:14",
+        "data_id": "0x479ddfda3f9b8003:0xb82779b7c4bd1382"
+       },
+       {
+        "name": "Neuer Südfriedhof",
+        "time": "08:16",
+        "data_id": "0x479ddfc5980e5343:0xecf48cde48b427e1"
+       },
+       {
+        "name": "Anneliese-Fleyenschmidt-Straße",
+        "time": "08:18",
+        "data_id": "0x479ddfc636cd97a5:0xdb9308ce46971e3"
+       },
+       {
+        "name": "Mitterweg",
+        "time": "08:19",
+        "data_id": "0x479ddfb825a49447:0x5ad550ae0314936e"
+       },
+       {
+        "name": "Hochäckerstraße",
+        "time": "08:20",
+        "data_id": "0x479ddfb9ffc68305:0xb39d062b42bed9c"
+       },
+       {
+        "name": "Ständlerstraße",
+        "time": "08:21",
+        "data_id": "0x479ddfbbbaa079af:0xfe3d030fd29253c1"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://efa.mvv-muenchen.de/ttb2/mvv_3_139-G-0143.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 729,
+      "duration": 584,
+      "formatted_distance": "750 m",
+      "formatted_duration": "9 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Balanstraße",
+        "action": "straight",
+        "distance": 55,
+        "duration": 45,
+        "formatted_distance": "55 m",
+        "formatted_duration": "45 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wd4LirPYHE4fwzZq91IgmA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=84.12038&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10846172038005,
+         "longitude": 11.603351142700577
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Balanstraße",
+        "action": "turn-left",
+        "distance": 494,
+        "duration": 394,
+        "formatted_distance": "500 m",
+        "formatted_duration": "7 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Bad-Dürkheimer-Straße",
+        "action": "turn-left",
+        "distance": 16,
+        "duration": 14,
+        "formatted_distance": "16 m",
+        "formatted_duration": "14 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 19,
+        "duration": 15,
+        "formatted_distance": "19 m",
+        "formatted_duration": "15 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen",
+        "action": "turn-left",
+        "distance": 96,
+        "duration": 77,
+        "formatted_distance": "96 m",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 49,
+        "duration": 39,
+        "formatted_distance": "49 m",
+        "formatted_duration": "39 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5xOg2Si1yN6zTwhEtBe8EA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=109.50942&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.11301154569535,
+         "longitude": 11.601465799088686
+        },
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "08:07",
+    "end_time": "08:37",
+    "distance": 5656,
+    "duration": 1801,
+    "formatted_distance": "5,7 km",
+    "formatted_duration": "30 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 129,
+      "duration": 107,
+      "formatted_distance": "130 m",
+      "formatted_duration": "2 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 9,
+        "duration": 8,
+        "formatted_distance": "9 m",
+        "formatted_duration": "8 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 51,
+        "duration": 44,
+        "formatted_distance": "51 m",
+        "formatted_duration": "44 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=DkDpJpttXahZwnwyK4DHbA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=67.53898&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10095420240068,
+         "longitude": 11.64612574751072
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "55 Ostbahnhof",
+      "duration": 870,
+      "formatted_duration": "15 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "stop_id": "7",
+       "time": "08:09",
+       "data_id": "0x479de071475ba7b9:0x2bcf816a4bcc9c48"
+      },
+      "end_stop": {
+       "name": "Karl-Preis-Platz",
+       "time": "08:24",
+       "data_id": "0x479ddf9058115a8d:0x3be98fe1e547cd72"
+      },
+      "stops": [
+       {
+        "name": "Thomas-Dehler-Straße",
+        "time": "08:11",
+        "data_id": "0x479de079fff0b359:0x52bbe2853d2a3d62"
+       },
+       {
+        "name": "Friedhof Perlach",
+        "time": "08:12",
+        "data_id": "0x479de07786d64963:0x9c411246b93c3c95"
+       },
+       {
+        "name": "Wilhelm-Hoegner-Straße",
+        "time": "08:13",
+        "data_id": "0x479ddfd83abb0547:0xaedee69af93a7cd"
+       },
+       {
+        "name": "Pfanzeltplatz",
+        "time": "08:14",
+        "data_id": "0x479ddfda3f9b8003:0xb82779b7c4bd1382"
+       },
+       {
+        "name": "Weddigenstraße",
+        "time": "08:16",
+        "data_id": "0x479ddfc49aa9bad3:0xbc9fe561c74aaa8b"
+       },
+       {
+        "name": "Adilostraße",
+        "time": "08:17",
+        "data_id": "0x479ddfc16171eb9f:0x1afcfe709c448d20"
+       },
+       {
+        "name": "Woferlstraße",
+        "time": "08:18",
+        "data_id": "0x479ddfc04ce4a32f:0xa81955a8b78bb638"
+       },
+       {
+        "name": "Diakon-Kerolt-Weg",
+        "time": "08:19",
+        "data_id": "0x479ddfeab9abde39:0x416928deee880872"
+       },
+       {
+        "name": "Ramersdorf",
+        "time": "08:22",
+        "data_id": "0x479ddf940bf616f7:0x6db6e538d52534ca"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/MetroBus/24-55-s26-1-MFP_L.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 967,
+      "duration": 824,
+      "formatted_distance": "1,0 km",
+      "formatted_duration": "13 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Karl-Preis-Platz",
+        "action": "straight",
+        "distance": 36,
+        "duration": 28,
+        "formatted_distance": "36 m",
+        "formatted_duration": "28 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Claudius-Keller-Straße",
+        "action": "turn-right",
+        "distance": 642,
+        "duration": 530,
+        "formatted_distance": "650 m",
+        "formatted_duration": "9 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Balanstraße",
+        "action": "turn-left",
+        "distance": 169,
+        "duration": 169,
+        "formatted_distance": "170 m",
+        "formatted_duration": "3 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 120,
+        "duration": 97,
+        "formatted_distance": "120 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Das Ziel befindet sich auf der rechten Seite"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "08:02",
+    "end_time": "08:28",
+    "distance": 6399,
+    "duration": 1577,
+    "formatted_distance": "6,4 km",
+    "formatted_duration": "26 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 147,
+      "duration": 217,
+      "formatted_distance": "150 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 9,
+        "duration": 8,
+        "formatted_distance": "9 m",
+        "formatted_duration": "8 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 28,
+        "duration": 22,
+        "formatted_distance": "28 m",
+        "formatted_duration": "22 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Eingang C - Thomas-Dehler-Str. nehmen · Rolltreppe nehmen",
+        "distance": 0,
+        "duration": 72,
+        "formatted_distance": "0,0 km",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6Q2lfbHYyXF7zHn4XoHPZg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=125.35284&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10105387064801,
+         "longitude": 11.646165666450967
+        }
+       },
+       {
+        "title": "Rolltreppe nehmen",
+        "distance": 41,
+        "duration": 60,
+        "formatted_distance": "41 m",
+        "formatted_duration": "1 min"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "U5 Laimer Platz",
+      "duration": 270,
+      "formatted_duration": "5 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "time": "08:05",
+       "data_id": "0x479de071405051b3:0x1defb9cbf65705d8"
+      },
+      "end_stop": {
+       "name": "Innsbrucker Ring",
+       "time": "08:10",
+       "data_id": "0x479ddf8d63e0e4e9:0xf3d46b8a05e401ce"
+      },
+      "stops": [
+       {
+        "name": "Quiddestraße",
+        "time": "08:07",
+        "data_id": "0x479de00b394c15c5:0x18560cbd4bdfe913"
+       },
+       {
+        "name": "Michaelibad",
+        "time": "08:09",
+        "data_id": "0x479ddfefdd62dfbd:0xc51d2ca2036d6c8b"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/de-metro.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/U-Bahn/21-U5-s26-1-MFP_M.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "duration": 60,
+      "formatted_duration": "1 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Zu Fuß",
+        "distance": 2,
+        "duration": 3,
+        "formatted_distance": "2 m",
+        "formatted_duration": "3 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=hGohApXyGFhBaXLY0qY3QQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=136.37285&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.12049813189281,
+         "longitude": 11.618389764516913
+        }
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "U2 Feldmoching",
+      "duration": 180,
+      "formatted_duration": "3 min",
+      "start_stop": {
+       "name": "Innsbrucker Ring",
+       "time": "08:16",
+       "data_id": "0x479ddf8d63e0e4e9:0xf3d46b8a05e401ce"
+      },
+      "end_stop": {
+       "name": "Giesing",
+       "time": "08:19",
+       "data_id": "0x479ddfa1bd1392e3:0x57773ae0b65e192a"
+      },
+      "stops": [
+       {
+        "name": "Karl-Preis-Platz",
+        "time": "08:17",
+        "data_id": "0x479ddf90f94e8db1:0x4c48c85a6c4b2b11"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/de-metro.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/U-Bahn/21-U2-s26-1-MFP_M.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 634,
+      "duration": 560,
+      "formatted_distance": "650 m",
+      "formatted_duration": "9 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Rolltreppe nehmen",
+        "distance": 0,
+        "duration": 126,
+        "formatted_distance": "0,0 km",
+        "formatted_duration": "2 min"
+       },
+       {
+        "title": "Ausgang B nehmen",
+        "distance": 107,
+        "duration": 12,
+        "formatted_distance": "110 m",
+        "formatted_duration": "12 Sek."
+       },
+       {
+        "title": "Nach  Osten",
+        "action": "straight",
+        "distance": 11,
+        "duration": 9,
+        "formatted_distance": "11 m",
+        "formatted_duration": "9 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  Richtung  Ungsteiner Str.  abbiegen",
+        "action": "turn-left",
+        "distance": 22,
+        "duration": 17,
+        "formatted_distance": "22 m",
+        "formatted_duration": "17 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=7-Mk5g-aZRN4UkdGFjvgag&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=247.18005&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.111287203389296,
+         "longitude": 11.597112646338587
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Geradeaus auf  Ungsteiner Str.",
+        "action": "straight",
+        "distance": 121,
+        "duration": 96,
+        "formatted_distance": "120 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=8NBV-yi1EiQsVERcVF1YUQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=154.91351&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.11133714768412,
+         "longitude": 11.59722946772614
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Bad-Dürkheimer-Straße",
+        "action": "turn-right",
+        "distance": 127,
+        "duration": 101,
+        "formatted_distance": "130 m",
+        "formatted_duration": "2 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Pfälzer-Wald-Straße",
+        "action": "turn-right",
+        "distance": 3,
+        "duration": 2,
+        "formatted_distance": "3 m",
+        "formatted_duration": "2 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=1GDTH7GVp4HR8qV4xZpdJA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=162.34303&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.11258373280288,
+         "longitude": 11.5986793830649
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Bad-Dürkheimer-Straße",
+        "action": "turn-left",
+        "distance": 95,
+        "duration": 79,
+        "formatted_distance": "95 m",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen",
+        "action": "turn-left",
+        "distance": 13,
+        "duration": 11,
+        "formatted_distance": "13 m",
+        "formatted_duration": "11 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=uXjw7Pr9DaXeIJ86TLGxgA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=240.26114&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.112674676953304,
+         "longitude": 11.60007421177369
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 135,
+        "duration": 107,
+        "formatted_distance": "140 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "08:02",
+    "end_time": "08:32",
+    "distance": 8087,
+    "duration": 1804,
+    "formatted_distance": "8,1 km",
+    "formatted_duration": "30 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 147,
+      "duration": 217,
+      "formatted_distance": "150 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 9,
+        "duration": 8,
+        "formatted_distance": "9 m",
+        "formatted_duration": "8 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 28,
+        "duration": 22,
+        "formatted_distance": "28 m",
+        "formatted_duration": "22 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Eingang C - Thomas-Dehler-Str. nehmen · Rolltreppe nehmen",
+        "distance": 0,
+        "duration": 72,
+        "formatted_distance": "0,0 km",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6Q2lfbHYyXF7zHn4XoHPZg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=125.35284&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10105387064801,
+         "longitude": 11.646165666450967
+        }
+       },
+       {
+        "title": "Rolltreppe nehmen",
+        "distance": 41,
+        "duration": 60,
+        "formatted_distance": "41 m",
+        "formatted_duration": "1 min"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "U5 Laimer Platz",
+      "duration": 420,
+      "formatted_duration": "7 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "time": "08:05",
+       "data_id": "0x479de071405051b3:0x1defb9cbf65705d8"
+      },
+      "end_stop": {
+       "name": "München Ost",
+       "time": "08:12",
+       "data_id": "0x479ddf86bba779d5:0x437bfe77a45f940b"
+      },
+      "stops": [
+       {
+        "name": "Quiddestraße",
+        "time": "08:07",
+        "data_id": "0x479de00b394c15c5:0x18560cbd4bdfe913"
+       },
+       {
+        "name": "Michaelibad",
+        "time": "08:09",
+        "data_id": "0x479ddfefdd62dfbd:0xc51d2ca2036d6c8b"
+       },
+       {
+        "name": "Innsbrucker Ring",
+        "time": "08:11",
+        "data_id": "0x479ddf8d63e0e4e9:0xf3d46b8a05e401ce"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/de-metro.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/U-Bahn/21-U5-s26-1-MFP_M.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "duration": 60,
+      "formatted_duration": "1 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Rolltreppe nehmen · Ausgang München Ost nehmen",
+        "distance": 48,
+        "duration": 49,
+        "formatted_distance": "48 m",
+        "formatted_duration": "49 Sek."
+       },
+       {
+        "title": "Auf  Orleanspl.  nach  Nordosten",
+        "action": "straight",
+        "distance": 9,
+        "duration": 7,
+        "formatted_distance": "9 m",
+        "formatted_duration": "7 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BmHxHiULYHxt9Nu5GVufhA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=209.1409&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.127925086241504,
+         "longitude": 11.603649268439389
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "145 Fasangarten Bf.",
+      "duration": 510,
+      "formatted_duration": "9 min",
+      "start_stop": {
+       "name": "Ostbahnhof",
+       "stop_id": "4",
+       "time": "08:20",
+       "data_id": "0x479ddf81495b5e41:0xf6a571cf19752947"
+      },
+      "end_stop": {
+       "name": "Klagenfurter Straße",
+       "time": "08:29",
+       "data_id": "0x479ddf980de3762b:0x6615e4aea92114b"
+      },
+      "stops": [
+       {
+        "name": "Orleansstraße",
+        "time": "08:22",
+        "data_id": "0x479ddf824d5a9747:0xca0d7cc47f7a0330"
+       },
+       {
+        "name": "Kustermannpark",
+        "time": "08:23",
+        "data_id": "0x479ddf837155f3ab:0xccd73cc5a1f42502"
+       },
+       {
+        "name": "Anzinger Straße",
+        "time": "08:24",
+        "data_id": "0x479ddf9acef5cac5:0x60873a52d1c638d4"
+       },
+       {
+        "name": "Karl-Preis-Platz",
+        "time": "08:26",
+        "data_id": "0x479ddf90f0b19c11:0x653727b45314f308"
+       },
+       {
+        "name": "Thomasiusplatz",
+        "time": "08:27",
+        "data_id": "0x479ddf998f6a3567:0x9c18b5d1f36b680a"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://efa.mvv-muenchen.de/ttb2/mvv_3_145-G-0142.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 246,
+      "duration": 197,
+      "formatted_distance": "250 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Klagenfurter Str.",
+        "action": "straight",
+        "distance": 66,
+        "duration": 52,
+        "formatted_distance": "66 m",
+        "formatted_duration": "52 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Bad-Dürkheimer-Straße",
+        "action": "turn-left",
+        "distance": 16,
+        "duration": 14,
+        "formatted_distance": "16 m",
+        "formatted_duration": "14 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 19,
+        "duration": 15,
+        "formatted_distance": "19 m",
+        "formatted_duration": "15 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen",
+        "action": "turn-left",
+        "distance": 96,
+        "duration": 77,
+        "formatted_distance": "96 m",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 49,
+        "duration": 39,
+        "formatted_distance": "49 m",
+        "formatted_duration": "39 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5xOg2Si1yN6zTwhEtBe8EA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=109.50942&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.11301154569535,
+         "longitude": 11.601465799088686
+        },
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "08:13",
+    "end_time": "08:43",
+    "distance": 7074,
+    "duration": 1801,
+    "formatted_distance": "7,1 km",
+    "formatted_duration": "30 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 168,
+      "duration": 137,
+      "formatted_distance": "170 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 42,
+        "duration": 36,
+        "formatted_distance": "42 m",
+        "formatted_duration": "36 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 57,
+        "duration": 46,
+        "formatted_distance": "57 m",
+        "formatted_duration": "46 Sek.",
+        "extensions": [
+         "Das Ziel befindet sich auf der rechten Seite"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "139 Klinikum Harlaching",
+      "duration": 1080,
+      "formatted_duration": "18 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "stop_id": "8",
+       "time": "08:16",
+       "data_id": "0x479de07140d4193b:0xe7a743e1928383ed"
+      },
+      "end_stop": {
+       "name": "Balanstraße",
+       "time": "08:34",
+       "data_id": "0x479ddfbccfce4693:0xf42eb21652818aa8"
+      },
+      "stops": [
+       {
+        "name": "Neuperlach Zentrum",
+        "stop_id": "4",
+        "time": "08:18",
+        "data_id": "0x479de0710cde14d5:0xe62a8cd67700707b"
+       },
+       {
+        "name": "Jakob-Kaiser-Straße",
+        "time": "08:20",
+        "data_id": "0x479ddfdf61dd09cb:0xa874015f7afdb1a0"
+       },
+       {
+        "name": "Holzwiesenstraße",
+        "time": "08:21",
+        "data_id": "0x479ddfd8d4f885ab:0x95fd46b9e8df9901"
+       },
+       {
+        "name": "Wilhelm-Hoegner-Straße",
+        "time": "08:23",
+        "data_id": "0x479ddfd83abb0547:0xaedee69af93a7cd"
+       },
+       {
+        "name": "Pfanzeltplatz",
+        "time": "08:24",
+        "data_id": "0x479ddfda3f9b8003:0xb82779b7c4bd1382"
+       },
+       {
+        "name": "Neuer Südfriedhof",
+        "time": "08:26",
+        "data_id": "0x479ddfc5980e5343:0xecf48cde48b427e1"
+       },
+       {
+        "name": "Anneliese-Fleyenschmidt-Straße",
+        "time": "08:28",
+        "data_id": "0x479ddfc636cd97a5:0xdb9308ce46971e3"
+       },
+       {
+        "name": "Mitterweg",
+        "time": "08:29",
+        "data_id": "0x479ddfb825a49447:0x5ad550ae0314936e"
+       },
+       {
+        "name": "Hochäckerstraße",
+        "time": "08:30",
+        "data_id": "0x479ddfb9ffc68305:0xb39d062b42bed9c"
+       },
+       {
+        "name": "Ständlerstraße",
+        "time": "08:31",
+        "data_id": "0x479ddfbbbaa079af:0xfe3d030fd29253c1"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://efa.mvv-muenchen.de/ttb2/mvv_3_139-G-0143.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 729,
+      "duration": 584,
+      "formatted_distance": "750 m",
+      "formatted_duration": "9 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Balanstraße",
+        "action": "straight",
+        "distance": 55,
+        "duration": 45,
+        "formatted_distance": "55 m",
+        "formatted_duration": "45 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wd4LirPYHE4fwzZq91IgmA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=84.12038&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10846172038005,
+         "longitude": 11.603351142700577
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Balanstraße",
+        "action": "turn-left",
+        "distance": 494,
+        "duration": 394,
+        "formatted_distance": "500 m",
+        "formatted_duration": "7 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Bad-Dürkheimer-Straße",
+        "action": "turn-left",
+        "distance": 16,
+        "duration": 14,
+        "formatted_distance": "16 m",
+        "formatted_duration": "14 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 19,
+        "duration": 15,
+        "formatted_distance": "19 m",
+        "formatted_duration": "15 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen",
+        "action": "turn-left",
+        "distance": 96,
+        "duration": 77,
+        "formatted_distance": "96 m",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 49,
+        "duration": 39,
+        "formatted_distance": "49 m",
+        "formatted_duration": "39 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5xOg2Si1yN6zTwhEtBe8EA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=109.50942&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.11301154569535,
+         "longitude": 11.601465799088686
+        },
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "08:23",
+    "end_time": "08:53",
+    "distance": 7074,
+    "duration": 1801,
+    "formatted_distance": "7,1 km",
+    "formatted_duration": "30 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 168,
+      "duration": 137,
+      "formatted_distance": "170 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 42,
+        "duration": 36,
+        "formatted_distance": "42 m",
+        "formatted_duration": "36 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 57,
+        "duration": 46,
+        "formatted_distance": "57 m",
+        "formatted_duration": "46 Sek.",
+        "extensions": [
+         "Das Ziel befindet sich auf der rechten Seite"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "139 Klinikum Harlaching",
+      "duration": 1080,
+      "formatted_duration": "18 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "stop_id": "8",
+       "time": "08:26",
+       "data_id": "0x479de07140d4193b:0xe7a743e1928383ed"
+      },
+      "end_stop": {
+       "name": "Balanstraße",
+       "time": "08:44",
+       "data_id": "0x479ddfbccfce4693:0xf42eb21652818aa8"
+      },
+      "stops": [
+       {
+        "name": "Neuperlach Zentrum",
+        "stop_id": "4",
+        "time": "08:28",
+        "data_id": "0x479de0710cde14d5:0xe62a8cd67700707b"
+       },
+       {
+        "name": "Jakob-Kaiser-Straße",
+        "time": "08:30",
+        "data_id": "0x479ddfdf61dd09cb:0xa874015f7afdb1a0"
+       },
+       {
+        "name": "Holzwiesenstraße",
+        "time": "08:31",
+        "data_id": "0x479ddfd8d4f885ab:0x95fd46b9e8df9901"
+       },
+       {
+        "name": "Wilhelm-Hoegner-Straße",
+        "time": "08:33",
+        "data_id": "0x479ddfd83abb0547:0xaedee69af93a7cd"
+       },
+       {
+        "name": "Pfanzeltplatz",
+        "time": "08:34",
+        "data_id": "0x479ddfda3f9b8003:0xb82779b7c4bd1382"
+       },
+       {
+        "name": "Neuer Südfriedhof",
+        "time": "08:36",
+        "data_id": "0x479ddfc5980e5343:0xecf48cde48b427e1"
+       },
+       {
+        "name": "Anneliese-Fleyenschmidt-Straße",
+        "time": "08:38",
+        "data_id": "0x479ddfc636cd97a5:0xdb9308ce46971e3"
+       },
+       {
+        "name": "Mitterweg",
+        "time": "08:39",
+        "data_id": "0x479ddfb825a49447:0x5ad550ae0314936e"
+       },
+       {
+        "name": "Hochäckerstraße",
+        "time": "08:40",
+        "data_id": "0x479ddfb9ffc68305:0xb39d062b42bed9c"
+       },
+       {
+        "name": "Ständlerstraße",
+        "time": "08:41",
+        "data_id": "0x479ddfbbbaa079af:0xfe3d030fd29253c1"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://efa.mvv-muenchen.de/ttb2/mvv_3_139-G-0143.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 729,
+      "duration": 584,
+      "formatted_distance": "750 m",
+      "formatted_duration": "9 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Balanstraße",
+        "action": "straight",
+        "distance": 55,
+        "duration": 45,
+        "formatted_distance": "55 m",
+        "formatted_duration": "45 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wd4LirPYHE4fwzZq91IgmA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=84.12038&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10846172038005,
+         "longitude": 11.603351142700577
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Balanstraße",
+        "action": "turn-left",
+        "distance": 494,
+        "duration": 394,
+        "formatted_distance": "500 m",
+        "formatted_duration": "7 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Bad-Dürkheimer-Straße",
+        "action": "turn-left",
+        "distance": 16,
+        "duration": 14,
+        "formatted_distance": "16 m",
+        "formatted_duration": "14 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 19,
+        "duration": 15,
+        "formatted_distance": "19 m",
+        "formatted_duration": "15 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen",
+        "action": "turn-left",
+        "distance": 96,
+        "duration": 77,
+        "formatted_distance": "96 m",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 49,
+        "duration": 39,
+        "formatted_distance": "49 m",
+        "formatted_duration": "39 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5xOg2Si1yN6zTwhEtBe8EA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=109.50942&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.11301154569535,
+         "longitude": 11.601465799088686
+        },
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "durations": [
+   {
+    "travel_mode": "Driving",
+    "duration": 600,
+    "formatted_duration": "10 min"
+   },
+   {
+    "travel_mode": "Transit",
+    "duration": 1800,
+    "formatted_duration": "30 min"
+   },
+   {
+    "travel_mode": "Walking",
+    "duration": 3658,
+    "formatted_duration": "1 h 1"
+   },
+   {
+    "travel_mode": "Cycling",
+    "duration": 1105,
+    "formatted_duration": "18 min"
+   }
+  ]
+ }
+}

@@ -1,0 +1,1477 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps_directions",
+ "request": "https://serpapi.com/search.json?engine=google_maps_directions&start_coords=48.1006%2C11.6466&travel_mode=3&hl=de&gl=de&distance_unit=0&end_coords=48.115176999999996%2C11.6950065&time=depart_at%3A1791192600&route=2",
+ "note": "directions: Neuperlach Zentrum to Hariom Temple (transit)",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T18:32:56.386Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps_directions",
+   "hl": "de",
+   "gl": "de",
+   "start_coords": "48.1006,11.6466",
+   "end_coords": "48.115176999999996,11.6950065",
+   "travel_mode": "3",
+   "distance_unit": "0",
+   "route": "2",
+   "time": "depart_at:1791192600"
+  },
+  "places_info": [
+   {
+    "address": "48.1006000, 11.6466000",
+    "gps_coordinates": {
+     "latitude": 48.1006,
+     "longitude": 11.6466
+    }
+   },
+   {
+    "address": "48.1151770, 11.6950065",
+    "gps_coordinates": {
+     "latitude": 48.115176999999996,
+     "longitude": 11.6950065
+    }
+   }
+  ],
+  "directions": [
+   {
+    "travel_mode": "Transit",
+    "start_time": "09:38",
+    "end_time": "10:11",
+    "distance": 7249,
+    "duration": 1949,
+    "formatted_distance": "7,2 km",
+    "formatted_duration": "33 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 168,
+      "duration": 137,
+      "formatted_distance": "170 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 42,
+        "duration": 36,
+        "formatted_distance": "42 m",
+        "formatted_duration": "36 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 57,
+        "duration": 46,
+        "formatted_distance": "57 m",
+        "formatted_duration": "46 Sek.",
+        "extensions": [
+         "Das Ziel befindet sich auf der rechten Seite"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "139 Trudering Bf.",
+      "duration": 840,
+      "formatted_duration": "14 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "stop_id": "8",
+       "time": "09:41",
+       "data_id": "0x479de07140d4193b:0xe7a743e1928383ed"
+      },
+      "end_stop": {
+       "name": "Trudering",
+       "stop_id": "5",
+       "time": "09:55",
+       "data_id": "0x479de01d676f5301:0x4f53c4d991ca9e1c"
+      },
+      "stops": [
+       {
+        "name": "Neuperlach Zentrum",
+        "stop_id": "5",
+        "time": "09:43",
+        "data_id": "0x479de071132e2ab5:0xa8ec4d8c93cbc32f"
+       },
+       {
+        "name": "Siegfried-Mollier-Straße",
+        "time": "09:45",
+        "data_id": "0x479de074b82c868d:0x298873490ed2cbb8"
+       },
+       {
+        "name": "Quiddestraße",
+        "time": "09:46",
+        "data_id": "0x479de00b1723a929:0xf515f527aaa2ec4e"
+       },
+       {
+        "name": "Corinthstraße",
+        "time": "09:48",
+        "data_id": "0x479de009507d71cb:0xb9fb2b15f40f660d"
+       },
+       {
+        "name": "Matterhornstraße",
+        "time": "09:49",
+        "data_id": "0x479de00f25a3d315:0xfdc9e55775cb1636"
+       },
+       {
+        "name": "St.-Augustinus-Straße",
+        "time": "09:50",
+        "data_id": "0x479de005653852c1:0xe1e1eb5b7c11afea"
+       },
+       {
+        "name": "Halligenplatz",
+        "time": "09:51",
+        "data_id": "0x479de01b38c9aeeb:0xa69368473923217f"
+       },
+       {
+        "name": "Bajuwarenstraße",
+        "time": "09:53",
+        "data_id": "0x479de01dc8a2f707:0x8386214e1260b815"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://efa.mvv-muenchen.de/ttb2/mvv_3_139-G-0143.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "duration": 60,
+      "formatted_duration": "1 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Blanckertzweg",
+        "action": "straight",
+        "distance": 29,
+        "duration": 25,
+        "formatted_distance": "29 m",
+        "formatted_duration": "25 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen",
+        "action": "turn-left",
+        "distance": 24,
+        "duration": 20,
+        "formatted_distance": "24 m",
+        "formatted_duration": "20 Sek.",
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "193 Haar, Jagdfeldzentrum",
+      "duration": 570,
+      "formatted_duration": "10 min",
+      "start_stop": {
+       "name": "Trudering",
+       "stop_id": "1",
+       "time": "10:00",
+       "data_id": "0x479de01d58dd550f:0x1ffe2b70c1ec9055"
+      },
+      "end_stop": {
+       "name": "Bahnstraße",
+       "time": "10:10",
+       "data_id": "0x479de02ce6b250f3:0x6edad8f6f0182f88"
+      },
+      "stops": [
+       {
+        "name": "Bajuwarenstraße",
+        "time": "10:02",
+        "data_id": "0x479de01db689b969:0x96a2a948e1753718"
+       },
+       {
+        "name": "Wasserburger Landstraße",
+        "time": "10:03",
+        "data_id": "0x479de01c6e77cf99:0x5ae3c58372d151cb"
+       },
+       {
+        "name": "Kulturzentrum Trudering",
+        "time": "10:04",
+        "data_id": "0x479de018d19ec2fd:0xa1a9bbfaa8c7b3ea"
+       },
+       {
+        "name": "Nikolaus-Prugger-Weg",
+        "time": "10:06",
+        "data_id": "0x479de021625f95dd:0x6041e8d45f8b42ed"
+       },
+       {
+        "name": "Friedenspromenade",
+        "time": "10:07",
+        "data_id": "0x479de025d9de099f:0xa366992f9b9180c1"
+       },
+       {
+        "name": "Drosselweg",
+        "time": "10:09",
+        "data_id": "0x479de02eb1096fed:0x793bcc19b311958c"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://efa.mvv-muenchen.de/ttb2/mvv_3_193-G-0142.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 90,
+      "duration": 72,
+      "formatted_distance": "90 m",
+      "formatted_duration": "1 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Kästlenstraße",
+        "action": "straight",
+        "distance": 55,
+        "duration": 44,
+        "formatted_distance": "55 m",
+        "formatted_duration": "44 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Kästlenstraße",
+        "action": "turn-left",
+        "distance": 35,
+        "duration": 28,
+        "formatted_distance": "35 m",
+        "formatted_duration": "28 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jZKzpxIzuEYakGXFNxWd1w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=231.12599&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.11534760739593,
+         "longitude": 11.695465687246045
+        },
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "09:50",
+    "end_time": "10:21",
+    "distance": 7131,
+    "duration": 1841,
+    "formatted_distance": "7,1 km",
+    "formatted_duration": "31 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 213,
+      "duration": 179,
+      "formatted_distance": "210 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 9,
+        "duration": 8,
+        "formatted_distance": "9 m",
+        "formatted_duration": "8 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 77,
+        "duration": 60,
+        "formatted_distance": "77 m",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen",
+        "action": "turn-left",
+        "distance": 11,
+        "duration": 11,
+        "formatted_distance": "11 m",
+        "formatted_duration": "11 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 47,
+        "duration": 45,
+        "formatted_distance": "47 m",
+        "formatted_duration": "45 Sek.",
+        "extensions": [
+         "Das Ziel befindet sich auf der rechten Seite"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "139 Messestadt West",
+      "duration": 720,
+      "formatted_duration": "12 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "stop_id": "5",
+       "time": "09:53",
+       "data_id": "0x479de071132e2ab5:0xa8ec4d8c93cbc32f"
+      },
+      "end_stop": {
+       "name": "Trudering",
+       "stop_id": "3",
+       "time": "10:05",
+       "data_id": "0x479de01d571219bf:0x69c7f559b68590fc"
+      },
+      "stops": [
+       {
+        "name": "Siegfried-Mollier-Straße",
+        "time": "09:55",
+        "data_id": "0x479de074b82c868d:0x298873490ed2cbb8"
+       },
+       {
+        "name": "Quiddestraße",
+        "time": "09:56",
+        "data_id": "0x479de00b1723a929:0xf515f527aaa2ec4e"
+       },
+       {
+        "name": "Corinthstraße",
+        "time": "09:58",
+        "data_id": "0x479de009507d71cb:0xb9fb2b15f40f660d"
+       },
+       {
+        "name": "Matterhornstraße",
+        "time": "09:59",
+        "data_id": "0x479de00f25a3d315:0xfdc9e55775cb1636"
+       },
+       {
+        "name": "St.-Augustinus-Straße",
+        "time": "10:00",
+        "data_id": "0x479de005653852c1:0xe1e1eb5b7c11afea"
+       },
+       {
+        "name": "Halligenplatz",
+        "time": "10:01",
+        "data_id": "0x479de01b38c9aeeb:0xa69368473923217f"
+       },
+       {
+        "name": "Bajuwarenstraße",
+        "time": "10:03",
+        "data_id": "0x479de01dc8a2f707:0x8386214e1260b815"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://efa.mvv-muenchen.de/ttb2/mvv_3_139-G-0143.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "duration": 60,
+      "formatted_duration": "1 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Blanckertzweg",
+        "action": "straight",
+        "distance": 41,
+        "duration": 33,
+        "formatted_distance": "41 m",
+        "formatted_duration": "33 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=P_P_vLCXfdPtyUcTvm4jbQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=296.54578&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.125501637919285,
+         "longitude": 11.663066601903719
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "193 Haar, Jagdfeldzentrum",
+      "duration": 570,
+      "formatted_duration": "10 min",
+      "start_stop": {
+       "name": "Trudering",
+       "stop_id": "1",
+       "time": "10:10",
+       "data_id": "0x479de01d58dd550f:0x1ffe2b70c1ec9055"
+      },
+      "end_stop": {
+       "name": "Bahnstraße",
+       "time": "10:20",
+       "data_id": "0x479de02ce6b250f3:0x6edad8f6f0182f88"
+      },
+      "stops": [
+       {
+        "name": "Bajuwarenstraße",
+        "time": "10:12",
+        "data_id": "0x479de01db689b969:0x96a2a948e1753718"
+       },
+       {
+        "name": "Wasserburger Landstraße",
+        "time": "10:13",
+        "data_id": "0x479de01c6e77cf99:0x5ae3c58372d151cb"
+       },
+       {
+        "name": "Kulturzentrum Trudering",
+        "time": "10:14",
+        "data_id": "0x479de018d19ec2fd:0xa1a9bbfaa8c7b3ea"
+       },
+       {
+        "name": "Nikolaus-Prugger-Weg",
+        "time": "10:16",
+        "data_id": "0x479de021625f95dd:0x6041e8d45f8b42ed"
+       },
+       {
+        "name": "Friedenspromenade",
+        "time": "10:17",
+        "data_id": "0x479de025d9de099f:0xa366992f9b9180c1"
+       },
+       {
+        "name": "Drosselweg",
+        "time": "10:19",
+        "data_id": "0x479de02eb1096fed:0x793bcc19b311958c"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://efa.mvv-muenchen.de/ttb2/mvv_3_193-G-0142.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 90,
+      "duration": 72,
+      "formatted_distance": "90 m",
+      "formatted_duration": "1 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Kästlenstraße",
+        "action": "straight",
+        "distance": 55,
+        "duration": 44,
+        "formatted_distance": "55 m",
+        "formatted_duration": "44 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Kästlenstraße",
+        "action": "turn-left",
+        "distance": 35,
+        "duration": 28,
+        "formatted_distance": "35 m",
+        "formatted_duration": "28 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jZKzpxIzuEYakGXFNxWd1w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=231.12599&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.11534760739593,
+         "longitude": 11.695465687246045
+        },
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "09:45",
+    "end_time": "10:21",
+    "distance": 6749,
+    "duration": 2144,
+    "formatted_distance": "6,7 km",
+    "formatted_duration": "36 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 213,
+      "duration": 179,
+      "formatted_distance": "210 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 9,
+        "duration": 8,
+        "formatted_distance": "9 m",
+        "formatted_duration": "8 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 77,
+        "duration": 60,
+        "formatted_distance": "77 m",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen",
+        "action": "turn-left",
+        "distance": 11,
+        "duration": 11,
+        "formatted_distance": "11 m",
+        "formatted_duration": "11 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 47,
+        "duration": 45,
+        "formatted_distance": "47 m",
+        "formatted_duration": "45 Sek.",
+        "extensions": [
+         "Das Ziel befindet sich auf der rechten Seite"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "192 Trudering Bf.",
+      "duration": 1080,
+      "formatted_duration": "18 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "stop_id": "5",
+       "time": "09:48",
+       "data_id": "0x479de071132e2ab5:0xa8ec4d8c93cbc32f"
+      },
+      "end_stop": {
+       "name": "Friedenspromenade",
+       "time": "10:06",
+       "data_id": "0x479de0267f7e8f3b:0xc3c6ecf0b30ad261"
+      },
+      "stops": [
+       {
+        "name": "Siegfried-Mollier-Straße",
+        "time": "09:50",
+        "data_id": "0x479de074b82c868d:0x298873490ed2cbb8"
+       },
+       {
+        "name": "Quiddestraße",
+        "time": "09:51",
+        "data_id": "0x479de00b1723a929:0xf515f527aaa2ec4e"
+       },
+       {
+        "name": "Peschelanger - München",
+        "time": "09:54",
+        "data_id": "0x479de00d758f22a5:0x48efbaa51318b37c"
+       },
+       {
+        "name": "Feldbergstraße",
+        "time": "09:59",
+        "data_id": "0x479de014f3663b83:0xbcc7f3a257fe115a"
+       },
+       {
+        "name": "Am Hochacker",
+        "time": "10:00",
+        "data_id": "0x479de03fef57c9bd:0x3b26950b096df055"
+       },
+       {
+        "name": "Vogesenstraße",
+        "time": "10:01",
+        "data_id": "0x479de03e77e5efdb:0x65aaa9eb244e628b"
+       },
+       {
+        "name": "Markgrafenstraße",
+        "time": "10:02",
+        "data_id": "0x479de03c48cc35dd:0x33397fa7fd673043"
+       },
+       {
+        "name": "Ottilienstraße",
+        "time": "10:04",
+        "data_id": "0x479de03b5582afcb:0xbd3e717634ce0388"
+       },
+       {
+        "name": "Florastraße",
+        "time": "10:05",
+        "data_id": "0x479de025ca693dcf:0x93a2d9f78a700fd2"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://efa.mvv-muenchen.de/ttb2/mvv_3_192-G-014-1.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 1038,
+      "duration": 885,
+      "formatted_distance": "1,0 km",
+      "formatted_duration": "15 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Schwablhofstraße",
+        "action": "straight",
+        "distance": 430,
+        "duration": 360,
+        "formatted_distance": "450 m",
+        "formatted_duration": "6 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  Richtung  Wasserburger Landstraße / B304  abbiegen",
+        "action": "turn-right",
+        "distance": 11,
+        "duration": 21,
+        "formatted_distance": "11 m",
+        "formatted_duration": "21 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=z6w6xQpbOYpBzfBAmyuVaQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=6.010909&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.11799343686519,
+         "longitude": 11.688292502870407
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Wasserburger Landstraße / B304",
+        "action": "turn-left",
+        "distance": 562,
+        "duration": 474,
+        "formatted_distance": "550 m",
+        "formatted_duration": "8 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PPl6sSFCdbfcZKvsVWtiYQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=203.98863&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.11796484100594,
+         "longitude": 11.688578810792576
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Kästlenstraße",
+        "action": "turn-right",
+        "distance": 35,
+        "duration": 30,
+        "formatted_distance": "35 m",
+        "formatted_duration": "30 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=HC2BHaIi7b-rUfioFMd24Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=216.18503&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.115560272566654,
+         "longitude": 11.694995572772314
+        },
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "09:45",
+    "end_time": "10:21",
+    "distance": 7887,
+    "duration": 2141,
+    "formatted_distance": "7,9 km",
+    "formatted_duration": "36 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 213,
+      "duration": 179,
+      "formatted_distance": "210 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 9,
+        "duration": 8,
+        "formatted_distance": "9 m",
+        "formatted_duration": "8 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 77,
+        "duration": 60,
+        "formatted_distance": "77 m",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen",
+        "action": "turn-left",
+        "distance": 11,
+        "duration": 11,
+        "formatted_distance": "11 m",
+        "formatted_duration": "11 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen",
+        "action": "turn-right",
+        "distance": 47,
+        "duration": 45,
+        "formatted_distance": "47 m",
+        "formatted_duration": "45 Sek.",
+        "extensions": [
+         "Das Ziel befindet sich auf der rechten Seite"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "192 Trudering Bf.",
+      "duration": 1170,
+      "formatted_duration": "20 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "stop_id": "5",
+       "time": "09:48",
+       "data_id": "0x479de071132e2ab5:0xa8ec4d8c93cbc32f"
+      },
+      "end_stop": {
+       "name": "Nikolaus-Prugger-Weg",
+       "time": "10:08",
+       "data_id": "0x479de0217906c92d:0x6cc1deb2a1d4c3a5"
+      },
+      "stops": [
+       {
+        "name": "Siegfried-Mollier-Straße",
+        "time": "09:50",
+        "data_id": "0x479de074b82c868d:0x298873490ed2cbb8"
+       },
+       {
+        "name": "Quiddestraße",
+        "time": "09:51",
+        "data_id": "0x479de00b1723a929:0xf515f527aaa2ec4e"
+       },
+       {
+        "name": "Peschelanger - München",
+        "time": "09:54",
+        "data_id": "0x479de00d758f22a5:0x48efbaa51318b37c"
+       },
+       {
+        "name": "Feldbergstraße",
+        "time": "09:59",
+        "data_id": "0x479de014f3663b83:0xbcc7f3a257fe115a"
+       },
+       {
+        "name": "Am Hochacker",
+        "time": "10:00",
+        "data_id": "0x479de03fef57c9bd:0x3b26950b096df055"
+       },
+       {
+        "name": "Vogesenstraße",
+        "time": "10:01",
+        "data_id": "0x479de03e77e5efdb:0x65aaa9eb244e628b"
+       },
+       {
+        "name": "Markgrafenstraße",
+        "time": "10:02",
+        "data_id": "0x479de03c48cc35dd:0x33397fa7fd673043"
+       },
+       {
+        "name": "Ottilienstraße",
+        "time": "10:04",
+        "data_id": "0x479de03b5582afcb:0xbd3e717634ce0388"
+       },
+       {
+        "name": "Florastraße",
+        "time": "10:05",
+        "data_id": "0x479de025ca693dcf:0x93a2d9f78a700fd2"
+       },
+       {
+        "name": "Friedenspromenade",
+        "time": "10:06",
+        "data_id": "0x479de0267f7e8f3b:0xc3c6ecf0b30ad261"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://efa.mvv-muenchen.de/ttb2/mvv_3_192-G-014-1.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "duration": 101,
+      "formatted_duration": "2 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Wasserburger Landstraße / B304",
+        "action": "straight",
+        "distance": 56,
+        "duration": 57,
+        "formatted_distance": "56 m",
+        "formatted_duration": "57 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ARsuKfo1iXx0dYv_TJbf7Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=3.330286&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.11987109277497,
+         "longitude": 11.676859677773589
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Wasserburger Landstraße / B304",
+        "action": "turn-left",
+        "distance": 37,
+        "duration": 44,
+        "formatted_distance": "37 m",
+        "formatted_duration": "44 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=tt3OkbTsaBfdeG-bFUC4wQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=322.42926&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.11948533710576,
+         "longitude": 11.676966124293976
+        },
+        "extensions": [
+         "Das Ziel befindet sich auf der rechten Seite"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "193 Haar, Jagdfeldzentrum",
+      "duration": 240,
+      "formatted_duration": "4 min",
+      "start_stop": {
+       "name": "Nikolaus-Prugger-Weg",
+       "time": "10:16",
+       "data_id": "0x479de021625f95dd:0x6041e8d45f8b42ed"
+      },
+      "end_stop": {
+       "name": "Bahnstraße",
+       "time": "10:20",
+       "data_id": "0x479de02ce6b250f3:0x6edad8f6f0182f88"
+      },
+      "stops": [
+       {
+        "name": "Friedenspromenade",
+        "time": "10:17",
+        "data_id": "0x479de025d9de099f:0xa366992f9b9180c1"
+       },
+       {
+        "name": "Drosselweg",
+        "time": "10:19",
+        "data_id": "0x479de02eb1096fed:0x793bcc19b311958c"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://efa.mvv-muenchen.de/ttb2/mvv_3_193-G-0142.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 90,
+      "duration": 72,
+      "formatted_distance": "90 m",
+      "formatted_duration": "1 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Kästlenstraße",
+        "action": "straight",
+        "distance": 55,
+        "duration": 44,
+        "formatted_distance": "55 m",
+        "formatted_duration": "44 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Kästlenstraße",
+        "action": "turn-left",
+        "distance": 35,
+        "duration": 28,
+        "formatted_distance": "35 m",
+        "formatted_duration": "28 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jZKzpxIzuEYakGXFNxWd1w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=231.12599&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.11534760739593,
+         "longitude": 11.695465687246045
+        },
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "09:37",
+    "end_time": "10:15",
+    "distance": 13389,
+    "duration": 2282,
+    "formatted_distance": "13,4 km",
+    "formatted_duration": "38 min",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 147,
+      "duration": 217,
+      "formatted_distance": "150 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 9,
+        "duration": 8,
+        "formatted_distance": "9 m",
+        "formatted_duration": "8 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 28,
+        "duration": 22,
+        "formatted_distance": "28 m",
+        "formatted_duration": "22 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Eingang C - Thomas-Dehler-Str. nehmen · Rolltreppe nehmen",
+        "distance": 0,
+        "duration": 72,
+        "formatted_distance": "0,0 km",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6Q2lfbHYyXF7zHn4XoHPZg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=125.35284&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10105387064801,
+         "longitude": 11.646165666450967
+        }
+       },
+       {
+        "title": "Rolltreppe nehmen",
+        "distance": 41,
+        "duration": 60,
+        "formatted_distance": "41 m",
+        "formatted_duration": "1 min"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "U5 Laimer Platz",
+      "duration": 420,
+      "formatted_duration": "7 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "time": "09:40",
+       "data_id": "0x479de071405051b3:0x1defb9cbf65705d8"
+      },
+      "end_stop": {
+       "name": "München Ost",
+       "time": "09:47",
+       "data_id": "0x479ddf86bba779d5:0x437bfe77a45f940b"
+      },
+      "stops": [
+       {
+        "name": "Quiddestraße",
+        "time": "09:42",
+        "data_id": "0x479de00b394c15c5:0x18560cbd4bdfe913"
+       },
+       {
+        "name": "Michaelibad",
+        "time": "09:44",
+        "data_id": "0x479ddfefdd62dfbd:0xc51d2ca2036d6c8b"
+       },
+       {
+        "name": "Innsbrucker Ring",
+        "time": "09:46",
+        "data_id": "0x479ddf8d63e0e4e9:0xf3d46b8a05e401ce"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/de-metro.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/U-Bahn/21-U5-s26-1-MFP_M.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "duration": 269,
+      "formatted_duration": "4 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Treppe nehmen",
+        "distance": 108,
+        "duration": 269,
+        "formatted_distance": "110 m",
+        "formatted_duration": "4 min"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "S6 Ebersberg (Oberbay)",
+      "duration": 660,
+      "formatted_duration": "11 min",
+      "start_stop": {
+       "name": "München Ost",
+       "stop_id": "München Ost - Gleis 1",
+       "time": "09:56",
+       "data_id": "0x479ddf86bba779d5:0x437bfe77a45f940b"
+      },
+      "end_stop": {
+       "name": "Gronsdorf",
+       "time": "10:07",
+       "data_id": "0x479de02b36726763:0xb5d910ed094daddf"
+      },
+      "stops": [
+       {
+        "name": "Leuchtenbergring",
+        "time": "09:58",
+        "data_id": "0x479e75630ce0b6d3:0x332f3571b75efdf6"
+       },
+       {
+        "name": "Berg am Laim",
+        "time": "10:00",
+        "data_id": "0x479e755bfc498857:0x4c1826767a8e6cb2"
+       },
+       {
+        "name": "Trudering",
+        "stop_id": "München-Trudering - Gleis 4",
+        "time": "10:05",
+        "data_id": "0x479e0aa7fa3d190f:0x2e19527859c3cddb"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/de-sbahn.svg",
+      "service_run_by": {
+       "name": "DB Regio AG S-Bahn München",
+       "link": "https://www.s-bahn-muenchen.de/"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 468,
+      "duration": 495,
+      "formatted_distance": "450 m",
+      "formatted_duration": "8 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Ausgang Zugang Tunnel Wes nehmen",
+        "distance": 11,
+        "duration": 79,
+        "formatted_distance": "11 m",
+        "formatted_duration": "1 min"
+       },
+       {
+        "title": "Richtung  Bahnstraße",
+        "action": "straight",
+        "distance": 77,
+        "duration": 62,
+        "formatted_distance": "77 m",
+        "formatted_duration": "1 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Weiter auf  Bahnstraße",
+        "action": "straight",
+        "distance": 338,
+        "duration": 309,
+        "formatted_distance": "350 m",
+        "formatted_duration": "5 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Weiter auf  Kästlenstraße",
+        "action": "straight",
+        "distance": 42,
+        "duration": 45,
+        "formatted_distance": "42 m",
+        "formatted_duration": "45 Sek.",
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "09:58",
+    "end_time": "10:31",
+    "distance": 7249,
+    "duration": 1949,
+    "formatted_distance": "7,2 km",
+    "formatted_duration": "33 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 168,
+      "duration": 137,
+      "formatted_distance": "170 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 42,
+        "duration": 36,
+        "formatted_distance": "42 m",
+        "formatted_duration": "36 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 57,
+        "duration": 46,
+        "formatted_distance": "57 m",
+        "formatted_duration": "46 Sek.",
+        "extensions": [
+         "Das Ziel befindet sich auf der rechten Seite"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "139 Trudering Bf.",
+      "duration": 840,
+      "formatted_duration": "14 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "stop_id": "8",
+       "time": "10:01",
+       "data_id": "0x479de07140d4193b:0xe7a743e1928383ed"
+      },
+      "end_stop": {
+       "name": "Trudering",
+       "stop_id": "5",
+       "time": "10:15",
+       "data_id": "0x479de01d676f5301:0x4f53c4d991ca9e1c"
+      },
+      "stops": [
+       {
+        "name": "Neuperlach Zentrum",
+        "stop_id": "5",
+        "time": "10:03",
+        "data_id": "0x479de071132e2ab5:0xa8ec4d8c93cbc32f"
+       },
+       {
+        "name": "Siegfried-Mollier-Straße",
+        "time": "10:05",
+        "data_id": "0x479de074b82c868d:0x298873490ed2cbb8"
+       },
+       {
+        "name": "Quiddestraße",
+        "time": "10:06",
+        "data_id": "0x479de00b1723a929:0xf515f527aaa2ec4e"
+       },
+       {
+        "name": "Corinthstraße",
+        "time": "10:08",
+        "data_id": "0x479de009507d71cb:0xb9fb2b15f40f660d"
+       },
+       {
+        "name": "Matterhornstraße",
+        "time": "10:09",
+        "data_id": "0x479de00f25a3d315:0xfdc9e55775cb1636"
+       },
+       {
+        "name": "St.-Augustinus-Straße",
+        "time": "10:10",
+        "data_id": "0x479de005653852c1:0xe1e1eb5b7c11afea"
+       },
+       {
+        "name": "Halligenplatz",
+        "time": "10:11",
+        "data_id": "0x479de01b38c9aeeb:0xa69368473923217f"
+       },
+       {
+        "name": "Bajuwarenstraße",
+        "time": "10:13",
+        "data_id": "0x479de01dc8a2f707:0x8386214e1260b815"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://efa.mvv-muenchen.de/ttb2/mvv_3_139-G-0143.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "duration": 60,
+      "formatted_duration": "1 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Blanckertzweg",
+        "action": "straight",
+        "distance": 29,
+        "duration": 25,
+        "formatted_distance": "29 m",
+        "formatted_duration": "25 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen",
+        "action": "turn-left",
+        "distance": 24,
+        "duration": 20,
+        "formatted_distance": "24 m",
+        "formatted_duration": "20 Sek.",
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "193 Haar, Jagdfeldzentrum",
+      "duration": 570,
+      "formatted_duration": "10 min",
+      "start_stop": {
+       "name": "Trudering",
+       "stop_id": "1",
+       "time": "10:20",
+       "data_id": "0x479de01d58dd550f:0x1ffe2b70c1ec9055"
+      },
+      "end_stop": {
+       "name": "Bahnstraße",
+       "time": "10:30",
+       "data_id": "0x479de02ce6b250f3:0x6edad8f6f0182f88"
+      },
+      "stops": [
+       {
+        "name": "Bajuwarenstraße",
+        "time": "10:22",
+        "data_id": "0x479de01db689b969:0x96a2a948e1753718"
+       },
+       {
+        "name": "Wasserburger Landstraße",
+        "time": "10:23",
+        "data_id": "0x479de01c6e77cf99:0x5ae3c58372d151cb"
+       },
+       {
+        "name": "Kulturzentrum Trudering",
+        "time": "10:24",
+        "data_id": "0x479de018d19ec2fd:0xa1a9bbfaa8c7b3ea"
+       },
+       {
+        "name": "Nikolaus-Prugger-Weg",
+        "time": "10:26",
+        "data_id": "0x479de021625f95dd:0x6041e8d45f8b42ed"
+       },
+       {
+        "name": "Friedenspromenade",
+        "time": "10:27",
+        "data_id": "0x479de025d9de099f:0xa366992f9b9180c1"
+       },
+       {
+        "name": "Drosselweg",
+        "time": "10:29",
+        "data_id": "0x479de02eb1096fed:0x793bcc19b311958c"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://efa.mvv-muenchen.de/ttb2/mvv_3_193-G-0142.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 90,
+      "duration": 72,
+      "formatted_distance": "90 m",
+      "formatted_duration": "1 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Kästlenstraße",
+        "action": "straight",
+        "distance": 55,
+        "duration": 44,
+        "formatted_distance": "55 m",
+        "formatted_duration": "44 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Kästlenstraße",
+        "action": "turn-left",
+        "distance": 35,
+        "duration": 28,
+        "formatted_distance": "35 m",
+        "formatted_duration": "28 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jZKzpxIzuEYakGXFNxWd1w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=231.12599&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.11534760739593,
+         "longitude": 11.695465687246045
+        },
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "durations": [
+   {
+    "travel_mode": "Driving",
+    "duration": 840,
+    "formatted_duration": "14 min"
+   },
+   {
+    "travel_mode": "Transit",
+    "duration": 1980,
+    "formatted_duration": "33 min"
+   },
+   {
+    "travel_mode": "Walking",
+    "duration": 4120,
+    "formatted_duration": "1 h 9"
+   },
+   {
+    "travel_mode": "Cycling",
+    "duration": 1125,
+    "formatted_duration": "19 min"
+   }
+  ]
+ }
+}

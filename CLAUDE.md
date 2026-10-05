@@ -92,3 +92,13 @@ Route to humans. Every suggestion must be a real place or real people. The assis
 
 ## Commands
 Keep this section updated as scripts are added.
+- `pnpm dev`: the web app at localhost:3000 (the parents' service worker is off in development).
+- `pnpm build` then `pnpm start`: the production build and its standalone server (what Render runs).
+- `pnpm test`: unit tests and evals in replay mode, with no paid or rate-limited calls. `pnpm lint`, `pnpm typecheck`.
+- `pnpm privacy-check` (add `--write` to regenerate docs/privacy-table.md): run before every commit.
+- `pnpm costs`: regenerates the running totals in docs/costs.md from data/demo/usage/. Check before any paid call.
+- `pnpm --filter @roundtrip/web exec playwright test e2e/offline.spec.ts e2e/a11y.spec.ts --project=mobile`: offline, bundle and accessibility checks (needs `pnpm build`). `e2e/parents-screens.spec.ts` saves screenshots to docs/screenshots/.
+- `pnpm seed`: loads both demo households into MongoDB Atlas.
+- `pnpm eval`: the event-understanding eval (live Gemma unless LLM_MODE=replay).
+- Data pipeline (scripts/, live calls cached as fixtures): `discover.ts` (SerpApi), `plan-weeks.ts` (planner), `build-week.ts` (the parents' weeks in data/demo/weeks/). Run with `pnpm --filter @roundtrip/scripts exec tsx <file>`.
+- Ranker: `cd ranker && uv run python serve.py`; leave-one-out: `uv run python eval_loo.py --area fremont --mode replay`.

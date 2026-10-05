@@ -65,6 +65,17 @@ export const Household = z.object({
   contacts: z.array(Contact).min(1),
   /** Text for the "I'm lost" help card, in the local language. */
   helpCardText: z.string(),
+  /**
+   * Short fixed lines for the help card and the walking driver card, in the local language.
+   * {name} and {area} are filled in on the phone, so no personal detail leaves it.
+   */
+  localPhrases: z.object({
+    helpTitle: z.string(),
+    myName: z.string(),
+    stayingNear: z.string(),
+    callFamily: z.string(),
+    askWay: z.string(),
+  }),
   /** Days and times the parents are on their own, e.g. Monday 08:30 to 17:30. */
   aloneWindows: z.array(
     z.object({

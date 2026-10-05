@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791225155565",
+  "object": "chat.completion",
+  "created": 1791225155,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"అమ్మా, బుధవారం 08:30కి Indian Market కి వెళ్దాం. 19 minutes నడిచి వెళ్ళవచ్చు. అక్కడ మనకు కావాల్సిన భారతీయ వస్తువులు దొరుకుతాయి. 09:44కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Indian Market కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 990,
+   "completion_tokens": 83,
+   "total_tokens": 1073,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 11.263636589050293
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:32:35.635Z",
+ "latencyMs": 4501
+}

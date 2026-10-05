@@ -1,107 +1,12 @@
 {
  "demoWeek": "fremont-mother-only",
  "label": "Fremont, the father away this week",
- "provenance": "synthetic",
+ "weekSource": "synthetic variant",
  "householdId": "hh_fremont",
  "week": "2026-W41",
+ "provenance": "synthetic",
  "sourceOfCandidates": "live_search",
  "suggestions": [
-  {
-   "id": "hh_fremont:2026-W41:ev_34303c4e",
-   "candidate": {
-    "id": "ev_34303c4e",
-    "kind": "event",
-    "title": "Niles Fremont Farmers Market",
-    "venueName": "Niles Fremont Farmer's Market",
-    "address": "Niles Fremont Farmer's Market, Fremont, CA",
-    "location": {
-     "lat": 37.576705,
-     "lng": -121.9784815
-    },
-    "ladderLevel": 3,
-    "languageMatch": 0,
-    "category": "market",
-    "indoor": false,
-    "costUsd": 0,
-    "foodAvailable": false,
-    "languageNeeded": false,
-    "groupSize": "medium",
-    "description": "",
-    "photo": {
-     "url": "https://serpapi.com/searches/6ac3dbc71248150d0716507e/images/OOX_VTLr9K0BcpXOymNyQQbM9Em-QsIcxy2NMx1_K6w.jpeg",
-     "credit": "Image: event listing"
-    },
-    "start": "2026-10-10T09:00:00-07:00",
-    "end": null,
-    "suitsOlderAdults": true,
-    "provenance": "live_search",
-    "query": "Telugu events in Fremont, California"
-   },
-   "role": "mother",
-   "parentIds": [
-    "p_sarala"
-   ],
-   "slot": {
-    "day": "sat",
-    "depart": 517,
-    "back": 628,
-    "withAdultChild": true
-   },
-   "ladderLevel": 3,
-   "ladderLabel": "Language barely matters",
-   "score": {
-    "pGo": 0.9792,
-    "enjoyment": 4.477,
-    "combined": 4.3839,
-    "rank": 1
-   },
-   "chips": [
-    {
-     "label": "A time that has worked before",
-     "feature": "timing",
-     "direction": "for"
-    },
-    {
-     "label": "Good weather for it",
-     "feature": "weather",
-     "direction": "for"
-    },
-    {
-     "label": "No familiar faces yet",
-     "feature": "knowsSomeone",
-     "direction": "against"
-    }
-   ],
-   "reasonText": "No Telugu events nearby this week. No language needed. She likes visiting markets and the weather will be pleasant. By bus, about 18 minutes each way, back by 10:28.",
-   "reasonBy": "planner",
-   "firstRideTogether": false,
-   "bringSomeone": {
-    "personId": "pp_chen",
-    "label": "Mrs. Chen",
-    "why": "No shared language is needed here, so a neighbor can easily come along."
-   },
-   "joinCard": null,
-   "features": {
-    "category": "market",
-    "languageMatch": 0,
-    "travelMinutes": 18,
-    "transfers": 0,
-    "walkingMinutes": 8,
-    "startHour": 8,
-    "dayOfWeek": "sat",
-    "weather": "pleasant",
-    "temperatureC": 24,
-    "rainChance": 0.02,
-    "indoor": false,
-    "groupSize": "medium",
-    "costUsd": 0,
-    "knowsSomeone": false,
-    "foodAvailable": false,
-    "daysSinceLastOuting": 3,
-    "withAdultChild": false,
-    "languageNeeded": false
-   }
-  },
   {
    "id": "hh_fremont:2026-W41:pl_d1f88c93",
    "candidate": {
@@ -140,6 +45,103 @@
    "slot": {
     "day": "mon",
     "depart": 510,
+    "back": 634,
+    "withAdultChild": false
+   },
+   "ladderLevel": 2,
+   "ladderLabel": "Shared culture",
+   "score": {
+    "pGo": 0.9008,
+    "enjoyment": 4.017,
+    "combined": 3.6188,
+    "rank": 1
+   },
+   "chips": [
+    {
+     "label": "Like the temple outings they enjoyed",
+     "feature": "category",
+     "direction": "for"
+    },
+    {
+     "label": "Weekday outings rated lower so far",
+     "feature": "timing",
+     "direction": "against"
+    },
+    {
+     "label": "A longer ride",
+     "feature": "trip",
+     "direction": "against"
+    }
+   ],
+   "reasonText": "No Telugu events nearby this week. Shared culture. She enjoyed visiting temples in the past. By bus, about 17 minutes each way, back by 10:34.",
+   "reasonBy": "planner",
+   "firstRideTogether": true,
+   "bringSomeone": null,
+   "joinCard": {
+    "kind": "volunteer",
+    "local": "I would like to volunteer. I speak Telugu.",
+    "meaning": "నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ఈ భాషలు వచ్చు.",
+    "askWho": "Ask at the temple office."
+   },
+   "features": {
+    "category": "temple",
+    "languageMatch": 1,
+    "travelMinutes": 17,
+    "transfers": 0,
+    "walkingMinutes": 8,
+    "startHour": 8,
+    "dayOfWeek": "mon",
+    "weather": "air_conditioned",
+    "temperatureC": 27,
+    "rainChance": 0.02,
+    "indoor": true,
+    "groupSize": "large",
+    "costUsd": 0,
+    "knowsSomeone": false,
+    "foodAvailable": true,
+    "daysSinceLastOuting": 3,
+    "withAdultChild": false,
+    "languageNeeded": false
+   }
+  },
+  {
+   "id": "hh_fremont:2026-W41:pl_906a027f",
+   "candidate": {
+    "id": "pl_906a027f",
+    "kind": "place",
+    "title": "Sri Siddhi Vinayaka Cultural Center",
+    "venueName": "Sri Siddhi Vinayaka Cultural Center",
+    "address": "40155 Blacow Rd, Fremont, CA 94538",
+    "location": {
+     "lat": 37.5275575,
+     "lng": -121.9821257
+    },
+    "ladderLevel": 2,
+    "languageMatch": 1,
+    "category": "temple",
+    "indoor": true,
+    "costUsd": 0,
+    "foodAvailable": true,
+    "languageNeeded": false,
+    "groupSize": "large",
+    "description": "Hindu temple",
+    "photo": {
+     "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmroueQq22DG16XNcKg9HYdMnLOtNddY1pil_UH-PBI0FIKg-SOE__lh5nizd18G-xOJJPJ1X7XI2orC5vZtjCHpl-i71q8ZOhRPRqutJHIDakm41Y5twr2v2vilUVMwa5sMo8T=w1000-h1000-c-n",
+     "credit": "Photo: Google Maps contributor"
+    },
+    "start": null,
+    "end": null,
+    "suitsOlderAdults": true,
+    "provenance": "live_search",
+    "query": "Hindu temple"
+   },
+   "role": "mother",
+   "parentIds": [
+    "p_sarala"
+   ],
+   "slot": {
+    "day": "wed",
+    "depart": 510,
     "back": 636,
     "withAdultChild": false
    },
@@ -168,7 +170,7 @@
      "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. Shared culture. She enjoys visiting temples. By bus, about 18 minutes each way, back by 10:36.",
+   "reasonText": "No Telugu events nearby this week. Shared culture. She enjoyed visiting temples in the past. By bus, about 18 minutes each way, back by 10:36.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
@@ -185,10 +187,10 @@
     "transfers": 0,
     "walkingMinutes": 8,
     "startHour": 8,
-    "dayOfWeek": "mon",
+    "dayOfWeek": "wed",
     "weather": "air_conditioned",
-    "temperatureC": 27,
-    "rainChance": 0.02,
+    "temperatureC": 28,
+    "rainChance": 0,
     "indoor": true,
     "groupSize": "large",
     "costUsd": 0,
@@ -200,16 +202,16 @@
    }
   },
   {
-   "id": "hh_fremont:2026-W41:pl_7836967d",
+   "id": "hh_fremont:2026-W41:pl_3bfe26db",
    "candidate": {
-    "id": "pl_7836967d",
+    "id": "pl_3bfe26db",
     "kind": "place",
-    "title": "Central Park",
-    "venueName": "Central Park",
-    "address": "40000 Paseo Padre Pkwy, Fremont, CA 94538",
+    "title": "Alameda Creek Regional Trail - Isherwood Staging Area",
+    "venueName": "Alameda Creek Regional Trail - Isherwood Staging Area",
+    "address": "2250 Isherwood Way, Fremont, CA 94536",
     "location": {
-     "lat": 37.5477609,
-     "lng": -121.9654384
+     "lat": 37.575209799999996,
+     "lng": -122.010852
     },
     "ladderLevel": 3,
     "languageMatch": 0,
@@ -219,9 +221,9 @@
     "foodAvailable": false,
     "languageNeeded": false,
     "groupSize": "medium",
-    "description": "Land & water activities in a scenic spot. Lakeside park with a golf course, 4 playgrounds, boat rentals, a fishing area, picnic sites & paths.",
+    "description": "Trails used for hiking, biking & horses. Trails running along either side of Alameda Creek, used for running, biking & horseback riding.",
     "photo": {
-     "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S2iIY3yflAA8mnwOEVuaoMJM-RVmbgZHiMrPfANEAfmkkiq1F80v_3QziWuwJqN9aX6VcR2YFaXH_iOxANsY8zjoBWox2QBwPvjDZmHo8OG0gh6FIDzGXKHkTyEXpaXyOhyJApbQ=w1000-h1000-c-n",
+     "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sb5AAikTS0uS1kdWwv5ZKKZFv_qXm6kAbubNiySSKQpJdeSq6P1JKTL74IE8ZB5FPYqBk54hfqfTTCUzArToPiDoEJsIBqP8VY0TDexpsm5kMcz7MGmbKPaq51bQGFZoJC7kzRYA=w1000-h1000-c-n",
      "credit": "Photo: Google Maps contributor"
     },
     "start": null,
@@ -235,17 +237,17 @@
     "p_sarala"
    ],
    "slot": {
-    "day": "fri",
-    "depart": 510,
-    "back": 602,
-    "withAdultChild": false
+    "day": "sat",
+    "depart": 600,
+    "back": 706,
+    "withAdultChild": true
    },
    "ladderLevel": 3,
    "ladderLabel": "Language barely matters",
    "score": {
-    "pGo": 0.9634,
-    "enjoyment": 3.482,
-    "combined": 3.3548,
+    "pGo": 0.963,
+    "enjoyment": 3.493,
+    "combined": 3.3634,
     "rank": 3
    },
    "chips": [
@@ -265,9 +267,9 @@
      "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. No language needed. She enjoys outings to parks. By bus, about 16 minutes each way, back by 10:02.",
+   "reasonText": "No Telugu events nearby this week. No language needed. She enjoys walking in parks. By bus, about 23 minutes each way, back by 11:46.",
    "reasonBy": "planner",
-   "firstRideTogether": true,
+   "firstRideTogether": false,
    "bringSomeone": {
     "personId": "pp_chen",
     "label": "Mrs. Chen",
@@ -277,14 +279,14 @@
    "features": {
     "category": "park",
     "languageMatch": 0,
-    "travelMinutes": 16,
+    "travelMinutes": 23,
     "transfers": 0,
     "walkingMinutes": 8,
-    "startHour": 8,
-    "dayOfWeek": "fri",
-    "weather": "hot",
-    "temperatureC": 27,
-    "rainChance": 0,
+    "startHour": 10,
+    "dayOfWeek": "sat",
+    "weather": "pleasant",
+    "temperatureC": 24,
+    "rainChance": 0.02,
     "indoor": false,
     "groupSize": "medium",
     "costUsd": 0,
@@ -331,7 +333,7 @@
     "p_sarala"
    ],
    "slot": {
-    "day": "wed",
+    "day": "fri",
     "depart": 510,
     "back": 584,
     "withAdultChild": false
@@ -339,9 +341,9 @@
    "ladderLevel": 2,
    "ladderLabel": "Shared culture",
    "score": {
-    "pGo": 0.9324,
-    "enjoyment": 3.588,
-    "combined": 3.3453,
+    "pGo": 0.9315,
+    "enjoyment": 3.586,
+    "combined": 3.3409,
     "rank": 4
    },
    "chips": [
@@ -361,26 +363,21 @@
      "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. Shared culture. She likes visiting Indian grocery stores. By bus, about 12 minutes each way, back by 09:44.",
+   "reasonText": "No Telugu events nearby this week. Shared culture. She liked visiting Indian grocery stores before. A 12-minute walk, back by 09:44.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
-   "joinCard": {
-    "kind": "visit",
-    "local": "I would like to join. I speak Telugu. Who can help me sign up?",
-    "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
-    "askWho": "Ask the staff at the front desk."
-   },
+   "joinCard": null,
    "features": {
     "category": "indian_grocery",
     "languageMatch": 1,
     "travelMinutes": 12,
     "transfers": 0,
-    "walkingMinutes": 8,
+    "walkingMinutes": 12,
     "startHour": 8,
-    "dayOfWeek": "wed",
+    "dayOfWeek": "fri",
     "weather": "air_conditioned",
-    "temperatureC": 28,
+    "temperatureC": 27,
     "rainChance": 0,
     "indoor": true,
     "groupSize": "medium",
@@ -391,13 +388,114 @@
     "withAdultChild": false,
     "languageNeeded": false
    }
+  },
+  {
+   "id": "hh_fremont:2026-W41:pl_806ea8dc",
+   "candidate": {
+    "id": "pl_806ea8dc",
+    "kind": "place",
+    "title": "Age Well Center at Lake Elizabeth",
+    "venueName": "Age Well Center at Lake Elizabeth",
+    "address": "40086 Paseo Padre Pkwy, Fremont, CA 94538",
+    "location": {
+     "lat": 37.546352999999996,
+     "lng": -121.96690849999999
+    },
+    "ladderLevel": 4,
+    "languageMatch": 0,
+    "category": "senior_center",
+    "indoor": true,
+    "costUsd": 0,
+    "foodAvailable": false,
+    "languageNeeded": true,
+    "groupSize": "medium",
+    "description": "Senior citizen center",
+    "photo": {
+     "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tokq_xyXMc5DB5aXQnSK1-9Oaelyhl0oEmelIEU_Oa6HV4070oY6cF9kfOq9rJ2weMmz6qPgagfHmN_VnlQJRlPoO5TKg_WQKtk3ecRvBlkovLpW6ZvEEUYZy_fSga-Kotgw9pwQ=w1000-h1000-c-n",
+     "credit": "Photo: Google Maps contributor"
+    },
+    "start": null,
+    "end": null,
+    "suitsOlderAdults": true,
+    "provenance": "live_search",
+    "query": "senior center"
+   },
+   "role": "mother",
+   "parentIds": [
+    "p_sarala"
+   ],
+   "slot": {
+    "day": "sat",
+    "depart": 600,
+    "back": 722,
+    "withAdultChild": true
+   },
+   "ladderLevel": 4,
+   "ladderLabel": "Programs for newcomers and older adults",
+   "score": {
+    "pGo": 0.9053,
+    "enjoyment": 3.249,
+    "combined": 2.941,
+    "rank": 5
+   },
+   "chips": [
+    {
+     "label": "Not in their language",
+     "feature": "languageMatch",
+     "direction": "against"
+    },
+    {
+     "label": "No familiar faces yet",
+     "feature": "knowsSomeone",
+     "direction": "against"
+    },
+    {
+     "label": "A time that has worked before",
+     "feature": "timing",
+     "direction": "for"
+    }
+   ],
+   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. She likes meeting other women her age. By bus, about 16 minutes each way, back by 12:02.",
+   "reasonBy": "planner",
+   "firstRideTogether": false,
+   "bringSomeone": {
+    "personId": "pp_chen",
+    "label": "Mrs. Chen",
+    "why": "No shared language is needed here, so a neighbor can easily come along."
+   },
+   "joinCard": {
+    "kind": "join",
+    "local": "I would like to join. I speak Telugu. Who can help me sign up?",
+    "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
+    "askWho": "Ask the staff at the front desk."
+   },
+   "features": {
+    "category": "senior_center",
+    "languageMatch": 0,
+    "travelMinutes": 16,
+    "transfers": 0,
+    "walkingMinutes": 8,
+    "startHour": 10,
+    "dayOfWeek": "sat",
+    "weather": "pleasant",
+    "temperatureC": 24,
+    "rainChance": 0.02,
+    "indoor": true,
+    "groupSize": "medium",
+    "costUsd": 0,
+    "knowsSomeone": false,
+    "foodAvailable": false,
+    "daysSinceLastOuting": 3,
+    "withAdultChild": false,
+    "languageNeeded": true
+   }
   }
  ],
  "note": "No Telugu events or groups were found nearby this week.",
  "sameLanguageFound": false,
  "rejected": [],
  "stats": {
-  "ms": 3573,
+  "ms": 5983,
   "modelCalls": 1,
   "cachedModelCalls": 0,
   "fallbacks": 0,
@@ -405,18 +503,18 @@
   "toolCalls": [
    {
     "tool": "rankOutings",
-    "ms": 2,
+    "ms": 1,
     "detail": "mother: 12 feasible"
    },
    {
     "tool": "agent",
-    "ms": 3570,
+    "ms": 5979,
     "detail": "1 steps"
    }
   ],
   "rankerCalls": 1,
-  "candidates": 20,
+  "candidates": 21,
   "feasible": 12,
-  "agentChoicesUsed": 4
+  "agentChoicesUsed": 5
  }
 }

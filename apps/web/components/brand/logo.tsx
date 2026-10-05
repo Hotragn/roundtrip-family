@@ -63,7 +63,6 @@ export function Logo({ height = 32, className }: { height?: number; className?: 
   return (
     <picture className={className}>
       <source srcSet="/brand/roundtrip-logo-dark.svg" media="(prefers-color-scheme: dark)" />
-      {/* biome-ignore lint/performance/noImgElement: a static SVG lockup needs no image optimization */}
       <img src="/brand/roundtrip-logo.svg" alt="Roundtrip" width={width} height={height} />
     </picture>
   );

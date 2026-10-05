@@ -6,6 +6,7 @@
   "exports": {
     ".": "./src/index.ts",
     "./crypto": "./src/crypto/diary.ts",
+    "./languages": "./src/languages.ts",
     "./persona": "./src/persona.ts",
     "./privacy": "./src/privacy/index.ts",
     "./server-env": "./src/server-env.ts"

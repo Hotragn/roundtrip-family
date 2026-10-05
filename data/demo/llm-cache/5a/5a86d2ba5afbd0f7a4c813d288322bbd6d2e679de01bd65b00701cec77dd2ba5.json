@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791225393603",
+  "object": "chat.completion",
+  "created": 1791225393,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c2\",\"parent\":\"mother\",\"reason\":\"They enjoyed visiting temples previously.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c2\",\"parent\":\"father\",\"reason\":\"They enjoyed visiting temples previously.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c5\",\"parent\":\"mother\",\"reason\":\"They enjoyed visiting Indian grocery stores before.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c5\",\"parent\":\"father\",\"reason\":\"They liked spending time in the spice aisle at Indian grocery stores.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c4\",\"parent\":\"father\",\"reason\":\"They enjoyed watching people at the park.\",\"firstRideTogether\":true,\"bringSomeone\":\"a neighbor two doors down who speaks Mandarin\",\"joinHelp\":false}],\"note\":\"No Telugu events or groups were found nearby this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2606,
+   "completion_tokens": 218,
+   "total_tokens": 2824,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 29.636363983154297
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T18:36:33.673Z",
+ "latencyMs": 5217
+}

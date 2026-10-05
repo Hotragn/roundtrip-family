@@ -1,103 +1,104 @@
 {
  "demoWeek": "fremont",
  "label": "Fremont, live search",
- "provenance": "synthetic",
+ "weekSource": "live_search",
  "householdId": "hh_fremont",
  "week": "2026-W41",
+ "provenance": "synthetic",
  "sourceOfCandidates": "live_search",
  "suggestions": [
   {
-   "id": "hh_fremont:2026-W41:ev_34303c4e",
+   "id": "hh_fremont:2026-W41:pl_906a027f",
    "candidate": {
-    "id": "ev_34303c4e",
-    "kind": "event",
-    "title": "Niles Fremont Farmers Market",
-    "venueName": "Niles Fremont Farmer's Market",
-    "address": "Niles Fremont Farmer's Market, Fremont, CA",
+    "id": "pl_906a027f",
+    "kind": "place",
+    "title": "Sri Siddhi Vinayaka Cultural Center",
+    "venueName": "Sri Siddhi Vinayaka Cultural Center",
+    "address": "40155 Blacow Rd, Fremont, CA 94538",
     "location": {
-     "lat": 37.576705,
-     "lng": -121.9784815
+     "lat": 37.5275575,
+     "lng": -121.9821257
     },
-    "ladderLevel": 3,
-    "languageMatch": 0,
-    "category": "market",
-    "indoor": false,
+    "ladderLevel": 2,
+    "languageMatch": 1,
+    "category": "temple",
+    "indoor": true,
     "costUsd": 0,
-    "foodAvailable": false,
+    "foodAvailable": true,
     "languageNeeded": false,
-    "groupSize": "medium",
-    "description": "",
+    "groupSize": "large",
+    "description": "Hindu temple",
     "photo": {
-     "url": "https://serpapi.com/searches/6ac3dbc71248150d0716507e/images/OOX_VTLr9K0BcpXOymNyQQbM9Em-QsIcxy2NMx1_K6w.jpeg",
-     "credit": "Image: event listing"
+     "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmroueQq22DG16XNcKg9HYdMnLOtNddY1pil_UH-PBI0FIKg-SOE__lh5nizd18G-xOJJPJ1X7XI2orC5vZtjCHpl-i71q8ZOhRPRqutJHIDakm41Y5twr2v2vilUVMwa5sMo8T=w1000-h1000-c-n",
+     "credit": "Photo: Google Maps contributor"
     },
-    "start": "2026-10-10T09:00:00-07:00",
+    "start": null,
     "end": null,
     "suitsOlderAdults": true,
     "provenance": "live_search",
-    "query": "Telugu events in Fremont, California"
+    "query": "Hindu temple"
    },
    "role": "father",
    "parentIds": [
     "p_venkat"
    ],
    "slot": {
-    "day": "sat",
-    "depart": 517,
-    "back": 628,
-    "withAdultChild": true
+    "day": "mon",
+    "depart": 510,
+    "back": 636,
+    "withAdultChild": false
    },
-   "ladderLevel": 3,
-   "ladderLabel": "Language barely matters",
+   "ladderLevel": 2,
+   "ladderLabel": "Shared culture",
    "score": {
-    "pGo": 0.9579,
-    "enjoyment": 4.474,
-    "combined": 4.2856,
+    "pGo": 0.9141,
+    "enjoyment": 3.967,
+    "combined": 3.6266,
     "rank": 1
    },
    "chips": [
     {
-     "label": "A time that has worked before",
+     "label": "Like the temple outings they enjoyed",
+     "feature": "category",
+     "direction": "for"
+    },
+    {
+     "label": "Weekday outings rated lower so far",
      "feature": "timing",
-     "direction": "for"
+     "direction": "against"
     },
     {
-     "label": "Good weather for it",
-     "feature": "weather",
-     "direction": "for"
-    },
-    {
-     "label": "Not in their language",
-     "feature": "languageMatch",
+     "label": "No familiar faces yet",
+     "feature": "knowsSomeone",
      "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. No language needed. They enjoy watching people at the park during pleasant weather. By bus, about 18 minutes each way, back by 10:28.",
-   "reasonBy": "planner",
-   "firstRideTogether": false,
+   "reasonText": "No Telugu events nearby this week. Shared culture. By bus, about 18 minutes each way, back by 10:36.",
+   "reasonBy": "fallback",
+   "firstRideTogether": true,
    "bringSomeone": null,
    "joinCard": {
-    "kind": "join",
-    "local": "I would like to join. I speak Telugu and Hindi. Who can help me sign up?",
-    "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
-    "askWho": "Ask the staff at the front desk."
+    "kind": "volunteer",
+    "local": "I would like to volunteer. I speak Telugu and Hindi.",
+    "meaning": "నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ఈ భాషలు వచ్చు.",
+    "askWho": "Ask at the temple office."
    },
    "features": {
-    "category": "market",
-    "languageMatch": 0,
+    "category": "temple",
+    "languageMatch": 1,
     "travelMinutes": 18,
     "transfers": 0,
     "walkingMinutes": 8,
     "startHour": 8,
-    "dayOfWeek": "sat",
-    "weather": "pleasant",
-    "temperatureC": 24,
+    "dayOfWeek": "mon",
+    "weather": "air_conditioned",
+    "temperatureC": 27,
     "rainChance": 0.02,
-    "indoor": false,
-    "groupSize": "medium",
+    "indoor": true,
+    "groupSize": "large",
     "costUsd": 0,
     "knowsSomeone": false,
-    "foodAvailable": false,
+    "foodAvailable": true,
     "daysSinceLastOuting": 3,
     "withAdultChild": false,
     "languageNeeded": false
@@ -141,15 +142,15 @@
    "slot": {
     "day": "mon",
     "depart": 510,
-    "back": 636,
+    "back": 634,
     "withAdultChild": false
    },
    "ladderLevel": 2,
    "ladderLabel": "Shared culture",
    "score": {
-    "pGo": 0.9021,
-    "enjoyment": 3.997,
-    "combined": 3.6059,
+    "pGo": 0.9008,
+    "enjoyment": 4.017,
+    "combined": 3.6188,
     "rank": 2
    },
    "chips": [
@@ -169,7 +170,7 @@
      "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. Shared culture. They enjoyed visiting temples previously. By bus, about 18 minutes each way, back by 10:36.",
+   "reasonText": "No Telugu events nearby this week. Shared culture. They enjoyed temple outings before. By bus, about 17 minutes each way, back by 10:34.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
@@ -182,7 +183,7 @@
    "features": {
     "category": "temple",
     "languageMatch": 1,
-    "travelMinutes": 18,
+    "travelMinutes": 17,
     "transfers": 0,
     "walkingMinutes": 8,
     "startHour": 8,
@@ -238,15 +239,15 @@
    "slot": {
     "day": "fri",
     "depart": 510,
-    "back": 602,
+    "back": 604,
     "withAdultChild": false
    },
    "ladderLevel": 3,
    "ladderLabel": "Language barely matters",
    "score": {
-    "pGo": 0.9634,
-    "enjoyment": 3.482,
-    "combined": 3.3548,
+    "pGo": 0.9636,
+    "enjoyment": 3.48,
+    "combined": 3.3535,
     "rank": 3
    },
    "chips": [
@@ -266,7 +267,7 @@
      "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. No language needed. They enjoyed visiting parks in the past. By bus, about 16 minutes each way, back by 10:02.",
+   "reasonText": "No Telugu events nearby this week. No language needed. They enjoyed visiting parks before. By bus, about 17 minutes each way, back by 10:04.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": {
@@ -274,16 +275,11 @@
     "label": "Mrs. Chen",
     "why": "No shared language is needed here, so a neighbor can easily come along."
    },
-   "joinCard": {
-    "kind": "visit",
-    "local": "I would like to join. I speak Telugu. Who can help me sign up?",
-    "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
-    "askWho": "Ask the staff at the front desk."
-   },
+   "joinCard": null,
    "features": {
     "category": "park",
     "languageMatch": 0,
-    "travelMinutes": 16,
+    "travelMinutes": 17,
     "transfers": 0,
     "walkingMinutes": 8,
     "startHour": 8,
@@ -345,9 +341,9 @@
    "ladderLevel": 2,
    "ladderLabel": "Shared culture",
    "score": {
-    "pGo": 0.9324,
-    "enjoyment": 3.588,
-    "combined": 3.3453,
+    "pGo": 0.9315,
+    "enjoyment": 3.586,
+    "combined": 3.3409,
     "rank": 4
    },
    "chips": [
@@ -367,124 +363,22 @@
      "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. Shared culture. They liked previous outings to Indian grocery stores. By bus, about 12 minutes each way, back by 09:44.",
+   "reasonText": "No Telugu events nearby this week. Shared culture. They liked the Indian grocery outings before. A 12-minute walk, back by 09:44.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
-   "joinCard": {
-    "kind": "visit",
-    "local": "I would like to join. I speak Telugu. Who can help me sign up?",
-    "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
-    "askWho": "Ask the staff at the front desk."
-   },
+   "joinCard": null,
    "features": {
     "category": "indian_grocery",
     "languageMatch": 1,
     "travelMinutes": 12,
     "transfers": 0,
-    "walkingMinutes": 8,
+    "walkingMinutes": 12,
     "startHour": 8,
     "dayOfWeek": "wed",
     "weather": "air_conditioned",
     "temperatureC": 28,
     "rainChance": 0,
-    "indoor": true,
-    "groupSize": "medium",
-    "costUsd": 30,
-    "knowsSomeone": false,
-    "foodAvailable": false,
-    "daysSinceLastOuting": 3,
-    "withAdultChild": false,
-    "languageNeeded": false
-   }
-  },
-  {
-   "id": "hh_fremont:2026-W41:pl_d08f3aa9",
-   "candidate": {
-    "id": "pl_d08f3aa9",
-    "kind": "place",
-    "title": "Bharat Bazar",
-    "venueName": "Bharat Bazar",
-    "address": "3400 Mowry Ave, Fremont, CA 94538",
-    "location": {
-     "lat": 37.5520269,
-     "lng": -121.98512489999999
-    },
-    "ladderLevel": 2,
-    "languageMatch": 1,
-    "category": "indian_grocery",
-    "indoor": true,
-    "costUsd": 30,
-    "foodAvailable": false,
-    "languageNeeded": false,
-    "groupSize": "medium",
-    "description": "Indian grocery store",
-    "photo": {
-     "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcwWo2Hytv1gmJAWIPBcUFvUfujNnI9PVF1Z37YBa3Xx3r2cNra0vpXyNKsphP9zkZ2lnGHsb9WQTZ7gEOhys30uqgln06s_kZ23Rjo7On_JfkcrrdHjdlz95mys6WIRQ4qoQgdoQ=w1000-h1000-c-n",
-     "credit": "Photo: Google Maps contributor"
-    },
-    "start": null,
-    "end": null,
-    "suitsOlderAdults": true,
-    "provenance": "live_search",
-    "query": "Indian grocery store"
-   },
-   "role": "father",
-   "parentIds": [
-    "p_venkat"
-   ],
-   "slot": {
-    "day": "mon",
-    "depart": 510,
-    "back": 570,
-    "withAdultChild": false
-   },
-   "ladderLevel": 2,
-   "ladderLabel": "Shared culture",
-   "score": {
-    "pGo": 0.8824,
-    "enjoyment": 3.443,
-    "combined": 3.0383,
-    "rank": 5
-   },
-   "chips": [
-    {
-     "label": "Like the indian grocery outings they enjoyed",
-     "feature": "category",
-     "direction": "for"
-    },
-    {
-     "label": "Weekday outings rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
-    {
-     "label": "Shared culture",
-     "feature": "languageMatch",
-     "direction": "for"
-    }
-   ],
-   "reasonText": "No Telugu events nearby this week. Shared culture. They enjoyed spending time in the spice aisle at Indian groceries. A 5-minute walk, back by 09:30.",
-   "reasonBy": "planner",
-   "firstRideTogether": true,
-   "bringSomeone": null,
-   "joinCard": {
-    "kind": "visit",
-    "local": "I would like to join. I speak Telugu and Hindi. Who can help me sign up?",
-    "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
-    "askWho": "Ask the staff at the front desk."
-   },
-   "features": {
-    "category": "indian_grocery",
-    "languageMatch": 1,
-    "travelMinutes": 5,
-    "transfers": 0,
-    "walkingMinutes": 5,
-    "startHour": 8,
-    "dayOfWeek": "mon",
-    "weather": "air_conditioned",
-    "temperatureC": 27,
-    "rainChance": 0.02,
     "indoor": true,
     "groupSize": "medium",
     "costUsd": 30,
@@ -500,7 +394,7 @@
  "sameLanguageFound": false,
  "rejected": [],
  "stats": {
-  "ms": 7713,
+  "ms": 44319,
   "modelCalls": 1,
   "cachedModelCalls": 0,
   "fallbacks": 0,
@@ -508,23 +402,23 @@
   "toolCalls": [
    {
     "tool": "rankOutings",
-    "ms": 121,
+    "ms": 17547,
     "detail": "mother: 12 feasible"
    },
    {
     "tool": "rankOutings",
-    "ms": 131,
+    "ms": 20785,
     "detail": "father: 12 feasible"
    },
    {
     "tool": "agent",
-    "ms": 7453,
+    "ms": 5979,
     "detail": "1 steps"
    }
   ],
   "rankerCalls": 2,
-  "candidates": 20,
+  "candidates": 21,
   "feasible": 12,
-  "agentChoicesUsed": 5
+  "agentChoicesUsed": 3
  }
 }
