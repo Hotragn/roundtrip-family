@@ -22,8 +22,8 @@ Checked 2026-10-05. No secret values are recorded here.
 | OPENROUTER_API_KEY | SET | OK |
 | TABPFN_TOKEN | SET | Skipped (no free verification endpoint known) |
 | HF_TOKEN | SET | OK |
-| SERPAPI_API_KEY | SET | FAIL (HTTP 401 on account endpoint, which uses no searches) |
-| MONGODB_URI | SET | FAIL (OperationFailure, likely authentication) |
+| SERPAPI_API_KEY | SET | OK (account endpoint, uses no searches) |
+| MONGODB_URI | SET | FAIL (AtlasError 8000: bad auth; cluster reachable) |
 | RENDER_API_KEY | SET | OK |
 | SENTRY_DSN | SET | Skipped (verifying would send an event) |
 | AGENTMAIL_API_KEY | SET | OK |
@@ -49,8 +49,7 @@ Checked 2026-10-05. No secret values are recorded here.
 ## To fix
 
 - Add CLAUDE.md and docs/plan.md.
-- Check the SerpAPI key.
-- Check the MongoDB URI user, password and Atlas network access list.
+- MongoDB: cluster is reachable but rejects the credentials; check the Database Access user and its password.
 - Generate DIARY_ENCRYPTION_KEY with `openssl rand -base64 32`.
 - Set DEMO_ALERT_EMAIL to a valid address.
 - Install the Temporal CLI.
