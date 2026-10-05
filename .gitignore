@@ -6,17 +6,31 @@ yarn-error.log*
 pnpm-debug.log*
 .npm/
 dist/
-build/
 .next/
+out/
 coverage/
+*.tsbuildinfo
+next-env.d.ts
+.turbo/
+
+# Generated service worker
+apps/web/public/sw.js
+apps/web/public/sw.js.map
+apps/web/public/swe-worker-*.js
+
+# Test and audit output
+playwright-report/
+test-results/
+blob-report/
+.lighthouseci/
 
 # Python
 __pycache__/
 *.py[cod]
 *.egg-info/
 .venv/
-venv/
-env/
+/venv/
+/env/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -30,8 +44,10 @@ env/
 # Private family data
 data/family/
 
-# Model files
-models/
+# Model files and downloads
+/models/
+speech/.models/
+finetune/.checkpoints/
 *.gguf
 *.safetensors
 *.bin
@@ -40,10 +56,15 @@ models/
 *.onnx
 *.ckpt
 
+# Temporal dev server state
+*.temporal.db
+temporal-dev*.db
+
 # Caches
 .cache/
 *.cache
 .huggingface/
+scripts/assets/.downloads/
 
 # OS / editor
 .DS_Store

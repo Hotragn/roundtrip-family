@@ -1,0 +1,31 @@
+{
+  "name": "roundtrip-family",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @roundtrip/web dev",
+    "build": "pnpm --filter @roundtrip/web build",
+    "start": "pnpm --filter @roundtrip/web start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "eval": "pnpm --filter @roundtrip/evals eval",
+    "lint": "biome check .",
+    "format": "biome format --write .",
+    "typecheck": "pnpm -r --parallel typecheck",
+    "seed": "tsx scripts/seed.ts",
+    "privacy-check": "tsx scripts/privacy-check.ts",
+    "check-env": "tsx scripts/check-env.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@types/node": "^24.0.0",
+    "dotenv": "^18.0.5",
+    "tsx": "^4.23.15",
+    "typescript": "6.0.3",
+    "vitest": "^5.0.3"
+  }
+}

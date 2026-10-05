@@ -1,0 +1,194 @@
+{
+  "source": "Synthetic second household for testing any-country support. Kamala and Raghu are invented characters, not real people. Label every result that uses this household as synthetic.",
+  "household": {
+    "_id": "hh_munich",
+    "slug": "munich-demo",
+    "provenance": "synthetic",
+    "hostCountry": "DE",
+    "localLanguage": "de",
+    "timezone": "Europe/Berlin",
+    "metroArea": "Munich (München), Bavaria",
+    "homeArea": {
+      "label": "U-Bahn Neuperlach Zentrum",
+      "nearestStop": { "name": "Neuperlach Zentrum", "location": { "lat": 48.1006, "lng": 11.6466 } },
+      "areaCenter": { "lat": 48.1, "lng": 11.646 },
+      "searchLocation": "Munich, Bavaria, Germany"
+    },
+    "emergency": {
+      "number": "112",
+      "covers": "Fire and ambulance (Feuerwehr und Rettungsdienst)",
+      "source": "https://www.bbk.bund.de/DE/Warnung-Vorsorge/Vorsorge/Gesundheit-und-Hygiene/Erste-Hilfe-und-Notruf/erste-hilfe-und-notruf_node.html",
+      "verifiedOn": "2026-10-05"
+    },
+    "contacts": [
+      { "role": "adult_child", "label": "Your child", "phone": "+49 89 99998 042", "fictional": true }
+    ],
+    "helpCardText": "Hallo. Ich besuche meine Familie und spreche kaum Deutsch. Bitte rufen Sie meine Familie unter dieser Nummer an. Danke.",
+    "aloneWindows": [
+      { "day": "mon", "start": "08:00", "end": "17:30" },
+      { "day": "tue", "start": "08:00", "end": "17:30" },
+      { "day": "wed", "start": "08:00", "end": "17:30" },
+      { "day": "thu", "start": "08:00", "end": "17:30" }
+    ],
+    "safety": {
+      "bufferMinutes": 45,
+      "nudgeWaitMinutes": 20,
+      "daylightOnly": true,
+      "weather": { "blockIce": true, "blockHeavySnow": true, "blockHeatAdvisory": true, "shadeWarningAboveC": 30 }
+    },
+    "trialRunDays": ["sat", "sun"],
+    "phonePlan": { "hasLocalPlan": false, "wifiOnly": true },
+    "notes": "Flat near Neuperlach Zentrum with the U5 and several bus lines close by. Visiting for three months, September to December."
+  },
+  "parents": [
+    {
+      "_id": "p_kamala",
+      "householdId": "hh_munich",
+      "provenance": "synthetic",
+      "firstName": "Kamala",
+      "addressAs": "అమ్మా",
+      "language": "te",
+      "dialectNotes": "Coastal Andhra, Vijayawada (Krishna district).",
+      "otherLanguages": [],
+      "readingSupport": "audio_first",
+      "localWordsKnown": ["Hallo", "Danke", "Bitte", "Ja", "Nein", "Tschüss", "Wasser", "Milch", "Brot", "Toilette"],
+      "interests": ["temple", "cooking", "gardens and flowers", "markets", "meeting other Telugu women"],
+      "notInterested": ["museums", "shopping malls"],
+      "dislikes": ["long stairs", "crowded trams at rush hour", "cold wind"],
+      "mobility": { "maxWalkMinutes": 40, "maxTransfers": 1, "transitComfort": "with_company", "notes": "Slow on stairs; prefers lifts at U-Bahn stations." },
+      "weather": { "avoid": ["cold", "wind", "rain"], "minComfortC": 12, "maxComfortC": 35 },
+      "bestTimes": [{ "start": "09:30", "end": "12:30" }],
+      "naps": [{ "start": "13:30", "end": "15:00" }],
+      "diet": "Vegetarian. Needs rice daily.",
+      "settings": { "useDiaryForPlanning": false }
+    },
+    {
+      "_id": "p_raghu",
+      "householdId": "hh_munich",
+      "provenance": "synthetic",
+      "firstName": "Raghu",
+      "addressAs": "నాన్నగారు",
+      "language": "te",
+      "dialectNotes": "Coastal Andhra, Vijayawada. Retired engineer; reads English well.",
+      "otherLanguages": [{ "code": "en", "level": "speaks" }, { "code": "hi", "level": "speaks" }],
+      "readingSupport": "text_with_sign_words",
+      "localWordsKnown": ["Hallo", "Danke", "Bitte", "Ja", "Nein", "Entschuldigung", "Ausgang", "Eingang", "Gleis", "Haltestelle", "Bahnhof", "Fahrkarte", "Kaffee", "Toilette"],
+      "interests": ["walking with company", "trains and engineering", "temple", "newspapers", "parks"],
+      "notInterested": ["shopping"],
+      "dislikes": ["expensive entry fees", "loud places"],
+      "mobility": { "maxWalkMinutes": 60, "maxTransfers": 2, "transitComfort": "solo_known_routes", "notes": "Comfortable on the U-Bahn after one ride with company." },
+      "weather": { "avoid": ["ice"], "minComfortC": 5, "maxComfortC": 35 },
+      "bestTimes": [{ "start": "08:00", "end": "12:00" }, { "start": "15:30", "end": "17:30" }],
+      "naps": [{ "start": "13:30", "end": "15:00" }],
+      "diet": "Vegetarian. Filter coffee in the morning.",
+      "settings": { "useDiaryForPlanning": false }
+    }
+  ],
+  "people": [
+    {
+      "_id": "pp_frau_huber",
+      "householdId": "hh_munich",
+      "provenance": "synthetic",
+      "label": "Frau Huber",
+      "relation": "Neighbor on the same floor",
+      "whereMet": "In the lift",
+      "language": "de",
+      "sharedWords": ["Hallo", "Danke", "gut"],
+      "notes": "Waters the balcony plants; showed Kamala the weekly market.",
+      "metAtOutingIds": [],
+      "knownParentIds": ["p_kamala"]
+    }
+  ],
+  "pastOutings": [
+    {
+      "_id": "o_munich_1", "householdId": "hh_munich", "provenance": "synthetic", "week": null,
+      "title": "Hindu temple (Munich)", "venueName": "Hindu temple (Munich)", "parentIds": ["p_kamala", "p_raghu"],
+      "plannedStart": null, "expectedReturn": null, "status": "past", "ladderLevel": null,
+      "features": { "category": "temple", "languageMatch": 1, "travelMinutes": 35, "transfers": 1, "walkingMinutes": 8, "startHour": 10, "dayOfWeek": "sat", "weather": "pleasant", "temperatureC": 18, "rainChance": 0.1, "indoor": true, "groupSize": "large", "costUsd": 0, "knowsSomeone": false, "foodAvailable": true, "daysSinceLastOuting": 6, "withAdultChild": true, "languageNeeded": false },
+      "reasons": [], "needsTrialRun": false,
+      "result": { "went": true, "enjoyment": 5, "face": "good", "peopleMet": [], "wouldRepeat": "yes", "notes": "Tamil and Telugu families after the puja" },
+      "createdAt": "2026-10-05T09:00:00+02:00"
+    },
+    {
+      "_id": "o_munich_2", "householdId": "hh_munich", "provenance": "synthetic", "week": null,
+      "title": "Englischer Garten walk", "venueName": "Englischer Garten", "parentIds": ["p_kamala", "p_raghu"],
+      "plannedStart": null, "expectedReturn": null, "status": "past", "ladderLevel": null,
+      "features": { "category": "park", "languageMatch": 0, "travelMinutes": 30, "transfers": 1, "walkingMinutes": 40, "startHour": 15, "dayOfWeek": "sun", "weather": "pleasant", "temperatureC": 20, "rainChance": 0.05, "indoor": false, "groupSize": "medium", "costUsd": 0, "knowsSomeone": false, "foodAvailable": true, "daysSinceLastOuting": 1, "withAdultChild": true, "languageNeeded": false },
+      "reasons": [], "needsTrialRun": false,
+      "result": { "went": true, "enjoyment": 5, "face": "good", "peopleMet": [], "wouldRepeat": "yes" },
+      "createdAt": "2026-10-05T09:00:00+02:00"
+    },
+    {
+      "_id": "o_munich_3", "householdId": "hh_munich", "provenance": "synthetic", "week": null,
+      "title": "Viktualienmarkt", "venueName": "Viktualienmarkt", "parentIds": ["p_kamala"],
+      "plannedStart": null, "expectedReturn": null, "status": "past", "ladderLevel": null,
+      "features": { "category": "farmers_market", "languageMatch": 0, "travelMinutes": 25, "transfers": 0, "walkingMinutes": 10, "startHour": 10, "dayOfWeek": "wed", "weather": "cool", "temperatureC": 13, "rainChance": 0.2, "indoor": false, "groupSize": "large", "costUsd": 15, "knowsSomeone": false, "foodAvailable": true, "daysSinceLastOuting": 3, "withAdultChild": false, "languageNeeded": true },
+      "reasons": [], "needsTrialRun": false,
+      "result": { "went": true, "enjoyment": 4, "face": "good", "peopleMet": [], "wouldRepeat": "yes", "notes": "Pointed at vegetables; the seller smiled" },
+      "createdAt": "2026-10-05T09:00:00+02:00"
+    },
+    {
+      "_id": "o_munich_4", "householdId": "hh_munich", "provenance": "synthetic", "week": null,
+      "title": "Indian grocery near Hauptbahnhof", "venueName": "Indian grocery (Hauptbahnhof)", "parentIds": ["p_kamala", "p_raghu"],
+      "plannedStart": null, "expectedReturn": null, "status": "past", "ladderLevel": null,
+      "features": { "category": "indian_grocery", "languageMatch": 1, "travelMinutes": 28, "transfers": 1, "walkingMinutes": 6, "startHour": 11, "dayOfWeek": "sat", "weather": "rainy", "temperatureC": 11, "rainChance": 0.7, "indoor": true, "groupSize": "medium", "costUsd": 45, "knowsSomeone": false, "foodAvailable": false, "daysSinceLastOuting": 2, "withAdultChild": true, "languageNeeded": false },
+      "reasons": [], "needsTrialRun": false,
+      "result": { "went": true, "enjoyment": 4, "face": "good", "peopleMet": [], "wouldRepeat": "yes" },
+      "createdAt": "2026-10-05T09:00:00+02:00"
+    },
+    {
+      "_id": "o_munich_5", "householdId": "hh_munich", "provenance": "synthetic", "week": null,
+      "title": "Olympia-Einkaufszentrum", "venueName": "Olympia-Einkaufszentrum", "parentIds": ["p_kamala", "p_raghu"],
+      "plannedStart": null, "expectedReturn": null, "status": "past", "ladderLevel": null,
+      "features": { "category": "mall", "languageMatch": 0, "travelMinutes": 40, "transfers": 1, "walkingMinutes": 15, "startHour": 14, "dayOfWeek": "sun", "weather": "cool", "temperatureC": 12, "rainChance": 0.3, "indoor": true, "groupSize": "large", "costUsd": 20, "knowsSomeone": false, "foodAvailable": true, "daysSinceLastOuting": 1, "withAdultChild": true, "languageNeeded": false },
+      "reasons": [], "needsTrialRun": false,
+      "result": { "went": true, "enjoyment": 2, "face": "not_good", "peopleMet": [], "wouldRepeat": "no", "notes": "Too loud, too many shops" },
+      "createdAt": "2026-10-05T09:00:00+02:00"
+    },
+    {
+      "_id": "o_munich_6", "householdId": "hh_munich", "provenance": "synthetic", "week": null,
+      "title": "Deutsches Museum", "venueName": "Deutsches Museum", "parentIds": ["p_raghu"],
+      "plannedStart": null, "expectedReturn": null, "status": "past", "ladderLevel": null,
+      "features": { "category": "museum", "languageMatch": 0, "travelMinutes": 30, "transfers": 1, "walkingMinutes": 50, "startHour": 10, "dayOfWeek": "sat", "weather": "rainy", "temperatureC": 10, "rainChance": 0.6, "indoor": true, "groupSize": "large", "costUsd": 18, "knowsSomeone": false, "foodAvailable": true, "daysSinceLastOuting": 5, "withAdultChild": true, "languageNeeded": false },
+      "reasons": [], "needsTrialRun": false,
+      "result": { "went": true, "enjoyment": 3, "face": "okay", "peopleMet": [], "wouldRepeat": "maybe", "notes": "Liked the trains; the entry fee felt like too much" },
+      "createdAt": "2026-10-05T09:00:00+02:00"
+    },
+    {
+      "_id": "o_munich_7", "householdId": "hh_munich", "provenance": "synthetic", "week": null,
+      "title": "Supermarket near home", "venueName": "Supermarket (Neuperlach)", "parentIds": ["p_raghu"],
+      "plannedStart": null, "expectedReturn": null, "status": "past", "ladderLevel": null,
+      "features": { "category": "supermarket", "languageMatch": 0, "travelMinutes": 6, "transfers": 0, "walkingMinutes": 6, "startHour": 11, "dayOfWeek": "tue", "weather": "cool", "temperatureC": 12, "rainChance": 0.2, "indoor": true, "groupSize": "medium", "costUsd": 25, "knowsSomeone": false, "foodAvailable": false, "daysSinceLastOuting": 2, "withAdultChild": false, "languageNeeded": true },
+      "reasons": [], "needsTrialRun": false,
+      "result": { "went": true, "enjoyment": 2, "face": "not_good", "peopleMet": [], "wouldRepeat": "no", "notes": "Couldn't read the labels; the cashier spoke fast" },
+      "createdAt": "2026-10-05T09:00:00+02:00"
+    },
+    {
+      "_id": "o_munich_8", "householdId": "hh_munich", "provenance": "synthetic", "week": null,
+      "title": "Telugu association Bathukamma celebration", "venueName": "Community hall (Munich)", "parentIds": ["p_kamala", "p_raghu"],
+      "plannedStart": null, "expectedReturn": null, "status": "past", "ladderLevel": null,
+      "features": { "category": "community_event", "languageMatch": 2, "travelMinutes": 35, "transfers": 1, "walkingMinutes": 10, "startHour": 16, "dayOfWeek": "sat", "weather": "pleasant", "temperatureC": 16, "rainChance": 0.1, "indoor": true, "groupSize": "large", "costUsd": 10, "knowsSomeone": true, "foodAvailable": true, "daysSinceLastOuting": 4, "withAdultChild": true, "languageNeeded": false },
+      "reasons": [], "needsTrialRun": false,
+      "result": { "went": true, "enjoyment": 5, "face": "good", "peopleMet": [], "wouldRepeat": "yes", "notes": "Met a family from Guntur" },
+      "createdAt": "2026-10-05T09:00:00+02:00"
+    },
+    {
+      "_id": "o_munich_9", "householdId": "hh_munich", "provenance": "synthetic", "week": null,
+      "title": "Ostpark walk", "venueName": "Ostpark", "parentIds": ["p_raghu"],
+      "plannedStart": null, "expectedReturn": null, "status": "past", "ladderLevel": null,
+      "features": { "category": "park", "languageMatch": 0, "travelMinutes": 12, "transfers": 0, "walkingMinutes": 45, "startHour": 9, "dayOfWeek": "thu", "weather": "cool", "temperatureC": 9, "rainChance": 0.1, "indoor": false, "groupSize": "solo", "costUsd": 0, "knowsSomeone": false, "foodAvailable": false, "daysSinceLastOuting": 2, "withAdultChild": false, "languageNeeded": false },
+      "reasons": [], "needsTrialRun": false,
+      "result": { "went": true, "enjoyment": 3, "face": "okay", "peopleMet": [], "wouldRepeat": "yes", "notes": "Nice walk, nobody to talk to" },
+      "createdAt": "2026-10-05T09:00:00+02:00"
+    },
+    {
+      "_id": "o_munich_10", "householdId": "hh_munich", "provenance": "synthetic", "week": null,
+      "title": "Telugu association monthly meeting", "venueName": "Community hall (Munich)", "parentIds": ["p_raghu"],
+      "plannedStart": null, "expectedReturn": null, "status": "past", "ladderLevel": null,
+      "features": { "category": "community_meeting", "languageMatch": 2, "travelMinutes": null, "transfers": null, "walkingMinutes": null, "startHour": 18, "dayOfWeek": "wed", "weather": null, "temperatureC": null, "rainChance": null, "indoor": true, "groupSize": "medium", "costUsd": 0, "knowsSomeone": false, "foodAvailable": true, "daysSinceLastOuting": null, "withAdultChild": false, "languageNeeded": false },
+      "reasons": [], "needsTrialRun": false,
+      "result": { "went": false, "enjoyment": null, "face": null, "peopleMet": [], "wouldRepeat": "yes", "notes": "Didn't go: evening, and no one to ride the U-Bahn with" },
+      "createdAt": "2026-10-05T09:00:00+02:00"
+    }
+  ]
+}

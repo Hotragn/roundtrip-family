@@ -1,0 +1,24 @@
+{
+  "name": "@roundtrip/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./crypto": "./src/crypto/diary.ts",
+    "./persona": "./src/persona.ts",
+    "./privacy": "./src/privacy/index.ts",
+    "./server-env": "./src/server-env.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "6.0.3"
+  }
+}
