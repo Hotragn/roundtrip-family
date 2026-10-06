@@ -184,15 +184,18 @@ function ParentScreens({
       if (saved && !fresh) setChanges(saved);
     });
     if (!navigator.onLine) return;
-    fetch(`/parents/api/changes/${household}/${initial.parentId}`, { cache: "no-store" })
-      .then((r) => (r.ok ? (r.json() as Promise<WeekChanges>) : null))
-      .then((c) => {
-        if (!c) return;
-        fresh = true;
-        setChanges(c);
-        void setKv(key, c);
-      })
-      .catch(() => {});
+    // After the first screen is up: the saved changes above already show, and this only refreshes them.
+    return whenIdle(() => {
+      fetch(`/parents/api/changes/${household}/${initial.parentId}`, { cache: "no-store" })
+        .then((r) => (r.ok ? (r.json() as Promise<WeekChanges>) : null))
+        .then((c) => {
+          if (!c) return;
+          fresh = true;
+          setChanges(c);
+          void setKv(key, c);
+        })
+        .catch(() => {});
+    });
   }, [household, initial.parentId]);
   const week = useMemo(() => applyChanges(initial.week, changes), [initial.week, changes]);
 
