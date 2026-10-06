@@ -37,6 +37,9 @@ const hindGuntur = localFont({
   ],
   variable: "--font-hind-guntur",
   display: "swap",
+  // Not preloaded: the unicode-range fetches it only on pages with Telugu, and seven preloads
+  // competed with the page's own first paint on a slow phone connection.
+  preload: false,
   declarations: [{ prop: "unicode-range", value: "U+0951-0952, U+0964-0965, U+0C00-0C7F, U+1CDA, U+1CF2, U+25CC" }],
 });
 
