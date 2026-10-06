@@ -82,6 +82,7 @@ export function Ticket({
                   height={96}
                   className="size-24 rounded-card bg-surface-sunken object-cover ring-1 ring-line"
                   loading="eager"
+                  fetchPriority="low"
                   decoding="async"
                 />
                 <figcaption className="mt-1 text-[12px] leading-tight text-text-muted" lang="en">

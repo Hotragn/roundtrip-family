@@ -84,7 +84,8 @@ test.describe("parents' app with no connection", () => {
 
   test("every screen opens offline after one visit on home Wi-Fi", async ({ page, context }, info) => {
     test.skip(info.project.name !== "mobile", "phone only");
-    test.setTimeout(180_000);
+    // Ten screens opened offline in new tabs: a slow CI runner once needed more than 3 minutes.
+    test.setTimeout(300_000);
     server = await startServer();
 
     // On home Wi-Fi: choose the phone's owner; the service worker installs and warms its caches.
