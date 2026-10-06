@@ -4,7 +4,7 @@ import { format } from "date-fns";
 import { te } from "date-fns/locale";
 import { Printer } from "lucide-react";
 import { useEffect, useState } from "react";
-import { Mark } from "@/components/brand/logo";
+import { MemoryBookPage } from "@/components/parents/diary";
 import { getKv, setKv } from "@/lib/parents-store";
 import { cn } from "@/lib/utils";
 import { useParents } from "../context";
@@ -83,45 +83,26 @@ export function BookView() {
         </button>
       </div>
 
-      <section
-        aria-label={t("Book.title")}
-        className="mt-8 rounded-card bg-[#fffdf9] p-6 shadow-raised ring-1 ring-line print:mt-0 print:shadow-none print:ring-0"
-      >
-        {picked.length === 0 ? (
-          <p className="text-parent text-text-muted" lang="te">
-            {t("Book.empty")}
-          </p>
-        ) : (
-          <div className="space-y-8" lang="te">
-            {chosenOutings.map((o) => (
-              <article key={o.id} className="break-inside-avoid">
-                <p className="text-[16px] text-text-muted">
-                  {format(new Date(`${o.date}T12:00:00`), "EEEE, d MMMM", { locale: te })}
-                </p>
-                <h2 className="text-[26px] font-semibold">
-                  {o.cards.find((c) => c.parentId === parent.id)?.title ?? o.venue}
-                </h2>
-              </article>
-            ))}
-            {chosenEntries.map((e) => (
-              <article key={e.id} className="break-inside-avoid">
-                <p className="text-[16px] text-text-muted">{format(new Date(e.createdAt), "d MMMM", { locale: te })}</p>
-                {e.text ? <p className="mt-1 text-[22px] leading-[1.7]">{e.text}</p> : null}
-                {e.photo ? (
-                  // biome-ignore lint/performance/noImgElement: the parent's own photo
-                  <img src={e.photo} alt="" className="mt-2 max-h-72 rounded-md object-cover" />
-                ) : null}
-                {e.feelingWords.length ? (
-                  <p className="mt-1 text-[18px] text-text-muted">{e.feelingWords.join(" · ")}</p>
-                ) : null}
-              </article>
-            ))}
-            <footer className="flex justify-end pt-4">
-              <Mark size={20} title={null} />
-            </footer>
-          </div>
-        )}
-      </section>
+      <div className="mt-8">
+        <MemoryBookPage
+          label={t("Book.title")}
+          empty={t("Book.empty")}
+          items={[
+            ...chosenOutings.map((o) => ({
+              id: o.id,
+              date: format(new Date(`${o.date}T12:00:00`), "EEEE, d MMMM", { locale: te }),
+              title: o.cards.find((c) => c.parentId === parent.id)?.title ?? o.venue,
+            })),
+            ...chosenEntries.map((e) => ({
+              id: e.id,
+              date: format(new Date(e.createdAt), "d MMMM", { locale: te }),
+              text: e.text,
+              photo: e.photo,
+              feelingWords: e.feelingWords,
+            })),
+          ]}
+        />
+      </div>
     </div>
   );
 }

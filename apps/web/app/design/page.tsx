@@ -1,3 +1,4 @@
+import { OUTBOUND } from "@roundtrip/core/privacy";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Logo, Mark } from "@/components/brand/logo";
@@ -5,7 +6,13 @@ import { Panel } from "@/components/shell/panel";
 import { TravelLine, TravelLines } from "@/components/travel/travel-line";
 import { Button } from "@/components/ui/button";
 import { Chip } from "@/components/ui/chip";
+import { DEMO_WEEKS } from "@/lib/demo-weeks";
+import { seedsFor } from "@/lib/diary-seeds";
+import { loadBoard } from "@/lib/plan-board";
+import { forParent } from "@/lib/week";
 import { Section, Spec, Swatch } from "./_parts";
+import { DashboardGallery } from "./live-dashboard";
+import { ParentsGallery } from "./live-parents";
 
 export const metadata: Metadata = {
   title: "Style guide",
@@ -19,6 +26,10 @@ const NAV = [
   ["lines", "Travel lines"],
   ["themes", "Page themes"],
   ["components", "Components"],
+  ["parents", "Parents' app"],
+  ["dashboard", "Dashboard"],
+  ["scroll", "Scroll indicators"],
+  ["art", "Baked art"],
   ["tokens", "System tokens"],
 ] as const;
 
@@ -42,7 +53,21 @@ const ACCESSIBLE = [
 
 const NEUTRALS = ["#F2F4F9", "#E3E7F0", "#C9D0DF", "#8A94AD", "#4A5573", "#1F2A44"];
 
+/** Rendered once from Blender (scripts/assets/bake/), from CC0 sources (docs/assets.md). */
+const ART = [
+  ["rail-band.webp", "The dashboard's top band: a railway across fields at golden hour"],
+  ["sea-banner.webp", "The safety and privacy banner: calm sea at sunrise"],
+  ["train-front@2x.webp", "The rail scroll track's handle: a train's nose from above"],
+  ["rail-track@2x.webp", "The rail scroll track: one tile of track from above"],
+  ["ferry-large.webp", "The waterline's handle: a harbour catamaran ferry"],
+  ["water-strip@2x.webp", "The waterline: one tile of calm water"],
+  ["aircraft-large.webp", "The flight path's handle: a twin jet"],
+] as const;
+
 export default function DesignPage() {
+  const week = DEMO_WEEKS["fremont-demo"]!;
+  const sarala = forParent(week, "p_sarala");
+  const board = loadBoard("fremont-demo");
   return (
     <div className="min-h-dvh bg-paper">
       <header className="sticky top-0 z-20 border-b border-line bg-paper/95 backdrop-blur">
@@ -265,7 +290,7 @@ export default function DesignPage() {
           <Section
             id="components"
             title="Components"
-            intro="Base pieces. Ticket, driver card and the dashboard board follow."
+            intro="Base pieces. The parents' app and the dashboard follow, rendered live with the demo week."
           >
             <Panel className="space-y-8 p-6">
               <div>
@@ -299,6 +324,136 @@ export default function DesignPage() {
                 </div>
               </div>
             </Panel>
+          </Section>
+
+          <Section
+            id="parents"
+            title="Parents' app"
+            intro="Road theme: clean white, 22 px body text, 56 px tap targets, Telugu first. Sarala's real demo week; the family is fictional and the places come from live search."
+          >
+            <ParentsGallery week={sarala} diary={seedsFor("fremont-demo", "p_sarala")} />
+          </Section>
+
+          <Section
+            id="dashboard"
+            title="Dashboard"
+            intro="Rail theme for planning, sea for privacy and safety, home for what the parents share. Dense, 16 px body text."
+          >
+            <DashboardGallery board={board} routes={OUTBOUND} />
+          </Section>
+
+          <Section
+            id="scroll"
+            title="Scroll indicators"
+            intro="On a precise pointer each theme's track stands in for the scrollbar; touch screens keep native scrolling with a thin progress line. Decorative: native scrolling stays the accessible way."
+          >
+            <div className="grid gap-6 md:grid-cols-3">
+              <figure>
+                <figcaption className="mb-2 font-mono text-[12px] text-text-muted">
+                  Rail: ScrollTrack, right edge
+                </figcaption>
+                <div className="relative flex h-[260px] justify-center rounded-card bg-paper ring-1 ring-line">
+                  <div
+                    aria-hidden="true"
+                    className="relative my-3 w-6 rounded-[3px] opacity-90"
+                    style={{ backgroundImage: "url(/art/rail-track@2x.webp)", backgroundSize: "24px 32px" }}
+                  >
+                    {/* biome-ignore lint/performance/noImgElement: a baked sprite */}
+                    <img
+                      src="/art/train-front@2x.webp"
+                      alt=""
+                      width={24}
+                      height={69}
+                      className="absolute left-0 top-[38%]"
+                    />
+                  </div>
+                </div>
+              </figure>
+              <figure>
+                <figcaption className="mb-2 font-mono text-[12px] text-text-muted">
+                  Sea: the waterline dock, bottom
+                </figcaption>
+                <div className="relative flex h-[260px] items-end rounded-card bg-paper px-3 pb-3 ring-1 ring-line">
+                  <div aria-hidden="true" className="relative h-7 w-full">
+                    <div
+                      className="absolute inset-x-0 bottom-0 h-[7px] rounded-full"
+                      style={{ backgroundImage: "url(/art/water-strip@2x.webp)", backgroundSize: "112px 7px" }}
+                    />
+                    {/* biome-ignore lint/performance/noImgElement: a baked sprite */}
+                    <img
+                      src="/art/ferry@2x.webp"
+                      alt=""
+                      width={64}
+                      height={20}
+                      className="absolute bottom-[2px] left-[30%]"
+                    />
+                  </div>
+                </div>
+              </figure>
+              <figure>
+                <figcaption className="mb-2 font-mono text-[12px] text-text-muted">
+                  Sky: the flight path, top
+                </figcaption>
+                <div className="relative h-[260px] rounded-card bg-paper px-3 pt-3 ring-1 ring-line">
+                  <div aria-hidden="true" className="relative h-5">
+                    <div className="absolute inset-x-0 top-1/2 border-t-2 border-dotted border-sky-line/70" />
+                    {/* biome-ignore lint/performance/noImgElement: a baked sprite */}
+                    <img
+                      src="/art/aircraft@2x.webp"
+                      alt=""
+                      width={72}
+                      height={20}
+                      className="absolute left-[55%] top-0"
+                    />
+                  </div>
+                </div>
+              </figure>
+            </div>
+            <div className="mt-6 flex flex-wrap items-center gap-6">
+              <div className="h-[3px] w-48 overflow-hidden rounded-full bg-line">
+                <div className="h-full w-2/3 bg-rail-line" />
+              </div>
+              <span className="text-sm text-text-muted">
+                ProgressLine on touch screens, in the theme&rsquo;s accent
+              </span>
+              {(
+                [
+                  ["/art/train-front@2x.webp", 14, 40, "rotate-180"],
+                  ["/art/ferry@2x.webp", 40, 12.5, ""],
+                  ["/art/aircraft@2x.webp", 40, 11, "-rotate-[18deg]"],
+                ] as const
+              ).map(([src, w, h, tilt]) => (
+                <span
+                  key={src}
+                  className="flex size-12 items-center justify-center rounded-full bg-surface shadow-raised ring-1 ring-line"
+                >
+                  {/* biome-ignore lint/performance/noImgElement: a baked sprite */}
+                  <img src={src} alt="" width={w} height={h} className={tilt} style={{ width: w, height: h }} />
+                </span>
+              ))}
+              <span className="text-sm text-text-muted">BackToTop: the theme&rsquo;s vehicle</span>
+            </div>
+          </Section>
+
+          <Section
+            id="art"
+            title="Baked art"
+            intro="Rendered once in Blender from CC0 sources and saved as small WebP files; live WebGL is kept for the landing sky and route maps."
+          >
+            <ul className="grid gap-4 sm:grid-cols-2">
+              {ART.map(([file, what]) => (
+                <li key={file} className="overflow-hidden rounded-card bg-surface ring-1 ring-line">
+                  <div className="flex h-36 items-center justify-center bg-surface-sunken p-3">
+                    {/* biome-ignore lint/performance/noImgElement: the baked file itself, shown as is */}
+                    <img src={`/art/${file}`} alt="" className="max-h-full max-w-full object-contain" />
+                  </div>
+                  <div className="px-3 py-2.5">
+                    <code className="text-[13px] font-semibold">{file}</code>
+                    <p className="text-[13px] text-text-muted">{what}</p>
+                  </div>
+                </li>
+              ))}
+            </ul>
           </Section>
 
           <Section id="tokens" title="System tokens">

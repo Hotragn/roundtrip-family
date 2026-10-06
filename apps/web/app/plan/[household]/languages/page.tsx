@@ -5,11 +5,11 @@ import { repoRoot } from "@roundtrip/core/server-env";
 import { BookOpenText, Ear, PenLine, Volume2 } from "lucide-react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { ReadinessChip } from "@/components/dashboard/readiness";
 import { DashboardShell } from "@/components/dashboard/shell";
 import { Panel } from "@/components/shell/panel";
 import { DEMO_WEEKS } from "@/lib/demo-weeks";
 import { HOUSEHOLDS, isHousehold, loadBoard } from "@/lib/plan-board";
-import { cn } from "@/lib/utils";
 import type { WeekView } from "@/lib/week";
 
 export const dynamicParams = false;
@@ -18,28 +18,6 @@ export function generateStaticParams() {
 }
 
 export const metadata: Metadata = { title: "Languages" };
-
-const STATUS: Record<Readiness, string> = {
-  ready: "Ready",
-  fallback: "General model",
-  needs_tuning: "Needs tuning",
-  unavailable: "Not available",
-};
-
-function StatusChip({ status, children }: { status: Readiness | "phone"; children?: React.ReactNode }) {
-  return (
-    <span
-      className={cn(
-        "inline-flex h-6 items-center rounded-chip border px-2 text-[12px] font-medium whitespace-nowrap",
-        status === "ready"
-          ? "border-line-strong bg-surface text-text"
-          : "border-line bg-surface-sunken text-text-muted",
-      )}
-    >
-      {children ?? (status === "phone" ? "On the phone" : STATUS[status])}
-    </span>
-  );
-}
 
 /** Audio clips the speech pipeline saved for the demo (speech/ writes them to data/demo/audio/). */
 function audioClips(): number {
@@ -67,7 +45,7 @@ function Capability({
         <Icon aria-hidden="true" className="mt-0.5 size-[18px] shrink-0 stroke-[1.75] text-text-muted" />
         <div className="space-y-1.5">
           <p className="font-semibold leading-snug">{title}</p>
-          <StatusChip status={status}>{chip}</StatusChip>
+          <ReadinessChip status={status}>{chip}</ReadinessChip>
         </div>
       </div>
       <div className="space-y-1 text-[15px] leading-relaxed">{children}</div>
@@ -233,7 +211,7 @@ export default async function Languages({ params }: PageProps<"/plan/[household]
                     </td>
                     {[l.reading, l.cardWriter, l.speaking, l.listening].map((c, i) => (
                       <td key={i} className="px-3 py-3">
-                        <StatusChip status={c.status} />
+                        <ReadinessChip status={c.status} />
                         <p className="mt-1 text-[13px] text-text-muted">{c.model}</p>
                       </td>
                     ))}

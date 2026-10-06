@@ -1,10 +1,9 @@
 "use client";
 
-import { format } from "date-fns";
-import { te } from "date-fns/locale";
-import { Camera, Lock, Mic, Phone, Share2, Square, Trash2 } from "lucide-react";
+import { Camera, Lock, Mic, Phone, Square } from "lucide-react";
 import { useEffect, useState } from "react";
 import { FeelingChips } from "@/components/parents/cards";
+import { DiaryEntryCard } from "@/components/parents/diary";
 import type { DiarySeed } from "@/lib/diary-types";
 import { flushOutbox, getKv, queue, setKv } from "@/lib/parents-store";
 import { cn } from "@/lib/utils";
@@ -251,64 +250,27 @@ export function DiaryView() {
           </li>
         ) : null}
         {entries.map((e) => (
-          <li key={e.id} className="rounded-card bg-surface p-4 ring-1 ring-line">
-            <div className="flex items-center justify-between gap-3">
-              <span className="text-[16px] text-text-muted" lang="te">
-                {format(new Date(e.createdAt), "d MMMM, HH:mm", { locale: te })}
-              </span>
-              <span
-                className={cn(
-                  "inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-[15px] font-medium",
-                  e.shared ? "bg-sky-line/12 text-sky-text" : "bg-surface-sunken text-text-muted",
-                )}
-                lang="te"
-              >
-                {e.shared ? (
-                  <Share2 aria-hidden="true" className="size-4" />
-                ) : (
-                  <Lock aria-hidden="true" className="size-4" />
-                )}
-                {e.shared ? t("Diary.shared") : t("Diary.private")}
-              </span>
-            </div>
-            {e.text ? (
-              <p className="mt-2 text-parent" lang="te">
-                {e.text}
-              </p>
-            ) : null}
-            {e.audio || e.audioUrl ? (
-              <audio controls src={e.audio ? URL.createObjectURL(e.audio) : e.audioUrl} className="mt-2 w-full" />
-            ) : null}
-            {e.photo ? (
-              // biome-ignore lint/performance/noImgElement: a local photo from the diary
-              <img src={e.photo} alt="" className="mt-2 max-h-48 rounded-lg object-cover" />
-            ) : null}
-            {e.feelingWords.length ? (
-              <p className="mt-2 text-[18px] text-text-muted" lang="te">
-                {e.feelingWords.join(" · ")}
-              </p>
-            ) : null}
-            <div className="mt-3 flex gap-2">
-              <button
-                type="button"
-                onClick={() => toggleShare(e.id)}
-                className="min-h-12 flex-1 rounded-lg border border-line-strong text-[17px] font-medium"
-                lang="te"
-              >
-                {e.shared ? t("Diary.unshare") : t("Diary.share")}
-              </button>
-              <button
-                type="button"
-                onClick={() => remove(e.id)}
-                aria-label={t("Diary.delete")}
-                className="flex min-h-12 items-center justify-center gap-2 rounded-lg border border-line-strong px-4 text-[17px] font-medium"
-                lang="te"
-              >
-                <Trash2 aria-hidden="true" className="size-5" />
-                {t("Diary.delete")}
-              </button>
-            </div>
-          </li>
+          <DiaryEntryCard
+            key={e.id}
+            entry={{
+              id: e.id,
+              createdAt: e.createdAt,
+              text: e.text,
+              photo: e.photo,
+              audioSrc: e.audio ? URL.createObjectURL(e.audio) : e.audioUrl,
+              feelingWords: e.feelingWords,
+              shared: e.shared,
+            }}
+            labels={{
+              shared: t("Diary.shared"),
+              private: t("Diary.private"),
+              share: t("Diary.share"),
+              unshare: t("Diary.unshare"),
+              delete: t("Diary.delete"),
+            }}
+            onShare={() => void toggleShare(e.id)}
+            onDelete={() => void remove(e.id)}
+          />
         ))}
       </ul>
     </div>

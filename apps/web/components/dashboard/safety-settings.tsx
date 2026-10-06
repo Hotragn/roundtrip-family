@@ -48,7 +48,8 @@ export interface TimerExample {
   back: number;
 }
 
-function Timeline({ example, buffer, wait }: { example: TimerExample; buffer: number; wait: number }) {
+/** The four moments of an outing's safety timer, spaced evenly with the time between them. */
+export function SafetyTimeline({ example, buffer, wait }: { example: TimerExample; buffer: number; wait: number }) {
   const nudge = example.back + (Number.isFinite(buffer) ? buffer : 0);
   const alert = nudge + (Number.isFinite(wait) ? wait : 0);
   const out = example.back - example.depart;
@@ -233,7 +234,7 @@ export function SafetySettingsForm({
           <h2 id="timer" className="text-[20px] font-semibold">
             The timer on each outing
           </h2>
-          <Timeline example={example} buffer={buffer} wait={wait} />
+          <SafetyTimeline example={example} buffer={buffer} wait={wait} />
         </section>
       ) : null}
 
