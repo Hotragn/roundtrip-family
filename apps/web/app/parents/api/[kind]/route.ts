@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { listRecords, saveRecord } from "@/lib/server/session";
+import { signalCheckin, signalHowWasIt } from "@/lib/server/temporal";
 
 /**
  * The phone's outbox lands here when it's back online: check-ins ("I'm home") and "How was it?"
@@ -33,6 +34,13 @@ export async function POST(req: Request, { params }: { params: Promise<{ kind: s
   const parsed = schema.safeParse(await req.json().catch(() => null));
   if (!parsed.success) return Response.json({ error: "Invalid body" }, { status: 400 });
   await saveRecord(kind, parsed.data.id, parsed.data);
+  // With TEMPORAL_ADDRESS set, "I'm home" also stops the outing's safety timer. If the timer
+  // can't be reached, the phone keeps the check-in and sends it again.
+  if (kind === "checkin" && (await signalCheckin(parsed.data as z.infer<typeof Checkin>)) === "failed") {
+    return Response.json({ ok: false, retry: true }, { status: 503 });
+  }
+  // The face goes to the week's summary; the reply itself is already saved, so a miss isn't retried.
+  if (kind === "reply") await signalHowWasIt(parsed.data as z.infer<typeof Reply>).catch(() => "failed");
   return Response.json({ ok: true });
 }
 

@@ -11,7 +11,7 @@ The running log of the build. Read this first when resuming. The plan is docs/bu
 | M3 Parents' app, offline | Done (Lighthouse performance 87 to 90 locally; re-measured on Render in M7) |
 | M4 Dashboard and landing | Done, deployed to Render |
 | M5 Fine-tune, voice, speech, diary | Done (card writer trained and serving; clips re-voiced for the new cards) |
-| M6 Temporal, email, safety, trial run | Not started |
+| M6 Temporal, email, safety, trial run | Done (durability run in the Codespace) |
 | M7 Ship | Not started |
 
 ## Environment notes
@@ -119,3 +119,14 @@ The running log of the build. Read this first when resuming. The plan is docs/bu
 - **Card writer** (synthetic outings from live-search places, automated evaluation): a LoRA on Qwen3.5-4B trained once on Tinker by prompt distillation from Qwen3.5-397B-A17B drafts that passed a Gemma gate. On 40 held-out outings it passed every code check on 98% of cards (Gemma 85%, the untuned base 72%) and beat the base 36 to 1; against Gemma the judges split (Gemma judging 8 to 20, Kimi-K2.6 judging 14 to 12). Published at https://huggingface.co/roundtrip-family/roundtrip-card-writer-te-qwen3.5-4b-lora. Tinker spend $2.04 in all. docs/finetune-results.md.
 - **The demo weeks' cards** now come from the tuned writer behind the same gate (code checks, Gemma's tone and facts review, and the walk from the stop when it's five minutes or more); it wrote 7 of 10, and Gemma the 3 it failed. Trains keep their own names ("U5", not "Bus U5"), and a line's direction may appear on a card.
 - **Verified:** agent/test/gated-writer.test.ts (the gate keeps a passing tuned card, counts the walk only as its own number, sends a doubtful card on); agent/test/tinker-writer.test.ts (replays a saved tuned card, one corrective retry, no live calls in replay); 25 finetune tests; apps/web/test/diary.test.ts (entries encrypted at rest, private entries never returned, no network calls).
+
+### M6 Temporal, email, safety and trial runs (2026-10-06)
+
+- **Workflows** (workflows/, Temporal TypeScript SDK 1.24): weekPlan sends the planning email, waits for an answer from the dashboard or an email reply ("swap N" re-sends the week), starts an outingSafety timer for each approved solo outing and a trialRun for each first ride, collects "How was it?" faces and sends the Sunday summary. outingSafety waits for "I'm home" until the expected return plus the buffer, nudges the phone, then emails the alert with the official emergency numbers. trialRun books the first ride together and marks the route solo-ready on confirmation.
+- **Email** (agent/src/email/): AgentMail over fetch, to DEMO_ALERT_EMAIL only (nothing is sent while it isn't a valid address); replies arrive over AgentMail's WebSocket in the Codespace or a signature-checked webhook on Render (apps/web/app/api/email/webhook). Weather rules decide when an outing moves indoors.
+- **The web app** signals the workflows over Temporal's HTTP API when TEMPORAL_ADDRESS is set: check-ins stop the safety timer (a check-in that can't reach it gets 503 and waits on the phone) and faces go to the summary. Render has no Temporal server, so there the demo shows the recorded durability run.
+- **Verified:** the durability eval (docs/durability-run.txt): worker 1 killed with SIGKILL 26 s before the alert, worker 2 up 7.2 s later, the alert sent 160 ms after it was due (tolerance 2 s), with one nudge and one alert, none repeated. 14 workflow tests and 125 email, reply, weather and activity tests; in the Codespace `pnpm test` with TEMPORAL_TESTS=required passed 364. A webhook with a wrong signature gets 401.
+
+### M7 Ship (2026-10-06)
+
+- Sentry on the server only, with a span for each planner run, Gemma call and tool call (names, models and counts, never prompts); TabPFN ranking for both parents at once and the ranker woken early, which cut a live Munich re-plan from 73 to 49 s; Mandarin routed to the phone's voice (MMS has none); docs/models.md, docs/numbers.md, `pnpm check-env`.

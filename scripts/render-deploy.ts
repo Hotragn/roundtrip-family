@@ -181,6 +181,7 @@ const web = await ensure(
       "CLOUDFLARE_API_TOKEN",
       "OPENROUTER_API_KEY",
       "SENTRY_DSN",
+      "AGENTMAIL_WEBHOOK_SECRET",
       "AGENTMAIL_API_KEY",
       "DEMO_ALERT_EMAIL",
       "DEMO_LANGUAGE",

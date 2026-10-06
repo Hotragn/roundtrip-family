@@ -147,6 +147,28 @@ export const OUTBOUND: OutboundRoute[] = [
     docs: "https://docs.agentmail.to/llms.txt",
   },
   {
+    id: "temporal",
+    service: "Temporal dev server (our own, on the same machine, in the Codespace)",
+    hosts: ["localhost", "127.0.0.1"],
+    purpose:
+      "Durable week plans, safety timers and first rides. The worker uses gRPC; the web app and the email listener signal over its HTTP API",
+    sends: "Outing, household and parent ids, times and parsed approve choices; no names, contacts or addresses",
+    accepts: ["synthetic", "anonymized"],
+    when: "runtime",
+    docs: "https://docs.temporal.io/cli/server",
+  },
+  {
+    id: "temporal.download",
+    service: "Temporal CLI and test server downloads (temporal.download)",
+    hosts: ["temporal.download"],
+    purpose:
+      "The Temporal CLI for the Codespace's dev server, and the time-skipping test server the workflow tests fetch on first run",
+    sends: "Nothing but the file request",
+    accepts: ["public"],
+    when: "build",
+    docs: "https://docs.temporal.io/develop/typescript/testing-suite",
+  },
+  {
     id: "sentry",
     service: "Sentry",
     hosts: ["sentry.io", "ingest.sentry.io", "ingest.us.sentry.io", "ingest.de.sentry.io"],

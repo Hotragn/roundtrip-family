@@ -35,6 +35,10 @@ jobs:
         run: pnpm typecheck
       - name: Unit tests and evals
         id: tests
+        # The Temporal workflow tests (workflows/test) skip on machines where Temporal's native
+        # core can't load; on Linux they must run, so a load failure fails the job instead.
+        env:
+          TEMPORAL_TESTS: required
         run: pnpm test -- --reporter=default --reporter=json --outputFile=test-results/vitest.json
       - name: Privacy check
         id: privacy

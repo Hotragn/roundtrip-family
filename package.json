@@ -19,7 +19,8 @@
     "seed": "pnpm --filter @roundtrip/scripts exec tsx seed.ts",
     "privacy-check": "pnpm --filter @roundtrip/scripts exec tsx privacy-check.ts",
     "check-env": "tsx scripts/check-env.ts",
-    "costs": "pnpm --filter @roundtrip/scripts exec tsx costs.ts"
+    "costs": "pnpm --filter @roundtrip/scripts exec tsx costs.ts",
+    "eval:durability": "pnpm --filter @roundtrip/workflows durability"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.15",

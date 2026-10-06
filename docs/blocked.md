@@ -4,9 +4,9 @@ Problems that failed three times or need the builder. Each entry says what is bl
 
 ## DEMO_ALERT_EMAIL is not a valid email address
 
-- **Blocked:** sending real email (planning email, safety alert, weekly summary) to the adult child.
-- **Still works:** everything else. Email code runs against a mocked client in tests, and the live code validates the address and sends nothing while it's invalid.
-- **Fix:** set DEMO_ALERT_EMAIL in .env and in the Codespaces secret to your own address, for example `DEMO_ALERT_EMAIL=you@example.com`.
+- **Blocked:** sending real email (planning email, safety alert, weekly summary) to the adult child, and approve by reply, since a reply is only accepted from DEMO_ALERT_EMAIL. The WebSocket listener (agent/src/email/listen.ts) refuses to start for the same reason.
+- **Still works:** everything else. Email code runs against a mocked client in tests, and the live code validates the address and sends nothing while it's invalid; a skipped email is recorded as email_not_sent. The workflows, the durability run and the web routes were checked end to end with email written to a local file (docs/durability-run.txt).
+- **Fix:** set DEMO_ALERT_EMAIL in .env and in the Codespaces secret to your own address, for example `DEMO_ALERT_EMAIL=you@example.com`. Then, in the Codespace, run the worker and `pnpm --filter @roundtrip/agent exec tsx src/email/listen.ts` for approve by reply.
 
 ## The AI4Bharat speech models are gated for the builder's Hugging Face account
 
