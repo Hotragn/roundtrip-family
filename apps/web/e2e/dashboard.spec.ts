@@ -41,7 +41,7 @@ for (const scheme of ["light", "dark"] as const) {
 test("approve, swap and move on the week board", async ({ page }, info) => {
   test.skip(info.project.name !== "desktop", "drag and drop with a mouse");
   await page.emulateMedia({ reducedMotion: "reduce" });
-  await page.goto("/plan/fremont-demo");
+  await page.goto("/plan/fremont-demo", { waitUntil: "networkidle" });
   await expect(page.getByRole("heading", { name: "This week", level: 1 })).toBeVisible();
   const tally = page.getByText(/approved ·/);
   await expect(tally).toContainText("3 approved");
@@ -95,7 +95,7 @@ test("an outing approved on the dashboard is on the parent's phone, on the day i
 }, info) => {
   test.skip(info.project.name !== "desktop", "drag and drop with a mouse");
   await page.emulateMedia({ reducedMotion: "reduce" });
-  await page.goto("/plan/fremont-demo");
+  await page.goto("/plan/fremont-demo", { waitUntil: "networkidle" });
   const park = page.getByRole("article", { name: /^Central Park/ });
   await park.getByRole("button", { name: "Approve" }).click();
   await expect(page.getByText("The ticket is on Sarala's phone now.")).toBeVisible();
@@ -128,14 +128,14 @@ test("only diary entries a parent shares reach Shared with you, and unsharing ta
   const secret = "పద్మ అక్కకి ఫోన్ చేశాను"; // d_sarala_02, private
   const api = async () => JSON.stringify(await (await page.request.get("/plan/api/diary/fremont-demo")).json());
 
-  await page.goto("/plan/fremont-demo/shared");
+  await page.goto("/plan/fremont-demo/shared", { waitUntil: "networkidle" });
   await expect(page.getByText(shared, { exact: false }).first()).toBeVisible();
   await expect(page.getByText(secret, { exact: false })).toHaveCount(0);
   expect(await api()).not.toContain(secret);
 
   // On Sarala's phone: share the private entry, then take it back.
   const phone = await page.context().newPage();
-  await phone.goto("/parents/fremont-demo/p_sarala?v=diary");
+  await phone.goto("/parents/fremont-demo/p_sarala?v=diary", { waitUntil: "networkidle" });
   const entry = phone.getByRole("listitem").filter({ hasText: secret });
   await entry.getByRole("button", { name: "పిల్లలతో పంచుకోండి" }).click();
   await expect.poll(api, { timeout: 15_000 }).toContain(secret);
@@ -159,7 +159,7 @@ test("only diary entries a parent shares reach Shared with you, and unsharing ta
 test("a move to a day the place is shut is refused, in Munich", async ({ page }, info) => {
   test.skip(info.project.name !== "desktop", "drag and drop with a mouse");
   await page.emulateMedia({ reducedMotion: "reduce" });
-  await page.goto("/plan/munich-demo");
+  await page.goto("/plan/munich-demo", { waitUntil: "networkidle" });
   // The Ramersdorf library is closed on Mondays.
   const library = page.getByRole("article", { name: /^Münchner Stadtbibliothek Ramersdorf/ });
   await drag(

@@ -106,6 +106,19 @@ async function latest(svc: Service) {
   );
 }
 
+/** Recent app logs of one service, for `--logs <name>`. Messages only; Render keeps them an hour by default. */
+const logsFor = process.argv.includes("--logs") ? process.argv[process.argv.indexOf("--logs") + 1] : undefined;
+if (logsFor) {
+  const svc = await find(logsFor);
+  if (!svc) throw new Error(`${logsFor} isn't created.`);
+  const out = await render<{ logs: Array<{ message: string; timestamp: string }> }>(
+    "GET",
+    `/logs?ownerId=${owner.id}&resource=${svc.id}&limit=100&direction=backward&type=app`,
+  );
+  for (const l of out.logs.reverse()) console.log(`${l.timestamp.slice(11, 19)} ${l.message.slice(0, 300)}`);
+  process.exit(0);
+}
+
 if (statusOnly) {
   for (const name of ["roundtrip-ranker", "roundtrip-web"]) {
     const svc = await find(name);

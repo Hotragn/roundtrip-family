@@ -40,13 +40,28 @@ export interface SessionRecord {
 
 const memory = new Map<string, SessionRecord>();
 
+// When the database doesn't answer, sessions live in memory for a minute instead of every
+// request waiting on another connection attempt. The first failure is logged, minus credentials.
+let downUntil = 0;
+let warned = false;
+
 async function collection(kind: string) {
-  if (!process.env.MONGODB_URI) return null;
-  const { getDb, col } = await import("@roundtrip/agent/db");
-  const db = await getDb();
-  const name =
-    kind === "checkin" ? "checkins" : kind === "approval" ? "approvals" : kind === "diary" ? "diary" : "sessions";
-  return col<SessionRecord>(db, name as never);
+  if (!process.env.MONGODB_URI || Date.now() < downUntil) return null;
+  try {
+    const { getDb, col } = await import("@roundtrip/agent/db");
+    const db = await getDb();
+    const name =
+      kind === "checkin" ? "checkins" : kind === "approval" ? "approvals" : kind === "diary" ? "diary" : "sessions";
+    return col<SessionRecord>(db, name as never);
+  } catch (e) {
+    downUntil = Date.now() + 60_000;
+    if (!warned) {
+      warned = true;
+      const why = e instanceof Error ? `${e.name}: ${e.message}` : String(e);
+      console.warn(`Session store unavailable, using memory: ${why.replace(/\/\/[^@\s]*@/g, "//***@").slice(0, 400)}`);
+    }
+    return null;
+  }
 }
 
 export async function saveRecord(kind: string, id: string, payload: Record<string, unknown>): Promise<SessionRecord> {
