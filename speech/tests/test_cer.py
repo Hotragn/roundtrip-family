@@ -14,6 +14,11 @@ def test_normalizes_unicode_forms():
     assert normalize("Café") == normalize("Café")
 
 
+def test_zero_width_joiners_are_not_errors():
+    # బాత్‌రూమ్ carries a zero-width non-joiner that only changes how the word is drawn.
+    assert cer("బాత్‌రూమ్ ఎక్కడ ఉంది", "బాత్రూమ్ ఎక్కడ ఉంది") == 0.0
+
+
 def test_empty_reference():
     assert cer("", "") == 0.0
     assert cer("", "x") == 1.0

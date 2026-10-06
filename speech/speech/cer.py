@@ -1,13 +1,17 @@
 """Character error rate for the speech round trip (text to speech to text).
 
-Text is NFC-normalized and stripped of punctuation and extra spaces before scoring, so a
-transcript isn't penalized for a missing comma. Telugu is compared code point by code point,
-which counts a wrong vowel sign or a broken conjunct as an error, as it should.
+Text is NFC-normalized and stripped of punctuation, symbols, zero-width joiners and extra spaces
+before scoring, so a transcript isn't penalized for a missing comma or an invisible joiner
+(Telugu writes బాత్‌రూమ్ with a zero-width non-joiner that changes only how it's drawn). Telugu
+is compared code point by code point, which counts a wrong vowel sign or a broken conjunct as an
+error, as it should.
 """
 
 from __future__ import annotations
 
 import unicodedata
+
+DROPPED = ("Sm", "Sc", "So", "Cf")
 
 
 def normalize(text: str) -> str:
@@ -15,7 +19,7 @@ def normalize(text: str) -> str:
     kept = [
         ch
         for ch in text
-        if not unicodedata.category(ch).startswith("P") and unicodedata.category(ch) not in ("Sm", "Sc", "So")
+        if not unicodedata.category(ch).startswith("P") and unicodedata.category(ch) not in DROPPED
     ]
     return " ".join("".join(kept).split()).lower()
 

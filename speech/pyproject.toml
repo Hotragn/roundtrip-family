@@ -16,11 +16,23 @@ models = [
   "numpy>=2.2",
   "sentencepiece>=0.2",
   "huggingface_hub>=0.35",
+  # An ffmpeg binary for loudness normalization and MP3 encoding when the system has none.
+  "imageio-ffmpeg>=0.6",
 ]
 
 [tool.uv]
 package = false
 default-groups = ["dev"]
+
+# CPU-only PyTorch on Linux: the default wheels pull in several GB of CUDA libraries the
+# Codespace can't use. https://docs.astral.sh/uv/guides/integration/pytorch/
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
