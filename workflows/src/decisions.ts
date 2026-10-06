@@ -102,3 +102,22 @@ export function applyResolution(proposals: ProposalState[], r: Extract<Resolutio
 
 export const numbersWith = (proposals: ProposalState[], status: ProposalState["status"]) =>
   proposals.filter((p) => p.status === status).map((p) => p.n);
+
+const WEEK = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+const DAY_MS = 86_400_000;
+
+/**
+ * The dashboard's day moves, keyed by outing id (or the outing a swap replaced): each pending
+ * outing moves to its new day at the same clock time, so its reminder and safety timer follow.
+ * ponytail: shifts by whole days in UTC, so a move across a daylight-saving change is an hour off.
+ */
+export function applyMoves(proposals: ProposalState[], moveTo: Record<string, unknown>): ProposalState[] {
+  return proposals.map((p) => {
+    const to = moveTo[p.outingId] ?? p.swappedFrom?.map((id) => moveTo[id]).find(Boolean);
+    const shift = typeof to === "string" && WEEK.includes(to) ? WEEK.indexOf(to) - WEEK.indexOf(p.day) : 0;
+    if (p.status !== "pending" || !shift) return p;
+    const by = (iso: string) => new Date(Date.parse(iso) + shift * DAY_MS).toISOString();
+    const date = new Date(Date.parse(`${p.date}T12:00:00Z`) + shift * DAY_MS).toISOString().slice(0, 10);
+    return { ...p, day: to as string, date, departAt: by(p.departAt), backAt: by(p.backAt) };
+  });
+}

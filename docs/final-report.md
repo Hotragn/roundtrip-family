@@ -17,7 +17,7 @@ Roundtrip, built end to end from docs/plan.md between 5 and 6 October 2026. This
 | TabPFN leave-one-out | Done | Liked outings in the top 3: 71% (travel time alone 36%, random 14%) |
 | Tinker Telugu card writer and evaluation | Done and serving behind a Gemma quality gate; adapter public on Hugging Face | 98% of held-out cards pass every code check (Gemma 85%, base 72%); $2.04 total Tinker spend |
 | Voice router | Done; MMS voices Telugu, English and German, the phone's voice reads Mandarin | agent/test/voice-router.test.ts; 44 clips, Telugu card bodies CER 0.138 |
-| Temporal: weekPlan, outingSafety, trialRun, with a durability test | Done; the dashboard's approvals and swaps reach weekPlan through "Set up the week" | docs/durability-run.txt: worker killed 26 s before the alert, alert sent 160 ms late, once |
+| Temporal: weekPlan, outingSafety, trialRun, with a durability test | Done; the dashboard's approvals, swaps and day moves reach weekPlan through "Set up the week", so a moved outing's reminder and safety timer follow it | docs/durability-run.txt: worker killed 26 s before the alert, alert sent 160 ms late, once |
 | AgentMail | Built: planning email, the evening-before reminder, safety alert, Sunday summary, approve by reply, webhook with signature check | 40 email tests against a mocked client; a signed reply reached weekPlan in the durability run; no real email sent (see below) |
 | Sentry | Done on Render: spans for each planner run, model call and tool call, scrubbed | apps/web/test/sentry.test.ts, agent/test/trace.test.ts |
 | MongoDB Atlas | Done locally and in the Codespace; the hosted demo uses memory sessions | `pnpm seed`; agent/test/vector.atlas.test.ts (opt-in); docs/blocked.md |
@@ -80,6 +80,5 @@ Everything works without these; each one turns on something extra.
 
 ## Skipped, and why
 
-- Day moves made on the dashboard reach the phones but not weekPlan, so a moved outing's safety timer and reminder keep its planned day (docs/skipped.md). Approvals and swaps do reach it, with "Set up the week" where Temporal runs.
 - ElevenLabs is unused: optional in the plan, and the open voices cover every card.
 - The tuned writer still misses the walk from the stop on some cards; the gate hands those to Gemma. Fixing the style guide's example card would help a future training run.

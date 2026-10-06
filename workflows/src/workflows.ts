@@ -32,7 +32,15 @@ import {
   type WeekPlanResult,
   weekStateQuery,
 } from "./contract";
-import { applyResolution, type Choice, choiceFromReply, numbersWith, resolveChoice, toChoice } from "./decisions";
+import {
+  applyMoves,
+  applyResolution,
+  type Choice,
+  choiceFromReply,
+  numbersWith,
+  resolveChoice,
+  toChoice,
+} from "./decisions";
 
 /**
  * Roundtrip's durable workflows (docs/plan.md, "Temporal: weekly plan and safety timers").
@@ -163,6 +171,7 @@ export async function weekPlan(input: WeekPlanInput): Promise<WeekPlanResult> {
             );
           } else log.warn("Dashboard swap not applied", { from });
         }
+        if (isObject(s.moveTo)) proposals = applyMoves(proposals, s.moveTo as Record<string, unknown>);
         choice = toChoice(s);
       } else if (email) {
         // Signals come from outside: a reply with no message to answer, or no parsed answer, is dropped

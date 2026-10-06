@@ -87,6 +87,8 @@ export interface ApproveSignal {
   swap?: Array<number | string>;
   /** The dashboard's swaps: an outing id and the planner's alternative chosen in its place. */
   swapTo?: Record<string, string>;
+  /** The dashboard's day moves: an outing id and the day ("mon" to "sun") it moved to. */
+  moveTo?: Record<string, string>;
 }
 
 export interface HowWasItSignal {

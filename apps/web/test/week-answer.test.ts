@@ -8,7 +8,16 @@ describe("the dashboard's answer for weekPlan", () => {
       status: { temple: "approved", park: "approved", market: "suggested" },
       swaps: { park: "library" },
     };
-    expect(weekAnswer(items, overlay)).toEqual({ approve: ["temple", "library"], swapTo: { park: "library" } });
+    expect(weekAnswer(items, overlay)).toEqual({
+      approve: ["temple", "library"],
+      swapTo: { park: "library" },
+      moveTo: {},
+    });
+  });
+
+  it("sends every day move", () => {
+    const overlay = { status: {}, swaps: {}, moves: { temple: "wed" } };
+    expect(weekAnswer([{ id: "temple" }], overlay).moveTo).toEqual({ temple: "wed" });
   });
 
   it("approves nothing until something is approved", () => {

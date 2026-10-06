@@ -8,7 +8,7 @@ import {
   type ProposalState,
   rodeSignal,
 } from "../src/contract";
-import { applyResolution, choiceFromReply, resolveChoice, toChoice } from "../src/decisions";
+import { applyMoves, applyResolution, choiceFromReply, resolveChoice, toChoice } from "../src/decisions";
 
 /** What an answer does to the week, from an email reply or the dashboard. No Temporal needed. */
 
@@ -88,6 +88,26 @@ describe("answers", () => {
       skip: [],
       swap: [],
     });
+  });
+});
+
+describe("day moves", () => {
+  it("moves an outing to its new day at the same time, so its timer and reminder follow", () => {
+    const [moved, kept] = applyMoves(week(2), { o1: "wed" });
+    expect(moved).toMatchObject({
+      day: "wed",
+      date: "2026-10-14",
+      departAt: "2026-10-14T15:30:00.000Z",
+      backAt: "2026-10-14T17:10:00.000Z",
+    });
+    expect(kept!.day).toBe("mon");
+  });
+
+  it("follows a swap, and ignores unknown days and decided outings", () => {
+    const swapped = { ...week(1)[0]!, outingId: "library", swappedFrom: ["o1"] };
+    expect(applyMoves([swapped], { o1: "tue" })[0]!.date).toBe("2026-10-13");
+    expect(applyMoves(week(1), { o1: "someday" })[0]!.day).toBe("mon");
+    expect(applyMoves([{ ...week(1)[0]!, status: "approved" }], { o1: "tue" })[0]!.day).toBe("mon");
   });
 });
 
