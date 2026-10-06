@@ -4,6 +4,7 @@ import { ArrowLeft, WifiOff } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { BottomBar } from "@/components/parents/bottom-bar";
+import type { DiarySeed } from "@/lib/diary-types";
 import {
   flushOutbox,
   getKv,
@@ -59,7 +60,11 @@ function whenIdle(fn: () => void): () => void {
  * history API (?v=directions), so moving around never needs the network. /parents itself is
  * the start screen: it asks whose phone this is, then remembers.
  */
-export function ParentsApp({ initial }: { initial?: { household: string; parentId: string; week: WeekView } }) {
+export function ParentsApp({
+  initial,
+}: {
+  initial?: { household: string; parentId: string; week: WeekView; diary?: DiarySeed[] };
+}) {
   const t = useTranslations();
   // The server renders today's screen; the phone then applies the view in the address.
   const [view, setView] = useState<View>("today");
@@ -135,7 +140,7 @@ function ParentScreens({
   go,
   t,
 }: {
-  initial: { household: string; parentId: string; week: WeekView };
+  initial: { household: string; parentId: string; week: WeekView; diary?: DiarySeed[] };
   view: View;
   outingId: string | null;
   online: boolean;
@@ -229,9 +234,10 @@ function ParentScreens({
       go,
       online,
       fromPhone: false,
+      diarySeeds: initial.diary ?? [],
       t: (k, v) => t(k as never, v as never),
     };
-  }, [week, initial.parentId, outingId, featured, home, setHomeState, go, online, t]);
+  }, [week, initial.parentId, initial.diary, outingId, featured, home, setHomeState, go, online, t]);
 
   if (!state) return null;
   const current = state.outing;

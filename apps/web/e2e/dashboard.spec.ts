@@ -7,7 +7,7 @@ import { expect, type Page, test } from "@playwright/test";
  * they aren't free or a day the place is shut), kept in the visitor's own session.
  */
 
-const SECTIONS = ["", "/their-week", "/people", "/privacy", "/safety", "/languages", "/setup"];
+const SECTIONS = ["", "/their-week", "/shared", "/people", "/privacy", "/safety", "/languages", "/setup"];
 
 async function violations(page: Page) {
   const results = await new AxeBuilder({ page })
@@ -117,6 +117,43 @@ test("an outing approved on the dashboard is on the parent's phone, on the day i
   await phone.goto("/parents/fremont-demo/p_venkat");
   // His card for the market now names Friday (the page header still shows today, Monday).
   await expect(phone.getByText("శుక్రవారం").first()).toBeVisible();
+});
+
+test("only diary entries a parent shares reach Shared with you, and unsharing takes them back", async ({
+  page,
+}, info) => {
+  test.skip(info.project.name !== "desktop", "dashboard and a phone in one session");
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  const shared = "గుంటూరు నుంచి వచ్చిన లక్ష్మి గారు"; // d_sarala_01, shared in the demo data
+  const secret = "పద్మ అక్కకి ఫోన్ చేశాను"; // d_sarala_02, private
+  const api = async () => JSON.stringify(await (await page.request.get("/plan/api/diary/fremont-demo")).json());
+
+  await page.goto("/plan/fremont-demo/shared");
+  await expect(page.getByText(shared, { exact: false }).first()).toBeVisible();
+  await expect(page.getByText(secret, { exact: false })).toHaveCount(0);
+  expect(await api()).not.toContain(secret);
+
+  // On Sarala's phone: share the private entry, then take it back.
+  const phone = await page.context().newPage();
+  await phone.goto("/parents/fremont-demo/p_sarala?v=diary");
+  const entry = phone.getByRole("listitem").filter({ hasText: secret });
+  await entry.getByRole("button", { name: "పిల్లలతో పంచుకోండి" }).click();
+  await expect.poll(api, { timeout: 15_000 }).toContain(secret);
+  await page.reload();
+  await expect(page.getByText(secret, { exact: false }).first()).toBeVisible();
+
+  await entry.getByRole("button", { name: "పంచుకోవడం ఆపండి" }).click();
+  await expect.poll(api, { timeout: 15_000 }).not.toContain(secret);
+
+  // A new entry written on the phone stays private until shared.
+  const mine = "ఈ రోజు Central Park లో బాతులను చూశాను.";
+  await phone.getByRole("textbox").fill(mine);
+  await phone.getByRole("button", { name: "దాచండి" }).click();
+  await expect(phone.getByRole("listitem").filter({ hasText: mine })).toBeVisible();
+  await page.waitForTimeout(1000);
+  expect(await api()).not.toContain(mine);
+  await phone.getByRole("listitem").filter({ hasText: mine }).getByRole("button", { name: "పిల్లలతో పంచుకోండి" }).click();
+  await expect.poll(api, { timeout: 15_000 }).toContain(mine);
 });
 
 test("a move to a day the place is shut is refused, in Munich", async ({ page }, info) => {

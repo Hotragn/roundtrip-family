@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, useContext } from "react";
+import type { DiarySeed } from "@/lib/diary-types";
 import type { CardView, OutingView, WeekView } from "@/lib/week";
 
 export type View =
@@ -28,6 +29,8 @@ export interface ParentsState {
   go: (view: View, outingId?: string) => void;
   online: boolean;
   fromPhone: boolean;
+  /** This parent's synthetic demo entries, put on the phone the first time the diary opens. */
+  diarySeeds: DiarySeed[];
   t: (key: string, values?: Record<string, string | number>) => string;
 }
 

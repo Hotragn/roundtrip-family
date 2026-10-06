@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { Logo } from "@/components/brand/logo";
 import { ScrollIndicators } from "@/components/shell/scroll-track";
 import { ThemeShell } from "@/components/shell/theme-shell";
+import { cn } from "@/lib/utils";
 import { DashboardNav } from "./nav";
 import { ParentPhones } from "./parent-phones";
 import { DashboardProviders } from "./providers";
@@ -40,7 +41,8 @@ function Band({ theme }: { theme: "rail" | "sea" }) {
 /**
  * The dashboard frame: the theme's landscape band, a header on a white panel (the household,
  * the week, their phones) and the section navigation. Each page picks its theme: rail for
- * planning, sea for privacy and safety (docs/brand.md, Page themes).
+ * planning, sea for privacy and safety, home for what they share (warm paper, no landscape and
+ * native scrolling; docs/brand.md, Page themes).
  */
 export function DashboardShell({
   household,
@@ -52,14 +54,19 @@ export function DashboardShell({
   household: string;
   weekLabel: string;
   parents: Array<{ id: string; firstName: string }>;
-  theme?: "rail" | "sea";
+  theme?: "rail" | "sea" | "home";
   children: ReactNode;
 }) {
   const current = HOUSEHOLD_LINKS.find((h) => h.slug === household) ?? HOUSEHOLD_LINKS[0];
   return (
-    <ThemeShell theme={theme} backdrop={<Band theme={theme} />}>
+    <ThemeShell theme={theme} backdrop={theme === "home" ? undefined : <Band theme={theme} />}>
       <DashboardProviders>
-        <div className="mx-auto max-w-[1200px] px-4 pt-[64px] sm:px-6 sm:pt-[104px] pointer-fine:max-xl:pr-10">
+        <div
+          className={cn(
+            "mx-auto max-w-[1200px] px-4 sm:px-6",
+            theme === "home" ? "pt-6 sm:pt-8" : "pt-[64px] sm:pt-[104px] pointer-fine:max-xl:pr-10",
+          )}
+        >
           <header className="rounded-card bg-surface/97 px-4 py-3 shadow-raised ring-1 ring-line/70 sm:px-6 sm:py-4">
             <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3">
               <div className="flex min-w-0 items-center gap-4 sm:gap-6">
@@ -92,7 +99,7 @@ export function DashboardShell({
           <DashboardNav household={household} />
           <main className="pb-24 pt-6">{children}</main>
         </div>
-        <ScrollIndicators theme={theme} />
+        {theme === "home" ? null : <ScrollIndicators theme={theme} />}
       </DashboardProviders>
     </ThemeShell>
   );

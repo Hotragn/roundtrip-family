@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 export const SECTIONS = [
   { path: "", label: "This week" },
   { path: "/their-week", label: "Their week" },
+  { path: "/shared", label: "Shared with you" },
   { path: "/people", label: "People and places" },
   { path: "/privacy", label: "Privacy" },
   { path: "/safety", label: "Safety" },

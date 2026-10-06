@@ -5,23 +5,39 @@ import { te } from "date-fns/locale";
 import { Printer } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Mark } from "@/components/brand/logo";
-import { getKv } from "@/lib/parents-store";
+import { getKv, setKv } from "@/lib/parents-store";
 import { cn } from "@/lib/utils";
 import { useParents } from "../context";
-import type { LocalEntry } from "./diary";
+import { type LocalEntry, loadEntries, syncEntry } from "./diary";
 
 /**
  * The memory book: the parent chooses entries and outing tickets, and the app lays them out as
  * a printable book in their own words, exactly as written. White paper, ink, Hind Guntur.
+ * Choices stay on the phone; a diary entry's place in the book travels with the entry, so a
+ * shared entry the parent puts in the book shows in their child's copy too.
  */
 export function BookView() {
-  const { parent, outings, t } = useParents();
+  const { parent, outings, t, week, diarySeeds } = useParents();
   const [entries, setEntries] = useState<LocalEntry[]>([]);
-  const [picked, setPicked] = useState<string[]>([]);
+  const [pickedOutings, setPickedOutings] = useState<string[]>([]);
+  const outingKey = `book-outings:${parent.id}`;
   useEffect(() => {
-    getKv<LocalEntry[]>(`diary:${parent.id}`).then((e) => setEntries(e ?? []));
-  }, [parent.id]);
-  const toggle = (id: string) => setPicked((p) => (p.includes(id) ? p.filter((x) => x !== id) : [...p, id]));
+    loadEntries(parent.id, diarySeeds).then(setEntries);
+    getKv<string[]>(outingKey).then((p) => setPickedOutings(p ?? []));
+  }, [parent.id, diarySeeds, outingKey]);
+  const picked = [...pickedOutings, ...entries.filter((e) => e.inMemoryBook).map((e) => e.id)];
+  const toggle = async (id: string) => {
+    if (outings.some((o) => o.id === id)) {
+      const next = pickedOutings.includes(id) ? pickedOutings.filter((x) => x !== id) : [...pickedOutings, id];
+      setPickedOutings(next);
+      await setKv(outingKey, next);
+      return;
+    }
+    const next = entries.map((e) => (e.id === id ? { ...e, inMemoryBook: !e.inMemoryBook } : e));
+    setEntries(next);
+    await setKv(`diary:${parent.id}`, next);
+    await syncEntry(week.household.slug, parent.id, id, "save");
+  };
   const chosenEntries = entries.filter((e) => picked.includes(e.id));
   const chosenOutings = outings.filter((o) => picked.includes(o.id));
   return (
@@ -42,7 +58,7 @@ export function BookView() {
               <button
                 type="button"
                 aria-pressed={picked.includes(item.id)}
-                onClick={() => toggle(item.id)}
+                onClick={() => void toggle(item.id)}
                 className={cn(
                   "flex min-h-14 w-full items-center justify-between rounded-xl border px-4 text-left text-[19px]",
                   picked.includes(item.id) ? "border-ink bg-surface font-semibold" : "border-line bg-surface",

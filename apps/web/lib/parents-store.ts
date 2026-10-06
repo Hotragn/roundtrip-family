@@ -97,6 +97,58 @@ export async function saveSettings(s: PhoneSettings): Promise<void> {
 
 let flushing: Promise<number> | null = null;
 
+interface StoredDiaryEntry {
+  id: string;
+  parentId: string;
+  createdAt: string;
+  kind: "voice" | "text" | "photo";
+  text?: string;
+  audio?: Blob;
+  feelingWords: string[];
+  outingId?: string;
+  shared: boolean;
+  inMemoryBook?: boolean;
+}
+
+function base64(blob: Blob): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const r = new FileReader();
+    r.onload = () => resolve(String(r.result).split(",")[1] ?? "");
+    r.onerror = () => reject(r.error);
+    r.readAsDataURL(blob);
+  });
+}
+
+/**
+ * A diary item in the outbox names the entry; what's sent is that entry as it is on the phone
+ * now (so a share tapped offline after a save sends once), or a deletion if it's gone.
+ * Photos stay on the phone in the demo.
+ */
+async function diaryBody(item: OutboxItem): Promise<Record<string, unknown>> {
+  const { household, parentId, entryId } = item.payload as { household: string; parentId: string; entryId: string };
+  const entries = (await getKv<StoredDiaryEntry[]>(`diary:${parentId}`)) ?? [];
+  const e = entries.find((x) => x.id === entryId);
+  if (!e || item.payload.action === "delete") return { action: "delete", household, parentId, entryId };
+  const small = e.audio && e.audio.size <= 2_000_000;
+  return {
+    action: "save",
+    household,
+    entry: {
+      id: e.id,
+      parentId: e.parentId,
+      kind: e.kind,
+      createdAt: e.createdAt,
+      text: e.text,
+      feelingWords: e.feelingWords,
+      outingId: e.outingId,
+      shared: e.shared,
+      inMemoryBook: Boolean(e.inMemoryBook),
+      audio: small && e.audio ? await base64(e.audio) : undefined,
+      audioMime: small ? e.audio?.type : undefined,
+    },
+  };
+}
+
 /** Sends queued items when online, one run at a time. Returns how many were sent. */
 export function flushOutbox(): Promise<number> {
   flushing ??= sendQueued().finally(() => {
@@ -110,10 +162,12 @@ async function sendQueued(): Promise<number> {
   let sent = 0;
   for (const item of await outbox()) {
     try {
+      const body =
+        item.kind === "diary" ? await diaryBody(item) : { id: item.id, createdAt: item.createdAt, ...item.payload };
       const res = await fetch(`/parents/api/${item.kind}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ id: item.id, createdAt: item.createdAt, ...item.payload }),
+        body: JSON.stringify(body),
       });
       if (res.ok) {
         await removeFromOutbox(item.id);

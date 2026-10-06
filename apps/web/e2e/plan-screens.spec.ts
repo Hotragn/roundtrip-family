@@ -14,6 +14,7 @@ const SECTIONS = (process.env.PLAN_SECTIONS ?? "week").split(",");
 const PATHS: Record<string, string> = {
   week: "",
   "their-week": "/their-week",
+  shared: "/shared",
   people: "/people",
   privacy: "/privacy",
   safety: "/safety",

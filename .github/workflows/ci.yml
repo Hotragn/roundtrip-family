@@ -105,7 +105,10 @@ jobs:
         run: pnpm build
       - name: Install Chromium
         run: pnpm --filter @roundtrip/web exec playwright install --with-deps chromium
-      - name: Offline, accessibility and bundle checks
+      # A throwaway key for this run only: the production server stores no diary entries without one.
+      - name: Diary key for the test server
+        run: echo "DIARY_ENCRYPTION_KEY=$(openssl rand -base64 32)" >> "$GITHUB_ENV"
+      - name: Offline, accessibility, dashboard and bundle checks
         id: e2e
         run: pnpm --filter @roundtrip/web exec playwright test e2e/offline.spec.ts e2e/a11y.spec.ts e2e/dashboard.spec.ts e2e/scroll-track.spec.ts
       - name: Summary

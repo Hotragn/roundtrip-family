@@ -78,3 +78,14 @@ Each entry: the decision, then the reason in one line. Newest last.
 60. **Setup asks only for first names, the nearest stop and one contact number,** and lists only countries whose emergency number has been checked against an official page.
 61. **A persona note was reworded.** "Said he felt stupid" became "couldn't ask for what he needed", because the product never describes the parents as helpless or pitiable.
 62. **TabPFN's free daily pool ran out while re-planning ten weeks after these changes**; the last three were planned after its 00:00 UTC reset. Only changed feature rows are sent, so later re-plans cost little.
+
+## M5 Diary and voice
+
+63. **Diary entries are encrypted on the family's server with each parent's own key before they're stored** (AES-256-GCM, the key derived per parent by HKDF, the entry and parent ids bound in so ciphertext can't be moved). The phone keeps its own copy, and its outbox sends each entry's latest state when it's back on home Wi-Fi, so a share tapped offline after a save goes out once.
+64. **Only shared entries are ever decrypted, and only for Shared with you.** Private entries never leave the diary module, and a recording plays on the dashboard only while its entry is shared.
+65. **Without DIARY_ENCRYPTION_KEY, development and tests use a random key for that process, and production refuses to store entries** (the phone keeps them). The key is missing from .env; the Render deploy gets a generated one in M7, and the CI end-to-end job generates a throwaway key per run.
+66. **The demo's synthetic entries start on each parent's phone the first time their diary opens,** and the shared ones show on the dashboard. What a visitor shares, unshares, writes or deletes overrides them in that visitor's session.
+67. **A diary page's place in the memory book travels with the entry,** so the pages a parent shares and puts in the book appear in their child's copy. Outing tickets chosen for the book stay on the phone.
+68. **Photos stay on the phone in the demo.** Only words, feeling words and recordings sync.
+69. **The voice router picks each voice by language:** Indic Parler-TTS for Indian languages and MMS-TTS otherwise, ElevenLabs only when asked for, with a key, within ELEVENLABS_MAX_CHARS and for a language it lists, so every language still gets audio. Saved clips are found by sha256 of the language and the exact text.
+70. **Shared with you uses the home theme:** warm paper, no landscape band and native scrolling, with the memory book pages in the light palette in both schemes, like the printout.

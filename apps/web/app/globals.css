@@ -9,6 +9,22 @@
 
 @custom-variant dark (&:where([data-color-scheme="dark"], [data-color-scheme="dark"] *));
 
+/* Printing the memory book from the dashboard prints only the book's pages. */
+@media print {
+  body:has([data-print-book]) * {
+    visibility: hidden;
+  }
+  [data-print-book],
+  [data-print-book] * {
+    visibility: visible;
+  }
+  [data-print-book] {
+    position: absolute;
+    inset: 0;
+    box-shadow: none;
+  }
+}
+
 /* A themed scroll track stands in for the scrollbar on precise pointers (components/shell/scroll-track.tsx). */
 @media (pointer: fine) {
   html[data-scroll-track] {

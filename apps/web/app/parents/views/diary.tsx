@@ -5,7 +5,8 @@ import { te } from "date-fns/locale";
 import { Camera, Lock, Mic, Phone, Share2, Square, Trash2 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { FeelingChips } from "@/components/parents/cards";
-import { getKv, queue, setKv } from "@/lib/parents-store";
+import type { DiarySeed } from "@/lib/diary-types";
+import { flushOutbox, getKv, queue, setKv } from "@/lib/parents-store";
 import { cn } from "@/lib/utils";
 import { useParents } from "../context";
 import { useRecorder } from "./care";
@@ -13,6 +14,8 @@ import { useRecorder } from "./care";
 /**
  * నా డైరీ: each parent's private space. Entries live on the phone first, private by default;
  * the parent can share, unshare or delete any of them. The app doesn't analyze or score them.
+ * Back on home Wi-Fi, each change goes to the family's server, which encrypts it with this
+ * parent's key; only shared entries are ever shown to their child.
  */
 
 export interface LocalEntry {
@@ -23,12 +26,56 @@ export interface LocalEntry {
   text?: string;
   photo?: string;
   audio?: Blob;
+  /** A saved clip for the demo's synthetic entries. */
+  audioUrl?: string;
   feelingWords: string[];
+  outingId?: string;
   shared: boolean;
+  inMemoryBook?: boolean;
   synced: boolean;
 }
 
 const key = (parentId: string) => `diary:${parentId}`;
+const seededKey = (parentId: string) => `diary-seeded:${parentId}`;
+
+/** The phone's entries, starting with this parent's synthetic demo entries the first time. */
+export async function loadEntries(parentId: string, seeds: DiarySeed[]): Promise<LocalEntry[]> {
+  const entries = (await getKv<LocalEntry[]>(key(parentId))) ?? [];
+  if (await getKv<boolean>(seededKey(parentId))) return entries;
+  const have = new Set(entries.map((e) => e.id));
+  const merged = [
+    ...entries,
+    ...seeds
+      .filter((s) => !have.has(s.id))
+      .map((s) => ({
+        id: s.id,
+        parentId: s.parentId,
+        createdAt: s.createdAt,
+        kind: s.kind,
+        text: s.text,
+        audioUrl: s.audioUrl,
+        feelingWords: s.feelingWords,
+        outingId: s.outingId,
+        shared: s.shared,
+        inMemoryBook: s.inMemoryBook,
+        synced: true,
+      })),
+  ].sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+  await setKv(key(parentId), merged);
+  await setKv(seededKey(parentId), true);
+  return merged;
+}
+
+/** Queue one entry's latest state (or its deletion) for the family's server. */
+export async function syncEntry(household: string, parentId: string, entryId: string, action: "save" | "delete") {
+  await queue({
+    id: `diary:${entryId}:${action === "delete" ? "delete" : "save"}`,
+    kind: "diary",
+    createdAt: new Date().toISOString(),
+    payload: { action, household, parentId, entryId },
+  });
+  void flushOutbox();
+}
 
 export function feelingList(words: Array<{ feeling: string; words: string[] }>): string[] {
   return words
@@ -37,7 +84,7 @@ export function feelingList(words: Array<{ feeling: string; words: string[] }>):
 }
 
 export function DiaryView() {
-  const { parent, t, week, go } = useParents();
+  const { parent, t, week, go, diarySeeds } = useParents();
   const [entries, setEntries] = useState<LocalEntry[]>([]);
   const [text, setText] = useState("");
   const [photo, setPhoto] = useState<string | null>(null);
@@ -46,8 +93,8 @@ export function DiaryView() {
   const { state, blob, start, stop } = useRecorder(120_000);
 
   useEffect(() => {
-    getKv<LocalEntry[]>(key(parent.id)).then((e) => setEntries(e ?? []));
-  }, [parent.id]);
+    loadEntries(parent.id, diarySeeds).then(setEntries);
+  }, [parent.id, diarySeeds]);
 
   const persist = async (next: LocalEntry[]) => {
     setEntries(next);
@@ -69,12 +116,7 @@ export function DiaryView() {
       synced: false,
     };
     await persist([entry, ...entries]);
-    await queue({
-      id: `diary:${entry.id}`,
-      kind: "diary",
-      createdAt: entry.createdAt,
-      payload: { action: "save", entryId: entry.id, parentId: parent.id },
-    });
+    await syncEntry(week.household.slug, parent.id, entry.id, "save");
     setText("");
     setPhoto(null);
     setFeelings([]);
@@ -84,23 +126,12 @@ export function DiaryView() {
   const toggleShare = async (id: string) => {
     const next = entries.map((e) => (e.id === id ? { ...e, shared: !e.shared } : e));
     await persist(next);
-    const e = next.find((x) => x.id === id)!;
-    await queue({
-      id: `diary:${id}:share:${Date.now()}`,
-      kind: "diary",
-      createdAt: new Date().toISOString(),
-      payload: { action: e.shared ? "share" : "unshare", entryId: id, parentId: parent.id },
-    });
+    await syncEntry(week.household.slug, parent.id, id, "save");
   };
 
   const remove = async (id: string) => {
     await persist(entries.filter((e) => e.id !== id));
-    await queue({
-      id: `diary:${id}:delete`,
-      kind: "diary",
-      createdAt: new Date().toISOString(),
-      payload: { action: "delete", entryId: id, parentId: parent.id },
-    });
+    await syncEntry(week.household.slug, parent.id, id, "delete");
     setStatus(t("Diary.deleted"));
   };
 
@@ -245,7 +276,9 @@ export function DiaryView() {
                 {e.text}
               </p>
             ) : null}
-            {e.audio ? <audio controls src={URL.createObjectURL(e.audio)} className="mt-2 w-full" /> : null}
+            {e.audio || e.audioUrl ? (
+              <audio controls src={e.audio ? URL.createObjectURL(e.audio) : e.audioUrl} className="mt-2 w-full" />
+            ) : null}
             {e.photo ? (
               // biome-ignore lint/performance/noImgElement: a local photo from the diary
               <img src={e.photo} alt="" className="mt-2 max-h-48 rounded-lg object-cover" />

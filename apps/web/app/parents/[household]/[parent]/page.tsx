@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { DEMO_WEEKS } from "@/lib/demo-weeks";
+import { seedsFor } from "@/lib/diary-seeds";
 import { forParent } from "@/lib/week";
 import { ParentsApp } from "../../parents-app";
 
@@ -19,5 +20,9 @@ export default async function ParentPage({ params }: PageProps<"/parents/[househ
   const { household, parent } = await params;
   const week = DEMO_WEEKS[household];
   if (!week?.parents.some((p) => p.id === parent)) notFound();
-  return <ParentsApp initial={{ household, parentId: parent, week: forParent(week, parent) }} />;
+  return (
+    <ParentsApp
+      initial={{ household, parentId: parent, week: forParent(week, parent), diary: seedsFor(household, parent) }}
+    />
+  );
 }
