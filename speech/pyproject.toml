@@ -10,7 +10,8 @@ dev = ["pytest>=9.1"]
 # Installed only in the Codespace (CPU builds): uv sync --group models
 models = [
   "torch>=2.8",
-  "torchaudio>=2.8",
+  # No torchaudio: ffmpeg decodes and resamples (speech/audio.py). Its PyPI wheels declare no
+  # torch version, so uv paired 2.11 with torch 2.14 and transformers failed loading it.
   "transformers>=4.57",
   "soundfile>=0.13",
   "numpy>=2.2",
