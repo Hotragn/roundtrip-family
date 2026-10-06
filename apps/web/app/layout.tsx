@@ -18,6 +18,7 @@ const hind = localFont({
   ],
   variable: "--font-hind",
   display: "swap",
+  preload: false,
   declarations: [
     {
       prop: "unicode-range",
