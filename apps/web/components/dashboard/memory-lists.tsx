@@ -65,7 +65,8 @@ export function PeopleList({ household, people }: { household: string; people: P
     return <p className="text-[15px] text-text-muted">No one yet. People they meet on outings show up here.</p>;
   }
   return (
-    <ul className="grid gap-4 md:grid-cols-2">
+    // One person spans the row, so the page doesn't show an empty half.
+    <ul className={cn("grid gap-4", people.length > 1 && "md:grid-cols-2")}>
       {people.map((p) => {
         const id = `person:${p.id}`;
         const gone = forgotten.has(id);
