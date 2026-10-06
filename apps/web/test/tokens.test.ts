@@ -16,7 +16,7 @@ export function contrast(a: string, b: string): number {
   return (hi + 0.05) / (lo + 0.05);
 }
 
-const css = readFileSync(join(__dirname, "../app/globals.css"), "utf8");
+const css = readFileSync(join(__dirname, "../app/tokens.css"), "utf8");
 
 function block(selector: string): Record<string, string> {
   const start = css.indexOf(`${selector} {`);

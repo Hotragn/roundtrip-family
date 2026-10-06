@@ -1,0 +1,11 @@
+/*
+ * The parents' app's own stylesheet: the same tokens, with utilities only from the files the
+ * parents' screens use, so a phone parses a fraction of the site's CSS on its first paint.
+ */
+@import "tailwindcss" source(none);
+@source "../parents";
+@source "../../components/parents";
+@source "../../components/travel";
+@source "../../components/brand";
+@source "../../lib";
+@import "../tokens.css";

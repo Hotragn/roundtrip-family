@@ -2,7 +2,7 @@ import "server-only";
 import type { BoardOverlay } from "../plan-types";
 import { listRecords } from "./session";
 
-/** One suggestion's state in a visitor's session (see app/plan/api/overlay). */
+/** One suggestion's state in a visitor's session (see app/(site)/plan/api/overlay). */
 export interface ItemState {
   household: string;
   id: string;

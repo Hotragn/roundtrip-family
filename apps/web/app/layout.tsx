@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
 
 /*
  * Hind for Latin text and Hind Guntur for Telugu: two members of one family by the Indian Type

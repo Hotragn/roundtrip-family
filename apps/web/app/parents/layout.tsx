@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import { preconnect } from "react-dom";
 import { TeluguProvider } from "./intl-provider";
+import "./parents.css";
 
 export const metadata: Metadata = {
   title: { absolute: "Roundtrip for parents" },

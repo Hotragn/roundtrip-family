@@ -1,4 +1,4 @@
-/** What "Plan the coming week" sends back to the dashboard (app/plan/api/replan). */
+/** What "Plan the coming week" sends back to the dashboard (app/(site)/plan/api/replan). */
 export interface ReplanResult {
   week: { label: string; monday: string };
   forecast: Array<{ day: string; date: string; label: string; maxC: number; rainChance: number }>;
