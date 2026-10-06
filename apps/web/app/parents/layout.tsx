@@ -1,5 +1,6 @@
 import { SerwistProvider } from "@serwist/turbopack/react";
 import type { Metadata, Viewport } from "next";
+import localFont from "next/font/local";
 import { preconnect } from "react-dom";
 import { TeluguProvider } from "./intl-provider";
 
@@ -18,6 +19,22 @@ export const viewport: Viewport = {
   viewportFit: "cover",
 };
 
+/**
+ * Hind Guntur again, preloaded here only: every parents' screen is Telugu, while the rest of the
+ * site loads it only where Telugu appears (app/layout.tsx). The stacks below point at this copy.
+ */
+const telugu = localFont({
+  src: [
+    { path: "../fonts/hind-guntur-400-telugu.woff2", weight: "400" },
+    { path: "../fonts/hind-guntur-500-telugu.woff2", weight: "500" },
+    { path: "../fonts/hind-guntur-600-telugu.woff2", weight: "600" },
+  ],
+  display: "swap",
+  declarations: [{ prop: "unicode-range", value: "U+0951-0952, U+0964-0965, U+0C00-0C7F, U+1CDA, U+1CF2, U+25CC" }],
+});
+const stack = `var(--font-hind), ${telugu.style.fontFamily}, ui-sans-serif, system-ui, sans-serif`;
+const fonts = { "--font-sans": stack, "--font-heading": stack, "--font-telugu": stack } as React.CSSProperties;
+
 /** The parents' app: road theme, clean white, Telugu messages, offline through Serwist. */
 export default function ParentsLayout({ children }: { children: React.ReactNode }) {
   // Place photos come from Google's image server: open the connection while the page loads.
@@ -30,7 +47,8 @@ export default function ParentsLayout({ children }: { children: React.ReactNode 
       data-theme="road"
       data-scheme="light"
       lang="te"
-      className="min-h-dvh bg-paper text-parent [overflow-wrap:anywhere]"
+      style={fonts}
+      className="min-h-dvh bg-paper font-sans text-parent [overflow-wrap:anywhere]"
     >
       <TeluguProvider>
         {/* No reload when the phone comes back online: that would cut off a recording, and the
