@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791242467925",
+  "object": "chat.completion",
+  "created": 1791242467,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c3\",\"parent\":\"mother\",\"reason\":\"Like the temple outings they enjoyed\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c3\",\"parent\":\"father\",\"reason\":\"Like the temple outings they enjoyed\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c6\",\"parent\":\"mother\",\"reason\":\"Like the Indian grocery outings they enjoyed\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c6\",\"parent\":\"father\",\"reason\":\"Like the Indian grocery outings they enjoyed\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c5\",\"parent\":\"father\",\"reason\":\"Like the park outings they enjoyed\",\"firstRideTogether\":true,\"bringSomeone\":\"the neighbor two doors down\",\"joinHelp\":false},{\"candidateId\":\"c10\",\"parent\":\"both\",\"reason\":\"Good weather for it\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false}],\"note\":\"No Telugu events or groups were found nearby this week.\"}\n```",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": 106,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2481,
+   "completion_tokens": 240,
+   "total_tokens": 2721,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 29.099998474121094
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T23:20:54.784Z",
+ "latencyMs": 2435
+}

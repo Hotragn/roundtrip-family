@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791245018419",
+  "object": "chat.completion",
+  "created": 1791245018,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c1\",\"parent\":\"mother\",\"reason\":\"She enjoyed park outings in the past.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c1\",\"parent\":\"father\",\"reason\":\"He likes watching people at the park.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c4\",\"parent\":\"mother\",\"reason\":\"She enjoys meeting other women her age.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c4\",\"parent\":\"father\",\"reason\":\"This type of social time has worked before.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c3\",\"parent\":\"father\",\"reason\":\"He enjoys reading and quiet environments.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false}],\"note\":\"No Telugu events or groups were found nearby this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1548,
+   "completion_tokens": 210,
+   "total_tokens": 1758,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 19.799999237060547
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T00:03:25.368Z",
+ "latencyMs": 4888
+}

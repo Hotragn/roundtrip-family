@@ -49,6 +49,8 @@ export interface RawPlace {
   rating?: number;
   reviews?: number;
   hours?: string;
+  /** Google's weekly hours, one string per weekday in the search language. */
+  openingHours?: Record<string, string>;
   description?: string;
   thumbnail?: string;
   query: string;
@@ -122,6 +124,10 @@ export async function searchPlaces(
       rating: typeof p.rating === "number" ? p.rating : undefined,
       reviews: typeof p.reviews === "number" ? p.reviews : undefined,
       hours: typeof p.hours === "string" ? p.hours : undefined,
+      openingHours:
+        p.operating_hours && typeof p.operating_hours === "object"
+          ? (p.operating_hours as Record<string, string>)
+          : undefined,
       description: typeof p.description === "string" ? p.description : undefined,
       thumbnail: typeof p.thumbnail === "string" ? p.thumbnail : undefined,
       query: args.interest,

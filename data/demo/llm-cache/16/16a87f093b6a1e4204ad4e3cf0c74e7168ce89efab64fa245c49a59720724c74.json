@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791242127991",
+  "object": "chat.completion",
+  "created": 1791242127,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c3\",\"parent\":\"mother\",\"reason\":\"Like the temple outings they enjoyed\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c3\",\"parent\":\"father\",\"reason\":\"Like the temple outings they enjoyed\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c6\",\"parent\":\"father\",\"reason\":\"Like the Indian grocery outings they enjoyed\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c5\",\"parent\":\"mother\",\"reason\":\"Like the park outings they enjoyed\",\"firstRideTogether\":true,\"bringSomeone\":\"neighbor two doors down\",\"joinHelp\":false},{\"candidateId\":\"c11\",\"parent\":\"both\",\"reason\":\"Good weather for a walk in the park\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false}],\"note\":\"No Telugu events or groups were found nearby this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2602,
+   "completion_tokens": 207,
+   "total_tokens": 2809,
+   "prompt_tokens_details": {
+    "cached_tokens": 1728
+   },
+   "neurons": 21.445446014404297
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T23:15:14.856Z",
+ "latencyMs": 3757
+}

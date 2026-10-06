@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791239997801",
+  "object": "chat.completion",
+  "created": 1791239997,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"అమ్మా, శుక్రవారం 08:30కి Central Park కి వెళ్దాం. Fremont Blvd & Mowry Av దగ్గర Bus 210 ఎక్కండి, 4 స్టాపుల తర్వాత Fremont Blvd & Stevenson Blvd దగ్గర దిగండి. అక్కడి నుండి 21 minutes నడిచి వెళ్లాలి. అక్కడ చెరువు దగ్గర ప్రకృతి అందాలను చూస్తూ హాయిగా గడపవచ్చు. 10:28కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Central Park కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1074,
+   "completion_tokens": 123,
+   "total_tokens": 1197,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 13.118181228637695
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T22:39:44.689Z",
+ "latencyMs": 3030
+}

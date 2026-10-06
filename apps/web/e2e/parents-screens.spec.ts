@@ -43,7 +43,12 @@ for (const who of PARENT_PAGES) {
         );
       });
       if ((await page.locator("main").innerText()).trim().length === 0) continue;
-      await page.screenshot({ path: join(OUT, `parents-${who.key}-${v}.jpg`), fullPage: true, type: "jpeg", quality: 85 });
+      await page.screenshot({
+        path: join(OUT, `parents-${who.key}-${v}.jpg`),
+        fullPage: true,
+        type: "jpeg",
+        quality: 85,
+      });
     }
   });
 }

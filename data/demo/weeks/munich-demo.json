@@ -1,1071 +1,2149 @@
 {
- "provenance": "synthetic",
- "note": "Fictional household. Places, events and routes come from live searches; cards are written by the card writer.",
- "household": {
-  "id": "hh_munich",
-  "slug": "munich-demo",
-  "hostCountry": "DE",
-  "localLanguage": "de",
-  "timezone": "Europe/Berlin",
-  "metroArea": "Munich (München), Bavaria",
-  "homeArea": "U-Bahn Neuperlach Zentrum",
-  "helpCardText": "Hallo. Ich besuche meine Familie und spreche kaum Deutsch. Bitte rufen Sie meine Familie unter dieser Nummer an. Danke.",
-  "localPhrases": {
-   "helpTitle": "Bitte helfen Sie mir.",
-   "myName": "Mein Name ist {name}.",
-   "stayingNear": "Ich wohne in der Nähe von {area}.",
-   "callFamily": "Bitte rufen Sie meine Familie an:",
-   "askWay": "Bitte zeigen Sie mir den Weg zu:"
-  },
-  "contact": {
-   "role": "adult_child",
-   "label": "Your child",
-   "phone": "+49 89 99998 042",
-   "fictional": true
-  },
-  "emergency": {
-   "number": "112",
-   "covers": "Fire and ambulance (Feuerwehr und Rettungsdienst)",
-   "source": "https://www.bbk.bund.de/DE/Warnung-Vorsorge/Vorsorge/Gesundheit-und-Hygiene/Erste-Hilfe-und-Notruf/erste-hilfe-und-notruf_node.html",
-   "verifiedOn": "2026-10-05"
-  },
-  "secondaryEmergency": {
-   "number": "110",
-   "covers": "Police (Polizei)",
-   "source": "https://www.bbk.bund.de/DE/Warnung-Vorsorge/Vorsorge/Gesundheit-und-Hygiene/Erste-Hilfe-und-Notruf/erste-hilfe-und-notruf_node.html",
-   "verifiedOn": "2026-10-05"
-  },
-  "safety": {
-   "bufferMinutes": 45,
-   "nudgeWaitMinutes": 20,
-   "daylightOnly": true,
-   "weather": {
-    "blockIce": true,
-    "blockHeavySnow": true,
-    "blockHeatAdvisory": true,
-    "shadeWarningAboveC": 30
-   }
-  }
- },
- "parents": [
-  {
-   "id": "p_kamala",
-   "firstName": "Kamala",
-   "addressAs": "అమ్మా",
-   "role": "mother",
-   "language": "te",
-   "readingSupport": "audio_first"
-  },
-  {
-   "id": "p_raghu",
-   "firstName": "Raghu",
-   "addressAs": "నాన్నగారు",
-   "role": "father",
-   "language": "te",
-   "readingSupport": "text_with_sign_words"
-  }
- ],
- "people": [
-  {
-   "id": "pp_frau_huber",
-   "label": "Frau Huber",
-   "relation": "Neighbor on the same floor",
-   "language": "de",
-   "knownParentIds": [
-    "p_kamala"
-   ],
-   "words": [
-    {
-     "id": "hello",
-     "local": "Hallo",
-     "romanized": "hallo",
-     "pronunciation": "హలో",
-     "meaning": "నమస్కారం"
+  "provenance": "synthetic",
+  "note": "Fictional household. Places, events and routes come from live searches; cards are written by the card writer.",
+  "household": {
+    "id": "hh_munich",
+    "slug": "munich-demo",
+    "hostCountry": "DE",
+    "localLanguage": "de",
+    "timezone": "Europe/Berlin",
+    "metroArea": "Munich (München), Bavaria",
+    "homeArea": "U-Bahn Neuperlach Zentrum",
+    "helpCardText": "Hallo. Ich besuche meine Familie und spreche kaum Deutsch. Bitte rufen Sie meine Familie unter dieser Nummer an. Danke.",
+    "localPhrases": {
+      "helpTitle": "Bitte helfen Sie mir.",
+      "myName": "Mein Name ist {name}.",
+      "stayingNear": "Ich wohne in der Nähe von {area}.",
+      "callFamily": "Bitte rufen Sie meine Familie an:",
+      "askWay": "Bitte zeigen Sie mir den Weg zu:"
     },
-    {
-     "id": "thanks",
-     "local": "Danke",
-     "romanized": "danke",
-     "pronunciation": "డాంకె",
-     "meaning": "ధన్యవాదాలు"
+    "contact": {
+      "role": "adult_child",
+      "label": "Your child",
+      "phone": "+49 89 99998 042",
+      "fictional": true
     },
-    {
-     "id": "delicious",
-     "local": "Lecker",
-     "romanized": "lecker",
-     "pronunciation": "లెక్కర్",
-     "meaning": "చాలా రుచిగా ఉంది"
+    "emergency": {
+      "number": "112",
+      "covers": "Fire and ambulance (Feuerwehr und Rettungsdienst)",
+      "source": "https://www.bbk.bund.de/DE/Warnung-Vorsorge/Vorsorge/Gesundheit-und-Hygiene/Erste-Hilfe-und-Notruf/erste-hilfe-und-notruf_node.html",
+      "verifiedOn": "2026-10-05"
+    },
+    "secondaryEmergency": {
+      "number": "110",
+      "covers": "Police (Polizei)",
+      "source": "https://www.bbk.bund.de/DE/Warnung-Vorsorge/Vorsorge/Gesundheit-und-Hygiene/Erste-Hilfe-und-Notruf/erste-hilfe-und-notruf_node.html",
+      "verifiedOn": "2026-10-05"
+    },
+    "safety": {
+      "bufferMinutes": 45,
+      "nudgeWaitMinutes": 20,
+      "daylightOnly": true,
+      "weather": {
+        "blockIce": true,
+        "blockHeavySnow": true,
+        "blockHeatAdvisory": true,
+        "shadeWarningAboveC": 30
+      }
     }
-   ]
-  }
- ],
- "feelingWords": [
-  {
-   "feeling": "happy",
-   "words": [
-    "బాగుంది (baagundi)",
-    "సంతోషం (santosham)",
-    "మనసు బాగుంది (manasu baagundi, I feel good inside)"
-   ]
   },
-  {
-   "feeling": "missing home",
-   "words": [
-    "ఊరు గుర్తొచ్చింది (ooru gurthochindi, I remembered home)"
-   ],
-   "note": "Sarala specifically wants ఊరు, not a formal word for homeland."
-  },
-  {
-   "feeling": "tired",
-   "words": [
-    "అలిసిపోయా (alisipoya)",
-    "ఒళ్లు నొప్పులు (ollu noppulu, body aches)"
-   ]
-  },
-  {
-   "feeling": "bored",
-   "words": [
-    "బోరు (boru)",
-    "ఏం చెయ్యాలో తోచడం లేదు (em cheyyalo tochatam ledu, I don't know what to do)"
-   ]
-  },
-  {
-   "feeling": "lonely",
-   "words": [
-    "ఒంటరిగా ఉంది (ontariga undi)",
-    "ఎవరూ లేరు (evaru leru, nobody is here)"
-   ]
-  },
-  {
-   "feeling": "worried",
-   "words": [
-    "టెన్షన్ (tension)",
-    "కంగారు (kangaru)"
-   ]
-  }
- ],
- "week": {
-  "key": "2026-W41",
-  "monday": "2026-10-05",
-  "label": "5 to 11 October 2026"
- },
- "planNote": "No Telugu events were found this week.",
- "outings": [
-  {
-   "id": "hh_munich:2026-W41:pl_fd2af2bd",
-   "status": "approved",
-   "venue": "Hariom Temple",
-   "title": "Hariom Temple",
-   "address": "Kästlenstraße 32, 81827 München-Trudering-Riem",
-   "location": {
-    "lat": 48.115176999999996,
-    "lng": 11.6950065
-   },
-   "category": "temple",
-   "indoor": true,
-   "ladderLevel": 2,
-   "ladderLabel": "Shared culture",
-   "reasonText": "No Telugu events nearby this week. Shared culture. She liked visiting the temple in the past. By bus, about 24 minutes each way, back by 11:48.",
-   "chips": [
+  "parents": [
     {
-     "label": "Like the temple outings they enjoyed",
-     "feature": "category",
-     "direction": "for"
+      "id": "p_kamala",
+      "firstName": "Kamala",
+      "addressAs": "అమ్మా",
+      "role": "mother",
+      "language": "te",
+      "readingSupport": "audio_first"
     },
     {
-     "label": "Weekday outings rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
-    {
-     "label": "Other Indian languages, not theirs",
-     "feature": "languageMatch",
-     "direction": "against"
+      "id": "p_raghu",
+      "firstName": "Raghu",
+      "addressAs": "నాన్నగారు",
+      "role": "father",
+      "language": "te",
+      "readingSupport": "text_with_sign_words"
     }
-   ],
-   "score": {
-    "pGo": 1,
-    "enjoyment": 3.551,
-    "combined": 3.5507,
-    "rank": 1
-   },
-   "role": "mother",
-   "parentIds": [
-    "p_kamala"
-   ],
-   "date": "2026-10-05",
-   "slot": {
-    "day": "mon",
-    "depart": 570,
-    "back": 724,
-    "withAdultChild": false
-   },
-   "withAdultChild": false,
-   "firstRideTogether": true,
-   "bringSomeone": null,
-   "joinCard": {
-    "kind": "volunteer",
-    "local": "Ich möchte gern ehrenamtlich helfen. Ich spreche Telugu.",
-    "meaning": "నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ఈ భాషలు వచ్చు.",
-    "askWho": "Fragen Sie im Büro des Tempels."
-   },
-   "photo": {
-    "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk62aB2pRHXSiuGhQR9JwzwUr5-UWyDDSOUqkyM4jtwjt7zg4SXaTODskZ2AYzgAHbdVrMvTRC-aSMaZtfZUoqHPhVY1JZ5gqHhobaas7mJy2hKhnMjqGbWiMrDOkqckoaFdMXW_Q=w1000-h1000-c-n",
-    "credit": "Photo: Google Maps contributor"
-   },
-   "landmarkPhotos": [
-    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jZKzpxIzuEYakGXFNxWd1w&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=231.12599&pitch=0&thumbfov=100"
-   ],
-   "route": {
-    "legs": [
-     {
-      "mode": "walk",
-      "from": {
-       "name": "Neuperlach Zentrum",
-       "location": {
-        "lat": 48.1006,
-        "lng": 11.6466
-       }
-      },
-      "to": {
-       "name": "Neuperlach Zentrum"
-      },
-      "durationMinutes": 2,
-      "instructions": [
-       "Richtung Thomas-Dehler-Straße",
-       "Rechts abbiegen auf Thomas-Dehler-Straße",
-       "Rechts abbiegen auf Hanns-Seidel-Platz"
+  ],
+  "people": [
+    {
+      "id": "pp_frau_huber",
+      "label": "Frau Huber",
+      "relation": "Neighbor on the same floor",
+      "language": "de",
+      "knownParentIds": [
+        "p_kamala"
       ],
-      "path": []
-     },
-     {
-      "mode": "bus",
-      "from": {
-       "name": "Neuperlach Zentrum"
-      },
-      "to": {
-       "name": "Trudering",
-       "location": {
-        "lat": 48.1231749,
-        "lng": 11.6640782
-       }
-      },
-      "durationMinutes": 14,
-      "line": {
-       "name": "139",
-       "headsign": "Trudering Bf.",
-       "agency": "MVG München"
-      },
-      "numStops": 9,
-      "departureTime": "09:41",
-      "arrivalTime": "09:55",
-      "stopsBetween": [
-       {
-        "name": "Neuperlach Zentrum"
-       },
-       {
-        "name": "Siegfried-Mollier-Straße"
-       },
-       {
-        "name": "Quiddestraße"
-       },
-       {
-        "name": "Corinthstraße"
-       },
-       {
-        "name": "Matterhornstraße"
-       },
-       {
-        "name": "St.-Augustinus-Straße"
-       },
-       {
-        "name": "Halligenplatz"
-       },
-       {
-        "name": "Bajuwarenstraße",
-        "location": {
-         "lat": 48.1153335,
-         "lng": 11.6531
+      "words": [
+        {
+          "id": "hello",
+          "local": "Hallo",
+          "romanized": "hallo",
+          "pronunciation": "హలో",
+          "meaning": "నమస్కారం"
+        },
+        {
+          "id": "thanks",
+          "local": "Danke",
+          "romanized": "danke",
+          "pronunciation": "డాంకె",
+          "meaning": "ధన్యవాదాలు"
+        },
+        {
+          "id": "delicious",
+          "local": "Lecker",
+          "romanized": "lecker",
+          "pronunciation": "లెక్కర్",
+          "meaning": "చాలా రుచిగా ఉంది"
         }
-       }
+      ]
+    }
+  ],
+  "feelingWords": [
+    {
+      "feeling": "happy",
+      "words": [
+        "బాగుంది (baagundi)",
+        "సంతోషం (santosham)",
+        "మనసు బాగుంది (manasu baagundi, I feel good inside)"
+      ]
+    },
+    {
+      "feeling": "missing home",
+      "words": [
+        "ఊరు గుర్తొచ్చింది (ooru gurthochindi, I remembered home)"
       ],
-      "stopBefore": {
-       "name": "Bajuwarenstraße",
-       "location": {
-        "lat": 48.1153335,
-        "lng": 11.6531
-       }
+      "note": "Sarala specifically wants ఊరు, not a formal word for homeland."
+    },
+    {
+      "feeling": "tired",
+      "words": [
+        "అలిసిపోయా (alisipoya)",
+        "ఒళ్లు నొప్పులు (ollu noppulu, body aches)"
+      ]
+    },
+    {
+      "feeling": "bored",
+      "words": [
+        "బోరు (boru)",
+        "ఏం చెయ్యాలో తోచడం లేదు (em cheyyalo tochatam ledu, I don't know what to do)"
+      ]
+    },
+    {
+      "feeling": "lonely",
+      "words": [
+        "ఒంటరిగా ఉంది (ontariga undi)",
+        "ఎవరూ లేరు (evaru leru, nobody is here)"
+      ]
+    },
+    {
+      "feeling": "worried",
+      "words": [
+        "టెన్షన్ (tension)",
+        "కంగారు (kangaru)"
+      ]
+    }
+  ],
+  "week": {
+    "key": "2026-W41",
+    "monday": "2026-10-05",
+    "label": "5 to 11 October 2026"
+  },
+  "planNote": "No Telugu events or groups were found nearby this week.",
+  "outings": [
+    {
+      "id": "hh_munich:2026-W41:pl_3cb5763e",
+      "status": "approved",
+      "venue": "Münchner Stadtbibliothek Ramersdorf",
+      "title": "Münchner Stadtbibliothek Ramersdorf",
+      "address": "Führichstraße 43, 81671 München-Ramersdorf-Perlach",
+      "location": {
+        "lat": 48.117680199999995,
+        "lng": 11.6146827
       },
-      "instructions": [
-       "Take 139 toward Trudering Bf.",
-       "Get off at Trudering"
-      ],
-      "path": []
-     },
-     {
-      "mode": "walk",
-      "from": {
-       "name": "Trudering"
-      },
-      "to": {
-       "name": "Trudering"
-      },
-      "durationMinutes": 1,
-      "instructions": [
-       "Richtung Blanckertzweg",
-       "Links abbiegen"
-      ],
-      "path": []
-     },
-     {
-      "mode": "bus",
-      "from": {
-       "name": "Trudering"
-      },
-      "to": {
-       "name": "Bahnstraße",
-       "location": {
-        "lat": 48.116679,
-        "lng": 11.6964402
-       }
-      },
-      "durationMinutes": 10,
-      "line": {
-       "name": "193",
-       "headsign": "Haar, Jagdfeldzentrum",
-       "agency": "MVG München"
-      },
-      "numStops": 7,
-      "departureTime": "10:00",
-      "arrivalTime": "10:10",
-      "stopsBetween": [
-       {
-        "name": "Bajuwarenstraße"
-       },
-       {
-        "name": "Wasserburger Landstraße"
-       },
-       {
-        "name": "Kulturzentrum Trudering"
-       },
-       {
-        "name": "Nikolaus-Prugger-Weg"
-       },
-       {
-        "name": "Friedenspromenade"
-       },
-       {
-        "name": "Drosselweg",
-        "location": {
-         "lat": 48.1182895,
-         "lng": 11.6944332
+      "category": "library",
+      "indoor": true,
+      "ladderLevel": 4,
+      "ladderLabel": "Programs for newcomers and older adults",
+      "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. She likes visiting markets and quiet places. By U5, about 17 minutes each way, back by 11:34.",
+      "chips": [
+        {
+          "label": "Free",
+          "feature": "costUsd",
+          "direction": "for"
+        },
+        {
+          "label": "Weekday outings rated lower so far",
+          "feature": "timing",
+          "direction": "against"
+        },
+        {
+          "label": "A longer ride",
+          "feature": "trip",
+          "direction": "against"
         }
-       }
       ],
-      "stopBefore": {
-       "name": "Drosselweg",
-       "location": {
-        "lat": 48.1182895,
-        "lng": 11.6944332
-       }
+      "score": {
+        "pGo": 1,
+        "enjoyment": 4.299,
+        "combined": 4.299,
+        "rank": 1
       },
-      "instructions": [
-       "Take 193 toward Haar, Jagdfeldzentrum",
-       "Get off at Bahnstraße"
+      "role": "mother",
+      "parentIds": [
+        "p_kamala"
       ],
-      "path": []
-     },
-     {
-      "mode": "walk",
-      "from": {
-       "name": "Bahnstraße"
+      "date": "2026-10-06",
+      "slot": {
+        "day": "tue",
+        "depart": 585,
+        "back": 694,
+        "withAdultChild": false
       },
-      "to": {
-       "name": "Hariom Temple",
-       "location": {
+      "withAdultChild": false,
+      "firstRideTogether": true,
+      "bringSomeone": {
+        "personId": "pp_frau_huber",
+        "label": "Frau Huber",
+        "why": "No shared language is needed here, so a neighbor can easily come along."
+      },
+      "joinCard": null,
+      "photo": {
+        "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnBKFf3yCL819jwgASyedGI2KGkdp5ETDVDac-cA7q3x5Va0r7YDeQiShbP-M95XWPZNXCY9lMlteX0YHTvtQFI-4pqgT6vAAqiLNEW540Q3D7VuearAPgLZxK7njzGICPl9ceg=w1000-h1000-c-n",
+        "credit": "Photo: Google Maps contributor"
+      },
+      "openHours": [
+        [
+          600,
+          1140
+        ]
+      ],
+      "landmarkPhotos": [
+        "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6Q2lfbHYyXF7zHn4XoHPZg&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=125.35284&pitch=0&thumbfov=100",
+        "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=hGohApXyGFhBaXLY0qY3QQ&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=136.37285&pitch=0&thumbfov=100",
+        "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ucq_Q_MdgMGp9qnf_j7Pag&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=221.39&pitch=0&thumbfov=100",
+        "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=49SqM0-fmZ4plktfDTi1dw&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=171.46906&pitch=0&thumbfov=100"
+      ],
+      "route": {
+        "legs": [
+          {
+            "mode": "walk",
+            "from": {
+              "name": "Neuperlach Zentrum",
+              "location": {
+                "lat": 48.1006,
+                "lng": 11.6466
+              }
+            },
+            "to": {
+              "name": "Neuperlach Zentrum",
+              "location": {
+                "lat": 48.101184,
+                "lng": 11.6461739
+              }
+            },
+            "durationMinutes": 4,
+            "instructions": [
+              "Richtung Thomas-Dehler-Straße",
+              "Rechts abbiegen auf Thomas-Dehler-Straße",
+              "Rechts abbiegen auf Hanns-Seidel-Platz",
+              "Eingang C - Thomas-Dehler-Str. nehmen · Rolltreppe nehmen",
+              "Rolltreppe nehmen"
+            ],
+            "path": [
+              [
+                11.64654,
+                48.10052
+              ],
+              [
+                11.6465,
+                48.10054
+              ],
+              [
+                11.64647,
+                48.10055
+              ],
+              [
+                11.64624,
+                48.10062
+              ],
+              [
+                11.64623,
+                48.10063
+              ],
+              [
+                11.64631,
+                48.10083
+              ],
+              [
+                11.64626,
+                48.10088
+              ],
+              [
+                11.6463,
+                48.10098
+              ],
+              [
+                11.64613,
+                48.10097
+              ],
+              [
+                11.64597,
+                48.10096
+              ],
+              [
+                11.64593,
+                48.10095
+              ],
+              [
+                11.64588,
+                48.10101
+              ],
+              [
+                11.64586,
+                48.10104
+              ],
+              [
+                11.64585,
+                48.10107
+              ],
+              [
+                11.64592,
+                48.10123
+              ],
+              [
+                11.6459,
+                48.10124
+              ],
+              [
+                11.64587,
+                48.10123
+              ],
+              [
+                11.64582,
+                48.10123
+              ],
+              [
+                11.64584,
+                48.10128
+              ],
+              [
+                11.64584,
+                48.10129
+              ],
+              [
+                11.64584,
+                48.1013
+              ],
+              [
+                11.64583,
+                48.10125
+              ],
+              [
+                11.64603,
+                48.10121
+              ],
+              [
+                11.64617,
+                48.10118
+              ]
+            ]
+          },
+          {
+            "mode": "rail",
+            "from": {
+              "name": "Neuperlach Zentrum",
+              "location": {
+                "lat": 48.101184,
+                "lng": 11.6461739
+              }
+            },
+            "to": {
+              "name": "Innsbrucker Ring",
+              "location": {
+                "lat": 48.1204367,
+                "lng": 11.6187904
+              }
+            },
+            "durationMinutes": 5,
+            "line": {
+              "name": "U5",
+              "headsign": "Laimer Platz",
+              "agency": "MVG München"
+            },
+            "numStops": 3,
+            "departureTime": "09:50",
+            "arrivalTime": "09:55",
+            "stopsBetween": [
+              {
+                "name": "Quiddestraße"
+              },
+              {
+                "name": "Michaelibad",
+                "location": {
+                  "lat": 48.1183485,
+                  "lng": 11.6318229
+                }
+              }
+            ],
+            "stopBefore": {
+              "name": "Michaelibad",
+              "location": {
+                "lat": 48.1183485,
+                "lng": 11.6318229
+              }
+            },
+            "instructions": [
+              "Take U5 toward Laimer Platz",
+              "Get off at Innsbrucker Ring"
+            ],
+            "path": [
+              [
+                11.6461739,
+                48.101184
+              ],
+              [
+                11.6187904,
+                48.1204367
+              ]
+            ]
+          },
+          {
+            "mode": "walk",
+            "from": {
+              "name": "Innsbrucker Ring",
+              "location": {
+                "lat": 48.1204367,
+                "lng": 11.6187904
+              }
+            },
+            "to": {
+              "name": "Münchner Stadtbibliothek Ramersdorf",
+              "location": {
+                "lat": 48.117680199999995,
+                "lng": 11.6146827
+              }
+            },
+            "durationMinutes": 9,
+            "instructions": [
+              "Rolltreppe nehmen · Ausgang F nehmen",
+              "Richtung Rupertigaustraße",
+              "Links abbiegen auf Rupertigaustraße",
+              "Rechts Richtung Ayinger Str. abbiegen",
+              "Rechts abbiegen auf Ayinger Str.",
+              "Links abbiegen auf Führichstraße"
+            ],
+            "path": [
+              [
+                11.6188,
+                48.12047
+              ],
+              [
+                11.61825,
+                48.12051
+              ],
+              [
+                11.61791,
+                48.12053
+              ],
+              [
+                11.6179,
+                48.12045
+              ],
+              [
+                11.61789,
+                48.1204
+              ],
+              [
+                11.61788,
+                48.12035
+              ],
+              [
+                11.61778,
+                48.12036
+              ],
+              [
+                11.61777,
+                48.12031
+              ],
+              [
+                11.61776,
+                48.1202
+              ],
+              [
+                11.61776,
+                48.12018
+              ],
+              [
+                11.61774,
+                48.12018
+              ],
+              [
+                11.61756,
+                48.1202
+              ],
+              [
+                11.61753,
+                48.11996
+              ],
+              [
+                11.61758,
+                48.11988
+              ],
+              [
+                11.61758,
+                48.11978
+              ],
+              [
+                11.61756,
+                48.11972
+              ],
+              [
+                11.61749,
+                48.11962
+              ],
+              [
+                11.61746,
+                48.11949
+              ],
+              [
+                11.61745,
+                48.11942
+              ],
+              [
+                11.61745,
+                48.1193
+              ],
+              [
+                11.61745,
+                48.11926
+              ],
+              [
+                11.61743,
+                48.11914
+              ],
+              [
+                11.61745,
+                48.11908
+              ],
+              [
+                11.61745,
+                48.11899
+              ],
+              [
+                11.61744,
+                48.11879
+              ],
+              [
+                11.61743,
+                48.11864
+              ],
+              [
+                11.61743,
+                48.11857
+              ],
+              [
+                11.61742,
+                48.1185
+              ],
+              [
+                11.61739,
+                48.11846
+              ],
+              [
+                11.61732,
+                48.11839
+              ],
+              [
+                11.6173,
+                48.11834
+              ],
+              [
+                11.61712,
+                48.11835
+              ],
+              [
+                11.61695,
+                48.11836
+              ],
+              [
+                11.61587,
+                48.11844
+              ],
+              [
+                11.61501,
+                48.11851
+              ],
+              [
+                11.61473,
+                48.11852
+              ],
+              [
+                11.61448,
+                48.1185
+              ],
+              [
+                11.61427,
+                48.1185
+              ],
+              [
+                11.6143,
+                48.11843
+              ],
+              [
+                11.61448,
+                48.11787
+              ],
+              [
+                11.61451,
+                48.11777
+              ],
+              [
+                11.61452,
+                48.11774
+              ],
+              [
+                11.61454,
+                48.11766
+              ]
+            ]
+          }
+        ],
+        "totalMinutes": 17,
+        "transfers": 0,
+        "walkingMinutes": 13,
+        "source": "transit_directions",
+        "startsAt": {
+          "name": "Neuperlach Zentrum",
+          "location": {
+            "lat": 48.1006,
+            "lng": 11.6466
+          }
+        }
+      },
+      "cards": [
+        {
+          "parentId": "p_kamala",
+          "role": "mother",
+          "title": "Münchner Stadtbibliothek Ramersdorf కి",
+          "body": "అమ్మా, మంగళవారం 09:45కి Münchner Stadtbibliothek Ramersdorf కి వెళ్దాం. Neuperlach Zentrum కి 4 నిమిషాలు నడిచి వెళ్లి, Bus U5 ఎక్కి 3 స్టాపుల తర్వాత Innsbrucker Ring దగ్గర దిగండి. అక్కడి నుండి 9 నిమిషాల నడక తర్వాత చేరుకుంటారు. 11:34కి ఇంటికి వచ్చేయొచ్చు. ఎవరికీ మీ బ్యాంక్ వివరాలు చెప్పకండి, ఎవరికీ డబ్బులు చెల్లించకండి.",
+          "writer": {
+            "kind": "gemma",
+            "model": "@cf/google/gemma-4-26b-a4b-it",
+            "latencyMs": 4583
+          },
+          "rubric": {
+            "passed": true,
+            "failures": [],
+            "words": 47,
+            "scriptOk": true
+          },
+          "phrases": [
+            {
+              "id": "join",
+              "local": "Darf ich mitmachen?",
+              "pronunciation": "దార్ఫ్ ఇష్ మిట్‌మాఖెన్?",
+              "meaning": "నేను కూడా చేరవచ్చా?"
+            },
+            {
+              "id": "slowly",
+              "local": "Bitte sprechen Sie langsam.",
+              "pronunciation": "బిట్టె ష్ప్రెషెన్ జీ లాంగ్‌సామ్.",
+              "meaning": "దయచేసి నెమ్మదిగా మాట్లాడండి."
+            },
+            {
+              "id": "bathroom",
+              "local": "Wo ist die Toilette?",
+              "pronunciation": "వో ఇస్ట్ డీ టొయిలెట్టె?",
+              "meaning": "టాయిలెట్ ఎక్కడ ఉంది?"
+            }
+          ],
+          "driver": {
+            "lead": "Bitte sagen Sie mir Bescheid, wenn wir hier sind:",
+            "stopName": "Innsbrucker Ring",
+            "thanks": "Danke schön."
+          },
+          "steps": [
+            {
+              "mode": "walk",
+              "text": "Neuperlach Zentrum స్టాప్ దాకా సుమారు 4 నిమిషాలు నడవండి.",
+              "signWords": [
+                "Neuperlach Zentrum"
+              ]
+            },
+            {
+              "mode": "rail",
+              "text": "Neuperlach Zentrum దగ్గర U5 రైలు ఎక్కండి (Laimer Platz వైపు వెళ్ళేది).",
+              "signWords": [
+                "U5",
+                "Laimer Platz",
+                "Neuperlach Zentrum"
+              ]
+            },
+            {
+              "mode": "wait",
+              "stops": 3,
+              "text": "3 స్టాపులు కూర్చోండి. Michaelibad దాటగానే Halt అని రాసి ఉన్న బటన్ నొక్కండి.",
+              "signWords": [
+                "Michaelibad",
+                "Halt"
+              ]
+            },
+            {
+              "mode": "arrive",
+              "text": "Innsbrucker Ring దగ్గర దిగండి.",
+              "signWords": [
+                "Innsbrucker Ring"
+              ]
+            },
+            {
+              "mode": "walk",
+              "text": "దిగిన తర్వాత Münchner Stadtbibliothek Ramersdorf దాకా సుమారు 9 నిమిషాలు నడవండి.",
+              "signWords": [
+                "Münchner Stadtbibliothek Ramersdorf"
+              ]
+            },
+            {
+              "mode": "arrive",
+              "text": "Münchner Stadtbibliothek Ramersdorf చేరుకున్నారు.",
+              "signWords": [
+                "Münchner Stadtbibliothek Ramersdorf"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hh_munich:2026-W41:pl_f63f0887",
+      "status": "approved",
+      "venue": "Münchner Stadtbibliothek Neuperlach",
+      "title": "Münchner Stadtbibliothek Neuperlach",
+      "address": "Charles-de-Gaulle-Straße 2A, 81737 München-Ramersdorf-Perlach",
+      "location": {
+        "lat": 48.1018675,
+        "lng": 11.644242199999999
+      },
+      "category": "library",
+      "indoor": true,
+      "ladderLevel": 4,
+      "ladderLabel": "Programs for newcomers and older adults",
+      "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. A 4-minute walk, back by 11:23.",
+      "chips": [
+        {
+          "label": "Weekday outings rated lower so far",
+          "feature": "timing",
+          "direction": "against"
+        },
+        {
+          "label": "Free",
+          "feature": "costUsd",
+          "direction": "for"
+        },
+        {
+          "label": "Not in their language",
+          "feature": "languageMatch",
+          "direction": "against"
+        }
+      ],
+      "score": {
+        "pGo": 0.8826,
+        "enjoyment": 4.009,
+        "combined": 3.5379,
+        "rank": 2
+      },
+      "role": "father",
+      "parentIds": [
+        "p_raghu"
+      ],
+      "date": "2026-10-07",
+      "slot": {
+        "day": "wed",
+        "depart": 600,
+        "back": 683,
+        "withAdultChild": false
+      },
+      "withAdultChild": false,
+      "firstRideTogether": true,
+      "bringSomeone": null,
+      "joinCard": null,
+      "photo": {
+        "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWncl_18rwOhpzIYPDZlpeyyRkK22RX_vh0MjK66h0mtdkStZx80HPGptuft3UZeNbcpD-J4PxoLGTcTgCdxt2kS6_-2E_6JWdeVftQf2lm3QvZBkPVgqpcDJsxAH7FsI62T0l70Qw=w1000-h1000-c-n",
+        "credit": "Photo: Google Maps contributor"
+      },
+      "openHours": [
+        [
+          600,
+          1140
+        ]
+      ],
+      "landmarkPhotos": [],
+      "route": {
+        "legs": [
+          {
+            "mode": "walk",
+            "from": {
+              "name": "Neuperlach Zentrum",
+              "location": {
+                "lat": 48.1006,
+                "lng": 11.6466
+              }
+            },
+            "to": {
+              "name": "Münchner Stadtbibliothek Neuperlach",
+              "location": {
+                "lat": 48.1018675,
+                "lng": 11.644242199999999
+              }
+            },
+            "durationMinutes": 4,
+            "instructions": [
+              "Walk about 4 minutes to Münchner Stadtbibliothek Neuperlach."
+            ],
+            "path": [
+              [
+                11.64654,
+                48.10052
+              ],
+              [
+                11.6465,
+                48.10054
+              ],
+              [
+                11.64647,
+                48.10055
+              ],
+              [
+                11.64624,
+                48.10062
+              ],
+              [
+                11.64623,
+                48.10063
+              ],
+              [
+                11.64631,
+                48.10083
+              ],
+              [
+                11.64626,
+                48.10088
+              ],
+              [
+                11.6463,
+                48.10098
+              ],
+              [
+                11.64613,
+                48.10097
+              ],
+              [
+                11.64597,
+                48.10096
+              ],
+              [
+                11.64593,
+                48.10095
+              ],
+              [
+                11.64585,
+                48.10095
+              ],
+              [
+                11.64578,
+                48.10101
+              ],
+              [
+                11.64559,
+                48.10105
+              ],
+              [
+                11.64551,
+                48.10107
+              ],
+              [
+                11.64549,
+                48.10107
+              ],
+              [
+                11.64544,
+                48.10117
+              ],
+              [
+                11.64514,
+                48.10123
+              ],
+              [
+                11.64507,
+                48.10124
+              ],
+              [
+                11.64482,
+                48.10128
+              ],
+              [
+                11.6445,
+                48.10134
+              ],
+              [
+                11.64443,
+                48.10135
+              ],
+              [
+                11.64424,
+                48.10138
+              ],
+              [
+                11.64428,
+                48.10146
+              ],
+              [
+                11.64431,
+                48.10154
+              ],
+              [
+                11.64438,
+                48.10173
+              ],
+              [
+                11.64442,
+                48.10181
+              ],
+              [
+                11.64427,
+                48.10184
+              ]
+            ]
+          }
+        ],
+        "totalMinutes": 4,
+        "transfers": 0,
+        "walkingMinutes": 4,
+        "source": "osm_walking",
+        "startsAt": {
+          "name": "Neuperlach Zentrum",
+          "location": {
+            "lat": 48.1006,
+            "lng": 11.6466
+          }
+        }
+      },
+      "cards": [
+        {
+          "parentId": "p_raghu",
+          "role": "father",
+          "title": "Münchner Stadtbibliothek Neuperlach కి",
+          "body": "నాన్నగారు, బుధవారం 10:00కి Münchner Stadtbibliothek Neuperlach కి వెళ్దాం. 4 నిమిషాల నడకతో అక్కడికి చేరుకోవచ్చు. మీరు అక్కడ పుస్తకాలు చూడవచ్చు. 11:23కి ఇంటికి వచ్చేయొచ్చు.",
+          "writer": {
+            "kind": "gemma",
+            "model": "@cf/google/gemma-4-26b-a4b-it",
+            "latencyMs": 4192
+          },
+          "rubric": {
+            "passed": true,
+            "failures": [],
+            "words": 24,
+            "scriptOk": true
+          },
+          "phrases": [
+            {
+              "id": "join",
+              "local": "Darf ich mitmachen?",
+              "pronunciation": "దార్ఫ్ ఇష్ మిట్‌మాఖెన్?",
+              "meaning": "నేను కూడా చేరవచ్చా?"
+            },
+            {
+              "id": "slowly",
+              "local": "Bitte sprechen Sie langsam.",
+              "pronunciation": "బిట్టె ష్ప్రెషెన్ జీ లాంగ్‌సామ్.",
+              "meaning": "దయచేసి నెమ్మదిగా మాట్లాడండి."
+            },
+            {
+              "id": "bathroom",
+              "local": "Wo ist die Toilette?",
+              "pronunciation": "వో ఇస్ట్ డీ టొయిలెట్టె?",
+              "meaning": "టాయిలెట్ ఎక్కడ ఉంది?"
+            }
+          ],
+          "driver": {
+            "lead": "Bitte sagen Sie mir Bescheid, wenn wir hier sind:",
+            "stopName": "Münchner Stadtbibliothek Neuperlach",
+            "thanks": "Danke schön."
+          },
+          "steps": [
+            {
+              "mode": "walk",
+              "text": "ఇంటి దగ్గర నుండి Münchner Stadtbibliothek Neuperlach దాకా సుమారు 4 నిమిషాలు నడవండి.",
+              "signWords": [
+                "Münchner Stadtbibliothek Neuperlach"
+              ]
+            },
+            {
+              "mode": "arrive",
+              "text": "Münchner Stadtbibliothek Neuperlach చేరుకున్నారు.",
+              "signWords": [
+                "Münchner Stadtbibliothek Neuperlach"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hh_munich:2026-W41:pl_fd2af2bd",
+      "status": "approved",
+      "venue": "Hariom Temple",
+      "title": "Hariom Temple",
+      "address": "Kästlenstraße 32, 81827 München-Trudering-Riem",
+      "location": {
         "lat": 48.115176999999996,
         "lng": 11.6950065
-       }
       },
-      "durationMinutes": 1,
-      "instructions": [
-       "Richtung Kästlenstraße",
-       "Links abbiegen auf Kästlenstraße"
-      ],
-      "path": [
-       {
-        "lat": 48.11534760739593,
-        "lng": 11.695465687246045
-       }
-      ]
-     }
-    ],
-    "totalMinutes": 32,
-    "transfers": 1,
-    "walkingMinutes": 4,
-    "source": "transit_directions",
-    "startsAt": {
-     "name": "Neuperlach Zentrum",
-     "location": {
-      "lat": 48.1006,
-      "lng": 11.6466
-     }
-    }
-   },
-   "cards": [
-    {
-     "parentId": "p_kamala",
-     "role": "mother",
-     "title": "Hariom Temple కి",
-     "body": "అమ్మా, సోమవారం 09:30కి Hariom Temple కి వెళ్దాం. Neuperlach Zentrum నుండి Bus 139 ఎక్కి, 9 స్టాపుల తర్వాత Trudering దగ్గర దిగండి. అక్కడ నుండి Bus 193 ఎక్కి, 7 స్టాపుల తర్వాత Bahnstraße దగ్గర దిగితే గుడి చేరుకోవచ్చు. అక్కడ అందమైన హిందూ దేవాలయం ఉంటుంది. 12:04కి ఇంటికి వచ్చేయొచ్చు. ఎవరికీ మీ బ్యాంక్ వివరాలు చెప్పకండి, ఎవరికీ డబ్బులు కట్టకండి.",
-     "writer": {
-      "kind": "gemma",
-      "model": "@cf/google/gemma-4-26b-a4b-it",
-      "latencyMs": 3204
-     },
-     "rubric": {
-      "passed": true,
-      "failures": [],
-      "words": 51,
-      "scriptOk": true
-     },
-     "phrases": [
-      {
-       "id": "shoes",
-       "local": "Wo kann ich meine Schuhe lassen?",
-       "pronunciation": "వో కాన్ ఇష్ మైనె షూయె లాస్సెన్?",
-       "meaning": "చెప్పులు ఎక్కడ విడవాలి?"
-      },
-      {
-       "id": "bathroom",
-       "local": "Wo ist die Toilette?",
-       "pronunciation": "వో ఇస్ట్ డీ టొయిలెట్టె?",
-       "meaning": "టాయిలెట్ ఎక్కడ ఉంది?"
-      },
-      {
-       "id": "call",
-       "local": "Bitte rufen Sie diese Nummer an.",
-       "pronunciation": "బిట్టె రూఫెన్ జీ డీజె నుమ్మర్ ఆన్.",
-       "meaning": "దయచేసి ఈ నంబర్‌కి ఫోన్ చేయండి."
-      }
-     ],
-     "driver": {
-      "lead": "Bitte sagen Sie mir Bescheid, wenn wir hier sind:",
-      "stopName": "Bahnstraße",
-      "thanks": "Danke schön."
-     },
-     "steps": [
-      {
-       "mode": "walk",
-       "text": "Neuperlach Zentrum స్టాప్ దాకా సుమారు 2 నిమిషాలు నడవండి.",
-       "signWords": [
-        "Neuperlach Zentrum"
-       ]
-      },
-      {
-       "mode": "bus",
-       "text": "Neuperlach Zentrum దగ్గర 139 బస్సు ఎక్కండి (Trudering Bf. వైపు వెళ్ళేది).",
-       "signWords": [
-        "139",
-        "Trudering Bf.",
-        "Neuperlach Zentrum"
-       ]
-      },
-      {
-       "mode": "wait",
-       "stops": 9,
-       "text": "9 స్టాపులు కూర్చోండి. Bajuwarenstraße దాటగానే Halt అని రాసి ఉన్న బటన్ నొక్కండి.",
-       "signWords": [
-        "Bajuwarenstraße",
-        "Halt"
-       ]
-      },
-      {
-       "mode": "arrive",
-       "text": "Trudering దగ్గర దిగండి.",
-       "signWords": [
-        "Trudering"
-       ]
-      },
-      {
-       "mode": "walk",
-       "text": "Trudering స్టాప్ దాకా సుమారు 1 నిమిషాలు నడవండి.",
-       "signWords": [
-        "Trudering"
-       ]
-      },
-      {
-       "mode": "bus",
-       "text": "Trudering దగ్గర 193 బస్సు ఎక్కండి (Haar, Jagdfeldzentrum వైపు వెళ్ళేది).",
-       "signWords": [
-        "193",
-        "Haar, Jagdfeldzentrum",
-        "Trudering"
-       ]
-      },
-      {
-       "mode": "wait",
-       "stops": 7,
-       "text": "7 స్టాపులు కూర్చోండి. Drosselweg దాటగానే Halt అని రాసి ఉన్న బటన్ నొక్కండి.",
-       "signWords": [
-        "Drosselweg",
-        "Halt"
-       ]
-      },
-      {
-       "mode": "arrive",
-       "text": "Bahnstraße దగ్గర దిగండి.",
-       "signWords": [
-        "Bahnstraße"
-       ]
-      },
-      {
-       "mode": "walk",
-       "text": "దిగిన తర్వాత Hariom Temple దాకా సుమారు 1 నిమిషాలు నడవండి.",
-       "signWords": [
-        "Hariom Temple"
-       ]
-      },
-      {
-       "mode": "arrive",
-       "text": "Hariom Temple చేరుకున్నారు.",
-       "signWords": [
-        "Hariom Temple"
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "hh_munich:2026-W41:pl_c2687fb7",
-   "status": "suggested",
-   "venue": "Indian-Grocery-Store München",
-   "title": "Indian-Grocery-Store München",
-   "address": "Berg-am-Laim-Straße 73, 81673 München-Berg am Laim",
-   "location": {
-    "lat": 48.1306386,
-    "lng": 11.6188371
-   },
-   "category": "indian_grocery",
-   "indoor": true,
-   "ladderLevel": 2,
-   "ladderLabel": "Shared culture",
-   "reasonText": "No Telugu events nearby this week. Shared culture. She enjoys visiting Indian grocery stores. By bus, about 24 minutes each way, back by 11:08.",
-   "chips": [
-    {
-     "label": "Weekday outings rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
-    {
-     "label": "Other Indian languages, not theirs",
-     "feature": "languageMatch",
-     "direction": "against"
-    },
-    {
-     "label": "A longer ride",
-     "feature": "trip",
-     "direction": "against"
-    }
-   ],
-   "score": {
-    "pGo": 1,
-    "enjoyment": 3.363,
-    "combined": 3.3629,
-    "rank": 2
-   },
-   "role": "mother",
-   "parentIds": [
-    "p_kamala"
-   ],
-   "date": "2026-10-06",
-   "slot": {
-    "day": "tue",
-    "depart": 570,
-    "back": 668,
-    "withAdultChild": false
-   },
-   "withAdultChild": false,
-   "firstRideTogether": true,
-   "bringSomeone": null,
-   "joinCard": null,
-   "photo": {
-    "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TvYOPSfmU7i5o82yaMHnSHFVKA9oSTlY7vTu-o94H1IGaGqeVSRLaoQHfXSnSTN81wdFbY5m36jOcUUK75MldETRkBpujZWOA-zy6DHu2CG6zt6bSh0vgaX4GbYRk9iSH4ehpkPw=w1000-h1000-c-n",
-    "credit": "Photo: Google Maps contributor"
-   },
-   "landmarkPhotos": [],
-   "route": null,
-   "cards": []
-  },
-  {
-   "id": "hh_munich:2026-W41:pl_676c0ee3",
-   "status": "approved",
-   "venue": "Balan Park",
-   "title": "Balan Park",
-   "address": "Oggersheimer Str. 11, 81539 München-Ramersdorf-Perlach",
-   "location": {
-    "lat": 48.1136213,
-    "lng": 11.601256999999999
-   },
-   "category": "park",
-   "indoor": false,
-   "ladderLevel": 3,
-   "ladderLabel": "Language barely matters",
-   "reasonText": "No Telugu events nearby this week. No language needed. He enjoys walking in parks when the weather is pleasant. By bus, about 23 minutes each way, back by 09:46.",
-   "chips": [
-    {
-     "label": "Good weather for it",
-     "feature": "weather",
-     "direction": "for"
-    },
-    {
-     "label": "Like the park outings they enjoyed",
-     "feature": "category",
-     "direction": "for"
-    },
-    {
-     "label": "Small and calm",
-     "feature": "setting",
-     "direction": "for"
-    }
-   ],
-   "score": {
-    "pGo": 0.8575,
-    "enjoyment": 3.52,
-    "combined": 3.0184,
-    "rank": 3
-   },
-   "role": "father",
-   "parentIds": [
-    "p_raghu"
-   ],
-   "date": "2026-10-06",
-   "slot": {
-    "day": "tue",
-    "depart": 480,
-    "back": 600,
-    "withAdultChild": false
-   },
-   "withAdultChild": false,
-   "firstRideTogether": true,
-   "bringSomeone": null,
-   "joinCard": null,
-   "photo": {
-    "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPdzerS4Gz-nsYUgGya46QTP_OcOJm5zMWoEQvE4wbE8bfFlPxMyMaGYxCxCAfwhxbPGDf7ithmeS110uK17JAFCoNa-yB_WRqFYU4x0cUfXn7sY_5Bd1Y6ZklfLUj6BIfqjjjlbQ=w1000-h1000-c-n",
-    "credit": "Photo: Google Maps contributor"
-   },
-   "landmarkPhotos": [
-    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wd4LirPYHE4fwzZq91IgmA&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=84.12038&pitch=0&thumbfov=100",
-    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5xOg2Si1yN6zTwhEtBe8EA&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=109.50942&pitch=0&thumbfov=100"
-   ],
-   "route": {
-    "legs": [
-     {
-      "mode": "walk",
-      "from": {
-       "name": "Neuperlach Zentrum",
-       "location": {
-        "lat": 48.1006,
-        "lng": 11.6466
-       }
-      },
-      "to": {
-       "name": "Neuperlach Zentrum"
-      },
-      "durationMinutes": 2,
-      "instructions": [
-       "Richtung Thomas-Dehler-Straße",
-       "Rechts abbiegen auf Thomas-Dehler-Straße",
-       "Rechts abbiegen auf Hanns-Seidel-Platz"
-      ],
-      "path": []
-     },
-     {
-      "mode": "bus",
-      "from": {
-       "name": "Neuperlach Zentrum"
-      },
-      "to": {
-       "name": "Balanstraße",
-       "location": {
-        "lat": 48.1247897,
-        "lng": 11.5962614
-       }
-      },
-      "durationMinutes": 18,
-      "line": {
-       "name": "139",
-       "headsign": "Klinikum Harlaching",
-       "agency": "MVG München"
-      },
-      "numStops": 11,
-      "departureTime": "08:06",
-      "arrivalTime": "08:24",
-      "stopsBetween": [
-       {
-        "name": "Neuperlach Zentrum"
-       },
-       {
-        "name": "Jakob-Kaiser-Straße"
-       },
-       {
-        "name": "Holzwiesenstraße"
-       },
-       {
-        "name": "Wilhelm-Hoegner-Straße"
-       },
-       {
-        "name": "Pfanzeltplatz"
-       },
-       {
-        "name": "Neuer Südfriedhof"
-       },
-       {
-        "name": "Anneliese-Fleyenschmidt-Straße"
-       },
-       {
-        "name": "Mitterweg"
-       },
-       {
-        "name": "Hochäckerstraße"
-       },
-       {
-        "name": "Ständlerstraße",
-        "location": {
-         "lat": 48.1029346,
-         "lng": 11.5980811
+      "category": "temple",
+      "indoor": true,
+      "ladderLevel": 2,
+      "ladderLabel": "Shared culture",
+      "reasonText": "No Telugu events nearby this week. Shared culture. She loved the previous temple outings. With you on Sunday, about 24 minutes away, back by 13:03.",
+      "chips": [
+        {
+          "label": "Like the temple outings they enjoyed",
+          "feature": "category",
+          "direction": "for"
+        },
+        {
+          "label": "Weekday outings rated lower so far",
+          "feature": "timing",
+          "direction": "against"
+        },
+        {
+          "label": "No familiar faces yet",
+          "feature": "knowsSomeone",
+          "direction": "against"
         }
-       }
       ],
-      "stopBefore": {
-       "name": "Ständlerstraße",
-       "location": {
-        "lat": 48.1029346,
-        "lng": 11.5980811
-       }
+      "score": {
+        "pGo": 1,
+        "enjoyment": 3.494,
+        "combined": 3.4935,
+        "rank": 3
       },
-      "instructions": [
-       "Take 139 toward Klinikum Harlaching",
-       "Get off at Balanstraße"
+      "role": "mother",
+      "parentIds": [
+        "p_kamala"
       ],
-      "path": []
-     },
-     {
-      "mode": "walk",
-      "from": {
-       "name": "Balanstraße"
+      "date": "2026-10-11",
+      "slot": {
+        "day": "sun",
+        "depart": 645,
+        "back": 783,
+        "withAdultChild": true
       },
-      "to": {
-       "name": "Balan Park",
-       "location": {
-        "lat": 48.1136213,
-        "lng": 11.601256999999999
-       }
+      "withAdultChild": true,
+      "firstRideTogether": false,
+      "bringSomeone": null,
+      "joinCard": {
+        "kind": "volunteer",
+        "local": "Ich möchte gern ehrenamtlich helfen. Ich spreche Telugu.",
+        "meaning": "నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ఈ భాషలు వచ్చు.",
+        "askWho": "Fragen Sie im Büro des Tempels."
       },
-      "durationMinutes": 10,
-      "instructions": [
-       "Richtung Balanstraße",
-       "Links abbiegen auf Balanstraße",
-       "Links abbiegen auf Bad-Dürkheimer-Straße",
-       "Rechts abbiegen",
-       "Links abbiegen",
-       "Rechts abbiegen"
+      "photo": {
+        "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk62aB2pRHXSiuGhQR9JwzwUr5-UWyDDSOUqkyM4jtwjt7zg4SXaTODskZ2AYzgAHbdVrMvTRC-aSMaZtfZUoqHPhVY1JZ5gqHhobaas7mJy2hKhnMjqGbWiMrDOkqckoaFdMXW_Q=w1000-h1000-c-n",
+        "credit": "Photo: Google Maps contributor"
+      },
+      "openHours": [
+        [
+          660,
+          990
+        ]
       ],
-      "path": [
-       {
-        "lat": 48.10846172038005,
-        "lng": 11.603351142700577
-       },
-       {
-        "lat": 48.11301154569535,
-        "lng": 11.601465799088686
-       }
+      "landmarkPhotos": [],
+      "route": null,
+      "cards": [
+        {
+          "parentId": "p_kamala",
+          "role": "mother",
+          "title": "Hariom Temple కి",
+          "body": "అమ్మా, ఆదివారం 10:45కి Hariom Temple కి వెళ్దాం. కారులో కలిసి వెళ్తాము. అక్కడ Hariom Temple చూడవచ్చు. 13:03కి మీరు ఇంటికి వచ్చేయొచ్చు.",
+          "writer": {
+            "kind": "gemma",
+            "model": "@cf/google/gemma-4-26b-a4b-it",
+            "latencyMs": 3570
+          },
+          "rubric": {
+            "passed": true,
+            "failures": [],
+            "words": 21,
+            "scriptOk": true
+          },
+          "phrases": [
+            {
+              "id": "shoes",
+              "local": "Wo kann ich meine Schuhe lassen?",
+              "pronunciation": "వో కాన్ ఇష్ మైనె షూయె లాస్సెన్?",
+              "meaning": "చెప్పులు ఎక్కడ విడవాలి?"
+            },
+            {
+              "id": "bathroom",
+              "local": "Wo ist die Toilette?",
+              "pronunciation": "వో ఇస్ట్ డీ టొయిలెట్టె?",
+              "meaning": "టాయిలెట్ ఎక్కడ ఉంది?"
+            },
+            {
+              "id": "call",
+              "local": "Bitte rufen Sie diese Nummer an.",
+              "pronunciation": "బిట్టె రూఫెన్ జీ డీజె నుమ్మర్ ఆన్.",
+              "meaning": "దయచేసి ఈ నంబర్‌కి ఫోన్ చేయండి."
+            }
+          ],
+          "driver": {
+            "lead": "Bitte sagen Sie mir Bescheid, wenn wir hier sind:",
+            "stopName": "Hariom Temple",
+            "thanks": "Danke schön."
+          },
+          "steps": []
+        }
       ]
-     }
-    ],
-    "totalMinutes": 30,
-    "transfers": 0,
-    "walkingMinutes": 12,
-    "source": "transit_directions",
-    "startsAt": {
-     "name": "Neuperlach Zentrum",
-     "location": {
-      "lat": 48.1006,
-      "lng": 11.6466
-     }
-    }
-   },
-   "cards": [
-    {
-     "parentId": "p_raghu",
-     "role": "father",
-     "title": "Balan Park కి",
-     "body": "నాన్నగారు, మంగళవారం 08:00కి Balan Park కి వెళ్దాం. Neuperlach Zentrum కి 2 నిమిషాలు నడిచి, అక్కడ Bus 139 ఎక్కండి. 11 స్టాపుల తర్వాత Balanstraße దగ్గర దిగి, 10 నిమిషాలు నడిస్తే Balan Park చేరుకుంటారు. అక్కడ పార్కులో కాసేపు హాయిగా ఉండొచ్చు. 10:00కి ఇంటికి వచ్చేయొచ్చు.",
-     "writer": {
-      "kind": "gemma",
-      "model": "@cf/google/gemma-4-26b-a4b-it",
-      "latencyMs": 3237
-     },
-     "rubric": {
-      "passed": true,
-      "failures": [],
-      "words": 40,
-      "scriptOk": true
-     },
-     "phrases": [
-      {
-       "id": "bathroom",
-       "local": "Wo ist die Toilette?",
-       "pronunciation": "వో ఇస్ట్ డీ టొయిలెట్టె?",
-       "meaning": "టాయిలెట్ ఎక్కడ ఉంది?"
-      },
-      {
-       "id": "help",
-       "local": "Ich brauche Hilfe.",
-       "pronunciation": "ఇష్ బ్రౌఖె హిల్ఫె.",
-       "meaning": "నాకు సహాయం కావాలి."
-      },
-      {
-       "id": "call",
-       "local": "Bitte rufen Sie diese Nummer an.",
-       "pronunciation": "బిట్టె రూఫెన్ జీ డీజె నుమ్మర్ ఆన్.",
-       "meaning": "దయచేసి ఈ నంబర్‌కి ఫోన్ చేయండి."
-      }
-     ],
-     "driver": {
-      "lead": "Bitte sagen Sie mir Bescheid, wenn wir hier sind:",
-      "stopName": "Balanstraße",
-      "thanks": "Danke schön."
-     },
-     "steps": [
-      {
-       "mode": "walk",
-       "text": "Neuperlach Zentrum స్టాప్ దాకా సుమారు 2 నిమిషాలు నడవండి.",
-       "signWords": [
-        "Neuperlach Zentrum"
-       ]
-      },
-      {
-       "mode": "bus",
-       "text": "Neuperlach Zentrum దగ్గర 139 బస్సు ఎక్కండి (Klinikum Harlaching వైపు వెళ్ళేది).",
-       "signWords": [
-        "139",
-        "Klinikum Harlaching",
-        "Neuperlach Zentrum"
-       ]
-      },
-      {
-       "mode": "wait",
-       "stops": 11,
-       "text": "11 స్టాపులు కూర్చోండి. Ständlerstraße దాటగానే Halt అని రాసి ఉన్న బటన్ నొక్కండి.",
-       "signWords": [
-        "Ständlerstraße",
-        "Halt"
-       ]
-      },
-      {
-       "mode": "arrive",
-       "text": "Balanstraße దగ్గర దిగండి.",
-       "signWords": [
-        "Balanstraße"
-       ]
-      },
-      {
-       "mode": "walk",
-       "text": "దిగిన తర్వాత Balan Park దాకా సుమారు 10 నిమిషాలు నడవండి.",
-       "signWords": [
-        "Balan Park"
-       ]
-      },
-      {
-       "mode": "arrive",
-       "text": "Balan Park చేరుకున్నారు.",
-       "signWords": [
-        "Balan Park"
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "hh_munich:2026-W41:pl_4ef55187",
-   "status": "approved",
-   "venue": "Desi Markt",
-   "title": "Desi Markt",
-   "address": "Albert-Schweitzer-Straße 78, 81735 München",
-   "location": {
-    "lat": 48.1064302,
-    "lng": 11.6451376
-   },
-   "category": "indian_grocery",
-   "indoor": true,
-   "ladderLevel": 2,
-   "ladderLabel": "Shared culture",
-   "reasonText": "No Telugu events nearby this week. Shared culture. He liked the Indian grocery outings before. A 11-minute walk, back by 09:12.",
-   "chips": [
-    {
-     "label": "Weekday outings rated lower so far",
-     "feature": "timing",
-     "direction": "against"
     },
     {
-     "label": "Like the indian grocery outings they enjoyed",
-     "feature": "category",
-     "direction": "for"
+      "id": "hh_munich:2026-W41:pl_c2687fb7",
+      "status": "suggested",
+      "venue": "Indian-Grocery-Store München",
+      "title": "Indian-Grocery-Store München",
+      "address": "Berg-am-Laim-Straße 73, 81673 München-Berg am Laim",
+      "location": {
+        "lat": 48.1306386,
+        "lng": 11.6188371
+      },
+      "category": "indian_grocery",
+      "indoor": true,
+      "ladderLevel": 2,
+      "ladderLabel": "Shared culture",
+      "reasonText": "No Telugu events nearby this week. Shared culture. They enjoyed visiting Indian grocery stores before. By U5, about 30 minutes each way, back by 11:35.",
+      "chips": [
+        {
+          "label": "Weekday outings rated lower so far",
+          "feature": "timing",
+          "direction": "against"
+        },
+        {
+          "label": "Other Indian languages, not theirs",
+          "feature": "languageMatch",
+          "direction": "against"
+        },
+        {
+          "label": "A longer ride",
+          "feature": "trip",
+          "direction": "against"
+        }
+      ],
+      "score": {
+        "pGo": 1,
+        "enjoyment": 3.363,
+        "combined": 3.3629,
+        "rank": 4
+      },
+      "role": "mother",
+      "parentIds": [
+        "p_kamala"
+      ],
+      "date": "2026-10-05",
+      "slot": {
+        "day": "mon",
+        "depart": 585,
+        "back": 695,
+        "withAdultChild": false
+      },
+      "withAdultChild": false,
+      "firstRideTogether": true,
+      "bringSomeone": null,
+      "joinCard": null,
+      "photo": {
+        "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TvYOPSfmU7i5o82yaMHnSHFVKA9oSTlY7vTu-o94H1IGaGqeVSRLaoQHfXSnSTN81wdFbY5m36jOcUUK75MldETRkBpujZWOA-zy6DHu2CG6zt6bSh0vgaX4GbYRk9iSH4ehpkPw=w1000-h1000-c-n",
+        "credit": "Photo: Google Maps contributor"
+      },
+      "openHours": [
+        [
+          600,
+          1200
+        ]
+      ],
+      "landmarkPhotos": [
+        "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6Q2lfbHYyXF7zHn4XoHPZg&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=125.35284&pitch=0&thumbfov=100",
+        "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=hGohApXyGFhBaXLY0qY3QQ&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=136.37285&pitch=0&thumbfov=100",
+        "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wphYCIk6IdvpLoZxNwB1Uw&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=17.182444&pitch=0&thumbfov=100"
+      ],
+      "route": {
+        "legs": [
+          {
+            "mode": "walk",
+            "from": {
+              "name": "Neuperlach Zentrum",
+              "location": {
+                "lat": 48.1006,
+                "lng": 11.6466
+              }
+            },
+            "to": {
+              "name": "Neuperlach Zentrum",
+              "location": {
+                "lat": 48.101184,
+                "lng": 11.6461739
+              }
+            },
+            "durationMinutes": 4,
+            "instructions": [
+              "Richtung Thomas-Dehler-Straße",
+              "Rechts abbiegen auf Thomas-Dehler-Straße",
+              "Rechts abbiegen auf Hanns-Seidel-Platz",
+              "Eingang C - Thomas-Dehler-Str. nehmen · Rolltreppe nehmen",
+              "Rolltreppe nehmen"
+            ],
+            "path": [
+              [
+                11.64654,
+                48.10052
+              ],
+              [
+                11.6465,
+                48.10054
+              ],
+              [
+                11.64647,
+                48.10055
+              ],
+              [
+                11.64624,
+                48.10062
+              ],
+              [
+                11.64623,
+                48.10063
+              ],
+              [
+                11.64631,
+                48.10083
+              ],
+              [
+                11.64626,
+                48.10088
+              ],
+              [
+                11.6463,
+                48.10098
+              ],
+              [
+                11.64613,
+                48.10097
+              ],
+              [
+                11.64597,
+                48.10096
+              ],
+              [
+                11.64593,
+                48.10095
+              ],
+              [
+                11.64588,
+                48.10101
+              ],
+              [
+                11.64586,
+                48.10104
+              ],
+              [
+                11.64585,
+                48.10107
+              ],
+              [
+                11.64592,
+                48.10123
+              ],
+              [
+                11.6459,
+                48.10124
+              ],
+              [
+                11.64587,
+                48.10123
+              ],
+              [
+                11.64582,
+                48.10123
+              ],
+              [
+                11.64584,
+                48.10128
+              ],
+              [
+                11.64584,
+                48.10129
+              ],
+              [
+                11.64584,
+                48.1013
+              ],
+              [
+                11.64583,
+                48.10125
+              ],
+              [
+                11.64603,
+                48.10121
+              ],
+              [
+                11.64617,
+                48.10118
+              ]
+            ]
+          },
+          {
+            "mode": "rail",
+            "from": {
+              "name": "Neuperlach Zentrum",
+              "location": {
+                "lat": 48.101184,
+                "lng": 11.6461739
+              }
+            },
+            "to": {
+              "name": "Innsbrucker Ring",
+              "location": {
+                "lat": 48.1204367,
+                "lng": 11.6187904
+              }
+            },
+            "durationMinutes": 5,
+            "line": {
+              "name": "U5",
+              "headsign": "Laimer Platz",
+              "agency": "MVG München"
+            },
+            "numStops": 3,
+            "departureTime": "09:50",
+            "arrivalTime": "09:55",
+            "stopsBetween": [
+              {
+                "name": "Quiddestraße"
+              },
+              {
+                "name": "Michaelibad",
+                "location": {
+                  "lat": 48.1183485,
+                  "lng": 11.6318229
+                }
+              }
+            ],
+            "stopBefore": {
+              "name": "Michaelibad",
+              "location": {
+                "lat": 48.1183485,
+                "lng": 11.6318229
+              }
+            },
+            "instructions": [
+              "Take U5 toward Laimer Platz",
+              "Get off at Innsbrucker Ring"
+            ],
+            "path": [
+              [
+                11.6461739,
+                48.101184
+              ],
+              [
+                11.6187904,
+                48.1204367
+              ]
+            ]
+          },
+          {
+            "mode": "walk",
+            "from": {
+              "name": "Innsbrucker Ring",
+              "location": {
+                "lat": 48.1204367,
+                "lng": 11.6187904
+              }
+            },
+            "to": {
+              "name": "Indian-Grocery-Store München",
+              "location": {
+                "lat": 48.1306386,
+                "lng": 11.6188371
+              }
+            },
+            "durationMinutes": 22,
+            "instructions": [
+              "Rolltreppe nehmen · Ausgang A nehmen",
+              "Richtung Innsbrucker Ring / B2R",
+              "Links abbiegen auf Innsbrucker Ring / B2R",
+              "Rechts abbiegen auf Schlüsselbergstraße",
+              "Links abbiegen auf Berg-am-Laim-Straße / B304"
+            ],
+            "path": [
+              [
+                11.6188,
+                48.12047
+              ],
+              [
+                11.61902,
+                48.12046
+              ],
+              [
+                11.61904,
+                48.12057
+              ],
+              [
+                11.61917,
+                48.12056
+              ],
+              [
+                11.6192,
+                48.12076
+              ],
+              [
+                11.61922,
+                48.12076
+              ],
+              [
+                11.61922,
+                48.12083
+              ],
+              [
+                11.6192,
+                48.12084
+              ],
+              [
+                11.61924,
+                48.12091
+              ],
+              [
+                11.61926,
+                48.12098
+              ],
+              [
+                11.61935,
+                48.1212
+              ],
+              [
+                11.61941,
+                48.12135
+              ],
+              [
+                11.61948,
+                48.12158
+              ],
+              [
+                11.61951,
+                48.12171
+              ],
+              [
+                11.61953,
+                48.12177
+              ],
+              [
+                11.61955,
+                48.1219
+              ],
+              [
+                11.61956,
+                48.12193
+              ],
+              [
+                11.61957,
+                48.12207
+              ],
+              [
+                11.61958,
+                48.12225
+              ],
+              [
+                11.61959,
+                48.12243
+              ],
+              [
+                11.61961,
+                48.12273
+              ],
+              [
+                11.61962,
+                48.12288
+              ],
+              [
+                11.61954,
+                48.12288
+              ],
+              [
+                11.61947,
+                48.12289
+              ],
+              [
+                11.61948,
+                48.12303
+              ],
+              [
+                11.6195,
+                48.12335
+              ],
+              [
+                11.61952,
+                48.12353
+              ],
+              [
+                11.61952,
+                48.12355
+              ],
+              [
+                11.61951,
+                48.12356
+              ],
+              [
+                11.6195,
+                48.12358
+              ],
+              [
+                11.61946,
+                48.12359
+              ],
+              [
+                11.61942,
+                48.12359
+              ],
+              [
+                11.61935,
+                48.12359
+              ],
+              [
+                11.61936,
+                48.12365
+              ],
+              [
+                11.61936,
+                48.12373
+              ],
+              [
+                11.61937,
+                48.12375
+              ],
+              [
+                11.61937,
+                48.1238
+              ],
+              [
+                11.61937,
+                48.12382
+              ],
+              [
+                11.6194,
+                48.12418
+              ],
+              [
+                11.61937,
+                48.12418
+              ],
+              [
+                11.61937,
+                48.12425
+              ],
+              [
+                11.61937,
+                48.12427
+              ],
+              [
+                11.61938,
+                48.12447
+              ],
+              [
+                11.61935,
+                48.12456
+              ],
+              [
+                11.61933,
+                48.12458
+              ],
+              [
+                11.61933,
+                48.1246
+              ],
+              [
+                11.61933,
+                48.12462
+              ],
+              [
+                11.61941,
+                48.12463
+              ],
+              [
+                11.61957,
+                48.12463
+              ],
+              [
+                11.61973,
+                48.12464
+              ],
+              [
+                11.61982,
+                48.12464
+              ],
+              [
+                11.62029,
+                48.12467
+              ],
+              [
+                11.62037,
+                48.12468
+              ],
+              [
+                11.62066,
+                48.12474
+              ],
+              [
+                11.62077,
+                48.12477
+              ],
+              [
+                11.62085,
+                48.12481
+              ],
+              [
+                11.62088,
+                48.12481
+              ],
+              [
+                11.62096,
+                48.12486
+              ],
+              [
+                11.62111,
+                48.12495
+              ],
+              [
+                11.62125,
+                48.12506
+              ],
+              [
+                11.62135,
+                48.12519
+              ],
+              [
+                11.62143,
+                48.12525
+              ],
+              [
+                11.6215,
+                48.12547
+              ],
+              [
+                11.62134,
+                48.1255
+              ],
+              [
+                11.62121,
+                48.12552
+              ],
+              [
+                11.62116,
+                48.12553
+              ],
+              [
+                11.62098,
+                48.12556
+              ],
+              [
+                11.62098,
+                48.12561
+              ],
+              [
+                11.62097,
+                48.1257
+              ],
+              [
+                11.62098,
+                48.12579
+              ],
+              [
+                11.62098,
+                48.12582
+              ],
+              [
+                11.62103,
+                48.12589
+              ],
+              [
+                11.62105,
+                48.12593
+              ],
+              [
+                11.62105,
+                48.12596
+              ],
+              [
+                11.62105,
+                48.12599
+              ],
+              [
+                11.62103,
+                48.12606
+              ],
+              [
+                11.62102,
+                48.12613
+              ],
+              [
+                11.62102,
+                48.12619
+              ],
+              [
+                11.62106,
+                48.12625
+              ],
+              [
+                11.62107,
+                48.12631
+              ],
+              [
+                11.62107,
+                48.12635
+              ],
+              [
+                11.62107,
+                48.12636
+              ],
+              [
+                11.62109,
+                48.12649
+              ],
+              [
+                11.62094,
+                48.12651
+              ],
+              [
+                11.62056,
+                48.12655
+              ],
+              [
+                11.62059,
+                48.12661
+              ],
+              [
+                11.62061,
+                48.1267
+              ],
+              [
+                11.62054,
+                48.12671
+              ],
+              [
+                11.62057,
+                48.12676
+              ],
+              [
+                11.62065,
+                48.12712
+              ],
+              [
+                11.62071,
+                48.12736
+              ],
+              [
+                11.62074,
+                48.12747
+              ],
+              [
+                11.62082,
+                48.12781
+              ],
+              [
+                11.62086,
+                48.12801
+              ],
+              [
+                11.62084,
+                48.12806
+              ],
+              [
+                11.62008,
+                48.12814
+              ],
+              [
+                11.62001,
+                48.12815
+              ],
+              [
+                11.62003,
+                48.12821
+              ],
+              [
+                11.61982,
+                48.12823
+              ],
+              [
+                11.61984,
+                48.12832
+              ],
+              [
+                11.61976,
+                48.12833
+              ],
+              [
+                11.61956,
+                48.12835
+              ],
+              [
+                11.61962,
+                48.12851
+              ],
+              [
+                11.61962,
+                48.12852
+              ],
+              [
+                11.61952,
+                48.12854
+              ],
+              [
+                11.61953,
+                48.12862
+              ],
+              [
+                11.61954,
+                48.1287
+              ],
+              [
+                11.61966,
+                48.12902
+              ],
+              [
+                11.61973,
+                48.1292
+              ],
+              [
+                11.61967,
+                48.12921
+              ],
+              [
+                11.61923,
+                48.12929
+              ],
+              [
+                11.61923,
+                48.12933
+              ],
+              [
+                11.61924,
+                48.12936
+              ],
+              [
+                11.61918,
+                48.12938
+              ],
+              [
+                11.61911,
+                48.1294
+              ],
+              [
+                11.61909,
+                48.12944
+              ],
+              [
+                11.61907,
+                48.12946
+              ],
+              [
+                11.61901,
+                48.12947
+              ],
+              [
+                11.61897,
+                48.12955
+              ],
+              [
+                11.61882,
+                48.12958
+              ],
+              [
+                11.61889,
+                48.12975
+              ],
+              [
+                11.6189,
+                48.12976
+              ],
+              [
+                11.61891,
+                48.12978
+              ],
+              [
+                11.61865,
+                48.12983
+              ],
+              [
+                11.61881,
+                48.13024
+              ],
+              [
+                11.61887,
+                48.13032
+              ],
+              [
+                11.61888,
+                48.13036
+              ],
+              [
+                11.61889,
+                48.1304
+              ],
+              [
+                11.61882,
+                48.13041
+              ],
+              [
+                11.61882,
+                48.13043
+              ],
+              [
+                11.61883,
+                48.13045
+              ],
+              [
+                11.61884,
+                48.13048
+              ],
+              [
+                11.61878,
+                48.13048
+              ],
+              [
+                11.6188,
+                48.13052
+              ],
+              [
+                11.61881,
+                48.13056
+              ],
+              [
+                11.61881,
+                48.13056
+              ]
+            ]
+          }
+        ],
+        "totalMinutes": 30,
+        "transfers": 0,
+        "walkingMinutes": 26,
+        "source": "transit_directions",
+        "startsAt": {
+          "name": "Neuperlach Zentrum",
+          "location": {
+            "lat": 48.1006,
+            "lng": 11.6466
+          }
+        }
+      },
+      "cards": [
+        {
+          "parentId": "p_kamala",
+          "role": "mother",
+          "title": "Indian-Grocery-Store München కి",
+          "body": "అమ్మా, సోమవారం 09:45కి Indian-Grocery-Store München కి వెళ్దాం. Neuperlach Zentrum కి నడిచి వెళ్లి, అక్కడ Bus U5 ఎక్కి 3 స్టాపుల తర్వాత Innsbrucker Ring దగ్గర దిగండి. అక్కడి నుండి 22 నిమిషాల నడక తర్వాత సూపర్ మార్కెట్ చేరుకుంటారు. 11:35కి ఇంటికి వచ్చేయొచ్చు.",
+          "writer": {
+            "kind": "gemma",
+            "model": "@cf/google/gemma-4-26b-a4b-it",
+            "latencyMs": 2493
+          },
+          "rubric": {
+            "passed": true,
+            "failures": [],
+            "words": 38,
+            "scriptOk": true
+          },
+          "phrases": [
+            {
+              "id": "how_much",
+              "local": "Wie viel kostet das?",
+              "pronunciation": "వీ ఫీల్ కోస్టెట్ దాస్?",
+              "meaning": "దీని ధర ఎంత?"
+            },
+            {
+              "id": "dont_understand",
+              "local": "Ich verstehe das nicht.",
+              "pronunciation": "ఇష్ ఫెర్‌ష్టేయె దాస్ నిష్ట్.",
+              "meaning": "నాకు అర్థం కాలేదు."
+            },
+            {
+              "id": "call",
+              "local": "Bitte rufen Sie diese Nummer an.",
+              "pronunciation": "బిట్టె రూఫెన్ జీ డీజె నుమ్మర్ ఆన్.",
+              "meaning": "దయచేసి ఈ నంబర్‌కి ఫోన్ చేయండి."
+            }
+          ],
+          "driver": {
+            "lead": "Bitte sagen Sie mir Bescheid, wenn wir hier sind:",
+            "stopName": "Innsbrucker Ring",
+            "thanks": "Danke schön."
+          },
+          "steps": [
+            {
+              "mode": "walk",
+              "text": "Neuperlach Zentrum స్టాప్ దాకా సుమారు 4 నిమిషాలు నడవండి.",
+              "signWords": [
+                "Neuperlach Zentrum"
+              ]
+            },
+            {
+              "mode": "rail",
+              "text": "Neuperlach Zentrum దగ్గర U5 రైలు ఎక్కండి (Laimer Platz వైపు వెళ్ళేది).",
+              "signWords": [
+                "U5",
+                "Laimer Platz",
+                "Neuperlach Zentrum"
+              ]
+            },
+            {
+              "mode": "wait",
+              "stops": 3,
+              "text": "3 స్టాపులు కూర్చోండి. Michaelibad దాటగానే Halt అని రాసి ఉన్న బటన్ నొక్కండి.",
+              "signWords": [
+                "Michaelibad",
+                "Halt"
+              ]
+            },
+            {
+              "mode": "arrive",
+              "text": "Innsbrucker Ring దగ్గర దిగండి.",
+              "signWords": [
+                "Innsbrucker Ring"
+              ]
+            },
+            {
+              "mode": "walk",
+              "text": "దిగిన తర్వాత Indian-Grocery-Store München దాకా సుమారు 22 నిమిషాలు నడవండి.",
+              "signWords": [
+                "Indian-Grocery-Store München"
+              ]
+            },
+            {
+              "mode": "arrive",
+              "text": "Indian-Grocery-Store München చేరుకున్నారు.",
+              "signWords": [
+                "Indian-Grocery-Store München"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-     "label": "Shared culture",
-     "feature": "languageMatch",
-     "direction": "for"
-    }
-   ],
-   "score": {
-    "pGo": 0.8483,
-    "enjoyment": 3.543,
-    "combined": 3.006,
-    "rank": 4
-   },
-   "role": "father",
-   "parentIds": [
-    "p_raghu"
-   ],
-   "date": "2026-10-05",
-   "slot": {
-    "day": "mon",
-    "depart": 480,
-    "back": 554,
-    "withAdultChild": false
-   },
-   "withAdultChild": false,
-   "firstRideTogether": true,
-   "bringSomeone": null,
-   "joinCard": null,
-   "photo": {
-    "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rmaehkh1ksCIvXPpIFCPuOeZEs18eEuu9nDOXLcHRZwKlnDIoh2qJMANGSwpEQ6oXJZ2QNW3BnEApZq9WERBHvYJ-RWwRe15cqN5b5-VstxOwBNJS7mvaWf8o0KTgOJ8G8Wzw=w1000-h1000-c-n",
-    "credit": "Photo: Google Maps contributor"
-   },
-   "landmarkPhotos": [
-    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=O0-MkHMcYGMOjTYKQjm9Gg&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=69.464745&pitch=0&thumbfov=100",
-    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=hJGuixTjqiq5-t0Nabh_pg&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=317.8354&pitch=0&thumbfov=100",
-    "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Gs4yV9sQwdjjC1TtzjPQWw&cb_client=unknown_client.gws.gps&w=480&h=240&yaw=319.44867&pitch=0&thumbfov=100"
-   ],
-   "route": {
-    "legs": [
-     {
-      "mode": "walk",
-      "from": {
-       "name": "Neuperlach Zentrum",
-       "location": {
-        "lat": 48.1006,
-        "lng": 11.6466
-       }
+      "id": "hh_munich:2026-W41:pl_e32203d7",
+      "status": "suggested",
+      "venue": "Wochenmarkt Perlach",
+      "title": "Wochenmarkt Perlach",
+      "address": "Pfanzeltpl., 81737 München-Ramersdorf-Perlach",
+      "location": {
+        "lat": 48.100046299999995,
+        "lng": 11.630538399999999
       },
-      "to": {
-       "name": "Desi Markt",
-       "location": {
-        "lat": 48.1064302,
-        "lng": 11.6451376
-       }
-      },
-      "durationMinutes": 12,
-      "instructions": [
-       "Richtung Thomas-Dehler-Straße",
-       "Rechts abbiegen auf Thomas-Dehler-Straße",
-       "Links abbiegen auf Fritz-Schäffer-Straße",
-       "Fußgängerübergang nehmen",
-       "Weiter auf Albert-Schweitzer-Straße",
-       "Links abbiegen"
+      "category": "farmers_market",
+      "indoor": false,
+      "ladderLevel": 3,
+      "ladderLabel": "Language barely matters",
+      "reasonText": "No Telugu events nearby this week. No language needed. He liked the farmers market and walking. With you on Saturday, about 13 minutes away, back by 11:26.",
+      "chips": [
+        {
+          "label": "Weather counts against it",
+          "feature": "weather",
+          "direction": "against"
+        },
+        {
+          "label": "A time that has worked before",
+          "feature": "timing",
+          "direction": "for"
+        },
+        {
+          "label": "Not in their language",
+          "feature": "languageMatch",
+          "direction": "against"
+        }
       ],
-      "path": [
-       {
-        "lat": 48.10352182071875,
-        "lng": 11.646285219732745
-       },
-       {
-        "lat": 48.104007464287214,
-        "lng": 11.646128081316679
-       },
-       {
-        "lat": 48.105948202856396,
-        "lng": 11.646305199956496
-       }
+      "score": {
+        "pGo": 0.9159,
+        "enjoyment": 3.305,
+        "combined": 3.0267,
+        "rank": 5
+      },
+      "role": "father",
+      "parentIds": [
+        "p_raghu"
+      ],
+      "date": "2026-10-10",
+      "slot": {
+        "day": "sat",
+        "depart": 600,
+        "back": 686,
+        "withAdultChild": true
+      },
+      "withAdultChild": true,
+      "firstRideTogether": false,
+      "bringSomeone": null,
+      "joinCard": null,
+      "photo": {
+        "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe4f5YqI8a_r9QB4sNMLOY9SsmDvIdE4wjXkeBVV2FUIchsDo7AokoCi9aPbXhqYQi1vr4TusKHAUqzRQ7C0vhdTC0AZe4aeTc9ZFZLwpbDRjIB7NC61HvwiH9xtKMDA7i9N-aI01hYfJVA=w1000-h1000-c-n",
+        "credit": "Photo: Google Maps contributor"
+      },
+      "openHours": [
+        [
+          450,
+          780
+        ]
+      ],
+      "landmarkPhotos": [],
+      "route": null,
+      "cards": [
+        {
+          "parentId": "p_raghu",
+          "role": "father",
+          "title": "Wochenmarkt Perlach కి",
+          "body": "నాన్నగారు, శనివారం 10:00కి Wochenmarkt Perlach కి వెళ్దాం. మేము కారులో కలిసి వెళ్తున్నాము. అక్కడ మార్కెట్ చూడటానికి చాలా బాగుంటుంది. మీరు 11:26కి ఇంటికి వచ్చేయొచ్చు.",
+          "writer": {
+            "kind": "gemma",
+            "model": "@cf/google/gemma-4-26b-a4b-it",
+            "latencyMs": 3408
+          },
+          "rubric": {
+            "passed": true,
+            "failures": [],
+            "words": 23,
+            "scriptOk": true
+          },
+          "phrases": [
+            {
+              "id": "how_much",
+              "local": "Wie viel kostet das?",
+              "pronunciation": "వీ ఫీల్ కోస్టెట్ దాస్?",
+              "meaning": "దీని ధర ఎంత?"
+            },
+            {
+              "id": "dont_understand",
+              "local": "Ich verstehe das nicht.",
+              "pronunciation": "ఇష్ ఫెర్‌ష్టేయె దాస్ నిష్ట్.",
+              "meaning": "నాకు అర్థం కాలేదు."
+            },
+            {
+              "id": "call",
+              "local": "Bitte rufen Sie diese Nummer an.",
+              "pronunciation": "బిట్టె రూఫెన్ జీ డీజె నుమ్మర్ ఆన్.",
+              "meaning": "దయచేసి ఈ నంబర్‌కి ఫోన్ చేయండి."
+            }
+          ],
+          "driver": {
+            "lead": "Bitte sagen Sie mir Bescheid, wenn wir hier sind:",
+            "stopName": "Wochenmarkt Perlach",
+            "thanks": "Danke schön."
+          },
+          "steps": []
+        }
       ]
-     }
-    ],
-    "totalMinutes": 12,
-    "transfers": 0,
-    "walkingMinutes": 12,
-    "source": "walking_directions",
-    "startsAt": {
-     "name": "Neuperlach Zentrum",
-     "location": {
-      "lat": 48.1006,
-      "lng": 11.6466
-     }
     }
-   },
-   "cards": [
-    {
-     "parentId": "p_raghu",
-     "role": "father",
-     "title": "Desi Markt కి",
-     "body": "నాన్నగారు, సోమవారం 08:00కి Desi Markt కి వెళ్దాం. 12 నిమిషాలు నడిచి మీరు వెళ్ళవచ్చు. అక్కడ మన భారతీయ వస్తువులు దొరుకుతాయి. 09:14కి ఇంటికి వచ్చేయొచ్చు.",
-     "writer": {
-      "kind": "gemma",
-      "model": "@cf/google/gemma-4-26b-a4b-it",
-      "latencyMs": 6270
-     },
-     "rubric": {
-      "passed": true,
-      "failures": [],
-      "words": 23,
-      "scriptOk": true
-     },
-     "phrases": [
-      {
-       "id": "how_much",
-       "local": "Wie viel kostet das?",
-       "pronunciation": "వీ ఫీల్ కోస్టెట్ దాస్?",
-       "meaning": "దీని ధర ఎంత?"
-      },
-      {
-       "id": "dont_understand",
-       "local": "Ich verstehe das nicht.",
-       "pronunciation": "ఇష్ ఫెర్‌ష్టేయె దాస్ నిష్ట్.",
-       "meaning": "నాకు అర్థం కాలేదు."
-      },
-      {
-       "id": "call",
-       "local": "Bitte rufen Sie diese Nummer an.",
-       "pronunciation": "బిట్టె రూఫెన్ జీ డీజె నుమ్మర్ ఆన్.",
-       "meaning": "దయచేసి ఈ నంబర్‌కి ఫోన్ చేయండి."
-      }
-     ],
-     "driver": {
-      "lead": "Bitte sagen Sie mir Bescheid, wenn wir hier sind:",
-      "stopName": "Desi Markt",
-      "thanks": "Danke schön."
-     },
-     "steps": [
-      {
-       "mode": "walk",
-       "text": "ఇంటి దగ్గర నుండి Desi Markt దాకా సుమారు 12 నిమిషాలు నడవండి.",
-       "signWords": [
-        "Desi Markt"
-       ]
-      },
-      {
-       "mode": "arrive",
-       "text": "Desi Markt చేరుకున్నారు.",
-       "signWords": [
-        "Desi Markt"
-       ]
-      }
-     ]
-    }
-   ]
-  }
- ]
+  ]
 }

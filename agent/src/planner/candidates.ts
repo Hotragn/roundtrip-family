@@ -1,5 +1,6 @@
 import { createHash } from "node:crypto";
 import type { EventUnderstanding, LadderLevel, LatLng, OutingFeatures } from "@roundtrip/core";
+import { parseOpeningHours, type WeeklyHours } from "@roundtrip/core/hours";
 import { levelFor } from "../discovery/ladder";
 import type { RawEvent, RawPlace } from "../tools/discovery";
 
@@ -28,6 +29,8 @@ export interface Candidate {
   /** For events: when it happens. For places: null (the planner picks a slot). */
   start: string | null;
   end: string | null;
+  /** For places: the listed weekly opening hours, or null when none were listed. */
+  hours: WeeklyHours | null;
   suitsOlderAdults: boolean;
   provenance: "live_search" | "synthetic";
   query: string;
@@ -210,6 +213,7 @@ export function candidateFromPlace(p: RawPlace, languageName: string): Candidate
     photo: p.thumbnail ? { url: p.thumbnail, credit: "Photo: Google Maps contributor" } : undefined,
     start: null,
     end: null,
+    hours: parseOpeningHours(p.openingHours),
     suitsOlderAdults: true,
     provenance: "live_search",
     query: p.query,
@@ -236,6 +240,7 @@ export function candidateFromEvent(e: RawEvent, u: EventUnderstanding, location:
     photo: e.thumbnail ? { url: e.thumbnail, credit: "Image: event listing" } : undefined,
     start: u.start,
     end: u.end,
+    hours: null,
     suitsOlderAdults: u.suitsOlderAdults,
     provenance: "live_search",
     query: e.query,

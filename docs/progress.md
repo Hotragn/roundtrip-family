@@ -9,7 +9,7 @@ The running log of the build. Read this first when resuming. The plan is docs/bu
 | M1 Foundations | Done |
 | M2 Intelligence | Done |
 | M3 Parents' app, offline | Done (Lighthouse performance 87 to 90 locally; re-measured on Render in M7) |
-| M4 Dashboard and landing | Not started |
+| M4 Dashboard and landing | Dashboard done; landing in progress |
 | M5 Fine-tune, voice, speech, diary | Not started |
 | M6 Temporal, email, safety, trial run | Not started |
 | M7 Ship | Not started |
@@ -81,3 +81,24 @@ The running log of the build. Read this first when resuming. The plan is docs/bu
   - Lighthouse mobile (simulated slow 4G, 4x CPU, local build over HTTP/1.1): accessibility 100, best practices 100, SEO 100, performance 87 to 90 over five runs (LCP 3.7 to 4.0 s simulated, TBT 30 to 70 ms, CLS 0). A real trace with the same throttling, served from the phone's cache: LCP 352 ms. The gap is Lighthouse counting the app's scripts toward the first paint; re-measured on Render over HTTP/2 in M7.
   - Screenshots for Sarala, Venkat and Kamala on every screen, plus the start screen: docs/screenshots/parents-*.png, reviewed against docs/brand.md.
 - Test totals: 182 TypeScript unit tests and evals pass in replay mode (1 opt-in Atlas test skipped); 6 Playwright suites (offline, bundle, 8 accessibility); privacy check 0 violations.
+
+### M4 Dashboard (2026-10-05)
+
+- **This week** (/plan/<household>): a column for each weekday and one for the weekend; each card shows the time, who, the place photo, the travel lines, the fallback-ladder level and the strongest reason. Open one for the route on a MapLibre map (street-following lines from OSRM, stops from Nominatim, the bus in marigold with an ink casing, rail with sleepers, walks dotted), why it was picked with TabPFN's numbers, the real trip leg by leg, the day's opening hours, the card on their phone in Telugu, help joining, who could come along, and the other options for that day. Approve, swap, and drag to another day; moves are refused on days they aren't on their own and on days the place is shut. Changes stay in the visitor's session, and their parents' phones in the same browser show approved and moved tickets.
+- **Their week:** the approved outings with what the phones reported ("I'm home", the face for "How was it?"), what they wanted to go to and couldn't, and the visit so far.
+- **People and places:** the people memory with the exact sentence the planner is told (no names), shared words and notes, and the places they've been with how each went; anything can be forgotten.
+- **Privacy** (sea theme): what stays with the family, the "where data goes" table generated from the outbound registry (sortable, filtered by when a call happens, cards on a phone), and how it's enforced.
+- **Safety** (sea theme): the timer on a real outing from this week (leaves, home by, the phone checks, the email to you), settings in a validated form (buffer, wait, home before dark, ice, snow, heat advisory, the sun warning in °C with °F shown in the US), the official emergency numbers with their source, the help card as a stranger sees it, and advice on phone plans.
+- **Languages:** what's ready in each parent's language (reading and planning, cards, reading aloud, listening), read from the build's outputs, plus what the local language is used for, and every language set up so far.
+- **Setup:** a five-step wizard prefilled with the demo household: where they're staying (countries with a checked emergency number), each parent with their language and what's ready for it, the days on their own and weekend first rides, the help contact and phone plan, then a summary to save.
+- **The planner, after reviewing the first board:** slots now fit each place's listed opening hours (decisions 44 and 45). The first plan had sent Kamala to Hariom Temple on a Monday, and it opens only on Sundays (now Sunday with the adult child), and sent Venkat and Raghu to shops before they opened. Two parents no longer go to two places of the same kind on the same day, each parent gets an outing on their own, reasons that echo a chip are replaced with a line from their ratings, and chips say "Indian grocery" and "No German needed".
+- **The new weeks** (places and routes from live search, family synthetic). Fremont: Karya Siddhi Hanuman Temple (Sarala, Mon 08:30, Bus 211), Indian Market (Venkat, Mon 09:00, a 14-minute walk), Central Park (Sarala, Wed 08:30, Bus 210, left to decide), Irvington Farmers' Market (both, Sunday with the adult child; it runs Sundays 9:00 to 14:00). Munich: Stadtbibliothek Ramersdorf (Kamala, Tue 09:45, U5; closed Mondays), Stadtbibliothek Neuperlach (Raghu, Wed 10:00, a 4-minute walk), Hariom Temple (Kamala, Sunday with the adult child), Indian-Grocery-Store München (Kamala, Mon 09:45, left to decide), Wochenmarkt Perlach (Raghu, Saturday with the adult child; it runs Saturdays 7:30 to 13:00).
+- **Art** (scripts/assets/, Blender 5.2 Cycles from the CC0 sources in docs/assets.md): the rail band and sea banner, the rail track and train front for the scroll track, the waterline and ferry, and the aircraft.
+- **Verified:**
+  - e2e/dashboard.spec.ts (Chrome, 1280 x 900): axe WCAG 2.2 AA, 0 violations on all 7 sections for both households in light and dark (28 pages); the board flow (approve shows "The ticket is on Sarala's phone now", take off, swap and swap back, a drag to Tuesday refused, a drag to Friday kept after a reload); the approved Central Park appears on Sarala's phone and the moved market on Venkat's with Friday in Telugu; a drag of the Ramersdorf library to Monday is refused because it's closed.
+  - e2e/scroll-track.spec.ts: the rail track follows the page, dragging the train scrolls it, a click on the track jumps, the scrollbar is hidden while the track shows; on a Pixel 7 profile the track is hidden and the progress line fills.
+  - agent/test/hours.test.ts: English and German hours, closed days, all-day, split hours, a shop that opens at 9, a Sunday-only temple moved to the weekend with the adult child.
+  - The route-to-humans eval now checks each parent's own rest time (it had assumed 13:00 everywhere) and that every outing fits the place's opening hours.
+  - Screenshots in docs/screenshots/plan-*.jpg for every section, both households, light and dark, reviewed against docs/brand.md.
+- SerpApi: 39 of 40 searches used (three for the new bus routes). TabPFN's free daily pool ran out during the ten-week re-plan; the last three weeks ran after its reset.
+- Test totals: 188 TypeScript unit tests and evals pass in replay mode (1 opt-in Atlas test skipped); privacy check 0 violations, 19 registered call sites.

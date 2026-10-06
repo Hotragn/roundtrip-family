@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791242131965",
+  "object": "chat.completion",
+  "created": 1791242131,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c6\",\"parent\":\"mother\",\"reason\":\"They liked visiting Indian grocery stores before.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c7\",\"parent\":\"father\",\"reason\":\"They enjoyed exploring Indian food options previously.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c2\",\"parent\":\"mother\",\"reason\":\"She enjoys community environments and likes quiet places.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c3\",\"parent\":\"both\",\"reason\":\"They both enjoyed visiting temples in the past.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c8\",\"parent\":\"father\",\"reason\":\"He likes walking and visits to farmers markets.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false}],\"note\":\"No Telugu events or groups were found nearby this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2082,
+   "completion_tokens": 213,
+   "total_tokens": 2295,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 24.736364364624023
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T23:15:18.811Z",
+ "latencyMs": 3815
+}

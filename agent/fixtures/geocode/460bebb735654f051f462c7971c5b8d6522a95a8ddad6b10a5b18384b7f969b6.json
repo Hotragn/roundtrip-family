@@ -1,0 +1,9 @@
+{
+ "query": "München Ost, Munich",
+ "location": {
+  "lat": 48.1277214,
+  "lng": 11.6055187
+ },
+ "displayName": "München Ost, Orleansplatz, Haidhausen-Nord, Haidhausen, Au-Haidhausen, München, Bayern, 81667, Deutschland",
+ "source": "OpenStreetMap Nominatim (ODbL)"
+}

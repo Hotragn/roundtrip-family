@@ -1,10 +1,12 @@
 import { clockMinutes, type Household, type Parent } from "@roundtrip/core";
+import { fitVisit, type WeeklyHours } from "@roundtrip/core/hours";
 
 /**
  * When each parent can go. An outing is feasible when they leave inside one of their best
- * times and inside a window when they're on their own, are back before a nap starts, are home
- * in daylight, and the walking fits their limit. Weekend slots are for going with the adult
- * child (a first ride together, or a family outing).
+ * times and inside a window when they're on their own, arrive while the place is open with time
+ * to spare before it closes, are back before a nap starts, are home in daylight, and the walking
+ * fits their limit. Weekend slots are for going with the adult child (a first ride together, or
+ * a family outing).
  */
 
 export type Day = "mon" | "tue" | "wed" | "thu" | "fri" | "sat" | "sun";
@@ -23,6 +25,10 @@ export interface SlotRequest {
   walkingMinutes: number;
   /** Time at the place. */
   stayMinutes: number;
+  /** The shortest visit worth the trip, when the place closes sooner than the full stay. */
+  minStayMinutes?: number;
+  /** The place's weekly opening hours, when listed. Events use their own times instead. */
+  hours?: WeeklyHours | null;
   /** For events with a fixed start: arrive by this time on this day. */
   fixed?: { day: Day; startMinutes: number; endMinutes: number | null };
   outdoor: boolean;
@@ -64,50 +70,70 @@ export function findSlot(h: Household, p: Parent, req: SlotRequest, month: numbe
   const sunset = sunsetMinutes(h.timezone, month);
   const naps = p.naps.map((n) => ({ start: clockMinutes(n.start), end: clockMinutes(n.end) }));
   const best = p.bestTimes.map((b) => ({ start: clockMinutes(b.start), end: clockMinutes(b.end) }));
-  const total = req.travelMinutes * 2 + req.stayMinutes;
+  const minStay = Math.min(req.stayMinutes, req.minStayMinutes ?? req.stayMinutes);
 
-  const fits = (day: Day, depart: number, solo: boolean): string | null => {
-    const back = depart + total;
-    if (h.safety.daylightOnly && back > sunset) return `back after dark (${fmt(back)})`;
-    for (const n of naps) if (depart < n.end && back > n.start) return `runs into the ${fmt(n.start)} nap`;
+  const tryAt = (day: Day, depart: number, solo: boolean): { slot: Slot } | { why: string } => {
+    let stay = req.stayMinutes;
+    if (!req.fixed) {
+      const visit = fitVisit(req.hours, day, depart + req.travelMinutes, req.stayMinutes, minStay);
+      if (!visit.ok) return { why: visit.why };
+      stay = visit.stay;
+    }
+    const back = depart + req.travelMinutes * 2 + stay;
+    if (h.safety.daylightOnly && back > sunset) return { why: `back after dark (${fmt(back)})` };
+    for (const n of naps) if (depart < n.end && back > n.start) return { why: `runs into the ${fmt(n.start)} nap` };
     if (solo) {
       const windows = aloneOn(h, day);
-      if (!windows.some((w) => depart >= w.start && depart < w.end)) return "they aren't on their own then";
-      if (!best.some((b) => depart >= b.start && depart <= b.end)) return "outside their best times";
+      if (!windows.some((w) => depart >= w.start && depart < w.end)) return { why: "they aren't on their own then" };
+      if (!best.some((b) => depart >= b.start && depart <= b.end)) return { why: "outside their best times" };
     }
-    return null;
+    return { slot: { day, depart, back, withAdultChild: !solo } };
   };
 
   if (req.fixed) {
     const depart = req.fixed.startMinutes - req.travelMinutes - 5;
-    const solo = fits(req.fixed.day, depart, true);
-    if (!solo)
-      return { ok: true, slot: { day: req.fixed.day, depart, back: depart + total, withAdultChild: false }, why };
-    why.push(solo);
+    const solo = tryAt(req.fixed.day, depart, true);
+    if ("slot" in solo) return { ok: true, slot: solo.slot, why };
+    why.push(solo.why);
     const weekend = req.fixed.day === "sat" || req.fixed.day === "sun";
-    const together = fits(req.fixed.day, depart, false);
-    if (!together && (weekend || req.fixed.startMinutes >= 17 * 60 + 30)) {
-      return { ok: true, slot: { day: req.fixed.day, depart, back: depart + total, withAdultChild: true }, why };
+    const together = tryAt(req.fixed.day, depart, false);
+    if ("slot" in together && (weekend || req.fixed.startMinutes >= 17 * 60 + 30)) {
+      return { ok: true, slot: together.slot, why };
     }
-    if (together) why.push(together);
+    if ("why" in together) why.push(together.why);
     return { ok: false, why };
   }
 
+  // On their own: the first day that works, leaving as early in their best times as the place allows.
+  const seen = new Set<string>();
   for (const day of DAYS.filter((d) => !req.excludeDays?.includes(d))) {
     for (const b of best) {
       for (let depart = b.start; depart <= b.end; depart += 15) {
-        if (!fits(day, depart, true))
-          return { ok: true, slot: { day, depart, back: depart + total, withAdultChild: false }, why };
+        const r = tryAt(day, depart, true);
+        if ("slot" in r) return { ok: true, slot: r.slot, why };
+        if (r.why.startsWith("closed on") && !seen.has(r.why)) {
+          seen.add(r.why);
+          why.push(r.why);
+        }
       }
     }
   }
   why.push("no solo slot this week");
-  for (const day of h.trialRunDays) {
-    const depart = 10 * 60;
-    if (!fits(day, depart, false))
-      return { ok: true, slot: { day, depart, back: depart + total, withAdultChild: true }, why };
+  // Together: a weekend day with the adult child, from mid-morning, or earlier if that's when it's open.
+  const times = [...range(10 * 60, 16 * 60), ...range(9 * 60, 10 * 60 - 15)];
+  for (const day of h.trialRunDays.filter((d) => !req.excludeDays?.includes(d))) {
+    for (const depart of times) {
+      const r = tryAt(day, depart, false);
+      if ("slot" in r) return { ok: true, slot: r.slot, why };
+    }
   }
   return { ok: false, why };
+}
+
+function range(from: number, to: number, step = 15): number[] {
+  const out: number[] = [];
+  for (let m = from; m <= to; m += step) out.push(m);
+  return out;
 }
 
 /** Weather rules: hard blocks from the household, and each parent's own limits. */

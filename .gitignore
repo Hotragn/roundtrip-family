@@ -18,6 +18,9 @@ apps/web/public/sw.js
 apps/web/public/sw.js.map
 apps/web/public/swe-worker-*.js
 
+# Copied from node_modules by apps/web/scripts/vendor-maplibre.mjs
+apps/web/public/maplibre/
+
 # Test and audit output
 playwright-report/
 test-results/
@@ -71,3 +74,4 @@ scripts/assets/.downloads/
 Thumbs.db
 .vscode/
 .idea/
+scripts/assets/.renders/

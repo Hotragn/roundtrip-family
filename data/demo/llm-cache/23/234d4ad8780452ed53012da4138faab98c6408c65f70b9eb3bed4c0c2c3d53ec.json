@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791240008614",
+  "object": "chat.completion",
+  "created": 1791240008,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\n  \"body\": \"అమ్మా, మంగళవారం 09:30కి Indian-Grocery-Store München కి వెళ్దాం. Neuperlach Zentrum నుండి Bus U5 ఎక్కి, 4 స్టాపుల తర్వాత München Ost దగ్గర దిగండి. అక్కడి నుండి Ostbahnhof కి వెళ్లి, Bus 21 ఎక్కి 2 స్టాపుల తర్వాత Ampfingstraße దగ్గర దిగండి. అక్కడ మీకు కావాల్సిన వస్తువులు దొరుకుతాయి. 11:18కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Indian-Grocery-Store München కి\"\n}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1098,
+   "completion_tokens": 133,
+   "total_tokens": 1231,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 13.609090805053711
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T22:39:55.414Z",
+ "latencyMs": 3452
+}

@@ -100,6 +100,7 @@ describe("discovery from saved live results (offline)", () => {
       description: "",
       start: null,
       end: null,
+      hours: null,
       suitsOlderAdults: true,
       provenance: "live_search" as const,
       query: "",

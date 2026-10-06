@@ -125,6 +125,7 @@ function teluguGroup(ctx: PlannerContext): Candidate {
     description: "Synthetic test event: Telugu-speaking parents meet over coffee.",
     start: "2026-10-07T10:00:00-07:00",
     end: "2026-10-07T11:30:00-07:00",
+    hours: null,
     suitsOlderAdults: true,
     provenance: "synthetic",
     query: "synthetic",

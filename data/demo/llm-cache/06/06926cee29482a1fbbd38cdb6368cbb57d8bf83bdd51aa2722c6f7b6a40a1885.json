@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791242525135",
+  "object": "chat.completion",
+  "created": 1791242525,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c3\",\"parent\":\"both\",\"reason\":\"They both enjoy visiting temples for worship.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c6\",\"parent\":\"father\",\"reason\":\"He enjoys spending time in the spice aisle of Indian grocery stores.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c13\",\"parent\":\"mother\",\"reason\":\"She would enjoy meeting other Indian women in her own language.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c4\",\"parent\":\"father\",\"reason\":\"He likes walking in parks and watching people.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c11\",\"parent\":\"both\",\"reason\":\"The pleasant Sunday weather is good for a walk at the market.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false}],\"note\":\"All outings provided are within the requested language and interest preferences.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2691,
+   "completion_tokens": 228,
+   "total_tokens": 2919,
+   "prompt_tokens_details": {
+    "cached_tokens": 704
+   },
+   "neurons": 27.481813430786133
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T23:21:52.003Z",
+ "latencyMs": 4278
+}

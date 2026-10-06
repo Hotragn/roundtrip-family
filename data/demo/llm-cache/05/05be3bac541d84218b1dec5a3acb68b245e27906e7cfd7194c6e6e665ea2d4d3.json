@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791242499545",
+  "object": "chat.completion",
+  "created": 1791242499,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"outings\":[{\"candidateId\":\"c2\",\"parent\":\"mother\",\"reason\":\"She enjoys visiting temples.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c2\",\"parent\":\"father\",\"reason\":\"He enjoys visiting temples.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c4\",\"parent\":\"mother\",\"reason\":\"She likes visiting Indian grocery stores.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c4\",\"parent\":\"father\",\"reason\":\"He enjoys browsing the spice aisle in Indian grocery stores.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c3\",\"parent\":\"mother\",\"reason\":\"She likes activities that have worked for her before.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c7\",\"parent\":\"father\",\"reason\":\"He enjoys activities that have worked for him before.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false}],\"note\":\"No Telugu events were found this week.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2081,
+   "completion_tokens": 239,
+   "total_tokens": 2320,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 25.436363220214844
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T23:21:26.402Z",
+ "latencyMs": 4684
+}

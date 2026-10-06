@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791241952327",
+  "object": "chat.completion",
+  "created": 1791241952,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c3\",\"parent\":\"mother\",\"reason\":\"She enjoys visiting temples.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c3\",\"parent\":\"father\",\"reason\":\"He likes temple outings.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c6\",\"parent\":\"mother\",\"reason\":\"She likes visiting Indian grocery stores.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c6\",\"parent\":\"father\",\"reason\":\"He enjoys browsing spice aisles in Indian groceries.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c5\",\"parent\":\"mother\",\"reason\":\"She enjoys seeing people and being in parks.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c4\",\"parent\":\"father\",\"reason\":\"He likes walking in parks with company.\",\"firstRideTogether\":true,\"bringSomeone\":\"the neighbor two doors down\",\"joinHelp\":false},{\"candidateId\":\"c11\",\"parent\":\"both\",\"reason\":\"The pleasant Sunday weather is good for a walk.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false}],\"note\":\"No Telugu events were found this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2602,
+   "completion_tokens": 283,
+   "total_tokens": 2885,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 31.372726440429688
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T23:12:19.166Z",
+ "latencyMs": 4410
+}

@@ -1,0 +1,1213 @@
+{
+ "provenance": "live_search",
+ "engine": "google_maps_directions",
+ "request": "https://serpapi.com/search.json?engine=google_maps_directions&start_coords=48.1006%2C11.6466&travel_mode=3&hl=de&gl=de&distance_unit=0&end_coords=48.1306386%2C11.6188371&time=depart_at%3A1791279000&route=2",
+ "note": "directions: Neuperlach Zentrum to Indian-Grocery-Store München (transit)",
+ "week": "2026-W41",
+ "fetchedAt": "2026-10-05T22:39:48.336Z",
+ "response": {
+  "search_parameters": {
+   "engine": "google_maps_directions",
+   "hl": "de",
+   "gl": "de",
+   "start_coords": "48.1006,11.6466",
+   "end_coords": "48.1306386,11.6188371",
+   "travel_mode": "3",
+   "distance_unit": "0",
+   "route": "2",
+   "time": "depart_at:1791279000"
+  },
+  "places_info": [
+   {
+    "address": "48.1006000, 11.6466000",
+    "gps_coordinates": {
+     "latitude": 48.1006,
+     "longitude": 11.6466
+    }
+   },
+   {
+    "address": "48.1306386, 11.6188371",
+    "gps_coordinates": {
+     "latitude": 48.1306386,
+     "longitude": 11.6188371
+    }
+   }
+  ],
+  "directions": [
+   {
+    "travel_mode": "Transit",
+    "start_time": "09:32",
+    "end_time": "10:00",
+    "distance": 6741,
+    "duration": 1717,
+    "formatted_distance": "6,7 km",
+    "formatted_duration": "28 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 147,
+      "duration": 217,
+      "formatted_distance": "150 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 9,
+        "duration": 8,
+        "formatted_distance": "9 m",
+        "formatted_duration": "8 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 28,
+        "duration": 22,
+        "formatted_distance": "28 m",
+        "formatted_duration": "22 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Eingang C - Thomas-Dehler-Str. nehmen · Rolltreppe nehmen",
+        "distance": 0,
+        "duration": 72,
+        "formatted_distance": "0,0 km",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6Q2lfbHYyXF7zHn4XoHPZg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=125.35284&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10105387064801,
+         "longitude": 11.646165666450967
+        }
+       },
+       {
+        "title": "Rolltreppe nehmen",
+        "distance": 41,
+        "duration": 60,
+        "formatted_distance": "41 m",
+        "formatted_duration": "1 min"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "U5 Laimer Platz",
+      "duration": 420,
+      "formatted_duration": "7 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "time": "09:35",
+       "data_id": "0x479de071405051b3:0x1defb9cbf65705d8"
+      },
+      "end_stop": {
+       "name": "München Ost",
+       "time": "09:42",
+       "data_id": "0x479ddf86bba779d5:0x437bfe77a45f940b"
+      },
+      "stops": [
+       {
+        "name": "Quiddestraße",
+        "time": "09:37",
+        "data_id": "0x479de00b394c15c5:0x18560cbd4bdfe913"
+       },
+       {
+        "name": "Michaelibad",
+        "time": "09:39",
+        "data_id": "0x479ddfefdd62dfbd:0xc51d2ca2036d6c8b"
+       },
+       {
+        "name": "Innsbrucker Ring",
+        "time": "09:41",
+        "data_id": "0x479ddf8d63e0e4e9:0xf3d46b8a05e401ce"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/de-metro.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/U-Bahn/21-U5-s26-1-MFP_M.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "duration": 93,
+      "formatted_duration": "2 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Rolltreppe nehmen · Ausgang Orleansplatz/-straße, Wörthstr. nehmen",
+        "distance": 59,
+        "duration": 60,
+        "formatted_distance": "59 m",
+        "formatted_duration": "1 min"
+       },
+       {
+        "title": "Zu Fuß",
+        "distance": 33,
+        "duration": 33,
+        "formatted_distance": "33 m",
+        "formatted_duration": "33 Sek."
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "21 St.-Veit-Straße",
+      "duration": 300,
+      "formatted_duration": "5 min",
+      "start_stop": {
+       "name": "Ostbahnhof",
+       "stop_id": "8",
+       "time": "09:52",
+       "data_id": "0x479ddf812fe549a3:0x90d24715b9596ce3"
+      },
+      "end_stop": {
+       "name": "Ampfingstraße",
+       "time": "09:57",
+       "data_id": "0x479e75627406d04b:0x8bbeac08bd57b57b"
+      },
+      "stops": [
+       {
+        "name": "Haidenauplatz",
+        "time": "09:55",
+        "data_id": "0x479e757d71888835:0xbaf789de790c11f9"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/tram2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/Tram/22-21-s26-1-MFP_M.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 259,
+      "duration": 230,
+      "formatted_distance": "260 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Ampfingstraße",
+        "action": "straight",
+        "distance": 21,
+        "duration": 17,
+        "formatted_distance": "21 m",
+        "formatted_duration": "17 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Ampfingstraße",
+        "action": "turn-right",
+        "distance": 18,
+        "duration": 26,
+        "formatted_distance": "18 m",
+        "formatted_duration": "26 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Berg-am-Laim-Straße / B304",
+        "action": "turn-right",
+        "distance": 220,
+        "duration": 187,
+        "formatted_distance": "220 m",
+        "formatted_duration": "3 min",
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "09:32",
+    "end_time": "10:02",
+    "distance": 5174,
+    "duration": 1802,
+    "formatted_distance": "5,2 km",
+    "formatted_duration": "30 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 147,
+      "duration": 217,
+      "formatted_distance": "150 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 9,
+        "duration": 8,
+        "formatted_distance": "9 m",
+        "formatted_duration": "8 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 28,
+        "duration": 22,
+        "formatted_distance": "28 m",
+        "formatted_duration": "22 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Eingang C - Thomas-Dehler-Str. nehmen · Rolltreppe nehmen",
+        "distance": 0,
+        "duration": 72,
+        "formatted_distance": "0,0 km",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6Q2lfbHYyXF7zHn4XoHPZg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=125.35284&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10105387064801,
+         "longitude": 11.646165666450967
+        }
+       },
+       {
+        "title": "Rolltreppe nehmen",
+        "distance": 41,
+        "duration": 60,
+        "formatted_distance": "41 m",
+        "formatted_duration": "1 min"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "U5 Laimer Platz",
+      "duration": 270,
+      "formatted_duration": "5 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "time": "09:35",
+       "data_id": "0x479de071405051b3:0x1defb9cbf65705d8"
+      },
+      "end_stop": {
+       "name": "Innsbrucker Ring",
+       "time": "09:40",
+       "data_id": "0x479ddf8d63e0e4e9:0xf3d46b8a05e401ce"
+      },
+      "stops": [
+       {
+        "name": "Quiddestraße",
+        "time": "09:37",
+        "data_id": "0x479de00b394c15c5:0x18560cbd4bdfe913"
+       },
+       {
+        "name": "Michaelibad",
+        "time": "09:39",
+        "data_id": "0x479ddfefdd62dfbd:0xc51d2ca2036d6c8b"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/de-metro.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/U-Bahn/21-U5-s26-1-MFP_M.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 1515,
+      "duration": 1315,
+      "formatted_distance": "1,5 km",
+      "formatted_duration": "22 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Rolltreppe nehmen · Ausgang A nehmen",
+        "distance": 121,
+        "duration": 122,
+        "formatted_distance": "120 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=hGohApXyGFhBaXLY0qY3QQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=136.37285&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.12049813189281,
+         "longitude": 11.618389764516913
+        }
+       },
+       {
+        "title": "Richtung  Innsbrucker Ring / B2R",
+        "action": "straight",
+        "distance": 16,
+        "duration": 21,
+        "formatted_distance": "16 m",
+        "formatted_duration": "21 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Innsbrucker Ring / B2R",
+        "action": "turn-left",
+        "distance": 432,
+        "duration": 350,
+        "formatted_distance": "450 m",
+        "formatted_duration": "6 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Schlüsselbergstraße",
+        "action": "turn-right",
+        "distance": 636,
+        "duration": 554,
+        "formatted_distance": "650 m",
+        "formatted_duration": "9 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Berg-am-Laim-Straße / B304",
+        "action": "turn-left",
+        "distance": 310,
+        "duration": 268,
+        "formatted_distance": "300 m",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wphYCIk6IdvpLoZxNwB1Uw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=17.182444&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.12965000602041,
+         "longitude": 11.622895403557559
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "09:34",
+    "end_time": "10:09",
+    "distance": 6407,
+    "duration": 2099,
+    "formatted_distance": "6,4 km",
+    "formatted_duration": "35 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 129,
+      "duration": 107,
+      "formatted_distance": "130 m",
+      "formatted_duration": "2 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 9,
+        "duration": 8,
+        "formatted_distance": "9 m",
+        "formatted_duration": "8 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 51,
+        "duration": 44,
+        "formatted_distance": "51 m",
+        "formatted_duration": "44 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=DkDpJpttXahZwnwyK4DHbA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=67.53898&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10095420240068,
+         "longitude": 11.64612574751072
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "55 Ostbahnhof",
+      "duration": 780,
+      "formatted_duration": "13 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "stop_id": "7",
+       "time": "09:36",
+       "data_id": "0x479de071475ba7b9:0x2bcf816a4bcc9c48"
+      },
+      "end_stop": {
+       "name": "Ramersdorf",
+       "time": "09:49",
+       "data_id": "0x479ddf940bf616f7:0x6db6e538d52534ca"
+      },
+      "stops": [
+       {
+        "name": "Thomas-Dehler-Straße",
+        "time": "09:38",
+        "data_id": "0x479de079fff0b359:0x52bbe2853d2a3d62"
+       },
+       {
+        "name": "Friedhof Perlach",
+        "time": "09:39",
+        "data_id": "0x479de07786d64963:0x9c411246b93c3c95"
+       },
+       {
+        "name": "Wilhelm-Hoegner-Straße",
+        "time": "09:40",
+        "data_id": "0x479ddfd83abb0547:0xaedee69af93a7cd"
+       },
+       {
+        "name": "Pfanzeltplatz",
+        "time": "09:41",
+        "data_id": "0x479ddfda3f9b8003:0xb82779b7c4bd1382"
+       },
+       {
+        "name": "Weddigenstraße",
+        "time": "09:43",
+        "data_id": "0x479ddfc49aa9bad3:0xbc9fe561c74aaa8b"
+       },
+       {
+        "name": "Adilostraße",
+        "time": "09:44",
+        "data_id": "0x479ddfc16171eb9f:0x1afcfe709c448d20"
+       },
+       {
+        "name": "Woferlstraße",
+        "time": "09:45",
+        "data_id": "0x479ddfc04ce4a32f:0xa81955a8b78bb638"
+       },
+       {
+        "name": "Diakon-Kerolt-Weg",
+        "time": "09:46",
+        "data_id": "0x479ddfeab9abde39:0x416928deee880872"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/MetroBus/24-55-s26-1-MFP_L.pdf"
+      }
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "59 Ackermannbogen",
+      "duration": 450,
+      "formatted_duration": "8 min",
+      "start_stop": {
+       "name": "Ramersdorf",
+       "time": "09:57",
+       "data_id": "0x479ddf940bf616f7:0x6db6e538d52534ca"
+      },
+      "end_stop": {
+       "name": "Ampfingstraße",
+       "time": "10:05",
+       "data_id": "0x479ddf89d70fb47b:0x7cfeee07be7a1e8f"
+      },
+      "stops": [
+       {
+        "name": "Karl-Preis-Platz",
+        "time": "09:59",
+        "data_id": "0x479ddf91008f50af:0xeda6316642a49f47"
+       },
+       {
+        "name": "Aschheimer Straße",
+        "time": "10:01",
+        "data_id": "0x479ddf8e17a27dbd:0x1c475383b14e11a2"
+       },
+       {
+        "name": "Sankt Pius",
+        "time": "10:02",
+        "data_id": "0x479ddf8ee7c2d397:0xfe91582432c73419"
+       },
+       {
+        "name": "Mühldorfstraße",
+        "time": "10:03",
+        "data_id": "0x479ddf8927d87c5d:0xa62de898b40a5f9b"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/MetroBus/24-59-s26-1-MFP_M.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 320,
+      "duration": 282,
+      "formatted_distance": "300 m",
+      "formatted_duration": "4 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Berg-am-Laim-Straße / B304",
+        "action": "straight",
+        "distance": 100,
+        "duration": 95,
+        "formatted_distance": "100 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=NXl0tV8eOnwvO-l4yJn3ug&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=194.21165&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.13013268785526,
+         "longitude": 11.615564602771713
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Berg-am-Laim-Straße / B304",
+        "action": "turn-right",
+        "distance": 220,
+        "duration": 187,
+        "formatted_distance": "220 m",
+        "formatted_duration": "3 min",
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "09:37",
+    "end_time": "10:07",
+    "distance": 5174,
+    "duration": 1802,
+    "formatted_distance": "5,2 km",
+    "formatted_duration": "30 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 147,
+      "duration": 217,
+      "formatted_distance": "150 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 9,
+        "duration": 8,
+        "formatted_distance": "9 m",
+        "formatted_duration": "8 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 28,
+        "duration": 22,
+        "formatted_distance": "28 m",
+        "formatted_duration": "22 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Eingang C - Thomas-Dehler-Str. nehmen · Rolltreppe nehmen",
+        "distance": 0,
+        "duration": 72,
+        "formatted_distance": "0,0 km",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6Q2lfbHYyXF7zHn4XoHPZg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=125.35284&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10105387064801,
+         "longitude": 11.646165666450967
+        }
+       },
+       {
+        "title": "Rolltreppe nehmen",
+        "distance": 41,
+        "duration": 60,
+        "formatted_distance": "41 m",
+        "formatted_duration": "1 min"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "U5 Laimer Platz",
+      "duration": 270,
+      "formatted_duration": "5 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "time": "09:40",
+       "data_id": "0x479de071405051b3:0x1defb9cbf65705d8"
+      },
+      "end_stop": {
+       "name": "Innsbrucker Ring",
+       "time": "09:45",
+       "data_id": "0x479ddf8d63e0e4e9:0xf3d46b8a05e401ce"
+      },
+      "stops": [
+       {
+        "name": "Quiddestraße",
+        "time": "09:42",
+        "data_id": "0x479de00b394c15c5:0x18560cbd4bdfe913"
+       },
+       {
+        "name": "Michaelibad",
+        "time": "09:44",
+        "data_id": "0x479ddfefdd62dfbd:0xc51d2ca2036d6c8b"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/de-metro.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/U-Bahn/21-U5-s26-1-MFP_M.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 1515,
+      "duration": 1315,
+      "formatted_distance": "1,5 km",
+      "formatted_duration": "22 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Rolltreppe nehmen · Ausgang A nehmen",
+        "distance": 121,
+        "duration": 122,
+        "formatted_distance": "120 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=hGohApXyGFhBaXLY0qY3QQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=136.37285&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.12049813189281,
+         "longitude": 11.618389764516913
+        }
+       },
+       {
+        "title": "Richtung  Innsbrucker Ring / B2R",
+        "action": "straight",
+        "distance": 16,
+        "duration": 21,
+        "formatted_distance": "16 m",
+        "formatted_duration": "21 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Innsbrucker Ring / B2R",
+        "action": "turn-left",
+        "distance": 432,
+        "duration": 350,
+        "formatted_distance": "450 m",
+        "formatted_duration": "6 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Schlüsselbergstraße",
+        "action": "turn-right",
+        "distance": 636,
+        "duration": 554,
+        "formatted_distance": "650 m",
+        "formatted_duration": "9 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Links  abbiegen auf  Berg-am-Laim-Straße / B304",
+        "action": "turn-left",
+        "distance": 310,
+        "duration": 268,
+        "formatted_distance": "300 m",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wphYCIk6IdvpLoZxNwB1Uw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=17.182444&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.12965000602041,
+         "longitude": 11.622895403557559
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "09:42",
+    "end_time": "10:10",
+    "distance": 6741,
+    "duration": 1717,
+    "formatted_distance": "6,7 km",
+    "formatted_duration": "28 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 147,
+      "duration": 217,
+      "formatted_distance": "150 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 9,
+        "duration": 8,
+        "formatted_distance": "9 m",
+        "formatted_duration": "8 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 28,
+        "duration": 22,
+        "formatted_distance": "28 m",
+        "formatted_duration": "22 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Eingang C - Thomas-Dehler-Str. nehmen · Rolltreppe nehmen",
+        "distance": 0,
+        "duration": 72,
+        "formatted_distance": "0,0 km",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6Q2lfbHYyXF7zHn4XoHPZg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=125.35284&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10105387064801,
+         "longitude": 11.646165666450967
+        }
+       },
+       {
+        "title": "Rolltreppe nehmen",
+        "distance": 41,
+        "duration": 60,
+        "formatted_distance": "41 m",
+        "formatted_duration": "1 min"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "U5 Laimer Platz",
+      "duration": 420,
+      "formatted_duration": "7 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "time": "09:45",
+       "data_id": "0x479de071405051b3:0x1defb9cbf65705d8"
+      },
+      "end_stop": {
+       "name": "München Ost",
+       "time": "09:52",
+       "data_id": "0x479ddf86bba779d5:0x437bfe77a45f940b"
+      },
+      "stops": [
+       {
+        "name": "Quiddestraße",
+        "time": "09:47",
+        "data_id": "0x479de00b394c15c5:0x18560cbd4bdfe913"
+       },
+       {
+        "name": "Michaelibad",
+        "time": "09:49",
+        "data_id": "0x479ddfefdd62dfbd:0xc51d2ca2036d6c8b"
+       },
+       {
+        "name": "Innsbrucker Ring",
+        "time": "09:51",
+        "data_id": "0x479ddf8d63e0e4e9:0xf3d46b8a05e401ce"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/de-metro.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/U-Bahn/21-U5-s26-1-MFP_M.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "duration": 93,
+      "formatted_duration": "2 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Rolltreppe nehmen · Ausgang Orleansplatz/-straße, Wörthstr. nehmen",
+        "distance": 59,
+        "duration": 60,
+        "formatted_distance": "59 m",
+        "formatted_duration": "1 min"
+       },
+       {
+        "title": "Zu Fuß",
+        "distance": 33,
+        "duration": 33,
+        "formatted_distance": "33 m",
+        "formatted_duration": "33 Sek."
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "21 St.-Veit-Straße",
+      "duration": 300,
+      "formatted_duration": "5 min",
+      "start_stop": {
+       "name": "Ostbahnhof",
+       "stop_id": "8",
+       "time": "10:02",
+       "data_id": "0x479ddf812fe549a3:0x90d24715b9596ce3"
+      },
+      "end_stop": {
+       "name": "Ampfingstraße",
+       "time": "10:07",
+       "data_id": "0x479e75627406d04b:0x8bbeac08bd57b57b"
+      },
+      "stops": [
+       {
+        "name": "Haidenauplatz",
+        "time": "10:05",
+        "data_id": "0x479e757d71888835:0xbaf789de790c11f9"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/tram2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/Tram/22-21-s26-1-MFP_M.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 259,
+      "duration": 230,
+      "formatted_distance": "260 m",
+      "formatted_duration": "3 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Ampfingstraße",
+        "action": "straight",
+        "distance": 21,
+        "duration": 17,
+        "formatted_distance": "21 m",
+        "formatted_duration": "17 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Ampfingstraße",
+        "action": "turn-right",
+        "distance": 18,
+        "duration": 26,
+        "formatted_distance": "18 m",
+        "formatted_duration": "26 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Berg-am-Laim-Straße / B304",
+        "action": "turn-right",
+        "distance": 220,
+        "duration": 187,
+        "formatted_distance": "220 m",
+        "formatted_duration": "3 min",
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Transit",
+    "start_time": "09:44",
+    "end_time": "10:19",
+    "distance": 6407,
+    "duration": 2099,
+    "formatted_distance": "6,4 km",
+    "formatted_duration": "35 min",
+    "cost": 4.2,
+    "currency": "EUR",
+    "icon": "https://serpapi.com/assets/google_maps_directions/transit.svg",
+    "trips": [
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 129,
+      "duration": 107,
+      "formatted_distance": "130 m",
+      "formatted_duration": "2 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Thomas-Dehler-Straße",
+        "action": "straight",
+        "distance": 69,
+        "duration": 55,
+        "formatted_distance": "69 m",
+        "formatted_duration": "55 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Thomas-Dehler-Straße",
+        "action": "turn-right",
+        "distance": 9,
+        "duration": 8,
+        "formatted_distance": "9 m",
+        "formatted_duration": "8 Sek.",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Hanns-Seidel-Platz",
+        "action": "turn-right",
+        "distance": 51,
+        "duration": 44,
+        "formatted_distance": "51 m",
+        "formatted_duration": "44 Sek.",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=DkDpJpttXahZwnwyK4DHbA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=67.53898&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.10095420240068,
+         "longitude": 11.64612574751072
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "55 Ostbahnhof",
+      "duration": 780,
+      "formatted_duration": "13 min",
+      "start_stop": {
+       "name": "Neuperlach Zentrum",
+       "stop_id": "7",
+       "time": "09:46",
+       "data_id": "0x479de071475ba7b9:0x2bcf816a4bcc9c48"
+      },
+      "end_stop": {
+       "name": "Ramersdorf",
+       "time": "09:59",
+       "data_id": "0x479ddf940bf616f7:0x6db6e538d52534ca"
+      },
+      "stops": [
+       {
+        "name": "Thomas-Dehler-Straße",
+        "time": "09:48",
+        "data_id": "0x479de079fff0b359:0x52bbe2853d2a3d62"
+       },
+       {
+        "name": "Friedhof Perlach",
+        "time": "09:49",
+        "data_id": "0x479de07786d64963:0x9c411246b93c3c95"
+       },
+       {
+        "name": "Wilhelm-Hoegner-Straße",
+        "time": "09:50",
+        "data_id": "0x479ddfd83abb0547:0xaedee69af93a7cd"
+       },
+       {
+        "name": "Pfanzeltplatz",
+        "time": "09:51",
+        "data_id": "0x479ddfda3f9b8003:0xb82779b7c4bd1382"
+       },
+       {
+        "name": "Weddigenstraße",
+        "time": "09:53",
+        "data_id": "0x479ddfc49aa9bad3:0xbc9fe561c74aaa8b"
+       },
+       {
+        "name": "Adilostraße",
+        "time": "09:54",
+        "data_id": "0x479ddfc16171eb9f:0x1afcfe709c448d20"
+       },
+       {
+        "name": "Woferlstraße",
+        "time": "09:55",
+        "data_id": "0x479ddfc04ce4a32f:0xa81955a8b78bb638"
+       },
+       {
+        "name": "Diakon-Kerolt-Weg",
+        "time": "09:56",
+        "data_id": "0x479ddfeab9abde39:0x416928deee880872"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/MetroBus/24-55-s26-1-MFP_L.pdf"
+      }
+     },
+     {
+      "travel_mode": "Transit",
+      "title": "59 Ackermannbogen",
+      "duration": 450,
+      "formatted_duration": "8 min",
+      "start_stop": {
+       "name": "Ramersdorf",
+       "time": "10:07",
+       "data_id": "0x479ddf940bf616f7:0x6db6e538d52534ca"
+      },
+      "end_stop": {
+       "name": "Ampfingstraße",
+       "time": "10:15",
+       "data_id": "0x479ddf89d70fb47b:0x7cfeee07be7a1e8f"
+      },
+      "stops": [
+       {
+        "name": "Karl-Preis-Platz",
+        "time": "10:09",
+        "data_id": "0x479ddf91008f50af:0xeda6316642a49f47"
+       },
+       {
+        "name": "Aschheimer Straße",
+        "time": "10:11",
+        "data_id": "0x479ddf8e17a27dbd:0x1c475383b14e11a2"
+       },
+       {
+        "name": "Sankt Pius",
+        "time": "10:12",
+        "data_id": "0x479ddf8ee7c2d397:0xfe91582432c73419"
+       },
+       {
+        "name": "Mühldorfstraße",
+        "time": "10:13",
+        "data_id": "0x479ddf8927d87c5d:0xa62de898b40a5f9b"
+       }
+      ],
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/bus2.svg",
+      "service_run_by": {
+       "name": "MVG München",
+       "link": "https://www.mvg.de/",
+       "routeninformationen": "https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/2026/MetroBus/24-59-s26-1-MFP_M.pdf"
+      }
+     },
+     {
+      "travel_mode": "Walking",
+      "title": "Zu Fuß",
+      "distance": 320,
+      "duration": 282,
+      "formatted_distance": "300 m",
+      "formatted_duration": "4 min",
+      "icon": "https://maps.gstatic.com/mapfiles/transit/iw2/svg/walk.svg",
+      "details": [
+       {
+        "title": "Richtung  Berg-am-Laim-Straße / B304",
+        "action": "straight",
+        "distance": 100,
+        "duration": 95,
+        "formatted_distance": "100 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=NXl0tV8eOnwvO-l4yJn3ug&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=194.21165&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 48.13013268785526,
+         "longitude": 11.615564602771713
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Rechts  abbiegen auf  Berg-am-Laim-Straße / B304",
+        "action": "turn-right",
+        "distance": 220,
+        "duration": 187,
+        "formatted_distance": "220 m",
+        "formatted_duration": "3 min",
+        "extensions": [
+         "Das Ziel befindet sich auf der linken Seite."
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "durations": [
+   {
+    "travel_mode": "Driving",
+    "duration": 840,
+    "formatted_duration": "14 min"
+   },
+   {
+    "travel_mode": "Transit",
+    "duration": 1680,
+    "formatted_duration": "28 min"
+   },
+   {
+    "travel_mode": "Walking",
+    "duration": 3963,
+    "formatted_duration": "1 h 6"
+   },
+   {
+    "travel_mode": "Cycling",
+    "duration": 1110,
+    "formatted_duration": "19 min"
+   }
+  ]
+ }
+}

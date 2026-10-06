@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791244073538",
+  "object": "chat.completion",
+  "created": 1791244073,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"body\": \"నాన్నగారు, బుధవారం 10:00కి Münchner Stadtbibliothek Neuperlach కి వెళ్దాం. 4 నిమిషాల నడకతో అక్కడికి చేరుకోవచ్చు. మీరు అక్కడ పుస్తకాలు చూడవచ్చు. 11:23కి ఇంటికి వచ్చేయొచ్చు.\" , \"title\": \"Münchner Stadtbibliothek Neuperlach కి\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1118,
+   "completion_tokens": 86,
+   "total_tokens": 1204,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 12.509090423583984
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T23:47:40.449Z",
+ "latencyMs": 1944
+}

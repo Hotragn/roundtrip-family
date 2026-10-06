@@ -1,108 +1,12 @@
 {
  "demoWeek": "bozeman-rain",
  "label": "Bozeman, no Telugu events, rainy",
- "provenance": "synthetic",
+ "weekSource": "synthetic variant",
  "householdId": "hh_bozeman",
  "week": "2026-W41",
+ "provenance": "synthetic",
  "sourceOfCandidates": "live_search",
  "suggestions": [
-  {
-   "id": "hh_bozeman:2026-W41:pl_62980384",
-   "candidate": {
-    "id": "pl_62980384",
-    "kind": "place",
-    "title": "Bozeman Senior Social Center",
-    "venueName": "Bozeman Senior Social Center",
-    "address": "807 N Tracy Ave, Bozeman, MT 59715",
-    "location": {
-     "lat": 45.6878629,
-     "lng": -111.0376076
-    },
-    "ladderLevel": 4,
-    "languageMatch": 0,
-    "category": "senior_center",
-    "indoor": true,
-    "costUsd": 0,
-    "foodAvailable": false,
-    "languageNeeded": true,
-    "groupSize": "medium",
-    "description": "Senior citizen center",
-    "photo": {
-     "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SZFlQDWCaP_mgc8ZvdS8nYL7DQstsmcQwEepOepdJH7veEq4xlhVLpSbpViFVQc-wBV_IMgZbBrKVSb_Y_-i2lOEcGND_8ynuW4MH0Mdncj3CzUEMTTlKEn0euc3U3dFcFG3yA=w1000-h1000-c-n",
-     "credit": "Photo: Google Maps contributor"
-    },
-    "start": null,
-    "end": null,
-    "suitsOlderAdults": true,
-    "provenance": "live_search",
-    "query": "senior center"
-   },
-   "role": "mother",
-   "parentIds": [
-    "p_sarala_bz"
-   ],
-   "slot": {
-    "day": "mon",
-    "depart": 510,
-    "back": 624,
-    "withAdultChild": false
-   },
-   "ladderLevel": 4,
-   "ladderLabel": "Programs for newcomers and older adults",
-   "score": {
-    "pGo": 0.9021,
-    "enjoyment": 3.334,
-    "combined": 3.0072,
-    "rank": 1
-   },
-   "chips": [
-    {
-     "label": "Not in their language",
-     "feature": "languageMatch",
-     "direction": "against"
-    },
-    {
-     "label": "No familiar faces yet",
-     "feature": "knowsSomeone",
-     "direction": "against"
-    },
-    {
-     "label": "Quiet, few people",
-     "feature": "setting",
-     "direction": "against"
-    }
-   ],
-   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. She enjoys meeting other women her age in calm settings. By bus, about 12 minutes each way, back by 10:24.",
-   "reasonBy": "planner",
-   "firstRideTogether": true,
-   "bringSomeone": null,
-   "joinCard": {
-    "kind": "join",
-    "local": "I would like to join. I speak Telugu. Who can help me sign up?",
-    "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
-    "askWho": "Ask the staff at the front desk."
-   },
-   "features": {
-    "category": "senior_center",
-    "languageMatch": 0,
-    "travelMinutes": 12,
-    "transfers": 0,
-    "walkingMinutes": 8,
-    "startHour": 8,
-    "dayOfWeek": "mon",
-    "weather": "rainy",
-    "temperatureC": 13,
-    "rainChance": 0.85,
-    "indoor": true,
-    "groupSize": "medium",
-    "costUsd": 0,
-    "knowsSomeone": false,
-    "foodAvailable": false,
-    "daysSinceLastOuting": 3,
-    "withAdultChild": false,
-    "languageNeeded": true
-   }
-  },
   {
    "id": "hh_bozeman:2026-W41:pl_d8a69c6c",
    "candidate": {
@@ -130,52 +34,96 @@
     },
     "start": null,
     "end": null,
+    "hours": {
+     "mon": [
+      [
+       600,
+       1200
+      ]
+     ],
+     "tue": [
+      [
+       600,
+       1200
+      ]
+     ],
+     "wed": [
+      [
+       600,
+       1200
+      ]
+     ],
+     "thu": [
+      [
+       600,
+       1200
+      ]
+     ],
+     "fri": [
+      [
+       600,
+       1080
+      ]
+     ],
+     "sat": [
+      [
+       600,
+       1020
+      ]
+     ],
+     "sun": [
+      [
+       780,
+       1020
+      ]
+     ]
+    },
     "suitsOlderAdults": true,
     "provenance": "live_search",
     "query": "public library"
    },
-   "role": "father",
+   "role": "mother",
    "parentIds": [
-    "p_venkat_bz"
+    "p_sarala_bz"
    ],
    "slot": {
     "day": "mon",
-    "depart": 510,
-    "back": 607,
+    "depart": 600,
+    "back": 697,
     "withAdultChild": false
    },
    "ladderLevel": 4,
    "ladderLabel": "Programs for newcomers and older adults",
    "score": {
-    "pGo": 0.8891,
-    "enjoyment": 3.327,
-    "combined": 2.9582,
-    "rank": 2
+    "pGo": 0.9242,
+    "enjoyment": 3.486,
+    "combined": 3.2218,
+    "rank": 1
    },
    "chips": [
     {
-     "label": "Not in their language",
-     "feature": "languageMatch",
+     "label": "Weekday outings rated lower so far",
+     "feature": "timing",
      "direction": "against"
     },
     {
-     "label": "Free",
-     "feature": "costUsd",
+     "label": "No familiar faces yet",
+     "feature": "knowsSomeone",
+     "direction": "against"
+    },
+    {
+     "label": "Small and calm",
+     "feature": "setting",
      "direction": "for"
-    },
-    {
-     "label": "Short errands rated lower so far",
-     "feature": "trip",
-     "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. He enjoys reading and quiet environments like he does with his Telugu novels. By bus, about 11 minutes each way, back by 10:07.",
+   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. She enjoys quiet environments and watching people. By bus, about 11 minutes each way, back by 11:37.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
    "joinCard": {
     "kind": "join",
-    "local": "I would like to join. I speak Telugu and Hindi. Who can help me sign up?",
+    "local": "I would like to join. I speak Telugu. Who can help me sign up?",
     "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
     "askWho": "Ask at the front desk."
    },
@@ -185,7 +133,7 @@
     "travelMinutes": 11,
     "transfers": 0,
     "walkingMinutes": 8,
-    "startHour": 8,
+    "startHour": 10,
     "dayOfWeek": "mon",
     "weather": "rainy",
     "temperatureC": 13,
@@ -199,13 +147,148 @@
     "withAdultChild": false,
     "languageNeeded": false
    }
+  },
+  {
+   "id": "hh_bozeman:2026-W41:pl_62980384",
+   "candidate": {
+    "id": "pl_62980384",
+    "kind": "place",
+    "title": "Bozeman Senior Social Center",
+    "venueName": "Bozeman Senior Social Center",
+    "address": "807 N Tracy Ave, Bozeman, MT 59715",
+    "location": {
+     "lat": 45.6878629,
+     "lng": -111.0376076
+    },
+    "ladderLevel": 4,
+    "languageMatch": 0,
+    "category": "senior_center",
+    "indoor": true,
+    "costUsd": 0,
+    "foodAvailable": false,
+    "languageNeeded": true,
+    "groupSize": "medium",
+    "description": "Senior citizen center",
+    "photo": {
+     "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SZFlQDWCaP_mgc8ZvdS8nYL7DQstsmcQwEepOepdJH7veEq4xlhVLpSbpViFVQc-wBV_IMgZbBrKVSb_Y_-i2lOEcGND_8ynuW4MH0Mdncj3CzUEMTTlKEn0euc3U3dFcFG3yA=w1000-h1000-c-n",
+     "credit": "Photo: Google Maps contributor"
+    },
+    "start": null,
+    "end": null,
+    "hours": {
+     "mon": [
+      [
+       510,
+       990
+      ]
+     ],
+     "tue": [
+      [
+       510,
+       990
+      ]
+     ],
+     "wed": [
+      [
+       510,
+       990
+      ]
+     ],
+     "thu": [
+      [
+       510,
+       990
+      ]
+     ],
+     "fri": [
+      [
+       510,
+       990
+      ]
+     ],
+     "sat": [],
+     "sun": []
+    },
+    "suitsOlderAdults": true,
+    "provenance": "live_search",
+    "query": "senior center"
+   },
+   "role": "mother",
+   "parentIds": [
+    "p_sarala_bz"
+   ],
+   "slot": {
+    "day": "wed",
+    "depart": 510,
+    "back": 624,
+    "withAdultChild": false
+   },
+   "ladderLevel": 4,
+   "ladderLabel": "Programs for newcomers and older adults",
+   "score": {
+    "pGo": 0.9021,
+    "enjoyment": 3.334,
+    "combined": 3.0072,
+    "rank": 2
+   },
+   "chips": [
+    {
+     "label": "Not in their language",
+     "feature": "languageMatch",
+     "direction": "against"
+    },
+    {
+     "label": "No familiar faces yet",
+     "feature": "knowsSomeone",
+     "direction": "against"
+    },
+    {
+     "label": "Quiet, few people",
+     "feature": "setting",
+     "direction": "against"
+    }
+   ],
+   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. She enjoys meeting other women her age. By bus, about 12 minutes each way, back by 10:24.",
+   "reasonBy": "planner",
+   "firstRideTogether": true,
+   "bringSomeone": null,
+   "joinCard": {
+    "kind": "join",
+    "local": "I would like to join. I speak Telugu. Who can help me sign up?",
+    "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
+    "askWho": "Ask the staff at the front desk."
+   },
+   "features": {
+    "category": "senior_center",
+    "languageMatch": 0,
+    "travelMinutes": 12,
+    "transfers": 0,
+    "walkingMinutes": 8,
+    "startHour": 8,
+    "dayOfWeek": "wed",
+    "weather": "rainy",
+    "temperatureC": 13,
+    "rainChance": 0.85,
+    "indoor": true,
+    "groupSize": "medium",
+    "costUsd": 0,
+    "knowsSomeone": false,
+    "foodAvailable": false,
+    "daysSinceLastOuting": 3,
+    "withAdultChild": false,
+    "languageNeeded": true
+   }
   }
  ],
+ "alternatives": {
+  "hh_bozeman:2026-W41:pl_d8a69c6c": [],
+  "hh_bozeman:2026-W41:pl_62980384": []
+ },
  "note": "No Telugu events were found this week.",
  "sameLanguageFound": false,
  "rejected": [],
  "stats": {
-  "ms": 30569,
+  "ms": 32104,
   "modelCalls": 1,
   "cachedModelCalls": 0,
   "fallbacks": 0,
@@ -213,17 +296,17 @@
   "toolCalls": [
    {
     "tool": "rankOutings",
-    "ms": 14567,
+    "ms": 13773,
     "detail": "mother: 2 feasible"
    },
    {
     "tool": "rankOutings",
-    "ms": 14510,
+    "ms": 13274,
     "detail": "father: 2 feasible"
    },
    {
     "tool": "agent",
-    "ms": 1490,
+    "ms": 5056,
     "detail": "1 steps"
    }
   ],

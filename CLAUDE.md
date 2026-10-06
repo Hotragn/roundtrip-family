@@ -98,7 +98,9 @@ Keep this section updated as scripts are added.
 - `pnpm privacy-check` (add `--write` to regenerate docs/privacy-table.md): run before every commit.
 - `pnpm costs`: regenerates the running totals in docs/costs.md from data/demo/usage/. Check before any paid call.
 - `pnpm --filter @roundtrip/web exec playwright test e2e/offline.spec.ts e2e/a11y.spec.ts --project=mobile`: offline, bundle and accessibility checks (needs `pnpm build`). `e2e/parents-screens.spec.ts` saves screenshots to docs/screenshots/.
+- `pnpm --filter @roundtrip/web exec playwright test e2e/dashboard.spec.ts e2e/scroll-track.spec.ts`: the dashboard's accessibility checks, the week board flow (approve, swap, move) reaching the parents' phones, and the scroll indicators. `e2e/plan-screens.spec.ts` saves dashboard screenshots (`PLAN_SECTIONS=week,privacy,...`).
 - `pnpm seed`: loads both demo households into MongoDB Atlas.
 - `pnpm eval`: the event-understanding eval (live Gemma unless LLM_MODE=replay).
-- Data pipeline (scripts/, live calls cached as fixtures): `discover.ts` (SerpApi), `plan-weeks.ts` (planner), `build-week.ts` (the parents' weeks in data/demo/weeks/). Run with `pnpm --filter @roundtrip/scripts exec tsx <file>`.
+- Data pipeline (scripts/, live calls cached as fixtures): `discover.ts` (SerpApi), `plan-weeks.ts` (planner; needs the ranker running), `build-week.ts` (the parents' weeks in data/demo/weeks/), `route-geometry.ts` (map lines and stop coordinates for the dashboard). Run with `pnpm --filter @roundtrip/scripts exec tsx <file>`.
+- `pnpm dev` and `pnpm build` first copy MapLibre's worker into apps/web/public/maplibre/ (apps/web/scripts/vendor-maplibre.mjs).
 - Ranker: `cd ranker && uv run python serve.py`; leave-one-out: `uv run python eval_loo.py --area fremont --mode replay`.

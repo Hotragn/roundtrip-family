@@ -1,9 +1,10 @@
 {
  "demoWeek": "bozeman",
  "label": "Bozeman, no Telugu events (live search)",
- "provenance": "synthetic",
+ "weekSource": "live_search",
  "householdId": "hh_bozeman",
  "week": "2026-W41",
+ "provenance": "synthetic",
  "sourceOfCandidates": "live_search",
  "suggestions": [
   {
@@ -33,6 +34,50 @@
     },
     "start": null,
     "end": null,
+    "hours": {
+     "mon": [
+      [
+       0,
+       1440
+      ]
+     ],
+     "tue": [
+      [
+       0,
+       1440
+      ]
+     ],
+     "wed": [
+      [
+       0,
+       1440
+      ]
+     ],
+     "thu": [
+      [
+       0,
+       1440
+      ]
+     ],
+     "fri": [
+      [
+       0,
+       1440
+      ]
+     ],
+     "sat": [
+      [
+       0,
+       1440
+      ]
+     ],
+     "sun": [
+      [
+       0,
+       1440
+      ]
+     ]
+    },
     "suitsOlderAdults": true,
     "provenance": "live_search",
     "query": "park walking trail"
@@ -72,7 +117,7 @@
      "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. No language needed. She enjoys watching people and being in parks. By bus, about 12 minutes each way, back by 09:54.",
+   "reasonText": "No Telugu events nearby this week. No language needed. She enjoyed park outings in the past. By bus, about 12 minutes each way, back by 09:54.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
@@ -125,13 +170,57 @@
     },
     "start": null,
     "end": null,
+    "hours": {
+     "mon": [
+      [
+       300,
+       1320
+      ]
+     ],
+     "tue": [
+      [
+       300,
+       1320
+      ]
+     ],
+     "wed": [
+      [
+       300,
+       1320
+      ]
+     ],
+     "thu": [
+      [
+       300,
+       1320
+      ]
+     ],
+     "fri": [
+      [
+       300,
+       1320
+      ]
+     ],
+     "sat": [
+      [
+       300,
+       1320
+      ]
+     ],
+     "sun": [
+      [
+       300,
+       1320
+      ]
+     ]
+    },
     "suitsOlderAdults": true,
     "provenance": "live_search",
     "query": "park walking trail"
    },
-   "role": "mother",
+   "role": "father",
    "parentIds": [
-    "p_sarala_bz"
+    "p_venkat_bz"
    ],
    "slot": {
     "day": "wed",
@@ -142,9 +231,9 @@
    "ladderLevel": 3,
    "ladderLabel": "Language barely matters",
    "score": {
-    "pGo": 0.9687,
-    "enjoyment": 3.655,
-    "combined": 3.5408,
+    "pGo": 0.9284,
+    "enjoyment": 3.598,
+    "combined": 3.3404,
     "rank": 2
    },
    "chips": [
@@ -164,8 +253,8 @@
      "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. No language needed. She enjoys quiet park settings for watching people come and go. By bus, about 12 minutes each way, back by 09:54.",
-   "reasonBy": "planner",
+   "reasonText": "No Telugu events nearby this week. No language needed. He gave his last walk in the park 5 of 5. By bus, about 12 minutes each way, back by 09:54.",
+   "reasonBy": "fallback",
    "firstRideTogether": true,
    "bringSomeone": null,
    "joinCard": null,
@@ -182,98 +271,6 @@
     "rainChance": 0,
     "indoor": false,
     "groupSize": "medium",
-    "costUsd": 0,
-    "knowsSomeone": false,
-    "foodAvailable": false,
-    "daysSinceLastOuting": 3,
-    "withAdultChild": false,
-    "languageNeeded": false
-   }
-  },
-  {
-   "id": "hh_bozeman:2026-W41:pl_d8a69c6c",
-   "candidate": {
-    "id": "pl_d8a69c6c",
-    "kind": "place",
-    "title": "Bozeman Public Library | City of Bozeman",
-    "venueName": "Bozeman Public Library | City of Bozeman",
-    "address": "626 E Main St, Bozeman, MT 59715",
-    "location": {
-     "lat": 45.678519699999995,
-     "lng": -111.0272225
-    },
-    "ladderLevel": 4,
-    "languageMatch": 0,
-    "category": "library",
-    "indoor": true,
-    "costUsd": 0,
-    "foodAvailable": false,
-    "languageNeeded": false,
-    "groupSize": "small",
-    "description": "Public library",
-    "photo": {
-     "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPSZmPFXuG1mUNNSJ4a3XaW332tuBmsFVq3Pbm76ukTkd1teQhDGutcVQfvnPjV2KS6kju3-bhGIsn1CSdt7B8WaOLVXWPR6zi0TzVtbQjsho6XobUYElvq9N6mosgaAR7RWN13=w1000-h1000-c-n",
-     "credit": "Photo: Google Maps contributor"
-    },
-    "start": null,
-    "end": null,
-    "suitsOlderAdults": true,
-    "provenance": "live_search",
-    "query": "public library"
-   },
-   "role": "mother",
-   "parentIds": [
-    "p_sarala_bz"
-   ],
-   "slot": {
-    "day": "fri",
-    "depart": 510,
-    "back": 607,
-    "withAdultChild": false
-   },
-   "ladderLevel": 4,
-   "ladderLabel": "Programs for newcomers and older adults",
-   "score": {
-    "pGo": 0.9556,
-    "enjoyment": 3.529,
-    "combined": 3.3723,
-    "rank": 3
-   },
-   "chips": [
-    {
-     "label": "Weekday outings rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
-    {
-     "label": "No familiar faces yet",
-     "feature": "knowsSomeone",
-     "direction": "against"
-    },
-    {
-     "label": "Short errands rated lower so far",
-     "feature": "trip",
-     "direction": "against"
-    }
-   ],
-   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. By bus, about 11 minutes each way, back by 10:07.",
-   "reasonBy": "fallback",
-   "firstRideTogether": true,
-   "bringSomeone": null,
-   "joinCard": null,
-   "features": {
-    "category": "library",
-    "languageMatch": 0,
-    "travelMinutes": 11,
-    "transfers": 0,
-    "walkingMinutes": 8,
-    "startHour": 8,
-    "dayOfWeek": "fri",
-    "weather": "pleasant",
-    "temperatureC": 22,
-    "rainChance": 0,
-    "indoor": true,
-    "groupSize": "small",
     "costUsd": 0,
     "knowsSomeone": false,
     "foodAvailable": false,
@@ -309,16 +306,50 @@
     },
     "start": null,
     "end": null,
+    "hours": {
+     "mon": [
+      [
+       510,
+       990
+      ]
+     ],
+     "tue": [
+      [
+       510,
+       990
+      ]
+     ],
+     "wed": [
+      [
+       510,
+       990
+      ]
+     ],
+     "thu": [
+      [
+       510,
+       990
+      ]
+     ],
+     "fri": [
+      [
+       510,
+       990
+      ]
+     ],
+     "sat": [],
+     "sun": []
+    },
     "suitsOlderAdults": true,
     "provenance": "live_search",
     "query": "senior center"
    },
-   "role": "father",
+   "role": "mother",
    "parentIds": [
-    "p_venkat_bz"
+    "p_sarala_bz"
    ],
    "slot": {
-    "day": "mon",
+    "day": "wed",
     "depart": 510,
     "back": 624,
     "withAdultChild": false
@@ -326,10 +357,10 @@
    "ladderLevel": 4,
    "ladderLabel": "Programs for newcomers and older adults",
    "score": {
-    "pGo": 0.9236,
-    "enjoyment": 3.305,
-    "combined": 3.0521,
-    "rank": 4
+    "pGo": 0.9445,
+    "enjoyment": 3.37,
+    "combined": 3.1832,
+    "rank": 3
    },
    "chips": [
     {
@@ -338,9 +369,9 @@
      "direction": "against"
     },
     {
-     "label": "A time that has worked before",
-     "feature": "timing",
-     "direction": "for"
+     "label": "No familiar faces yet",
+     "feature": "knowsSomeone",
+     "direction": "against"
     },
     {
      "label": "Quiet, few people",
@@ -348,13 +379,13 @@
      "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. He has enjoyed social programs that worked for him before. By bus, about 12 minutes each way, back by 10:24.",
+   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. She enjoys meeting other women her age. By bus, about 12 minutes each way, back by 10:24.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
    "joinCard": {
     "kind": "join",
-    "local": "I would like to join. I speak Telugu and Hindi. Who can help me sign up?",
+    "local": "I would like to join. I speak Telugu. Who can help me sign up?",
     "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
     "askWho": "Ask the staff at the front desk."
    },
@@ -365,10 +396,10 @@
     "transfers": 0,
     "walkingMinutes": 8,
     "startHour": 8,
-    "dayOfWeek": "mon",
+    "dayOfWeek": "wed",
     "weather": "pleasant",
-    "temperatureC": 21,
-    "rainChance": 0.04,
+    "temperatureC": 20,
+    "rainChance": 0,
     "indoor": true,
     "groupSize": "medium",
     "costUsd": 0,
@@ -378,13 +409,155 @@
     "withAdultChild": false,
     "languageNeeded": true
    }
+  },
+  {
+   "id": "hh_bozeman:2026-W41:pl_d8a69c6c",
+   "candidate": {
+    "id": "pl_d8a69c6c",
+    "kind": "place",
+    "title": "Bozeman Public Library | City of Bozeman",
+    "venueName": "Bozeman Public Library | City of Bozeman",
+    "address": "626 E Main St, Bozeman, MT 59715",
+    "location": {
+     "lat": 45.678519699999995,
+     "lng": -111.0272225
+    },
+    "ladderLevel": 4,
+    "languageMatch": 0,
+    "category": "library",
+    "indoor": true,
+    "costUsd": 0,
+    "foodAvailable": false,
+    "languageNeeded": false,
+    "groupSize": "small",
+    "description": "Public library",
+    "photo": {
+     "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPSZmPFXuG1mUNNSJ4a3XaW332tuBmsFVq3Pbm76ukTkd1teQhDGutcVQfvnPjV2KS6kju3-bhGIsn1CSdt7B8WaOLVXWPR6zi0TzVtbQjsho6XobUYElvq9N6mosgaAR7RWN13=w1000-h1000-c-n",
+     "credit": "Photo: Google Maps contributor"
+    },
+    "start": null,
+    "end": null,
+    "hours": {
+     "mon": [
+      [
+       600,
+       1200
+      ]
+     ],
+     "tue": [
+      [
+       600,
+       1200
+      ]
+     ],
+     "wed": [
+      [
+       600,
+       1200
+      ]
+     ],
+     "thu": [
+      [
+       600,
+       1200
+      ]
+     ],
+     "fri": [
+      [
+       600,
+       1080
+      ]
+     ],
+     "sat": [
+      [
+       600,
+       1020
+      ]
+     ],
+     "sun": [
+      [
+       780,
+       1020
+      ]
+     ]
+    },
+    "suitsOlderAdults": true,
+    "provenance": "live_search",
+    "query": "public library"
+   },
+   "role": "father",
+   "parentIds": [
+    "p_venkat_bz"
+   ],
+   "slot": {
+    "day": "mon",
+    "depart": 990,
+    "back": 1087,
+    "withAdultChild": false
+   },
+   "ladderLevel": 4,
+   "ladderLabel": "Programs for newcomers and older adults",
+   "score": {
+    "pGo": 0.9277,
+    "enjoyment": 3.394,
+    "combined": 3.1489,
+    "rank": 4
+   },
+   "chips": [
+    {
+     "label": "Not in their language",
+     "feature": "languageMatch",
+     "direction": "against"
+    },
+    {
+     "label": "Short errands rated lower so far",
+     "feature": "trip",
+     "direction": "against"
+    },
+    {
+     "label": "Quiet, few people",
+     "feature": "setting",
+     "direction": "against"
+    }
+   ],
+   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. He enjoys reading and quiet environments. By bus, about 11 minutes each way, back by 18:07.",
+   "reasonBy": "planner",
+   "firstRideTogether": true,
+   "bringSomeone": null,
+   "joinCard": null,
+   "features": {
+    "category": "library",
+    "languageMatch": 0,
+    "travelMinutes": 11,
+    "transfers": 0,
+    "walkingMinutes": 8,
+    "startHour": 16,
+    "dayOfWeek": "mon",
+    "weather": "pleasant",
+    "temperatureC": 21,
+    "rainChance": 0.04,
+    "indoor": true,
+    "groupSize": "small",
+    "costUsd": 0,
+    "knowsSomeone": false,
+    "foodAvailable": false,
+    "daysSinceLastOuting": 3,
+    "withAdultChild": false,
+    "languageNeeded": false
+   }
   }
  ],
+ "alternatives": {
+  "hh_bozeman:2026-W41:pl_7067f205": [],
+  "hh_bozeman:2026-W41:pl_90656138": [],
+  "hh_bozeman:2026-W41:pl_62980384": [],
+  "hh_bozeman:2026-W41:pl_d8a69c6c": []
+ },
  "note": "No Telugu events or groups were found nearby this week.",
  "sameLanguageFound": false,
  "rejected": [],
  "stats": {
-  "ms": 193376,
+  "ms": 35687,
   "modelCalls": 1,
   "cachedModelCalls": 0,
   "fallbacks": 0,
@@ -392,17 +565,17 @@
   "toolCalls": [
    {
     "tool": "rankOutings",
-    "ms": 89718,
+    "ms": 14126,
     "detail": "mother: 4 feasible"
    },
    {
     "tool": "rankOutings",
-    "ms": 97392,
+    "ms": 16645,
     "detail": "father: 4 feasible"
    },
    {
     "tool": "agent",
-    "ms": 6257,
+    "ms": 4913,
     "detail": "1 steps"
    }
   ],

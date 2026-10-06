@@ -107,7 +107,7 @@ jobs:
         run: pnpm --filter @roundtrip/web exec playwright install --with-deps chromium
       - name: Offline, accessibility and bundle checks
         id: e2e
-        run: pnpm --filter @roundtrip/web exec playwright test e2e/offline.spec.ts e2e/a11y.spec.ts --project=mobile
+        run: pnpm --filter @roundtrip/web exec playwright test e2e/offline.spec.ts e2e/a11y.spec.ts e2e/dashboard.spec.ts e2e/scroll-track.spec.ts
       - name: Summary
         if: always()
         run: |

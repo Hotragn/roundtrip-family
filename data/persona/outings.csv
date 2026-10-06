@@ -8,7 +8,7 @@ id,day_of_week,time_of_day,place_type,place,transport,travel_minutes,who,with_ad
 7,Saturday,afternoon,friend_home,College friend's home (Milpitas),driven_by_child,20,both,yes,indoor,Telugu,2,no,pleasant,0,yes,5,yes,1,
 8,Tuesday,morning,walk,Mail room and parking lot,walked,5,Sarala,no,outdoor,none needed,0,no,pleasant,0,no,3,yes,1,
 9,Sunday,morning,place_of_worship,Gurdwara,driven_by_child,15,both,yes,indoor,Punjabi and Hindi,1,no,pleasant,0,no,4,maybe,1,They wanted to see it
-10,Wednesday,morning,pharmacy,Walgreens,dropped_off_by_child,8,Venkat,no,indoor,English,0,yes,hot,15,no,2,no,1,Pointed at things; said he felt stupid
+10,Wednesday,morning,pharmacy,Walgreens,dropped_off_by_child,8,Venkat,no,indoor,English,0,yes,hot,15,no,2,no,1,Pointed at things; couldn't ask for what he needed
 11,Saturday,morning,temple,Shiva Vishnu Temple (San Jose),driven_by_child,25,both,yes,indoor,Telugu,2,no,rainy,0,yes,5,yes,1,
 12,Sunday,morning,asian_grocery,99 Ranch Market,driven_by_child,18,both,yes,indoor,Mandarin around them,0,no,cool,25,no,4,yes,1,Suggested by Mrs. Chen; they liked the vegetables
 13,Friday,evening,friend_home,Friend's home (Santa Clara),driven_by_child,30,both,yes,indoor,Telugu and English,2,no,cool,0,yes,5,yes,1,Dinner

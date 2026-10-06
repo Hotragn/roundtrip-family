@@ -41,8 +41,11 @@ export const Route = z.object({
   totalMinutes: z.number().min(0),
   transfers: z.number().int().min(0),
   walkingMinutes: z.number().min(0),
-  /** Where the route came from: live transit directions, walking directions, or plain steps. */
-  source: z.enum(["transit_directions", "walking_directions", "plain_steps", "synthetic"]),
+  /**
+   * Where the route came from: live transit or walking directions, a walking route on
+   * OpenStreetMap (for short walks with no saved directions), plain steps, or synthetic.
+   */
+  source: z.enum(["transit_directions", "walking_directions", "osm_walking", "plain_steps", "synthetic"]),
   /** The route starts at the household's nearest stop, never the home address. */
   startsAt: Stop,
 });

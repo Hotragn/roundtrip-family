@@ -34,19 +34,90 @@
     },
     "start": null,
     "end": null,
+    "hours": {
+     "mon": [
+      [
+       510,
+       600
+      ],
+      [
+       1080,
+       1170
+      ]
+     ],
+     "tue": [
+      [
+       510,
+       600
+      ],
+      [
+       1080,
+       1170
+      ]
+     ],
+     "wed": [
+      [
+       510,
+       600
+      ],
+      [
+       1080,
+       1170
+      ]
+     ],
+     "thu": [
+      [
+       510,
+       600
+      ],
+      [
+       1080,
+       1170
+      ]
+     ],
+     "fri": [
+      [
+       510,
+       600
+      ],
+      [
+       1080,
+       1170
+      ]
+     ],
+     "sat": [
+      [
+       540,
+       720
+      ],
+      [
+       1080,
+       1200
+      ]
+     ],
+     "sun": [
+      [
+       540,
+       720
+      ],
+      [
+       1080,
+       1200
+      ]
+     ]
+    },
     "suitsOlderAdults": true,
     "provenance": "live_search",
     "query": "Hindu temple"
    },
-   "role": "both",
+   "role": "mother",
    "parentIds": [
-    "p_sarala",
-    "p_venkat"
+    "p_sarala"
    ],
    "slot": {
     "day": "mon",
     "depart": 510,
-    "back": 634,
+    "back": 607,
     "withAdultChild": false
    },
    "ladderLevel": 2,
@@ -74,7 +145,7 @@
      "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. Shared culture. They both enjoy visiting temples. By bus, about 17 minutes each way, back by 10:34.",
+   "reasonText": "No Telugu events nearby this week. Shared culture. She enjoys visiting temples. By bus, about 17 minutes each way, back by 10:07.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
@@ -106,63 +177,107 @@
    }
   },
   {
-   "id": "hh_fremont:2026-W41:pl_d08f3aa9",
+   "id": "hh_fremont:2026-W41:pl_d0e8e84e",
    "candidate": {
-    "id": "pl_d08f3aa9",
+    "id": "pl_d0e8e84e",
     "kind": "place",
-    "title": "Bharat Bazar",
-    "venueName": "Bharat Bazar",
-    "address": "3400 Mowry Ave, Fremont, CA 94538",
+    "title": "Fremont Main Library",
+    "venueName": "Fremont Main Library",
+    "address": "2400 Stevenson Blvd, Fremont, CA 94538",
     "location": {
-     "lat": 37.5520269,
-     "lng": -121.98512489999999
+     "lat": 37.5508224,
+     "lng": -121.97097889999999
     },
-    "ladderLevel": 2,
-    "languageMatch": 1,
-    "category": "indian_grocery",
+    "ladderLevel": 4,
+    "languageMatch": 0,
+    "category": "library",
     "indoor": true,
-    "costUsd": 30,
+    "costUsd": 0,
     "foodAvailable": false,
     "languageNeeded": false,
-    "groupSize": "medium",
-    "description": "Indian grocery store",
+    "groupSize": "small",
+    "description": "Public library",
     "photo": {
-     "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcwWo2Hytv1gmJAWIPBcUFvUfujNnI9PVF1Z37YBa3Xx3r2cNra0vpXyNKsphP9zkZ2lnGHsb9WQTZ7gEOhys30uqgln06s_kZ23Rjo7On_JfkcrrdHjdlz95mys6WIRQ4qoQgdoQ=w1000-h1000-c-n",
+     "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmOUPsEgXa_y4pIBwXu-x82OmrtcXaCjXDFZMhF_mqt1HBQ0Lmbv2KiRzotLByHRgcgFVsX8gerF6GByPDgE44Y7Ja-zpKMRIwHJ31Kul5ul6j9f8IbqtnQvL1btHao4gBJrtcxePQ=w1000-h1000-c-n",
      "credit": "Photo: Google Maps contributor"
     },
     "start": null,
     "end": null,
+    "hours": {
+     "mon": [
+      [
+       720,
+       1200
+      ]
+     ],
+     "tue": [
+      [
+       720,
+       1200
+      ]
+     ],
+     "wed": [
+      [
+       660,
+       1080
+      ]
+     ],
+     "thu": [
+      [
+       660,
+       1080
+      ]
+     ],
+     "fri": [
+      [
+       600,
+       1020
+      ]
+     ],
+     "sat": [
+      [
+       600,
+       1020
+      ]
+     ],
+     "sun": [
+      [
+       780,
+       1020
+      ]
+     ]
+    },
     "suitsOlderAdults": true,
     "provenance": "live_search",
-    "query": "Indian grocery store"
+    "query": "public library"
    },
    "role": "mother",
    "parentIds": [
     "p_sarala"
    ],
    "slot": {
-    "day": "wed",
-    "depart": 510,
-    "back": 578,
+    "day": "fri",
+    "depart": 585,
+    "back": 690,
     "withAdultChild": false
    },
-   "ladderLevel": 2,
-   "ladderLabel": "Shared culture",
+   "ladderLevel": 4,
+   "ladderLabel": "Programs for newcomers and older adults",
    "score": {
-    "pGo": 0.932,
-    "enjoyment": 3.598,
-    "combined": 3.3532,
+    "pGo": 0.9446,
+    "enjoyment": 4.001,
+    "combined": 3.7791,
     "rank": 2
    },
    "chips": [
     {
-     "label": "Like the indian grocery outings they enjoyed",
-     "feature": "category",
+     "label": "A time that has worked before",
+     "feature": "timing",
      "direction": "for"
     },
     {
-     "label": "Weekday outings rated lower so far",
-     "feature": "timing",
+     "label": "No familiar faces yet",
+     "feature": "knowsSomeone",
      "direction": "against"
     },
     {
@@ -171,25 +286,29 @@
      "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. Shared culture. She likes visiting Indian grocery stores. A 9-minute walk, back by 09:38.",
+   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. She likes activities that have worked for her before. By bus, about 15 minutes each way, back by 11:30.",
    "reasonBy": "planner",
    "firstRideTogether": true,
-   "bringSomeone": null,
+   "bringSomeone": {
+    "personId": "pp_chen",
+    "label": "Mrs. Chen",
+    "why": "No shared language is needed here, so a neighbor can easily come along."
+   },
    "joinCard": null,
    "features": {
-    "category": "indian_grocery",
-    "languageMatch": 1,
-    "travelMinutes": 9,
+    "category": "library",
+    "languageMatch": 0,
+    "travelMinutes": 15,
     "transfers": 0,
-    "walkingMinutes": 9,
-    "startHour": 8,
-    "dayOfWeek": "wed",
+    "walkingMinutes": 8,
+    "startHour": 9,
+    "dayOfWeek": "fri",
     "weather": "rainy",
     "temperatureC": 13,
     "rainChance": 0.85,
     "indoor": true,
-    "groupSize": "medium",
-    "costUsd": 30,
+    "groupSize": "small",
+    "costUsd": 0,
     "knowsSomeone": false,
     "foodAvailable": false,
     "daysSinceLastOuting": 3,
@@ -224,31 +343,75 @@
     },
     "start": null,
     "end": null,
+    "hours": {
+     "mon": [
+      [
+       540,
+       1230
+      ]
+     ],
+     "tue": [
+      [
+       540,
+       1230
+      ]
+     ],
+     "wed": [
+      [
+       540,
+       1230
+      ]
+     ],
+     "thu": [
+      [
+       540,
+       1230
+      ]
+     ],
+     "fri": [
+      [
+       540,
+       1230
+      ]
+     ],
+     "sat": [
+      [
+       540,
+       1230
+      ]
+     ],
+     "sun": [
+      [
+       540,
+       1230
+      ]
+     ]
+    },
     "suitsOlderAdults": true,
     "provenance": "live_search",
     "query": "Indian grocery store"
    },
-   "role": "father",
+   "role": "mother",
    "parentIds": [
-    "p_venkat"
+    "p_sarala"
    ],
    "slot": {
     "day": "wed",
-    "depart": 510,
-    "back": 584,
+    "depart": 540,
+    "back": 614,
     "withAdultChild": false
    },
    "ladderLevel": 2,
    "ladderLabel": "Shared culture",
    "score": {
-    "pGo": 0.879,
-    "enjoyment": 3.626,
-    "combined": 3.1871,
+    "pGo": 0.9369,
+    "enjoyment": 3.646,
+    "combined": 3.4163,
     "rank": 3
    },
    "chips": [
     {
-     "label": "Like the indian grocery outings they enjoyed",
+     "label": "Like the Indian grocery outings they enjoyed",
      "feature": "category",
      "direction": "for"
     },
@@ -258,12 +421,12 @@
      "direction": "against"
     },
     {
-     "label": "Shared culture",
-     "feature": "languageMatch",
-     "direction": "for"
+     "label": "Quiet, few people",
+     "feature": "setting",
+     "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. Shared culture. He likes spending time in Indian grocery spice aisles. A 12-minute walk, back by 09:44.",
+   "reasonText": "No Telugu events nearby this week. Shared culture. She likes visiting Indian grocery stores. A 12-minute walk, back by 10:14.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
@@ -274,7 +437,7 @@
     "travelMinutes": 12,
     "transfers": 0,
     "walkingMinutes": 12,
-    "startHour": 8,
+    "startHour": 9,
     "dayOfWeek": "wed",
     "weather": "rainy",
     "temperatureC": 13,
@@ -316,16 +479,50 @@
     },
     "start": null,
     "end": null,
+    "hours": {
+     "mon": [
+      [
+       480,
+       990
+      ]
+     ],
+     "tue": [
+      [
+       480,
+       990
+      ]
+     ],
+     "wed": [
+      [
+       480,
+       990
+      ]
+     ],
+     "thu": [
+      [
+       480,
+       990
+      ]
+     ],
+     "fri": [
+      [
+       480,
+       990
+      ]
+     ],
+     "sat": [],
+     "sun": []
+    },
     "suitsOlderAdults": true,
     "provenance": "live_search",
     "query": "senior center"
    },
-   "role": "mother",
+   "role": "father",
    "parentIds": [
-    "p_sarala"
+    "p_venkat"
    ],
    "slot": {
-    "day": "fri",
+    "day": "mon",
     "depart": 510,
     "back": 632,
     "withAdultChild": false
@@ -333,9 +530,9 @@
    "ladderLevel": 4,
    "ladderLabel": "Programs for newcomers and older adults",
    "score": {
-    "pGo": 0.9013,
-    "enjoyment": 3.331,
-    "combined": 3.0021,
+    "pGo": 0.868,
+    "enjoyment": 3.21,
+    "combined": 2.7866,
     "rank": 4
    },
    "chips": [
@@ -345,27 +542,23 @@
      "direction": "against"
     },
     {
-     "label": "No familiar faces yet",
-     "feature": "knowsSomeone",
-     "direction": "against"
-    },
-    {
      "label": "A time that has worked before",
      "feature": "timing",
      "direction": "for"
+    },
+    {
+     "label": "Free",
+     "feature": "costUsd",
+     "direction": "for"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. She would enjoy a calm environment similar to previous outings. By bus, about 16 minutes each way, back by 10:32.",
+   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. He enjoys activities that have worked for him before. By bus, about 16 minutes each way, back by 10:32.",
    "reasonBy": "planner",
    "firstRideTogether": true,
-   "bringSomeone": {
-    "personId": "pp_chen",
-    "label": "Mrs. Chen",
-    "why": "No shared language is needed here, so a neighbor can easily come along."
-   },
+   "bringSomeone": null,
    "joinCard": {
     "kind": "join",
-    "local": "I would like to join. I speak Telugu. Who can help me sign up?",
+    "local": "I would like to join. I speak Telugu and Hindi. Who can help me sign up?",
     "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
     "askWho": "Ask the staff at the front desk."
    },
@@ -376,7 +569,7 @@
     "transfers": 0,
     "walkingMinutes": 8,
     "startHour": 8,
-    "dayOfWeek": "fri",
+    "dayOfWeek": "mon",
     "weather": "rainy",
     "temperatureC": 13,
     "rainChance": 0.85,
@@ -389,124 +582,1771 @@
     "withAdultChild": false,
     "languageNeeded": true
    }
-  },
-  {
-   "id": "hh_fremont:2026-W41:pl_d6f16381",
-   "candidate": {
-    "id": "pl_d6f16381",
-    "kind": "place",
-    "title": "Newark Library",
-    "venueName": "Newark Library",
-    "address": "37055 Newark Blvd, Newark, CA 94560",
-    "location": {
-     "lat": 37.536293799999996,
-     "lng": -122.0302849
-    },
-    "ladderLevel": 4,
-    "languageMatch": 0,
-    "category": "library",
-    "indoor": true,
-    "costUsd": 0,
-    "foodAvailable": false,
-    "languageNeeded": false,
-    "groupSize": "small",
-    "description": "Public library",
-    "photo": {
-     "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPUKgOv3RbVH9-9RdkfQrNzOC6ZJXbwcp4qx891A8kxxS3mhHBMeggTqkjuqVJNztZrwZecnUmooAxDYm0c5i8dCM_FDCaBGaSKfCv5lTRl0GHMKas2Ir_1_ptq8nXt-pZreYg2TA=w1000-h1000-c-n",
-     "credit": "Photo: Google Maps contributor"
-    },
-    "start": null,
-    "end": null,
-    "suitsOlderAdults": true,
-    "provenance": "live_search",
-    "query": "public library"
-   },
-   "role": "father",
-   "parentIds": [
-    "p_venkat"
-   ],
-   "slot": {
-    "day": "fri",
-    "depart": 510,
-    "back": 633,
-    "withAdultChild": false
-   },
-   "ladderLevel": 4,
-   "ladderLabel": "Programs for newcomers and older adults",
-   "score": {
-    "pGo": 0.8896,
-    "enjoyment": 3.375,
-    "combined": 3.0021,
-    "rank": 5
-   },
-   "chips": [
-    {
-     "label": "Not in their language",
-     "feature": "languageMatch",
-     "direction": "against"
-    },
-    {
-     "label": "No familiar faces yet",
-     "feature": "knowsSomeone",
-     "direction": "against"
-    }
-   ],
-   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. He enjoys quiet places and reading. By bus, about 24 minutes each way, back by 10:33.",
-   "reasonBy": "planner",
-   "firstRideTogether": true,
-   "bringSomeone": null,
-   "joinCard": null,
-   "features": {
-    "category": "library",
-    "languageMatch": 0,
-    "travelMinutes": 24,
-    "transfers": 0,
-    "walkingMinutes": 8,
-    "startHour": 8,
-    "dayOfWeek": "fri",
-    "weather": "rainy",
-    "temperatureC": 13,
-    "rainChance": 0.85,
-    "indoor": true,
-    "groupSize": "small",
-    "costUsd": 0,
-    "knowsSomeone": false,
-    "foodAvailable": false,
-    "daysSinceLastOuting": 3,
-    "withAdultChild": false,
-    "languageNeeded": false
-   }
   }
  ],
+ "alternatives": {
+  "hh_fremont:2026-W41:pl_d1f88c93": [
+   {
+    "id": "hh_fremont:2026-W41:pl_906a027f:mother",
+    "candidate": {
+     "id": "pl_906a027f",
+     "kind": "place",
+     "title": "Sri Siddhi Vinayaka Cultural Center",
+     "venueName": "Sri Siddhi Vinayaka Cultural Center",
+     "address": "40155 Blacow Rd, Fremont, CA 94538",
+     "location": {
+      "lat": 37.5275575,
+      "lng": -121.9821257
+     },
+     "ladderLevel": 2,
+     "languageMatch": 1,
+     "category": "temple",
+     "indoor": true,
+     "costUsd": 0,
+     "foodAvailable": true,
+     "languageNeeded": false,
+     "groupSize": "large",
+     "description": "Hindu temple",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmroueQq22DG16XNcKg9HYdMnLOtNddY1pil_UH-PBI0FIKg-SOE__lh5nizd18G-xOJJPJ1X7XI2orC5vZtjCHpl-i71q8ZOhRPRqutJHIDakm41Y5twr2v2vilUVMwa5sMo8T=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "tue": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "wed": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "thu": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "fri": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "sat": [
+       [
+        540,
+        1200
+       ]
+      ],
+      "sun": [
+       [
+        540,
+        1200
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Hindu temple"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_sarala"
+    ],
+    "slot": {
+     "day": "mon",
+     "depart": 525,
+     "back": 651,
+     "withAdultChild": false
+    },
+    "ladderLevel": 2,
+    "ladderLabel": "Shared culture",
+    "score": {
+     "pGo": 0.911,
+     "enjoyment": 4.146,
+     "combined": 3.7771,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Like the temple outings they enjoyed",
+      "feature": "category",
+      "direction": "for"
+     },
+     {
+      "label": "Weekday outings rated lower so far",
+      "feature": "timing",
+      "direction": "against"
+     },
+     {
+      "label": "A longer ride",
+      "feature": "trip",
+      "direction": "against"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. Shared culture. She gave her last 5 temple visits 5 of 5. By bus, about 18 minutes each way, back by 10:51.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": null,
+    "joinCard": {
+     "kind": "volunteer",
+     "local": "I would like to volunteer. I speak Telugu.",
+     "meaning": "నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ఈ భాషలు వచ్చు.",
+     "askWho": "Ask at the temple office."
+    },
+    "features": {
+     "category": "temple",
+     "languageMatch": 1,
+     "travelMinutes": 18,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 8,
+     "dayOfWeek": "mon",
+     "weather": "rainy",
+     "temperatureC": 13,
+     "rainChance": 0.85,
+     "indoor": true,
+     "groupSize": "large",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": true,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   },
+   {
+    "id": "hh_fremont:2026-W41:pl_d08f3aa9:mother",
+    "candidate": {
+     "id": "pl_d08f3aa9",
+     "kind": "place",
+     "title": "Bharat Bazar",
+     "venueName": "Bharat Bazar",
+     "address": "3400 Mowry Ave, Fremont, CA 94538",
+     "location": {
+      "lat": 37.5520269,
+      "lng": -121.98512489999999
+     },
+     "ladderLevel": 2,
+     "languageMatch": 1,
+     "category": "indian_grocery",
+     "indoor": true,
+     "costUsd": 30,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "medium",
+     "description": "Indian grocery store",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcwWo2Hytv1gmJAWIPBcUFvUfujNnI9PVF1Z37YBa3Xx3r2cNra0vpXyNKsphP9zkZ2lnGHsb9WQTZ7gEOhys30uqgln06s_kZ23Rjo7On_JfkcrrdHjdlz95mys6WIRQ4qoQgdoQ=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "tue": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "wed": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "thu": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "fri": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "sat": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "sun": [
+       [
+        540,
+        1320
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Indian grocery store"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_sarala"
+    ],
+    "slot": {
+     "day": "mon",
+     "depart": 540,
+     "back": 608,
+     "withAdultChild": false
+    },
+    "ladderLevel": 2,
+    "ladderLabel": "Shared culture",
+    "score": {
+     "pGo": 0.9362,
+     "enjoyment": 3.601,
+     "combined": 3.3715,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Like the Indian grocery outings they enjoyed",
+      "feature": "category",
+      "direction": "for"
+     },
+     {
+      "label": "Weekday outings rated lower so far",
+      "feature": "timing",
+      "direction": "against"
+     },
+     {
+      "label": "Shared culture",
+      "feature": "languageMatch",
+      "direction": "for"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. Shared culture. She gave her last 2 Indian grocery trips 4 of 5. A 9-minute walk, back by 10:08.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": null,
+    "joinCard": null,
+    "features": {
+     "category": "indian_grocery",
+     "languageMatch": 1,
+     "travelMinutes": 9,
+     "transfers": 0,
+     "walkingMinutes": 9,
+     "startHour": 9,
+     "dayOfWeek": "mon",
+     "weather": "rainy",
+     "temperatureC": 13,
+     "rainChance": 0.85,
+     "indoor": true,
+     "groupSize": "medium",
+     "costUsd": 30,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   },
+   {
+    "id": "hh_fremont:2026-W41:pl_d6f16381:mother",
+    "candidate": {
+     "id": "pl_d6f16381",
+     "kind": "place",
+     "title": "Newark Library",
+     "venueName": "Newark Library",
+     "address": "37055 Newark Blvd, Newark, CA 94560",
+     "location": {
+      "lat": 37.536293799999996,
+      "lng": -122.0302849
+     },
+     "ladderLevel": 4,
+     "languageMatch": 0,
+     "category": "library",
+     "indoor": true,
+     "costUsd": 0,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "small",
+     "description": "Public library",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPUKgOv3RbVH9-9RdkfQrNzOC6ZJXbwcp4qx891A8kxxS3mhHBMeggTqkjuqVJNztZrwZecnUmooAxDYm0c5i8dCM_FDCaBGaSKfCv5lTRl0GHMKas2Ir_1_ptq8nXt-pZreYg2TA=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        720,
+        1200
+       ]
+      ],
+      "tue": [
+       [
+        720,
+        1200
+       ]
+      ],
+      "wed": [
+       [
+        600,
+        1080
+       ]
+      ],
+      "thu": [
+       [
+        600,
+        1080
+       ]
+      ],
+      "fri": [],
+      "sat": [
+       [
+        600,
+        1020
+       ]
+      ],
+      "sun": [
+       [
+        780,
+        1020
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "public library"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_sarala"
+    ],
+    "slot": {
+     "day": "wed",
+     "depart": 585,
+     "back": 708,
+     "withAdultChild": false
+    },
+    "ladderLevel": 4,
+    "ladderLabel": "Programs for newcomers and older adults",
+    "score": {
+     "pGo": 0.955,
+     "enjoyment": 3.262,
+     "combined": 3.1153,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Weekday outings rated lower so far",
+      "feature": "timing",
+      "direction": "against"
+     },
+     {
+      "label": "No familiar faces yet",
+      "feature": "knowsSomeone",
+      "direction": "against"
+     },
+     {
+      "label": "Not in their language",
+      "feature": "languageMatch",
+      "direction": "against"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. By bus, about 24 minutes each way, back by 11:48.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": {
+     "personId": "pp_chen",
+     "label": "Mrs. Chen",
+     "why": "No shared language is needed here, so a neighbor can easily come along."
+    },
+    "joinCard": null,
+    "features": {
+     "category": "library",
+     "languageMatch": 0,
+     "travelMinutes": 24,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 9,
+     "dayOfWeek": "wed",
+     "weather": "rainy",
+     "temperatureC": 13,
+     "rainChance": 0.85,
+     "indoor": true,
+     "groupSize": "small",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   }
+  ],
+  "hh_fremont:2026-W41:pl_d0e8e84e": [
+   {
+    "id": "hh_fremont:2026-W41:pl_906a027f:mother",
+    "candidate": {
+     "id": "pl_906a027f",
+     "kind": "place",
+     "title": "Sri Siddhi Vinayaka Cultural Center",
+     "venueName": "Sri Siddhi Vinayaka Cultural Center",
+     "address": "40155 Blacow Rd, Fremont, CA 94538",
+     "location": {
+      "lat": 37.5275575,
+      "lng": -121.9821257
+     },
+     "ladderLevel": 2,
+     "languageMatch": 1,
+     "category": "temple",
+     "indoor": true,
+     "costUsd": 0,
+     "foodAvailable": true,
+     "languageNeeded": false,
+     "groupSize": "large",
+     "description": "Hindu temple",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmroueQq22DG16XNcKg9HYdMnLOtNddY1pil_UH-PBI0FIKg-SOE__lh5nizd18G-xOJJPJ1X7XI2orC5vZtjCHpl-i71q8ZOhRPRqutJHIDakm41Y5twr2v2vilUVMwa5sMo8T=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "tue": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "wed": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "thu": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "fri": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "sat": [
+       [
+        540,
+        1200
+       ]
+      ],
+      "sun": [
+       [
+        540,
+        1200
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Hindu temple"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_sarala"
+    ],
+    "slot": {
+     "day": "fri",
+     "depart": 525,
+     "back": 651,
+     "withAdultChild": false
+    },
+    "ladderLevel": 2,
+    "ladderLabel": "Shared culture",
+    "score": {
+     "pGo": 0.911,
+     "enjoyment": 4.146,
+     "combined": 3.7771,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Like the temple outings they enjoyed",
+      "feature": "category",
+      "direction": "for"
+     },
+     {
+      "label": "Weekday outings rated lower so far",
+      "feature": "timing",
+      "direction": "against"
+     },
+     {
+      "label": "A longer ride",
+      "feature": "trip",
+      "direction": "against"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. Shared culture. She gave her last 5 temple visits 5 of 5. By bus, about 18 minutes each way, back by 10:51.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": null,
+    "joinCard": {
+     "kind": "volunteer",
+     "local": "I would like to volunteer. I speak Telugu.",
+     "meaning": "నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ఈ భాషలు వచ్చు.",
+     "askWho": "Ask at the temple office."
+    },
+    "features": {
+     "category": "temple",
+     "languageMatch": 1,
+     "travelMinutes": 18,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 8,
+     "dayOfWeek": "fri",
+     "weather": "rainy",
+     "temperatureC": 13,
+     "rainChance": 0.85,
+     "indoor": true,
+     "groupSize": "large",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": true,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   },
+   {
+    "id": "hh_fremont:2026-W41:pl_d08f3aa9:mother",
+    "candidate": {
+     "id": "pl_d08f3aa9",
+     "kind": "place",
+     "title": "Bharat Bazar",
+     "venueName": "Bharat Bazar",
+     "address": "3400 Mowry Ave, Fremont, CA 94538",
+     "location": {
+      "lat": 37.5520269,
+      "lng": -121.98512489999999
+     },
+     "ladderLevel": 2,
+     "languageMatch": 1,
+     "category": "indian_grocery",
+     "indoor": true,
+     "costUsd": 30,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "medium",
+     "description": "Indian grocery store",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcwWo2Hytv1gmJAWIPBcUFvUfujNnI9PVF1Z37YBa3Xx3r2cNra0vpXyNKsphP9zkZ2lnGHsb9WQTZ7gEOhys30uqgln06s_kZ23Rjo7On_JfkcrrdHjdlz95mys6WIRQ4qoQgdoQ=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "tue": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "wed": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "thu": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "fri": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "sat": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "sun": [
+       [
+        540,
+        1320
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Indian grocery store"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_sarala"
+    ],
+    "slot": {
+     "day": "fri",
+     "depart": 540,
+     "back": 608,
+     "withAdultChild": false
+    },
+    "ladderLevel": 2,
+    "ladderLabel": "Shared culture",
+    "score": {
+     "pGo": 0.9362,
+     "enjoyment": 3.601,
+     "combined": 3.3715,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Like the Indian grocery outings they enjoyed",
+      "feature": "category",
+      "direction": "for"
+     },
+     {
+      "label": "Weekday outings rated lower so far",
+      "feature": "timing",
+      "direction": "against"
+     },
+     {
+      "label": "Shared culture",
+      "feature": "languageMatch",
+      "direction": "for"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. Shared culture. She gave her last 2 Indian grocery trips 4 of 5. A 9-minute walk, back by 10:08.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": null,
+    "joinCard": null,
+    "features": {
+     "category": "indian_grocery",
+     "languageMatch": 1,
+     "travelMinutes": 9,
+     "transfers": 0,
+     "walkingMinutes": 9,
+     "startHour": 9,
+     "dayOfWeek": "fri",
+     "weather": "rainy",
+     "temperatureC": 13,
+     "rainChance": 0.85,
+     "indoor": true,
+     "groupSize": "medium",
+     "costUsd": 30,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   },
+   {
+    "id": "hh_fremont:2026-W41:pl_d6f16381:mother",
+    "candidate": {
+     "id": "pl_d6f16381",
+     "kind": "place",
+     "title": "Newark Library",
+     "venueName": "Newark Library",
+     "address": "37055 Newark Blvd, Newark, CA 94560",
+     "location": {
+      "lat": 37.536293799999996,
+      "lng": -122.0302849
+     },
+     "ladderLevel": 4,
+     "languageMatch": 0,
+     "category": "library",
+     "indoor": true,
+     "costUsd": 0,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "small",
+     "description": "Public library",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPUKgOv3RbVH9-9RdkfQrNzOC6ZJXbwcp4qx891A8kxxS3mhHBMeggTqkjuqVJNztZrwZecnUmooAxDYm0c5i8dCM_FDCaBGaSKfCv5lTRl0GHMKas2Ir_1_ptq8nXt-pZreYg2TA=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        720,
+        1200
+       ]
+      ],
+      "tue": [
+       [
+        720,
+        1200
+       ]
+      ],
+      "wed": [
+       [
+        600,
+        1080
+       ]
+      ],
+      "thu": [
+       [
+        600,
+        1080
+       ]
+      ],
+      "fri": [],
+      "sat": [
+       [
+        600,
+        1020
+       ]
+      ],
+      "sun": [
+       [
+        780,
+        1020
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "public library"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_sarala"
+    ],
+    "slot": {
+     "day": "wed",
+     "depart": 585,
+     "back": 708,
+     "withAdultChild": false
+    },
+    "ladderLevel": 4,
+    "ladderLabel": "Programs for newcomers and older adults",
+    "score": {
+     "pGo": 0.955,
+     "enjoyment": 3.262,
+     "combined": 3.1153,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Weekday outings rated lower so far",
+      "feature": "timing",
+      "direction": "against"
+     },
+     {
+      "label": "No familiar faces yet",
+      "feature": "knowsSomeone",
+      "direction": "against"
+     },
+     {
+      "label": "Not in their language",
+      "feature": "languageMatch",
+      "direction": "against"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. By bus, about 24 minutes each way, back by 11:48.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": {
+     "personId": "pp_chen",
+     "label": "Mrs. Chen",
+     "why": "No shared language is needed here, so a neighbor can easily come along."
+    },
+    "joinCard": null,
+    "features": {
+     "category": "library",
+     "languageMatch": 0,
+     "travelMinutes": 24,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 9,
+     "dayOfWeek": "wed",
+     "weather": "rainy",
+     "temperatureC": 13,
+     "rainChance": 0.85,
+     "indoor": true,
+     "groupSize": "small",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   }
+  ],
+  "hh_fremont:2026-W41:pl_366cab34": [
+   {
+    "id": "hh_fremont:2026-W41:pl_906a027f:mother",
+    "candidate": {
+     "id": "pl_906a027f",
+     "kind": "place",
+     "title": "Sri Siddhi Vinayaka Cultural Center",
+     "venueName": "Sri Siddhi Vinayaka Cultural Center",
+     "address": "40155 Blacow Rd, Fremont, CA 94538",
+     "location": {
+      "lat": 37.5275575,
+      "lng": -121.9821257
+     },
+     "ladderLevel": 2,
+     "languageMatch": 1,
+     "category": "temple",
+     "indoor": true,
+     "costUsd": 0,
+     "foodAvailable": true,
+     "languageNeeded": false,
+     "groupSize": "large",
+     "description": "Hindu temple",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmroueQq22DG16XNcKg9HYdMnLOtNddY1pil_UH-PBI0FIKg-SOE__lh5nizd18G-xOJJPJ1X7XI2orC5vZtjCHpl-i71q8ZOhRPRqutJHIDakm41Y5twr2v2vilUVMwa5sMo8T=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "tue": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "wed": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "thu": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "fri": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "sat": [
+       [
+        540,
+        1200
+       ]
+      ],
+      "sun": [
+       [
+        540,
+        1200
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Hindu temple"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_sarala"
+    ],
+    "slot": {
+     "day": "wed",
+     "depart": 525,
+     "back": 651,
+     "withAdultChild": false
+    },
+    "ladderLevel": 2,
+    "ladderLabel": "Shared culture",
+    "score": {
+     "pGo": 0.911,
+     "enjoyment": 4.146,
+     "combined": 3.7771,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Like the temple outings they enjoyed",
+      "feature": "category",
+      "direction": "for"
+     },
+     {
+      "label": "Weekday outings rated lower so far",
+      "feature": "timing",
+      "direction": "against"
+     },
+     {
+      "label": "A longer ride",
+      "feature": "trip",
+      "direction": "against"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. Shared culture. She gave her last 5 temple visits 5 of 5. By bus, about 18 minutes each way, back by 10:51.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": null,
+    "joinCard": {
+     "kind": "volunteer",
+     "local": "I would like to volunteer. I speak Telugu.",
+     "meaning": "నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ఈ భాషలు వచ్చు.",
+     "askWho": "Ask at the temple office."
+    },
+    "features": {
+     "category": "temple",
+     "languageMatch": 1,
+     "travelMinutes": 18,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 8,
+     "dayOfWeek": "wed",
+     "weather": "rainy",
+     "temperatureC": 13,
+     "rainChance": 0.85,
+     "indoor": true,
+     "groupSize": "large",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": true,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   },
+   {
+    "id": "hh_fremont:2026-W41:pl_d08f3aa9:mother",
+    "candidate": {
+     "id": "pl_d08f3aa9",
+     "kind": "place",
+     "title": "Bharat Bazar",
+     "venueName": "Bharat Bazar",
+     "address": "3400 Mowry Ave, Fremont, CA 94538",
+     "location": {
+      "lat": 37.5520269,
+      "lng": -121.98512489999999
+     },
+     "ladderLevel": 2,
+     "languageMatch": 1,
+     "category": "indian_grocery",
+     "indoor": true,
+     "costUsd": 30,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "medium",
+     "description": "Indian grocery store",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcwWo2Hytv1gmJAWIPBcUFvUfujNnI9PVF1Z37YBa3Xx3r2cNra0vpXyNKsphP9zkZ2lnGHsb9WQTZ7gEOhys30uqgln06s_kZ23Rjo7On_JfkcrrdHjdlz95mys6WIRQ4qoQgdoQ=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "tue": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "wed": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "thu": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "fri": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "sat": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "sun": [
+       [
+        540,
+        1320
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Indian grocery store"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_sarala"
+    ],
+    "slot": {
+     "day": "wed",
+     "depart": 540,
+     "back": 608,
+     "withAdultChild": false
+    },
+    "ladderLevel": 2,
+    "ladderLabel": "Shared culture",
+    "score": {
+     "pGo": 0.9362,
+     "enjoyment": 3.601,
+     "combined": 3.3715,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Like the Indian grocery outings they enjoyed",
+      "feature": "category",
+      "direction": "for"
+     },
+     {
+      "label": "Weekday outings rated lower so far",
+      "feature": "timing",
+      "direction": "against"
+     },
+     {
+      "label": "Shared culture",
+      "feature": "languageMatch",
+      "direction": "for"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. Shared culture. She gave her last 2 Indian grocery trips 4 of 5. A 9-minute walk, back by 10:08.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": null,
+    "joinCard": null,
+    "features": {
+     "category": "indian_grocery",
+     "languageMatch": 1,
+     "travelMinutes": 9,
+     "transfers": 0,
+     "walkingMinutes": 9,
+     "startHour": 9,
+     "dayOfWeek": "wed",
+     "weather": "rainy",
+     "temperatureC": 13,
+     "rainChance": 0.85,
+     "indoor": true,
+     "groupSize": "medium",
+     "costUsd": 30,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   },
+   {
+    "id": "hh_fremont:2026-W41:pl_d6f16381:mother",
+    "candidate": {
+     "id": "pl_d6f16381",
+     "kind": "place",
+     "title": "Newark Library",
+     "venueName": "Newark Library",
+     "address": "37055 Newark Blvd, Newark, CA 94560",
+     "location": {
+      "lat": 37.536293799999996,
+      "lng": -122.0302849
+     },
+     "ladderLevel": 4,
+     "languageMatch": 0,
+     "category": "library",
+     "indoor": true,
+     "costUsd": 0,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "small",
+     "description": "Public library",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPUKgOv3RbVH9-9RdkfQrNzOC6ZJXbwcp4qx891A8kxxS3mhHBMeggTqkjuqVJNztZrwZecnUmooAxDYm0c5i8dCM_FDCaBGaSKfCv5lTRl0GHMKas2Ir_1_ptq8nXt-pZreYg2TA=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        720,
+        1200
+       ]
+      ],
+      "tue": [
+       [
+        720,
+        1200
+       ]
+      ],
+      "wed": [
+       [
+        600,
+        1080
+       ]
+      ],
+      "thu": [
+       [
+        600,
+        1080
+       ]
+      ],
+      "fri": [],
+      "sat": [
+       [
+        600,
+        1020
+       ]
+      ],
+      "sun": [
+       [
+        780,
+        1020
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "public library"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_sarala"
+    ],
+    "slot": {
+     "day": "wed",
+     "depart": 585,
+     "back": 708,
+     "withAdultChild": false
+    },
+    "ladderLevel": 4,
+    "ladderLabel": "Programs for newcomers and older adults",
+    "score": {
+     "pGo": 0.955,
+     "enjoyment": 3.262,
+     "combined": 3.1153,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Weekday outings rated lower so far",
+      "feature": "timing",
+      "direction": "against"
+     },
+     {
+      "label": "No familiar faces yet",
+      "feature": "knowsSomeone",
+      "direction": "against"
+     },
+     {
+      "label": "Not in their language",
+      "feature": "languageMatch",
+      "direction": "against"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. By bus, about 24 minutes each way, back by 11:48.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": {
+     "personId": "pp_chen",
+     "label": "Mrs. Chen",
+     "why": "No shared language is needed here, so a neighbor can easily come along."
+    },
+    "joinCard": null,
+    "features": {
+     "category": "library",
+     "languageMatch": 0,
+     "travelMinutes": 24,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 9,
+     "dayOfWeek": "wed",
+     "weather": "rainy",
+     "temperatureC": 13,
+     "rainChance": 0.85,
+     "indoor": true,
+     "groupSize": "small",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   }
+  ],
+  "hh_fremont:2026-W41:pl_806ea8dc": [
+   {
+    "id": "hh_fremont:2026-W41:pl_906a027f:father",
+    "candidate": {
+     "id": "pl_906a027f",
+     "kind": "place",
+     "title": "Sri Siddhi Vinayaka Cultural Center",
+     "venueName": "Sri Siddhi Vinayaka Cultural Center",
+     "address": "40155 Blacow Rd, Fremont, CA 94538",
+     "location": {
+      "lat": 37.5275575,
+      "lng": -121.9821257
+     },
+     "ladderLevel": 2,
+     "languageMatch": 1,
+     "category": "temple",
+     "indoor": true,
+     "costUsd": 0,
+     "foodAvailable": true,
+     "languageNeeded": false,
+     "groupSize": "large",
+     "description": "Hindu temple",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmroueQq22DG16XNcKg9HYdMnLOtNddY1pil_UH-PBI0FIKg-SOE__lh5nizd18G-xOJJPJ1X7XI2orC5vZtjCHpl-i71q8ZOhRPRqutJHIDakm41Y5twr2v2vilUVMwa5sMo8T=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "tue": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "wed": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "thu": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "fri": [
+       [
+        540,
+        720
+       ],
+       [
+        1050,
+        1230
+       ]
+      ],
+      "sat": [
+       [
+        540,
+        1200
+       ]
+      ],
+      "sun": [
+       [
+        540,
+        1200
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Hindu temple"
+    },
+    "role": "father",
+    "parentIds": [
+     "p_venkat"
+    ],
+    "slot": {
+     "day": "mon",
+     "depart": 525,
+     "back": 651,
+     "withAdultChild": false
+    },
+    "ladderLevel": 2,
+    "ladderLabel": "Shared culture",
+    "score": {
+     "pGo": 0.9123,
+     "enjoyment": 4.158,
+     "combined": 3.7933,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Like the temple outings they enjoyed",
+      "feature": "category",
+      "direction": "for"
+     },
+     {
+      "label": "Weekday outings rated lower so far",
+      "feature": "timing",
+      "direction": "against"
+     },
+     {
+      "label": "No familiar faces yet",
+      "feature": "knowsSomeone",
+      "direction": "against"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. Shared culture. He gave his last 5 temple visits 5 of 5. By bus, about 18 minutes each way, back by 10:51.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": null,
+    "joinCard": {
+     "kind": "volunteer",
+     "local": "I would like to volunteer. I speak Telugu and Hindi.",
+     "meaning": "నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ఈ భాషలు వచ్చు.",
+     "askWho": "Ask at the temple office."
+    },
+    "features": {
+     "category": "temple",
+     "languageMatch": 1,
+     "travelMinutes": 18,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 8,
+     "dayOfWeek": "mon",
+     "weather": "rainy",
+     "temperatureC": 13,
+     "rainChance": 0.85,
+     "indoor": true,
+     "groupSize": "large",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": true,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   },
+   {
+    "id": "hh_fremont:2026-W41:pl_d08f3aa9:father",
+    "candidate": {
+     "id": "pl_d08f3aa9",
+     "kind": "place",
+     "title": "Bharat Bazar",
+     "venueName": "Bharat Bazar",
+     "address": "3400 Mowry Ave, Fremont, CA 94538",
+     "location": {
+      "lat": 37.5520269,
+      "lng": -121.98512489999999
+     },
+     "ladderLevel": 2,
+     "languageMatch": 1,
+     "category": "indian_grocery",
+     "indoor": true,
+     "costUsd": 30,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "medium",
+     "description": "Indian grocery store",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcwWo2Hytv1gmJAWIPBcUFvUfujNnI9PVF1Z37YBa3Xx3r2cNra0vpXyNKsphP9zkZ2lnGHsb9WQTZ7gEOhys30uqgln06s_kZ23Rjo7On_JfkcrrdHjdlz95mys6WIRQ4qoQgdoQ=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "tue": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "wed": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "thu": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "fri": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "sat": [
+       [
+        540,
+        1320
+       ]
+      ],
+      "sun": [
+       [
+        540,
+        1320
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Indian grocery store"
+    },
+    "role": "father",
+    "parentIds": [
+     "p_venkat"
+    ],
+    "slot": {
+     "day": "mon",
+     "depart": 540,
+     "back": 608,
+     "withAdultChild": false
+    },
+    "ladderLevel": 2,
+    "ladderLabel": "Shared culture",
+    "score": {
+     "pGo": 0.8845,
+     "enjoyment": 3.55,
+     "combined": 3.1402,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Like the Indian grocery outings they enjoyed",
+      "feature": "category",
+      "direction": "for"
+     },
+     {
+      "label": "Weekday outings rated lower so far",
+      "feature": "timing",
+      "direction": "against"
+     },
+     {
+      "label": "Shared culture",
+      "feature": "languageMatch",
+      "direction": "for"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. Shared culture. He gave his last Indian grocery trip 4 of 5. A 9-minute walk, back by 10:08.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": null,
+    "joinCard": null,
+    "features": {
+     "category": "indian_grocery",
+     "languageMatch": 1,
+     "travelMinutes": 9,
+     "transfers": 0,
+     "walkingMinutes": 9,
+     "startHour": 9,
+     "dayOfWeek": "mon",
+     "weather": "rainy",
+     "temperatureC": 13,
+     "rainChance": 0.85,
+     "indoor": true,
+     "groupSize": "medium",
+     "costUsd": 30,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   },
+   {
+    "id": "hh_fremont:2026-W41:pl_fbc0ea4f:father",
+    "candidate": {
+     "id": "pl_fbc0ea4f",
+     "kind": "place",
+     "title": "On Lok PACE Peralta Center",
+     "venueName": "On Lok PACE Peralta Center",
+     "address": "3683 Peralta Blvd, Fremont, CA 94536",
+     "location": {
+      "lat": 37.5595566,
+      "lng": -122.0043094
+     },
+     "ladderLevel": 4,
+     "languageMatch": 0,
+     "category": "senior_center",
+     "indoor": true,
+     "costUsd": 0,
+     "foodAvailable": false,
+     "languageNeeded": true,
+     "groupSize": "medium",
+     "description": "Senior citizen center",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TCG6IDnhKn04VlggfflkIlNVsWpkYTaGNYKPe7KKZZP8DtzEMc3DzC0RO_MZbWvZiJ9FiW5lvV6HvNika-mm2_FeqMT_GlLpxqPqsXf-W9obAhGaWoia5oRpvBAhk0M_eFLZBupMdQC-qq=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        480,
+        990
+       ]
+      ],
+      "tue": [
+       [
+        480,
+        990
+       ]
+      ],
+      "wed": [
+       [
+        480,
+        990
+       ]
+      ],
+      "thu": [
+       [
+        480,
+        990
+       ]
+      ],
+      "fri": [
+       [
+        480,
+        990
+       ]
+      ],
+      "sat": [],
+      "sun": []
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "senior center"
+    },
+    "role": "father",
+    "parentIds": [
+     "p_venkat"
+    ],
+    "slot": {
+     "day": "mon",
+     "depart": 510,
+     "back": 632,
+     "withAdultChild": false
+    },
+    "ladderLevel": 4,
+    "ladderLabel": "Programs for newcomers and older adults",
+    "score": {
+     "pGo": 0.868,
+     "enjoyment": 3.21,
+     "combined": 2.7866,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Not in their language",
+      "feature": "languageMatch",
+      "direction": "against"
+     },
+     {
+      "label": "A time that has worked before",
+      "feature": "timing",
+      "direction": "for"
+     },
+     {
+      "label": "Free",
+      "feature": "costUsd",
+      "direction": "for"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. By bus, about 16 minutes each way, back by 10:32.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": null,
+    "joinCard": {
+     "kind": "join",
+     "local": "I would like to join. I speak Telugu and Hindi. Who can help me sign up?",
+     "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. పేరు నమోదుకు ఎవరు సహాయం చేస్తారు?",
+     "askWho": "Ask the staff at the front desk."
+    },
+    "features": {
+     "category": "senior_center",
+     "languageMatch": 0,
+     "travelMinutes": 16,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 8,
+     "dayOfWeek": "mon",
+     "weather": "rainy",
+     "temperatureC": 13,
+     "rainChance": 0.85,
+     "indoor": true,
+     "groupSize": "medium",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": true
+    }
+   }
+  ]
+ },
  "note": "No Telugu events were found this week.",
  "sameLanguageFound": false,
  "rejected": [],
  "stats": {
-  "ms": 34494,
-  "modelCalls": 1,
-  "cachedModelCalls": 0,
+  "ms": 29,
+  "modelCalls": 0,
+  "cachedModelCalls": 1,
   "fallbacks": 0,
   "retries": 0,
   "toolCalls": [
    {
     "tool": "rankOutings",
-    "ms": 14941,
+    "ms": 2,
     "detail": "mother: 8 feasible"
    },
    {
     "tool": "rankOutings",
-    "ms": 13999,
+    "ms": 1,
     "detail": "father: 8 feasible"
    },
    {
     "tool": "agent",
-    "ms": 5551,
+    "ms": 21,
     "detail": "1 steps"
    }
   ],
   "rankerCalls": 2,
   "candidates": 21,
   "feasible": 8,
-  "agentChoicesUsed": 5
+  "agentChoicesUsed": 4
  }
 }

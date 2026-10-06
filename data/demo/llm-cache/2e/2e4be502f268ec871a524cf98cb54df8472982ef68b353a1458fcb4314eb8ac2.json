@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791242386073",
+  "object": "chat.completion",
+  "created": 1791242386,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"నాన్నగారు, శనివారం 10:00కి Wochenmarkt Perlach కి వెళ్దాం. మేము కారులో కలిసి వెళ్తున్నాము. అక్కడ మార్కెట్ చూడటానికి చాలా బాగుంటుంది. 11:26కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Wochenmarkt Perlach కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 990,
+   "completion_tokens": 84,
+   "total_tokens": 1074,
+   "prompt_tokens_details": {
+    "cached_tokens": 832
+   },
+   "neurons": 7.509087085723877
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T23:19:32.932Z",
+ "latencyMs": 1503
+}

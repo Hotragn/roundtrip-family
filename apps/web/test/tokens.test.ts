@@ -30,7 +30,10 @@ function block(selector: string): Record<string, string> {
 const light = block(":root");
 const dark = { ...light, ...block(':root[data-color-scheme="dark"]') };
 const home = { ...light, ...block('[data-theme="home"]') };
-const homeDark = { ...dark, ...block(':root[data-color-scheme="dark"] [data-theme="home"]:not([data-scheme="light"] *)') };
+const homeDark = {
+  ...dark,
+  ...block(':root[data-color-scheme="dark"] [data-theme="home"]:not([data-scheme="light"] *)'),
+};
 // The parents' app keeps the light palette even when the phone is in dark mode.
 const parents = { ...dark, ...block('[data-scheme="light"]'), ...block('[data-theme="road"]') };
 const parentsHome = { ...parents, ...block('[data-theme="home"]') };

@@ -1,5 +1,5 @@
 {
- "liveSearches": 34,
+ "liveSearches": 39,
  "log": [
   {
    "ts": "2026-10-05T17:05:37.992Z",
@@ -210,6 +210,36 @@
    "engine": "google_maps_directions",
    "key": "b5644813b9bb154105153aa8f7a3f12a2e6d83b76066f7411f91b25a04a4a2fb",
    "note": "directions: Mowry Ave & Fremont Blvd to Sri Siddhi Vinayaka Cultural Center (transit)"
+  },
+  {
+   "ts": "2026-10-05T22:39:41.643Z",
+   "engine": "google_maps_directions",
+   "key": "f78762d9cc19dc575ec0fa0914a67d9935bf08417d41cdf5166c01976127bca4",
+   "note": "directions: Mowry Ave & Fremont Blvd to Central Park (transit)"
+  },
+  {
+   "ts": "2026-10-05T22:39:48.332Z",
+   "engine": "google_maps_directions",
+   "key": "7c594e343d8362f719d1a29be1496f735de06717dc4234c9a6e1e171ca77ff12",
+   "note": "directions: Neuperlach Zentrum to Indian-Grocery-Store München (transit)"
+  },
+  {
+   "ts": "2026-10-05T23:18:57.160Z",
+   "engine": "google_maps_directions",
+   "key": "2322f8c04e1912416da6f61315ff5bb0518fa7d071136944b7b687d4329cb732",
+   "note": "directions: Mowry Ave & Fremont Blvd to Central Park (transit)"
+  },
+  {
+   "ts": "2026-10-05T23:19:12.347Z",
+   "engine": "google_maps_directions",
+   "key": "e7907bd1da1ba28bfa00d69c0a68f9a7a7d02e38384af176cf97843d1d0b77cd",
+   "note": "directions: Neuperlach Zentrum to Münchner Stadtbibliothek Ramersdorf (transit)"
+  },
+  {
+   "ts": "2026-10-05T23:19:24.922Z",
+   "engine": "google_maps_directions",
+   "key": "620e29dec1aa0fc2d9f8798128cd7a6890742991258ae4d1bf62909a6f10dacb",
+   "note": "directions: Neuperlach Zentrum to Indian-Grocery-Store München (transit)"
   }
  ]
 }

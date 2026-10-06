@@ -1,5 +1,7 @@
-import { offersSelfAsCompany, planWeek, type WeekPlan } from "@roundtrip/agent/planner";
+import { offersSelfAsCompany, type PlannerContext, planWeek, type WeekPlan } from "@roundtrip/agent/planner";
 import { DEMO_WEEKS } from "@roundtrip/agent/weeks";
+import { clockMinutes } from "@roundtrip/core";
+import { fitVisit } from "@roundtrip/core/hours";
 import { beforeAll, describe, expect, it } from "vitest";
 
 /**
@@ -14,10 +16,12 @@ process.env.RANKER_MODE ??= "replay";
 process.env.SERPAPI_MODE ??= "replay";
 
 const plans = new Map<string, WeekPlan>();
+const contexts = new Map<string, PlannerContext>();
 
 beforeAll(async () => {
   for (const week of DEMO_WEEKS) {
     const ctx = await week.build("replay");
+    contexts.set(week.id, ctx);
     plans.set(week.id, await planWeek(ctx));
   }
 }, 300_000);
@@ -68,14 +72,31 @@ describe("route to humans", () => {
   });
 
   it("keeps each parent's naps and plans only for the parents who are there", () => {
-    for (const plan of plans.values()) {
+    for (const [id, plan] of plans) {
+      const ctx = contexts.get(id)!;
       for (const s of plan.suggestions) {
-        // Naps run 13:00 to 15:00 (Fremont, Bozeman) or 13:30 to 15:00 (Munich).
-        const overlapsNap = s.slot.depart < 15 * 60 && s.slot.back > 13 * 60;
-        expect(overlapsNap, `${s.candidate.title} ${s.slot.day}`).toBe(false);
+        for (const pid of s.parentIds) {
+          const parent = ctx.parents.find((p) => p._id === pid)!;
+          for (const n of parent.naps) {
+            const overlaps = s.slot.depart < clockMinutes(n.end) && s.slot.back > clockMinutes(n.start);
+            expect(overlaps, `${s.candidate.title} ${s.slot.day} runs into ${parent.firstName}'s rest`).toBe(false);
+          }
+        }
       }
     }
     expect(plans.get("fremont-mother-only")!.suggestions.every((s) => s.role !== "father")).toBe(true);
+  });
+
+  it("goes only when the place is open, leaving before it closes", () => {
+    for (const plan of plans.values()) {
+      for (const s of plan.suggestions) {
+        if (!s.candidate.hours || s.candidate.start) continue;
+        const travel = s.features.travelMinutes ?? 0;
+        const stay = s.slot.back - s.slot.depart - 2 * travel;
+        const fit = fitVisit(s.candidate.hours, s.slot.day, s.slot.depart + travel, stay, Math.min(stay, 30));
+        expect(fit.ok, `${s.candidate.title} on ${s.slot.day}: ${"why" in fit ? fit.why : ""}`).toBe(true);
+      }
+    }
   });
 
   it("asks for a first ride together only on new routes", () => {

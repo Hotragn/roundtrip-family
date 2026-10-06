@@ -1,0 +1,9 @@
+{
+ "query": "Stevenson Blvd. & Fremont Blvd., Fremont",
+ "location": {
+  "lat": 37.5396344,
+  "lng": -121.9736823
+ },
+ "displayName": "Stevenson Boulevard & Fremont Boulevard, Stevenson Boulevard, Irvington District, Fremont, Alameda County, California, 94538, United States",
+ "source": "OpenStreetMap Nominatim (ODbL)"
+}

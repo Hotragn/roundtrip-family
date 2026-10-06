@@ -17,7 +17,8 @@
     "./ladder": "./src/discovery/ladder.ts",
     "./serpapi": "./src/tools/serpapi.ts",
     "./weeks": "./src/planner/weeks.ts",
-    "./candidates": "./src/planner/candidates.ts"
+    "./candidates": "./src/planner/candidates.ts",
+    "./people": "./src/planner/people.ts"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"

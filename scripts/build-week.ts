@@ -18,7 +18,8 @@ import {
 import { loadEnv, repoRoot } from "@roundtrip/core/server-env";
 
 await loadEnv();
-const { SerpApi } = await import("../agent/src/tools/serpapi");
+const { SerpApi, FixtureMissing } = await import("../agent/src/tools/serpapi");
+const { walkRoute } = await import("../agent/src/tools/routing");
 const { areaOf, getDirections, localWallClock } = await import("../agent/src/tools/discovery");
 const { geocodeVenue } = await import("../agent/src/tools/geocode");
 const { parseDirections, walkingPhotos } = await import("../agent/src/routes/parse");
@@ -27,6 +28,8 @@ const { phrasesFor, DRIVER, FRIEND_WORDS } = await import("../agent/src/cards/ph
 const { GemmaCardWriter } = await import("../agent/src/cards/writer");
 const { tripMode } = await import("../agent/src/planner/candidates");
 const { fmt } = await import("../agent/src/planner/slots");
+const { minuteWalk } = await import("../agent/src/planner/index");
+const { fitVisit } = await import("@roundtrip/core/hours");
 
 const ROOT = repoRoot();
 const WEEK_MONDAY = "2026-10-05";
@@ -43,8 +46,8 @@ const TE_DAY: Record<string, string> = {
 
 /** Demo approvals, as the adult child might make them: three outings, leaving one to approve or swap on the dashboard. */
 const APPROVE: Record<string, string[]> = {
-  fremont: ["Karya Siddhi Hanuman Temple - Fremont", "Sri Siddhi Vinayaka Cultural Center", "Indian Market"],
-  munich: ["Hariom Temple", "Desi Markt", "Balan Park"],
+  fremont: ["Karya Siddhi Hanuman Temple - Fremont", "Indian Market", "Irvington Farmers' Market"],
+  munich: ["Hariom Temple", "Münchner Stadtbibliothek Ramersdorf", "Münchner Stadtbibliothek Neuperlach"],
 };
 
 const display = (title: string) => title.replace(/\s+[-|]\s+.*$/, "").trim();
@@ -68,10 +71,16 @@ interface PlanFile {
       description: string;
       photo?: { url: string; credit: string };
       ladderLevel: number;
+      hours?: Partial<Record<"mon" | "tue" | "wed" | "thu" | "fri" | "sat" | "sun", Array<[number, number]>>> | null;
     };
     role: "mother" | "father" | "both";
     parentIds: string[];
-    slot: { day: string; depart: number; back: number; withAdultChild: boolean };
+    slot: {
+      day: "mon" | "tue" | "wed" | "thu" | "fri" | "sat" | "sun";
+      depart: number;
+      back: number;
+      withAdultChild: boolean;
+    };
     ladderLevel: number;
     ladderLabel: string;
     reasonText: string;
@@ -85,8 +94,55 @@ interface PlanFile {
   note: string;
 }
 
+/**
+ * The planner wrote the reason with its travel estimate; once the real route is known, say what
+ * the ticket says ("By bus, about 18 minutes" becomes "By Bus 210 and Bus 216, about 34 minutes").
+ */
+function withRealTrip(reason: string, route: Route | null, back: number): string {
+  if (!route) return reason;
+  const transit = route.legs.filter((l) => l.mode !== "walk");
+  const lines = transit.map((l) =>
+    l.mode === "rail" ? (l.line?.name ?? "train") : `Bus ${l.line?.name ?? ""}`.trim(),
+  );
+  const trip =
+    transit.length === 0
+      ? `${minuteWalk(route.totalMinutes)}, back by ${fmt(back)}.`
+      : `By ${lines.join(" and ")}, about ${route.totalMinutes} minutes each way, back by ${fmt(back)}.`;
+  return reason.replace(/(By bus, about \d+ minutes each way|An? \d+-minute walk), back by \d{1,2}:\d{2}\./, trip);
+}
+
 const serp = new SerpApi();
+// Short walks use saved walking directions when there are some, else a walking route on OpenStreetMap.
+const saved = new SerpApi({ mode: "replay" });
 const writer = new GemmaCardWriter();
+
+/** A walk on OpenStreetMap at a gentle 4.5 km/h (75 m a minute), the planner's own pace for walking. */
+async function osmWalk(
+  stop: { name: string; location: { lat: number; lng: number } },
+  venue: string,
+  to: { lat: number; lng: number },
+): Promise<Route | null> {
+  const w = await walkRoute(stop.location, to);
+  if (!w) return null;
+  const minutes = Math.max(1, Math.round(w.meters / 75));
+  return {
+    legs: [
+      {
+        mode: "walk",
+        from: { name: stop.name, location: stop.location },
+        to: { name: venue, location: to },
+        durationMinutes: minutes,
+        instructions: [`Walk about ${minutes} minutes to ${venue}.`],
+        path: w.line.map(([lng, lat]) => ({ lat, lng })),
+      },
+    ],
+    totalMinutes: minutes,
+    transfers: 0,
+    walkingMinutes: minutes,
+    source: "osm_walking",
+    startsAt: { name: stop.name, location: stop.location },
+  };
+}
 
 async function build(key: string, bundle: HouseholdBundle) {
   const h = bundle.household;
@@ -103,23 +159,35 @@ async function build(key: string, bundle: HouseholdBundle) {
     const parents = bundle.parents.filter((p) => s.parentIds.includes(p._id));
     let route: Route | null = null;
     let photos: string[] = [];
-    if (approved && !s.slot.withAdultChild && s.candidate.location) {
+    // Every suggestion gets its route and cards, approved or not, so approving one on the
+    // dashboard puts a finished ticket on their phone straight away.
+    if (!s.slot.withAdultChild && s.candidate.location) {
       const mode = tripMode(h.homeArea.nearestStop.location, s.candidate.location);
-      const data = await getDirections(serp, {
+      const args = {
         fromStop: h.homeArea.nearestStop,
         to: { name: venue, address: s.candidate.address, location: s.candidate.location },
         departAt: localWallClock(date, s.slot.depart),
         area,
         weekKey: "2026-W41",
-        mode: mode === "walk" ? "walking" : "transit",
-      });
+        mode: mode === "walk" ? ("walking" as const) : ("transit" as const),
+      };
+      let data: Record<string, unknown> | null = null;
+      try {
+        data = await getDirections(mode === "walk" ? saved : serp, args);
+      } catch (e) {
+        if (!(mode === "walk" && e instanceof FixtureMissing)) throw e;
+      }
       const maxWalk = Math.min(...parents.map((p) => p.mobility.maxWalkMinutes));
-      route = parseDirections(data, {
-        from: h.homeArea.nearestStop,
-        to: { name: venue, location: s.candidate.location },
-        maxWalkMinutes: maxWalk,
-      });
-      photos = walkingPhotos(data).slice(0, 6);
+      if (data) {
+        route = parseDirections(data, {
+          from: h.homeArea.nearestStop,
+          to: { name: venue, location: s.candidate.location },
+          maxWalkMinutes: maxWalk,
+        });
+        photos = walkingPhotos(data).slice(0, 6);
+      } else {
+        route = await osmWalk(h.homeArea.nearestStop, venue, s.candidate.location);
+      }
       // Coordinates for the stop before theirs and their stop, for the offline "your stop is next" alert.
       for (const leg of route?.legs ?? []) {
         if (leg.mode === "walk") continue;
@@ -134,7 +202,14 @@ async function build(key: string, bundle: HouseholdBundle) {
     const lastTransit = transit.at(-1);
     // Back-by time from the real route: the time at the place stays as planned, the trip uses live minutes.
     const estimated = s.features?.travelMinutes ?? 0;
-    const stay = s.slot.back - s.slot.depart - 2 * estimated;
+    let stay = s.slot.back - s.slot.depart - 2 * estimated;
+    // The planner checked opening hours with its estimate; check again with the real trip.
+    if (route) {
+      const arrive = s.slot.depart + route.totalMinutes;
+      const fit = fitVisit(s.candidate.hours, s.slot.day, arrive, stay, Math.min(stay, 30));
+      if (!fit.ok) throw new Error(`${venue}: the real route arrives at ${fmt(arrive)}, and it ${fit.why}.`);
+      stay = fit.stay;
+    }
     const back = route ? s.slot.depart + 2 * route.totalMinutes + stay : s.slot.back;
     const tripText = route
       ? route.legs
@@ -148,7 +223,7 @@ async function build(key: string, bundle: HouseholdBundle) {
         ? "you go together by car"
         : "a short trip";
     const cards = [];
-    for (const p of approved ? parents : []) {
+    for (const p of parents) {
       const role = p.addressAs.includes("నాన్న") ? "father" : "mother";
       const first = transit[0];
       const names = first ? [venue, `Bus ${first.line?.name}`, first.from.name, lastTransit!.to.name] : [venue];
@@ -204,7 +279,7 @@ async function build(key: string, bundle: HouseholdBundle) {
       indoor: s.candidate.indoor,
       ladderLevel: s.ladderLevel,
       ladderLabel: s.ladderLabel,
-      reasonText: s.reasonText,
+      reasonText: withRealTrip(s.reasonText, route, back),
       chips: s.chips,
       score: s.score,
       role: s.role,
@@ -216,6 +291,8 @@ async function build(key: string, bundle: HouseholdBundle) {
       bringSomeone: s.bringSomeone,
       joinCard: s.joinCard,
       photo: s.candidate.photo ?? null,
+      /** That day's opening hours as minutes since midnight, when the listing has them. */
+      openHours: s.candidate.hours?.[s.slot.day] ?? null,
       landmarkPhotos: photos,
       route,
       cards,

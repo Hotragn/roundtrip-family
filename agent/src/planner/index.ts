@@ -1,6 +1,7 @@
 import { createOpenAICompatible } from "@ai-sdk/openai-compatible";
 import { Agent } from "@mastra/core/agent";
-import { LADDER_LABELS, type LadderLevel, type ReasonChip } from "@roundtrip/core";
+import { LADDER_LABELS, type LadderLevel, languageNameIn, type ReasonChip } from "@roundtrip/core";
+import { DAY_LONG } from "@roundtrip/core/hours";
 import type { DataClass } from "@roundtrip/core/privacy";
 import { z } from "zod";
 import { gemma, parseJson } from "../gemma";
@@ -115,6 +116,11 @@ export interface WeekPlan {
   provenance: "synthetic";
   sourceOfCandidates: "live_search" | "synthetic" | "mixed";
   suggestions: Suggestion[];
+  /**
+   * What a swap can offer, per suggestion id: the next best feasible candidates for the same
+   * parent, slotted on the same day when they fit it, ranked by score.
+   */
+  alternatives: Record<string, Suggestion[]>;
   note: string;
   sameLanguageFound: boolean;
   rejected: Array<{ candidateId: string; why: string }>;
@@ -177,11 +183,42 @@ async function scoreFeasible(ctx: PlannerContext): Promise<{ scored: Scored[]; r
         combined: r.combined,
         pGo: r.pGo,
         enjoyment: r.enjoyment,
-        chips: r.reasons.map((x) => ({ label: x.label, feature: x.feature, direction: x.direction })),
+        chips: r.reasons.map((x) => ({
+          label: chipLabel(ctx, x.feature, x.label),
+          feature: x.feature,
+          direction: x.direction,
+        })),
       });
     }
   }
   return { scored, rankerCalls };
+}
+
+/** Kinds of place as a family would name them, for reason chips. */
+const CATEGORY_WORDS: Record<string, string> = {
+  indian_grocery: "Indian grocery",
+  asian_grocery: "Asian grocery",
+  farmers_market: "farmers market",
+  senior_center: "senior center",
+  community_event: "community event",
+  community_meeting: "community group",
+};
+
+/**
+ * The ranker labels chips without knowing the household: name the kind of place properly and
+ * say the household's local language where it says English ("No German needed" in Munich).
+ */
+function chipLabel(ctx: PlannerContext, feature: string, label: string): string {
+  if (feature === "category") {
+    return label.replace(/(Like the |They rated )(.+?)( outings)/, (_, a: string, cat: string, b: string) => {
+      const key = cat.replace(/ /g, "_");
+      return `${a}${CATEGORY_WORDS[key] ?? cat}${b}`;
+    });
+  }
+  if (feature === "languageNeeded") {
+    return label.replace("English", languageNameIn(ctx.household.localLanguage, "en"));
+  }
+  return label;
 }
 
 /** Candidates the prompt lists, with short aliases (c1, c2, ...) that the agent answers with. */
@@ -270,7 +307,11 @@ export async function planWeek(ctx: PlannerContext): Promise<WeekPlan> {
   ): boolean => {
     const roles: Role[] = who === "both" ? ROLES.filter((r) => scored.some((s) => s.role === r)) : [who];
     if (roles.length === 0) return false;
-    const planned = roles.map((r) => plan(ctx, c, r, { excludeDays: usedDays[r] }));
+    // Two parents at two places of the same kind on the same day would go together instead, so
+    // a second one of that kind goes on another day.
+    const sameKindDays = (r: Role) =>
+      suggestions.filter((x) => x.candidate.category === c.category && x.role !== r).map((x) => x.slot.day);
+    const planned = roles.map((r) => plan(ctx, c, r, { excludeDays: [...usedDays[r], ...sameKindDays(r)] }));
     if (!planned.every((p) => p.feasibility.ok)) {
       rejected.push({ candidateId: c.id, why: "no free slot for that parent" });
       return false;
@@ -279,6 +320,8 @@ export async function planWeek(ctx: PlannerContext): Promise<WeekPlan> {
     const slot = first.feasibility.slot!;
     const s = scored.find((x) => x.c.id === c.id && x.role === roles[0]);
     for (const r of roles) usedDays[r].push(slot.day);
+    const said = o.reason?.trim() ?? "";
+    const why = said && !echoesChip(said, s?.chips ?? []) && !namesOtherPlace(said, c) ? said : pastLine(ctx, c, roles);
     suggestions.push({
       id: `${ctx.household._id}:${ctx.week.key}:${c.id}`,
       candidate: c,
@@ -289,8 +332,8 @@ export async function planWeek(ctx: PlannerContext): Promise<WeekPlan> {
       ladderLabel: LADDER_LABELS[c.ladderLevel],
       score: { pGo: s?.pGo ?? 0, enjoyment: s?.enjoyment ?? 0, combined: s?.combined ?? 0, rank: 0 },
       chips: s?.chips ?? [],
-      reasonText: composeReason(ctx, c, slot, o.reason?.trim() ?? "", sameLanguageFound),
-      reasonBy: o.reason?.trim() ? by : "fallback",
+      reasonText: composeReason(ctx, c, slot, why, sameLanguageFound),
+      reasonBy: why === said && said ? by : "fallback",
       firstRideTogether: !slot.withAdultChild && !ctx.soloReadyRoutes.includes(c.id),
       bringSomeone: companionFor(ctx, c, roles),
       joinCard:
@@ -343,9 +386,58 @@ export async function planWeek(ctx: PlannerContext): Promise<WeekPlan> {
       .sort((a, b) => b.combined - a.combined)[0];
     if (best) add(best.c, role, {}, "fallback");
   }
+  // The point is getting out on the days they're on their own: a parent whose only outings are
+  // weekends with you also gets their best outing they can manage alone, when there is one.
+  for (const role of ROLES) {
+    const mine = suggestions.filter((x) => x.role === role || x.role === "both");
+    if (!scored.some((s) => s.role === role) || mine.some((x) => !x.slot.withAdultChild)) continue;
+    const solo = scored
+      .filter((s) => s.role === role && !suggestions.some((x) => x.candidate.id === s.c.id))
+      .filter((s) => plan(ctx, s.c, role, { excludeDays: ["sat", "sun"] }).feasibility.slot?.withAdultChild === false)
+      .sort((a, b) => b.combined - a.combined);
+    for (const s of solo) if (add(s.c, role, {}, "fallback") && !suggestions.at(-1)!.slot.withAdultChild) break;
+  }
 
   suggestions.sort((a, b) => b.score.combined - a.score.combined);
   for (const [i, s] of suggestions.entries()) s.score.rank = i + 1;
+
+  // Swap options: up to three per suggestion, for the same parent, on the same day if they fit.
+  const ALL_DAYS: Day[] = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+  const chosen = new Set(suggestions.map((x) => x.candidate.id));
+  const alternatives: Record<string, Suggestion[]> = {};
+  for (const sug of suggestions) {
+    const role: Role = sug.role === "both" ? "mother" : sug.role;
+    const ranked = scored.filter((x) => x.role === role && !chosen.has(x.c.id)).sort((a, b) => b.combined - a.combined);
+    const list: Suggestion[] = [];
+    for (const x of ranked) {
+      if (list.length >= 3) break;
+      const sameDay = plan(ctx, x.c, role, { excludeDays: ALL_DAYS.filter((d) => d !== sug.slot.day) });
+      const planned = sameDay.feasibility.ok ? sameDay : plan(ctx, x.c, role);
+      if (!planned.feasibility.ok) continue;
+      const slot = planned.feasibility.slot!;
+      list.push({
+        id: `${ctx.household._id}:${ctx.week.key}:${x.c.id}:${role}`,
+        candidate: x.c,
+        role,
+        parentIds: [parentByRole(ctx, role)._id],
+        slot,
+        ladderLevel: x.c.ladderLevel,
+        ladderLabel: LADDER_LABELS[x.c.ladderLevel],
+        score: { pGo: x.pGo, enjoyment: x.enjoyment, combined: x.combined, rank: 0 },
+        chips: x.chips,
+        reasonText: composeReason(ctx, x.c, slot, pastLine(ctx, x.c, [role]), sameLanguageFound),
+        reasonBy: "fallback",
+        firstRideTogether: !slot.withAdultChild && !ctx.soloReadyRoutes.includes(x.c.id),
+        bringSomeone: companionFor(ctx, x.c, [role]),
+        joinCard:
+          x.c.category === "temple" || x.c.category === "senior_center"
+            ? joinCard(x.c, parentByRole(ctx, role), ctx.household.localLanguage)
+            : null,
+        features: planned.features,
+      });
+    }
+    alternatives[sug.id] = list;
+  }
   const after = gemma().counters;
   const note =
     output?.note && !offersSelfAsCompany(output.note)
@@ -363,6 +455,7 @@ export async function planWeek(ctx: PlannerContext): Promise<WeekPlan> {
         ? "synthetic"
         : "mixed",
     suggestions,
+    alternatives,
     note,
     sameLanguageFound,
     rejected,
@@ -401,10 +494,67 @@ function composeReason(ctx: PlannerContext, c: Candidate, slot: Slot, why: strin
   const trip =
     v.travelMinutes === null
       ? ""
-      : mode === "walk"
-        ? `A ${v.travelMinutes}-minute walk, back by ${fmt(slot.back)}.`
-        : `By bus, about ${v.travelMinutes} minutes each way, back by ${fmt(slot.back)}.`;
+      : slot.withAdultChild
+        ? `With you on ${DAY_LONG[slot.day]}, about ${v.travelMinutes} minutes away, back by ${fmt(slot.back)}.`
+        : mode === "walk"
+          ? `${minuteWalk(v.travelMinutes)}, back by ${fmt(slot.back)}.`
+          : `By bus, about ${v.travelMinutes} minutes each way, back by ${fmt(slot.back)}.`;
   return `${none}${LEAD[c.ladderLevel]} ${line} ${trip}`.replace(/\s+/g, " ").trim();
+}
+
+/** "A 12-minute walk", "An 11-minute walk". */
+export function minuteWalk(minutes: number): string {
+  const an = /^(8|11|18|8\d)$/.test(String(minutes));
+  return `${an ? "An" : "A"} ${minutes}-minute walk`;
+}
+
+const PLACE_WORDS = /\b(temple|park|library|grocery|market|garden|museum|center|centre)\b/gi;
+
+/** A reason about another kind of place ("a walk in the park" for a market) was written for something else. */
+function namesOtherPlace(reason: string, c: Candidate): boolean {
+  const own = `${c.title} ${c.category.replace(/_/g, " ")} ${c.description}`.toLowerCase();
+  return [...reason.matchAll(PLACE_WORDS)].some((m) => !own.includes(m[1]!.toLowerCase()));
+}
+
+/** A reason that only repeats a chip ("Like the temple outings they enjoyed") says nothing new. */
+function echoesChip(reason: string, chips: ReasonChip[]): boolean {
+  const norm = (t: string) =>
+    t
+      .toLowerCase()
+      .replace(/[^a-z ]/g, "")
+      .trim();
+  return chips.some((c) => norm(c.label) === norm(reason));
+}
+
+const VISITS: Record<string, [string, string]> = {
+  temple: ["temple visit", "temple visits"],
+  indian_grocery: ["Indian grocery trip", "Indian grocery trips"],
+  asian_grocery: ["grocery trip", "grocery trips"],
+  park: ["walk in the park", "walks in the park"],
+  farmers_market: ["farmers market visit", "farmers market visits"],
+  library: ["library visit", "library visits"],
+  senior_center: ["senior center visit", "senior center visits"],
+  community_event: ["community event", "community events"],
+};
+
+/** What their own ratings say about this kind of place: "She gave her last 3 temple visits 4.7 of 5." */
+function pastLine(ctx: PlannerContext, c: Candidate, roles: Role[]): string {
+  const ids = roles.map((r) => parentByRole(ctx, r)._id);
+  const rated = ctx.pastOutings.filter(
+    (o) =>
+      o.features.category === c.category &&
+      o.result?.went &&
+      o.result.enjoyment !== null &&
+      o.parentIds.some((id) => ids.includes(id)),
+  );
+  if (rated.length === 0) return "";
+  const avg = rated.reduce((a, o) => a + (o.result?.enjoyment ?? 0), 0) / rated.length;
+  const [one, many] = VISITS[c.category] ?? ["outing like this", "outings like this"];
+  const [who, their] = roles.length > 1 ? ["They", "their"] : roles[0] === "father" ? ["He", "his"] : ["She", "her"];
+  const score = Number.isInteger(avg) ? String(avg) : avg.toFixed(1);
+  return rated.length === 1
+    ? `${who} gave ${their} last ${one} ${score} of 5.`
+    : `${who} gave ${their} last ${rated.length} ${many} ${score} of 5.`;
 }
 
 /** Someone they already know who could come along where no shared language is needed. */

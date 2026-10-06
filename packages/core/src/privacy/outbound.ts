@@ -167,6 +167,16 @@ export const OUTBOUND: OutboundRoute[] = [
     docs: "https://operations.osmfoundation.org/policies/nominatim/",
   },
   {
+    id: "routing",
+    service: "FOSSGIS OSRM (routing.openstreetmap.de)",
+    hosts: ["routing.openstreetmap.de"],
+    purpose: "Street-following lines between public bus stops and venues, for the dashboard's route maps",
+    sends: "Coordinates of public bus stops and venues, never a home address",
+    accepts: ["public"],
+    when: "build",
+    docs: "https://routing.openstreetmap.de/about.html",
+  },
+  {
     id: "overpass",
     service: "OpenStreetMap Overpass API",
     hosts: ["overpass-api.de", "maps.mail.ru", "overpass.private.coffee", "overpass.kumi.systems"],

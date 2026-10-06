@@ -6,6 +6,7 @@
   "exports": {
     ".": "./src/index.ts",
     "./crypto": "./src/crypto/diary.ts",
+    "./hours": "./src/hours.ts",
     "./languages": "./src/languages.ts",
     "./persona": "./src/persona.ts",
     "./privacy": "./src/privacy/index.ts",

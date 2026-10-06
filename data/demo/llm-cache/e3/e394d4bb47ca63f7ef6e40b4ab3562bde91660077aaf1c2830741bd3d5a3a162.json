@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791242367150",
+  "object": "chat.completion",
+  "created": 1791242367,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\n  \"body\": \"అమ్మా, మంగళవారం 09:45కి Münchner Stadtbibliothek Ramersdorf కి వెళ్దాం. Neuperlach Zentrum కి 4 నిమిషాలు నడిచి వెళ్లి, Bus U5 ఎక్కి 3 స్టాపుల తర్వాత Innsbrucker Ring దగ్గర దిగండి. అక్కడి నుండి 9 నిమిషాల నడక తర్వాత Bibliothek చేరుకుంటారు. 11:34కి ఇంటికి వచ్చేయొచ్చు. ఎవరికీ మీ బ్యాంక్ వివరాలు చెప్పకండి, ఎవరికీ డబ్బులు చెల్లించకండి.\",\n  \"title\": \"Münchner Stadtbibliothek Ramersdorf కి\"\n}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1066,
+   "completion_tokens": 145,
+   "total_tokens": 1211,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 13.645454406738281
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T23:19:14.017Z",
+ "latencyMs": 1150
+}

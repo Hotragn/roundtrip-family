@@ -144,6 +144,46 @@ export function placePhoto(url: string, w = 640, h = 360): string {
 export const fmtTime = (m: number) =>
   `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
 
+/**
+ * What the dashboard changed in this browser session (app/parents/api/changes): outings approved
+ * there, taken off or swapped away, and moved to another day.
+ */
+export interface WeekChanges {
+  added: OutingView[];
+  removed: string[];
+  moved: Record<string, { day: string; date: string }>;
+}
+
+const TE_DAYS: Record<string, string> = {
+  mon: "సోమవారం",
+  tue: "మంగళవారం",
+  wed: "బుధవారం",
+  thu: "గురువారం",
+  fri: "శుక్రవారం",
+  sat: "శనివారం",
+  sun: "ఆదివారం",
+};
+
+/** The week with the dashboard's changes on top. A moved ticket names its new day. */
+export function applyChanges(week: WeekView, c: WeekChanges | null): WeekView {
+  if (!c) return week;
+  const move = (o: OutingView): OutingView => {
+    const m = c.moved[o.id];
+    if (!m || m.day === o.slot.day) return o;
+    const from = TE_DAYS[o.slot.day];
+    const to = TE_DAYS[m.day];
+    const retell = (s: string) => (from && to ? s.replaceAll(from, to) : s);
+    return {
+      ...o,
+      date: m.date,
+      slot: { ...o.slot, day: m.day },
+      cards: o.cards.map((card) => ({ ...card, title: retell(card.title), body: retell(card.body) })),
+    };
+  };
+  const outings = [...week.outings.filter((o) => !c.removed.includes(o.id)), ...c.added].map(move);
+  return { ...week, outings };
+}
+
 /** Ticket order for one parent: today's first, then the rest of the week. */
 export function outingsFor(week: WeekView, parentId: string): OutingView[] {
   return week.outings

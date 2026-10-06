@@ -1,11 +1,118 @@
 {
  "demoWeek": "munich-cold",
  "label": "Munich, a cold, wet week",
- "provenance": "synthetic",
+ "weekSource": "synthetic variant",
  "householdId": "hh_munich",
  "week": "2026-W41",
+ "provenance": "synthetic",
  "sourceOfCandidates": "live_search",
  "suggestions": [
+  {
+   "id": "hh_munich:2026-W41:pl_e32203d7",
+   "candidate": {
+    "id": "pl_e32203d7",
+    "kind": "place",
+    "title": "Wochenmarkt Perlach",
+    "venueName": "Wochenmarkt Perlach",
+    "address": "Pfanzeltpl., 81737 München-Ramersdorf-Perlach",
+    "location": {
+     "lat": 48.100046299999995,
+     "lng": 11.630538399999999
+    },
+    "ladderLevel": 3,
+    "languageMatch": 0,
+    "category": "farmers_market",
+    "indoor": false,
+    "costUsd": 15,
+    "foodAvailable": true,
+    "languageNeeded": true,
+    "groupSize": "large",
+    "description": "Markt",
+    "photo": {
+     "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe4f5YqI8a_r9QB4sNMLOY9SsmDvIdE4wjXkeBVV2FUIchsDo7AokoCi9aPbXhqYQi1vr4TusKHAUqzRQ7C0vhdTC0AZe4aeTc9ZFZLwpbDRjIB7NC61HvwiH9xtKMDA7i9N-aI01hYfJVA=w1000-h1000-c-n",
+     "credit": "Photo: Google Maps contributor"
+    },
+    "start": null,
+    "end": null,
+    "hours": {
+     "mon": [],
+     "tue": [],
+     "wed": [],
+     "thu": [],
+     "fri": [],
+     "sat": [
+      [
+       450,
+       780
+      ]
+     ],
+     "sun": []
+    },
+    "suitsOlderAdults": true,
+    "provenance": "live_search",
+    "query": "Wochenmarkt"
+   },
+   "role": "father",
+   "parentIds": [
+    "p_raghu"
+   ],
+   "slot": {
+    "day": "sat",
+    "depart": 600,
+    "back": 686,
+    "withAdultChild": true
+   },
+   "ladderLevel": 3,
+   "ladderLabel": "Language barely matters",
+   "score": {
+    "pGo": 0.8582,
+    "enjoyment": 3.374,
+    "combined": 2.8958,
+    "rank": 1
+   },
+   "chips": [
+    {
+     "label": "Not in their language",
+     "feature": "languageMatch",
+     "direction": "against"
+    },
+    {
+     "label": "A time that has worked before",
+     "feature": "timing",
+     "direction": "for"
+    },
+    {
+     "label": "Weather counts against it",
+     "feature": "weather",
+     "direction": "against"
+    }
+   ],
+   "reasonText": "No Telugu events nearby this week. No language needed. He likes walking and outdoor markets. With you on Saturday, about 13 minutes away, back by 11:26.",
+   "reasonBy": "planner",
+   "firstRideTogether": false,
+   "bringSomeone": null,
+   "joinCard": null,
+   "features": {
+    "category": "farmers_market",
+    "languageMatch": 0,
+    "travelMinutes": 13,
+    "transfers": 0,
+    "walkingMinutes": 8,
+    "startHour": 10,
+    "dayOfWeek": "sat",
+    "weather": "cold",
+    "temperatureC": 3,
+    "rainChance": 0.5,
+    "indoor": false,
+    "groupSize": "large",
+    "costUsd": 15,
+    "knowsSomeone": false,
+    "foodAvailable": true,
+    "daysSinceLastOuting": 3,
+    "withAdultChild": false,
+    "languageNeeded": true
+   }
+  },
   {
    "id": "hh_munich:2026-W41:pl_fd2af2bd",
    "candidate": {
@@ -33,27 +140,42 @@
     },
     "start": null,
     "end": null,
+    "hours": {
+     "mon": [],
+     "tue": [],
+     "wed": [],
+     "thu": [],
+     "fri": [],
+     "sat": [],
+     "sun": [
+      [
+       660,
+       990
+      ]
+     ]
+    },
     "suitsOlderAdults": true,
     "provenance": "live_search",
     "query": "Hindu Tempel"
    },
-   "role": "mother",
+   "role": "both",
    "parentIds": [
-    "p_kamala"
+    "p_kamala",
+    "p_raghu"
    ],
    "slot": {
-    "day": "mon",
-    "depart": 570,
-    "back": 708,
-    "withAdultChild": false
+    "day": "sun",
+    "depart": 645,
+    "back": 783,
+    "withAdultChild": true
    },
    "ladderLevel": 2,
    "ladderLabel": "Shared culture",
    "score": {
     "pGo": 1,
-    "enjoyment": 2.922,
-    "combined": 2.922,
-    "rank": 1
+    "enjoyment": 2.879,
+    "combined": 2.8787,
+    "rank": 2
    },
    "chips": [
     {
@@ -62,19 +184,19 @@
      "direction": "for"
     },
     {
-     "label": "Other Indian languages, not theirs",
-     "feature": "languageMatch",
+     "label": "No familiar faces yet",
+     "feature": "knowsSomeone",
      "direction": "against"
     },
     {
-     "label": "Free",
-     "feature": "costUsd",
-     "direction": "for"
+     "label": "Other Indian languages, not theirs",
+     "feature": "languageMatch",
+     "direction": "against"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. Shared culture. They enjoyed visiting the temple before. By bus, about 24 minutes each way, back by 11:48.",
+   "reasonText": "No Telugu events nearby this week. Shared culture. They both enjoyed previous temple outings. With you on Sunday, about 24 minutes away, back by 13:03.",
    "reasonBy": "planner",
-   "firstRideTogether": true,
+   "firstRideTogether": false,
    "bringSomeone": null,
    "joinCard": {
     "kind": "volunteer",
@@ -88,8 +210,8 @@
     "travelMinutes": 24,
     "transfers": 0,
     "walkingMinutes": 8,
-    "startHour": 9,
-    "dayOfWeek": "mon",
+    "startHour": 10,
+    "dayOfWeek": "sun",
     "weather": "cold",
     "temperatureC": 3,
     "rainChance": 0.5,
@@ -104,35 +226,69 @@
    }
   },
   {
-   "id": "hh_munich:2026-W41:pl_9a44f8d6",
+   "id": "hh_munich:2026-W41:pl_f63f0887",
    "candidate": {
-    "id": "pl_9a44f8d6",
+    "id": "pl_f63f0887",
     "kind": "place",
-    "title": "Ostpark",
-    "venueName": "Ostpark",
-    "address": "Feichtstr. 19, 81735 München",
+    "title": "Münchner Stadtbibliothek Neuperlach",
+    "venueName": "Münchner Stadtbibliothek Neuperlach",
+    "address": "Charles-de-Gaulle-Straße 2A, 81737 München-Ramersdorf-Perlach",
     "location": {
-     "lat": 48.113887399999996,
-     "lng": 11.6386031
+     "lat": 48.1018675,
+     "lng": 11.644242199999999
     },
-    "ladderLevel": 3,
+    "ladderLevel": 4,
     "languageMatch": 0,
-    "category": "park",
-    "indoor": false,
+    "category": "library",
+    "indoor": true,
     "costUsd": 0,
     "foodAvailable": false,
     "languageNeeded": false,
-    "groupSize": "medium",
-    "description": "Park mit Picknick- & Spielbereichen. 56 Hektar großer Park mit Spiel- und Sportplätzen, Joggingstrecken, einem See und Picknickbereichen.",
+    "groupSize": "small",
+    "description": "Bibliothek",
     "photo": {
-     "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNhEoZBuCMX-EoQ2c9wLUieRZ8IBQcJ6t4h6xbZaYh-XbvGIP_T1cRy2V1Feb5ZpBg6RpfqqzWHYhIuPUf5MutV0232tTthlu4KEA1Y9VxTPkdl3a3g-cvz1lnlI_oFKHYluzUp=w1000-h1000-c-n",
+     "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWncl_18rwOhpzIYPDZlpeyyRkK22RX_vh0MjK66h0mtdkStZx80HPGptuft3UZeNbcpD-J4PxoLGTcTgCdxt2kS6_-2E_6JWdeVftQf2lm3QvZBkPVgqpcDJsxAH7FsI62T0l70Qw=w1000-h1000-c-n",
      "credit": "Photo: Google Maps contributor"
     },
     "start": null,
     "end": null,
+    "hours": {
+     "mon": [],
+     "tue": [
+      [
+       600,
+       1140
+      ]
+     ],
+     "wed": [
+      [
+       600,
+       1140
+      ]
+     ],
+     "thu": [
+      [
+       600,
+       1140
+      ]
+     ],
+     "fri": [
+      [
+       600,
+       1140
+      ]
+     ],
+     "sat": [
+      [
+       600,
+       900
+      ]
+     ],
+     "sun": []
+    },
     "suitsOlderAdults": true,
     "provenance": "live_search",
-    "query": "Park"
+    "query": "Stadtbibliothek"
    },
    "role": "father",
    "parentIds": [
@@ -140,23 +296,28 @@
    ],
    "slot": {
     "day": "tue",
-    "depart": 480,
-    "back": 570,
+    "depart": 600,
+    "back": 683,
     "withAdultChild": false
    },
-   "ladderLevel": 3,
-   "ladderLabel": "Language barely matters",
+   "ladderLevel": 4,
+   "ladderLabel": "Programs for newcomers and older adults",
    "score": {
-    "pGo": 0.8273,
-    "enjoyment": 3.418,
-    "combined": 2.8273,
-    "rank": 2
+    "pGo": 0.8348,
+    "enjoyment": 3.273,
+    "combined": 2.7324,
+    "rank": 3
    },
    "chips": [
     {
-     "label": "Close to home",
-     "feature": "trip",
-     "direction": "for"
+     "label": "Weekday outings rated lower so far",
+     "feature": "timing",
+     "direction": "against"
+    },
+    {
+     "label": "Not in their language",
+     "feature": "languageMatch",
+     "direction": "against"
     },
     {
      "label": "Free",
@@ -164,112 +325,25 @@
      "direction": "for"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. No language needed. They enjoy walking in parks. By bus, about 15 minutes each way, back by 09:30.",
+   "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. He enjoys free activities and quiet places. A 4-minute walk, back by 11:23.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
    "joinCard": null,
    "features": {
-    "category": "park",
+    "category": "library",
     "languageMatch": 0,
-    "travelMinutes": 15,
+    "travelMinutes": 4,
     "transfers": 0,
-    "walkingMinutes": 8,
-    "startHour": 8,
+    "walkingMinutes": 4,
+    "startHour": 10,
     "dayOfWeek": "tue",
     "weather": "cold",
     "temperatureC": 3,
     "rainChance": 0.5,
-    "indoor": false,
-    "groupSize": "medium",
+    "indoor": true,
+    "groupSize": "small",
     "costUsd": 0,
-    "knowsSomeone": false,
-    "foodAvailable": false,
-    "daysSinceLastOuting": 3,
-    "withAdultChild": false,
-    "languageNeeded": false
-   }
-  },
-  {
-   "id": "hh_munich:2026-W41:pl_4ef55187",
-   "candidate": {
-    "id": "pl_4ef55187",
-    "kind": "place",
-    "title": "Desi Markt",
-    "venueName": "Desi Markt",
-    "address": "Albert-Schweitzer-Straße 78, 81735 München",
-    "location": {
-     "lat": 48.1064302,
-     "lng": 11.6451376
-    },
-    "ladderLevel": 2,
-    "languageMatch": 1,
-    "category": "indian_grocery",
-    "indoor": true,
-    "costUsd": 30,
-    "foodAvailable": false,
-    "languageNeeded": false,
-    "groupSize": "medium",
-    "description": "Geschäft für indische Lebensmittel",
-    "photo": {
-     "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rmaehkh1ksCIvXPpIFCPuOeZEs18eEuu9nDOXLcHRZwKlnDIoh2qJMANGSwpEQ6oXJZ2QNW3BnEApZq9WERBHvYJ-RWwRe15cqN5b5-VstxOwBNJS7mvaWf8o0KTgOJ8G8Wzw=w1000-h1000-c-n",
-     "credit": "Photo: Google Maps contributor"
-    },
-    "start": null,
-    "end": null,
-    "suitsOlderAdults": true,
-    "provenance": "live_search",
-    "query": "Indischer Supermarkt"
-   },
-   "role": "father",
-   "parentIds": [
-    "p_raghu"
-   ],
-   "slot": {
-    "day": "mon",
-    "depart": 480,
-    "back": 552,
-    "withAdultChild": false
-   },
-   "ladderLevel": 2,
-   "ladderLabel": "Shared culture",
-   "score": {
-    "pGo": 0.8072,
-    "enjoyment": 3.419,
-    "combined": 2.7595,
-    "rank": 3
-   },
-   "chips": [
-    {
-     "label": "Like the indian grocery outings they enjoyed",
-     "feature": "category",
-     "direction": "for"
-    },
-    {
-     "label": "Weekday outings rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    }
-   ],
-   "reasonText": "No Telugu events nearby this week. Shared culture. They liked visiting indian grocery stores previously. A 11-minute walk, back by 09:12.",
-   "reasonBy": "planner",
-   "firstRideTogether": true,
-   "bringSomeone": null,
-   "joinCard": null,
-   "features": {
-    "category": "indian_grocery",
-    "languageMatch": 1,
-    "travelMinutes": 11,
-    "transfers": 0,
-    "walkingMinutes": 11,
-    "startHour": 8,
-    "dayOfWeek": "mon",
-    "weather": "cold",
-    "temperatureC": 3,
-    "rainChance": 0.5,
-    "indoor": true,
-    "groupSize": "medium",
-    "costUsd": 30,
     "knowsSomeone": false,
     "foodAvailable": false,
     "daysSinceLastOuting": 3,
@@ -304,6 +378,45 @@
     },
     "start": null,
     "end": null,
+    "hours": {
+     "mon": [
+      [
+       600,
+       1200
+      ]
+     ],
+     "tue": [
+      [
+       600,
+       1200
+      ]
+     ],
+     "wed": [
+      [
+       600,
+       1200
+      ]
+     ],
+     "thu": [
+      [
+       600,
+       1200
+      ]
+     ],
+     "fri": [
+      [
+       600,
+       1200
+      ]
+     ],
+     "sat": [
+      [
+       600,
+       1200
+      ]
+     ],
+     "sun": []
+    },
     "suitsOlderAdults": true,
     "provenance": "live_search",
     "query": "Indischer Supermarkt"
@@ -313,9 +426,9 @@
     "p_kamala"
    ],
    "slot": {
-    "day": "tue",
-    "depart": 570,
-    "back": 668,
+    "day": "mon",
+    "depart": 585,
+    "back": 683,
     "withAdultChild": false
    },
    "ladderLevel": 2,
@@ -338,12 +451,12 @@
      "direction": "for"
     },
     {
-     "label": "Like the indian grocery outings they enjoyed",
+     "label": "Like the Indian grocery outings they enjoyed",
      "feature": "category",
      "direction": "for"
     }
    ],
-   "reasonText": "No Telugu events nearby this week. Shared culture. They liked visiting indian grocery stores previously. By bus, about 24 minutes each way, back by 11:08.",
+   "reasonText": "No Telugu events nearby this week. Shared culture. She liked the Indian grocery outings before. By bus, about 24 minutes each way, back by 11:23.",
    "reasonBy": "planner",
    "firstRideTogether": true,
    "bringSomeone": null,
@@ -355,7 +468,7 @@
     "transfers": 0,
     "walkingMinutes": 8,
     "startHour": 9,
-    "dayOfWeek": "tue",
+    "dayOfWeek": "mon",
     "weather": "cold",
     "temperatureC": 3,
     "rainChance": 0.5,
@@ -370,11 +483,1617 @@
    }
   }
  ],
- "note": "No Telugu events or groups were found nearby this week.",
+ "alternatives": {
+  "hh_munich:2026-W41:pl_e32203d7": [
+   {
+    "id": "hh_munich:2026-W41:pl_676c0ee3:father",
+    "candidate": {
+     "id": "pl_676c0ee3",
+     "kind": "place",
+     "title": "Balan Park",
+     "venueName": "Balan Park",
+     "address": "Oggersheimer Str. 11, 81539 München-Ramersdorf-Perlach",
+     "location": {
+      "lat": 48.1136213,
+      "lng": 11.601256999999999
+     },
+     "ladderLevel": 3,
+     "languageMatch": 0,
+     "category": "park",
+     "indoor": false,
+     "costUsd": 0,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "medium",
+     "description": "Park",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPdzerS4Gz-nsYUgGya46QTP_OcOJm5zMWoEQvE4wbE8bfFlPxMyMaGYxCxCAfwhxbPGDf7ithmeS110uK17JAFCoNa-yB_WRqFYU4x0cUfXn7sY_5Bd1Y6ZklfLUj6BIfqjjjlbQ=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "tue": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "wed": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "thu": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "fri": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "sat": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "sun": [
+       [
+        0,
+        1440
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Park"
+    },
+    "role": "father",
+    "parentIds": [
+     "p_raghu"
+    ],
+    "slot": {
+     "day": "sat",
+     "depart": 600,
+     "back": 706,
+     "withAdultChild": true
+    },
+    "ladderLevel": 3,
+    "ladderLabel": "Language barely matters",
+    "score": {
+     "pGo": 0.8254,
+     "enjoyment": 3.428,
+     "combined": 2.8293,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Under 30 minutes",
+      "feature": "trip",
+      "direction": "for"
+     },
+     {
+      "label": "Like the park outings they enjoyed",
+      "feature": "category",
+      "direction": "for"
+     },
+     {
+      "label": "Not in their language",
+      "feature": "languageMatch",
+      "direction": "against"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. No language needed. He gave his last 2 walks in the park 4 of 5. With you on Saturday, about 23 minutes away, back by 11:46.",
+    "reasonBy": "fallback",
+    "firstRideTogether": false,
+    "bringSomeone": null,
+    "joinCard": null,
+    "features": {
+     "category": "park",
+     "languageMatch": 0,
+     "travelMinutes": 23,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 10,
+     "dayOfWeek": "sat",
+     "weather": "cold",
+     "temperatureC": 3,
+     "rainChance": 0.5,
+     "indoor": false,
+     "groupSize": "medium",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   },
+   {
+    "id": "hh_munich:2026-W41:pl_9a44f8d6:father",
+    "candidate": {
+     "id": "pl_9a44f8d6",
+     "kind": "place",
+     "title": "Ostpark",
+     "venueName": "Ostpark",
+     "address": "Feichtstr. 19, 81735 München",
+     "location": {
+      "lat": 48.113887399999996,
+      "lng": 11.6386031
+     },
+     "ladderLevel": 3,
+     "languageMatch": 0,
+     "category": "park",
+     "indoor": false,
+     "costUsd": 0,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "medium",
+     "description": "Park mit Picknick- & Spielbereichen. 56 Hektar großer Park mit Spiel- und Sportplätzen, Joggingstrecken, einem See und Picknickbereichen.",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNhEoZBuCMX-EoQ2c9wLUieRZ8IBQcJ6t4h6xbZaYh-XbvGIP_T1cRy2V1Feb5ZpBg6RpfqqzWHYhIuPUf5MutV0232tTthlu4KEA1Y9VxTPkdl3a3g-cvz1lnlI_oFKHYluzUp=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "tue": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "wed": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "thu": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "fri": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "sat": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "sun": [
+       [
+        0,
+        1440
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Park"
+    },
+    "role": "father",
+    "parentIds": [
+     "p_raghu"
+    ],
+    "slot": {
+     "day": "sat",
+     "depart": 600,
+     "back": 690,
+     "withAdultChild": true
+    },
+    "ladderLevel": 3,
+    "ladderLabel": "Language barely matters",
+    "score": {
+     "pGo": 0.8273,
+     "enjoyment": 3.418,
+     "combined": 2.8273,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Close to home",
+      "feature": "trip",
+      "direction": "for"
+     },
+     {
+      "label": "Free",
+      "feature": "costUsd",
+      "direction": "for"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. No language needed. He gave his last 2 walks in the park 4 of 5. With you on Saturday, about 15 minutes away, back by 11:30.",
+    "reasonBy": "fallback",
+    "firstRideTogether": false,
+    "bringSomeone": null,
+    "joinCard": null,
+    "features": {
+     "category": "park",
+     "languageMatch": 0,
+     "travelMinutes": 15,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 10,
+     "dayOfWeek": "sat",
+     "weather": "cold",
+     "temperatureC": 3,
+     "rainChance": 0.5,
+     "indoor": false,
+     "groupSize": "medium",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   },
+   {
+    "id": "hh_munich:2026-W41:pl_4ef55187:father",
+    "candidate": {
+     "id": "pl_4ef55187",
+     "kind": "place",
+     "title": "Desi Markt",
+     "venueName": "Desi Markt",
+     "address": "Albert-Schweitzer-Straße 78, 81735 München",
+     "location": {
+      "lat": 48.1064302,
+      "lng": 11.6451376
+     },
+     "ladderLevel": 2,
+     "languageMatch": 1,
+     "category": "indian_grocery",
+     "indoor": true,
+     "costUsd": 30,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "medium",
+     "description": "Geschäft für indische Lebensmittel",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rmaehkh1ksCIvXPpIFCPuOeZEs18eEuu9nDOXLcHRZwKlnDIoh2qJMANGSwpEQ6oXJZ2QNW3BnEApZq9WERBHvYJ-RWwRe15cqN5b5-VstxOwBNJS7mvaWf8o0KTgOJ8G8Wzw=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        600,
+        1200
+       ]
+      ],
+      "tue": [
+       [
+        600,
+        1200
+       ]
+      ],
+      "wed": [
+       [
+        600,
+        1200
+       ]
+      ],
+      "thu": [
+       [
+        600,
+        1200
+       ]
+      ],
+      "fri": [
+       [
+        600,
+        1200
+       ]
+      ],
+      "sat": [
+       [
+        600,
+        1200
+       ]
+      ],
+      "sun": []
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Indischer Supermarkt"
+    },
+    "role": "father",
+    "parentIds": [
+     "p_raghu"
+    ],
+    "slot": {
+     "day": "sat",
+     "depart": 600,
+     "back": 672,
+     "withAdultChild": true
+    },
+    "ladderLevel": 2,
+    "ladderLabel": "Shared culture",
+    "score": {
+     "pGo": 0.8173,
+     "enjoyment": 3.415,
+     "combined": 2.791,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Like the Indian grocery outings they enjoyed",
+      "feature": "category",
+      "direction": "for"
+     },
+     {
+      "label": "Weekday outings rated lower so far",
+      "feature": "timing",
+      "direction": "against"
+     },
+     {
+      "label": "Costs money",
+      "feature": "costUsd",
+      "direction": "against"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. Shared culture. He gave his last Indian grocery trip 4 of 5. With you on Saturday, about 11 minutes away, back by 11:12.",
+    "reasonBy": "fallback",
+    "firstRideTogether": false,
+    "bringSomeone": null,
+    "joinCard": null,
+    "features": {
+     "category": "indian_grocery",
+     "languageMatch": 1,
+     "travelMinutes": 11,
+     "transfers": 0,
+     "walkingMinutes": 11,
+     "startHour": 10,
+     "dayOfWeek": "sat",
+     "weather": "cold",
+     "temperatureC": 3,
+     "rainChance": 0.5,
+     "indoor": true,
+     "groupSize": "medium",
+     "costUsd": 30,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   }
+  ],
+  "hh_munich:2026-W41:pl_fd2af2bd": [
+   {
+    "id": "hh_munich:2026-W41:pl_ef6a16f7:mother",
+    "candidate": {
+     "id": "pl_ef6a16f7",
+     "kind": "place",
+     "title": "Alten- und Service-Zentrum Perlach",
+     "venueName": "Alten- und Service-Zentrum Perlach",
+     "address": "Theodor-Heuss-Platz 5, 81737 München-Ramersdorf-Perlach",
+     "location": {
+      "lat": 48.1013471,
+      "lng": 11.640452699999999
+     },
+     "ladderLevel": 4,
+     "languageMatch": 0,
+     "category": "senior_center",
+     "indoor": true,
+     "costUsd": 0,
+     "foodAvailable": false,
+     "languageNeeded": true,
+     "groupSize": "medium",
+     "description": "Seniorenzentrum",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf45YEvCCleWod06U_tiNEUAXxQ5np4WGTMgnhCzzWKEJeggTpUYcHkhts_iPSuVc_4UlT8FrzXGpnAXssB6O7bQDts-fzHPYjx7sdxjbvJMVJdlsBU3PrG8Bg9Vsvt87VLZL-1pA=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        540,
+        1020
+       ]
+      ],
+      "tue": [
+       [
+        540,
+        1020
+       ]
+      ],
+      "wed": [
+       [
+        540,
+        1020
+       ]
+      ],
+      "thu": [
+       [
+        540,
+        1020
+       ]
+      ],
+      "fri": [
+       [
+        540,
+        900
+       ]
+      ],
+      "sat": [],
+      "sun": []
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Seniorentreff"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_kamala"
+    ],
+    "slot": {
+     "day": "mon",
+     "depart": 570,
+     "back": 676,
+     "withAdultChild": false
+    },
+    "ladderLevel": 4,
+    "ladderLabel": "Programs for newcomers and older adults",
+    "score": {
+     "pGo": 1,
+     "enjoyment": 2.793,
+     "combined": 2.7933,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Not in their language",
+      "feature": "languageMatch",
+      "direction": "against"
+     },
+     {
+      "label": "Small and calm",
+      "feature": "setting",
+      "direction": "for"
+     },
+     {
+      "label": "Free",
+      "feature": "costUsd",
+      "direction": "for"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. An 8-minute walk, back by 11:16.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": {
+     "personId": "pp_frau_huber",
+     "label": "Frau Huber",
+     "why": "No shared language is needed here, so a neighbor can easily come along."
+    },
+    "joinCard": {
+     "kind": "join",
+     "local": "Ich möchte gern mitmachen. Ich spreche Telugu. Wer kann mir helfen?",
+     "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. నాకు ఎవరు సహాయం చేస్తారు?",
+     "askWho": "Fragen Sie am Empfang."
+    },
+    "features": {
+     "category": "senior_center",
+     "languageMatch": 0,
+     "travelMinutes": 8,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 9,
+     "dayOfWeek": "mon",
+     "weather": "cold",
+     "temperatureC": 3,
+     "rainChance": 0.5,
+     "indoor": true,
+     "groupSize": "medium",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": true
+    }
+   },
+   {
+    "id": "hh_munich:2026-W41:pl_3cb5763e:mother",
+    "candidate": {
+     "id": "pl_3cb5763e",
+     "kind": "place",
+     "title": "Münchner Stadtbibliothek Ramersdorf",
+     "venueName": "Münchner Stadtbibliothek Ramersdorf",
+     "address": "Führichstraße 43, 81671 München-Ramersdorf-Perlach",
+     "location": {
+      "lat": 48.117680199999995,
+      "lng": 11.6146827
+     },
+     "ladderLevel": 4,
+     "languageMatch": 0,
+     "category": "library",
+     "indoor": true,
+     "costUsd": 0,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "small",
+     "description": "Bibliothek",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnBKFf3yCL819jwgASyedGI2KGkdp5ETDVDac-cA7q3x5Va0r7YDeQiShbP-M95XWPZNXCY9lMlteX0YHTvtQFI-4pqgT6vAAqiLNEW540Q3D7VuearAPgLZxK7njzGICPl9ceg=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [],
+      "tue": [
+       [
+        600,
+        1140
+       ]
+      ],
+      "wed": [
+       [
+        600,
+        1140
+       ]
+      ],
+      "thu": [
+       [
+        600,
+        1140
+       ]
+      ],
+      "fri": [
+       [
+        600,
+        1140
+       ]
+      ],
+      "sat": [
+       [
+        600,
+        900
+       ]
+      ],
+      "sun": []
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Stadtbibliothek"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_kamala"
+    ],
+    "slot": {
+     "day": "tue",
+     "depart": 585,
+     "back": 700,
+     "withAdultChild": false
+    },
+    "ladderLevel": 4,
+    "ladderLabel": "Programs for newcomers and older adults",
+    "score": {
+     "pGo": 1,
+     "enjoyment": 2.785,
+     "combined": 2.7852,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Not in their language",
+      "feature": "languageMatch",
+      "direction": "against"
+     },
+     {
+      "label": "Free",
+      "feature": "costUsd",
+      "direction": "for"
+     },
+     {
+      "label": "Small and calm",
+      "feature": "setting",
+      "direction": "for"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. By bus, about 20 minutes each way, back by 11:40.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": {
+     "personId": "pp_frau_huber",
+     "label": "Frau Huber",
+     "why": "No shared language is needed here, so a neighbor can easily come along."
+    },
+    "joinCard": null,
+    "features": {
+     "category": "library",
+     "languageMatch": 0,
+     "travelMinutes": 20,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 9,
+     "dayOfWeek": "tue",
+     "weather": "cold",
+     "temperatureC": 3,
+     "rainChance": 0.5,
+     "indoor": true,
+     "groupSize": "small",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   },
+   {
+    "id": "hh_munich:2026-W41:pl_4e3fa19b:mother",
+    "candidate": {
+     "id": "pl_4e3fa19b",
+     "kind": "place",
+     "title": "Alten- und Servicezentrum Schwabing Ost",
+     "venueName": "Alten- und Servicezentrum Schwabing Ost",
+     "address": "Siegesstraße 31, 80802 München-Schwabing-Freimann",
+     "location": {
+      "lat": 48.1612431,
+      "lng": 11.5884156
+     },
+     "ladderLevel": 4,
+     "languageMatch": 0,
+     "category": "senior_center",
+     "indoor": true,
+     "costUsd": 0,
+     "foodAvailable": false,
+     "languageNeeded": true,
+     "groupSize": "medium",
+     "description": "Seniorenzentrum",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPHVIJYfvOfT-e2yMCksbCSuzRcHRsupsQub0gwgwPfFYa3oGsr3P5AoLGqo-JgRBvnO6X7r6DPXgmAHlR6uELYrGnFMEq5_i9gLE7m9LSWiQPxKEiqkj7i5ADKQorOip2pOSJV=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        510,
+        990
+       ]
+      ],
+      "tue": [
+       [
+        510,
+        990
+       ]
+      ],
+      "wed": [
+       [
+        510,
+        990
+       ]
+      ],
+      "thu": [
+       [
+        510,
+        990
+       ]
+      ],
+      "fri": [
+       [
+        510,
+        810
+       ]
+      ],
+      "sat": [],
+      "sun": []
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Seniorentreff"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_kamala"
+    ],
+    "slot": {
+     "day": "mon",
+     "depart": 570,
+     "back": 742,
+     "withAdultChild": false
+    },
+    "ladderLevel": 4,
+    "ladderLabel": "Programs for newcomers and older adults",
+    "score": {
+     "pGo": 1,
+     "enjoyment": 2.752,
+     "combined": 2.7516,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Small and calm",
+      "feature": "setting",
+      "direction": "for"
+     },
+     {
+      "label": "Not in their language",
+      "feature": "languageMatch",
+      "direction": "against"
+     },
+     {
+      "label": "Free",
+      "feature": "costUsd",
+      "direction": "for"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. By bus, about 41 minutes each way, back by 12:22.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": {
+     "personId": "pp_frau_huber",
+     "label": "Frau Huber",
+     "why": "No shared language is needed here, so a neighbor can easily come along."
+    },
+    "joinCard": {
+     "kind": "join",
+     "local": "Ich möchte gern mitmachen. Ich spreche Telugu. Wer kann mir helfen?",
+     "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. నాకు ఎవరు సహాయం చేస్తారు?",
+     "askWho": "Fragen Sie am Empfang."
+    },
+    "features": {
+     "category": "senior_center",
+     "languageMatch": 0,
+     "travelMinutes": 41,
+     "transfers": 1,
+     "walkingMinutes": 8,
+     "startHour": 9,
+     "dayOfWeek": "mon",
+     "weather": "cold",
+     "temperatureC": 3,
+     "rainChance": 0.5,
+     "indoor": true,
+     "groupSize": "medium",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": true
+    }
+   }
+  ],
+  "hh_munich:2026-W41:pl_f63f0887": [
+   {
+    "id": "hh_munich:2026-W41:pl_676c0ee3:father",
+    "candidate": {
+     "id": "pl_676c0ee3",
+     "kind": "place",
+     "title": "Balan Park",
+     "venueName": "Balan Park",
+     "address": "Oggersheimer Str. 11, 81539 München-Ramersdorf-Perlach",
+     "location": {
+      "lat": 48.1136213,
+      "lng": 11.601256999999999
+     },
+     "ladderLevel": 3,
+     "languageMatch": 0,
+     "category": "park",
+     "indoor": false,
+     "costUsd": 0,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "medium",
+     "description": "Park",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPdzerS4Gz-nsYUgGya46QTP_OcOJm5zMWoEQvE4wbE8bfFlPxMyMaGYxCxCAfwhxbPGDf7ithmeS110uK17JAFCoNa-yB_WRqFYU4x0cUfXn7sY_5Bd1Y6ZklfLUj6BIfqjjjlbQ=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "tue": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "wed": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "thu": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "fri": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "sat": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "sun": [
+       [
+        0,
+        1440
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Park"
+    },
+    "role": "father",
+    "parentIds": [
+     "p_raghu"
+    ],
+    "slot": {
+     "day": "tue",
+     "depart": 480,
+     "back": 586,
+     "withAdultChild": false
+    },
+    "ladderLevel": 3,
+    "ladderLabel": "Language barely matters",
+    "score": {
+     "pGo": 0.8254,
+     "enjoyment": 3.428,
+     "combined": 2.8293,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Under 30 minutes",
+      "feature": "trip",
+      "direction": "for"
+     },
+     {
+      "label": "Like the park outings they enjoyed",
+      "feature": "category",
+      "direction": "for"
+     },
+     {
+      "label": "Not in their language",
+      "feature": "languageMatch",
+      "direction": "against"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. No language needed. He gave his last 2 walks in the park 4 of 5. By bus, about 23 minutes each way, back by 09:46.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": null,
+    "joinCard": null,
+    "features": {
+     "category": "park",
+     "languageMatch": 0,
+     "travelMinutes": 23,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 8,
+     "dayOfWeek": "tue",
+     "weather": "cold",
+     "temperatureC": 3,
+     "rainChance": 0.5,
+     "indoor": false,
+     "groupSize": "medium",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   },
+   {
+    "id": "hh_munich:2026-W41:pl_9a44f8d6:father",
+    "candidate": {
+     "id": "pl_9a44f8d6",
+     "kind": "place",
+     "title": "Ostpark",
+     "venueName": "Ostpark",
+     "address": "Feichtstr. 19, 81735 München",
+     "location": {
+      "lat": 48.113887399999996,
+      "lng": 11.6386031
+     },
+     "ladderLevel": 3,
+     "languageMatch": 0,
+     "category": "park",
+     "indoor": false,
+     "costUsd": 0,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "medium",
+     "description": "Park mit Picknick- & Spielbereichen. 56 Hektar großer Park mit Spiel- und Sportplätzen, Joggingstrecken, einem See und Picknickbereichen.",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNhEoZBuCMX-EoQ2c9wLUieRZ8IBQcJ6t4h6xbZaYh-XbvGIP_T1cRy2V1Feb5ZpBg6RpfqqzWHYhIuPUf5MutV0232tTthlu4KEA1Y9VxTPkdl3a3g-cvz1lnlI_oFKHYluzUp=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "tue": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "wed": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "thu": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "fri": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "sat": [
+       [
+        0,
+        1440
+       ]
+      ],
+      "sun": [
+       [
+        0,
+        1440
+       ]
+      ]
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Park"
+    },
+    "role": "father",
+    "parentIds": [
+     "p_raghu"
+    ],
+    "slot": {
+     "day": "tue",
+     "depart": 480,
+     "back": 570,
+     "withAdultChild": false
+    },
+    "ladderLevel": 3,
+    "ladderLabel": "Language barely matters",
+    "score": {
+     "pGo": 0.8273,
+     "enjoyment": 3.418,
+     "combined": 2.8273,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Close to home",
+      "feature": "trip",
+      "direction": "for"
+     },
+     {
+      "label": "Free",
+      "feature": "costUsd",
+      "direction": "for"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. No language needed. He gave his last 2 walks in the park 4 of 5. By bus, about 15 minutes each way, back by 09:30.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": null,
+    "joinCard": null,
+    "features": {
+     "category": "park",
+     "languageMatch": 0,
+     "travelMinutes": 15,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 8,
+     "dayOfWeek": "tue",
+     "weather": "cold",
+     "temperatureC": 3,
+     "rainChance": 0.5,
+     "indoor": false,
+     "groupSize": "medium",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   },
+   {
+    "id": "hh_munich:2026-W41:pl_4ef55187:father",
+    "candidate": {
+     "id": "pl_4ef55187",
+     "kind": "place",
+     "title": "Desi Markt",
+     "venueName": "Desi Markt",
+     "address": "Albert-Schweitzer-Straße 78, 81735 München",
+     "location": {
+      "lat": 48.1064302,
+      "lng": 11.6451376
+     },
+     "ladderLevel": 2,
+     "languageMatch": 1,
+     "category": "indian_grocery",
+     "indoor": true,
+     "costUsd": 30,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "medium",
+     "description": "Geschäft für indische Lebensmittel",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rmaehkh1ksCIvXPpIFCPuOeZEs18eEuu9nDOXLcHRZwKlnDIoh2qJMANGSwpEQ6oXJZ2QNW3BnEApZq9WERBHvYJ-RWwRe15cqN5b5-VstxOwBNJS7mvaWf8o0KTgOJ8G8Wzw=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        600,
+        1200
+       ]
+      ],
+      "tue": [
+       [
+        600,
+        1200
+       ]
+      ],
+      "wed": [
+       [
+        600,
+        1200
+       ]
+      ],
+      "thu": [
+       [
+        600,
+        1200
+       ]
+      ],
+      "fri": [
+       [
+        600,
+        1200
+       ]
+      ],
+      "sat": [
+       [
+        600,
+        1200
+       ]
+      ],
+      "sun": []
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Indischer Supermarkt"
+    },
+    "role": "father",
+    "parentIds": [
+     "p_raghu"
+    ],
+    "slot": {
+     "day": "tue",
+     "depart": 600,
+     "back": 672,
+     "withAdultChild": false
+    },
+    "ladderLevel": 2,
+    "ladderLabel": "Shared culture",
+    "score": {
+     "pGo": 0.8173,
+     "enjoyment": 3.415,
+     "combined": 2.791,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Like the Indian grocery outings they enjoyed",
+      "feature": "category",
+      "direction": "for"
+     },
+     {
+      "label": "Weekday outings rated lower so far",
+      "feature": "timing",
+      "direction": "against"
+     },
+     {
+      "label": "Costs money",
+      "feature": "costUsd",
+      "direction": "against"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. Shared culture. He gave his last Indian grocery trip 4 of 5. An 11-minute walk, back by 11:12.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": null,
+    "joinCard": null,
+    "features": {
+     "category": "indian_grocery",
+     "languageMatch": 1,
+     "travelMinutes": 11,
+     "transfers": 0,
+     "walkingMinutes": 11,
+     "startHour": 10,
+     "dayOfWeek": "tue",
+     "weather": "cold",
+     "temperatureC": 3,
+     "rainChance": 0.5,
+     "indoor": true,
+     "groupSize": "medium",
+     "costUsd": 30,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   }
+  ],
+  "hh_munich:2026-W41:pl_c2687fb7": [
+   {
+    "id": "hh_munich:2026-W41:pl_ef6a16f7:mother",
+    "candidate": {
+     "id": "pl_ef6a16f7",
+     "kind": "place",
+     "title": "Alten- und Service-Zentrum Perlach",
+     "venueName": "Alten- und Service-Zentrum Perlach",
+     "address": "Theodor-Heuss-Platz 5, 81737 München-Ramersdorf-Perlach",
+     "location": {
+      "lat": 48.1013471,
+      "lng": 11.640452699999999
+     },
+     "ladderLevel": 4,
+     "languageMatch": 0,
+     "category": "senior_center",
+     "indoor": true,
+     "costUsd": 0,
+     "foodAvailable": false,
+     "languageNeeded": true,
+     "groupSize": "medium",
+     "description": "Seniorenzentrum",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf45YEvCCleWod06U_tiNEUAXxQ5np4WGTMgnhCzzWKEJeggTpUYcHkhts_iPSuVc_4UlT8FrzXGpnAXssB6O7bQDts-fzHPYjx7sdxjbvJMVJdlsBU3PrG8Bg9Vsvt87VLZL-1pA=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        540,
+        1020
+       ]
+      ],
+      "tue": [
+       [
+        540,
+        1020
+       ]
+      ],
+      "wed": [
+       [
+        540,
+        1020
+       ]
+      ],
+      "thu": [
+       [
+        540,
+        1020
+       ]
+      ],
+      "fri": [
+       [
+        540,
+        900
+       ]
+      ],
+      "sat": [],
+      "sun": []
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Seniorentreff"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_kamala"
+    ],
+    "slot": {
+     "day": "mon",
+     "depart": 570,
+     "back": 676,
+     "withAdultChild": false
+    },
+    "ladderLevel": 4,
+    "ladderLabel": "Programs for newcomers and older adults",
+    "score": {
+     "pGo": 1,
+     "enjoyment": 2.793,
+     "combined": 2.7933,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Not in their language",
+      "feature": "languageMatch",
+      "direction": "against"
+     },
+     {
+      "label": "Small and calm",
+      "feature": "setting",
+      "direction": "for"
+     },
+     {
+      "label": "Free",
+      "feature": "costUsd",
+      "direction": "for"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. An 8-minute walk, back by 11:16.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": {
+     "personId": "pp_frau_huber",
+     "label": "Frau Huber",
+     "why": "No shared language is needed here, so a neighbor can easily come along."
+    },
+    "joinCard": {
+     "kind": "join",
+     "local": "Ich möchte gern mitmachen. Ich spreche Telugu. Wer kann mir helfen?",
+     "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. నాకు ఎవరు సహాయం చేస్తారు?",
+     "askWho": "Fragen Sie am Empfang."
+    },
+    "features": {
+     "category": "senior_center",
+     "languageMatch": 0,
+     "travelMinutes": 8,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 9,
+     "dayOfWeek": "mon",
+     "weather": "cold",
+     "temperatureC": 3,
+     "rainChance": 0.5,
+     "indoor": true,
+     "groupSize": "medium",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": true
+    }
+   },
+   {
+    "id": "hh_munich:2026-W41:pl_3cb5763e:mother",
+    "candidate": {
+     "id": "pl_3cb5763e",
+     "kind": "place",
+     "title": "Münchner Stadtbibliothek Ramersdorf",
+     "venueName": "Münchner Stadtbibliothek Ramersdorf",
+     "address": "Führichstraße 43, 81671 München-Ramersdorf-Perlach",
+     "location": {
+      "lat": 48.117680199999995,
+      "lng": 11.6146827
+     },
+     "ladderLevel": 4,
+     "languageMatch": 0,
+     "category": "library",
+     "indoor": true,
+     "costUsd": 0,
+     "foodAvailable": false,
+     "languageNeeded": false,
+     "groupSize": "small",
+     "description": "Bibliothek",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnBKFf3yCL819jwgASyedGI2KGkdp5ETDVDac-cA7q3x5Va0r7YDeQiShbP-M95XWPZNXCY9lMlteX0YHTvtQFI-4pqgT6vAAqiLNEW540Q3D7VuearAPgLZxK7njzGICPl9ceg=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [],
+      "tue": [
+       [
+        600,
+        1140
+       ]
+      ],
+      "wed": [
+       [
+        600,
+        1140
+       ]
+      ],
+      "thu": [
+       [
+        600,
+        1140
+       ]
+      ],
+      "fri": [
+       [
+        600,
+        1140
+       ]
+      ],
+      "sat": [
+       [
+        600,
+        900
+       ]
+      ],
+      "sun": []
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Stadtbibliothek"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_kamala"
+    ],
+    "slot": {
+     "day": "tue",
+     "depart": 585,
+     "back": 700,
+     "withAdultChild": false
+    },
+    "ladderLevel": 4,
+    "ladderLabel": "Programs for newcomers and older adults",
+    "score": {
+     "pGo": 1,
+     "enjoyment": 2.785,
+     "combined": 2.7852,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Not in their language",
+      "feature": "languageMatch",
+      "direction": "against"
+     },
+     {
+      "label": "Free",
+      "feature": "costUsd",
+      "direction": "for"
+     },
+     {
+      "label": "Small and calm",
+      "feature": "setting",
+      "direction": "for"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. By bus, about 20 minutes each way, back by 11:40.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": {
+     "personId": "pp_frau_huber",
+     "label": "Frau Huber",
+     "why": "No shared language is needed here, so a neighbor can easily come along."
+    },
+    "joinCard": null,
+    "features": {
+     "category": "library",
+     "languageMatch": 0,
+     "travelMinutes": 20,
+     "transfers": 0,
+     "walkingMinutes": 8,
+     "startHour": 9,
+     "dayOfWeek": "tue",
+     "weather": "cold",
+     "temperatureC": 3,
+     "rainChance": 0.5,
+     "indoor": true,
+     "groupSize": "small",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": false
+    }
+   },
+   {
+    "id": "hh_munich:2026-W41:pl_4e3fa19b:mother",
+    "candidate": {
+     "id": "pl_4e3fa19b",
+     "kind": "place",
+     "title": "Alten- und Servicezentrum Schwabing Ost",
+     "venueName": "Alten- und Servicezentrum Schwabing Ost",
+     "address": "Siegesstraße 31, 80802 München-Schwabing-Freimann",
+     "location": {
+      "lat": 48.1612431,
+      "lng": 11.5884156
+     },
+     "ladderLevel": 4,
+     "languageMatch": 0,
+     "category": "senior_center",
+     "indoor": true,
+     "costUsd": 0,
+     "foodAvailable": false,
+     "languageNeeded": true,
+     "groupSize": "medium",
+     "description": "Seniorenzentrum",
+     "photo": {
+      "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPHVIJYfvOfT-e2yMCksbCSuzRcHRsupsQub0gwgwPfFYa3oGsr3P5AoLGqo-JgRBvnO6X7r6DPXgmAHlR6uELYrGnFMEq5_i9gLE7m9LSWiQPxKEiqkj7i5ADKQorOip2pOSJV=w1000-h1000-c-n",
+      "credit": "Photo: Google Maps contributor"
+     },
+     "start": null,
+     "end": null,
+     "hours": {
+      "mon": [
+       [
+        510,
+        990
+       ]
+      ],
+      "tue": [
+       [
+        510,
+        990
+       ]
+      ],
+      "wed": [
+       [
+        510,
+        990
+       ]
+      ],
+      "thu": [
+       [
+        510,
+        990
+       ]
+      ],
+      "fri": [
+       [
+        510,
+        810
+       ]
+      ],
+      "sat": [],
+      "sun": []
+     },
+     "suitsOlderAdults": true,
+     "provenance": "live_search",
+     "query": "Seniorentreff"
+    },
+    "role": "mother",
+    "parentIds": [
+     "p_kamala"
+    ],
+    "slot": {
+     "day": "mon",
+     "depart": 570,
+     "back": 742,
+     "withAdultChild": false
+    },
+    "ladderLevel": 4,
+    "ladderLabel": "Programs for newcomers and older adults",
+    "score": {
+     "pGo": 1,
+     "enjoyment": 2.752,
+     "combined": 2.7516,
+     "rank": 0
+    },
+    "chips": [
+     {
+      "label": "Small and calm",
+      "feature": "setting",
+      "direction": "for"
+     },
+     {
+      "label": "Not in their language",
+      "feature": "languageMatch",
+      "direction": "against"
+     },
+     {
+      "label": "Free",
+      "feature": "costUsd",
+      "direction": "for"
+     }
+    ],
+    "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. By bus, about 41 minutes each way, back by 12:22.",
+    "reasonBy": "fallback",
+    "firstRideTogether": true,
+    "bringSomeone": {
+     "personId": "pp_frau_huber",
+     "label": "Frau Huber",
+     "why": "No shared language is needed here, so a neighbor can easily come along."
+    },
+    "joinCard": {
+     "kind": "join",
+     "local": "Ich möchte gern mitmachen. Ich spreche Telugu. Wer kann mir helfen?",
+     "meaning": "నేను ఇందులో చేరాలనుకుంటున్నాను. నాకు ఎవరు సహాయం చేస్తారు?",
+     "askWho": "Fragen Sie am Empfang."
+    },
+    "features": {
+     "category": "senior_center",
+     "languageMatch": 0,
+     "travelMinutes": 41,
+     "transfers": 1,
+     "walkingMinutes": 8,
+     "startHour": 9,
+     "dayOfWeek": "mon",
+     "weather": "cold",
+     "temperatureC": 3,
+     "rainChance": 0.5,
+     "indoor": true,
+     "groupSize": "medium",
+     "costUsd": 0,
+     "knowsSomeone": false,
+     "foodAvailable": false,
+     "daysSinceLastOuting": 3,
+     "withAdultChild": false,
+     "languageNeeded": true
+    }
+   }
+  ]
+ },
+ "note": "No Telugu events were found this week.",
  "sameLanguageFound": false,
  "rejected": [],
  "stats": {
-  "ms": 101263,
+  "ms": 36982,
   "modelCalls": 1,
   "cachedModelCalls": 0,
   "fallbacks": 0,
@@ -382,23 +2101,23 @@
   "toolCalls": [
    {
     "tool": "rankOutings",
-    "ms": 81730,
+    "ms": 2,
     "detail": "mother: 7 feasible"
    },
    {
     "tool": "rankOutings",
-    "ms": 15591,
-    "detail": "father: 11 feasible"
+    "ms": 33180,
+    "detail": "father: 10 feasible"
    },
    {
     "tool": "agent",
-    "ms": 3941,
+    "ms": 3782,
     "detail": "1 steps"
    }
   ],
   "rankerCalls": 2,
   "candidates": 12,
-  "feasible": 11,
+  "feasible": 10,
   "agentChoicesUsed": 4
  }
 }

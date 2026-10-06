@@ -9,6 +9,16 @@
 
 @custom-variant dark (&:where([data-color-scheme="dark"], [data-color-scheme="dark"] *));
 
+/* A themed scroll track stands in for the scrollbar on precise pointers (components/shell/scroll-track.tsx). */
+@media (pointer: fine) {
+  html[data-scroll-track] {
+    scrollbar-width: none;
+  }
+  html[data-scroll-track]::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 :root {
   color-scheme: light;
 

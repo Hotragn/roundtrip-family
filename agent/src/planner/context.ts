@@ -1,6 +1,7 @@
 import type { Household, Outing, OutingFeatures, Parent, Person } from "@roundtrip/core";
 import { clockMinutes } from "@roundtrip/core";
 import { type Candidate, estimateTravel, featuresFor } from "./candidates";
+import { anonymizedPerson } from "./people";
 import { DAYS, type Day, type Feasibility, findSlot, fmt, weatherBlocks } from "./slots";
 
 /**
@@ -102,6 +103,7 @@ export function plan(ctx: PlannerContext, c: Candidate, role: Role, opts: { excl
   const t = estimateTravel(home, c.location);
   const ev = eventDay(c, ctx.week.monday);
   const travel = t.minutes ?? 999;
+  const stay = ev?.end ? Math.max(30, ev.end - ev.start) : (STAY[c.category] ?? 75);
   const feasibility: Feasibility =
     c.location === null
       ? { ok: false, why: ["no map location for the venue"] }
@@ -113,7 +115,10 @@ export function plan(ctx: PlannerContext, c: Candidate, role: Role, opts: { excl
             {
               travelMinutes: travel,
               walkingMinutes: t.walking ?? 0,
-              stayMinutes: ev?.end ? Math.max(30, ev.end - ev.start) : (STAY[c.category] ?? 75),
+              stayMinutes: stay,
+              // A shorter visit is still worth it when the place closes sooner: about 60% of the usual stay.
+              minStayMinutes: Math.max(30, Math.round(stay * 0.6)),
+              hours: ev ? null : c.hours,
               fixed: ev ? { day: ev.day, startMinutes: ev.start, endMinutes: ev.end } : undefined,
               outdoor: c.indoor === false,
               excludeDays: opts.excludeDays,
@@ -186,13 +191,7 @@ export function viewOf(ctx: PlannerContext, c: Candidate): CandidateView {
 
 /** The people memory, described without names, for prompts to hosted models. */
 export function anonymizedPeople(ctx: PlannerContext): string[] {
-  return ctx.people.map((p) => {
-    const who = ctx.parents
-      .filter((x) => p.knownParentIds.includes(x._id))
-      .map(roleOf)
-      .join(" and ");
-    return `A ${p.relation.toLowerCase()} who speaks ${p.language === "zh" ? "Mandarin" : p.language}; knows the ${who}; shared words: ${p.sharedWords.join(", ")}.`;
-  });
+  return ctx.people.map((p) => anonymizedPerson(p, ctx.parents));
 }
 
 /** What the past outings say, in kinds of places and ratings only. */

@@ -1,0 +1,9 @@
+{
+ "query": "Ostbahnhof, Munich",
+ "location": {
+  "lat": 48.1280775,
+  "lng": 11.6036296
+ },
+ "displayName": "Ostbahnhof, Orleansstraße, Haidhausen-Nord, Haidhausen, Au-Haidhausen, München, Bayern, 81667, Deutschland",
+ "source": "OpenStreetMap Nominatim (ODbL)"
+}

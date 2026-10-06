@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791242360614",
+  "object": "chat.completion",
+  "created": 1791242360,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"body\":\"అమ్మా, ఆదివారం 10:00కి Irvington Farmers' Market కి వెళ్దాం. మేము కారులో కలిసి వెళ్తాము. అక్కడ మీరు తాజా పండ్లు, కూరగాయలు మరియు మంచి వస్తువులు చూడవచ్చు. 11:42కి ఇంటికి వచ్చేయొచ్చు.\" , \"title\": \"Irvington Farmers' Market కి\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1119,
+   "completion_tokens": 85,
+   "total_tokens": 1204,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 12.4909086227417
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T23:19:07.535Z",
+ "latencyMs": 2759
+}

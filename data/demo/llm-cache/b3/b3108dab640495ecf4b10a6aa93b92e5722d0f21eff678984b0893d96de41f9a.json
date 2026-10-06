@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791242375867",
+  "object": "chat.completion",
+  "created": 1791242375,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"నాన్నగారు, ఆదివారం 10:45కి Hariom Temple కి వెళ్దాం. మేము కారులో కలిసి వెళ్తాము. అక్కడ అందమైన Hindu temple చూడవచ్చు. 13:03కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Hariom Temple కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 989,
+   "completion_tokens": 76,
+   "total_tokens": 1065,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 11.06363582611084
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-05T23:19:22.724Z",
+ "latencyMs": 1616
+}

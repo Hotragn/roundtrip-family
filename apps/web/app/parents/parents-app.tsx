@@ -14,7 +14,15 @@ import {
   setKv,
   settingsKey,
 } from "@/lib/parents-store";
-import { DEMO_HOUSEHOLDS, DEMO_NOW, outingsFor, placePhoto, type WeekView } from "@/lib/week";
+import {
+  applyChanges,
+  DEMO_HOUSEHOLDS,
+  DEMO_NOW,
+  outingsFor,
+  placePhoto,
+  type WeekChanges,
+  type WeekView,
+} from "@/lib/week";
 import { ParentsContext, type ParentsState, type View } from "./context";
 import { BookView } from "./views/book";
 import { HowView, LostView } from "./views/care";
@@ -138,7 +146,28 @@ function ParentScreens({
   go: (v: View, o?: string) => void;
   t: ReturnType<typeof useTranslations>;
 }) {
-  const { week, household } = initial;
+  const { household } = initial;
+
+  // What the dashboard changed in this session (approvals, moves), kept on the phone for offline.
+  const [changes, setChanges] = useState<WeekChanges | null>(null);
+  useEffect(() => {
+    const key = `changes:${household}:${initial.parentId}`;
+    let fresh = false;
+    getKv<WeekChanges>(key).then((saved) => {
+      if (saved && !fresh) setChanges(saved);
+    });
+    if (!navigator.onLine) return;
+    fetch(`/parents/api/changes/${household}/${initial.parentId}`, { cache: "no-store" })
+      .then((r) => (r.ok ? (r.json() as Promise<WeekChanges>) : null))
+      .then((c) => {
+        if (!c) return;
+        fresh = true;
+        setChanges(c);
+        void setKv(key, c);
+      })
+      .catch(() => {});
+  }, [household, initial.parentId]);
+  const week = useMemo(() => applyChanges(initial.week, changes), [initial.week, changes]);
 
   // Remember whose phone this is, so /parents (the installed app's start) opens this page.
   useEffect(() => {
