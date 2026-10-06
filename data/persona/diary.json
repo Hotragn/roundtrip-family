@@ -1,0 +1,180 @@
+{
+  "source": "Synthetic diary entries for the fictional demo households, written in the style docs/persona.md describes. Not real people's words.",
+  "provenance": "synthetic",
+  "entries": [
+    {
+      "id": "d_sarala_01",
+      "householdId": "hh_fremont",
+      "parentId": "p_sarala",
+      "kind": "voice",
+      "createdAt": "2026-09-26T18:10:00-07:00",
+      "text": "ఈరోజు గుడికి వెళ్ళాం. గుంటూరు నుంచి వచ్చిన లక్ష్మి గారు కనిపించారు. వాళ్ళ అమ్మాయి పెళ్ళి గురించి ఇరవై నిమిషాలు మాట్లాడుకున్నాం. ఇంట్లో ఉన్నట్టే అనిపించింది. ఇంటికి వచ్చి పులిహోర చేశాను.",
+      "feelingWords": ["సంతోషం"],
+      "outingId": "o_fremont_1",
+      "shared": true,
+      "inMemoryBook": true
+    },
+    {
+      "id": "d_sarala_02",
+      "householdId": "hh_fremont",
+      "parentId": "p_sarala",
+      "kind": "voice",
+      "createdAt": "2026-09-29T15:40:00-07:00",
+      "text": "ఈరోజు ఇంట్లోనే ఉన్నాను. అందరూ పనికి వెళ్ళారు. సీరియల్ రెండు ఎపిసోడ్లు చూశాను. పద్మ అక్కకి ఫోన్ చేశాను. మన పెరట్లో మామిడి చెట్టు ఈ సంవత్సరం బాగా కాసిందట.",
+      "feelingWords": ["ఊరు గుర్తొచ్చింది"],
+      "shared": false,
+      "inMemoryBook": false
+    },
+    {
+      "id": "d_sarala_03",
+      "householdId": "hh_fremont",
+      "parentId": "p_sarala",
+      "kind": "text",
+      "createdAt": "2026-10-01T19:05:00-07:00",
+      "text": "సాయంత్రం కాంప్లెక్స్ చుట్టూ నడిచాను. Mrs. Chen కనిపించారు. చెయ్యి ఊపారు, నేనూ ఊపాను. మాటలు లేవు, కానీ బాగుంది.",
+      "feelingWords": ["బాగుంది"],
+      "shared": true,
+      "inMemoryBook": false
+    },
+    {
+      "id": "d_sarala_04",
+      "householdId": "hh_fremont",
+      "parentId": "p_sarala",
+      "kind": "voice",
+      "createdAt": "2026-10-03T16:30:00-07:00",
+      "text": "పదకొండు నుంచి ఐదు వరకు చాలా పొడుగ్గా ఉంది. గుంటూరులో ఎప్పుడూ ఎవరో ఒకరు ఉంటారు, ఇరుగుపొరుగు, కూరగాయలవాళ్ళు. ఇక్కడ కార్ల శబ్దం తప్ప ఏమీ లేదు.",
+      "feelingWords": ["ఒంటరిగా ఉంది"],
+      "shared": false,
+      "inMemoryBook": false
+    },
+    {
+      "id": "d_sarala_05",
+      "householdId": "hh_fremont",
+      "parentId": "p_sarala",
+      "kind": "text",
+      "createdAt": "2026-10-04T17:20:00-07:00",
+      "text": "Mrs. Chen ఇంట్లో టీ తాగాం. ఆవిడ మనవళ్ళ ఫోటోలు చూపించారు, నేను మన పిల్లల ఫోటోలు చూపించాను. ఇద్దరం నవ్వుకున్నాం. అది చాలు.",
+      "feelingWords": ["సంతోషం", "బాగుంది"],
+      "outingId": "o_fremont_22",
+      "shared": true,
+      "inMemoryBook": true
+    },
+    {
+      "id": "d_venkat_01",
+      "householdId": "hh_fremont",
+      "parentId": "p_venkat",
+      "kind": "voice",
+      "createdAt": "2026-09-27T13:15:00-07:00",
+      "text": "Safeway కి వెళ్ళాం. ఎన్నో బ్రాండ్లు, ఏది కొనాలో తెలియలేదు. ఇంగ్లీషులో అడిగాను, వాళ్ళు గబగబా మాట్లాడారు. మళ్ళీ ఒక్కడినే వెళ్ళను.",
+      "feelingWords": ["కంగారు"],
+      "outingId": "o_fremont_4",
+      "shared": false,
+      "inMemoryBook": false
+    },
+    {
+      "id": "d_venkat_02",
+      "householdId": "hh_fremont",
+      "parentId": "p_venkat",
+      "kind": "text",
+      "createdAt": "2026-09-30T20:00:00-07:00",
+      "text": "నాకు జిమ్ వద్దు, ట్రైల్ వద్దు. నడుస్తూ మాట్లాడటానికి ఇద్దరు ముగ్గురు మనుషులు చాలు.",
+      "feelingWords": ["బోరు"],
+      "shared": true,
+      "inMemoryBook": false
+    },
+    {
+      "id": "d_venkat_03",
+      "householdId": "hh_fremont",
+      "parentId": "p_venkat",
+      "kind": "voice",
+      "createdAt": "2026-10-02T11:45:00-07:00",
+      "text": "Lake Elizabeth చుట్టూ నడిచాం. బాతులు ఉన్నాయి. ఒక పెద్దాయన హలో అన్నారు, నేనూ హలో అన్నాను. రేపు కూడా వెళ్దాం అనిపించింది.",
+      "feelingWords": ["బాగుంది"],
+      "outingId": "o_fremont_14",
+      "shared": true,
+      "inMemoryBook": true
+    },
+    {
+      "id": "d_venkat_04",
+      "householdId": "hh_fremont",
+      "parentId": "p_venkat",
+      "kind": "voice",
+      "createdAt": "2026-10-04T21:10:00-07:00",
+      "text": "ఈవారం బస్సులో ఒక్కడినే వెళ్ళాలి. కొంచెం టెన్షన్‌గా ఉంది. కానీ ఏ స్టాప్‌లో దిగాలో టికెట్‌లో రాసి ఉంది.",
+      "feelingWords": ["టెన్షన్"],
+      "shared": false,
+      "inMemoryBook": false
+    },
+    {
+      "id": "d_kamala_01",
+      "householdId": "hh_munich",
+      "parentId": "p_kamala",
+      "kind": "voice",
+      "createdAt": "2026-09-26T19:30:00+02:00",
+      "text": "పూజ తర్వాత గుడిలో తమిళ, తెలుగు కుటుంబాలు కలిశాయి. ఒకావిడ ప్రసాదం ఇచ్చారు. చాలా రోజుల తర్వాత మన భాష వినిపించింది.",
+      "feelingWords": ["సంతోషం"],
+      "outingId": "o_munich_1",
+      "shared": true,
+      "inMemoryBook": true
+    },
+    {
+      "id": "d_kamala_02",
+      "householdId": "hh_munich",
+      "parentId": "p_kamala",
+      "kind": "text",
+      "createdAt": "2026-09-30T12:10:00+02:00",
+      "text": "Viktualienmarkt లో కూరగాయలు చూపించి కొన్నాను. అమ్మే ఆవిడ నవ్వింది. మాట అర్థం కాలేదు, కానీ పని అయిపోయింది.",
+      "feelingWords": ["బాగుంది"],
+      "outingId": "o_munich_3",
+      "shared": false,
+      "inMemoryBook": false
+    },
+    {
+      "id": "d_kamala_03",
+      "householdId": "hh_munich",
+      "parentId": "p_kamala",
+      "kind": "voice",
+      "createdAt": "2026-10-03T17:00:00+02:00",
+      "text": "బయట చలిగా ఉంది. రోజంతా ఇంట్లోనే ఉన్నాను. అమ్మ గుర్తొచ్చింది.",
+      "feelingWords": ["ఊరు గుర్తొచ్చింది", "అలిసిపోయా"],
+      "shared": false,
+      "inMemoryBook": false
+    },
+    {
+      "id": "d_raghu_01",
+      "householdId": "hh_munich",
+      "parentId": "p_raghu",
+      "kind": "voice",
+      "createdAt": "2026-09-28T18:20:00+02:00",
+      "text": "Deutsches Museum లో రైళ్ళు చూశాను. చిన్నప్పుడు నాన్నతో గుంటూరు స్టేషన్‌కి వెళ్ళిన రోజులు గుర్తొచ్చాయి.",
+      "feelingWords": ["ఊరు గుర్తొచ్చింది"],
+      "outingId": "o_munich_6",
+      "shared": true,
+      "inMemoryBook": false
+    },
+    {
+      "id": "d_raghu_02",
+      "householdId": "hh_munich",
+      "parentId": "p_raghu",
+      "kind": "text",
+      "createdAt": "2026-10-01T10:40:00+02:00",
+      "text": "Ostpark లో నడక బాగుంది. కానీ మాట్లాడటానికి ఎవరూ లేరు.",
+      "feelingWords": ["ఒంటరిగా ఉంది"],
+      "outingId": "o_munich_9",
+      "shared": false,
+      "inMemoryBook": false
+    },
+    {
+      "id": "d_raghu_03",
+      "householdId": "hh_munich",
+      "parentId": "p_raghu",
+      "kind": "voice",
+      "createdAt": "2026-10-04T22:00:00+02:00",
+      "text": "తెలుగు సంఘం పండుగలో గుంటూరు నుంచి వచ్చిన కుటుంబం కలిసింది. వచ్చే నెల వాళ్ళింటికి రమ్మన్నారు.",
+      "feelingWords": ["సంతోషం"],
+      "outingId": "o_munich_8",
+      "shared": true,
+      "inMemoryBook": true
+    }
+  ]
+}
