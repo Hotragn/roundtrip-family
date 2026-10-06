@@ -3,9 +3,9 @@
  * parents' screens use, so a phone parses a fraction of the site's CSS on its first paint.
  */
 @import "tailwindcss" source(none);
+@import "../tokens.css";
 @source "../parents";
 @source "../../components/parents";
 @source "../../components/travel";
 @source "../../components/brand";
 @source "../../lib";
-@import "../tokens.css";
