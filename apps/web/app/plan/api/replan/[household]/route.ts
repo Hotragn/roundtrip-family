@@ -5,6 +5,7 @@ import { HOUSEHOLDS, isHousehold } from "@/lib/plan-board";
 import type { ReplanResult } from "@/lib/replan-types";
 import { take } from "@/lib/server/rate-limit";
 import { sessionId } from "@/lib/server/session";
+import { traced } from "@/sentry.server";
 
 /**
  * Plan the coming week, live: the planner runs now on the household's saved places with the
@@ -49,7 +50,18 @@ export async function POST(req: Request, { params }: { params: Promise<{ househo
   const started = Date.now();
   try {
     const { ctx, forecast } = await liveWeekContext(bundle, { only: body.data.only });
-    const plan = await planWeek(ctx);
+    const plan = await traced(
+      "plan the coming week",
+      () => planWeek(ctx),
+      (p) => ({
+        household,
+        suggestions: p.suggestions.length,
+        modelCalls: p.stats.modelCalls,
+        cachedModelCalls: p.stats.cachedModelCalls,
+        rankerCalls: p.stats.rankerCalls,
+        ms: p.stats.ms,
+      }),
+    );
     const name = (ids: string[]) =>
       bundle.parents
         .filter((p) => ids.includes(p._id))
