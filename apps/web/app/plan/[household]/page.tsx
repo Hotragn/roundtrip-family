@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Replan } from "@/components/dashboard/replan";
+import { SendWeek } from "@/components/dashboard/send-week";
 import { DashboardShell } from "@/components/dashboard/shell";
 import { WeekBoard } from "@/components/dashboard/week-board";
 import { HOUSEHOLDS, isHousehold, loadBoard } from "@/lib/plan-board";
@@ -20,6 +21,7 @@ export default async function ThisWeek({ params }: PageProps<"/plan/[household]"
     <DashboardShell household={household} weekLabel={board.week.label} parents={board.parents}>
       <div className="space-y-10">
         <WeekBoard board={board} />
+        <SendWeek household={household} />
         <Replan board={board} />
       </div>
     </DashboardShell>

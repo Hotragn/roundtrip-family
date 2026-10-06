@@ -103,3 +103,18 @@ export function dayAvailability(board: PlanBoard, day: string): string {
   if (day === "sat" || day === "sun") return "Weekend: you can go together";
   return "Family at home";
 }
+
+/**
+ * The adult child's answer for the week's weekPlan workflow, from the dashboard's changes:
+ * the approved outings (by the outing chosen in a swap's place) and every swap. Day moves stay
+ * with the phones; weekPlan keeps each outing's planned day.
+ */
+export function weekAnswer(
+  items: Array<{ id: string }>,
+  overlay: { status: Record<string, string>; swaps: Record<string, string> },
+): { approve: string[]; swapTo: Record<string, string> } {
+  return {
+    approve: items.filter((i) => overlay.status[i.id] === "approved").map((i) => overlay.swaps[i.id] ?? i.id),
+    swapTo: { ...overlay.swaps },
+  };
+}

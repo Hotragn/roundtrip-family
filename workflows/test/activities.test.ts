@@ -117,6 +117,23 @@ describe("planWeek", () => {
 });
 
 describe("the emails the activities write", () => {
+  it("the reminder the evening before: who, where, when; no address", async () => {
+    const { acts, mail } = setup();
+    const temple = (await acts.planWeek({ householdSlug: "fremont-demo" })).proposals[0]!;
+    const r = await acts.sendReminder({
+      householdSlug: "fremont-demo",
+      outingId: temple.outingId,
+      parentIds: temple.parentIds,
+      departAt: temple.departAt,
+      backAt: temple.backAt,
+    });
+    expect(r).toEqual({ sent: true, reason: null });
+    const [email] = mail.of("reminder");
+    expect(email!.subject).toBe("Tomorrow: Sarala to Karya Siddhi Hanuman Temple");
+    expect(email!.text).toContain("Monday 12 October: leaving at 08:30, back by 10:10");
+    expect(email!.text).not.toMatch(/Fremont Blvd|Mowry/);
+  });
+
   it("the planning email: first names, day, time, place, how they get there and why; no address", async () => {
     const { acts, mail } = setup();
     const plan = await acts.planWeek({ householdSlug: "fremont-demo" });

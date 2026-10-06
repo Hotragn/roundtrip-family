@@ -51,3 +51,12 @@ export async function signalHowWasIt(r: {
     face: r.face,
   });
 }
+
+/** The dashboard's decisions for the week reach weekPlan, in one signal (see weekAnswer). */
+export async function signalWeekAnswer(
+  household: string,
+  answer: { approve: string[]; swapTo: Record<string, string> },
+): Promise<SignalResult> {
+  if (!temporalOn()) return "off";
+  return signalWorkflow(WORKFLOW.weekPlan(household), SIGNAL.approve, answer);
+}

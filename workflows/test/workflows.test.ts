@@ -287,6 +287,29 @@ describe.skipIf(!temporal.testing)("workflows on the time-skipping test server",
       expect(h.mail.of("reply")).toHaveLength(0);
     }, 60_000);
 
+    it("takes the dashboard's own swap, then its approval of the outing chosen instead", async () => {
+      const LIBRARY = "hh_fremont:2026-W41:pl_d0e8e84e:mother"; // the planner's first alternative to the park
+      const h = harness();
+      const result = await h.run(async () => {
+        const handle = await startWeek(h.taskQueue);
+        await handle.signal(approveSignal, { swapTo: { [PARK]: LIBRARY }, approve: [TEMPLE, LIBRARY] });
+        return handle.result();
+      });
+      expect(result.approved).toEqual([TEMPLE, LIBRARY]);
+      expect(result.approved).not.toContain(PARK);
+    }, 60_000);
+
+    it("sends a reminder the evening before each approved outing", async () => {
+      const h = harness();
+      await h.run(async () => {
+        const handle = await startWeek(h.taskQueue);
+        await handle.signal(approveSignal, { approve: [TEMPLE] });
+        // The week ends on Sunday evening, so by then the Monday outing's reminder has gone out.
+        await handle.result();
+      });
+      expect(h.mail.of("reminder").map((m) => m.subject)).toEqual(["Tomorrow: Sarala to Karya Siddhi Hanuman Temple"]);
+    }, 60_000);
+
     it("sets nothing up when no answer comes before the deadline", async () => {
       const h = harness();
       const result = await h.run(async () => (await startWeek(h.taskQueue, { approvalTimeoutMs: HOUR })).result());

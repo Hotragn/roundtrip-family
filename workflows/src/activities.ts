@@ -7,6 +7,7 @@ import {
   planLabels,
   planningEmail,
   planReference,
+  reminderEmail,
   type SendResult,
   type SummaryItem,
   safetyAlertEmail,
@@ -148,6 +149,19 @@ export function createActivities(deps: ActivityDeps) {
     },
 
     /** The planner's next option in place of an outing, on the same week. */
+    /** The alternative the dashboard picked for an outing, if it's one of the planner's options for it. */
+    async chosenAlternative(input: {
+      householdSlug: string;
+      weekStart: string;
+      forOutingId: string;
+      outingId: string;
+    }): Promise<Proposal | null> {
+      const s = saved(input.householdSlug);
+      if (!(s.plan.alternatives?.[input.forOutingId] ?? []).some((a) => a.id === input.outingId)) return null;
+      const c = findChoice(s, input.outingId);
+      return c ? proposalFor(c, input.weekStart, tz(s)) : null;
+    },
+
     async swapOuting(input: {
       householdSlug: string;
       weekStart: string;
@@ -276,6 +290,36 @@ export function createActivities(deps: ActivityDeps) {
         dataClass: dataClass(s),
       });
       return { ...(await outcome("alert", r, { householdSlug: s.slug, outingId: input.outingId })), at };
+    },
+
+    /** The evening before an approved outing: who goes where tomorrow. */
+    async sendReminder(input: {
+      householdSlug: string;
+      outingId: string;
+      parentIds: string[];
+      departAt: string;
+      backAt: string;
+    }): Promise<EmailOutcome> {
+      const s = saved(input.householdSlug);
+      const c = choice(s, input.outingId);
+      const leave = when(s, input.departAt);
+      const email = reminderEmail({
+        who: firstNames(s, input.parentIds),
+        place: c.place,
+        dayLabel: dayLabel(localParts(new Date(input.departAt), tz(s)).date),
+        leave: leave.time,
+        back: when(s, input.backAt).time,
+        synthetic: s.week.provenance === "synthetic",
+      });
+      const r = await deps.mailer.send({
+        kind: "reminder",
+        subject: email.subject,
+        text: email.text,
+        html: email.html,
+        labels: ["roundtrip", "reminder"],
+        dataClass: dataClass(s),
+      });
+      return outcome("reminder", r, { householdSlug: s.slug, outingId: input.outingId });
     },
 
     /** "Sarala is home", after an alert. */

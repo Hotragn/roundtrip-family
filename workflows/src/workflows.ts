@@ -8,6 +8,7 @@ import {
   ParentClosePolicy,
   proxyActivities,
   setHandler,
+  sleep,
   startChild,
 } from "@temporalio/workflow";
 import type { Activities } from "./activities";
@@ -143,6 +144,25 @@ export async function weekPlan(input: WeekPlanInput): Promise<WeekPlanResult> {
         const s = answer.signal;
         // A dashboard still showing last week's plan doesn't change this one.
         if (s.weekKey && s.weekKey !== plan.weekKey) continue;
+        // The dashboard's own swaps first, so its approvals can name the outings chosen instead.
+        for (const [from, to] of Object.entries(isObject(s.swapTo) ? s.swapTo : {})) {
+          const current = proposals.find((p) => p.status === "pending" && p.outingId === from);
+          if (!current || typeof to !== "string") continue;
+          const forOutingId = current.swappedFrom?.[0] ?? current.outingId;
+          const next = await acts.chosenAlternative({
+            householdSlug: slug,
+            weekStart: plan.weekStart,
+            forOutingId,
+            outingId: to,
+          });
+          if (next) {
+            proposals = proposals.map((p) =>
+              p.n === current.n
+                ? { ...next, n: p.n, status: "pending", swappedFrom: [...(p.swappedFrom ?? []), p.outingId] }
+                : p,
+            );
+          } else log.warn("Dashboard swap not applied", { from });
+        }
         choice = toChoice(s);
       } else if (email) {
         // Signals come from outside: a reply with no message to answer, or no parsed answer, is dropped
@@ -237,6 +257,27 @@ export async function weekPlan(input: WeekPlanInput): Promise<WeekPlanResult> {
     });
 
     for (const p of proposals.filter((x) => x.status === "approved")) {
+      // The evening before (14 hours ahead of leaving), unless that has already passed.
+      const remindAt = Date.parse(p.departAt) - REMIND_BEFORE_MS;
+      if (remindAt > Date.now()) {
+        await startOnce(() =>
+          startChild(outingReminder, {
+            // WORKFLOW.outingReminder in agent/src/email/ids.ts; the workflow bundle can't import it.
+            workflowId: `outing-reminder-${p.outingId}`,
+            args: [
+              {
+                householdSlug: slug,
+                outingId: p.outingId,
+                parentIds: p.parentIds,
+                departAt: p.departAt,
+                backAt: p.backAt,
+                remindAt,
+              },
+            ],
+            parentClosePolicy: ParentClosePolicy.ABANDON,
+          }),
+        );
+      }
       const bufferMs = plan.safety.bufferMinutes * 60_000;
       if (!p.withAdultChild) {
         if (Date.parse(p.backAt) + bufferMs <= Date.now()) result.missed.push(p.outingId);
@@ -408,6 +449,22 @@ export async function outingSafety(input: OutingSafetyInput): Promise<OutingSafe
     return done("home_after_alert");
   }
   return done("alerted");
+}
+
+const REMIND_BEFORE_MS = 14 * HOUR;
+
+/** One email the evening before an approved outing. */
+export async function outingReminder(input: {
+  householdSlug: string;
+  outingId: string;
+  parentIds: string[];
+  departAt: string;
+  backAt: string;
+  remindAt: number;
+}): Promise<{ sent: boolean }> {
+  if (input.remindAt > Date.now()) await sleep(input.remindAt - Date.now());
+  const { remindAt: _remindAt, ...rest } = input;
+  return { sent: (await acts.sendReminder(rest)).sent };
 }
 
 export async function trialRun(input: TrialRunInput): Promise<TrialRunResult> {

@@ -85,6 +85,8 @@ export interface ApproveSignal {
   approve: "all" | Array<number | string>;
   skip?: "all" | Array<number | string>;
   swap?: Array<number | string>;
+  /** The dashboard's swaps: an outing id and the planner's alternative chosen in its place. */
+  swapTo?: Record<string, string>;
 }
 
 export interface HowWasItSignal {

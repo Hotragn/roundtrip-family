@@ -14,6 +14,8 @@ export const WORKFLOW = {
   outingSafety: (outingId: string) => `outing-safety-${outingId}`,
   /** The first ride together on a new route. */
   trialRun: (outingId: string) => `trial-run-${outingId}`,
+  /** The evening-before reminder for one approved outing. */
+  outingReminder: (outingId: string) => `outing-reminder-${outingId}`,
 };
 
 export const SIGNAL = {

@@ -275,6 +275,32 @@ export function safetyAlertEmail(e: SafetyAlertEmail): RenderedEmail {
   );
 }
 
+export interface ReminderEmail {
+  who: string[];
+  place: string;
+  /** "Monday 12 October" */
+  dayLabel: string;
+  leave: string;
+  back: string;
+  synthetic: boolean;
+}
+
+/** The evening before: who goes where tomorrow, so the adult child can remind them at dinner. */
+export function reminderEmail(e: ReminderEmail): RenderedEmail {
+  const who = names(e.who);
+  return render(
+    `Tomorrow: ${who} to ${e.place}`,
+    [
+      para(
+        `${who} ${e.who.length > 1 ? "go" : "goes"} to ${e.place} tomorrow, ${e.dayLabel}: leaving at ${e.leave}, back by ${e.back}.`,
+      ),
+      para("The ticket and directions are on their phone. Make sure it's charged tonight."),
+    ],
+    null,
+    e.synthetic ? [SYNTHETIC_LINE] : [],
+  );
+}
+
 export function homeNoticeEmail(e: HomeNoticeEmail): RenderedEmail {
   const who = names(e.who);
   const plural = e.who.length > 1;

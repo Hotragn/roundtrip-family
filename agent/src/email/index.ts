@@ -80,7 +80,7 @@ export function emailPrivacyProblems(text: string): string[] {
   return problems;
 }
 
-export type EmailKind = "planning" | "alert" | "home" | "summary" | "reply";
+export type EmailKind = "planning" | "reminder" | "alert" | "home" | "summary" | "reply";
 
 export interface OutgoingEmail {
   kind: EmailKind;
