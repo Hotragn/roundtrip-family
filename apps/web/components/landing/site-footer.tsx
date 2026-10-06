@@ -22,12 +22,6 @@ export function SiteFooter() {
           >
             Parents' app
           </a>
-          <Link
-            href="/design"
-            className="rounded-md text-text-muted underline-offset-4 hover:text-text hover:underline"
-          >
-            Style guide
-          </Link>
         </nav>
       </div>
     </footer>

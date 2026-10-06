@@ -31,6 +31,17 @@ const nextConfig: NextConfig = {
   // once, by the browser and by the parents' service worker for offline (docs/decisions.md).
   // Docs: node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/inlineCss.md
   experimental: { inlineCss: false },
+  // Render's free plan has no edge cache, so the browser keeps the site's art, logos, icons and
+  // clips for a day and reuses them for a week while it checks for a newer copy. Hashed scripts
+  // and styles already come with a year's immutable cache from Next.
+  // Docs: node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/headers.md
+  async headers() {
+    const cache = [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }];
+    return ["/art/:path*", "/brand/:path*", "/icons/:path*", "/audio/:path*", "/maplibre/:path*"].map((source) => ({
+      source,
+      headers: cache,
+    }));
+  },
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "**.googleusercontent.com" },

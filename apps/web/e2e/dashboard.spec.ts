@@ -38,6 +38,28 @@ for (const scheme of ["light", "dark"] as const) {
   }
 }
 
+test("a first visit shows the three-step guide, and Got it keeps it closed", async ({ page }, info) => {
+  test.skip(info.project.name !== "desktop", "dashboard is desktop-first");
+  await page.goto("/plan/fremont-demo");
+  const guide = page.getByRole("region", { name: /How this works in three steps/ });
+  await expect(guide).toBeVisible();
+  await guide.getByRole("button", { name: "Got it" }).click();
+  await expect(guide).toBeHidden();
+  await page.reload();
+  await expect(page.getByRole("heading", { name: "This week" })).toBeVisible();
+  await expect(page.getByRole("region", { name: /How this works in three steps/ })).toHaveCount(0);
+});
+
+// The other dashboard tests start as a returning visitor, with the guide already closed.
+test.beforeEach(async ({ page }, info) => {
+  if (info.title.startsWith("a first visit")) return;
+  await page.addInitScript(() => {
+    try {
+      localStorage.setItem("roundtrip:guide-dismissed", "1");
+    } catch {}
+  });
+});
+
 test("approve, swap and move on the week board", async ({ page }, info) => {
   test.skip(info.project.name !== "desktop", "drag and drop with a mouse");
   await page.emulateMedia({ reducedMotion: "reduce" });

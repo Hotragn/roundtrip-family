@@ -70,12 +70,13 @@ The households (Sarala and Venkat in Fremont, Kamala and Raghu in Munich), their
 8. Read docs/durability-run.txt for the worker kill, and docs/numbers.md for every number.
 9. Check the latest GitHub Actions run on main is green.
 
-## What the builder needs to do (configuration, not build work)
+## Optional setup
 
-1. **Set DEMO_ALERT_EMAIL** to your own address (in .env and the Codespaces secret). Until then no email is sent, by design. Then register the AgentMail webhook (`POST /v0/webhooks`, url `https://roundtrip-web.onrender.com/api/email/webhook`, event `message.received`), set AGENTMAIL_WEBHOOK_SECRET and run render-deploy.ts.
-2. **Allow Render in MongoDB Atlas** (Network Access), then `render-deploy.ts --with-db`.
-3. **Decide on AI4Bharat's gated models** for a better Telugu voice and listener (docs/blocked.md); the pipeline switches by itself once access works.
-4. **Record the demo video** from the shot list in docs/plan.md section 15, and publish docs/post.md on DEV before 11 October 2026.
+Everything works without these; each one turns on something extra.
+
+1. **Email to the adult child:** set DEMO_ALERT_EMAIL to your address (and AGENTMAIL_API_KEY). Without it no email is sent, by design, and the app works the same. For replies, register the AgentMail webhook (`POST /v0/webhooks`, url `https://roundtrip-web.onrender.com/api/email/webhook`, event `message.received`), set AGENTMAIL_WEBHOOK_SECRET and run render-deploy.ts.
+2. **MongoDB Atlas on the hosted demo:** allow Render's addresses in Atlas Network Access, then `render-deploy.ts --with-db`. Without it, sessions live in memory.
+3. **A better Telugu voice:** accept the AI4Bharat access forms on Hugging Face; the speech pipeline switches to their models by itself.
 
 ## Skipped, and why
 

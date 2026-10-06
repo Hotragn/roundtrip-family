@@ -55,7 +55,7 @@ Route to humans. Every suggestion must be a real place or real people. The assis
 - Adult child: approves the weekly plan, reads the weekly summary and shared diary entries.
 
 ## Architecture
-- apps/web: Next.js App Router + Tailwind. /parents is installable and offline. /plan is the dashboard. / is the landing page. /design is the living style guide.
+- apps/web: Next.js App Router + Tailwind. /parents is installable and offline. /plan is the dashboard. / is the landing page. /design is the living style guide, for development only (`pnpm dev`, or a production build with STYLE_GUIDE=1; a 404 on the hosted site).
 - packages/core: shared Zod schemas, household and country data, the outbound-call registry, diary crypto.
 - agent: Mastra planner agent in TypeScript, on Gemma through an OpenAI-compatible provider pointed at Cloudflare Workers AI.
 - ranker: a small Python service using tabpfn-client.

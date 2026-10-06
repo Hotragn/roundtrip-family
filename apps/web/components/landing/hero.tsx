@@ -2,11 +2,11 @@ import Link from "next/link";
 import { Logo } from "@/components/brand/logo";
 import { Panel } from "@/components/shell/panel";
 import { cn } from "@/lib/utils";
-import { primaryButton } from "./ui";
+import { primaryButton, secondaryButton } from "./ui";
 
 /**
- * The first screen: the live sky behind, the headline on a white panel to the left, and one
- * action. On phones the panel sits low, so the sky and the coast stay in view above it.
+ * The first screen: the live sky behind, the headline on a white panel to the left, and the two
+ * ways in: the dashboard (for the adult child) and the parents' phone. On phones the panel sits low, so the sky and the coast stay in view above it.
  */
 export function Hero() {
   return (
@@ -26,9 +26,17 @@ export function Hero() {
             Roundtrip plans two or three outings a week for parents visiting from abroad: real places and real people
             who speak their language, on trips they can manage on their own.
           </p>
-          <Link href="/plan" className={cn(primaryButton, "mt-7 sm:mt-9")}>
-            See a week
-          </Link>
+          <div className="mt-7 flex flex-wrap items-center gap-3 sm:mt-9">
+            <Link href="/plan" className={primaryButton}>
+              See the week you'd plan
+            </Link>
+            <a href="/parents/fremont-demo/p_sarala" className={secondaryButton}>
+              See their phone
+            </a>
+          </div>
+          <p className="mt-4 text-[15px] text-text-muted">
+            No sign-up. Try it with a fictional family, Sarala and Venkat in Fremont.
+          </p>
         </Panel>
       </div>
     </section>

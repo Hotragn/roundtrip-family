@@ -6,7 +6,6 @@ My parents flew to the US for our graduation, and once the ceremony was over we 
 
 - **Live demo:** https://roundtrip-web.onrender.com (free Render instance: the first visit after a quiet spell takes about half a minute to wake)
 - **The tuned Telugu card writer:** https://huggingface.co/roundtrip-family/roundtrip-card-writer-te-qwen3.5-4b-lora
-- Built for the Hacktoberfest 2026 DEV Challenge, Week 1.
 
 The demo households are fictional. Sarala and Venkat, a Telugu-speaking couple from Guntur staying in Fremont, California, are a persona modeled on visits like my parents'; Kamala and Raghu in Munich show it works in any country. Their profiles, outings, ratings and diary entries are synthetic. Places, events and transit routes come from live searches.
 
@@ -66,7 +65,7 @@ Numbers and the commands behind them: [docs/numbers.md](docs/numbers.md). Models
 ## Set up in a Codespace
 
 1. Open the repo in a GitHub Codespace (Code, Codespaces, New codespace). The dev container installs Node, pnpm, Python with uv and the Temporal CLI.
-2. Add keys as Codespaces secrets, or in a local `.env`. `pnpm check-env` lists every name and says which are set, never their values. Without keys, everything replays saved answers. Optional: `AGENTMAIL_WEBHOOK_SECRET` for the email webhook, `TEMPORAL_ADDRESS` to connect the web app to Temporal.
+2. Add keys as Codespaces secrets, or in a local `.env`. `pnpm check-env` lists every name and says which are set, never their values. Without keys, everything replays saved answers. Optional: `DEMO_ALERT_EMAIL` and `AGENTMAIL_API_KEY` for email to the adult child (without them nothing is sent and everything else works), `AGENTMAIL_WEBHOOK_SECRET` for email replies, `TEMPORAL_ADDRESS` to connect the web app to Temporal.
 3. Install and test:
    ```bash
    pnpm install && pnpm test
@@ -75,10 +74,6 @@ Numbers and the commands behind them: [docs/numbers.md](docs/numbers.md). Models
 5. Optional: `pnpm seed` loads the demo households into MongoDB Atlas; `bash -l speech/codespace.sh` re-voices changed cards; the Temporal commands are in [CLAUDE.md](CLAUDE.md).
 
 Plan and design: [docs/plan.md](docs/plan.md), [docs/brand.md](docs/brand.md). Build log: [docs/progress.md](docs/progress.md), decisions: [docs/decisions.md](docs/decisions.md).
-
-## Commits after the deadline
-
-The Week 1 deadline is 11 October 2026. No commits after it so far; any will be listed here.
 
 ## License
 

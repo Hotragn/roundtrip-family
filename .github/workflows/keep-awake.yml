@@ -1,0 +1,17 @@
+name: Keep the demo awake
+
+# Render's free web services sleep after 15 idle minutes and take 30 to 60 seconds to wake, which
+# is what a first visitor would wait through. A health check every 10 minutes keeps the web
+# service up: one service running all month is about 744 of the free plan's 750 hours. The
+# ranker isn't pinged; the dashboard wakes it when the planner panel comes into view.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - run: curl -fsS --max-time 90 -o /dev/null -w "%{http_code} in %{time_total}s\n" https://roundtrip-web.onrender.com/api/health
