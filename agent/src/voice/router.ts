@@ -53,7 +53,13 @@ const MMS_CODE: Record<string, string> = {
   fr: "fra",
 };
 
-export type SpeakProvider = "indic-parler-tts" | "mms-tts" | "elevenlabs";
+/**
+ * Languages MMS-TTS has no voice for: facebook/mms-tts-cmn and facebook/mms-tts-yue don't exist
+ * (checked on Hugging Face, 6 October 2026). The phone's own voice reads these.
+ */
+const NO_MMS_VOICE: Record<string, string> = { zh: "Mandarin", yue: "Cantonese" };
+
+export type SpeakProvider = "indic-parler-tts" | "mms-tts" | "elevenlabs" | "phone";
 export interface SpeakRoute {
   provider: SpeakProvider;
   model: string;
@@ -74,6 +80,14 @@ function openVoice(lang: string): SpeakRoute {
       provider: "indic-parler-tts",
       model: "ai4bharat/indic-parler-tts",
       why: "Open model for Indian languages, run on the family's own hardware",
+    };
+  }
+  const missing = NO_MMS_VOICE[lang];
+  if (missing) {
+    return {
+      provider: "phone",
+      model: "the phone's own voice",
+      why: `No open voice for ${missing} yet (MMS has none), so the phone's own voice reads it`,
     };
   }
   const mms = MMS_CODE[lang] ?? lang;

@@ -14,6 +14,15 @@ describe("voice router", () => {
     expect(speakRoute("de", "Wo ist die Toilette?").model).toBe("facebook/mms-tts-deu");
   });
 
+  it("leaves Mandarin to the phone's own voice, since MMS has no Mandarin voice", () => {
+    const r = speakRoute("zh", "你好");
+    expect(r.provider).toBe("phone");
+    expect(r.why).toMatch(/MMS has none/);
+    expect(speakRoute("zh", "你好", { premium: true, elevenLabs: { hasKey: true, charsLeft: 5000 } }).provider).toBe(
+      "elevenlabs",
+    );
+  });
+
   it("uses ElevenLabs only with a key, within the budget, for a language it lists", () => {
     const text = "Please call my family.";
     expect(speakRoute("en", text, { premium: true }).provider).toBe("mms-tts");

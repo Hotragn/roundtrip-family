@@ -63,7 +63,12 @@ export const LANGUAGES: LanguageRecord[] = [
     direction: "ltr",
     reading: { status: "ready", provider: "Cloudflare Workers AI", model: "Gemma 4 26B A4B" },
     cardWriter: { status: "fallback", provider: "Cloudflare Workers AI", model: "Gemma 4" },
-    speaking: { status: "ready", provider: "Open model, run at home", model: "Meta MMS-TTS" },
+    // MMS-TTS has no Mandarin voice (agent/src/voice/router.ts); the phone's own voice reads it.
+    speaking: {
+      status: "unavailable",
+      provider: "The phone",
+      model: "The phone's own voice; no open Mandarin voice yet",
+    },
     listening: { status: "ready", provider: "Open model, run at home", model: "Meta MMS (mms-1b-all)" },
     elevenLabs: true,
     speechLocale: "zh-CN",
