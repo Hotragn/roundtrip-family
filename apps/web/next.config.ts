@@ -26,10 +26,11 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   // The indicator sits over the parents' bottom bar; build errors still show.
   devIndicators: false,
-  // Styles arrive inside the HTML: no render-blocking request on a slow phone connection, and
-  // the parents' page cached for offline carries its own styles.
+  // Not inlined: inlineCss put the 96 KB stylesheet into every page three times (in the HTML
+  // and twice in the page data, too far apart for gzip to share). The external file is cached
+  // once, by the browser and by the parents' service worker for offline (docs/decisions.md).
   // Docs: node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/inlineCss.md
-  experimental: { inlineCss: true },
+  experimental: { inlineCss: false },
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "**.googleusercontent.com" },

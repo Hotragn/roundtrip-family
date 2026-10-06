@@ -2,7 +2,7 @@
 
 import { ArrowLeft, WifiOff } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from "react";
 import { BottomBar } from "@/components/parents/bottom-bar";
 import type { DiarySeed } from "@/lib/diary-types";
 import {
@@ -25,12 +25,26 @@ import {
   type WeekView,
 } from "@/lib/week";
 import { ParentsContext, type ParentsState, type View } from "./context";
-import { BookView } from "./views/book";
-import { HowView, LostView } from "./views/care";
-import { DiaryView } from "./views/diary";
 import { StartView } from "./views/start";
 import { TodayView } from "./views/today";
-import { DirectionsView, DriverView, FriendView, JoinView, PracticeView } from "./views/trip";
+
+// Today ships with the page; the other screens load once the phone is idle (see the cache
+// warm-up below), so the first screen paints sooner and every screen is still cached for outings.
+const VIEW_MODULES = {
+  trip: () => import("./views/trip"),
+  care: () => import("./views/care"),
+  diary: () => import("./views/diary"),
+  book: () => import("./views/book"),
+};
+const DirectionsView = lazy(() => VIEW_MODULES.trip().then((m) => ({ default: m.DirectionsView })));
+const DriverView = lazy(() => VIEW_MODULES.trip().then((m) => ({ default: m.DriverView })));
+const PracticeView = lazy(() => VIEW_MODULES.trip().then((m) => ({ default: m.PracticeView })));
+const FriendView = lazy(() => VIEW_MODULES.trip().then((m) => ({ default: m.FriendView })));
+const JoinView = lazy(() => VIEW_MODULES.trip().then((m) => ({ default: m.JoinView })));
+const HowView = lazy(() => VIEW_MODULES.care().then((m) => ({ default: m.HowView })));
+const LostView = lazy(() => VIEW_MODULES.care().then((m) => ({ default: m.LostView })));
+const DiaryView = lazy(() => VIEW_MODULES.diary().then((m) => ({ default: m.DiaryView })));
+const BookView = lazy(() => VIEW_MODULES.book().then((m) => ({ default: m.BookView })));
 
 const VIEWS: View[] = ["today", "directions", "driver", "practice", "how", "lost", "diary", "book", "friend", "join"];
 
@@ -192,7 +206,8 @@ function ParentScreens({
   // saved recording in the week.
   useEffect(() => {
     if (!online || !("serviceWorker" in navigator)) return;
-    return whenIdle(() => {
+    return whenIdle(async () => {
+      await Promise.all(Object.values(VIEW_MODULES).map((load) => load().catch(() => null)));
       const urls = new Set<string>([window.location.pathname, "/parents", "/parents/manifest.webmanifest"]);
       if (week.household.helpCardAudio) urls.add(week.household.helpCardAudio);
       for (const e of performance.getEntriesByType("resource")) {
@@ -300,15 +315,17 @@ function ParentScreens({
         </div>
         <main data-view={view}>
           {view === "today" ? <TodayView featuredId={featured ?? outingId} onFeature={setFeatured} /> : null}
-          {view === "directions" ? <DirectionsView /> : null}
-          {view === "driver" ? <DriverView /> : null}
-          {view === "practice" ? <PracticeView /> : null}
-          {view === "how" ? <HowView /> : null}
-          {view === "lost" ? <LostView /> : null}
-          {view === "diary" ? <DiaryView /> : null}
-          {view === "book" ? <BookView /> : null}
-          {view === "friend" ? <FriendView /> : null}
-          {view === "join" ? <JoinView /> : null}
+          <Suspense fallback={null}>
+            {view === "directions" ? <DirectionsView /> : null}
+            {view === "driver" ? <DriverView /> : null}
+            {view === "practice" ? <PracticeView /> : null}
+            {view === "how" ? <HowView /> : null}
+            {view === "lost" ? <LostView /> : null}
+            {view === "diary" ? <DiaryView /> : null}
+            {view === "book" ? <BookView /> : null}
+            {view === "friend" ? <FriendView /> : null}
+            {view === "join" ? <JoinView /> : null}
+          </Suspense>
         </main>
       </div>
       <BottomBar

@@ -30,6 +30,8 @@ for (const scheme of ["light", "dark"] as const) {
   for (const who of PARENT_PAGES) {
     test(`parents' app has no WCAG AA violations: ${who.key} (${scheme})`, async ({ page }, info) => {
       test.skip(info.project.name !== "mobile", "phone screens");
+      // Ten full axe scans in one test: more than the default 90 s on a slow machine.
+      test.setTimeout(180_000);
       await page.emulateMedia({ reducedMotion: "reduce", colorScheme: scheme });
       for (const v of VIEWS) {
         await page.goto(`${who.path}${v === "today" ? "" : `?v=${v}`}`);
