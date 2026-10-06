@@ -2,7 +2,7 @@
 
 Roundtrip, built end to end from docs/plan.md between 5 and 6 October 2026. This checks each outcome in the goal against what shipped, how it was verified, and what is still open. The families are synthetic; places, events and routes come from live search. Numbers are from docs/numbers.md.
 
-**Live URL:** https://roundtrip-web.onrender.com (parents' app at /parents, dashboard at /plan, style guide at /design). The build is finished: every outcome below is built, tested and deployed. What's left is configuration only the builder can do (accounts, an email address, access forms), listed at the end.
+**Live URL:** https://roundtrip-web.onrender.com (parents' app at /parents, dashboard at /plan; the style guide at /design runs locally only). The build is finished: every outcome below is built, tested and deployed. A few optional extras need an account or an address, listed at the end.
 
 ## Outcomes
 
@@ -23,7 +23,7 @@ Roundtrip, built end to end from docs/plan.md between 5 and 6 October 2026. This
 | MongoDB Atlas | Done locally and in the Codespace; the hosted demo uses memory sessions | `pnpm seed`; agent/test/vector.atlas.test.ts (opt-in); docs/blocked.md |
 | The Germany household proves any country | Done: Munich, German phrases, 112 from the official source, U-Bahn routes | Its week, cards and clips (docs/numbers.md) |
 | GitHub Actions green | Green on main | Lint, types, 224 unit tests and evals, privacy check, build, Python tests, ranker leave-one-out, Playwright |
-| docs/numbers.md, docs/privacy-table.md, docs/progress.md, README, /design | Done | privacy check 0 violations, 33 registered call sites |
+| docs/numbers.md, docs/privacy-table.md, docs/progress.md, README, the local style guide at /design | Done | privacy check 0 violations, 33 registered call sites |
 
 ## Quality bars (docs/brand.md)
 

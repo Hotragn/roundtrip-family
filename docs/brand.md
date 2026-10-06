@@ -154,6 +154,8 @@ Each outing is a ticket: a clean card with its travel lines across the top and a
 
 ## Brand in use
 
+**The one-page board:** `brand/brand-board.html`, built from the real logo, fonts, colors and art, rendered to `brand/brand-board.png`. Change a token or a file and re-render it; it never needs redrawing.
+
 - **App icon and splash screen:** the refined family loop on an ink tile; the splash fades to the Today ticket.
 - **Social card:** a still of the landing sky, with the logo and headline on a white panel.
 - **AgentMail emails:** the logo, plain text, one marigold button, and no images that need loading to make sense.

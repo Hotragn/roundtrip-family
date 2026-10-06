@@ -17,7 +17,7 @@ Route to humans. Every suggestion is a real place or real people, and the assist
 
 - **Parents' app** (`/parents`): installable and offline. The day's ticket with a stub to tear, directions that say when to press stop, a card to show the driver, phrases to practise with Telugu-script pronunciation, "I'm lost", "How was it?", a private diary and a memory book. Every card and phrase is read aloud by an open voice and cached for outings.
 - **Dashboard** (`/plan`): the adult child's week board with ranked suggestions, reason chips, fallback-ladder levels, route maps, approve and swap, their week, what they shared, people and places, privacy, safety and languages, plus "Plan the coming week", live.
-- **Landing** (`/`) and the living style guide (`/design`).
+- **Landing** (`/`). The living style guide (`/design`) runs only with `pnpm dev`, not on the live site.
 
 ## How it works
 
