@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256565191",
+  "object": "chat.completion",
+  "created": 1791256565,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A follows the instruction to keep venue names in English letters, whereas Card B transliterates them into Telugu. Card A also has more natural sentence structures.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 509,
+   "completion_tokens": 44,
+   "total_tokens": 553,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.66363525390625
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:05.262Z",
+ "latencyMs": 1096
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255334756",
+  "object": "chat.completion",
+  "created": 1791255334,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and concise. Card B uses 'క్లైంబింగ్ వాల్' which is an English transliteration, whereas Card A uses 'ఎక్కే గోడ' which fits the instruction to use no other English words besides the venue/names provided.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 542,
+   "completion_tokens": 67,
+   "total_tokens": 609,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "neurons": 5.009089469909668
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:34.781Z",
+ "latencyMs": 1954
+}

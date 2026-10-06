@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256640087",
+  "object": "chat.completion",
+  "created": 1791256640,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more natural and flows better. Card A's sentence 'అక్కడ వృద్ధుల కోసం ప్రత్యేక కేంద్రం ఉంది' sounds a bit clinical/stiff, whereas Card B's 'పెద్దల కోసం ఏర్పాటు చేసిన కేంద్రం' feels warmer and more respectful in a coastal Andhra context.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 488,
+   "completion_tokens": 73,
+   "total_tokens": 561,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.263635158538818
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:20.150Z",
+ "latencyMs": 2177
+}

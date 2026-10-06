@@ -117,6 +117,16 @@ export const OUTBOUND: OutboundRoute[] = [
     docs: "https://tinker-docs.thinkingmachines.ai/tinker/quickstart/",
   },
   {
+    id: "tinker.checkpoints",
+    service: "Tinker checkpoint downloads (Google Cloud Storage)",
+    hosts: ["storage.googleapis.com"],
+    purpose: "Downloading the trained card-writer adapter through a signed link, to publish it on Hugging Face",
+    sends: "The download request only",
+    accepts: ["synthetic"],
+    when: "build",
+    docs: "https://tinker-docs.thinkingmachines.ai/tinker/howto/checkpoints/",
+  },
+  {
     id: "elevenlabs.tts",
     service: "ElevenLabs (optional)",
     hosts: ["api.elevenlabs.io"],

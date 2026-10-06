@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A says 'బయలుదేరి' without clarifying when to leave is the start time, omits the 6-minute walk to Neuperlach Zentrum, and uses 'చూడొచ్చు' (can see) which misrepresents the active participation of games. Card B correctly implies going to play games and enjoy coffee/cake together, captures the social enjoyment better, and while it also omits the walk duration, it flows more naturally as a complete invitation with a clear reason to enjoy it.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:31.799Z",
+ "latencyMs": 3193
+}

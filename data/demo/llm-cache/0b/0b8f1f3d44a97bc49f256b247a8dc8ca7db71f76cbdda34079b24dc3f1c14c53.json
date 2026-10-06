@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255840780",
+  "object": "chat.completion",
+  "created": 1791255840,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"body\":\"అమ్మా, ఆదివారం 12:15కి Drinking Horse Mountain National Recreation Trail కి వెళ్దాం. కారులో కలిసి వెళ్తాము. అక్కడ అందమైన ప్రకృతి దృశ్యాలు చూడవచ్చు. 13:59కి మీరు ఇంటికి వచ్చేయొచ్చు.\" , \"title\": \"Drinking Horse Mountain National Recreation Trail కి\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1090,
+   "completion_tokens": 77,
+   "total_tokens": 1167,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "neurons": 7.936359405517578
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:04:00.814Z",
+ "latencyMs": 2503
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255341504",
+  "object": "chat.completion",
+  "created": 1791255341,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B follows the instructions better by including the reason they'd enjoy it (peacefulness) and uses more natural, respectful Telugu flow. Card A uses 'Hindu temple' in English which was not requested as a replacement for the venue name, and Card B's instructions on stops are clearer.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 637,
+   "completion_tokens": 72,
+   "total_tokens": 709,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.590908050537109
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:41.527Z",
+ "latencyMs": 1748
+}

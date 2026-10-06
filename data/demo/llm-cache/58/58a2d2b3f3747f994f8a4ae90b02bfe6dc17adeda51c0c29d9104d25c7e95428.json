@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256626364",
+  "object": "chat.completion",
+  "created": 1791256626,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is better because it includes the walking durations mentioned in the details (5 minutes), making the directions more complete. Card A omits the walking steps, whereas Card B flows more naturally as a set of instructions.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 736,
+   "completion_tokens": 56,
+   "total_tokens": 792,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 7.054543972015381
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:06.431Z",
+ "latencyMs": 1240
+}

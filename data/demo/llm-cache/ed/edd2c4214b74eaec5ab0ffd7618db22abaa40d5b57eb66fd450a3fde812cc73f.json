@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256637595",
+  "object": "chat.completion",
+  "created": 1791256637,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B flows more naturally in Telugu. Card A's instruction '15 నిమిషాలు నడవండి' (You walk 15 minutes) sounds like a command or a physical instruction, whereas Card B's '15 నిమిషాల నడక తర్వాత' (After a 15 minute walk) is a much smoother way to describe the trip details.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 504,
+   "completion_tokens": 90,
+   "total_tokens": 594,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.8727264404296875
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:17.659Z",
+ "latencyMs": 2020
+}

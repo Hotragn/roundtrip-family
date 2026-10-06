@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Fremont Bay St Farmer's Market కి\", \"body\": \"నాన్నగారు, సోమవారం 13:30న Fremont Bay St Farmer's Market కి వెళ్దాం. Fremont Blvd & Mowry Av వద్ద Bus 210 ఎక్కి, 5 స్టాప్ల తర్వాత Fremont Blvd & Grimmer Blvd వద్ద దిగి, Grimmer Blvd & Davis St వద్ద Bus 239 ఎక్కి, 3 స్టాప్ల తర్వాత Paseo Padre Pkwy & Senior Center వద్ద దిగి, 9 నిమిషాలు వేచి, 15:29న ఇంటికి వచ్చేయాలి. అక్కడ నుండి 15:29న ఇంటికి వచ్చేయాలి.\"}",
+ "provider": "tinker",
+ "model": "Qwen/Qwen3.5-4B",
+ "createdAt": "2026-10-06T03:02:06.354Z",
+ "latencyMs": 1561
+}

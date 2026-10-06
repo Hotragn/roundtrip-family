@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255326300",
+  "object": "chat.completion",
+  "created": 1791255326,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and grammatically correct. Card B has spelling errors ('సరసుగా' instead of 'సరస్సు చుట్టూ') and feels fragmented/stilted.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 526,
+   "completion_tokens": 49,
+   "total_tokens": 575,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.1181817054748535
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:26.326Z",
+ "latencyMs": 1222
+}

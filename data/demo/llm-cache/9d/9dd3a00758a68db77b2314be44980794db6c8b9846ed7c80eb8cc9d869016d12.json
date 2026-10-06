@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256589308",
+  "object": "chat.completion",
+  "created": 1791256589,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and respectful. Card B uses 'వాళ్కే' which is grammatically awkward in this context, and 'వచ్చు' is too blunt/informal for an elder. Card A's suggestion to sit peacefully is a better reason for the outing.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 487,
+   "completion_tokens": 69,
+   "total_tokens": 556,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.145453453063965
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:29.367Z",
+ "latencyMs": 1962
+}

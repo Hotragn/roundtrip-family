@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B uses imperative నడవండి (you walk) which is stiff/commanding to an elder, while A uses natural infinitive వెళ్ళవచ్చు (we can go); A also gives the concrete reason 'పార్కులో కాసేపు హాయిగా ఉండొచ్చు' matching the park detail, whereas B's 'ప్రశాంతంగా కూర్చోవచ్చు' is vaguer and slightly less warm\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:21:12.649Z",
+ "latencyMs": 9458
+}

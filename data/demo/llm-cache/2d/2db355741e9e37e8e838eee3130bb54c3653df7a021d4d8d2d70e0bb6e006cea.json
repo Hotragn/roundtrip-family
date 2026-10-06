@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255378811",
+  "object": "chat.completion",
+  "created": 1791255378,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is better because it includes the walking duration mentioned in the details, making the instructions more complete, and the phrasing 'భక్తితో స్వామిని దర్శించుకోవచ్చు' feels more natural and warm for a temple visit.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 676,
+   "completion_tokens": 58,
+   "total_tokens": 734,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.563635349273682
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:18.834Z",
+ "latencyMs": 1954
+}

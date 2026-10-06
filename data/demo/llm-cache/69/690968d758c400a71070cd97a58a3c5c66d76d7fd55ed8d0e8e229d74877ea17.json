@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256622290",
+  "object": "chat.completion",
+  "created": 1791256622,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more precise with the walking times and follows the instructions better by including the specific details provided in the prompt without being overly brief.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 634,
+   "completion_tokens": 40,
+   "total_tokens": 674,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.690907955169678
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:02.352Z",
+ "latencyMs": 1005
+}

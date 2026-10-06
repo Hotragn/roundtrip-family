@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Sunol Corners వాడగ\", \"body\": \"అమ్మా, సోమవారం 14:30కి Sunol Corners వాడగ కి వెళ్దాం. ఇంటి నుండి 5 నిమిషాలు వాడగ కి వచ్చేయొచ్చు. అక్కడ ఫ్రెష్ ప్రిజుడ్ కొనవచ్చు. 15:13కి ఇంటికి వచ్చేయొచ్చు.\", \"phrases\": [], \"safety_tip\": null}",
+ "provider": "tinker",
+ "model": "Qwen/Qwen3.5-4B",
+ "createdAt": "2026-10-06T03:02:10.673Z",
+ "latencyMs": 1463
+}

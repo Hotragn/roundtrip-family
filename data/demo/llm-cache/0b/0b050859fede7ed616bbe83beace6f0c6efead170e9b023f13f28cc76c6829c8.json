@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255841731",
+  "object": "chat.completion",
+  "created": 1791255841,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"body\":\"అమ్మా, శనివారం 09:30కి Area IV Agency On Aging కి వెళ్దాం. మనం కారులో వెళ్తాము. అక్కడ వృద్ధుల కోసం ప్రత్యేక కేంద్రం ఉంది, మీకు నచ్చుతుంది. 10:40కి ఇంటికి వచ్చేయొచ్చు.\" , \"title\": \"Area IV Agency On Aging కి\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1097,
+   "completion_tokens": 80,
+   "total_tokens": 1177,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "neurons": 8.08181381225586
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:04:01.762Z",
+ "latencyMs": 1855
+}

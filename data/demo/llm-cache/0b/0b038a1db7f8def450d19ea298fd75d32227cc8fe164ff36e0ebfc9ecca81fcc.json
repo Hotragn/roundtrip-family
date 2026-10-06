@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Story Mill Community Park కి\", \"body\": \"అమ్మా, శుక్రవారం 08:15కి Story Mill Community Park కి వెళ్దాం. అక్కడికి 10 నిమిషాలు నడవండి. అక్కడ ప్రశాంతంగా కూర్చోవచ్చు. 10:02కి ఇంటికి వచ్చేయొచ్చు.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:14:24.758Z",
+ "latencyMs": 1368
+}

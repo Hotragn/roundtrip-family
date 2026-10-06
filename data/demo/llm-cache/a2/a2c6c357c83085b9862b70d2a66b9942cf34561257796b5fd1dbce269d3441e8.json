@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791255815313",
+  "object": "chat.completion",
+  "created": 1791255815,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\n  \"body\": \"నాన్నగారు, ఆదివారం 09:00కి Münchner Stadtbibliothek Hadern కి వెళ్దాం. మేము కారులో కలిసి వెళ్తాము. అక్కడ మంచి పుస్తకాలు చదువుకోవచ్చు. 10:43కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Münchner Stadtbibliothek Hadern కి\"\n}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 994,
+   "completion_tokens": 85,
+   "total_tokens": 1079,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 11.354545593261719
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:35.349Z",
+ "latencyMs": 2381
+}

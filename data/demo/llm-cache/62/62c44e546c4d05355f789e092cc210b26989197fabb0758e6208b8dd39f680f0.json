@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256579273",
+  "object": "chat.completion",
+  "created": 1791256579,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is much more natural and follows the instructions better. Card B's phrasing 'వాణిజ్యం ఉంటుంది' (there will be commerce) sounds very stiff and unnatural in Telugu, whereas Card A's 'సందడిగా ఉండే Bauernmarkt' (bustling Bauernmarkt) sounds like a warm suggestion. Card A also correctly includes the walking instruction to the first stop.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 643,
+   "completion_tokens": 88,
+   "total_tokens": 731,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 7.081817150115967
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:19.330Z",
+ "latencyMs": 1652
+}

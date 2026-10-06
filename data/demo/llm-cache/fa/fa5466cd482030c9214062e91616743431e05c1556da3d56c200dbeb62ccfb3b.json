@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A says '12 నిమిషాలు నడిస్తే' but the walk is 12 minutes, not stated as 'you walk' clearly; more critically, Card A omits the initial 3-minute walk entirely, making the trip instructions incomplete. Card B includes the 3-minute walk to the bus stop, has better flow with 'బయలుదేరి', and 'పుస్తకాలు చదువుకోవచ్చు' is a more natural reason for a library visit than 'చూడవచ్చు'. Both use respectful forms and correct names, but B",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:27.670Z",
+ "latencyMs": 4562
+}

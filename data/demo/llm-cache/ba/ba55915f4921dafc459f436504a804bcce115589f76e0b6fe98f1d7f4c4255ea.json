@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card A uses 'ఇంటి నుంచి' (from home) which clearly indicates where to leave from, while Card B omits this. Card A says 'నడిచి అక్కడికి చేరుకోండి' giving clear direction to walk there, while Card B's 'చేరుకోవచ్చు' is less direct. Card A's 'అందమైన కొండల మధ్య నడవడానికి మార్గాలు ఉన్నాయి' gives one concrete reason (trails among beautiful hills) supported",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:47.938Z",
+ "latencyMs": 4086
+}

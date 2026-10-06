@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255386309",
+  "object": "chat.completion",
+  "created": 1791255386,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more natural and concise. Card A uses 'పాదయాత్ర' (pilgrimage/long march) which is an odd and heavy word for an 11-minute walk, and it has a character encoding error (నిమి�ాల).\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 543,
+   "completion_tokens": 65,
+   "total_tokens": 608,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "neurons": 4.963634490966797
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:26.339Z",
+ "latencyMs": 1544
+}

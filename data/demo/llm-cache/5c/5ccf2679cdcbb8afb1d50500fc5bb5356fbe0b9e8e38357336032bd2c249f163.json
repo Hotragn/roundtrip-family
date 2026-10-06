@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255372250",
+  "object": "chat.completion",
+  "created": 1791255372,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A follows the instruction to use no other English words, whereas Card B uses the English word 'books'. Card A also feels more natural and respectful.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 509,
+   "completion_tokens": 43,
+   "total_tokens": 552,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 5.799999713897705
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:12.278Z",
+ "latencyMs": 1527
+}

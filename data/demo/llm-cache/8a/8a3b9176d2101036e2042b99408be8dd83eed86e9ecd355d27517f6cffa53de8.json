@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256587263",
+  "object": "chat.completion",
+  "created": 1791256587,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is much more natural. Card A attempts to transliterate German words like 'Karten' and 'Kuchen' into Telugu script, which sounds very strange and unnatural. Card B uses better flow and follows the instructions more effectively.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 626,
+   "completion_tokens": 60,
+   "total_tokens": 686,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.16363525390625
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:27.322Z",
+ "latencyMs": 1371
+}

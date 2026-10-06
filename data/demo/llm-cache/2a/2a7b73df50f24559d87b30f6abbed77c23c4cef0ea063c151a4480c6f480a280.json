@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256489142",
+  "object": "chat.completion",
+  "created": 1791256489,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"factsOk\": false, \"problem\": \"incorrect walking direction/instruction at the stop\", \"tone\": 4}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 588,
+   "completion_tokens": 26,
+   "total_tokens": 614,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.054544925689697
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:14:49.207Z",
+ "latencyMs": 992
+}

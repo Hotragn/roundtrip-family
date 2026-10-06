@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256601449",
+  "object": "chat.completion",
+  "created": 1791256601,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more concise and follows the instruction to avoid extra English words like 'స్టాపుల' (stops) or 'నిమిషాల' (minutes) if they aren't necessary, though both are close. However, Card A's flow is more natural for a daughter speaking to a mother, and it avoids the slightly awkward phrasing in Card B regarding the walking time.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 636,
+   "completion_tokens": 91,
+   "total_tokens": 727,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 7.099998474121094
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:41.508Z",
+ "latencyMs": 2007
+}

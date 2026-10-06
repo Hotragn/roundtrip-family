@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791255323408",
+  "object": "chat.completion",
+  "created": 1791255323,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and warm. Card B's sentence about the volunteer 'supervising' (పర్యవేక్షిస్తాడు) sounds a bit stiff and clinical, whereas Card A's phrasing about walking with a guide is more inviting.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 555,
+   "completion_tokens": 63,
+   "total_tokens": 618,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.763636589050293
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:23.435Z",
+ "latencyMs": 1947
+}

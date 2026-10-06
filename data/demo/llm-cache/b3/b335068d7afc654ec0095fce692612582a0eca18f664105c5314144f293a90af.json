@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Kaschmir Basar AfroShop కి\", \"body\": \"నాన్నగారు, సోమవారం 12:30కి Kaschmir Basar AfroShop కి వెళ్దాం. Neuperlach Zentrum వరకు నడిచి, Bus 139 ఎక్కండి. 9 స్టాపుల తర్వాత Trudering దిగి, Bus 193 మారి 7 స్టాపులకు Bahnstraße దిగండి. అక్కడ మంచి కూరగాయలు కొనవచ్చు. 14:22కి ఇంటికి వచ్చేయొచ్చు. బ్యాంకు వివరాలు ఎవరికీ ఇవ్వకండి, అపరిచితులకు డబ్బు చెల్లించకండి.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:14:17.741Z",
+ "latencyMs": 6723
+}

@@ -1,0 +1,7 @@
+{
+ "body": "```json\n{\"better\": \"A\", \"reason\": \"Card B says 'సరంజామా కొనవచ్చు' (can buy supplies/things), which invents shopping/purchasing not supported by the outing details—only a produce market is mentioned, not that they will buy anything. Card A correctly says 'తాజా కూరగాయలు మీరు చూడవచ్చు' (you can see fresh vegetables), which matches the produce market. Also Card B's 'అక్కడికి 5 నిమిషాలు నడవండి' uses imperative 'నడవండి' (you walk) rather than natural descriptive '5 నిమిషాల నడకతో చేరుకోవచ్చు' (can reach by 5-minute walk) as in A.\"}\n```",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:20:37.250Z",
+ "latencyMs": 5166
+}

@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A says 'అందమైన ప్రకృతి దృశ్యాలు' (beautiful nature views) which is not supported by the outing details—the only thing specified is 'Tourist attraction,' not nature views. Card B says 'ప్రశాంతంగా నడవొచ్చు' (can walk peacefully), which is a reasonable inference from a recreation trail and tourist attraction. Also, Card A uses 'మీరు ఇంటికి వచ్చేయొచ్చు' suggesting mother returns alone, while 'కలిసి వె�",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:46.413Z",
+ "latencyMs": 4463
+}

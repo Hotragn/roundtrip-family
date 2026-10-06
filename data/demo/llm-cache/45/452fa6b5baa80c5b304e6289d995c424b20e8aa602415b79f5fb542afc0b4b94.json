@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A incorrectly says 'Bus 200 ఎక్కండి' at Mowry Av & Fremont Blvd without mentioning the 1-minute walk first, making it sound like the stop is right there. Card B correctly says 'వరకు నడిచి' (walk to) before boarding. Card A also uses 'అందరితో కలిసి' (with everyone) which slightly exaggerates the 'small, friendly group' detail, while Card B's 'స్వచ్ఛందంగా' (freely/voluntarily) is a reasonable interpretation of 'practice'. Both are warm and natural,",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:55.931Z",
+ "latencyMs": 3893
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256637863",
+  "object": "chat.completion",
+  "created": 1791256637,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is warmer and more natural. Card B's instruction '11 నిమిషాలు నడవండి' (walk for 11 minutes) sounds like a command, whereas Card A's '11 నిమిషాల నడకతో చేరుకోవచ్చు' (can reach with an 11-minute walk) is much more polite and conversational for a daughter talking to her mother.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 500,
+   "completion_tokens": 95,
+   "total_tokens": 595,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.972725868225098
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:17.969Z",
+ "latencyMs": 2072
+}

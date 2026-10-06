@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256595113",
+  "object": "chat.completion",
+  "created": 1791256595,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is better because it uses the information provided (Park) to give a reason for the outing (peacefulness), whereas Card B invents a reason (reading books) that wasn't in the details. Card A also feels more natural.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 481,
+   "completion_tokens": 62,
+   "total_tokens": 543,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.899998664855957
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:35.177Z",
+ "latencyMs": 1435
+}

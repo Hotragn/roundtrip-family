@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255341412",
+  "object": "chat.completion",
+  "created": 1791255341,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A provides the specific number of stops for each bus as mentioned in the details, making it more helpful for navigation, whereas Card B omits them. Card A also follows the instruction to give a reason they'd enjoy it (peacefulness).\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 637,
+   "completion_tokens": 62,
+   "total_tokens": 699,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.318180561065674
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:41.435Z",
+ "latencyMs": 1656
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256513464",
+  "object": "chat.completion",
+  "created": 1791256513,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"factsOk\": false, \"problem\": \"incorrectly says 'you all' (మీరూ) instead of 'we' (మనం)\" , \"tone\": 3}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 501,
+   "completion_tokens": 38,
+   "total_tokens": 539,
+   "prompt_tokens_details": {
+    "cached_tokens": 320
+   },
+   "neurons": 4.136362075805664
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:15:13.524Z",
+ "latencyMs": 1079
+}

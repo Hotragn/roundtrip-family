@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"A uses natural coastal Andhra 'కలిసి కారులో వెళ్దాం' (let's go together by car) while B splits it awkwardly as 'వెళ్దాం' then 'మనం కారులో వెళ్తాము'; A's 'పెద్దల కోసం' is warmer than B's formal 'వృద్ధుల కోసం ప్రత్యేక'; both keep names exact and use no other English, but A flows more naturally like a neighbor's daughter speaking\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:45.823Z",
+ "latencyMs": 3874
+}

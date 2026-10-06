@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791255381988",
+  "object": "chat.completion",
+  "created": 1791255381,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more concise and follows the instruction to give one reason they'd enjoy it ('మీకు చాలా నచ్చుతుంది') without cluttering the text with a literal translation of every single feature like Card A does. Card A feels a bit like a list of items rather than a warm invitation.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 548,
+   "completion_tokens": 72,
+   "total_tokens": 620,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.9454545974731445
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:22.021Z",
+ "latencyMs": 1178
+}

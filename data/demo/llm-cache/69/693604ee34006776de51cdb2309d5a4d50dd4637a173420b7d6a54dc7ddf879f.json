@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B uses English word 'Library' (as 'లైబ్రరీ') instead of Telugu 'గ్రంథాలయం' or similar; Card A also uses 'లైబ్రరీ' - wait, let me recheck. Both use 'లైబ్రరీ'. Rechecking: Card A says 'లైబ్రరీ చేరండి', Card B says 'లైబ్రరీ చేరుకుంటారు'. Both use English-origin word. But Card B has 'దగ్గర దిగండి' and 'దగ్గర దిగి' which is less precise than Card A's direct 'దిగండి'. Card A's 'బయలుదేరి' clearly marks departure, while Card B jumps straight to time without 'leave'. Card A is clearer on when to leave. Also Card B's 'పుస్తకాలు చూడవచ్చు' (can see books) is weaker than 'చదవొచ్చు' (can read). Card A better follows instruction to say clearly when to leave and gives better reason to enjoy.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:21:03.186Z",
+ "latencyMs": 15500
+}

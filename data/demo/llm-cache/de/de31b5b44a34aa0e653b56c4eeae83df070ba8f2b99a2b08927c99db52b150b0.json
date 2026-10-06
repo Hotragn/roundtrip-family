@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256581487",
+  "object": "chat.completion",
+  "created": 1791256581,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card B contains a nonsensical phrase 'వేళ్లతో వెళ్లాలి' (must go with fingers) which is likely a mistranslation of 'walk', whereas Card A uses 'నడవండి' (walk) correctly.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 515,
+   "completion_tokens": 58,
+   "total_tokens": 573,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.099998950958252
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:21.551Z",
+ "latencyMs": 1582
+}

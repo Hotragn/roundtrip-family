@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256629552",
+  "object": "chat.completion",
+  "created": 1791256629,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more natural and warm. Card A uses 'వెళ్ళండి' (go) which sounds a bit like an instruction or command, whereas Card B's description of the market being 'సందడిగా' (lively/bustling) provides a better reason for the outing without being overly flowery.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 492,
+   "completion_tokens": 76,
+   "total_tokens": 568,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.381816864013672
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:09.614Z",
+ "latencyMs": 1664
+}

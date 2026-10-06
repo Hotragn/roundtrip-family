@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card A clearly states the 8-minute walk duration to Neuperlach Zentrum, which Card B omits; Card A also gives one clear reason (programs for newcomers) rather than listing two groups, staying closer to the 'one reason' guideline\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:07.643Z",
+ "latencyMs": 2716
+}

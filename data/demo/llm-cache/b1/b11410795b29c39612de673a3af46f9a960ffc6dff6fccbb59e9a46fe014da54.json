@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256496052",
+  "object": "chat.completion",
+  "created": 1791256496,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"factsOk\": false, \"problem\": \"wrong verb tense for arrival\", \"tone\": 3}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 658,
+   "completion_tokens": 23,
+   "total_tokens": 681,
+   "prompt_tokens_details": {
+    "cached_tokens": 320
+   },
+   "neurons": 5.154543876647949
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:14:56.114Z",
+ "latencyMs": 755
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255383851",
+  "object": "chat.completion",
+  "created": 1791255383,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is better because it includes the 2-minute walk detail which was in the prompt, whereas Card A missed it. Both follow the other constraints well.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 711,
+   "completion_tokens": 45,
+   "total_tokens": 756,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.527271270751953
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:23.874Z",
+ "latencyMs": 1194
+}

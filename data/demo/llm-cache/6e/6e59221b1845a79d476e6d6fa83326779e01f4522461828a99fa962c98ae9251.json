@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791255771851",
+  "object": "chat.completion",
+  "created": 1791255771,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\n  \"body\": \"అమ్మా, గురువారం 09:00కి Trinethra Indian Super Markets కి వెళ్దాం. Fremont Blvd & Mowry Av దగ్గర Bus 210 ఎక్కి, Fremont Blvd & Grimmer Blvd దగ్గర దిగండి. అక్కడి నుండి Grimmer Blvd & Davis St కి వెళ్లి, Bus 239 ఎక్కి Paseo Padre Pkwy & Senior Center దగ్గర దిగండి. మీకు నచ్చిన భారతీయ వస్తువులు అక్కడ దొరుకుతాయి. 10:57కి ఇంటికి వచ్చేయొచ్చు. ఎవరికీ మీ బ్యాంక్ వివరాలు చెప్పకండి, ఎవరికీ డబ్బులు చెల్లించకండి.\",\n  \"title\": \"Trinethra Indian Super Markets కి\"\n}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1151,
+   "completion_tokens": 166,
+   "total_tokens": 1317,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 14.990909576416016
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:02:51.883Z",
+ "latencyMs": 3259
+}

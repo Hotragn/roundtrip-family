@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791255379916",
+  "object": "chat.completion",
+  "created": 1791255379,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and warm. Card B's phrase 'నడక వేసుకోవచ్చు' is slightly awkward compared to Card A's 'నడవొచ్చు'. Card A also uses 'వచ్చేయొచ్చు' which sounds more like a friendly suggestion/invitation.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 470,
+   "completion_tokens": 70,
+   "total_tokens": 540,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.181818008422852
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:19.947Z",
+ "latencyMs": 851
+}

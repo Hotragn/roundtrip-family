@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Münchner Stadtbibliothek Ramersdorf కి\", \"body\": \"అమ్మా, మంగళవారం 09:45కి Münchner Stadtbibliothek Ramersdorf కి వెళ్దాం. Neuperlach Zentrum వరకు నడిచి, అక్కడ U5 ఎక్కండి. 3 స్టాపుల తర్వాత Innsbrucker Ring దిగి, 9 నిమిషాలు నడిచి చేరుకోండి. అక్కడ పుస్తకాలు చదువుకోవచ్చు. 11:34కి ఇంటికి వచ్చేయొచ్చు. బ్యాంకు వివరాలు ఎవరికీ ఇవ్వకండి, అపరిచితులకు డబ్బు చెల్లించకండి.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:40:14.390Z",
+ "latencyMs": 6522
+}

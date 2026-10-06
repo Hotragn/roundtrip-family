@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B uses English words 'బ్యాంక్' and 'డబ్బులు' (bank and money are English loanwords in Telugu script, but more critically, 'బ్యాంక్' is an English word in Telugu script), and 'బ్యాంక్' is clearly an English loanword. Also Card B's 'ఎవరికీ...ఎవరికీ' repetition is awkward, and 'చాలా స్వాగతం పలుకుతారు' adds unnecessary flourish not in the details. Card A is cleaner, more natural, and follows constraints better.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:50.535Z",
+ "latencyMs": 4114
+}

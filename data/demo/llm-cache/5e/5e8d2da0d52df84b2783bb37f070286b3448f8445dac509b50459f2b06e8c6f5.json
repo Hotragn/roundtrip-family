@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255384501",
+  "object": "chat.completion",
+  "created": 1791255384,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and follows the instruction to say clearly when to leave and how to get there. Card B's phrasing 'వెళ్దాం' (let's go) implies the writer is going, whereas Card A's instruction 'బయలుదేరండి' (please leave) is a clearer direction for the parent's outing.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 505,
+   "completion_tokens": 85,
+   "total_tokens": 590,
+   "prompt_tokens_details": {
+    "cached_tokens": 320
+   },
+   "neurons": 5.4545440673828125
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:24.530Z",
+ "latencyMs": 1851
+}

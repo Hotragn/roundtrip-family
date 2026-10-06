@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255331834",
+  "object": "chat.completion",
+  "created": 1791255331,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is warmer and provides a reason for the outing (walking in fresh air), whereas Card A is a bit blunt. Both follow all other constraints perfectly.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 465,
+   "completion_tokens": 44,
+   "total_tokens": 509,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.263635158538818
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:31.855Z",
+ "latencyMs": 1228
+}

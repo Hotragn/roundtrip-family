@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256640226",
+  "object": "chat.completion",
+  "created": 1791256640,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and flows better. Card B's sentence structure 'కారులో కలిసి వెళ్తాము' followed by 'మీరు ఇంటికి వచ్చేయొచ్చు' feels slightly disjointed compared to Card A's cohesive way of describing the trip and the return.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 481,
+   "completion_tokens": 69,
+   "total_tokens": 550,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.090908050537109
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:20.288Z",
+ "latencyMs": 2054
+}

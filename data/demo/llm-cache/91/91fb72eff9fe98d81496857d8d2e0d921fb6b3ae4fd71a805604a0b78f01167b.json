@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A uses English word 'stop' in '1 స్టాప్‌లో' instead of Telugu; Card B uses 'స్టాపుల' which is Telugu. Also Card A says 'ఎక్కండి' (you board) which is slightly stiff/imperative, while Card B's 'ఎక్కి...దిగండి' flows better as natural speech. Card B also better captures the 'Lebensmittelhändler' as 'భారతీయ వస్తువులు' (Indian items) which is a reasonable interpretation, while Card A's 'కూరగా�",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:08.520Z",
+ "latencyMs": 3597
+}

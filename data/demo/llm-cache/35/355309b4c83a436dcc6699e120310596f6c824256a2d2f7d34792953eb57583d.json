@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"A uses natural coastal Andhra speech (కలిసి కారులో వెళ్దాం, ఇండియన్ సామాను) and flows like a neighbor's daughter talking to an elder; B is stiffer with మీకు కావాల్సిన భారతీయ వస్తువులు and splits the car trip into a separate sentence unnaturally\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:27.608Z",
+ "latencyMs": 3538
+}

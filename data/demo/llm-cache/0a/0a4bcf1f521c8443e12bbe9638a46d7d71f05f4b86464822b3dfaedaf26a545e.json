@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255388081",
+  "object": "chat.completion",
+  "created": 1791255388,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more natural and flows better. Card A is a bit robotic. Card B also includes a reason to enjoy the outing (peace/prayer) which makes it warmer, while still adhering to all constraints.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 642,
+   "completion_tokens": 55,
+   "total_tokens": 697,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "neurons": 5.009088516235352
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:28.105Z",
+ "latencyMs": 1608
+}

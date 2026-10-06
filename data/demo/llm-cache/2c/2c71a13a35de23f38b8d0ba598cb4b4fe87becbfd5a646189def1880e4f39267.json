@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791255338046",
+  "object": "chat.completion",
+  "created": 1791255338,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is slightly more natural and flows better in Telugu. Card B's phrasing 'నడవాల్సి ఉంటుంది' sounds a bit more like a requirement or obligation, whereas Card A's 'చేరుకోవచ్చు' is warmer.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 505,
+   "completion_tokens": 59,
+   "total_tokens": 564,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.199999809265137
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:38.073Z",
+ "latencyMs": 894
+}

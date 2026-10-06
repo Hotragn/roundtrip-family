@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255372879",
+  "object": "chat.completion",
+  "created": 1791255372,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is slightly better because it includes the specific instruction to get off at the stop, whereas Card B is a bit more clipped. Both follow all constraints, but A feels more like a complete instruction.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 577,
+   "completion_tokens": 53,
+   "total_tokens": 630,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.527271270751953
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:12.904Z",
+ "latencyMs": 1896
+}

@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B uses English words 'స్టాపుల' (stops) twice, violating the no-other-English-words rule; Card A uses only Telugu 'నిమిషాలు' for time. Card A also better captures the warm neighbor's-daughter tone with 'సరసరసగా కొనుక్కోవచ్చు' as the enjoyment reason, while Card B's 'తాజా కూరగాయలు చూడవచ్చు' is less natural and slightly stiff. Card A also correctly includes the 7-minute walk between buses that Card B omits, making the",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:38.990Z",
+ "latencyMs": 3289
+}

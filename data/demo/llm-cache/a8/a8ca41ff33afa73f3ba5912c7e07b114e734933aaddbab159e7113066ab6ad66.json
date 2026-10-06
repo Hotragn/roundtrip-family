@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Age Well Center at South Fremont కి\", \"body\": \"అమ్మా, బుధవారం 08:00కి Age Well Center at South Fremont కి వెళ్దాం. అక్కడికి 13 నిమిషాలు నడవండి. అక్కడ పెద్దలందరూ కలిసి సరదాగా ఉంటారు. 10:05కి ఇంటికి వచ్చేయొచ్చు.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:13:46.812Z",
+ "latencyMs": 1410
+}

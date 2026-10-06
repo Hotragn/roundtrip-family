@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255378340",
+  "object": "chat.completion",
+  "created": 1791255378,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is slightly warmer and more natural. Card B is a bit too blunt/clipped, whereas Card A's phrasing 'ప్రశాంతంగా కూర్చోవచ్చు' (can sit peacefully) feels more like a thoughtful suggestion for an elder.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 498,
+   "completion_tokens": 62,
+   "total_tokens": 560,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.054544448852539
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:18.367Z",
+ "latencyMs": 1487
+}

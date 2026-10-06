@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255338715",
+  "object": "chat.completion",
+  "created": 1791255338,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and flows better. Card B's phrasing 'నడకన Gentle morning walk on the trail చేరండి' is awkward and grammatically stiff.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 533,
+   "completion_tokens": 48,
+   "total_tokens": 581,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.154544830322266
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:38.740Z",
+ "latencyMs": 1820
+}

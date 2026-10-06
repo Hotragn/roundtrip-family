@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256624252",
+  "object": "chat.completion",
+  "created": 1791256624,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"B\", \"reason\": \"Card B includes the 14-minute walk detail which is part of the trip instructions, and its reason for the outing (fresh goods) is more natural than Card A's 'bustling' description. Both follow the constraints well, but B is more complete.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 652,
+   "completion_tokens": 67,
+   "total_tokens": 719,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 7.754545211791992
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:04.322Z",
+ "latencyMs": 1356
+}

@@ -1,0 +1,7 @@
+{
+ "body": "{\n  \"title\": \"KOHINOOR GbR Indian grocery store\",\n  \"body\": \"నాన్నగారు, గురవారం 12:05న Neuperlach Zentrum వద్ద Bus U5 ఎక్కి, Quiddestraße దగ్గర దిగి KOHINOOR GbR Indian grocery store కి వెళ్దాం. అక్కడ బాగా వేడి వంట పదార్థాలు ఉంటాయి. 13:32కి ఇంటికి వచ్చేయొచ్చు.\"\n}",
+ "provider": "tinker",
+ "model": "Qwen/Qwen3.5-4B",
+ "createdAt": "2026-10-06T03:02:15.016Z",
+ "latencyMs": 1310
+}

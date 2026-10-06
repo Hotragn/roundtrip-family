@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256512119",
+  "object": "chat.completion",
+  "created": 1791256512,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"factsOk\": false, \"problem\": \"typo in 'వేట' instead of 'నడక' or 'నడకపాటి' and 'అకడ' instead of 'అక్కడ' or 'అక్కడ పార్క్' is awkward/misspelled\", \"tone\": 3}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 516,
+   "completion_tokens": 65,
+   "total_tokens": 581,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.46363639831543
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:15:12.188Z",
+ "latencyMs": 822
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256579549",
+  "object": "chat.completion",
+  "created": 1791256579,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is much clearer and follows the instructions better. Card B has grammatical errors ('వాసా' instead of 'వెళ్లి' or 'వెళ్తే'), misses the destination name in the body, and the sentence '6 నిమిషాలు వచ్చేయొచ్చు' makes no sense in context.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 659,
+   "completion_tokens": 72,
+   "total_tokens": 731,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.790907859802246
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:19.610Z",
+ "latencyMs": 1682
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255770934",
+  "object": "chat.completion",
+  "created": 1791255770,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"అమ్మా, మంగళవారం 15:30కి Hari Om Shri Radha Krishna Mandir కి వెళ్దాం. 14 minutes నడిచి వెళ్ళవచ్చు. అక్కడ అందమైన హిందూ దేవాలయం ఉంటుంది. 16:46కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Hari Om Shri Radha Krishna Mandir కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1004,
+   "completion_tokens": 87,
+   "total_tokens": 1091,
+   "prompt_tokens_details": {
+    "cached_tokens": 832
+   },
+   "neurons": 7.7181782722473145
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:02:50.970Z",
+ "latencyMs": 2597
+}

@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A uses English word 'stop' in '1 స్టాప్‌లో' instead of Telugu; Card B uses 'స్టాపుల' which is Telugu. Card A also says 'ఎక్కండి' (you board) which is slightly stiff/imperative, while B says 'ఎక్కి...దిగండి' which flows better. B's 'మీకు నచ్చిన భారతీయ వస్తువులు' is a warmer reason than A's generic 'కూరగాయలు' which invents vegetables not mentioned in details (only 'Lebensmittelhändler' is given).\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:20:47.681Z",
+ "latencyMs": 4010
+}

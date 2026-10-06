@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card A is warmer and more natural—'కలిసి కారులో వెళ్దాం' flows as one friendly invitation, while B splits it awkwardly. A's 'మీరు అక్కడ ప్రశాంతంగా నడవొచ్చు' gives a concrete, personal reason (peaceful walking) tied to the trail; B's 'అందమైన ప్రకృతి దృశ్యాలు' is generic and slightly stiff. A also uses మీరు correctly and naturally; B's final 'మీరు' is grammatically odd ('మీరు ఇంటికి వచ్చేయొచ్చు' sounds like she comes alone). Both keep venue names and use no English, but A's tone is more like a neighbor's daughter talking to an elder.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:21:29.518Z",
+ "latencyMs": 7393
+}

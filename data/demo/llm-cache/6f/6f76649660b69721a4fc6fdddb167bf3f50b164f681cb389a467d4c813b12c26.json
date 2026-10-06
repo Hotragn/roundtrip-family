@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255759814",
+  "object": "chat.completion",
+  "created": 1791255759,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"నాన్నగారు, బుధవారం 12:30కి Harvey Green Elementary's Little Free Library కి వెళ్దాం. Fremont Blvd & Mowry Av దగ్గర Bus 210 ఎక్కి, Fremont Blvd & Stevenson Blvd దగ్గర దిగండి. అక్కడ నుండి Stevenson Blvd. & Fremont Blvd. దగ్గర Bus 216 ఎక్కి, 5 స్టాపుల తర్వాత Stevenson Blvd & Blacow Rd దగ్గర దిగండి. అక్కడ చిన్న లైబ్రరీ ఉంది, పుస్తకాలు చూడొచ్చు. 14:01కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Harvey Green Elementary's Little Free Library కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1132,
+   "completion_tokens": 148,
+   "total_tokens": 1280,
+   "prompt_tokens_details": {
+    "cached_tokens": 832
+   },
+   "neurons": 10.545451164245605
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:02:39.847Z",
+ "latencyMs": 3240
+}

@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256576362",
+  "object": "chat.completion",
+  "created": 1791256576,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more natural and flows better. Card A's phrasing 'వచ్చేయొచ్చు' (can come) is slightly awkward for giving directions, whereas Card B uses a more conversational tone suitable for a child talking to a father.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 586,
+   "completion_tokens": 61,
+   "total_tokens": 647,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.990908622741699
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:16.428Z",
+ "latencyMs": 630
+}

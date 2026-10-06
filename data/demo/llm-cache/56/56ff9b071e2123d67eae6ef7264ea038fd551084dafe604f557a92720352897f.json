@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A uses 'ప్రశాంతంగా కూర్చోవచ్చు' which is stiff and limited to sitting; Card B's 'హాయిగా ఉండొచ్చు' is warmer, more natural coastal Andhra speech, and 'పార్కులో' adds clarity without inventing anything. Both are good but B's tone is more neighborly-daughter-like.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:21.864Z",
+ "latencyMs": 3886
+}

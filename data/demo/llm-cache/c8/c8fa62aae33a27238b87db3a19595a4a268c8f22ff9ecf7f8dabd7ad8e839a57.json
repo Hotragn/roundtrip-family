@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A uses English word 'Hiking' concept via 'నడక' which is fine but vague; Card B gives a warm, specific reason they'd enjoy it (ప్రకృతి మధ్యలో కాస్త నడవడానికి మీకు చాలా బాగుంటుంది) in natural coastal Andhra style, while Card A's 'నడవండి' sounds slightly imperative/flat. Both keep names exact and use no other English. Card B better serves the parent with warmth and a clear enjoyment reason.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:21:19.100Z",
+ "latencyMs": 4953
+}

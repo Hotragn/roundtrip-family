@@ -1,0 +1,10 @@
+estimate before the run: 326 examples x 3 epochs = 282,198 training tokens plus 17,364 validation tokens, $0.2208 at $0.737/M
+epoch 0: validation NLL 1.1658
+epoch 1: validation NLL 0.1562
+epoch 1: saved tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch1
+epoch 2: validation NLL 0.1263
+epoch 2: saved tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch2
+epoch 3: validation NLL 0.1107
+epoch 3: saved tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3
+Chose epoch 3: tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3
+exit 0

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255824134",
+  "object": "chat.completion",
+  "created": 1791255824,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"అమ్మా, శనివారం 08:45కి Spielenachmittag im Seniorentreff కి వెళ్దాం. Neuperlach Zentrum నుండి Bus 55 ఎక్కి, 1 స్టాపుల తర్వాత Thomas-Dehler-Straße దగ్గర దిగండి. అక్కడ అందరితో కలిసి ఆటలు ఆడుతూ, కాఫీ, కేక్ తింటూ సరదాగా గడపవచ్చు. 11:27కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Spielenachmittag im Seniorentreff కి ఆటల సాయంత్రం\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1064,
+   "completion_tokens": 132,
+   "total_tokens": 1196,
+   "prompt_tokens_details": {
+    "cached_tokens": 832
+   },
+   "neurons": 9.49090576171875
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:44.164Z",
+ "latencyMs": 3645
+}

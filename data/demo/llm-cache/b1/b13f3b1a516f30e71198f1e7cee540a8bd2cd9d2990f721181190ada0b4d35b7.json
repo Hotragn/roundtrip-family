@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256559681",
+  "object": "chat.completion",
+  "created": 1791256559,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and respectful. Card B uses 'వెళ్ళుచు' and 'అకడ', which sound unnatural or dialect-heavy in a way that doesn't fit the 'neighbor's daughter' persona, and it misses the walking instruction to the bus stop.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 623,
+   "completion_tokens": 69,
+   "total_tokens": 692,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 7.545454502105713
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:15:59.740Z",
+ "latencyMs": 1873
+}

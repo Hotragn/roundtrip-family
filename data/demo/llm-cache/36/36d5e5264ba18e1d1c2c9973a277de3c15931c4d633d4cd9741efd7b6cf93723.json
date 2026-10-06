@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256602701",
+  "object": "chat.completion",
+  "created": 1791256602,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A provides a reason for the outing (good programs for elders), whereas Card B just lists the walking time without context. Both follow the constraints well, but A is more engaging.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 578,
+   "completion_tokens": 49,
+   "total_tokens": 627,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.427271366119385
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:42.763Z",
+ "latencyMs": 1013
+}

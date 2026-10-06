@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256629188",
+  "object": "chat.completion",
+  "created": 1791256629,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B follows the instruction to use the English word 'Markt' as provided in the details, whereas Card A translates it to 'మార్కెట్'. Card B is also more natural.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 492,
+   "completion_tokens": 50,
+   "total_tokens": 542,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.672726154327393
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:09.251Z",
+ "latencyMs": 1299
+}

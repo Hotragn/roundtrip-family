@@ -29,6 +29,11 @@ export interface CardFacts {
   /** Numbers the card may use. */
   numbers: string[];
   firstCard: boolean;
+  /**
+   * Minutes of the walk from the last stop (or from home) to the place. Not in the prompt; the
+   * quality gate (gated-writer.ts) checks that a card says a walk of five minutes or more.
+   */
+  walkToPlace?: number;
 }
 
 export interface WrittenCard {

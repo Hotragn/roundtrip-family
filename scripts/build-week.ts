@@ -1,8 +1,8 @@
 /**
  * Builds the parents' app week for each demo household from its plan: the approved outings,
  * their live routes (SerpApi directions, saved as fixtures), coordinates for the stop before
- * theirs (for the "your stop is next" alert), a card for each parent (Gemma card writer until
- * the Tinker LoRA is trained), practice phrases, the driver card and the steps.
+ * theirs (for the "your stop is next" alert), a card for each parent (the Tinker-tuned writer,
+ * with the Gemma writer when Tinker can't write one), practice phrases, the driver card and the steps.
  * Writes data/demo/weeks/<household>.json. The family is synthetic; places and routes are live.
  * Run: pnpm --filter @roundtrip/scripts exec tsx build-week.ts
  */
@@ -26,6 +26,8 @@ const { parseDirections, walkingPhotos } = await import("../agent/src/routes/par
 const { stepsFor } = await import("../agent/src/cards/steps");
 const { phrasesFor, DRIVER, FRIEND_WORDS } = await import("../agent/src/cards/phrases");
 const { GemmaCardWriter } = await import("../agent/src/cards/writer");
+const { TinkerCardWriter } = await import("../agent/src/cards/tinker-writer");
+const { GatedCardWriter } = await import("../agent/src/cards/gated-writer");
 const { tripMode } = await import("../agent/src/planner/candidates");
 const { fmt } = await import("../agent/src/planner/slots");
 const { minuteWalk } = await import("../agent/src/planner/index");
@@ -98,12 +100,15 @@ interface PlanFile {
  * The planner wrote the reason with its travel estimate; once the real route is known, say what
  * the ticket says ("By bus, about 18 minutes" becomes "By Bus 210 and Bus 216, about 34 minutes").
  */
+/** A line as its signs say it: "Bus 210", but "U5" or "S2" for trains. */
+function lineName(l: Route["legs"][number]): string {
+  return l.mode === "bus" ? `Bus ${l.line?.name ?? ""}`.trim() : (l.line?.name ?? "train");
+}
+
 function withRealTrip(reason: string, route: Route | null, back: number): string {
   if (!route) return reason;
   const transit = route.legs.filter((l) => l.mode !== "walk");
-  const lines = transit.map((l) =>
-    l.mode === "rail" ? (l.line?.name ?? "train") : `Bus ${l.line?.name ?? ""}`.trim(),
-  );
+  const lines = transit.map(lineName);
   const trip =
     transit.length === 0
       ? `${minuteWalk(route.totalMinutes)}, back by ${fmt(back)}.`
@@ -114,7 +119,15 @@ function withRealTrip(reason: string, route: Route | null, back: number): string
 const serp = new SerpApi();
 // Short walks use saved walking directions when there are some, else a walking route on OpenStreetMap.
 const saved = new SerpApi({ mode: "replay" });
-const writer = new GemmaCardWriter();
+// The tuned Telugu writer (docs/finetune-results.md), held to the quality gate its training data
+// passed; Gemma writes the card when the tuned draft fails the gate or Tinker can't be reached.
+const gemmaWriter = new GemmaCardWriter();
+const writer = new GatedCardWriter(
+  [TinkerCardWriter.tuned({ fallback: gemmaWriter }), gemmaWriter],
+  undefined,
+  (f, r) =>
+    console.log(`  ${f.venue} (${f.addressee}): the ${r.writer} card failed the gate: ${r.problems.join("; ")}`),
+);
 
 /** A walk on OpenStreetMap at a gentle 4.5 km/h (75 m a minute), the planner's own pace for walking. */
 async function osmWalk(
@@ -216,7 +229,7 @@ async function build(key: string, bundle: HouseholdBundle) {
           .map((l) =>
             l.mode === "walk"
               ? `walk ${l.durationMinutes} minutes to ${l.to.name}`
-              : `take Bus ${l.line?.name} toward ${l.line?.headsign} for ${l.numStops} stops, get off at ${l.to.name}`,
+              : `take ${lineName(l)} toward ${l.line?.headsign} for ${l.numStops} stops, get off at ${l.to.name}`,
           )
           .join("; ")
       : s.slot.withAdultChild
@@ -226,11 +239,13 @@ async function build(key: string, bundle: HouseholdBundle) {
     for (const p of parents) {
       const role = p.addressAs.includes("నాన్న") ? "father" : "mother";
       const first = transit[0];
-      const names = first ? [venue, `Bus ${first.line?.name}`, first.from.name, lastTransit!.to.name] : [venue];
+      const names = first ? [venue, lineName(first), first.from.name, lastTransit!.to.name] : [venue];
+      // The direction a line runs toward is a name on the sign too, so a card may say it exactly.
       const optionalNames = transit
         .slice(1)
-        .flatMap((l) => [`Bus ${l.line?.name}`, l.from.name, l.to.name])
-        .concat(first ? [first.to.name] : []);
+        .flatMap((l) => [lineName(l), l.from.name, l.to.name])
+        .concat(first ? [first.to.name] : [])
+        .concat(transit.flatMap((l) => (l.line?.headsign ? [l.line.headsign] : [])));
       const numbers = [
         fmt(s.slot.depart),
         fmt(back),
@@ -250,6 +265,7 @@ async function build(key: string, bundle: HouseholdBundle) {
         optionalNames: [...new Set(optionalNames)].filter((n) => !names.includes(n)),
         numbers,
         firstCard: firstCard && role === "mother",
+        walkToPlace: route?.legs.at(-1)?.mode === "walk" ? route.legs.at(-1)?.durationMinutes : undefined,
       });
       cards.push({
         parentId: p._id,
@@ -349,3 +365,4 @@ async function build(key: string, bundle: HouseholdBundle) {
 
 await build("fremont", loadFremontPersona());
 await build("munich", loadMunichHousehold());
+console.log("Next: route-geometry.ts puts the map lines and stop points back on these weeks.");

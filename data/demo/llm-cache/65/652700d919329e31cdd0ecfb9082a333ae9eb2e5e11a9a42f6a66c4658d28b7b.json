@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256641264",
+  "object": "chat.completion",
+  "created": 1791256641,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is warmer and more natural. Card A's phrasing 'వచ్చేయొచ్చు' (can come back) sounds a bit like giving permission or being dismissive, whereas Card B's 'మీరు కాసేపు హాయిగా ఉండొచ్చు' (you can be relaxed for a while) feels more like a thoughtful suggestion for his enjoyment.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 486,
+   "completion_tokens": 85,
+   "total_tokens": 571,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.736363410949707
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:21.329Z",
+ "latencyMs": 1038
+}

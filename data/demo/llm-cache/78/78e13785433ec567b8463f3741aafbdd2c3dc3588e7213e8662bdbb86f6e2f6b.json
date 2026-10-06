@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255339496",
+  "object": "chat.completion",
+  "created": 1791255339,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and warm. Card B uses 'స్వచ్ఛంద సేవకుడు' which is a very stiff, textbook translation for 'volunteer', whereas Card A uses 'వాలంటీర్ గైడ్' which sounds much more like how people actually speak in coastal Andhra.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 533,
+   "completion_tokens": 71,
+   "total_tokens": 604,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.618180751800537
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:39.521Z",
+ "latencyMs": 2341
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255386047",
+  "object": "chat.completion",
+  "created": 1791255386,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card A uses 'కాళ్ళారోగ్యం కోసం' (for leg health) which sounds pitying and condescending, violating the instruction to avoid pitying tones. Card B is natural and respectful.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 510,
+   "completion_tokens": 52,
+   "total_tokens": 562,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.8909077644348145
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:26.090Z",
+ "latencyMs": 1295
+}

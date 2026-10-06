@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255848558",
+  "object": "chat.completion",
+  "created": 1791255848,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"body\":\"నాన్నగారు, ఆదివారం 14:00కి Bozeman Public Library Labyrinth కి వెళ్దాం. కారులో వెళ్తాము. అక్కడ మంచి పార్క్ ఉంది, మీరు కాసేపు హాయిగా ఉండొచ్చు. 16:59కి ఇంటికి వచ్చేయొచ్చు.\" , \"title\": \"Bozeman Public Library Labyrinth కి\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1096,
+   "completion_tokens": 83,
+   "total_tokens": 1179,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "neurons": 8.154541015625
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:04:08.589Z",
+ "latencyMs": 3248
+}

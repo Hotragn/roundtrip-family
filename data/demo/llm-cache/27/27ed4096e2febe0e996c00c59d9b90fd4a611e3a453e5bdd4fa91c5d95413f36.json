@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256605339",
+  "object": "chat.completion",
+  "created": 1791256605,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A includes the necessary walking instructions to reach the venue and provides a better reason for the outing based on the provided details.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 623,
+   "completion_tokens": 37,
+   "total_tokens": 660,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "neurons": 4.927270889282227
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:45.401Z",
+ "latencyMs": 3384
+}

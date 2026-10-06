@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255784237",
+  "object": "chat.completion",
+  "created": 1791255784,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"body\": \"అమ్మా, ఆదివారం 09:30కి Newark Library కి వెళ్దాం. మేము కారులో కలిసి వెళ్తాము. అక్కడ మీరు ప్రశాంతంగా పుస్తకాలు చదువుకోవచ్చు. 12:31కి ఇంటికి వచ్చేయొచ్చు.\" , \"title\": \"Newark Library కి\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1075,
+   "completion_tokens": 74,
+   "total_tokens": 1149,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "neurons": 7.718177795410156
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:04.273Z",
+ "latencyMs": 2039
+}

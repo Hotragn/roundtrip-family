@@ -9,8 +9,8 @@ The running log of the build. Read this first when resuming. The plan is docs/bu
 | M1 Foundations | Done |
 | M2 Intelligence | Done |
 | M3 Parents' app, offline | Done (Lighthouse performance 87 to 90 locally; re-measured on Render in M7) |
-| M4 Dashboard and landing | Dashboard done; landing in progress |
-| M5 Fine-tune, voice, speech, diary | Not started |
+| M4 Dashboard and landing | Done, deployed to Render |
+| M5 Fine-tune, voice, speech, diary | Done (card writer trained and serving; clips re-voiced for the new cards) |
 | M6 Temporal, email, safety, trial run | Not started |
 | M7 Ship | Not started |
 
@@ -102,3 +102,20 @@ The running log of the build. Read this first when resuming. The plan is docs/bu
   - Screenshots in docs/screenshots/plan-*.jpg for every section, both households, light and dark, reviewed against docs/brand.md.
 - SerpApi: 39 of 40 searches used (three for the new bus routes). TabPFN's free daily pool ran out during the ten-week re-plan; the last three weeks ran after its reset.
 - Test totals: 188 TypeScript unit tests and evals pass in replay mode (1 opt-in Atlas test skipped); privacy check 0 violations, 19 registered call sites.
+
+### M4 Landing, style guide and deploy (2026-10-05)
+
+- **Landing** (/): a live morning sky behind the story (three.js Sky at a low sun, raymarched cumulus, a procedural coast and town) in a Web Worker on an OffscreenCanvas. The server HTML carries a still frame, which is all that shows with reduced motion, Save-Data, a low-power device or no WebGL. The story panels preview the real demo week. Lighthouse mobile 91 to 92; accessibility, best practices and SEO 100; axe clean.
+- **Style guide** (/design): every parents' app and dashboard component with the demo week, the scroll indicators and the baked art.
+- **Deploy:** scripts/render-deploy.ts creates or updates two free Render services from the public repo (the web app's standalone server and the ranker), copies each key from .env by name without printing a value, and deploys at milestones rather than on every push. Live at https://roundtrip-web.onrender.com; /api/health answers in about 0.2 s when the service is awake.
+- **Plan the coming week:** the This week page runs the planner live for next Monday to Sunday (Open-Meteo forecast, saved places, TabPFN through the ranker, Gemma 4), shows what it chose and what it called, and changes nothing on the board. Three runs an hour per visitor, forty a day in all.
+- **Atlas:** Atlas refuses connections from Render's addresses, so the hosted demo keeps sessions in memory until Render's addresses are on the Atlas Network Access list (docs/blocked.md).
+
+### M5 Diary, voice, speech and the card writer (2026-10-06)
+
+- **Diary:** entries sync from the phone on home Wi-Fi and are encrypted on the server with each parent's own key (AES-256-GCM, HKDF per parent); only shared entries are ever decrypted, for Shared with you on the dashboard. 15 synthetic diary entries in Telugu start on the demo phones.
+- **Voice router** (agent/src/voice/router.ts): the open voice per language, ElevenLabs only with a key and within its budget, saved clips found by language and exact text.
+- **Speech** (speech/, run in the Codespace): every card, phrase, help card and synthetic voice entry voiced with MMS-TTS (Telugu, English, German; the AI4Bharat models are gated, docs/skipped.md) and scored by transcribing it back. The first run voiced nothing: torchaudio's PyPI wheel declares no torch version, so uv paired 2.11 with torch 2.14 and it failed to load; torchaudio was dropped, since ffmpeg decodes and resamples.
+- **Card writer** (synthetic outings from live-search places, automated evaluation): a LoRA on Qwen3.5-4B trained once on Tinker by prompt distillation from Qwen3.5-397B-A17B drafts that passed a Gemma gate. On 40 held-out outings it passed every code check on 98% of cards (Gemma 85%, the untuned base 72%) and beat the base 36 to 1; against Gemma the judges split (Gemma judging 8 to 20, Kimi-K2.6 judging 14 to 12). Published at https://huggingface.co/roundtrip-family/roundtrip-card-writer-te-qwen3.5-4b-lora. Tinker spend $2.04 in all. docs/finetune-results.md.
+- **The demo weeks' cards** now come from the tuned writer behind the same gate (code checks, Gemma's tone and facts review, and the walk from the stop when it's five minutes or more); it wrote 7 of 10, and Gemma the 3 it failed. Trains keep their own names ("U5", not "Bus U5"), and a line's direction may appear on a card.
+- **Verified:** agent/test/gated-writer.test.ts (the gate keeps a passing tuned card, counts the walk only as its own number, sends a doubtful card on); agent/test/tinker-writer.test.ts (replays a saved tuned card, one corrective retry, no live calls in replay); 25 finetune tests; apps/web/test/diary.test.ts (entries encrypted at rest, private entries never returned, no network calls).

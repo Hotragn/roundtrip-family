@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256562194",
+  "object": "chat.completion",
+  "created": 1791256562,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card A contains nonsensical Telugu ('భాష అకర్తే') and fails to provide a reason for the outing. Card B is natural, follows all instructions, and provides a polite reason for the trip.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 576,
+   "completion_tokens": 53,
+   "total_tokens": 629,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.518180847167969
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:02.255Z",
+ "latencyMs": 1304
+}

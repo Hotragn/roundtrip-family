@@ -626,16 +626,16 @@
           "parentId": "p_kamala",
           "role": "mother",
           "title": "Münchner Stadtbibliothek Ramersdorf కి",
-          "body": "అమ్మా, మంగళవారం 09:45కి Münchner Stadtbibliothek Ramersdorf కి వెళ్దాం. Neuperlach Zentrum కి 4 నిమిషాలు నడిచి వెళ్లి, Bus U5 ఎక్కి 3 స్టాపుల తర్వాత Innsbrucker Ring దగ్గర దిగండి. అక్కడి నుండి 9 నిమిషాల నడక తర్వాత చేరుకుంటారు. 11:34కి ఇంటికి వచ్చేయొచ్చు. ఎవరికీ మీ బ్యాంక్ వివరాలు చెప్పకండి, ఎవరికీ డబ్బులు చెల్లించకండి.",
+          "body": "అమ్మా, మంగళవారం 09:45కి Münchner Stadtbibliothek Ramersdorf కి వెళ్దాం. Neuperlach Zentrum వరకు నడిచి, అక్కడ U5 ఎక్కండి. 3 స్టాపుల తర్వాత Innsbrucker Ring దిగి, 9 నిమిషాలు నడిచి చేరుకోండి. అక్కడ పుస్తకాలు చదువుకోవచ్చు. 11:34కి ఇంటికి వచ్చేయొచ్చు. బ్యాంకు వివరాలు ఎవరికీ ఇవ్వకండి, అపరిచితులకు డబ్బు చెల్లించకండి.",
           "writer": {
-            "kind": "gemma",
-            "model": "@cf/google/gemma-4-26b-a4b-it",
-            "latencyMs": 4583
+            "kind": "tinker_lora",
+            "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+            "latencyMs": 6522
           },
           "rubric": {
             "passed": true,
             "failures": [],
-            "words": 47,
+            "words": 42,
             "scriptOk": true
           },
           "phrases": [
@@ -933,16 +933,16 @@
           "parentId": "p_raghu",
           "role": "father",
           "title": "Münchner Stadtbibliothek Neuperlach కి",
-          "body": "నాన్నగారు, బుధవారం 10:00కి Münchner Stadtbibliothek Neuperlach కి వెళ్దాం. 4 నిమిషాల నడకతో అక్కడికి చేరుకోవచ్చు. మీరు అక్కడ పుస్తకాలు చూడవచ్చు. 11:23కి ఇంటికి వచ్చేయొచ్చు.",
+          "body": "నాన్నగారు, బుధవారం 10:00కి Münchner Stadtbibliothek Neuperlach కి వెళ్దాం. అక్కడికి 4 నిమిషాలు నడవండి. అక్కడ పుస్తకాలు చదువుకోవచ్చు. 11:23కి ఇంటికి వచ్చేయొచ్చు.",
           "writer": {
-            "kind": "gemma",
-            "model": "@cf/google/gemma-4-26b-a4b-it",
-            "latencyMs": 4192
+            "kind": "tinker_lora",
+            "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+            "latencyMs": 1259
           },
           "rubric": {
             "passed": true,
             "failures": [],
-            "words": 24,
+            "words": 22,
             "scriptOk": true
           },
           "phrases": [
@@ -1064,16 +1064,16 @@
           "parentId": "p_kamala",
           "role": "mother",
           "title": "Hariom Temple కి",
-          "body": "అమ్మా, ఆదివారం 10:45కి Hariom Temple కి వెళ్దాం. కారులో కలిసి వెళ్తాము. అక్కడ Hariom Temple చూడవచ్చు. 13:03కి మీరు ఇంటికి వచ్చేయొచ్చు.",
+          "body": "అమ్మా, ఆదివారం 10:45కి Hariom Temple కి కలిసి కారులో వెళ్దాం. అక్కడ హిందూ దేవాలయం ఉంది. మీరు ప్రశాంతంగా దర్శనం చేసుకోవచ్చు. 13:03కి ఇంటికి వచ్చేయొచ్చు.",
           "writer": {
-            "kind": "gemma",
-            "model": "@cf/google/gemma-4-26b-a4b-it",
-            "latencyMs": 3570
+            "kind": "tinker_lora",
+            "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+            "latencyMs": 738
           },
           "rubric": {
             "passed": true,
             "failures": [],
-            "words": 21,
+            "words": 23,
             "scriptOk": true
           },
           "phrases": [
@@ -1946,16 +1946,16 @@
           "parentId": "p_kamala",
           "role": "mother",
           "title": "Indian-Grocery-Store München కి",
-          "body": "అమ్మా, సోమవారం 09:45కి Indian-Grocery-Store München కి వెళ్దాం. Neuperlach Zentrum కి నడిచి వెళ్లి, అక్కడ Bus U5 ఎక్కి 3 స్టాపుల తర్వాత Innsbrucker Ring దగ్గర దిగండి. అక్కడి నుండి 22 నిమిషాల నడక తర్వాత సూపర్ మార్కెట్ చేరుకుంటారు. 11:35కి ఇంటికి వచ్చేయొచ్చు.",
+          "body": "అమ్మా, సోమవారం 09:45కి Indian-Grocery-Store München కి వెళ్దాం. Neuperlach Zentrum వరకు నడిచి, అక్కడ U5 ఎక్కండి. 3 స్టాపుల తర్వాత Innsbrucker Ring దిగి, 22 నిమిషాలు నడిచి చేరుకోవచ్చు. అక్కడ మనకు కావలసిన సరుకులు దొరుకుతాయి. 11:35కి ఇంటికి వచ్చేయొచ్చు.",
           "writer": {
-            "kind": "gemma",
-            "model": "@cf/google/gemma-4-26b-a4b-it",
-            "latencyMs": 2493
+            "kind": "tinker_lora",
+            "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+            "latencyMs": 900
           },
           "rubric": {
             "passed": true,
             "failures": [],
-            "words": 38,
+            "words": 35,
             "scriptOk": true
           },
           "phrases": [

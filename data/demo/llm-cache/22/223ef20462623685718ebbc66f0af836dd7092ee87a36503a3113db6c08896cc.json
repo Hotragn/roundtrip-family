@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255795392",
+  "object": "chat.completion",
+  "created": 1791255795,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"నాన్నగారు, శనివారం 10:35కి English conversation circle for newcomers కి వెళ్దాం. Walnut Av & Paseo Padre Pkwy దగ్గర Bus 231 ఎక్కండి, 4 స్టాపుల తర్వాత Fremont Blvd & Stevenson Blvd దగ్గర దిగి, 15 నిమిషాలు నడిస్తే చేరుకుంటారు. అక్కడ అందరితో కలిసి చిన్న చిన్న ఇంగ్లీష్ మాటలు నేర్చుకోవచ్చు. 12:40కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"English conversation circle for newcomers కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1068,
+   "completion_tokens": 132,
+   "total_tokens": 1200,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 13.309089660644531
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:15.429Z",
+ "latencyMs": 6185
+}

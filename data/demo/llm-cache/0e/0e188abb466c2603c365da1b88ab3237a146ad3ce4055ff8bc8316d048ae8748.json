@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Trinethra Indian Super Markets కి\", \"body\": \"అమ్మా, గురువారం 09:00కి Trinethra Indian Super Markets కి వెళ్దాం. Fremont Blvd & Mowry Av నుండి Bus 210 ఎక్కండి, Fremont Blvd & Grimmer Blvd దిగి, Bus 239 మారి Paseo Padre Pkwy & Senior Center వరకు వెళ్లండి. అక్కడ మన ఊరి సరుకులు దొరుకుతాయి. 10:57కి ఇంటికి వచ్చేయొచ్చు. బ్యాంకు వివరాలు ఎవరికీ ఇవ్వకండి, అపరిచితులకు డబ్బు చెల్లించకండి.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:13:47.067Z",
+ "latencyMs": 1670
+}

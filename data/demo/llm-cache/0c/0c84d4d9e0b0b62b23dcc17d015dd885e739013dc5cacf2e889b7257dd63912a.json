@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791255335671",
+  "object": "chat.completion",
+  "created": 1791255335,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"B\", \"reason\": \"Card B flows more naturally in Telugu. Card A's sentence 'అక్కడ 19 నిమిషాలు నడవాలి' (must walk 19 minutes there) is slightly awkward and sounds like a chore, whereas Card B correctly describes the walk to the venue.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 498,
+   "completion_tokens": 68,
+   "total_tokens": 566,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.3818182945251465
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:35.704Z",
+ "latencyMs": 656
+}

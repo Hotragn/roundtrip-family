@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256563844",
+  "object": "chat.completion",
+  "created": 1791256563,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is much more natural and concise. Card A reads like a robotic set of instructions with repetitive 'waiting' phrases, whereas Card B flows like a warm suggestion from a family member. Card B also stays well within the word limit while including all necessary details.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 706,
+   "completion_tokens": 65,
+   "total_tokens": 771,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 7.027271270751953
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:03.904Z",
+ "latencyMs": 1390
+}

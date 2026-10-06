@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card A clearly says when to leave (బయలుదేరి) and includes the important first walk instruction 'వరకు నడిచి' (walk to), while Card B omits the initial 1-minute walk and uses vague 'దగ్గర' (near) for stops instead of precise get-on/get-off language. Card A also better captures the 'small, friendly group' aspect with 'స్వచ్ఛందంగా' suggesting comfortable voluntary participation, versus Card B's generic 'అందరితో కలిసి' (with everyone).\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:20:41.516Z",
+ "latencyMs": 4033
+}

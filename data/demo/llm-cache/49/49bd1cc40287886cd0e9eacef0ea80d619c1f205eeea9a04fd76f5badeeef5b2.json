@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Centerville Library కి\", \"body\": \"నాన్నగారు, ఆదివారం 10:45న Fremont Blvd & Centerville Jr High School దగ్గర Bus 210 ఎక్కి, 1 స్టాప్‌లో Fremont Blvd & Central Av దగ్గర దిగి, 12 నిమిషాలు వచ్చేయొచ్చు. అక్కడ పుబ్లిక్ లైబ్రరీలో పుస్తకాలు చదవవచ్చు. 11:52న ఇంటికి వచ్చేయొచ్చు.\"}",
+ "provider": "tinker",
+ "model": "Qwen/Qwen3.5-4B",
+ "createdAt": "2026-10-06T03:02:01.891Z",
+ "latencyMs": 1832
+}

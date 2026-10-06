@@ -1,0 +1,20 @@
+{"id":"t091:1","tone":5,"factsOk":true,"problem":"","latencyMs":1360,"cached":true}
+{"id":"t050:1","tone":4,"factsOk":true,"problem":"","latencyMs":809,"cached":false}
+{"id":"t085:1","tone":5,"factsOk":true,"problem":"","latencyMs":1022,"cached":false}
+{"id":"t064:1","tone":5,"factsOk":true,"problem":"","latencyMs":1683,"cached":false}
+{"id":"t117:1","tone":5,"factsOk":true,"problem":"","latencyMs":988,"cached":false}
+{"id":"t094:1","tone":4,"factsOk":false,"problem":"incorrectly describes the lake as a lake-like/small lake (సరసుగా) instead of a lake (సరస్సు)","latencyMs":1257,"cached":false}
+{"id":"t120:1","tone":5,"factsOk":true,"problem":"","latencyMs":1268,"cached":false}
+{"id":"t121:1","tone":5,"factsOk":true,"problem":"","latencyMs":1711,"cached":false}
+{"id":"t164:1","tone":5,"factsOk":true,"problem":"","latencyMs":581,"cached":false}
+{"id":"t218:1","tone":5,"factsOk":true,"problem":"","latencyMs":1155,"cached":false}
+{"id":"t129:1","tone":5,"factsOk":true,"problem":"","latencyMs":1720,"cached":false}
+{"id":"t219:1","tone":5,"factsOk":true,"problem":"","latencyMs":1845,"cached":false}
+{"id":"t235:1","tone":5,"factsOk":false,"problem":"incorrect duration of walk vs time spent walking","latencyMs":337,"cached":false}
+{"id":"t330:1","tone":5,"factsOk":true,"problem":"","latencyMs":911,"cached":false}
+{"id":"t295:1","tone":4,"factsOk":true,"problem":"","latencyMs":1778,"cached":false}
+{"id":"t267:1","tone":4,"factsOk":true,"problem":"","latencyMs":3876,"cached":false}
+{"id":"t341:1","tone":5,"factsOk":true,"problem":"","latencyMs":617,"cached":false}
+{"id":"t369:1","tone":5,"factsOk":true,"problem":"","latencyMs":804,"cached":false}
+{"id":"t368:1","tone":5,"factsOk":true,"problem":"","latencyMs":882,"cached":false}
+{"id":"t397:1","tone":3,"factsOk":false,"problem":"incorrectly says 'we will climb the car' instead of 'we will go by car' and implies the parent is being driven separately/independently rather than together.","latencyMs":1600,"cached":false}

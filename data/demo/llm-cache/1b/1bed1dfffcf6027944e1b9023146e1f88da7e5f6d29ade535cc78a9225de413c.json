@@ -1,0 +1,7 @@
+{
+ "body": "{\n  \"title\": \"Story Mill Community Park కి\",\n  \"body\": \"అమ్మా, శుక్రవారం 08:15కి Story Mill Community Park కి వెళ్దాం. ఇంటి నుండి 10 నిమిషాలు వాళ్కే. అక్కడ పార్క్‌లో నడిచుకోవచ్చు. 10:02కి ఇంటికి వచ్చు.\"\n}",
+ "provider": "tinker",
+ "model": "Qwen/Qwen3.5-4B",
+ "createdAt": "2026-10-06T03:02:21.526Z",
+ "latencyMs": 1265
+}

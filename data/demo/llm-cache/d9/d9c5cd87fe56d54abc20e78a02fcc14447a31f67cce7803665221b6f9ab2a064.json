@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256626000",
+  "object": "chat.completion",
+  "created": 1791256626,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more concise and flows more naturally. Card A is slightly repetitive and clunky in its phrasing. Card B also captures the essence of the venue (Lebensmittelhändler) more warmly by mentioning vegetables.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 737,
+   "completion_tokens": 56,
+   "total_tokens": 793,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 8.227272033691406
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:06.066Z",
+ "latencyMs": 615
+}

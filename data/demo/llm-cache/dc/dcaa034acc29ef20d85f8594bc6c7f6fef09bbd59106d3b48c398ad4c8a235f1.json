@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B uses 'ఇంటి నుంచి' (from home) which is an invented detail not in the outing details, and uses imperative 'చేరుకోండి' which is less warm than A's descriptive 'చేరుకోవచ్చు'. Card A more naturally says what the details support with better respectful tone.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:46.869Z",
+ "latencyMs": 3021
+}

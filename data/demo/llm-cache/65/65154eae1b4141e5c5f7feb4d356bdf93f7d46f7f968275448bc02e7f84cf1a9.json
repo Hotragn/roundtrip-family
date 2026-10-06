@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256606843",
+  "object": "chat.completion",
+  "created": 1791256606,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more natural and flows better. Card A's instructions are a bit choppy, whereas Card B provides a smoother explanation of the bus transfer and includes a nice reason to visit (reading books peacefully). Both follow the constraints well.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 675,
+   "completion_tokens": 60,
+   "total_tokens": 735,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.6090898513793945
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:46.905Z",
+ "latencyMs": 1242
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255756315",
+  "object": "chat.completion",
+  "created": 1791255756,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"అమ్మా, శనివారం 15:30కి Seniors Advocate, Inc. కి వెళ్దాం. Fremont Blvd & Mowry Av దగ్గర Bus 210 ఎక్కండి, 5 స్టాపుల తర్వాత Fremont Blvd & Grimmer Blvd దగ్గర దిగండి. అక్కడి నుండి 9 నిమిషాల నడక. 17:53కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Seniors Advocate, Inc. కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1054,
+   "completion_tokens": 113,
+   "total_tokens": 1167,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "neurons": 8.59090518951416
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:02:36.351Z",
+ "latencyMs": 2445
+}

@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A says '1 స్టాప్‌లో దిగి' which is ambiguous (could mean 'get off in 1 stop' or 'get off at the stop'), then redundantly repeats 'దిగండి' without clarifying the 12-minute walk. Card B clearly states '1 స్టాపుల తర్వాత' then '12 నిమిషాల నడక' — accurately including the 12-minute walk that Card A omitted. Card B also gives the reason (beautiful Hindu temple) while Card A only says 'దేవుడి దర్శనం' without connecting it to the venue",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:31.637Z",
+ "latencyMs": 3947
+}

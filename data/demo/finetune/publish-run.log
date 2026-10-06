@@ -1,0 +1,4 @@
+Base model license: apache-2.0
+Creating checkpoint archive for run id: a40f341a-0b84-5186-a3b1-63e93b17398b:train:0 checkpoint id: sampler_weights/card-writer-te-epoch3 (this may take a while)
+PEFT adapter: ['adapter_config.json', 'adapter_model.safetensors'], 291.7 MB
+Published https://huggingface.co/roundtrip-family/roundtrip-card-writer-te-qwen3.5-4b-lora

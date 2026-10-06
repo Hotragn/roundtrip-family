@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255336513",
+  "object": "chat.completion",
+  "created": 1791255336,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A includes the venue name in the body as requested and flows more naturally. Card B is a bit too clipped and misses the venue name in the main text, making it slightly less clear.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 696,
+   "completion_tokens": 51,
+   "total_tokens": 747,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.554543972015381
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:36.537Z",
+ "latencyMs": 1489
+}

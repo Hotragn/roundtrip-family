@@ -8,11 +8,14 @@ dependencies = []
 [dependency-groups]
 dev = ["pytest>=9.1"]
 # Installed where training runs: uv sync --group tinker
-tinker = ["tinker>=0.3", "tinker-cookbook>=0.1", "huggingface_hub>=0.35", "httpx>=0.28"]
+tinker = ["tinker>=0.3", "tinker-cookbook>=0.5.7", "huggingface_hub>=0.35", "httpx>=0.28"]
 
 [tool.uv]
 package = false
 default-groups = ["dev"]
+# tml-renderers (Inkling renderers, pulled in by tinker-cookbook) ships no Windows wheels; the
+# Qwen renderers used here do not need it.
+override-dependencies = ["tml-renderers; sys_platform != 'win32'"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

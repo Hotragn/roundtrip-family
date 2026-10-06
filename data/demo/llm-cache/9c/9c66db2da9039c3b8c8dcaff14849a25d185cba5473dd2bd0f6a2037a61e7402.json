@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256595155",
+  "object": "chat.completion",
+  "created": 1791256595,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more natural and concise. Card A's reason ('good place to read books') is an assumption not explicitly supported by the 'Park' detail, whereas Card B's mention of the park being peaceful is a better fit for the provided details.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 481,
+   "completion_tokens": 65,
+   "total_tokens": 546,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.981817245483398
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:35.217Z",
+ "latencyMs": 1221
+}

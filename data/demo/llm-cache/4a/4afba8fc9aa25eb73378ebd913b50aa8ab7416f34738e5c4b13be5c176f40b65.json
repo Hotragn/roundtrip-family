@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255593140",
+  "object": "chat.completion",
+  "created": 1791255593,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"factsOk\": false, \"problem\": \"includes unnecessary warning about bank details\", \"tone\": 4}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 584,
+   "completion_tokens": 24,
+   "total_tokens": 608,
+   "prompt_tokens_details": {
+    "cached_tokens": 320
+   },
+   "neurons": 4.509089469909668
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:59:53.179Z",
+ "latencyMs": 2385
+}

@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256559631",
+  "object": "chat.completion",
+  "created": 1791256559,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and follows the instructions better. Card B uses 'Indian Grocery Store' in English script/transliteration which is allowed, but Card A's phrasing 'మన ఊరి సరుకులు' (our hometown groceries) is much warmer and more characteristic of coastal Andhra speech. Card A also correctly includes the walking instruction context implicitly by mentioning the bus stop, whereas Card B's flow'\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 591,
+   "completion_tokens": 96,
+   "total_tokens": 687,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 7.990908622741699
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:15:59.688Z",
+ "latencyMs": 2086
+}

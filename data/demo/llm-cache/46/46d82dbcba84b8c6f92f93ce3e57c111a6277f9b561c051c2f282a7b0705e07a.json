@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255378781",
+  "object": "chat.completion",
+  "created": 1791255378,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is slightly more natural and warm. Card A's phrase 'గాలి తిరగవచ్చు' is a bit blunt, whereas Card B's 'ప్రశాంతంగా కూర్చోవచ్చు' (can sit peacefully) feels more like a thoughtful suggestion for an elder.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 498,
+   "completion_tokens": 68,
+   "total_tokens": 566,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.2181806564331055
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:18.806Z",
+ "latencyMs": 1928
+}

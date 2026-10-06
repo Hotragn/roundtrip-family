@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B invents 'పెద్దల కోసం మంచి కార్యక్రమాలు ఉంటాయి' (good programs for elders) which is not supported by outing details ('Language barely matters'), while Card A accurately includes the 9-minute walk and says only what details support\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:34.413Z",
+ "latencyMs": 2770
+}

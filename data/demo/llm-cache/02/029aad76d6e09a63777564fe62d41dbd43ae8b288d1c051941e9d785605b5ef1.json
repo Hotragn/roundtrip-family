@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A says 'అందమైన ప్రకృతి దృశ్యాలు' (beautiful nature views) which is not supported by the outing details—the only thing specified is 'Tourist attraction,' not nature views. Card B says 'ప్రశాంతంగా నడవొచ్చు' (can walk peacefully), which is a reasonable inference from a recreation trail and tourist attraction. Card A also uses 'మీరు ఇంటికి' which slightly distances the mother by saying 'you can come home' rather than implying togetherness; Card B's 'ఇంటికి వచ్చేయొచ్చు' is more natural. Both are warm and respectful, but Card A invents unsupported scenery details.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:21:29.167Z",
+ "latencyMs": 7044
+}

@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256614105",
+  "object": "chat.completion",
+  "created": 1791256614,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more natural and warm. Card A's phrasing 'సంతలో సరంజామా కొనవచ్చు' (can buy groceries in the market) sounds a bit like a task or a chore, whereas Card B's 'తాజా కూరగాయలు మీరు చూడవచ్చు' (you can see fresh vegetables) is a gentler reason for an outing. Both follow all other constraints perfectly.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 489,
+   "completion_tokens": 94,
+   "total_tokens": 583,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 7.009090900421143
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:54.179Z",
+ "latencyMs": 767
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255220846",
+  "object": "chat.completion",
+  "created": 1791255220,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"factsOk\": false, \"problem\": \"incorrectly says 'we will climb the car' instead of 'we will go by car' and implies the parent is being driven separately/independently rather than together.\" , \"tone\": 3}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 502,
+   "completion_tokens": 53,
+   "total_tokens": 555,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.009090900421143
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:53:40.887Z",
+ "latencyMs": 1339
+}

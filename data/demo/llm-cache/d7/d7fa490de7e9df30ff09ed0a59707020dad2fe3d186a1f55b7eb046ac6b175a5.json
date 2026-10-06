@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256585616",
+  "object": "chat.completion",
+  "created": 1791256585,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A provides a better reason for the outing (a quiet room to read) which makes it warmer, whereas Card B is a bit more functional/dry. Both follow all other constraints perfectly.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 479,
+   "completion_tokens": 51,
+   "total_tokens": 530,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.581817150115967
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:25.678Z",
+ "latencyMs": 1309
+}

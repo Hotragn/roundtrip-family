@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256619095",
+  "object": "chat.completion",
+  "created": 1791256619,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B flows more naturally in Telugu. Card A uses 'ఎక్కండి' (command/instructional) which feels slightly stiff, whereas Card B uses a more conversational tone suitable for a daughter talking to her father. Card B also uses 'సేదతీరవచ్చు' which is a warmer way to describe enjoying a park than 'కూర్చోవచ్చు'.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 626,
+   "completion_tokens": 84,
+   "total_tokens": 710,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.818180561065674
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:59.154Z",
+ "latencyMs": 1774
+}

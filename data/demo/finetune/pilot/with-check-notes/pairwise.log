@@ -1,0 +1,4 @@
+Judged 40 tasks (0 failed): 40 live Gemma calls, 0 cached, 0 fallbacks.
+Judged 40 tasks (0 failed): 40 live Gemma calls, 0 cached, 0 fallbacks.
+{"pairs": 20, "firstWins": 12, "secondWins": 3, "ties": 5, "ordersDisagreed": 5, "picksByPosition": {"A": 23, "B": 17}}
+{"pairs": 20, "firstWins": 7, "secondWins": 7, "ties": 6, "ordersDisagreed": 6, "picksByPosition": {"A": 26, "B": 14}}

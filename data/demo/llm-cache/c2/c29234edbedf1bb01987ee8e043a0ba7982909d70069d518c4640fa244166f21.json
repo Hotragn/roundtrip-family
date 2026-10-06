@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255334546",
+  "object": "chat.completion",
+  "created": 1791255334,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more natural and warm. Card A uses 'ఉంటాయి' which is grammatically okay but feels a bit like a list, whereas Card B includes 'మీకు చాలా నచ్చుతుంది' (you will really like it) which provides the required reason for enjoyment and flows better in a conversational coastal Andhra style.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 542,
+   "completion_tokens": 77,
+   "total_tokens": 619,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.863635063171387
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:34.568Z",
+ "latencyMs": 1740
+}

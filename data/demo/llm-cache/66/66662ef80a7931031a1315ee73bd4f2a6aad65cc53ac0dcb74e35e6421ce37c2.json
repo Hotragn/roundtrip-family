@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256560166",
+  "object": "chat.completion",
+  "created": 1791256560,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is much more natural and warm. Card A uses 'వెళ్ళుచు' and 'చూడవచ్చు' which sounds like a textbook or a formal announcement rather than a daughter talking to her mother. Card B uses 'వెళ్దాం' (let's go) and 'దర్శనం చేసుకోవచ్చు' (can have darshan), which is much more respectful and culturally appropriate for a temple visit.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 623,
+   "completion_tokens": 95,
+   "total_tokens": 718,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "neurons": 6.50908899307251
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:00.224Z",
+ "latencyMs": 2358
+}

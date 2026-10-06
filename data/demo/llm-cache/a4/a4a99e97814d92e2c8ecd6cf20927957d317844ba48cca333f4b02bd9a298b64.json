@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791255322643",
+  "object": "chat.completion",
+  "created": 1791255322,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"A\", \"reason\": \"Card A follows the instruction to use only the provided details. Card B invents details about 'vegetables and pickles' which were not in the source text.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 486,
+   "completion_tokens": 44,
+   "total_tokens": 530,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 5.618182182312012
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:22.689Z",
+ "latencyMs": 942
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255326862",
+  "object": "chat.completion",
+  "created": 1791255326,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B flows more naturally in Telugu. Card A's phrasing 'సరసుగా 2 మైళ్లు చుట్టొచ్చు' is grammatically awkward and sounds like a direct translation, whereas Card B's 'సరస్సు చుట్టూ నెమ్మదిగా తిరిగి' is much more natural for a coastal Andhra speaker.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 526,
+   "completion_tokens": 78,
+   "total_tokens": 604,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.909090995788574
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:26.883Z",
+ "latencyMs": 1521
+}

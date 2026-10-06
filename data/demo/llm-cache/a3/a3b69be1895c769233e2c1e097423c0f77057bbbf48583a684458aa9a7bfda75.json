@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Bauernmarkt Mangfallplatz కి\", \"body\": \"నాన్నగారు, సోమవారం 10:05కి Neuperlach Zentrum వద్దకు వచ్చేయొచ్చు. Bus 55 తరవాత 9 స్టాపుల తర్వాత Ramersdorf దిగండి, Bus 59 తరవాత 5 స్టాపుల తర్వాత Ampfingstraße దిగండి. అక్కడ 14 నిమిషాలు వచ్చి Bauernmarkt Mangfallplatz వద్దకు వచ్చేయొచ్చు. అక్కడ వాణిజ్యం ఉంటుంది, మీకు నచ్చుతుంది. 12:21కి ఇంటికి వచ్చేయొచ్చు.\"}",
+ "provider": "tinker",
+ "model": "Qwen/Qwen3.5-4B",
+ "createdAt": "2026-10-06T03:02:15.179Z",
+ "latencyMs": 1470
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255762871",
+  "object": "chat.completion",
+  "created": 1791255762,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"body\":\"నాన్నగారు, సోమవారం 13:30కి Fremont Bay St Farmer's Market కి వెళ్దాం. Fremont Blvd & Mowry Av దగ్గర Bus 210 ఎక్కి, 5 స్టాపుల తర్వాత Fremont Blvd & Grimmer Blvd దగ్గర దిగండి. అక్కడి నుండి Bus 239 ఎక్కి 3 స్టాపుల తర్వాత Paseo Padre Pkwy & Senior Center దగ్గర దిగండి. అక్కడ తాజా కూరగాయలు చూడవచ్చు. 15:29కి ఇంటికి వచ్చేయొచ్చు.\", \"title\": \"Fremont Bay St Farmer's Market కి\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1311,
+   "completion_tokens": 140,
+   "total_tokens": 1451,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 15.736363410949707
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:02:42.909Z",
+ "latencyMs": 3127
+}

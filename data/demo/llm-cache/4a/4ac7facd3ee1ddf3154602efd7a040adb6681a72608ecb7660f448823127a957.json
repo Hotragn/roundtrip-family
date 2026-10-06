@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256589779",
+  "object": "chat.completion",
+  "created": 1791256589,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more natural and respectful. Card A uses 'వాళ్కే' which is grammatically awkward/incorrect in this context, and 'వచ్చు' is too blunt. Card B uses 'నడవండి' and 'వచ్చేయొచ్చు' which sounds like a warm suggestion from a daughter to her mother.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 487,
+   "completion_tokens": 78,
+   "total_tokens": 565,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.390908241271973
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:29.836Z",
+ "latencyMs": 2176
+}

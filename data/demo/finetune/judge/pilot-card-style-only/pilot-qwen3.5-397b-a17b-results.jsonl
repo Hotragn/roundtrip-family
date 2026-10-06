@@ -1,0 +1,3 @@
+{"id":"t120:1","tone":5,"factsOk":true,"problem":"","latencyMs":1194,"cached":false}
+{"id":"t129:1","tone":5,"factsOk":false,"problem":"missing a bus transfer step","latencyMs":1800,"cached":false}
+{"id":"t341:1","tone":5,"factsOk":true,"problem":"","latencyMs":4613,"cached":false}

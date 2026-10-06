@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A says 'నది ఒడ్డున నడవొచ్చు' (can walk by the river bank) which is invented—the outing details mention a creek but not a river bank specifically as a walking spot, and more critically, Card A omits the 7-minute walk and the garden/farm animals which are in the details. Card B includes the 7-minute walk, mentions తోటలు (gardens) and చిన్న జంతువులు (small/farm animals) which match the details, and gives a clear reason to enjoy. Both are warm and natural, but Card A has an unsupported claim and misses key logistics and features.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:20:32.072Z",
+ "latencyMs": 6100
+}

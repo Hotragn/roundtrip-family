@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256565271",
+  "object": "chat.completion",
+  "created": 1791256565,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is much more natural and readable. Card B is cluttered with too many numbers and walking durations, making it feel like a manual rather than a warm note. Card A also follows the instruction to include the specific tip about not paying strangers more effectively.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 748,
+   "completion_tokens": 63,
+   "total_tokens": 811,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 8.518181800842285
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:05.356Z",
+ "latencyMs": 1448
+}

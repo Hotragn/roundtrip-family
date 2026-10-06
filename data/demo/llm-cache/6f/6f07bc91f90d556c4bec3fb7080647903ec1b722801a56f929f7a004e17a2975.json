@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255798667",
+  "object": "chat.completion",
+  "created": 1791255798,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"నాన్నగారు, బుధవారం 10:20కి Gemeindebibliothek Ottobrunn కి వెళ్దాం. 7 నిమిషాలు నడిచి Ostbahnhof కి వెళ్ళండి, అక్కడ Bus 21 ఎక్కి 1 స్టాపుల తర్వాత Haidenauplatz దగ్గర దిగండి. అక్కడి నుండి 6 నిమిషాల నడకతో చేరుకోవచ్చు. అక్కడ మంచి పుస్తకాలు చదువుకోవచ్చు. 12:03కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Gemeindebibliothek Ottobrunn కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1056,
+   "completion_tokens": 137,
+   "total_tokens": 1193,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "neurons": 9.263631820678711
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:18.704Z",
+ "latencyMs": 3013
+}

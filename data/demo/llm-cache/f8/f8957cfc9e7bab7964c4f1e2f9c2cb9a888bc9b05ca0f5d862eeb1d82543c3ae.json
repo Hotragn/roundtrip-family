@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255802125",
+  "object": "chat.completion",
+  "created": 1791255802,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"నాన్నగారు, సోమవారం 11:30కి Zamilapark కి వెళ్దాం. Neuperlach Zentrum కి 8 నిమిషాలు నడిచి వెళ్ళి, Bus U5 ఎక్కి 3 స్టాపుల తర్వాత Innsbrucker Ring దగ్గర దిగండి. అక్కడి నుండి 10 నిమిషాలు నడిస్తే Zamilapark చేరుకుంటారు. అక్కడ కొత్తవారి కోసం మంచి కార్యక్రమాలు ఉంటాయి. 13:19కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Zamilapark కి వెళ్దాం\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1044,
+   "completion_tokens": 135,
+   "total_tokens": 1179,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "neurons": 9.099996566772461
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:22.160Z",
+ "latencyMs": 3191
+}

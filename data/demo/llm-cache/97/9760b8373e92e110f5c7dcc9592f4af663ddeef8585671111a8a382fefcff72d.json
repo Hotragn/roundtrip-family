@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A says 'మంచి కూరగాయలు కొనవచ్చు' (good vegetables can be bought) but the outing details say the place is a Lebensmittelhändler (food/grocery store), not specifically vegetables—this is an unsupported invention. Card B says 'కావాల్సిన సరుకులు దొరుకుతాయి' (needed items are available), which is accurate. Card A also misses the 5-minute walk at the end, saying only 'Bahnstraße దిగండి' without mentioning the walk to the venue. Card B includes",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:17.426Z",
+ "latencyMs": 3731
+}

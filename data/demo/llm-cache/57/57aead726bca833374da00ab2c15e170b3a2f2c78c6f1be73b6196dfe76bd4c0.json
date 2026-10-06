@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card A uses 'ఇంటి నుంచి' (from home) making the starting point clear, and 'నడిచి చేరుకోండి' is a natural respectful మీరు form. Card B's 'చూడవచ్చు' shifts focus to what they can see rather than the enjoyable activity of walking, and '3 నిమిషాల నడకతో' is slightly less direct than 'ఇంటి నుంచి 3 నిమిషాలు నడిచి'. Both are good but A's clarity of departure point and warmer invitation to walk together serve better.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:20:35.872Z",
+ "latencyMs": 3791
+}

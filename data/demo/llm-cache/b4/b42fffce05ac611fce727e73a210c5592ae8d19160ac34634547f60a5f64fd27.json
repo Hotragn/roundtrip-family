@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256584049",
+  "object": "chat.completion",
+  "created": 1791256584,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more natural and respectful. Card A uses 'వచ్చేతు' and 'వచ్చేయొచ్చు' which sounds awkward or grammatically incorrect in this context, whereas Card B uses 'వెళ్దాం' (let's go) and 'నడవండి' (please walk) which fits the warm, respectful tone of a daughter talking to her mother.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 489,
+   "completion_tokens": 88,
+   "total_tokens": 577,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.681817054748535
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:24.110Z",
+ "latencyMs": 1860
+}

@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A says 'ఎవరికీ డబ్బులు ఇవ్వకండి' (don't give money to anyone), which is an invented restriction not in the outing details and contradicts shopping at a Lebensmittelhändler where payment is expected. Card B correctly limits the warning to bank details and strangers. However, Card B also has 'మంచి కూరగాయలు' (good vegetables) which slightly exceeds 'Lebensmittelhändler' but is closer than A's error. Both have minor issues, but A's 'don't give money to anyone' is a more significant unsupported invention that would confuse a shopping trip.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:21:14.094Z",
+ "latencyMs": 10900
+}

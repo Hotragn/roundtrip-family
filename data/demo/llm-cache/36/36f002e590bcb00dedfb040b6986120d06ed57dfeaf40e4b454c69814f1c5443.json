@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255812258",
+  "object": "chat.completion",
+  "created": 1791255812,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"body\":\"అమ్మా, శనివారం 08:15కి Grünwaldpark కి వెళ్దాం. 10 నిమిషాలు నడిచి వెళ్ళవచ్చు. అక్కడ పార్కులో కాసేపు హాయిగా ఉండొచ్చు. 10:42కి ఇంటికి వచ్చేయొచ్చు.\" , \"title\": \"Grünwaldpark కి\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1095,
+   "completion_tokens": 80,
+   "total_tokens": 1175,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "neurons": 8.06363296508789
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:32.288Z",
+ "latencyMs": 2514
+}

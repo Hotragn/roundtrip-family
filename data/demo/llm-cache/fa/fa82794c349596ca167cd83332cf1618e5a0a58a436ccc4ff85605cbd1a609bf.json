@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Siddhartha International కి\", \"body\": \"నాన్నగారు, సోమవారం 13:00కి Siddhartha International కి వెళ్దాం. Paseo Padre Pkwy & Walnut Av నుండి Bus 239 ఎక్కండి, 1 స్టాప్‌లో Paseo Padre Pkwy & Kearney St దిగండి. అక్కడ మన ఊరి సరుకులు దొరుకుతాయి. 15:12కి ఇంటికి వచ్చేయొచ్చు.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:13:39.492Z",
+ "latencyMs": 6010
+}

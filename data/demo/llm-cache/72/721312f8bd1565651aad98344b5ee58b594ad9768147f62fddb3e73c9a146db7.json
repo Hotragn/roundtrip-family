@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256562090",
+  "object": "chat.completion",
+  "created": 1791256562,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and respectful. Card B includes 'గోధుమలు' (wheat) which is an incorrect translation/interpretation of the park details, and the flow is slightly more robotic.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 611,
+   "completion_tokens": 52,
+   "total_tokens": 663,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.809089660644531
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:02.153Z",
+ "latencyMs": 1202
+}

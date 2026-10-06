@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256614477",
+  "object": "chat.completion",
+  "created": 1791256614,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and concise. Card B's sentence structure 'మేము కారులో కలిసి వెళ్తాము' feels slightly stiff and repetitive compared to the smooth flow of Card A.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 467,
+   "completion_tokens": 52,
+   "total_tokens": 519,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 5.663636207580566
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:54.539Z",
+ "latencyMs": 873
+}

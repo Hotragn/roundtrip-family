@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256608771",
+  "object": "chat.completion",
+  "created": 1791256608,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B uses more natural, respectful coastal Andhra phrasing (e.g., 'దిగండి', 'ఎక్కి') compared to the slightly more abrupt 'ఎక్కండి', 'దిగి' in Card A. Both follow all other constraints well.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 726,
+   "completion_tokens": 62,
+   "total_tokens": 788,
+   "prompt_tokens_details": {
+    "cached_tokens": 576
+   },
+   "neurons": 5.672724723815918
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:48.836Z",
+ "latencyMs": 1489
+}

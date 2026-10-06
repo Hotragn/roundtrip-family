@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256627518",
+  "object": "chat.completion",
+  "created": 1791256627,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B flows more naturally in Telugu. Card A's instruction 'అక్కడికి 8 నిమిషాలు నడవండి' (Walk 8 minutes there) sounds like a command, whereas Card B's '8 నిమిషాల నడకతో అక్కడికి చేరుకోవచ్చు' (Can reach there with an 8 minute walk) is much warmer and more conversational for a daughter talking to her mother.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 513,
+   "completion_tokens": 99,
+   "total_tokens": 612,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.19999885559082
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:07.579Z",
+ "latencyMs": 2129
+}

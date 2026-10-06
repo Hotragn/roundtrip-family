@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A uses the imperative/command form నడవండి (you walk) and చూడండి (you see), which sounds like ordering the mother around rather than suggesting a shared outing. Card B uses వెళ్దాం (let's go), చేరుకోవచ్చు (we can reach), and చూడవచ్చు (we can see), which is warmer and more inclusive. However, Card B has one issue: it uses the Malayalam word കാഴ്ചలు instead of Telugu దృశ్యాలు or చూడవలసినవి. Despite",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:17.970Z",
+ "latencyMs": 4273
+}

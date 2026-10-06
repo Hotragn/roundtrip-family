@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791255803568",
+  "object": "chat.completion",
+  "created": 1791255803,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\n  \"body\": \"నాన్నగారు, సోమవారం 08:05కి Münchner Stadtbibliothek Sendling కి వెళ్దాం. Neuperlach Zentrum నుండి Bus 139 ఎక్కి 9 స్టాపుల తర్వాత Trudering దగ్గర దిగండి. అక్కడ Bus 193 ఎక్కి 7 స్టాపుల తర్వాత Bahnstraße దగ్గర దిగి, 6 నిమిషాలు నడిస్తే లైబ్రరీ చేరుకుంటారు. అక్కడ పుస్తకాలు చూడవచ్చు. 11:43కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Münchner Stadtbibliothek Sendling కి\"\n}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1103,
+   "completion_tokens": 138,
+   "total_tokens": 1241,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 13.790908813476562
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:23.610Z",
+ "latencyMs": 1187
+}

@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B uses English words 'భారతీయ' (Sanskrit-derived but unnecessary when 'మన ఊరి సరుకులు' is warmer and more natural) and adds invented detail '6 నిమిషాలు నడిస్తే' which, while in the trip details, makes the card wordier; Card A's 'మన ఊరి సరుకులు' is more emotionally resonant coastal Andhra speech, and A is tighter at 38 words vs B's 48 words, with all required info cleanly presented\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:31.606Z",
+ "latencyMs": 3919
+}

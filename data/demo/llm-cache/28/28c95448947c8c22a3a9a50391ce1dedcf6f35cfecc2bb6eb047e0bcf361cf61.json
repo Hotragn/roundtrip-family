@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B uses English word 'center' in 'కేంద్రం' explanation and adds flattering 'చాలా బాగుంటుంది' not supported by details; Card A is warmer, more natural, and sticks exactly to given information\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:35.913Z",
+ "latencyMs": 2463
+}

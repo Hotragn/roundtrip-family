@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B invents '12 నిమిషాల నడక' when the details say 12 minutes walk is from the bus stop to venue, but B omits the initial 5-minute walk entirely and misrepresents the walk timing; also 'అందమైన హిందూ దేవాలయం' is unnecessary embellishment when 'దేవుడి దర్శనం' in A is the natural reason. A is cleaner, more accurate, and within 60 words.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:20:25.769Z",
+ "latencyMs": 3714
+}

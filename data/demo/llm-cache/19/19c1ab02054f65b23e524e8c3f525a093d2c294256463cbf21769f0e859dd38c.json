@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card A clearly says when to leave (బయలుదేరి), includes the 3-minute walk instruction before the bus stop, and uses natural coastal Andhra flow. Card B omits 'బయలుదేరి' making the departure less explicit, skips '3 నిమిషాలు నడిచి', and uses 'స్టాపుల' (plural) which is slightly awkward for '1 stop' compared to A's cleaner '1 స్టాప్ తర్వాత'.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:27.019Z",
+ "latencyMs": 3907
+}

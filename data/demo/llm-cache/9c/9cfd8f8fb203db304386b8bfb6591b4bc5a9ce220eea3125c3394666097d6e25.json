@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A uses 'లైబ్రరీ' in English letters which violates the 'no other English words' rule, and says 'పుస్తకాలు చదవొచ్చు' which invents an activity not in the details. Card B correctly says 'చిన్న లైబ్రరీ ఉంది' using Telugu script, gives one reason ('మీకు నచ్చుతుంది'), and sticks to what the details support.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:41.365Z",
+ "latencyMs": 3268
+}

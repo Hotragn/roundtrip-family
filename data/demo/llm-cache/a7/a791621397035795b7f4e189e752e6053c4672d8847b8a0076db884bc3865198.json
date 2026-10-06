@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256556891",
+  "object": "chat.completion",
+  "created": 1791256556,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is much clearer regarding the walking instructions and the sequence of the trip. Card B skips the initial 3-minute walk to the bus stop, making the directions incomplete.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 597,
+   "completion_tokens": 48,
+   "total_tokens": 645,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.736363410949707
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:15:56.967Z",
+ "latencyMs": 1284
+}

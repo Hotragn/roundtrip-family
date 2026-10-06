@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256497275",
+  "object": "chat.completion",
+  "created": 1791256497,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"factsOk\": true, \"problem\": \"uses English words instead of Telugu\", \"tone\": 3}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 516,
+   "completion_tokens": 24,
+   "total_tokens": 540,
+   "prompt_tokens_details": {
+    "cached_tokens": 320
+   },
+   "neurons": 3.8909077644348145
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:14:57.341Z",
+ "latencyMs": 755
+}

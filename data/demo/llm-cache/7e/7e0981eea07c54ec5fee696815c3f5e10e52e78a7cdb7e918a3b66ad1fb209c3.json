@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255824396",
+  "object": "chat.completion",
+  "created": 1791255824,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"అమ్మా, సోమవారం 12:45కి College 'M' Trail కి వెళ్దాం. అక్కడికి వెళ్లడానికి 19 minutes నడవాలి. అక్కడ ప్రకృతి మధ్యలో కాస్త నడవడానికి చాలా బాగుంటుంది. 14:00కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"College 'M' Trail కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 998,
+   "completion_tokens": 91,
+   "total_tokens": 1089,
+   "prompt_tokens_details": {
+    "cached_tokens": 832
+   },
+   "neurons": 7.77272367477417
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:44.422Z",
+ "latencyMs": 3639
+}

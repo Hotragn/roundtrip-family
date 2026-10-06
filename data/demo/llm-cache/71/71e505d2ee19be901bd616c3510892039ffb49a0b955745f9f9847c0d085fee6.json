@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A says 'మనం కారులో వెళ్తాం' which is grammatically awkward and less natural in coastal Andhra Telugu; 'కలిసి కారులో వెళ్దాం' in Card B flows better and emphasizes togetherness warmly. Both are otherwise similar, but B's phrasing is more natural and neighborly.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:56.117Z",
+ "latencyMs": 4076
+}

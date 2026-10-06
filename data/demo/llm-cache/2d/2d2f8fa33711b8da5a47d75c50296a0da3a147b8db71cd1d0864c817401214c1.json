@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256568919",
+  "object": "chat.completion",
+  "created": 1791256568,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is natural and uses correct Telugu. Card B contains nonsensical words like 'వాడగ' and 'ప్రిజుడ్' which do not make sense in this context.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 490,
+   "completion_tokens": 49,
+   "total_tokens": 539,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.62727165222168
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:08.980Z",
+ "latencyMs": 1517
+}

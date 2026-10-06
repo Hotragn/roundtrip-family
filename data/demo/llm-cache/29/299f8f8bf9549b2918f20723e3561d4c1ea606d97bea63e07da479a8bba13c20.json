@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255584265",
+  "object": "chat.completion",
+  "created": 1791255584,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"factsOk\": false, \"problem\": \"missing the transfer at Ostbahnhof/Ostbahnhof walk step\", \"tone\": 5}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 605,
+   "completion_tokens": 29,
+   "total_tokens": 634,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.290909290313721
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:59:44.302Z",
+ "latencyMs": 811
+}

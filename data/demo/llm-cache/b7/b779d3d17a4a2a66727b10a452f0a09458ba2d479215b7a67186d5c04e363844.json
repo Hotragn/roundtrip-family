@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256587199",
+  "object": "chat.completion",
+  "created": 1791256587,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and respectful. Card B uses 'వాళ్కే' which is grammatically incorrect/unnatural in this context and misspells 'అక్కడ' as 'అకడ'. Card A follows all instructions perfectly.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 494,
+   "completion_tokens": 59,
+   "total_tokens": 553,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.936362266540527
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:27.261Z",
+ "latencyMs": 1310
+}

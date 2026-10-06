@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255389895",
+  "object": "chat.completion",
+  "created": 1791255389,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and warm. Card B uses 'అన్యులకు' which is very formal/literary and doesn't sound like natural coastal Andhra speech. Card A's flow is better for a daughter talking to her father.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 673,
+   "completion_tokens": 62,
+   "total_tokens": 735,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.645453453063965
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:29.920Z",
+ "latencyMs": 1401
+}

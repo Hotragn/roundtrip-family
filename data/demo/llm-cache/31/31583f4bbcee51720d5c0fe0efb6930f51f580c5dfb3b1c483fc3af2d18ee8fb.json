@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255369993",
+  "object": "chat.completion",
+  "created": 1791255369,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is slightly better because it provides a warmer reason for the outing (taking in the fresh air/గాలి తీసుకోవచ్చు) which makes it feel more like a thoughtful suggestion rather than just a list of facts.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 550,
+   "completion_tokens": 55,
+   "total_tokens": 605,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.336362361907959
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:10.018Z",
+ "latencyMs": 1999
+}

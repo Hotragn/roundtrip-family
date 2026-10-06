@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256581935",
+  "object": "chat.completion",
+  "created": 1791256581,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A provides a better reason for the outing (seeing a famous temple) and uses more natural phrasing, whereas Card B's reason is vague. Card A's description of the walk is slightly awkward but Card B's 'ప్రశాంతంగా చూడండి' (watch peacefully) is an unnatural way to describe visiting a landmark.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 515,
+   "completion_tokens": 80,
+   "total_tokens": 595,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.69999885559082
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:21.994Z",
+ "latencyMs": 2024
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255383978",
+  "object": "chat.completion",
+  "created": 1791255383,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and warm. Card B uses 'బయలుదేరండి' (leave) which sounds a bit like a command/instruction, whereas Card A uses 'వెళ్దాం' (let's go), which fits the 'neighbor's daughter' persona much better.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 505,
+   "completion_tokens": 73,
+   "total_tokens": 578,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.418180465698242
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:24.003Z",
+ "latencyMs": 1579
+}

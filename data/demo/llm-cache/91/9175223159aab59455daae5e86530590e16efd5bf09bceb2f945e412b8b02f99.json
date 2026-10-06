@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256573544",
+  "object": "chat.completion",
+  "created": 1791256573,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more accurate and natural. Card B omits the initial 8-minute walk to the bus stop and contains a typo ('వచి' instead of 'నడిచి'). Card A also provides a more realistic reason for enjoying a park (sitting peacefully) compared to Card B's 'parades/processions' (ఊరేగింపులు), which is an odd translation for a park visit.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 605,
+   "completion_tokens": 96,
+   "total_tokens": 701,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.9545440673828125
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:13.608Z",
+ "latencyMs": 1802
+}

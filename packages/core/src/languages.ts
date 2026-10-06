@@ -2,9 +2,9 @@ import type { LanguageRecord } from "./schema/language";
 
 /**
  * What each language can do. The voice router (agent/voice/router.ts) and the dashboard's
- * Languages screen read this. Statuses change as the build adds models: the Telugu card writer
- * moves from "fallback" (Gemma with the card-style prompt) to "ready" once the Tinker LoRA is
- * trained and evaluated.
+ * Languages screen read this. Statuses change as the build adds models: a language's card writer
+ * is "fallback" (Gemma with the card-style prompt) until the Tinker pipeline has tuned one for it,
+ * as it has for Telugu (docs/finetune-results.md).
  */
 export const LANGUAGES: LanguageRecord[] = [
   {
@@ -15,7 +15,7 @@ export const LANGUAGES: LanguageRecord[] = [
     script: "Telugu",
     direction: "ltr",
     reading: { status: "ready", provider: "Cloudflare Workers AI", model: "Gemma 4 26B A4B" },
-    cardWriter: { status: "fallback", provider: "Cloudflare Workers AI", model: "Gemma 4 with the card-style prompt" },
+    cardWriter: { status: "ready", provider: "Tinker", model: "Qwen3.5-4B with Roundtrip's Telugu LoRA" },
     speaking: { status: "ready", provider: "Open model, run at home", model: "AI4Bharat Indic Parler-TTS" },
     listening: { status: "ready", provider: "Open model, run at home", model: "AI4Bharat IndicConformer" },
     elevenLabs: true,

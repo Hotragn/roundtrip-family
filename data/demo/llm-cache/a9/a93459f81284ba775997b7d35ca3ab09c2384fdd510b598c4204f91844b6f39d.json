@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Hariom Temple కి\", \"body\": \"అమ్మా, ఆదివారం 10:45కి Hariom Temple కి కలిసి కారులో వెళ్దాం. అక్కడ హిందూ దేవాలయం ఉంది. మీరు ప్రశాంతంగా దర్శనం చేసుకోవచ్చు. 13:03కి ఇంటికి వచ్చేయొచ్చు.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:40:16.398Z",
+ "latencyMs": 738
+}

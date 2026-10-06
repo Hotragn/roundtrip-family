@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255370724",
+  "object": "chat.completion",
+  "created": 1791255370,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B flows more naturally in coastal Andhra Telugu. Card A's phrasing 'చేరుకోవచ్చు' and 'వచ్చేయొచ్చు' feels a bit repetitive and slightly stiff, whereas Card B's addition of 'గాలి తీసుకోవచ్చు' (can get some fresh air) provides a warm, natural reason for the outing that fits the context of a morning walk better.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 550,
+   "completion_tokens": 88,
+   "total_tokens": 638,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "neurons": 5.654543876647949
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:10.748Z",
+ "latencyMs": 2727
+}

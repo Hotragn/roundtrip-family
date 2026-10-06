@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A uses English word 'library' (లైబ్రరీ) instead of Telugu, violating the no-other-English-words rule; Card B uses 'బయలుదేరి' which is natural coastal Andhra Telugu, and 'చదవొచ్చు' is a better reason than 'చూడవచ్చు' for a library visit. Both are warm and respectful, but Card A's English loanword is a clear flaw.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:12.613Z",
+ "latencyMs": 3960
+}

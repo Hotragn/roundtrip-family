@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256491951",
+  "object": "chat.completion",
+  "created": 1791256491,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"factsOk\": false, \"problem\": \"incorrect word for produce/vegetables and title error\", \"tone\": 2}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 516,
+   "completion_tokens": 28,
+   "total_tokens": 544,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 5.454545021057129
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:14:52.018Z",
+ "latencyMs": 353
+}

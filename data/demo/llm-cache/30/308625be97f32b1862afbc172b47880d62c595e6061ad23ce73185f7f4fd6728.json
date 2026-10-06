@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A uses English word 'Bus' violating the no-other-English-words rule, while Card B uses no extra English words. Card B also flows more naturally in coastal Andhra Telugu with 'అక్కడి నుండి' and 'దగ్గర దిగండి', and 'ప్రకృతిలో కాసేపు సేదతీరవచ్చు' is a warmer, more natural reason than Card A's stiff 'ప్రశాంతంగా కూర్చోవచ్చు'. Both are under 60 words and have correct details, but B is warmer and rule-compliant.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:20:41.721Z",
+ "latencyMs": 4236
+}

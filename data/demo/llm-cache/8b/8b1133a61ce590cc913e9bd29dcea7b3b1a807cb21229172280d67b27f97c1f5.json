@@ -1,0 +1,7 @@
+{
+ "body": "{\n  \"title\": \"New India Market\",\n  \"body\": \"నాన్నగారు, ఆదివారం 15:00న మనం కారుతో వెళుదాం. New India Market లోకి వెళ్లి సొమ్మని కొనవచ్చు. 16:30న ఇంటికి వచ్చేయొచ్చు.\"\n}",
+ "provider": "tinker",
+ "model": "Qwen/Qwen3.5-4B",
+ "createdAt": "2026-10-06T03:02:11.863Z",
+ "latencyMs": 1213
+}

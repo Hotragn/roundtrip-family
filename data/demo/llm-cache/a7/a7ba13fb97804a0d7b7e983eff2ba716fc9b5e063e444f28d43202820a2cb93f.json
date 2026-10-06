@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255369951",
+  "object": "chat.completion",
+  "created": 1791255369,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A feels more natural and warm. Card B uses the English phrase 'Indian grocery store' in the body, which violates the rule to use no other English words besides the specific names provided. Card A also provides a better reason for the outing (local vegetables/pickles) in natural Telugu.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 490,
+   "completion_tokens": 72,
+   "total_tokens": 562,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.254544258117676
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:09.974Z",
+ "latencyMs": 2216
+}

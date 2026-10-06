@@ -1,0 +1,9 @@
+Judged 20 tasks (0 failed): 19 live Gemma calls, 1 cached, 0 fallbacks.
+Judged 20 tasks (0 failed): 20 live Gemma calls, 0 cached, 0 fallbacks.
+Judged 20 tasks (0 failed): 20 live Gemma calls, 0 cached, 0 fallbacks.
+Judged 20 tasks (0 failed): 20 live Gemma calls, 0 cached, 0 fallbacks.
+Pilot: 20 outings x 4 teachers, worst case $0.319
+{"teacher": "Qwen/Qwen3.6-35B-A3B", "drafts": 20, "codeChecksPass": 12, "judged": 20, "meanTone": 4.7, "tone4or5": 19, "factsOk": 17, "passGate": 12, "medianWords": 29.5, "costUsd": 0.0082, "costPerDraftUsd": 0.00041, "medianLatencyMs": 5155.0, "cachedShare": 0.84, "failures": ["no respectful మీరు form", "number not in the input"]}
+{"teacher": "Qwen/Qwen3.5-397B-A17B", "drafts": 20, "codeChecksPass": 11, "judged": 20, "meanTone": 5, "tone4or5": 20, "factsOk": 20, "passGate": 11, "medianWords": 30.5, "costUsd": 0.046, "costPerDraftUsd": 0.0023, "medianLatencyMs": 2389.5, "cachedShare": 0.84, "failures": ["Latin-script text not in the input", "no respectful మీరు form"]}
+{"teacher": "moonshotai/Kimi-K2.6", "drafts": 20, "codeChecksPass": 12, "judged": 20, "meanTone": 4.75, "tone4or5": 19, "factsOk": 18, "passGate": 12, "medianWords": 34.0, "costUsd": 0.0399, "costPerDraftUsd": 0.002, "medianLatencyMs": 3225.5, "cachedShare": 0.85, "failures": ["Latin-script text not in the input", "no respectful మీరు form"]}
+{"teacher": "deepseek-ai/DeepSeek-V3.1", "drafts": 20, "codeChecksPass": 9, "judged": 20, "meanTone": 4.55, "tone4or5": 17, "factsOk": 18, "passGate": 7, "medianWords": 27.5, "costUsd": 0.0271, "costPerDraftUsd": 0.00136, "medianLatencyMs": 3272.5, "cachedShare": 0.85, "failures": ["Latin-script text not in the input", "no respectful మీరు form", "number not in the input"]}

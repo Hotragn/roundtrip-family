@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255810942",
+  "object": "chat.completion",
+  "created": 1791255810,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"అమ్మా, సోమవారం 10:45కి Wochenmarkt Trudering కి వెళ్దాం. అక్కడికి నడిచి 19 minutes వెళ్ళాలి. అక్కడ Markt లో మంచి వస్తువులు చూడొచ్చు. 12:36కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Wochenmarkt Trudering కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 997,
+   "completion_tokens": 88,
+   "total_tokens": 1085,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "neurons": 7.390905380249023
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:30.970Z",
+ "latencyMs": 2464
+}

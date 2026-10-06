@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card B includes the initial 3-minute walk to the bus stop that Card A omits, making the trip instructions complete and accurate. Card B also uses 'బయలుదేరి' which clearly indicates departure time, and 'చదువుకోవచ్చు' is a more natural reason for a father's enjoyment at a library than Card A's vague 'చూడవచ్చు'. Both cards use respectful మీరు forms and proper names, but Card A's missing first walk segment is a significant omission for navigation.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:20:25.961Z",
+ "latencyMs": 3860
+}

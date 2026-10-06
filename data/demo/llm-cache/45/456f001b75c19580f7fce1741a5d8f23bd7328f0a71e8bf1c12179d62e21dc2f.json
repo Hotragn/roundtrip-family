@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255389876",
+  "object": "chat.completion",
+  "created": 1791255389,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B sounds more natural and warm in coastal Andhra Telugu ('వచ్చేయొచ్చు' vs 'తిరిగి వచ్చేస్తారు'). Card A's ending sounds a bit like a command or a statement of fact rather than a suggestion for a shared outing.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 466,
+   "completion_tokens": 62,
+   "total_tokens": 528,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.763635158538818
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:29.906Z",
+ "latencyMs": 1127
+}

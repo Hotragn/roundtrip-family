@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255258946",
+  "object": "chat.completion",
+  "created": 1791255258,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"factsOk\": false, \"problem\": \"incorrect verb form for returning home\", \"tone\": 4}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 496,
+   "completion_tokens": 24,
+   "total_tokens": 520,
+   "prompt_tokens_details": {
+    "cached_tokens": 320
+   },
+   "neurons": 3.7090892791748047
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:54:18.998Z",
+ "latencyMs": 1385
+}

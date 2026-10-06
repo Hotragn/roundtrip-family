@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card A clearly states the 7-minute walk to the park, gives a specific reason to enjoy (gardens and small animals), and keeps all venue/stop names exact. Card B invents 'నది ఒడ్డున నడవొచ్చు' (walking by a river) not supported by the details, omits the 7-minute walk, and is less complete.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:34.828Z",
+ "latencyMs": 3183
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255336893",
+  "object": "chat.completion",
+  "created": 1791255336,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B flows more naturally in Telugu. Card A uses 'భక్ష్యాలు' (snacks/sweets) which feels a bit formal/stiff, whereas Card B's description of the event feels warmer. Card B also follows the instruction to include the venue name in the body more effectively.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 696,
+   "completion_tokens": 73,
+   "total_tokens": 769,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 8.318181991577148
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:36.917Z",
+ "latencyMs": 1870
+}

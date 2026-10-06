@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255777626",
+  "object": "chat.completion",
+  "created": 1791255777,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"అమ్మా, బుధవారం 08:00కి Age Well Center at South Fremont కి వెళ్దాం. అక్కడికి నడిచి 13 minutes వెళ్లాలి. అక్కడ చాలా మంది పెద్దవారు ఉంటారు, మీరు వారితో కలిసి సరదాగా గడపవచ్చు. 10:05కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Age Well Center at South Fremont కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1002,
+   "completion_tokens": 98,
+   "total_tokens": 1100,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "neurons": 7.709087371826172
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:02:57.662Z",
+ "latencyMs": 2514
+}

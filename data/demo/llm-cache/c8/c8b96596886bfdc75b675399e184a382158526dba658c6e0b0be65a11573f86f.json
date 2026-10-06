@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256624548",
+  "object": "chat.completion",
+  "created": 1791256624,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B flows more naturally in Telugu. Card A uses 'ఎక్కండి' (command/instructional) and 'దిగండి' (command), which feels slightly stiff, whereas Card B uses 'ఎక్కి' and 'దిగి' to create a smoother, more conversational narrative suitable for a daughter talking to her father.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 672,
+   "completion_tokens": 78,
+   "total_tokens": 750,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 7.072726249694824
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:05.189Z",
+ "latencyMs": 2222
+}

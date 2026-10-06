@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card A clearly says walk 9 minutes to the bus stop and walk 8 minutes after getting off, while Card B omits both walking times, making the trip unclear. Card A also uses natural speech (దొరుకుతాయి) versus Card B's awkward 'సరసరసగా' (likely typo for తాజాగా or similar). Both end with the required safety tip, but Card A's version is more natural coastal Andhra style.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:26.877Z",
+ "latencyMs": 3816
+}

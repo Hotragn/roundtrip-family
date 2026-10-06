@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256619919",
+  "object": "chat.completion",
+  "created": 1791256619,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"A\", \"reason\": \"Card A includes all the specific travel instructions (walking times and directions) provided in the details, whereas Card B skips the walking instructions. Card A is more complete and helpful.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 590,
+   "completion_tokens": 47,
+   "total_tokens": 637,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.645454406738281
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:59.989Z",
+ "latencyMs": 832
+}

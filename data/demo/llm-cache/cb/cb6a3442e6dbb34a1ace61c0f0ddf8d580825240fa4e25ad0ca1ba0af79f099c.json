@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B uses English words 'బ్యాంక్' and 'వివరాలు' instead of pure Telugu, and has a redundant phrase 'ఎవరికీ...ఎవరికీ'; Card A is tighter, uses 'బ్యాంకు వివరాలు' in Telugu, and the tip is more natural. Both are warm, but A follows constraints better.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:42.434Z",
+ "latencyMs": 2541
+}

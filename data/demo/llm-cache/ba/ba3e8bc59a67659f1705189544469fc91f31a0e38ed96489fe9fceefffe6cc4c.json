@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256587338",
+  "object": "chat.completion",
+  "created": 1791256587,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card A uses 'అకడ హైకింగ్ అరేయా' which is a poor transliteration and sounds unnatural. Card B uses natural Telugu 'నడక చేయొచ్చు' to describe the hiking activity while following all other constraints.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 494,
+   "completion_tokens": 60,
+   "total_tokens": 554,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.963634967803955
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:27.397Z",
+ "latencyMs": 1448
+}

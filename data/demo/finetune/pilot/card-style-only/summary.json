@@ -1,0 +1,78 @@
+[
+ {
+  "teacher": "Qwen/Qwen3.6-35B-A3B",
+  "drafts": 20,
+  "codeChecksPass": 6,
+  "judged": 6,
+  "meanTone": 4.83,
+  "factsOk": 6,
+  "passGate": 6,
+  "medianWords": 31.0,
+  "costUsd": 0.008,
+  "costPerDraftUsd": 0.0004,
+  "medianLatencyMs": 4750.0,
+  "cachedShare": 0.79,
+  "failures": [
+   "Latin-script text not in the input",
+   "no respectful మీరు form",
+   "number not in the input"
+  ]
+ },
+ {
+  "teacher": "Qwen/Qwen3.5-397B-A17B",
+  "drafts": 20,
+  "codeChecksPass": 3,
+  "judged": 3,
+  "meanTone": 5,
+  "factsOk": 2,
+  "passGate": 2,
+  "medianWords": 31.0,
+  "costUsd": 0.0459,
+  "costPerDraftUsd": 0.00229,
+  "medianLatencyMs": 2601.5,
+  "cachedShare": 0.79,
+  "failures": [
+   "Latin-script text not in the input",
+   "no respectful మీరు form",
+   "number not in the input"
+  ]
+ },
+ {
+  "teacher": "moonshotai/Kimi-K2.6",
+  "drafts": 20,
+  "codeChecksPass": 5,
+  "judged": 5,
+  "meanTone": 5,
+  "factsOk": 5,
+  "passGate": 5,
+  "medianWords": 33.0,
+  "costUsd": 0.0384,
+  "costPerDraftUsd": 0.00192,
+  "medianLatencyMs": 2750.0,
+  "cachedShare": 0.8,
+  "failures": [
+   "61 words, more than 60",
+   "Latin-script text not in the input",
+   "no respectful మీరు form",
+   "number not in the input"
+  ]
+ },
+ {
+  "teacher": "deepseek-ai/DeepSeek-V3.1",
+  "drafts": 20,
+  "codeChecksPass": 6,
+  "judged": 6,
+  "meanTone": 5,
+  "factsOk": 6,
+  "passGate": 6,
+  "medianWords": 29.5,
+  "costUsd": 0.0264,
+  "costPerDraftUsd": 0.00132,
+  "medianLatencyMs": 3351.0,
+  "cachedShare": 0.8,
+  "failures": [
+   "no respectful మీరు form",
+   "number not in the input"
+  ]
+ }
+]

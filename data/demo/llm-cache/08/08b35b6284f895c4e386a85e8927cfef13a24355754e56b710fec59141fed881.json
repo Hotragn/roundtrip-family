@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B uses English words 'Senior citizen center' instead of Telugu 'పెద్దల కోసం ఉండే కేంద్రం'; Card A's '11 నిమిషాలు నడవండి' is clearer than B's abbreviated '11 నడిచి'; Card A gives a warmer reason ('మీకు చాలా బాగుంటుంది') versus B's plain 'మీకు నచ్చుతుంది'\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:36.090Z",
+ "latencyMs": 2642
+}

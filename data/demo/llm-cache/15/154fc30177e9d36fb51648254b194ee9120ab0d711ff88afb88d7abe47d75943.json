@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Karya Siddhi Hanuman Temple కి\", \"body\": \"అమ్మా, సోమవారం 08:30కి Karya Siddhi Hanuman Temple కి వెళ్దాం. Fremont Blvd & Mowry Ave వద్ద Bus 211 ఎక్కండి, 7 స్టాపుల తర్వాత Fremont Blvd. at Peralta Ct. దిగండి. అక్కడ దేవుడిని దర్శించుకోవచ్చు. 10:10కి ఇంటికి వచ్చేయొచ్చు. బ్యాంకు వివరాలు ఎవరికీ ఇవ్వకండి, అపరిచితులకు డబ్బు చెల్లించకండి.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:39:53.732Z",
+ "latencyMs": 6222
+}

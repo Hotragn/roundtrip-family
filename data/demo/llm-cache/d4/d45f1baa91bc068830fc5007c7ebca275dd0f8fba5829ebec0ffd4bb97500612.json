@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256606082",
+  "object": "chat.completion",
+  "created": 1791256606,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c1\",\"parent\":\"father\",\"reason\":\"He enjoyed previous temple outings.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c2\",\"parent\":\"father\",\"reason\":\"He enjoys visiting temples.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c3\",\"parent\":\"father\",\"reason\":\"He liked spending time in the spice aisle at Indian grocery stores.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c5\",\"parent\":\"father\",\"reason\":\"He enjoys watching people at the park and walking.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c8\",\"parent\":\"father\",\"reason\":\"It is a program for older adults that has worked before.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false}],\"note\":\"No Telugu events or groups were found nearby this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1949,
+   "completion_tokens": 216,
+   "total_tokens": 2165,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 23.60909080505371
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:46.960Z",
+ "latencyMs": 5620
+}

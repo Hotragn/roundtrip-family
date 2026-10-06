@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255029005",
+  "object": "chat.completion",
+  "created": 1791255029,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"factsOk\": true, \"problem\": \"stiff English word 'grocery store' used instead of Telugu, though acceptable in modern speech; overall tone is fine.\" , \"tone\": 4}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 496,
+   "completion_tokens": 42,
+   "total_tokens": 538,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 5.654545307159424
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:50:16.288Z",
+ "latencyMs": 1719
+}

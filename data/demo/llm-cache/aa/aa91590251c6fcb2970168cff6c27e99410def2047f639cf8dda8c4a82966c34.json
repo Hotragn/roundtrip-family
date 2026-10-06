@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255830193",
+  "object": "chat.completion",
+  "created": 1791255830,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"నాన్నగారు, మంగళవారం 15:30కి 50+ prime expo కి వెళ్దాం. 11 minutes నడిచి అక్కడికి చేరుకోవచ్చు. అక్కడ Senior citizen center ఉంటుంది, మీకు నచ్చుతుంది. 17:12కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"50+ prime expo కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1003,
+   "completion_tokens": 89,
+   "total_tokens": 1092,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "neurons": 7.472723484039307
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:50.225Z",
+ "latencyMs": 3715
+}

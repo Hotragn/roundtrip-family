@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255844964",
+  "object": "chat.completion",
+  "created": 1791255844,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"అమ్మా, బుధవారం 11:15కి Seniors' lunch and bingo కి వెళ్దాం. 9 నిమిషాల నడకతో అక్కడికి చేరుకోవచ్చు. మధ్యాహ్నం వేడి వేడి భోజనం, ఆ తర్వాత బింగో ఆటలు ఉంటాయి. కొత్తవారికి అక్కడ చాలా స్వాగతం పలుకుతారు. 13:27కి ఇంటికి వచ్చేయొచ్చు. ఎవరికీ మీ బ్యాంక్ వివరాలు చెప్పకండి, ఎవరికీ డబ్బులు చెల్లించకండి.\",\n  \"title\": \"Seniors' lunch and bingo కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1024,
+   "completion_tokens": 139,
+   "total_tokens": 1163,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "neurons": 9.02726936340332
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:04:04.999Z",
+ "latencyMs": 2983
+}

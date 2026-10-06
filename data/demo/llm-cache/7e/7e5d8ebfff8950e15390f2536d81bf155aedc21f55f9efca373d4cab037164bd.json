@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card A clearly states the 9-minute walk duration to Neuperlach Zentrum, specifies '1 స్టాపుల తర్వాత' for clarity, and gives the accurate reason 'మీకు నచ్చిన భారతీయ వస్తువులు' (Indian items you'd like) based on 'Lebensmittelhändler' as a grocery store. Card B omits the 9-minute walk time, uses vague 'వరకు నడిచి', and incorrectly narrows to 'కూరగాయలు' (vegetables) which isn't specified in the details.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:08.646Z",
+ "latencyMs": 3722
+}

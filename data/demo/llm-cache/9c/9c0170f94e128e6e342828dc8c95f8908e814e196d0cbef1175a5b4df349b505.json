@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255792689",
+  "object": "chat.completion",
+  "created": 1791255792,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"నాన్నగారు, శుక్రవారం 14:00కి Rodelhügel im Riemer Park కి వెళ్దాం. Innsbrucker Ring కి 8 నిమిషాలు నడిచి, అక్కడ Bus U2 ఎక్కి 2 స్టాపుల తర్వాత Giesing దగ్గర దిగండి. అక్కడి నుండి 11 నిమిషాల నడక తర్వాత పార్కు చేరుకుంటారు. అక్కడ ప్రకృతిలో కాసేపు సేదతీరవచ్చు. 15:51కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Rodelhügel im Riemer Park కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1048,
+   "completion_tokens": 137,
+   "total_tokens": 1185,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 13.263635635375977
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:12.726Z",
+ "latencyMs": 3223
+}

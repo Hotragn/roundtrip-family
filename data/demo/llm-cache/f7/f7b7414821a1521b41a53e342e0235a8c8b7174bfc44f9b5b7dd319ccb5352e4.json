@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255747745",
+  "object": "chat.completion",
+  "created": 1791255747,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"factsOk\": true, \"problem\": \"stiff/bookish phrasing with 'చూడొచ్చు' and 'వచ్చేయొచ్చు' instead of natural conversational Telugu.\" , \"tone\": 3}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 495,
+   "completion_tokens": 46,
+   "total_tokens": 541,
+   "prompt_tokens_details": {
+    "cached_tokens": 320
+   },
+   "neurons": 4.2999982833862305
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:02:27.784Z",
+ "latencyMs": 1211
+}

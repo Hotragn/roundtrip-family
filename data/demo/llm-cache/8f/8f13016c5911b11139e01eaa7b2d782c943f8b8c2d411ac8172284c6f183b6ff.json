@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255343306",
+  "object": "chat.completion",
+  "created": 1791255343,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is warmer and more natural. Card A's sentence 'మేమే కారు ఎక్కి వెళ్తాం' (We will climb the car and go) sounds awkward and stiff, whereas Card B uses a more pleasant reason for the trip (walking among beautiful hills).\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 472,
+   "completion_tokens": 68,
+   "total_tokens": 540,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.981817245483398
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:43.331Z",
+ "latencyMs": 1537
+}

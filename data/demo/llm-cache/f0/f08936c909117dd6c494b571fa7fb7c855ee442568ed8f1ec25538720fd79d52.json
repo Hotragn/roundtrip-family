@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256567403",
+  "object": "chat.completion",
+  "created": 1791256567,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A uses natural Telugu to describe the scenery, whereas Card B uses transliterated English words like 'హైకింగ్ రేల్స్' (hiking trails) and 'గోర్జ్' (gorge) which sounds unnatural and clunky.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 543,
+   "completion_tokens": 62,
+   "total_tokens": 605,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.463635444641113
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:07.460Z",
+ "latencyMs": 1515
+}

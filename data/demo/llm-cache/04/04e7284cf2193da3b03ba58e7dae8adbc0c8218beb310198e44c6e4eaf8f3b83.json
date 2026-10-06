@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256563762",
+  "object": "chat.completion",
+  "created": 1791256563,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is much more natural and flows better. Card A is repetitive and contains a logical error/repetition at the end. Card B also includes a reason to enjoy the outing (shopping at the market) as requested.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 703,
+   "completion_tokens": 57,
+   "total_tokens": 760,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 7.945454120635986
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:03.822Z",
+ "latencyMs": 1308
+}

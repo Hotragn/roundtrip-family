@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791255756245",
+  "object": "chat.completion",
+  "created": 1791255756,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\n  \"body\": \"నాన్నగారు, బుధవారం 11:30కి Dry Creek Pioneer Regional Park కి వెళ్దాం. Fremont Blvd & Mowry Ave దగ్గర Bus 211 ఎక్కండి, 2 స్టాపుల తర్వాత Fremont Blvd & Country Dr దగ్గర దిగి, 7 నిమిషాలు నడిస్తే పార్క్ చేరుకుంటారు. అక్కడ తోటలు, చిన్న జంతువులు చూడటానికి చాలా బాగుంటాయి. 12:40కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Dry Creek Pioneer Regional Park కి\"\n}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1080,
+   "completion_tokens": 130,
+   "total_tokens": 1210,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 13.363636016845703
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:02:36.282Z",
+ "latencyMs": 2125
+}

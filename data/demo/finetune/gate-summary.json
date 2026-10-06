@@ -1,0 +1,26 @@
+{
+ "teacher": "Qwen/Qwen3.5-397B-A17B",
+ "outings": 360,
+ "firstDraftsPassed": 182,
+ "firstDraftCodeChecksPassed": 196,
+ "regenerated": 178,
+ "regeneratedPassed": 160,
+ "kept": 342,
+ "dropped": 18,
+ "costUsd": 1.1291,
+ "promptTokens": 724275,
+ "cachedTokens": 642560,
+ "completionTokens": 72597,
+ "codeFailures": [
+  "62 words, more than 60",
+  "63 words, more than 60",
+  "64 words, more than 60",
+  "68 words, more than 60",
+  "71 words, more than 60",
+  "82 words, more than 60",
+  "Latin-script text not in the input",
+  "missing exact name",
+  "no respectful మీరు form",
+  "number not in the input"
+ ]
+}

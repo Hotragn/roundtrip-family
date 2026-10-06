@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256601686",
+  "object": "chat.completion",
+  "created": 1791256601,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more concise and follows the instruction to use no other English words (Card B uses 'స్టాపుల' which is a transliteration/slang, whereas Card A uses 'స్టాప్‌లో' which is cleaner, but more importantly, Card A is shorter and more direct without adding unnecessary walking time details that make the sentence clunky). Card A feels more natural for a quick outing note.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 604,
+   "completion_tokens": 95,
+   "total_tokens": 699,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.918180465698242
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:41.746Z",
+ "latencyMs": 2498
+}

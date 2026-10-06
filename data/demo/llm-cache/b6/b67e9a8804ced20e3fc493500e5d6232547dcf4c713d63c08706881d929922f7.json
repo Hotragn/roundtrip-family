@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255366807",
+  "object": "chat.completion",
+  "created": 1791255366,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is warmer and more natural. Card B's phrase 'మేమే కారు ఎక్కి వెళ్తాం' sounds awkward and slightly detached, whereas Card A's 'కలిసి కారులో వెళ్దాం' (let's go together by car) fits the 'you go together' instruction much better.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 472,
+   "completion_tokens": 80,
+   "total_tokens": 552,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.472726821899414
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:06.831Z",
+ "latencyMs": 25036
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255828752",
+  "object": "chat.completion",
+  "created": 1791255828,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"అమ్మా, శుక్రవారం 08:15కి Story Mill Community Park కి వెళ్దాం. 10 నిమిషాల నడక తర్వాత అక్కడికి చేరుకోవచ్చు. అక్కడ పార్కులో కాసేపు హాయిగా గడపవచ్చు. 10:02కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Story Mill Community Park కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 994,
+   "completion_tokens": 93,
+   "total_tokens": 1087,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "neurons": 7.499996185302734
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:48.783Z",
+ "latencyMs": 2018
+}

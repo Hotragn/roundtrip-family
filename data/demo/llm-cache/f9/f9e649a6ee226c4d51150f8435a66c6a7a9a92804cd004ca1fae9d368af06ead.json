@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Harvey Green Elementary's Little Free Library కి\", \"body\": \"నాన్నగారు, బుధవారం 12:30కి బయలుదేరి Harvey Green Elementary's Little Free Library కి వెళ్దాం. Fremont Blvd & Mowry Av నుండి Bus 210 ఎక్కండి, 4 స్టాపుల తర్వాత దిగి, Bus 216 మారి 5 స్టాపుల తర్వాత Stevenson Blvd & Blacow Rd దగ్గర దిగండి. అక్కడ ప్రశాంతంగా పుస్తకాలు చదవొచ్చు. 14:01కి ఇంటికి వచ్చేయొచ్చు.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:13:41.672Z",
+ "latencyMs": 2170
+}

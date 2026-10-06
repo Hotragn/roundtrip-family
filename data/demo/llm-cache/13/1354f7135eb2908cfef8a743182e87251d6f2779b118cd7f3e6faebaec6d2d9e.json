@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A uses English word 'Park' in 'పార్కులో' when venue name Bozeman Pond Park already contains it; Card B uses only Telugu 'పార్కులో' without extra English. Also Card A's 'నడవండి' is imperative/command form to father, slightly less respectful than B's descriptive '15 నిమిషాల నడక తర్వాత అక్కడికి చేరుకోవచ్చు'. B's 'కాసేపు' is slightly more natural coastal Andhra phrasing for spending time.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:41.941Z",
+ "latencyMs": 3847
+}

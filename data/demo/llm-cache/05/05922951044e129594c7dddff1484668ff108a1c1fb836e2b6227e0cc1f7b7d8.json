@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256572353",
+  "object": "chat.completion",
+  "created": 1791256572,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is better because it includes the walking instruction to the bus stop and provides a more natural reason for the outing. Card B misses the initial walk and uses the English word 'group' in Telugu script instead of a Telugu word.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 611,
+   "completion_tokens": 59,
+   "total_tokens": 670,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 7.163636207580566
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:12.418Z",
+ "latencyMs": 612
+}

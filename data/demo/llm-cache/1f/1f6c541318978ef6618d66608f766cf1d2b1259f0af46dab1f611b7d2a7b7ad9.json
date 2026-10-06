@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A uses English word 'minutes' in '10 నిమిషాలు' wait no—actually both use Telugu. Rechecking: Card A says 'నడవండి' which is respectful మీరు form but slightly commanding; Card B says 'చేరుకోవచ్చు' which is softer. Both are good. But Card A 'నడవండి' (you walk) is direct; Card B describes the walk more gently. Card B's 'హాయిగా గడపవచ్చు' is warmer than Card A's 'ప్రశాంతంగా కూర్చోవచ్చు'. Both under 60 words. Actually both excellent. Re-re-checking: Card A 'నడవండి' = you (respectful) walk; Card B 'చేరుకోవచ్చు' = can reach. Card B flows more naturally as neighbor's daughter. Card A slightly stiff with 'నడవండి' and 'కూర్చోవచ్చు'. Card B wins on warmth.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:21:22.086Z",
+ "latencyMs": 7941
+}

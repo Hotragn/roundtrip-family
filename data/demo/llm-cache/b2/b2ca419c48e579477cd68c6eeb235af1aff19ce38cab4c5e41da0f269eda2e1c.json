@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791255379735",
+  "object": "chat.completion",
+  "created": 1791255379,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"A\", \"reason\": \"Card A provides more precise walking and bus instructions, making it more helpful for navigation, while still staying within the word limit and following all rules.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 683,
+   "completion_tokens": 41,
+   "total_tokens": 724,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 7.327272415161133
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:19.767Z",
+ "latencyMs": 671
+}

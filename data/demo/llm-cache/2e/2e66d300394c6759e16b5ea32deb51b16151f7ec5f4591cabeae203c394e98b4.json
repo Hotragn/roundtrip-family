@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A uses English word 'stop' in '1 స్టాపుల' instead of Telugu; Card B uses 'స్టాప్' which is also English-derived but more integrated, and overall B flows more naturally with better verb forms (వరకు, ఎక్కండి, దిగి, చేరుకోండి) in respectful imperative, while A mixes 'వెళ్ళండి' with 'దిగండి' awkwardly and has 'స్టాపుల' which is clunky. Both keep venue names in English letters, but B is warmer and more natural coastal Andhra",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:04.919Z",
+ "latencyMs": 4706
+}

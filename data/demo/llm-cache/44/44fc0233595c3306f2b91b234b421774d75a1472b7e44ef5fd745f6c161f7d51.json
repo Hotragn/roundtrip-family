@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"A is warmer and more natural—'కలిసి కారులో వెళ్దాం' flows as one friendly invitation, while B splits 'మేము కారులో కలిసి వెళ్తాము' awkwardly and uses the less intimate 'మేము' form. A's 'చదవొచ్చు' is more natural coastal Andhra speech than B's 'చదువుకోవచ్చు'.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:51.625Z",
+ "latencyMs": 3677
+}

@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A has two issues: it drops the 4 stops detail for Bus 210 (says just 'దిగండి' without '4 స్టాపుల తర్వాత'), and it says 'పుస్తకాలు చూడొచ్చు' which understates what's there—it's a public library, so 'చదవొచ్చు' in B is more accurate. Card B also flows better with 'బయలుదేరి' and 'మారి', and 'ప్రశాంతంగా' gives a gentle reason to enjoy it. Both are",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:39.885Z",
+ "latencyMs": 4178
+}

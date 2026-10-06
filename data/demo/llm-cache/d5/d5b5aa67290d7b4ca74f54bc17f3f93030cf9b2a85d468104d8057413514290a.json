@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B uses imperative నడవండి (you walk) which is commanding and slightly stiff for a daughter speaking to her mother; Card A uses natural inclusive వెళ్దాం/వెళ్ళవచ్చు (let's go/one can go) which is warmer. Card A also gives the concrete reason 'పార్కులో కాసేపు హాయిగా ఉండొచ్చు' (can relax in the park) which is more inviting than B's vaguer 'ప్రశాంతంగా కూర్చోవచ",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:22.931Z",
+ "latencyMs": 4951
+}

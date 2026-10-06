@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B uses English words 'బ్యాంక్' and 'వివరాలు' is fine but 'బ్యాంక్' is English; more critically, Card B says 'మీకు కావాల్సిన సరుకులు దొరుకుతాయి' which is vague and slightly stiff, while Card A's 'మంచి కూరగాయలు కొనవచ్చు' is a concrete, warm reason based on Lebensmittelhändler. Card A also flows more naturally with coastal Andhra rhythm and cleaner instructions, and 'అపరిచితులకు డబ్బు చెల్లించకండి' matches the required tip better than B's awkward 'ఎవరికీ డబ్బులు ఇవ్వకండి'.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:20:59.343Z",
+ "latencyMs": 11655
+}

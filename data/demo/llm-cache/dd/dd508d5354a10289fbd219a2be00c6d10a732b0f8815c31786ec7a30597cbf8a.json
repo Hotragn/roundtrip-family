@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256585127",
+  "object": "chat.completion",
+  "created": 1791256585,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and warm. Card B uses 'ఇక్కడ' (here) instead of 'అక్కడ' (there) for the venue, and 'వచ్చేయొచ్చు' in Card A sounds more like a friendly suggestion than the slightly stiff 'వచ్చేయొచ్చు' or 'వచ్చేద్దాం' style.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 471,
+   "completion_tokens": 80,
+   "total_tokens": 551,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.46363639831543
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:25.189Z",
+ "latencyMs": 1075
+}

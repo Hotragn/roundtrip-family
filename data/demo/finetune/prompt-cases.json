@@ -1,0 +1,116 @@
+{
+ "source": "Synthetic outings from data/demo/finetune/outings.jsonl with the prompt agent/src/cards/writer.ts factsPrompt() builds; finetune/tests and agent/test both check it.",
+ "cases": [
+  {
+   "id": "e006",
+   "facts": {
+    "addressee": "father",
+    "addressAs": "నాన్నగారు",
+    "venue": "Fremont Bay St Farmer's Market",
+    "day": "సోమవారం",
+    "departTime": "13:30",
+    "backTime": "15:29",
+    "trip": "walk 4 minutes to Fremont Blvd & Mowry Av; take Bus 210 toward Ohlone College for 5 stops, get off at Fremont Blvd & Grimmer Blvd; walk 7 minutes to Grimmer Blvd & Davis St; take Bus 239 toward Fremont BART for 3 stops, get off at Paseo Padre Pkwy & Senior Center; walk 9 minutes to Fremont Bay St Farmer's Market",
+    "whatsThere": "Farmers' market",
+    "names": [
+     "Fremont Bay St Farmer's Market",
+     "Bus 210",
+     "Fremont Blvd & Mowry Av",
+     "Paseo Padre Pkwy & Senior Center"
+    ],
+    "optionalNames": [
+     "Bus 239",
+     "Grimmer Blvd & Davis St",
+     "Fremont Blvd & Grimmer Blvd"
+    ],
+    "numbers": [
+     "13:30",
+     "15:29",
+     "5",
+     "3",
+     "4",
+     "7",
+     "9"
+    ],
+    "firstCard": false
+   },
+   "prompt": "Write the card for the father. Address them as నాన్నగారు.\nVenue: Fremont Bay St Farmer's Market\nWhen: సోమవారం, leave at 13:30, back by 15:29\nTrip: walk 4 minutes to Fremont Blvd & Mowry Av; take Bus 210 toward Ohlone College for 5 stops, get off at Fremont Blvd & Grimmer Blvd; walk 7 minutes to Grimmer Blvd & Davis St; take Bus 239 toward Fremont BART for 3 stops, get off at Paseo Padre Pkwy & Senior Center; walk 9 minutes to Fremont Bay St Farmer's Market\nWhat's there: Farmers' market\nNames to keep exactly, in English letters: Fremont Bay St Farmer's Market; Bus 210; Fremont Blvd & Mowry Av; Paseo Padre Pkwy & Senior Center\nOther stops on the way (mention only if needed): Bus 239; Grimmer Blvd & Davis St; Fremont Blvd & Grimmer Blvd\nAnswer with only JSON: {\"title\": \"...\", \"body\": \"...\"}"
+  },
+  {
+   "id": "e000",
+   "facts": {
+    "addressee": "mother",
+    "addressAs": "అమ్మా",
+    "venue": "Jamal farm and produce",
+    "day": "బుధవారం",
+    "departTime": "13:00",
+    "backTime": "15:47",
+    "trip": "walk 9 minutes to Fremont Blvd & Mowry Ave; take Bus 211 toward Union City BART for 6 stops, get off at Fremont Blvd & Central Av; walk 8 minutes to Jamal farm and produce",
+    "whatsThere": "Produce market",
+    "names": [
+     "Jamal farm and produce",
+     "Bus 211",
+     "Fremont Blvd & Mowry Ave",
+     "Fremont Blvd & Central Av"
+    ],
+    "optionalNames": [],
+    "numbers": [
+     "13:00",
+     "15:47",
+     "6",
+     "9",
+     "8"
+    ],
+    "firstCard": true
+   },
+   "prompt": "Write the card for the mother. Address them as అమ్మా.\nVenue: Jamal farm and produce\nWhen: బుధవారం, leave at 13:00, back by 15:47\nTrip: walk 9 minutes to Fremont Blvd & Mowry Ave; take Bus 211 toward Union City BART for 6 stops, get off at Fremont Blvd & Central Av; walk 8 minutes to Jamal farm and produce\nWhat's there: Produce market\nNames to keep exactly, in English letters: Jamal farm and produce; Bus 211; Fremont Blvd & Mowry Ave; Fremont Blvd & Central Av\nThis is the first card of the visit: end with the one-line safety tip.\nAnswer with only JSON: {\"title\": \"...\", \"body\": \"...\"}"
+  },
+  {
+   "id": "e013",
+   "facts": {
+    "addressee": "mother",
+    "addressAs": "అమ్మా",
+    "venue": "Newark Library",
+    "day": "ఆదివారం",
+    "departTime": "09:30",
+    "backTime": "12:31",
+    "trip": "you go together by car",
+    "whatsThere": "Public library",
+    "names": [
+     "Newark Library"
+    ],
+    "optionalNames": [],
+    "numbers": [
+     "09:30",
+     "12:31"
+    ],
+    "firstCard": false
+   },
+   "prompt": "Write the card for the mother. Address them as అమ్మా.\nVenue: Newark Library\nWhen: ఆదివారం, leave at 09:30, back by 12:31\nTrip: you go together by car\nWhat's there: Public library\nNames to keep exactly, in English letters: Newark Library\nAnswer with only JSON: {\"title\": \"...\", \"body\": \"...\"}"
+  },
+  {
+   "id": "e025",
+   "facts": {
+    "addressee": "mother",
+    "addressAs": "అమ్మా",
+    "venue": "Apollotempel in Nymphenburg",
+    "day": "సోమవారం",
+    "departTime": "13:15",
+    "backTime": "14:16",
+    "trip": "walk 8 minutes to Apollotempel in Nymphenburg",
+    "whatsThere": "Sehenswürdigkeit",
+    "names": [
+     "Apollotempel in Nymphenburg"
+    ],
+    "optionalNames": [],
+    "numbers": [
+     "13:15",
+     "14:16",
+     "8"
+    ],
+    "firstCard": false
+   },
+   "prompt": "Write the card for the mother. Address them as అమ్మా.\nVenue: Apollotempel in Nymphenburg\nWhen: సోమవారం, leave at 13:15, back by 14:16\nTrip: walk 8 minutes to Apollotempel in Nymphenburg\nWhat's there: Sehenswürdigkeit\nNames to keep exactly, in English letters: Apollotempel in Nymphenburg\nAnswer with only JSON: {\"title\": \"...\", \"body\": \"...\"}"
+  }
+ ]
+}

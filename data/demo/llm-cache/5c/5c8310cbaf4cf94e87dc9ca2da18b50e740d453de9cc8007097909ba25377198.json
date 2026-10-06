@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B adds unsupported details: 'దగ్గర' instead of exact stop names, '15 నిమిషాలు నడిస్తే' which is in the trip but B makes it sound like after the bus stop rather than the full walk, and 'అందరితో కలిసి'/'నేర్చుకోవచ్చు' which invents social and learning aspects not in the details. Card A sticks precisely to given information, uses natural respectful tone, and is cleaner.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:00.207Z",
+ "latencyMs": 4082
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256574856",
+  "object": "chat.completion",
+  "created": 1791256574,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A provides the complete instructions including the initial walk to Ostbahnhof, whereas Card B skips the first step of the trip. Card A is more helpful and accurate to the details provided.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 596,
+   "completion_tokens": 49,
+   "total_tokens": 645,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.590908050537109
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:14.918Z",
+ "latencyMs": 1056
+}

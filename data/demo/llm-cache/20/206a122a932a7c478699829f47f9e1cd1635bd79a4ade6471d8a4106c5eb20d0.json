@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Wochenmarkt Solln కి\", \"body\": \"అమ్మా, మంగళవారం 10:25కి బయలుదేరి Wochenmarkt Solln వెళ్దాం. Neuperlach Zentrum వరకు 6 నిమిషాలు నడిచి, Bus 55 ఎక్కండి. 10 స్టాపుల తర్వాత Karl-Preis-Platz దిగి, 1 నిమిషం నడిచితే మార్కెట్ చేరుకుంటారు. అక్కడ సందడిగా ఉండే మార్కెట్ చూడొచ్చు. 11:47కి ఇంటికి వచ్చేయొచ్చు.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:14:00.040Z",
+ "latencyMs": 1545
+}

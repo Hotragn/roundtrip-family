@@ -1,0 +1,7 @@
+{
+ "body": "{\n  \"title\": \"Kaschmir Basar AfroShop కి\",\n  \"body\": \"నాన్నగారు, సోమవారం 12:30కి Neuperlach Zentrum వద్ద Bus 139 ఎక్కి Trudering వద్ద దిగండి. Bus 193 ఎక్కి Bahnstraße వద్ద దిగి, 5 నిమిషాలు కదలి Kaschmir Basar AfroShop కి వచ్చాం. ఇక్కడ ఆహారం మరియు వస్త్రాలు ఉంటాయి. 14:22కి ఇంటికి వచ్చేయొచ్చు. బ్యాంక్ వివరాలు ఎవరికైనా చెప్పకండి.\"\n}",
+ "provider": "tinker",
+ "model": "Qwen/Qwen3.5-4B",
+ "createdAt": "2026-10-06T03:02:17.728Z",
+ "latencyMs": 1455
+}

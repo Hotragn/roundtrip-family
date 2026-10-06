@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255382390",
+  "object": "chat.completion",
+  "created": 1791255382,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is better because Card B uses the English phrase 'Senior Citizen Center' in Telugu script, whereas Card A translates it naturally to 'పెద్దల కోసం ప్రత్యేక కేంద్రం' as per the instruction to use no other English words besides the venue/names provided.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 498,
+   "completion_tokens": 65,
+   "total_tokens": 563,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.136362552642822
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:22.415Z",
+ "latencyMs": 1828
+}

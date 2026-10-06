@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Shreemaya Krishnadham కి\", \"body\": \"అమ్మా, గురువారం 10:15కి Shreemaya Krishnadham కి వెళ్దాం. Fremont Blvd & Mowry Ave వరకు నడిచి, Bus 210 ఎక్కండి. 1 స్టాప్‌లో దిగి, 38932 Fremont Blvd (Near Mowry Av) వద్ద దిగండి. అక్కడ దేవుడి దర్శనం చేసుకోవచ్చు. 13:13కి ఇంటికి వచ్చేయొచ్చు.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:13:35.168Z",
+ "latencyMs": 1683
+}

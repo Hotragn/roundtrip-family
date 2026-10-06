@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256490093",
+  "object": "chat.completion",
+  "created": 1791256490,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"factsOk\": false, \"problem\": \"incorrect word for language and typo in walk duration/instruction\", \"tone\": 3}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 577,
+   "completion_tokens": 29,
+   "total_tokens": 606,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.03636360168457
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:14:50.154Z",
+ "latencyMs": 944
+}

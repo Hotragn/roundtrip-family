@@ -1,0 +1,40 @@
+{"id":"e000","tone":2,"factsOk":false,"problem":"wrong word for produce and typo in stops","latencyMs":965,"cached":false}
+{"id":"e001","tone":5,"factsOk":true,"problem":"","latencyMs":1019,"cached":false}
+{"id":"e003","tone":3,"factsOk":true,"problem":"","latencyMs":1160,"cached":false}
+{"id":"e002","tone":4,"factsOk":false,"problem":"incorrect walking direction/instruction at the stop","latencyMs":1254,"cached":false}
+{"id":"e007","tone":4,"factsOk":true,"problem":"","latencyMs":921,"cached":false}
+{"id":"e004","tone":3,"factsOk":false,"problem":"incorrect word for language and typo in walk duration/instruction","latencyMs":947,"cached":false}
+{"id":"e005","tone":3,"factsOk":false,"problem":"incorrect description of park features (wheat instead of creek)","latencyMs":1032,"cached":false}
+{"id":"e006","tone":3,"factsOk":false,"problem":"repetition and incorrect walking time/instruction at the end","latencyMs":1268,"cached":false}
+{"id":"e010","tone":3,"factsOk":false,"problem":"incorrect description of the venue/activity","latencyMs":864,"cached":false}
+{"id":"e008","tone":3,"factsOk":true,"problem":"","latencyMs":1008,"cached":false}
+{"id":"e011","tone":4,"factsOk":false,"problem":"incorrect walking instruction","latencyMs":1032,"cached":false}
+{"id":"e009","tone":2,"factsOk":false,"problem":"incorrect sentence structure and meaning regarding the walk and temple description","latencyMs":1185,"cached":false}
+{"id":"e012","tone":2,"factsOk":false,"problem":"incorrect word for produce/vegetables and title error","latencyMs":356,"cached":false}
+{"id":"e015","tone":3,"factsOk":false,"problem":"incorrect description of activity","latencyMs":913,"cached":false}
+{"id":"e013","tone":5,"factsOk":true,"problem":"","latencyMs":914,"cached":false}
+{"id":"e014","tone":4,"factsOk":false,"problem":"incorrect item mentioned (sammany/silver instead of groceries)","latencyMs":922,"cached":false}
+{"id":"e019","tone":4,"factsOk":true,"problem":"","latencyMs":594,"cached":false}
+{"id":"e016","tone":5,"factsOk":true,"problem":"","latencyMs":707,"cached":false}
+{"id":"e017","tone":4,"factsOk":false,"problem":"incorrect bus direction/destination","latencyMs":998,"cached":false}
+{"id":"e018","tone":3,"factsOk":false,"problem":"incorrect items listed at the market","latencyMs":1068,"cached":false}
+{"id":"e023","tone":3,"factsOk":false,"problem":"incorrect bus direction/destination and missing walk detail","latencyMs":768,"cached":false}
+{"id":"e022","tone":3,"factsOk":true,"problem":"","latencyMs":946,"cached":false}
+{"id":"e021","tone":4,"factsOk":true,"problem":"","latencyMs":1185,"cached":false}
+{"id":"e020","tone":4,"factsOk":false,"problem":"incorrect day spelling and wrong description of store contents","latencyMs":1437,"cached":false}
+{"id":"e026","tone":2,"factsOk":false,"problem":"wrong verb tense/person used for future plans","latencyMs":906,"cached":false}
+{"id":"e025","tone":3,"factsOk":false,"problem":"incorrect word for walking","latencyMs":928,"cached":false}
+{"id":"e024","tone":3,"factsOk":false,"problem":"wrong verb tense for arrival","latencyMs":1018,"cached":false}
+{"id":"e027","tone":2,"factsOk":false,"problem":"incorrect verb conjugation and meaning for walking/arriving","latencyMs":1223,"cached":false}
+{"id":"e029","tone":5,"factsOk":true,"problem":"","latencyMs":338,"cached":false}
+{"id":"e031","tone":3,"factsOk":true,"problem":"uses English words instead of Telugu","latencyMs":1023,"cached":false}
+{"id":"e030","tone":2,"factsOk":false,"problem":"incorrectly transliterated German words as Telugu words","latencyMs":1283,"cached":false}
+{"id":"e028","tone":5,"factsOk":true,"problem":"","latencyMs":14792,"cached":false}
+{"id":"e032","tone":4,"factsOk":false,"problem":"incorrect return verb form","latencyMs":536,"cached":false}
+{"id":"e035","tone":4,"factsOk":true,"problem":"uses English word walking","latencyMs":1001,"cached":false}
+{"id":"e033","tone":2,"factsOk":false,"problem":"wrong register and incorrect pronoun usage","latencyMs":1025,"cached":false}
+{"id":"e034","tone":3,"factsOk":false,"problem":"typo in 'వేట' instead of 'నడక' or 'నడకపాటి' and 'అకడ' instead of 'అక్కడ' or 'అక్కడ పార్క్' is awkward/misspelled","latencyMs":1077,"cached":false}
+{"id":"e036","tone":4,"factsOk":true,"problem":"","latencyMs":699,"cached":false}
+{"id":"e037","tone":3,"factsOk":false,"problem":"incorrectly says 'you all' (మీరూ) instead of 'we' (మనం)","latencyMs":1335,"cached":false}
+{"id":"e038","tone":5,"factsOk":true,"problem":"","latencyMs":2018,"cached":false}
+{"id":"e039","tone":2,"factsOk":true,"problem":"","latencyMs":16153,"cached":false}

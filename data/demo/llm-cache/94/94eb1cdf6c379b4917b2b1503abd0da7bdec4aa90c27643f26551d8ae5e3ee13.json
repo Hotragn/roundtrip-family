@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255836292",
+  "object": "chat.completion",
+  "created": 1791255836,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"body\": \"నాన్నగారు, శుక్రవారం 11:15కి Bozeman Pond Park కి వెళ్దాం. 15 నిమిషాల నడక తర్వాత అక్కడికి చేరుకోవచ్చు. అక్కడ పార్కులో కాసేపు ప్రశాంతంగా ఉండొచ్చు. 12:40కి ఇంటికి వచ్చేయొచ్చు.\" , \"title\": \"Bozeman Pond Park కి\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1104,
+   "completion_tokens": 89,
+   "total_tokens": 1193,
+   "prompt_tokens_details": {
+    "cached_tokens": 832
+   },
+   "neurons": 8.681814193725586
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:56.334Z",
+ "latencyMs": 1990
+}

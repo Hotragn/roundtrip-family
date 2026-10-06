@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256571407",
+  "object": "chat.completion",
+  "created": 1791256571,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is much more natural and grammatically correct. Card B has awkward phrasing like 'ఇంగ్లీష్ లెక్కుకొవచ్చు' which is not proper Telugu, and the instructions on how to get there are less clear.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 618,
+   "completion_tokens": 57,
+   "total_tokens": 675,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.009089469909668
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:11.470Z",
+ "latencyMs": 1371
+}

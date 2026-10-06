@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791255389765",
+  "object": "chat.completion",
+  "created": 1791255389,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"A\", \"reason\": \"Card A follows the instructions more accurately. It provides the specific walking time/details implicitly by telling him when to leave and how to get there, whereas Card B uses 'we' (వస్తాం/బయలుదేరుదాం) which wasn't specified. Card A also stays closer to the provided reason for the outing.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 674,
+   "completion_tokens": 80,
+   "total_tokens": 754,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 8.309090614318848
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:29.804Z",
+ "latencyMs": 1027
+}

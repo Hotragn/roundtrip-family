@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255328443",
+  "object": "chat.completion",
+  "created": 1791255328,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A uses a much more natural and warm way to describe the venue ('మన ఊరి ఇండియన్ సామాను దొరుకుతుంది') which fits the 'neighbor's daughter' persona, whereas Card B is a bit more literal/stiff. Card A also follows the instruction to avoid extra English words better by not including the walking minutes which were not strictly required for the flow.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 580,
+   "completion_tokens": 91,
+   "total_tokens": 671,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.590908050537109
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:28.463Z",
+ "latencyMs": 3099
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255343385",
+  "object": "chat.completion",
+  "created": 1791255343,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A follows the instructions more accurately regarding the walking directions and the specific reason for the outing. Card B omits the instruction to walk to the first stop, which was part of the trip details.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 670,
+   "completion_tokens": 52,
+   "total_tokens": 722,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.345453262329102
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:43.406Z",
+ "latencyMs": 1876
+}

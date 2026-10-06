@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Bozeman Pond Park కి\", \"body\": \"నాన్నగారు, శుక్రవారం 11:15కి Bozeman Pond Park కి వెళ్దాం. అక్కడికి 15 నిమిషాలు నడవండి. పార్కులో ప్రశాంతంగా కూర్చోవచ్చు. 12:40కి ఇంటికి వచ్చేయొచ్చు.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:14:25.292Z",
+ "latencyMs": 1898
+}

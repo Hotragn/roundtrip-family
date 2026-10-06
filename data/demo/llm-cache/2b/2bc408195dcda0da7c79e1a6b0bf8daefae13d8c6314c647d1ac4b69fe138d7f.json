@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B says 'సరంజామా కొనవచ్చు' (can buy supplies/things), but the outing details only say 'Produce market'—Card A correctly says 'తాజా కూరగాయలు మీరు చూడవచ్చు' (you can see fresh vegetables), which matches. Card B also uses imperative 'నడవండి' (you walk) instead of natural '5 నిమిషాల నడకతో చేరుకోవచ్చు' (can reach by 5-minute walk), making it less warm and",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:51.424Z",
+ "latencyMs": 3478
+}

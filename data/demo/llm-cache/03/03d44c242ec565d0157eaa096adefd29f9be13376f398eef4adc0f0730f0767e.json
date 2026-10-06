@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255336391",
+  "object": "chat.completion",
+  "created": 1791255336,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more descriptive and natural. It correctly explains that the walk takes 19 minutes to reach the destination, whereas Card B implies the walk itself is the activity or is just a duration of walking. Card A also provides a warmer reason to visit (sitting peacefully in the park).\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 497,
+   "completion_tokens": 70,
+   "total_tokens": 567,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.263635158538818
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:36.412Z",
+ "latencyMs": 1628
+}

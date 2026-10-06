@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255341191",
+  "object": "chat.completion",
+  "created": 1791255341,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more accurate to the instructions. It includes the walking step to the first stop and correctly mentions the 7 stops for the second bus, whereas Card A omits the walking instruction and the stop count for the second bus.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 616,
+   "completion_tokens": 59,
+   "total_tokens": 675,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.0454535484313965
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:41.215Z",
+ "latencyMs": 1437
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256633584",
+  "object": "chat.completion",
+  "created": 1791256633,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is warmer and more natural. Card B uses 'గేమీలు' which is not a natural Telugu word, whereas Card A describes the activities (games, coffee, cake) in a way that flows better and sounds more like a neighborly suggestion.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 621,
+   "completion_tokens": 64,
+   "total_tokens": 685,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.227271556854248
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:13.647Z",
+ "latencyMs": 1451
+}

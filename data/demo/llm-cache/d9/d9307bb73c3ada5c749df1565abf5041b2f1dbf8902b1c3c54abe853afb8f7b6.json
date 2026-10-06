@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Sunol Regional Wilderness కి\", \"body\": \"అమ్మా, శనివారం 09:30కి Sunol Regional Wilderness కి వెళ్దాం. ఇంటి నుంచి 3 నిమిషాలు నడిచి అక్కడికి చేరుకోండి. అక్కడ అందమైన కొండల మధ్య నడవడానికి మార్గాలు ఉన్నాయి. 11:31కి ఇంటికి వచ్చేయొచ్చు.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:13:51.897Z",
+ "latencyMs": 6493
+}

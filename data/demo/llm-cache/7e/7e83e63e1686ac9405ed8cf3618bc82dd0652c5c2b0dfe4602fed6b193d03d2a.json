@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"Card B has 'వరకు' which is unnecessary English-influenced phrasing, and 'దేవుడి దర్శనం' is vague compared to A's specific 'అందమైన హిందూ దేవాలయం'; A also clearly states the 5-minute walk and 12-minute walk durations, and gives a concrete reason to enjoy (beautiful temple) rather than just generic 'darshan'. B's '1 స్టాప్‌లో దిగి' is awkwardly phrased and misses the stop name clarity.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:31.622Z",
+ "latencyMs": 3930
+}

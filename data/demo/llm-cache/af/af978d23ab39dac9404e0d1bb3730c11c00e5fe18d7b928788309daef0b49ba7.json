@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255390172",
+  "object": "chat.completion",
+  "created": 1791255390,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A uses more natural, conversational Telugu ('వచ్చేయొచ్చు') whereas Card B uses a slightly more formal/stiff phrasing ('వచ్చేస్తారు'). Card A also feels warmer and more like a daughter speaking to her father.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 466,
+   "completion_tokens": 59,
+   "total_tokens": 525,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 5.845454216003418
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:30.210Z",
+ "latencyMs": 1432
+}

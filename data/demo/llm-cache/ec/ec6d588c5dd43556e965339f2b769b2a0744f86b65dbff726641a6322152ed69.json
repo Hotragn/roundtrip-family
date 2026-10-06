@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255213081",
+  "object": "chat.completion",
+  "created": 1791255213,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"factsOk\": false, \"problem\": \"incorrectly describes the lake as a lake-like/small lake (సరసుగా) instead of a lake (సరస్సు)\" , \"tone\": 4}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 536,
+   "completion_tokens": 44,
+   "total_tokens": 580,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.072727203369141
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:53:33.106Z",
+ "latencyMs": 1255
+}

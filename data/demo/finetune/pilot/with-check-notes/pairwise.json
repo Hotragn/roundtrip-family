@@ -1,0 +1,24 @@
+{
+ "qwen3.5-397b-a17b vs qwen3.6-35b-a3b": {
+  "pairs": 20,
+  "firstWins": 12,
+  "secondWins": 3,
+  "ties": 5,
+  "ordersDisagreed": 5,
+  "picksByPosition": {
+   "A": 23,
+   "B": 17
+  }
+ },
+ "qwen3.5-397b-a17b vs kimi-k2.6": {
+  "pairs": 20,
+  "firstWins": 7,
+  "secondWins": 7,
+  "ties": 6,
+  "ordersDisagreed": 6,
+  "picksByPosition": {
+   "A": 26,
+   "B": 14
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256571492",
+  "object": "chat.completion",
+  "created": 1791256571,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more natural and respectful. Card A uses 'సొమ్మని' which is a misspelling/incorrect word for groceries (should be సరుకులు), whereas Card B uses the correct term and flows better as a suggestion.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 464,
+   "completion_tokens": 60,
+   "total_tokens": 524,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 5.8545451164245605
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:11.551Z",
+ "latencyMs": 1455
+}

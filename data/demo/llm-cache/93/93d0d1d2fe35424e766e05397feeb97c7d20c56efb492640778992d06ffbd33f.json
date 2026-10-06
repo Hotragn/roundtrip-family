@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791255342584",
+  "object": "chat.completion",
+  "created": 1791255342,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more natural and follows the instructions better. It includes the walking duration mentioned in the details, whereas Card A skips it. Card B also uses a warmer tone ('బయలుదేరుదాం', 'వస్తాం') which sounds more like a family member talking to a parent, whereas Card A sounds a bit more instructional/detached.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 671,
+   "completion_tokens": 83,
+   "total_tokens": 754,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 8.363636016845703
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:42.611Z",
+ "latencyMs": 816
+}

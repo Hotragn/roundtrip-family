@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256557289",
+  "object": "chat.completion",
+  "created": 1791256557,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is much more natural and readable. Card B has significant spelling errors in Telugu (e.g., 'సెట్స్' instead of 'స్టాపులు', 'వచి' instead of 'నడిచి', and 'ప్రిజుడ్స్' which makes no sense) and fails to follow the instruction to keep English names exactly as given while using Telugu for the rest.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 641,
+   "completion_tokens": 90,
+   "total_tokens": 731,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 8.281818389892578
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:15:57.350Z",
+ "latencyMs": 1930
+}

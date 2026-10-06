@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256569781",
+  "object": "chat.completion",
+  "created": 1791256569,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and concise. Card B uses 'మనం' (we) which is fine, but Card A's flow feels more like a warm suggestion. Card A also follows the instruction to use 'మీరు' (respectful form) when describing the activity, whereas Card B is slightly more generic.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 459,
+   "completion_tokens": 77,
+   "total_tokens": 536,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.272727012634277
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:09.838Z",
+ "latencyMs": 2109
+}

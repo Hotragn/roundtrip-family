@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255388395",
+  "object": "chat.completion",
+  "created": 1791255388,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B follows all instructions, including providing a reason for the outing and using natural Telugu. Card A uses the English word 'Hindu temple' in the body, which violates the rule to use no other English words besides the specific names provided.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 645,
+   "completion_tokens": 60,
+   "total_tokens": 705,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.336362361907959
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:28.420Z",
+ "latencyMs": 1660
+}

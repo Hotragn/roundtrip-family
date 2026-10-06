@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256589256",
+  "object": "chat.completion",
+  "created": 1791256589,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A uses respectful language throughout, whereas Card B switches to the informal 'నీకు' (neeku) which is inappropriate for a father. Card A also follows the instruction to use English letters for venue names correctly without adding extra English words like 'Senior Citizen Center' in the body.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 524,
+   "completion_tokens": 70,
+   "total_tokens": 594,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.509089469909668
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:29.316Z",
+ "latencyMs": 1657
+}

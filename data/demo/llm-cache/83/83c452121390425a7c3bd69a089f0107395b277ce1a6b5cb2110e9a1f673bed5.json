@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A says 'నది ఒడ్డున నడవొచ్చు' (can walk by the river bank) which is invented—the outing details mention a creek but not a river bank walk specifically, and more critically omits the 7-minute walk and the gardens/farm animals that are actually there. Card B correctly includes the 7-minute walk, mentions తోటలు (gardens) and చిన్న జంతువులు (farm animals) which match the outing details, and gives a valid reason they'd enjoy it. Both use respectful మీరు forms and address నాన్నగారు correctly. Card B is",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:35.696Z",
+ "latencyMs": 4050
+}

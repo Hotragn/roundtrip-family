@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256635126",
+  "object": "chat.completion",
+  "created": 1791256635,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A follows the instruction to keep venue/program names exactly as given in English letters (Senior citizen center), whereas Card B translates it into Telugu. Card A is also more concise.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 513,
+   "completion_tokens": 49,
+   "total_tokens": 562,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.836362361907959
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:15.188Z",
+ "latencyMs": 1275
+}

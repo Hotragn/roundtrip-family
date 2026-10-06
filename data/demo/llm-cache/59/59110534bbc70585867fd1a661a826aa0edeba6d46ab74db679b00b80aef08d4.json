@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A says 'Innsbrucker Ring దిగి, 10 నిమిషాలు నడిచి వెళ్లండి' which is ambiguous about where to walk to; Card B clearly says 'అక్కడి నుండి 10 నిమిషాలు నడిస్తే Zamilapark చేరుకుంటారు' making the destination explicit. Card B also includes '8 నిమిషాలు' matching the given detail, and 'మంచి' is a mild unsupported addition but the clearer directions matter more for a father's understanding.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:08.333Z",
+ "latencyMs": 3407
+}

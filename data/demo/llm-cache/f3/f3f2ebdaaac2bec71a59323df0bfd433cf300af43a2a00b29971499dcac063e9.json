@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255384061",
+  "object": "chat.completion",
+  "created": 1791255384,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A follows the instruction to keep venue names exactly as given in English letters, whereas Card B translates 'Lichterfest' into Telugu. Card A also flows more naturally in coastal Andhra Telugu.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 711,
+   "completion_tokens": 51,
+   "total_tokens": 762,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "neurons": 6.109088897705078
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:24.100Z",
+ "latencyMs": 1420
+}

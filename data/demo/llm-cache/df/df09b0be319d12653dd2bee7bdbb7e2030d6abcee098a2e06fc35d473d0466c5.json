@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256495936",
+  "object": "chat.completion",
+  "created": 1791256495,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"factsOk\": false, \"problem\": \"wrong verb tense/person used for future plans\", \"tone\": 2}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 505,
+   "completion_tokens": 27,
+   "total_tokens": 532,
+   "prompt_tokens_details": {
+    "cached_tokens": 320
+   },
+   "neurons": 3.8727259635925293
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:14:55.999Z",
+ "latencyMs": 902
+}

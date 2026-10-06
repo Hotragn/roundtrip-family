@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791255371450",
+  "object": "chat.completion",
+  "created": 1791255371,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is slightly more natural and descriptive by adding 'పుస్తకాలు' (books) to the reason for visiting the library, making it feel warmer without being over the top.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 578,
+   "completion_tokens": 48,
+   "total_tokens": 626,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.56363582611084
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:11.486Z",
+ "latencyMs": 477
+}

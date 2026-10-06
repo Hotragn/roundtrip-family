@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256579641",
+  "object": "chat.completion",
+  "created": 1791256579,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is much more natural and flows better. Card A uses repetitive and slightly awkward phrasing like 'వచ్చేయొచ్చు' (can come) which sounds a bit odd in this context, whereas Card B uses 'వెళ్దాం' (let's go) which is warmer and more respectful for a child talking to a father.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 643,
+   "completion_tokens": 81,
+   "total_tokens": 724,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.890908241271973
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:19.701Z",
+ "latencyMs": 1772
+}

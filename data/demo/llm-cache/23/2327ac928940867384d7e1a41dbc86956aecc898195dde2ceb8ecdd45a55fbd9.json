@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256623878",
+  "object": "chat.completion",
+  "created": 1791256623,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is more concise and follows the instructions better. It includes the walking instruction to the first stop which Card A misses, and it flows more naturally as a suggestion for an outing.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 651,
+   "completion_tokens": 49,
+   "total_tokens": 700,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.090908050537109
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:03.940Z",
+ "latencyMs": 1227
+}

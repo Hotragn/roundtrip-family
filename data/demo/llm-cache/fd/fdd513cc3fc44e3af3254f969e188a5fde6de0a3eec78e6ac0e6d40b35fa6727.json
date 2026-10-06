@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256571305",
+  "object": "chat.completion",
+  "created": 1791256571,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and accurate. Card B invents a specific item ('సొమ్మని' - likely a typo or invented item) to buy, whereas Card A correctly identifies it as a grocery trip ('సరుకులు') based on the details provided.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 463,
+   "completion_tokens": 65,
+   "total_tokens": 528,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.818180561065674
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:11.363Z",
+ "latencyMs": 1523
+}

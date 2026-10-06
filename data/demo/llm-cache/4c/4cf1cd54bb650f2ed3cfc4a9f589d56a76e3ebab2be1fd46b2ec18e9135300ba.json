@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256598806",
+  "object": "chat.completion",
+  "created": 1791256598,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is better because it includes the walking durations mentioned in the details, making the instructions more complete and helpful for the parent.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 674,
+   "completion_tokens": 38,
+   "total_tokens": 712,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.999999046325684
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:38.886Z",
+ "latencyMs": 1158
+}

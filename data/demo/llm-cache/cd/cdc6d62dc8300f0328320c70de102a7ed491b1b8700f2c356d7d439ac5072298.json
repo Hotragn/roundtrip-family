@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256606429",
+  "object": "chat.completion",
+  "created": 1791256606,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is better because it includes the specific number of stops mentioned in the details, making the instructions more complete, and it provides a more natural reason for the outing (fresh vegetables) compared to the slightly awkward phrasing in Card A.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 692,
+   "completion_tokens": 59,
+   "total_tokens": 751,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 7.899999618530273
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:46.492Z",
+ "latencyMs": 1086
+}

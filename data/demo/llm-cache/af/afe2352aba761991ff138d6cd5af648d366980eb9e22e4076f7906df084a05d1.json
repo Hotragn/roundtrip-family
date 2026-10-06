@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256569002",
+  "object": "chat.completion",
+  "created": 1791256569,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B is better because it includes the mode of transport (car) as specified in the details, whereas Card A omits it. Both follow the linguistic and structural constraints well.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 459,
+   "completion_tokens": 48,
+   "total_tokens": 507,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.318180561065674
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:09.064Z",
+ "latencyMs": 1336
+}

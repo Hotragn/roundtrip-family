@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255338728",
+  "object": "chat.completion",
+  "created": 1791255338,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural. Card B uses the English word 'ప్రోగ్రామ్లు' (programs) which violates the rule to use no other English words besides the venue/location names. Card A uses 'కార్యక్రమాలు' which is the correct Telugu word.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 504,
+   "completion_tokens": 70,
+   "total_tokens": 574,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 6.490909099578857
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:55:38.749Z",
+ "latencyMs": 1570
+}

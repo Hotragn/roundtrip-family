@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256603311",
+  "object": "chat.completion",
+  "created": 1791256603,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more accurate to the details provided. Card B invents 'good programs for elders' which was not in the source text, violating the rule to say only what the details support.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 578,
+   "completion_tokens": 51,
+   "total_tokens": 629,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.48181676864624
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:43.371Z",
+ "latencyMs": 1356
+}

@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"Münchner Stadtbibliothek Sendling కి\", \"body\": \"నాన్నగారు, సోమవారం 08:05కి బయలుదేరి Münchner Stadtbibliothek Sendling వెళ్దాం. Neuperlach Zentrum నుండి Bus 139 ఎక్కండి, 9 స్టాపుల తర్వాత Trudering దిగండి. అక్కడ Bus 193 ఎక్కి, 7 స్టాపుల తర్వాత Bahnstraße దిగండి. 6 నిమిషాలు నడిచి లైబ్రరీ చేరండి. అక్కడ పుస్తకాలు చదవొచ్చు. 11:43కి ఇంటికి వచ్చేయొచ్చు.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:14:11.013Z",
+ "latencyMs": 6579
+}

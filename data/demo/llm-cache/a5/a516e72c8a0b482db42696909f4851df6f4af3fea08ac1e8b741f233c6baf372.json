@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791256563111",
+  "object": "chat.completion",
+  "created": 1791256563,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural and concise. Card B includes unnecessary walking durations and repetitive phrasing, making it feel more like a manual than a warm note. Card A also follows the word count constraint better while remaining respectful.\"}",
+     "function_call": null,
+     "reasoning": null,
+     "refusal": null,
+     "role": "assistant"
+    },
+    "routed_experts": null,
+    "stop_reason": null,
+    "token_ids": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 707,
+   "completion_tokens": 55,
+   "total_tokens": 762,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 7.927272319793701
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:16:03.174Z",
+ "latencyMs": 661
+}

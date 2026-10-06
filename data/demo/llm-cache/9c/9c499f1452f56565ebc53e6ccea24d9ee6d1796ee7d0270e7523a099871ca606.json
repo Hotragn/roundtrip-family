@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255375188",
+  "object": "chat.completion",
+  "created": 1791255375,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A flows more naturally and sounds warmer. Card B's phrasing 'వెళ్దాం' (let's go) implies the writer is going with him, which isn't explicitly stated in the details, whereas Card A's 'బయల్దేరండి' (please leave/start) is a polite instruction.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 530,
+   "completion_tokens": 80,
+   "total_tokens": 610,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.836362838745117
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:15.215Z",
+ "latencyMs": 1669
+}

@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A uses English word 'Markt' instead of Telugu 'మార్కెట్', violating the rule to use no other English words beyond venue/stop names. Card B uses 'మార్కెట్' correctly. Also Card A's 'నడిచి వెళ్ళండి' is slightly awkward compared to B's direct 'నడవండి', and B adds a nice reason to enjoy (సందడిగా ఉంటుంది) within word limit.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:21:14.133Z",
+ "latencyMs": 10937
+}

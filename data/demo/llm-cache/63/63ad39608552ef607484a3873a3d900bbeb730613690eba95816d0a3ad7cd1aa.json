@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"A\", \"reason\": \"A is warmer and more natural: 'కలిసి వెళ్దాం' in one clause is neighborly, while B splits it awkwardly with 'మేము'; B's 'మంచి' invents a quality not in details; A's 19 words vs B's 22 is tighter\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:18:27.219Z",
+ "latencyMs": 3154
+}

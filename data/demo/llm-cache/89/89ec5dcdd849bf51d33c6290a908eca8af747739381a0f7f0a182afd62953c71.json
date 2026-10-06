@@ -1,0 +1,7 @@
+{
+ "body": "{\"title\": \"English conversation circle for newcomers కి\", \"body\": \"నాన్నగారు, శనివారం 10:35కి బయలుదేరి English conversation circle for newcomers కి వెళ్దాం. Walnut Av & Paseo Padre Pkwy నుండి Bus 231 ఎక్కండి, 4 స్టాపుల తర్వాత Fremont Blvd & Stevenson Blvd దిగండి. అక్కడ చిన్న సమూహంలో ప్రశాంతంగా ఇంగ్లీష్ మాట్లాడుకోవచ్చు. 12:40కి ఇంటికి వచ్చేయొచ్చు.\"}",
+ "provider": "tinker",
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "createdAt": "2026-10-06T03:13:59.999Z",
+ "latencyMs": 1507
+}

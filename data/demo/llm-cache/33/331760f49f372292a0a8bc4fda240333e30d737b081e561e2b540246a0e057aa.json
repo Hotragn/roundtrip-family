@@ -1,0 +1,7 @@
+{
+ "body": "{\"better\": \"B\", \"reason\": \"Card A uses English words 'bank' and 'details' in the tip line, violating the no-other-English-words rule; Card B uses pure Telugu 'బ్యాంకు వివరాలు'. Card A also has a minor route description issue saying 'దిగండి' without 'దగ్గర' for the second stop, slightly less clear. Both are warm and respectful, but Card A's English intrusion disqualifies it.\"}",
+ "provider": "tinker",
+ "model": "moonshotai/Kimi-K2.6",
+ "createdAt": "2026-10-06T03:17:43.836Z",
+ "latencyMs": 3941
+}

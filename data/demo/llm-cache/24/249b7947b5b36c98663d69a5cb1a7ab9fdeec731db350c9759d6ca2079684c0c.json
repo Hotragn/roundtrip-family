@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255382069",
+  "object": "chat.completion",
+  "created": 1791255382,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more concise and flows better. Card B includes unnecessary descriptive details that make the sentence structure feel slightly clunky in Telugu.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 547,
+   "completion_tokens": 39,
+   "total_tokens": 586,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.872725963592529
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:22.097Z",
+ "latencyMs": 1251
+}

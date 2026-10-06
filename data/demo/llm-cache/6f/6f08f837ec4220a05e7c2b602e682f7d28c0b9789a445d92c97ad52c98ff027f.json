@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256620417",
+  "object": "chat.completion",
+  "created": 1791256620,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more concise and follows the instructions better. Card B is slightly repetitive and less direct in its flow.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 630,
+   "completion_tokens": 35,
+   "total_tokens": 665,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 5.5181803703308105
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:00.480Z",
+ "latencyMs": 1064
+}

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255750166",
+  "object": "chat.completion",
+  "created": 1791255750,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"నాన్నగారు, ఆదివారం 10:45కి Centerville Library కి వెళ్దాం. Fremont Blvd & Centerville Jr High School దగ్గర Bus 210 ఎక్కండి, 1 స్టాపుల తర్వాత Fremont Blvd & Central Av దగ్గర దిగి, 12 నిమిషాలు నడిస్తే లైబ్రరీ చేరుకుంటారు. అక్కడ పుస్తకాలు చూడవచ్చు. 11:52కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Centerville Library కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1052,
+   "completion_tokens": 117,
+   "total_tokens": 1169,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 12.754545211791992
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:02:30.203Z",
+ "latencyMs": 3295
+}

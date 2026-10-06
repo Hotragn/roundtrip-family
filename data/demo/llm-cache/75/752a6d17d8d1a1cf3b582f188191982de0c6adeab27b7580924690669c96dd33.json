@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256450214",
+  "object": "chat.completion",
+  "created": 1791256450,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c2\",\"parent\":\"father\",\"reason\":\"He enjoys visiting temples and walking with company.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c1\",\"parent\":\"mother\",\"reason\":\"She likes visiting temples and places of worship.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c6\",\"parent\":\"father\",\"reason\":\"He likes exploring the spice aisles in Indian grocery stores.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c4\",\"parent\":\"mother\",\"reason\":\"She enjoys looking at items in Indian grocery stores.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c7\",\"parent\":\"father\",\"reason\":\"He likes watching people at the park.\",\"firstRideTogether\":true,\"bringSomeone\":\"the neighbor two doors down who speaks Mandarin\",\"joinHelp\":false}],\"note\":\"No Telugu events or groups were found nearby this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2596,
+   "completion_tokens": 224,
+   "total_tokens": 2820,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 29.709089279174805
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:14:10.276Z",
+ "latencyMs": 4655
+}

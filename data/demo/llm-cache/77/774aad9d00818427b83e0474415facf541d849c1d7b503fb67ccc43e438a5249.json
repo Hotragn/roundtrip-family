@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255783108",
+  "object": "chat.completion",
+  "created": 1791255783,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\n  \"body\": \"అమ్మా, సోమవారం 14:30కి Sunol Corners కి వెళ్దాం. 5 నిమిషాల నడకతో అక్కడికి చేరుకోవచ్చు. అక్కడ తాజా కూరగాయలు దొరుకుతాయి. 15:13కి ఇంటికి వచ్చేయొచ్చు.\",\n  \"title\": \"Sunol Corners కి\"\n}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 991,
+   "completion_tokens": 89,
+   "total_tokens": 1080,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 11.436363220214844
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:03:03.146Z",
+ "latencyMs": 2188
+}

@@ -84,7 +84,8 @@ export default async function Languages({ params }: PageProps<"/plan/[household]
           const who = board.parents.filter((p) => p.language === code).map((p) => p.firstName);
           const mine = cards.filter((c) => week.parents.find((p) => p.id === c.parentId)?.language === code);
           const passing = mine.filter((c) => c.rubric?.passed).length;
-          const tuned = mine.some((c) => c.writer?.kind === "tinker");
+          const tunedCards = mine.filter((c) => c.writer?.kind === "tinker_lora").length;
+          const tuned = tunedCards > 0;
           return (
             <Panel key={code} className="p-5 sm:p-6">
               <div className="mb-5 flex flex-wrap items-baseline gap-x-3 gap-y-1">
@@ -109,7 +110,7 @@ export default async function Languages({ params }: PageProps<"/plan/[household]
                 >
                   <p>
                     {tuned
-                      ? `A card writer tuned for ${rec.name} writes each ticket in the plain, respectful register in the style guide.`
+                      ? `A card writer tuned for ${rec.name} writes each ticket in the plain, respectful register in the style guide; this week it wrote ${tunedCards} of ${mine.length}. Every card also has to pass Gemma's review of tone and facts and say the walk from the stop, and where a tuned card didn't, Gemma wrote it.`
                       : `${rec.cardWriter.model} writes each ticket, held to the ${rec.name} style guide.`}{" "}
                     This week: {mine.length} {mine.length === 1 ? "card" : "cards"}, {passing} passing every check of
                     the card rubric (length, every name exact, the right form of address, the script intact).

@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791255380546",
+  "object": "chat.completion",
+  "created": 1791255380,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"A\", \"reason\": \"Card A is more natural. Card B ends with 'వచ్చేయొచ్చు' which sounds like giving permission or suggesting she might come back, whereas Card A uses 'తిరిగి వచ్చేస్తాం' which correctly implies 'we will return' as per the trip details.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 469,
+   "completion_tokens": 66,
+   "total_tokens": 535,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 4.899998664855957
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T02:56:20.582Z",
+ "latencyMs": 1487
+}

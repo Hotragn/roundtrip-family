@@ -1,0 +1,39 @@
+{
+ "model": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+ "baseModel": "Qwen/Qwen3.5-4B",
+ "chosenEpoch": 3,
+ "why": "lowest validation NLL on held-back training examples",
+ "checkpoints": [
+  {
+   "epoch": 1,
+   "path": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch1",
+   "validationNll": 0.15615552061561935
+  },
+  {
+   "epoch": 2,
+   "path": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch2",
+   "validationNll": 0.1263001392485031
+  },
+  {
+   "epoch": 3,
+   "path": "tinker://a40f341a-0b84-5186-a3b1-63e93b17398b:train:0/sampler_weights/card-writer-te-epoch3",
+   "validationNll": 0.11065226543249523
+  }
+ ],
+ "renderer": "qwen3_5_disable_thinking",
+ "loraRank": 32,
+ "learningRate": 0.0004905250962784578,
+ "schedule": "linear decay to 0",
+ "epochs": 3,
+ "batchSize": 16,
+ "trainExamples": 326,
+ "validationExamples": 16,
+ "trainTokens": 282198,
+ "validationTokens": 17364,
+ "estimatedCostUsd": 0.2208,
+ "trainedAt": "2026-10-06T03:12:49.111042Z",
+ "data": "synthetic outings built from public place listings and a fictional family; teacher Qwen/Qwen3.5-397B-A17B",
+ "huggingFace": "https://huggingface.co/roundtrip-family/roundtrip-card-writer-te-qwen3.5-4b-lora",
+ "adapterMegabytes": 291.7,
+ "license": "apache-2.0"
+}

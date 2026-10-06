@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791256622410",
+  "object": "chat.completion",
+  "created": 1791256622,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "{\"better\": \"B\", \"reason\": \"Card B includes the walking duration to Neuperlach Zentrum which was in the details, and the reason 'Indian items' is more natural for a grocery store than just 'vegetables'. Card A is a bit too clipped.\"}",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 634,
+   "completion_tokens": 57,
+   "total_tokens": 691,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "neurons": 6.154543876647949
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-06T03:17:02.477Z",
+ "latencyMs": 1395
+}
