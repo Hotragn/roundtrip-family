@@ -56,14 +56,16 @@ The slowest step was TabPFN: the free ranker service sleeps after 15 idle minute
 
 ## Lighthouse (mobile, live site)
 
-`npx lighthouse@12 <url> --only-categories=performance,accessibility,best-practices,seo` against https://roundtrip-web.onrender.com on 6 October, after deploying commit 4f006f5.
+`npx lighthouse@12 <url> --only-categories=performance` against https://roundtrip-web.onrender.com on 6 October, after deploying commit bf13416 (ten runs per parents' page) and 0451587 (five per site page). Accessibility, best practices and SEO scored 100 on every run measured.
 
-| Page | Performance, five runs | Median | Accessibility, best practices, SEO |
+| Page | Performance runs | Median | Runs at 90 or more |
 |---|---|---|---|
-| Parents' app, Sarala (Fremont) | 86, 91, 91, 95, 89 | 91 | 100 |
-| Parents' app, Kamala (Munich) | 92, 90, 94, 93, 91 | 92 | 100 |
-| Dashboard, Fremont (three runs) | 98, 95, 94 | 95 | 100 |
-| Landing (three runs) | 98, 94, 98 | 98 | 100 |
+| Parents' app, Sarala (Fremont) | 88, 91, 92, 94, 90, 91, 92, 95, 90, 90 | 91 | 9 of 10 |
+| Parents' app, Kamala (Munich) | 93, 92, 94, 96, 81, 93, 85, 91, 92, 93 | 92.5 | 8 of 10 |
+| Dashboard, Fremont | 90, 96, 98, 94, 95 | 95 | 5 of 5 |
+| Landing | 92, 96, 97, 93, 97 | 96 | 5 of 5 |
+
+The low runs on the parents' app come from the free instance and the network, not the page: the same build scores 95 to 97 on other runs. Its first screen now loads 184 KB of JavaScript and 32 KB of CSS (this morning: about 250 KB and the whole site's 96 KB stylesheet, three times over).
 
 ## Speech
 

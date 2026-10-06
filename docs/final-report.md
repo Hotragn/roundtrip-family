@@ -25,7 +25,7 @@ Roundtrip, built end to end from docs/plan.md between 5 and 6 October 2026. This
 
 ## Quality bars (docs/brand.md)
 
-- **Lighthouse, mobile, on the live site (6 October), median of five runs:** parents' app 91 (Fremont, runs 86 to 95) and 92 (Munich, 90 to 94); landing 98 and dashboard 95 (three runs, 94 to 98); accessibility, best practices and SEO 100 on every page. Getting there took the stylesheet out of the HTML (it was inlined three times), a separate small stylesheet for the parents' app, its other screens loading after Today, and the Telugu font preloaded only where it's used. The free instance's response time still moves single runs by a few points.
+- **Lighthouse, mobile, on the live site:** medians of 91 and 92.5 for the parents' app over ten runs each (17 of 20 runs at 90 or more; the lowest 81 and 85 on Munich, 88 on Fremont), 95 for the dashboard and 96 for the landing (every run at 90 or more), and 100 for accessibility, best practices and SEO on every run. The parents' app misses 90 on some single runs on the free instance; see docs/numbers.md.
 - **WCAG AA:** axe clean on every parents' screen and dashboard section in light and dark; the parents' app also passes the 200% text and 56 px target test.
 - **Reduced motion, offline-ready, text on white panels, native scrolling:** checked by the e2e suite and the screenshot reviews.
 
