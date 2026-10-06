@@ -13,6 +13,7 @@
       "!**/dist",
       "!**/data/demo/**/*.json",
       "!**/evals/fixtures",
+      "!**/evals/results",
       "!**/agent/fixtures",
       "!**/ranker/fixtures",
       "!apps/web/public",
