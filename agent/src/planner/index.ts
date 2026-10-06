@@ -5,6 +5,7 @@ import { DAY_LONG } from "@roundtrip/core/hours";
 import type { DataClass } from "@roundtrip/core/privacy";
 import { z } from "zod";
 import { gemma, parseJson } from "../gemma";
+import { AGENT_NAME, span } from "../observability/trace";
 import { rankOutings } from "../tools/ranker";
 import { type Candidate, tripMode } from "./candidates";
 import {
@@ -270,7 +271,25 @@ function buildPrompt(ctx: PlannerContext, scored: Scored[], aliases: Map<string,
   ].join("\n");
 }
 
+/** One planner run, as an "invoke_agent" span on Render with its counts (observability/trace.ts). */
 export async function planWeek(ctx: PlannerContext): Promise<WeekPlan> {
+  const attributes = { "gen_ai.operation.name": "invoke_agent", "gen_ai.agent.name": AGENT_NAME };
+  return span(`invoke_agent ${AGENT_NAME}`, "gen_ai.invoke_agent", attributes, async (s) => {
+    const plan = await runPlanner(ctx);
+    s.setAttributes({
+      "roundtrip.suggestions": plan.suggestions.length,
+      "roundtrip.model_calls": plan.stats.modelCalls,
+      "roundtrip.cached_model_calls": plan.stats.cachedModelCalls,
+      "roundtrip.fallbacks": plan.stats.fallbacks,
+      "roundtrip.retries": plan.stats.retries,
+      "roundtrip.tool_calls": plan.stats.toolCalls.length,
+      "roundtrip.ranker_calls": plan.stats.rankerCalls,
+    });
+    return plan;
+  });
+}
+
+async function runPlanner(ctx: PlannerContext): Promise<WeekPlan> {
   const started = Date.now();
   const before = { ...gemma().counters };
   const { scored, rankerCalls } = await scoreFeasible(ctx);

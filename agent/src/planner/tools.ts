@@ -1,6 +1,7 @@
 import { createTool } from "@mastra/core/tools";
 import { LADDER_LABELS } from "@roundtrip/core";
 import { z } from "zod";
+import { AGENT_NAME, span } from "../observability/trace";
 import { rankOutings } from "../tools/ranker";
 import { anonymizedPeople, type PlannerContext, parentByRole, pastSummary, plan, type Role, viewOf } from "./context";
 import { joinCard } from "./join";
@@ -13,10 +14,17 @@ import { joinCard } from "./join";
 const role = z.enum(["mother", "father"]);
 
 export function plannerTools(ctx: PlannerContext) {
+  // Each call goes in the run's log (shown on the dashboard) and, on Render, an "execute_tool"
+  // span with the tool's name only: arguments and results stay out of Sentry.
   const timed = async <T>(tool: string, detail: string, fn: () => Promise<T>): Promise<T> => {
     const t = Date.now();
+    const attributes = {
+      "gen_ai.operation.name": "execute_tool",
+      "gen_ai.tool.name": tool,
+      "gen_ai.agent.name": AGENT_NAME,
+    };
     try {
-      return await fn();
+      return await span(`execute_tool ${tool}`, "gen_ai.execute_tool", attributes, () => fn());
     } finally {
       ctx.log.push({ tool, ms: Date.now() - t, detail });
     }

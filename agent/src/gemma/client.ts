@@ -1,8 +1,10 @@
 import type { DataClass } from "@roundtrip/core/privacy";
 import { assertOutbound } from "@roundtrip/core/privacy";
+import { span } from "../observability/trace";
 import { estimateNeurons, PROVIDERS, type Provider } from "./providers";
 import {
   type CachedResponse,
+  type CallLog,
   FileCache,
   FileUsageStore,
   hashKey,
@@ -91,7 +93,10 @@ export function createGemmaFetch(config: GemmaConfig, counters?: GemmaCounters):
   const providers = config.providers ?? PROVIDERS;
   const lastCall = new Map<string, number>();
 
-  const gemmaFetch = async (_input: string | URL | Request, init?: RequestInit): Promise<Response> => {
+  const callGemma = async (
+    init: RequestInit | undefined,
+    log: (entry: CallLog) => Promise<void>,
+  ): Promise<Response> => {
     const headers = new Headers(init?.headers);
     const dataClass = headers.get("x-roundtrip-data-class") as DataClass | null;
     const purpose = headers.get("x-roundtrip-purpose") ?? "unspecified";
@@ -104,7 +109,7 @@ export function createGemmaFetch(config: GemmaConfig, counters?: GemmaCounters):
     if (config.mode !== "record") {
       const hit = await config.cache.get(key);
       if (hit) {
-        await config.usage.log({
+        await log({
           ts: now().toISOString(),
           service: hit.provider,
           model: hit.model,
@@ -173,7 +178,7 @@ export function createGemmaFetch(config: GemmaConfig, counters?: GemmaCounters):
               const neurons =
                 p.id === "cloudflare" ? (json.usage?.neurons ?? estimateNeurons(promptChars, maxTokens)) : 0;
               if (p.id === "cloudflare") await config.usage.addNeurons(utcDay(now()), neurons);
-              await config.usage.log({
+              await log({
                 ts: now().toISOString(),
                 service: p.id,
                 model: p.model,
@@ -208,7 +213,7 @@ export function createGemmaFetch(config: GemmaConfig, counters?: GemmaCounters):
           error = e instanceof Error ? e.name : "network error";
         }
         if (counters) counters.failedAttempts++;
-        await config.usage.log({
+        await log({
           ts: now().toISOString(),
           service: p.id,
           model: p.model,
@@ -236,6 +241,28 @@ export function createGemmaFetch(config: GemmaConfig, counters?: GemmaCounters):
       }
     }
     throw new GemmaUnavailable(failures);
+  };
+
+  // One "gen_ai.chat" span per call, whichever host answers: the model, tokens and failed
+  // attempts, never the messages (agent/src/observability/trace.ts).
+  const gemmaFetch = async (_input: string | URL | Request, init?: RequestInit): Promise<Response> => {
+    const purpose = new Headers(init?.headers).get("x-roundtrip-purpose") ?? "unspecified";
+    const attributes = { "gen_ai.operation.name": "chat", "roundtrip.purpose": purpose };
+    return span("chat gemma-4", "gen_ai.chat", attributes, (s) => {
+      let failed = 0;
+      return callGemma(init, async (entry) => {
+        if (!entry.ok) failed++;
+        s.setAttributes({
+          "gen_ai.provider.name": entry.service,
+          "gen_ai.request.model": entry.model,
+          ...(entry.promptTokens != null ? { "gen_ai.usage.input_tokens": entry.promptTokens } : {}),
+          ...(entry.completionTokens != null ? { "gen_ai.usage.output_tokens": entry.completionTokens } : {}),
+          "roundtrip.cached": entry.cached,
+          "roundtrip.failed_attempts": failed,
+        });
+        await config.usage.log(entry);
+      });
+    });
   };
   return gemmaFetch as typeof fetch;
 }

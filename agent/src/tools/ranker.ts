@@ -4,6 +4,7 @@ import type { OutingFeatures } from "@roundtrip/core";
 import { type DataClass, outboundFetch } from "@roundtrip/core/privacy";
 import { repoRoot } from "@roundtrip/core/server-env";
 import { hashKey } from "../gemma/store";
+import { span } from "../observability/trace";
 
 /**
  * Client for the ranker service (ranker/, FastAPI + tabpfn-client). Requests and responses are
@@ -44,13 +45,23 @@ export async function rankOutings(
     return { ...(JSON.parse(await readFile(file, "utf8")) as RankResponse), cached: true };
   } catch {}
   if (env.CI || env.RANKER_MODE === "replay") throw new Error(`No recorded ranker response ${key.slice(0, 12)}.`);
+  const attributes = { "roundtrip.past_rows": past.length, "roundtrip.candidates": candidates.length };
+  return span("rank with TabPFN", "ranker.tabpfn", attributes, () => rankLive(env, body, file, opts.dataClass));
+}
+
+async function rankLive(
+  env: NodeJS.ProcessEnv,
+  body: Record<string, unknown>,
+  file: string,
+  dataClass: DataClass,
+): Promise<RankResponse & { cached: boolean }> {
   const base = env.RANKER_URL ?? "http://127.0.0.1:8100";
   const url = `${base.replace(/\/$/, "")}/rank`;
   const headers: Record<string, string> = { "Content-Type": "application/json" };
   if (env.RANKER_SHARED_KEY) headers["x-ranker-key"] = env.RANKER_SHARED_KEY;
   const res = await (url.startsWith("http://127.0.0.1") || url.startsWith("http://localhost")
     ? fetch(url, { method: "POST", headers, body: JSON.stringify(body), signal: AbortSignal.timeout(300_000) })
-    : outboundFetch("ranker", opts.dataClass, url, {
+    : outboundFetch("ranker", dataClass, url, {
         method: "POST",
         headers,
         body: JSON.stringify(body),

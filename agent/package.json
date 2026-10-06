@@ -19,7 +19,8 @@
     "./weeks": "./src/planner/weeks.ts",
     "./candidates": "./src/planner/candidates.ts",
     "./people": "./src/planner/people.ts",
-    "./live-week": "./src/planner/live-week.ts"
+    "./live-week": "./src/planner/live-week.ts",
+    "./observability": "./src/observability/trace.ts"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
