@@ -40,7 +40,7 @@
   --rail: #3b3f99;
   --sea: #13a09a;
   --bus: #f2a900;
-  --paper: #fbfcfe;
+  --paper: #faf8f4;
 
   /* Accessible variants, measured against white */
   --sky-text: #1c6cb0;
@@ -58,26 +58,31 @@
   --home-green: #1e7b4f;
   --home-green-text: #1e7b4f;
 
-  /* Ink-tinted neutral scale */
-  --n-50: #f2f4f9;
-  --n-100: #e3e7f0;
-  --n-200: #c9d0df;
-  --n-400: #8a94ad;
-  --n-600: #4a5573;
+  /*
+   * The color story (docs/brand.md, Color): a letter home. Warm cotton paper and sandstone
+   * neutrals, like an aerogramme and the earth around Guntur, under indigo ink, the steady parent.
+   * Marigold, the flowers at the door, is home and the one action that matters on a screen.
+   */
+  /* Sandstone neutral scale */
+  --n-50: #f3efe7;
+  --n-100: #e7e1d6;
+  --n-200: #d2c9b9;
+  --n-400: #8f887b;
+  --n-600: #4f4c5a;
   --n-900: #1f2a44;
 
   /* Surfaces and text */
   --surface: #ffffff;
-  --surface-sunken: #f2f4f9;
+  --surface-sunken: #f3efe7;
   --text: #1f2a44;
-  --text-muted: #4a5573;
-  --line: #e3e7f0;
-  --line-strong: #c9d0df;
+  --text-muted: #4f4c5a;
+  --line: #e7e1d6;
+  --line-strong: #d2c9b9;
   --focus: #1c6cb0;
 
   /* Elevation: two levels, ink-tinted */
-  --shadow-raised: 0 1px 2px rgba(31, 42, 68, 0.08), 0 6px 16px rgba(31, 42, 68, 0.06);
-  --shadow-overlay: 0 12px 40px rgba(31, 42, 68, 0.18);
+  --shadow-raised: 0 1px 2px rgba(41, 35, 26, 0.06), 0 8px 24px -6px rgba(41, 35, 26, 0.12);
+  --shadow-overlay: 0 24px 60px -12px rgba(31, 42, 68, 0.24);
 
   /* The page theme's accent; ThemeShell sets data-theme */
   --accent-text: var(--ink);
@@ -167,13 +172,13 @@
   color-scheme: light;
   /* body resolved its color with the dark values; set it again here */
   color: var(--text);
-  --paper: #fbfcfe;
+  --paper: #faf8f4;
   --surface: #ffffff;
-  --surface-sunken: #f2f4f9;
+  --surface-sunken: #f3efe7;
   --text: #1f2a44;
-  --text-muted: #4a5573;
-  --line: #e3e7f0;
-  --line-strong: #c9d0df;
+  --text-muted: #4f4c5a;
+  --line: #e7e1d6;
+  --line-strong: #d2c9b9;
   --focus: #1c6cb0;
   --logo-parent: #1f2a44;
   --sky-text: #1c6cb0;
@@ -184,8 +189,8 @@
   --rail-line: #3b3f99;
   --signal-text: #c8102e;
   --home-green-text: #1e7b4f;
-  --shadow-raised: 0 1px 2px rgba(31, 42, 68, 0.08), 0 6px 16px rgba(31, 42, 68, 0.06);
-  --shadow-overlay: 0 12px 40px rgba(31, 42, 68, 0.18);
+  --shadow-raised: 0 1px 2px rgba(41, 35, 26, 0.06), 0 8px 24px -6px rgba(41, 35, 26, 0.12);
+  --shadow-overlay: 0 24px 60px -12px rgba(31, 42, 68, 0.24);
 }
 
 /* Page themes. Each page belongs to one way of traveling. */
@@ -204,7 +209,7 @@
 [data-theme="road"] {
   --accent-text: var(--text);
   --accent-line: var(--bus);
-  --paper: #ffffff;
+  --paper: #faf8f4;
 }
 /* Home: warm, soft daylight for the diary and memory book. */
 [data-theme="home"] {

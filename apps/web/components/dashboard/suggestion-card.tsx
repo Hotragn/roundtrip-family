@@ -49,32 +49,39 @@ export function SuggestionCard({
       style={{ transform: CSS.Translate.toString(transform) }}
       aria-label={`${item.title}, ${hhmm(item.depart)}, ${who}`}
       className={cn(
-        "group relative overflow-hidden rounded-card bg-surface shadow-raised ring-1 transition-shadow",
+        "group relative overflow-hidden rounded-card bg-surface shadow-raised ring-1 transition-[box-shadow,translate] duration-200 hover:-translate-y-0.5 hover:shadow-overlay",
         approved ? "ring-ink/70" : "ring-line",
         (isDragging || dragging) && "z-20 shadow-overlay",
       )}
     >
       <button type="button" onClick={onOpen} className="block w-full text-left" aria-label={`Open ${item.title}`}>
-        <PlacePhoto
-          url={item.photo?.url}
-          width={480}
-          height={270}
-          category={item.category}
-          className="aspect-[16/9] w-full"
-        />
-        <div className="space-y-2 px-3 pb-2 pt-2.5">
-          <p className="flex items-baseline justify-between gap-2 text-[13px] text-text-muted">
-            <span className="font-semibold tabular-nums text-text">
-              {hhmm(item.depart)} to {hhmm(item.back)}
+        <div className="relative">
+          <PlacePhoto
+            url={item.photo?.url}
+            width={480}
+            height={270}
+            category={item.category}
+            className="aspect-[16/9] w-full"
+          />
+          {/* The time and, once approved, a badge sit on the photo, like a printed ticket. */}
+          <span className="absolute bottom-2 left-2 rounded-chip bg-white/92 px-2 py-1 text-[13px] font-semibold tabular-nums text-[#1F2A44] shadow-raised">
+            {hhmm(item.depart)} to {hhmm(item.back)}
+          </span>
+          {approved ? (
+            <span className="absolute top-2 right-2 inline-flex items-center gap-1 rounded-chip bg-[#1F2A44] px-2 py-1 text-[13px] font-semibold text-white shadow-raised">
+              <Check aria-hidden="true" className="size-3.5 stroke-[2.5]" />
+              Approved
             </span>
-            <span className="truncate">{who}</span>
-          </p>
+          ) : null}
+        </div>
+        <div className="space-y-2.5 px-4 pt-3 pb-3">
+          <p className="truncate text-[14px] text-text-muted">For {who === "Both" ? "both of them" : who}</p>
           <h3 lang={lang} className="line-clamp-2 hyphens-auto text-base font-semibold leading-snug">
             {item.title}
           </h3>
           <div className="space-y-1">
             <TravelLines legs={legSummaries(item)} width={180} label={tripLine(item)} />
-            <p className="text-[13px] text-text-muted">{tripLine(item)}</p>
+            <p className="text-[14px] text-text-muted">{tripLine(item)}</p>
           </div>
           <LadderBadge level={item.ladderLevel} label={item.ladderLabel} size="sm" />
           <ReasonChips chips={item.chips.filter((c) => c.direction === "for").slice(0, 1)} size="sm" />
@@ -83,10 +90,7 @@ export function SuggestionCard({
       <div className="flex items-center gap-1.5 border-t border-line px-2 py-2">
         {approved ? (
           <>
-            <span className="inline-flex flex-1 items-center gap-1.5 px-1 text-[13px] font-semibold">
-              <Check aria-hidden="true" className="size-4 stroke-[2.25]" />
-              Approved
-            </span>
+            <span className="flex-1 truncate px-1 text-[13px] text-text-muted">On their phone</span>
             <Button variant="quiet" size="sm" onClick={onUnapprove} aria-label={`Take ${item.title} off their week`}>
               <Undo2 aria-hidden="true" className="size-4" />
             </Button>

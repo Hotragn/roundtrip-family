@@ -46,7 +46,11 @@ export function Story() {
   const week = demoWeek();
   return (
     <div className="px-4 pb-24 sm:px-8 lg:px-12">
-      <section aria-labelledby="how-title" className="space-y-[14vh] pt-[18vh] lg:space-y-[22vh] lg:pt-[26vh]">
+      <section
+        id="how"
+        aria-labelledby="how-title"
+        className="scroll-mt-8 space-y-[14vh] pt-[18vh] lg:space-y-[22vh] lg:pt-[26vh]"
+      >
         <Panel className="max-w-[32rem] rounded-[20px] p-6 sm:p-8">
           <h2 id="how-title" className="text-[31px] font-semibold leading-tight tracking-[-0.02em] sm:text-[39px]">
             How a week works

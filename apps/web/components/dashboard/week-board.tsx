@@ -11,7 +11,7 @@ import {
 } from "@dnd-kit/core";
 import { useState } from "react";
 import { toast } from "sonner";
-import { DAY_NAMES, dayAvailability, moveProblem, shortDate, whoFor, whoShort } from "@/lib/plan-format";
+import { DAY_NAMES, dayAvailability, hhmm, moveProblem, shortDate, whoFor, whoShort } from "@/lib/plan-format";
 import type { BoardItem, PlanBoard } from "@/lib/plan-types";
 import { cn } from "@/lib/utils";
 import { ItemSheet } from "./item-sheet";
@@ -68,18 +68,19 @@ function DayColumn({
       aria-label={column.label}
       className={cn(
         "flex min-h-[240px] flex-col gap-3 rounded-card p-2 transition-colors",
-        !free && "bg-surface-sunken/50",
+        !free &&
+          "bg-[repeating-linear-gradient(135deg,transparent_0_12px,color-mix(in_oklab,var(--color-line)_60%,transparent)_12px_13px)]",
         isOver && free && "bg-accent-line/8 ring-2 ring-accent-line/50",
         isOver && !free && "bg-surface-sunken ring-2 ring-line-strong",
       )}
     >
       <header className="px-1">
-        <h2 className="text-[15px] font-semibold">{column.title}</h2>
-        <p className="text-[12px] leading-snug text-text-muted">{column.note}</p>
+        <h2 className="text-[16px] font-semibold">{column.title}</h2>
+        <p className="text-[13px] leading-snug text-text-muted">{column.note}</p>
       </header>
       {children}
       {empty && free ? (
-        <p className="rounded-card border border-dashed border-line-strong px-3 py-4 text-[13px] leading-snug text-text-muted">
+        <p className="rounded-card border border-dashed border-line-strong px-3 py-4 text-[14px] leading-snug text-text-muted">
           {weekend ? "Nothing planned yet. Drag an outing here to go together." : "A free day. Drag an outing here."}
         </p>
       ) : null}
@@ -103,6 +104,10 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
   );
 
   const approved = items.filter((i) => i.status === "approved").length;
+  const DAY_ORDER = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+  const next = items
+    .filter((i) => i.status === "approved")
+    .sort((a, b) => DAY_ORDER.indexOf(a.day) - DAY_ORDER.indexOf(b.day) || a.depart - b.depart)[0];
 
   async function run(label: string, fn: () => Promise<unknown>, done?: string, describe?: string) {
     try {
@@ -171,10 +176,21 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
           <h1 className="text-[31px] font-semibold leading-tight">This week</h1>
           <p className="text-base text-text-muted">{board.note}</p>
         </div>
-        <p className="rounded-chip bg-surface px-3 py-1.5 text-sm shadow-raised ring-1 ring-line">
-          <span className="font-semibold tabular-nums">{approved}</span> approved ·{" "}
-          <span className="font-semibold tabular-nums">{items.length - approved}</span> to decide
-        </p>
+        <dl className="flex gap-2">
+          {[
+            { label: "Approved", value: String(approved) },
+            { label: "To decide", value: String(items.length - approved) },
+            {
+              label: "Next outing",
+              value: next ? `${DAY_NAMES[next.day]?.slice(0, 3)} ${hhmm(next.depart)}` : "None yet",
+            },
+          ].map((s) => (
+            <div key={s.label} className="min-w-28 rounded-card bg-surface px-4 py-3 shadow-raised ring-1 ring-line">
+              <dt className="text-[13px] text-text-muted">{s.label}</dt>
+              <dd className="mt-0.5 text-[20px] font-semibold tabular-nums">{s.value}</dd>
+            </div>
+          ))}
+        </dl>
       </div>
       <DndContext id="week-board" sensors={sensors} onDragEnd={onDragEnd}>
         <div className="-mx-4 overflow-x-auto px-4 pb-2 sm:mx-0 sm:px-0">
@@ -207,7 +223,7 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
           </div>
         </div>
       </DndContext>
-      <p className="text-[13px] text-text-muted">
+      <p className="text-[14px] text-text-muted">
         Places and events come from live searches for the week of {board.week.label}. The family is fictional. Drag an
         outing to move it to another day they&rsquo;re free; open one to see the route, the reasons and their ticket.
       </p>

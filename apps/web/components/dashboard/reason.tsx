@@ -24,11 +24,9 @@ export function ReasonChips({
           <li
             key={c.label}
             className={cn(
-              "inline-flex items-center gap-1 rounded-chip border leading-tight",
-              size === "sm" ? "px-1.5 py-0.5 text-[12px]" : "px-2 py-1 text-[13px]",
-              forIt
-                ? "border-accent-line/40 bg-surface text-accent-text"
-                : "border-line bg-surface-sunken text-text-muted",
+              "inline-flex items-center gap-1 rounded-chip leading-tight",
+              size === "sm" ? "px-2 py-1 text-[13px]" : "px-2.5 py-1 text-[14px]",
+              forIt ? "bg-accent-line/10 text-accent-text" : "bg-surface-sunken text-text-muted",
             )}
           >
             {forIt ? (
@@ -50,7 +48,7 @@ export function LadderBadge({ level, label, size = "md" }: { level: number; labe
     <span
       className={cn(
         "inline-flex items-center gap-1.5 rounded-chip bg-surface-sunken font-medium text-text",
-        size === "sm" ? "px-1.5 py-0.5 text-[12px]" : "px-2 py-1 text-[13px]",
+        size === "sm" ? "px-2 py-1 text-[13px]" : "px-2.5 py-1 text-[14px]",
       )}
       title={`Fallback ladder level ${level} of 5`}
     >

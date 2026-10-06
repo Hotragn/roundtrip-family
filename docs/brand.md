@@ -27,6 +27,8 @@ Files in `brand/`: `roundtrip-logo.svg`, `roundtrip-logo-dark.svg`, `roundtrip-m
 
 ## Color
 
+**The story behind the palette: a letter home.** Roundtrip exists for parents far from home, so the colors are the materials of keeping in touch, not a software dashboard's grays. The base is warm cotton paper, like an aerogramme or the printed memory book. The neutrals are sandstone, the warm earth around Guntur, so lines and quiet surfaces feel made rather than generated. Text is indigo ink, the steady parent in the logo. Marigold, the flowers strung at a door, means home: it marks the one action that matters on a screen and nothing else. The journey colors (sky, rail, sea) belong to their page themes, and the two safety colors stay reserved. At night the paper turns to night-sky indigo, never black.
+
 | Token | Hex | Role |
 |---|---|---|
 | `ink` | `#1F2A44` | Text, the parent in the logo |
@@ -34,7 +36,7 @@ Files in `brand/`: `roundtrip-logo.svg`, `roundtrip-logo-dark.svg`, `roundtrip-m
 | `rail` | `#3B3F99` | Rail accents |
 | `sea` | `#13A09A` | Sea accents |
 | `bus` | `#F2A900` | Home, and the one main action per screen |
-| `paper` | `#FBFCFE` | Base background |
+| `paper` | `#FAF8F4` | Base background: warm cotton paper |
 
 **Accessible variants** (measured against white):
 
@@ -50,7 +52,7 @@ Files in `brand/`: `roundtrip-logo.svg`, `roundtrip-logo-dark.svg`, `roundtrip-m
 - Text on `bus` is always ink (7.1:1). Never put marigold text on white.
 - Brand `sky` and `sea` are for the logo and large imagery only, never for text.
 - **Safety colors, reserved:** `signal` `#C8102E` for "I'm lost" only; `home-green` `#1E7B4F` for "I'm home" only.
-- **Neutral scale** (ink-tinted): `#F2F4F9`, `#E3E7F0`, `#C9D0DF`, `#8A94AD`, `#4A5573`, `#1F2A44`.
+- **Neutral scale** (sandstone): `#F3EFE7`, `#E7E1D6`, `#D2C9B9`, `#8F887B`, `#4F4C5A`, `#1F2A44`. Shadows are warm and diffused: raised `0 1px 2px rgba(41,35,26,.06), 0 8px 24px -6px rgba(41,35,26,.12)`, overlay `0 24px 60px -12px rgba(31,42,68,.24)`.
 - **Dark theme:** background `#16203A` (night-sky indigo, never near-black), text `#E8ECF5`.
 
 ---

@@ -65,18 +65,19 @@ test("approve, swap and move on the week board", async ({ page }, info) => {
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/plan/fremont-demo", { waitUntil: "networkidle" });
   await expect(page.getByRole("heading", { name: "This week", level: 1 })).toBeVisible();
-  const tally = page.getByText(/approved ·/);
-  await expect(tally).toContainText("3 approved");
+  // The header's Approved tile.
+  const tally = page.locator("dt", { hasText: /^Approved$/ }).locator("xpath=following-sibling::dd");
+  await expect(tally).toHaveText("3");
 
   // Approve the one still to decide: the ticket is already on her phone.
   const park = page.getByRole("article", { name: /^Central Park/ });
   await park.getByRole("button", { name: "Approve" }).click();
   await expect(page.getByText("The ticket is on Sarala's phone now.")).toBeVisible();
-  await expect(tally).toContainText("4 approved");
+  await expect(tally).toHaveText("4");
 
   // Take it off again, then swap it for another option on the same day.
   await park.getByRole("button", { name: "Take Central Park off their week" }).click();
-  await expect(tally).toContainText("3 approved");
+  await expect(tally).toHaveText("3");
   await park.getByRole("button", { name: "Swap Central Park for another option" }).click();
   const sheet = page.getByRole("dialog");
   await expect(sheet.getByRole("heading", { name: /Other options for/ })).toBeVisible();
