@@ -34,6 +34,20 @@ export function Replan({ board }: { board: PlanBoard }) {
   const timer = useRef<ReturnType<typeof setInterval> | null>(null);
   useEffect(() => () => void (timer.current && clearInterval(timer.current)), []);
 
+  // The free ranker sleeps when idle; wake it once this panel is in view, so it's up by the click.
+  const intro = useRef<HTMLDivElement | null>(null);
+  useEffect(() => {
+    const el = intro.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    const io = new IntersectionObserver((entries) => {
+      if (!entries.some((e) => e.isIntersecting)) return;
+      io.disconnect();
+      void fetch("/plan/api/replan/wake").catch(() => {});
+    });
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
   const mother = board.parents.find((p) => p.role === "mother");
   const father = board.parents.find((p) => p.role === "father");
   const choices = [
@@ -68,7 +82,7 @@ export function Replan({ board }: { board: PlanBoard }) {
 
   return (
     <Panel className="space-y-5 p-5 sm:p-6">
-      <div className="max-w-[760px] space-y-1.5">
+      <div ref={intro} className="max-w-[760px] space-y-1.5">
         <h2 className="text-[20px] font-semibold">Plan the coming week</h2>
         <p className="text-[15px] text-text-muted">
           Run the planner now for next Monday to Sunday: the live forecast, the places from the saved searches, TabPFN

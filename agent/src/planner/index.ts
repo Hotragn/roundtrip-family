@@ -150,49 +150,48 @@ interface Scored {
 
 const ROLES: Role[] = ["mother", "father"];
 
+/**
+ * Scores each parent's feasible candidates with TabPFN. The parents are ranked at the same time:
+ * each call takes about 20 seconds on the Prior Labs API, and they don't depend on each other.
+ */
 async function scoreFeasible(ctx: PlannerContext): Promise<{ scored: Scored[]; rankerCalls: number }> {
-  const scored: Scored[] = [];
-  let rankerCalls = 0;
-  for (const role of ROLES) {
-    if (
-      !ctx.parents.some(
-        (p) => parentByRole(ctx, role)._id === p._id && (role === "father") === p.addressAs.includes("నాన్న"),
-      )
-    )
-      continue;
-    const planned = ctx.candidates.map((c) => plan(ctx, c, role)).filter((p) => p.feasibility.ok);
-    if (planned.length === 0) continue;
-    const parent = parentByRole(ctx, role);
-    const row = (o: (typeof ctx.pastOutings)[number]) => ({
-      features: o.features,
-      went: o.result?.went ? 1 : 0,
-      enjoyment: o.result?.enjoyment ?? null,
-    });
-    const mine = ctx.pastOutings.filter((o) => o.parentIds.includes(parent._id)).map(row);
-    const t = Date.now();
-    const res = await rankOutings(
-      mine.length >= 3 ? mine : ctx.pastOutings.map(row),
-      planned.map((p) => p.features),
-      { dataClass: "synthetic" },
-    );
-    ctx.log.push({ tool: "rankOutings", ms: Date.now() - t, detail: `${role}: ${planned.length} feasible` });
-    rankerCalls++;
-    for (const r of res.results) {
-      scored.push({
-        c: planned[r.index]!.candidate,
-        role,
-        combined: r.combined,
-        pGo: r.pGo,
-        enjoyment: r.enjoyment,
-        chips: r.reasons.map((x) => ({
-          label: chipLabel(ctx, x.feature, x.label),
-          feature: x.feature,
-          direction: x.direction,
-        })),
-      });
-    }
-  }
-  return { scored, rankerCalls };
+  const perRole = await Promise.all(ROLES.map((role) => scoreFor(ctx, role)));
+  return { scored: perRole.flatMap((s) => s ?? []), rankerCalls: perRole.filter((s) => s !== null).length };
+}
+
+async function scoreFor(ctx: PlannerContext, role: Role): Promise<Scored[] | null> {
+  const present = ctx.parents.some(
+    (p) => parentByRole(ctx, role)._id === p._id && (role === "father") === p.addressAs.includes("నాన్న"),
+  );
+  if (!present) return null;
+  const planned = ctx.candidates.map((c) => plan(ctx, c, role)).filter((p) => p.feasibility.ok);
+  if (planned.length === 0) return null;
+  const parent = parentByRole(ctx, role);
+  const row = (o: (typeof ctx.pastOutings)[number]) => ({
+    features: o.features,
+    went: o.result?.went ? 1 : 0,
+    enjoyment: o.result?.enjoyment ?? null,
+  });
+  const mine = ctx.pastOutings.filter((o) => o.parentIds.includes(parent._id)).map(row);
+  const t = Date.now();
+  const res = await rankOutings(
+    mine.length >= 3 ? mine : ctx.pastOutings.map(row),
+    planned.map((p) => p.features),
+    { dataClass: "synthetic" },
+  );
+  ctx.log.push({ tool: "rankOutings", ms: Date.now() - t, detail: `${role}: ${planned.length} feasible` });
+  return res.results.map((r) => ({
+    c: planned[r.index]!.candidate,
+    role,
+    combined: r.combined,
+    pGo: r.pGo,
+    enjoyment: r.enjoyment,
+    chips: r.reasons.map((x) => ({
+      label: chipLabel(ctx, x.feature, x.label),
+      feature: x.feature,
+      direction: x.direction,
+    })),
+  }));
 }
 
 /** Kinds of place as a family would name them, for reason chips. */
