@@ -197,6 +197,16 @@ export const OUTBOUND: OutboundRoute[] = [
     docs: "https://docs.priorlabs.ai/api-reference/metering",
   },
   {
+    id: "render.api",
+    service: "Render API (deploys)",
+    hosts: ["api.render.com"],
+    purpose: "Creating and updating the demo's two free web services, their settings and deploys",
+    sends: "Service names, build and start commands, and the app's own settings and API keys; no family data",
+    accepts: ["public"],
+    when: "build",
+    docs: "https://api-docs.render.com/reference/create-service",
+  },
+  {
     id: "mongodb",
     service: "MongoDB Atlas (the household's own database)",
     hosts: ["mongodb.net"],
