@@ -8,6 +8,7 @@
  * https://api-docs.render.com/reference/create-deploy, https://render.com/docs/free (free tier).
  * Run: pnpm --filter @roundtrip/scripts exec tsx render-deploy.ts [--no-deploy]
  */
+import { randomBytes } from "node:crypto";
 import { outboundFetch } from "@roundtrip/core/privacy";
 import { loadEnv } from "@roundtrip/core/server-env";
 
@@ -182,6 +183,20 @@ const web = await ensure(
   ],
   ["DIARY_ENCRYPTION_KEY"],
 );
+
+// One shared key so only the web app can spend the ranker's TabPFN pools: made once, kept on
+// the ranker, copied to the web app. The value stays inside this process.
+const rankerVars = await render<Array<{ envVar: { key: string; value: string } }>>(
+  "GET",
+  `/services/${ranker.id}/env-vars?limit=100`,
+);
+let shared = rankerVars.find((x) => x.envVar.key === "RANKER_SHARED_KEY")?.envVar.value;
+if (!shared) {
+  shared = randomBytes(32).toString("base64url");
+  await render("PUT", `/services/${ranker.id}/env-vars/RANKER_SHARED_KEY`, { value: shared });
+}
+await render("PUT", `/services/${web.id}/env-vars/RANKER_SHARED_KEY`, { value: shared });
+console.log("  RANKER_SHARED_KEY: SET on both services");
 
 if (deploy) {
   for (const svc of [ranker, web]) {

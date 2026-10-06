@@ -208,6 +208,8 @@ export function ScrollTrack({ theme }: { theme: TrackTheme }) {
             src={art.handle.src}
             alt=""
             draggable={false}
+            // Hidden on touch screens, so it isn't fetched there.
+            loading="lazy"
             width={art.handle.w}
             height={art.handle.h}
             className="pointer-events-none size-full drop-shadow-[0_1px_1.5px_rgb(31_42_68/0.35)]"
