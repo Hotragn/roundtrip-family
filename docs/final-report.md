@@ -25,7 +25,7 @@ Roundtrip, built end to end from docs/plan.md between 5 and 6 October 2026. This
 
 ## Quality bars (docs/brand.md)
 
-- **Lighthouse, mobile, on the live site (6 October):** landing 95 to 96, dashboard 93 to 97, privacy 96, and accessibility, best practices and SEO 100 on every page measured. The parents' app scored 86, 86 and 95 on performance in three runs, so it misses the 90 bar on some first visits: under Lighthouse's simulated slow phone network, its Telugu fonts and about 250 KB of JavaScript set the floor. After the first visit it opens from the phone's cache.
+- **Lighthouse, mobile, on the live site (6 October), median of five runs:** parents' app 91 (Fremont, runs 86 to 95) and 92 (Munich, 90 to 94); landing 98 and dashboard 95 (three runs, 94 to 98); accessibility, best practices and SEO 100 on every page. Getting there took the stylesheet out of the HTML (it was inlined three times), a separate small stylesheet for the parents' app, its other screens loading after Today, and the Telugu font preloaded only where it's used. The free instance's response time still moves single runs by a few points.
 - **WCAG AA:** axe clean on every parents' screen and dashboard section in light and dark; the parents' app also passes the 200% text and 56 px target test.
 - **Reduced motion, offline-ready, text on white panels, native scrolling:** checked by the e2e suite and the screenshot reviews.
 
@@ -77,7 +77,6 @@ The households (Sarala and Venkat in Fremont, Kamala and Raghu in Munich), their
 
 ## Not done, and why
 
-- The dashboard's approve and swap don't signal weekPlan; email replies, check-ins and faces do (docs/skipped.md).
-- The day-before reminder email isn't built (docs/skipped.md).
+- Day moves made on the dashboard reach the phones but not weekPlan, so a moved outing's safety timer and reminder keep its planned day (docs/skipped.md). Approvals and swaps do reach it, with "Set up the week" where Temporal runs.
 - ElevenLabs is unused: optional in the plan, and the open voices cover every card.
 - The tuned writer still misses the walk from the stop on some cards; the gate hands those to Gemma. Fixing the style guide's example card would help a future training run.

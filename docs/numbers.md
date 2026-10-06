@@ -54,6 +54,17 @@ Measured on https://roundtrip-web.onrender.com on 6 October with `curl -X POST /
 
 The slowest step was TabPFN: the free ranker service sleeps after 15 idle minutes and takes about half a minute to wake, and each Prior Labs call takes about 20 seconds. The two parents are now ranked at the same time, and the dashboard wakes the ranker when the planner panel comes into view (decision in the commit "Rank both parents at once, and wake the ranker before a re-plan").
 
+## Lighthouse (mobile, live site)
+
+`npx lighthouse@12 <url> --only-categories=performance,accessibility,best-practices,seo` against https://roundtrip-web.onrender.com on 6 October, after deploying commit 4f006f5.
+
+| Page | Performance, five runs | Median | Accessibility, best practices, SEO |
+|---|---|---|---|
+| Parents' app, Sarala (Fremont) | 86, 91, 91, 95, 89 | 91 | 100 |
+| Parents' app, Kamala (Munich) | 92, 90, 94, 93, 91 | 92 | 100 |
+| Dashboard, Fremont (three runs) | 98, 95, 94 | 95 | 100 |
+| Landing (three runs) | 98, 94, 98 | 98 | 100 |
+
 ## Speech
 
 44 clips voiced and scored in the Codespace (Linux x86_64, 4 CPUs, 16 GB), synthetic text: every card title and body, practice phrase, help card and synthetic diary voice entry. Score: character error rate (CER) of a transcription back to text. Command, in the Codespace: `bash -l speech/codespace.sh`; report in docs/speech-results.md.
