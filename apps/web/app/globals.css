@@ -317,7 +317,7 @@
   --text-3xl--line-height: 1.15;
   /* Parents' app: body 22, ticket title 32, driver card stop name 64 */
   --text-parent: 22px;
-  --text-parent--line-height: 1.55;
+  --text-parent--line-height: 1.6;
   --text-parent-title: 32px;
   --text-parent-title--line-height: 1.25;
   --text-driver: 64px;

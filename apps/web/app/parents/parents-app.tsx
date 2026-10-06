@@ -109,6 +109,14 @@ export function ParentsApp({
     setView(v);
     setOutingId(o ?? null);
     window.scrollTo({ top: 0 });
+    // The new view replaces the button that opened it, so move focus to the view's heading:
+    // keyboard and screen-reader users start at the top of the new screen, not on the page body.
+    requestAnimationFrame(() => {
+      const target = document.querySelector<HTMLElement>("main h1") ?? document.querySelector<HTMLElement>("main");
+      if (!target) return;
+      target.tabIndex = -1;
+      target.focus({ preventScroll: true });
+    });
   }, []);
 
   if (!initial) return <StartScreen />;
@@ -252,41 +260,44 @@ function ParentScreens({
 
   return (
     <ParentsContext.Provider value={state}>
-      <div className="mx-auto max-w-[480px] px-5 pb-32 pt-4">
-        <div className="mb-4 flex min-h-11 items-center justify-between gap-3">
+      <div className="mx-auto max-w-[480px] px-5 pt-4 pb-[calc(var(--parents-bar,8rem)+2rem)]">
+        <header className="mb-4 flex min-h-14 items-center justify-between gap-3">
           {view !== "today" ? (
             <button
               type="button"
               onClick={() => go("today")}
-              className="-ml-2 inline-flex min-h-11 items-center gap-2 rounded-lg px-2 text-[18px] font-medium"
+              className="-ml-2 inline-flex flex-wrap min-h-14 items-center gap-2 rounded-lg px-2 text-[18px] font-medium"
               lang="te"
             >
-              <ArrowLeft aria-hidden="true" className="size-6 stroke-[1.75]" />
+              <ArrowLeft aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
               {t("Parents.back_to_today")}
             </button>
           ) : (
-            <span className="rounded-full bg-surface-sunken px-3 py-1 text-[14px] text-text-muted">
+            <span className="rounded-full bg-surface-sunken px-3 py-1 text-[14px] text-text-muted" lang="en">
               {t("Parents.demo")}
             </span>
           )}
+          {/* Opens the start screen, where the phone's owner is chosen. */}
           <button
             type="button"
             onClick={() => go("start")}
-            className="min-h-11 rounded-lg px-2 text-[15px] text-text-muted underline-offset-4 hover:underline"
+            className="-mr-2 min-h-14 min-w-14 rounded-lg px-2 text-[15px] text-text-muted underline-offset-4 hover:underline"
           >
-            {state.parent.firstName}
+            <span lang="en">{state.parent.firstName}</span>
+            <span className="sr-only" lang="te">
+              {` · ${t("Parents.whose")}`}
+            </span>
           </button>
+        </header>
+        {/* Always in the page, so screen readers announce the change when the Wi-Fi drops. */}
+        <div role="status">
+          {!online ? (
+            <p className="mb-4 flex items-center gap-2 rounded-lg bg-surface-sunken px-4 py-3 text-[18px]" lang="te">
+              <WifiOff aria-hidden="true" className="size-5 shrink-0" />
+              {t("Parents.offline")}
+            </p>
+          ) : null}
         </div>
-        {!online ? (
-          <p
-            role="status"
-            className="mb-4 flex items-center gap-2 rounded-lg bg-surface-sunken px-4 py-3 text-[18px]"
-            lang="te"
-          >
-            <WifiOff aria-hidden="true" className="size-5 shrink-0" />
-            {t("Parents.offline")}
-          </p>
-        ) : null}
         <main data-view={view}>
           {view === "today" ? <TodayView featuredId={featured ?? outingId} onFeature={setFeatured} /> : null}
           {view === "directions" ? <DirectionsView /> : null}

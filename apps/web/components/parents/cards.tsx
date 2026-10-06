@@ -67,7 +67,7 @@ export function PhraseCard({
       <p className="mt-3 text-[15px] text-text-muted" lang="te">
         {labels.say}
       </p>
-      <p className="text-[24px] leading-snug" lang="te">
+      <p className="text-[24px]" lang="te">
         {pronunciation}
       </p>
       <p className="mt-3 text-[15px] text-text-muted" lang="te">
@@ -149,24 +149,25 @@ export function LostCard({
       </div>
       <a
         href={tel(phone)}
-        className="flex min-h-16 items-center justify-center gap-3 rounded-xl bg-ink px-6 text-parent font-semibold text-white"
+        className="flex flex-wrap min-h-16 items-center justify-center gap-3 rounded-xl bg-ink px-6 text-parent font-semibold text-white"
         lang="te"
       >
-        <Phone aria-hidden="true" className="size-6 stroke-[1.75]" />
+        <Phone aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
         {labels.callFamily}
       </a>
       <a
         href={tel(emergency.number)}
-        className="flex min-h-16 items-center justify-center gap-3 rounded-xl bg-signal px-6 text-parent font-semibold text-white"
+        className="flex flex-wrap min-h-16 items-center justify-center gap-3 rounded-xl bg-signal px-6 text-parent font-semibold text-white"
       >
-        <Siren aria-hidden="true" className="size-6 stroke-[1.75]" />
+        <Siren aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
         <span lang="te">{labels.emergency}</span>
         <span className="tabular-nums">{emergency.number}</span>
       </a>
       {secondary ? (
         <a
           href={tel(secondary.number)}
-          className="block text-center text-[19px] text-text-muted underline-offset-4 hover:underline"
+          className="flex min-h-14 flex-wrap items-center justify-center gap-x-1 rounded-xl text-center text-[19px] text-text-muted underline-offset-4 hover:underline"
+          lang="en"
         >
           {secondary.covers}: <span className="font-semibold tabular-nums text-text">{secondary.number}</span>
         </a>
@@ -191,13 +192,16 @@ export function FeelingChips({
   words,
   selected,
   onToggle,
+  labelledBy,
 }: {
   words: string[];
   selected: string[];
   onToggle: (w: string) => void;
+  /** The id of the question the chips answer. */
+  labelledBy?: string;
 }) {
   return (
-    <div className="flex flex-wrap gap-2" lang="te">
+    <div className="flex flex-wrap gap-2" lang="te" role="group" aria-labelledby={labelledBy}>
       {words.map((w) => {
         const on = selected.includes(w);
         return (
@@ -207,7 +211,7 @@ export function FeelingChips({
             aria-pressed={on}
             onClick={() => onToggle(w)}
             className={cn(
-              "min-h-12 rounded-full border px-4 text-[19px] transition-colors",
+              "min-h-14 rounded-full border px-4 text-[19px] transition-colors",
               on ? "border-ink bg-ink text-white" : "border-line-strong bg-surface text-text hover:bg-surface-sunken",
             )}
           >

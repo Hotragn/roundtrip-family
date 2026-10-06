@@ -64,7 +64,7 @@ export function Ticket({
             {legs.length > 0 ? <TravelLines legs={legs} width={440} label={linesLabel} /> : null}
             {/* Times on the left, the place photo on the right: the name below gets the full
                 width, and Listen and Directions stay on a phone's first screen. */}
-            <div className="mt-3 flex items-center justify-between gap-4">
+            <div className="mt-3 flex flex-wrap items-center justify-between gap-4">
               <dl className="grid grid-cols-[auto_auto] items-baseline gap-x-4 gap-y-2">
                 <dt className="text-[16px] text-text-muted" lang="te">
                   {leaveLabel}
@@ -89,7 +89,9 @@ export function Ticket({
                     loading="eager"
                     decoding="async"
                   />
-                  <figcaption className="mt-1 text-[12px] leading-tight text-text-muted">{photo.credit}</figcaption>
+                  <figcaption className="mt-1 text-[12px] leading-tight text-text-muted" lang="en">
+                    {photo.credit}
+                  </figcaption>
                 </figure>
               ) : null}
             </div>
@@ -137,7 +139,7 @@ export function Ticket({
                 className="inline-flex items-center gap-2 rounded-lg border-[3px] border-home-green bg-surface/90 px-4 py-1.5 text-[24px] font-semibold text-home-green-text"
                 lang="te"
               >
-                <Check aria-hidden="true" className="size-6 stroke-[2.25]" />
+                <Check aria-hidden="true" className="shrink-0 size-6 stroke-[2.25]" />
                 {stampLabel}
               </span>
             </m.div>

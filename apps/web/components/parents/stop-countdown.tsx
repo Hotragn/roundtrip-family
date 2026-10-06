@@ -86,11 +86,14 @@ const Node = ({ size = "sm", tone = "plain" }: { size?: "sm" | "lg"; tone?: "pla
 export function StopCountdown({
   legs,
   venue,
+  nameLang = "en",
   labels,
   gps,
 }: {
   legs: LegView[];
   venue: string;
+  /** Language of stop, line and venue names: the household's local language. */
+  nameLang?: string;
   labels: {
     yourStop: string;
     pressAfter: (stop: string) => string;
@@ -105,7 +108,11 @@ export function StopCountdown({
     kind: "bus" | "rail" | "walk";
     node?: "plain" | "before" | "mine" | "start";
     title: string;
+    /** The title is a stop name, kept exactly as on the signs. */
+    titleIsName?: boolean;
     sub?: string;
+    /** The sub line is a line name and headsign. */
+    subIsName?: boolean;
     first?: boolean;
     last?: boolean;
     strong?: boolean;
@@ -117,6 +124,7 @@ export function StopCountdown({
         kind: "walk",
         title: `${labels.walk} · ${labels.minutes(leg.durationMinutes)}`,
         sub: i === legs.length - 1 ? venue : leg.to.name,
+        subIsName: true,
       });
       continue;
     }
@@ -126,7 +134,9 @@ export function StopCountdown({
       kind,
       node: "start",
       title: leg.from.name,
+      titleIsName: true,
       sub: `${leg.line?.name ?? ""} ${leg.line?.headsign ?? ""}`.trim(),
+      subIsName: true,
       first: true,
       strong: true,
     });
@@ -138,11 +148,21 @@ export function StopCountdown({
         kind,
         node: isBefore ? "before" : "plain",
         title: s.name,
+        titleIsName: true,
         sub: isBefore ? labels.pressAfter(s.name) : labels.stopsToGo(between.length - j),
         strong: isBefore,
       });
     }
-    rows.push({ key: `e${i}`, kind, node: "mine", title: leg.to.name, sub: labels.yourStop, last: true, strong: true });
+    rows.push({
+      key: `e${i}`,
+      kind,
+      node: "mine",
+      title: leg.to.name,
+      titleIsName: true,
+      sub: labels.yourStop,
+      last: true,
+      strong: true,
+    });
   }
   return (
     <ol className="relative">
@@ -168,14 +188,16 @@ export function StopCountdown({
             />
           ) : null}
           <div className="pt-2">
-            <div className={cn("text-[20px] leading-snug", r.strong ? "font-semibold" : "text-text")}>{r.title}</div>
+            <div
+              className={cn("text-[20px]", r.strong ? "font-semibold" : "text-text")}
+              lang={r.titleIsName ? nameLang : "te"}
+            >
+              {r.title}
+            </div>
             {r.sub ? (
               <div
-                className={cn(
-                  "text-[17px] leading-snug",
-                  r.node === "before" ? "font-semibold text-text" : "text-text-muted",
-                )}
-                lang="te"
+                className={cn("text-[17px]", r.node === "before" ? "font-semibold text-text" : "text-text-muted")}
+                lang={r.subIsName ? nameLang : "te"}
               >
                 {r.node === "mine" ? <MapPin aria-hidden="true" className="mr-1 inline size-4 align-[-2px]" /> : null}
                 {r.sub}

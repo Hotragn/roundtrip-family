@@ -24,7 +24,14 @@ export default function ParentsLayout({ children }: { children: React.ReactNode 
   preconnect("https://lh3.googleusercontent.com");
   return (
     // Always the light palette: parents read it outdoors in daylight (docs/decisions.md).
-    <div data-theme="road" data-scheme="light" lang="te" className="min-h-dvh bg-paper text-parent">
+    // A word wider than the screen (large text on a small phone) breaks between aksharas
+    // instead of pushing the page sideways; conjuncts stay whole.
+    <div
+      data-theme="road"
+      data-scheme="light"
+      lang="te"
+      className="min-h-dvh bg-paper text-parent [overflow-wrap:anywhere]"
+    >
       <TeluguProvider>
         {/* No reload when the phone comes back online: that would cut off a recording, and the
             outbox sends what waited. The page warms its own cache once, so view changes don't

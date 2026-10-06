@@ -150,7 +150,7 @@ export function DiaryView() {
         <button
           type="button"
           onClick={() => go("book")}
-          className="min-h-12 rounded-lg border border-line-strong bg-surface px-4 text-[18px] font-medium"
+          className="min-h-14 rounded-lg border border-line-strong bg-surface px-4 text-[18px] font-medium"
           lang="te"
         >
           {t("Diary.book")}
@@ -165,17 +165,16 @@ export function DiaryView() {
         <button
           type="button"
           onClick={state === "recording" ? stop : start}
-          aria-pressed={state === "recording"}
           className={cn(
-            "flex min-h-20 w-full items-center justify-center gap-3 rounded-xl text-parent font-semibold",
+            "flex flex-wrap min-h-20 w-full items-center justify-center gap-3 rounded-xl text-parent font-semibold",
             state === "recording" ? "bg-ink text-white" : "bg-bus text-on-bus",
           )}
           lang="te"
         >
           {state === "recording" ? (
-            <Square aria-hidden="true" className="size-7" />
+            <Square aria-hidden="true" className="shrink-0 size-7" />
           ) : (
-            <Mic aria-hidden="true" className="size-8 stroke-[1.75]" />
+            <Mic aria-hidden="true" className="shrink-0 size-8 stroke-[1.75]" />
           )}
           {state === "recording" ? t("Diary.recording") : t("Diary.record")}
         </button>
@@ -191,11 +190,12 @@ export function DiaryView() {
             className="mt-1 w-full rounded-lg border border-input bg-surface p-3 text-parent"
           />
         </label>
+        {/* The file input is visually hidden, so the label shows its keyboard focus. */}
         <label
-          className="flex min-h-14 cursor-pointer items-center justify-center gap-3 rounded-xl border border-line-strong text-parent font-medium"
+          className="flex flex-wrap min-h-14 cursor-pointer items-center justify-center gap-3 rounded-xl border border-line-strong text-parent font-medium has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-focus"
           lang="te"
         >
-          <Camera aria-hidden="true" className="size-6 stroke-[1.75]" />
+          <Camera aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
           {t("Diary.photo")}
           <input
             type="file"
@@ -210,10 +210,11 @@ export function DiaryView() {
           <img src={photo} alt="" className="max-h-56 w-full rounded-lg object-cover" />
         ) : null}
         <div>
-          <p className="mb-2 text-[17px] text-text-muted" lang="te">
+          <p id="feeling-q" className="mb-2 text-[17px] text-text-muted" lang="te">
             {t("Diary.feeling")}
           </p>
           <FeelingChips
+            labelledBy="feeling-q"
             words={feelingList(week.feelingWords)}
             selected={feelings}
             onToggle={(w) => setFeelings((f) => (f.includes(w) ? f.filter((x) => x !== w) : [...f, w]))}
@@ -227,19 +228,22 @@ export function DiaryView() {
         >
           {t("Diary.save")}
         </button>
-        {status ? (
-          <p role="status" className="text-[18px] text-home-green-text" lang="te">
-            {status}
-          </p>
-        ) : null}
+        {/* Always in the page, so "saved" and "deleted" are announced when they appear. */}
+        <div role="status">
+          {status ? (
+            <p className="text-[18px] text-home-green-text" lang="te">
+              {status}
+            </p>
+          ) : null}
+        </div>
       </div>
 
       <a
         href={`tel:${week.household.contact.phone.replace(/[^\d+]/g, "")}`}
-        className="mt-4 flex min-h-14 items-center justify-center gap-3 rounded-xl border border-line-strong bg-surface text-parent font-medium"
+        className="mt-4 flex flex-wrap min-h-14 items-center justify-center gap-3 rounded-xl border border-line-strong bg-surface text-parent font-medium"
         lang="te"
       >
-        <Phone aria-hidden="true" className="size-6 stroke-[1.75]" />
+        <Phone aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
         {t("Diary.callChild")}
       </a>
 
@@ -267,6 +271,7 @@ export function DiaryView() {
               share: t("Diary.share"),
               unshare: t("Diary.unshare"),
               delete: t("Diary.delete"),
+              recording: t("Parents.listen"),
             }}
             onShare={() => void toggleShare(e.id)}
             onDelete={() => void remove(e.id)}

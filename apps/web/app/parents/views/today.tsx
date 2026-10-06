@@ -47,7 +47,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
         <p className="text-[18px] text-text-muted" lang="te">
           {dayLabel(DEMO_NOW.date)}
         </p>
-        <h1 className="mt-1 text-[30px] font-semibold leading-tight" lang="te">
+        <h1 className="mt-1 text-[30px] font-semibold" lang="te">
           {parent.role === "father" ? t("Parents.greetingFather") : t("Parents.greetingMother")}
         </h1>
       </div>
@@ -83,7 +83,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
                   className="inline-flex items-center gap-2 rounded-full bg-sky-line/12 px-3 py-1.5 text-[17px] font-medium text-sky-text"
                   lang="te"
                 >
-                  <Users aria-hidden="true" className="size-5 stroke-[1.75]" />
+                  <Users aria-hidden="true" className="shrink-0 size-5 stroke-[1.75]" />
                   {t("Parents.firstRide")}
                 </span>
               ) : null
@@ -103,10 +103,10 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
                   <button
                     type="button"
                     onClick={() => go("directions", featured.id)}
-                    className="inline-flex min-h-14 items-center gap-2 rounded-xl border border-line-strong px-5 text-parent font-semibold"
+                    className="inline-flex flex-wrap min-h-14 items-center gap-2 rounded-xl border border-line-strong px-5 text-parent font-semibold"
                     lang="te"
                   >
-                    <Navigation aria-hidden="true" className="size-6 stroke-[1.75]" />
+                    <Navigation aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
                     {t("Parents.directions")}
                   </button>
                 </>
@@ -115,10 +115,10 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
                   <button
                     type="button"
                     onClick={() => go("directions", featured.id)}
-                    className="inline-flex min-h-14 items-center gap-2 rounded-xl bg-bus px-6 text-parent font-semibold text-on-bus"
+                    className="inline-flex flex-wrap min-h-14 items-center gap-2 rounded-xl bg-bus px-6 text-parent font-semibold text-on-bus"
                     lang="te"
                   >
-                    <Navigation aria-hidden="true" className="size-6 stroke-[1.75]" />
+                    <Navigation aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
                     {t("Parents.directions")}
                   </button>
                   <ListenButton
@@ -140,19 +140,19 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
             <button
               type="button"
               onClick={() => go("driver", featured.id)}
-              className="flex min-h-16 items-center justify-center gap-3 rounded-xl border-2 border-ink bg-surface px-6 text-parent font-semibold"
+              className="flex flex-wrap min-h-16 items-center justify-center gap-3 rounded-xl border-2 border-ink bg-surface px-6 text-parent font-semibold"
               lang="te"
             >
-              <Hand aria-hidden="true" className="size-6 stroke-[1.75]" />
+              <Hand aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
               {featured.route?.legs.some((l) => l.mode !== "walk") ? t("Parents.showDriver") : t("Parents.showSomeone")}
             </button>
             <button
               type="button"
               onClick={() => go("practice", featured.id)}
-              className="flex min-h-14 items-center justify-center gap-3 rounded-xl border border-line-strong bg-surface px-6 text-parent font-medium"
+              className="flex flex-wrap min-h-14 items-center justify-center gap-3 rounded-xl border border-line-strong bg-surface px-6 text-parent font-medium"
               lang="te"
             >
-              <MessageCircle aria-hidden="true" className="size-6 stroke-[1.75]" />
+              <MessageCircle aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
               {t("Parents.practice")}
             </button>
             {featured.joinCard ? (

@@ -51,14 +51,14 @@ export function ListenButton({
     const how = await play({ src: clip, text, lang, onEnd: () => setPlaying(false) });
     if (how === "none") setPlaying(false);
   };
+  // The label itself flips between "Listen" and "Stop", so there is no pressed state as well.
   return (
     <button
       type="button"
       onClick={onClick}
-      aria-pressed={playing}
       className={cn(
-        "inline-flex items-center justify-center gap-3 font-semibold transition-[background-color,transform] duration-150 ease-paper active:translate-y-px",
-        size === "parent" ? "min-h-14 rounded-xl px-6 text-parent" : "min-h-11 rounded-lg px-4 text-[18px]",
+        "inline-flex flex-wrap items-center justify-center gap-3 font-semibold transition-[background-color,transform] duration-150 ease-paper active:translate-y-px",
+        size === "parent" ? "min-h-14 rounded-xl px-6 text-parent" : "min-h-14 rounded-lg px-4 text-[18px]",
         tone === "primary" && "bg-bus text-on-bus hover:bg-[#e6a000]",
         tone === "secondary" && "border border-line-strong bg-surface text-text hover:bg-surface-sunken",
         tone === "quiet" && "text-text hover:bg-surface-sunken",
@@ -66,9 +66,9 @@ export function ListenButton({
       )}
     >
       {playing ? (
-        <Pause aria-hidden="true" className="size-6 stroke-[1.75]" />
+        <Pause aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
       ) : (
-        <Play aria-hidden="true" className="size-6 stroke-[1.75]" />
+        <Play aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
       )}
       <span>{playing ? stopLabel : label}</span>
     </button>

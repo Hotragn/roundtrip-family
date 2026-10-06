@@ -21,7 +21,7 @@ export function DirectionsView() {
   return (
     <div className="space-y-6">
       <h1 className="text-[30px] font-semibold" lang="te">
-        {t("Directions.title")} · {outing.venue}
+        {t("Directions.title")} · <span lang={local}>{outing.venue}</span>
       </h1>
       {state === "next" ? (
         <div
@@ -36,6 +36,7 @@ export function DirectionsView() {
         <StopCountdown
           legs={legs}
           venue={outing.venue}
+          nameLang={local}
           gps={state}
           labels={{
             yourStop: t("Directions.yourStop"),
@@ -56,10 +57,10 @@ export function DirectionsView() {
             type="button"
             onClick={start}
             disabled={state !== "off" && state !== "unavailable"}
-            className="flex min-h-14 w-full items-center justify-center gap-3 rounded-xl border border-line-strong bg-surface px-5 text-parent font-medium disabled:opacity-70"
+            className="flex flex-wrap min-h-14 w-full items-center justify-center gap-3 rounded-xl border border-line-strong bg-surface px-5 text-parent font-medium disabled:opacity-70"
             lang="te"
           >
-            <LocateFixed aria-hidden="true" className="size-6 stroke-[1.75]" />
+            <LocateFixed aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
             {state === "off"
               ? t("Directions.showWhere")
               : state === "unavailable"
@@ -108,7 +109,9 @@ export function DirectionsView() {
               />
             ))}
           </div>
-          <p className="mt-2 text-[13px] text-text-muted">Street View: Google</p>
+          <p className="mt-2 text-[13px] text-text-muted" lang="en">
+            Street View: Google
+          </p>
         </section>
       ) : null}
       <ListenButton
@@ -134,6 +137,9 @@ export function DriverView() {
   const lineLabel = (l: (typeof transit)[number]) => `${l.mode === "bus" ? "Bus " : ""}${l.line?.name ?? ""}`.trim();
   return (
     <div className="space-y-4">
+      <h1 className="sr-only" lang="te">
+        {t("Driver.title")}
+      </h1>
       {transit.length > 1 ? (
         <div className="grid grid-cols-2 gap-2" role="group" aria-label={t("Driver.title")}>
           {transit.map((l, i) => (
@@ -146,6 +152,7 @@ export function DriverView() {
                 "min-h-14 rounded-xl border px-4 text-left text-[19px] font-semibold",
                 i === legIndex ? "border-ink bg-ink text-white" : "border-line-strong bg-surface",
               )}
+              lang={h.localLanguage}
             >
               <span className="tabular-nums">{i + 1}</span> · {lineLabel(l)}
             </button>

@@ -30,7 +30,15 @@ export function DiaryEntryCard({
   onDelete,
 }: {
   entry: DiaryEntryView;
-  labels: { shared: string; private: string; share: string; unshare: string; delete: string };
+  labels: {
+    shared: string;
+    private: string;
+    share: string;
+    unshare: string;
+    delete: string;
+    /** The recording player's name, read by screen readers. */
+    recording?: string;
+  };
   onShare: () => void;
   onDelete: () => void;
 }) {
@@ -48,7 +56,11 @@ export function DiaryEntryCard({
           )}
           lang="te"
         >
-          {e.shared ? <Share2 aria-hidden="true" className="size-4" /> : <Lock aria-hidden="true" className="size-4" />}
+          {e.shared ? (
+            <Share2 aria-hidden="true" className="shrink-0 size-4" />
+          ) : (
+            <Lock aria-hidden="true" className="shrink-0 size-4" />
+          )}
           {e.shared ? labels.shared : labels.private}
         </span>
       </div>
@@ -57,7 +69,9 @@ export function DiaryEntryCard({
           {e.text}
         </p>
       ) : null}
-      {e.audioSrc ? <audio controls src={e.audioSrc} className="mt-2 w-full" /> : null}
+      {e.audioSrc ? (
+        <audio controls src={e.audioSrc} className="mt-2 min-h-14 w-full" aria-label={labels.recording} />
+      ) : null}
       {e.photo ? (
         // biome-ignore lint/performance/noImgElement: a local photo from the diary
         <img src={e.photo} alt="" className="mt-2 max-h-48 rounded-lg object-cover" />
@@ -71,7 +85,7 @@ export function DiaryEntryCard({
         <button
           type="button"
           onClick={onShare}
-          className="min-h-12 flex-1 rounded-lg border border-line-strong text-[17px] font-medium"
+          className="min-h-14 flex-1 rounded-lg border border-line-strong px-3 text-[17px] font-medium"
           lang="te"
         >
           {e.shared ? labels.unshare : labels.share}
@@ -79,11 +93,10 @@ export function DiaryEntryCard({
         <button
           type="button"
           onClick={onDelete}
-          aria-label={labels.delete}
-          className="flex min-h-12 items-center justify-center gap-2 rounded-lg border border-line-strong px-4 text-[17px] font-medium"
+          className="flex min-h-14 items-center justify-center gap-2 rounded-lg border border-line-strong px-4 text-[17px] font-medium"
           lang="te"
         >
-          <Trash2 aria-hidden="true" className="size-5" />
+          <Trash2 aria-hidden="true" className="shrink-0 size-5" />
           {labels.delete}
         </button>
       </div>

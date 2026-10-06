@@ -23,7 +23,7 @@ export function StartView({
     <div className="space-y-8 pt-6">
       <div className="flex items-center gap-3">
         <Mark size={44} />
-        <span className="rounded-full bg-surface-sunken px-3 py-1 text-[14px] text-text-muted">
+        <span className="rounded-full bg-surface-sunken px-3 py-1 text-[14px] text-text-muted" lang="en">
           {t("Parents.demo")}
         </span>
       </div>
@@ -42,6 +42,7 @@ export function StartView({
                 "min-h-14 rounded-xl border px-5 text-left text-[19px]",
                 household === h.slug ? "border-ink bg-surface font-semibold" : "border-line-strong bg-surface",
               )}
+              lang="en"
             >
               {h.label}
               <span className="block text-[15px] font-normal text-text-muted">{h.note}</span>
@@ -70,7 +71,9 @@ export function StartView({
               <span className="text-[30px] font-semibold" lang="te">
                 {p.role === "father" ? t("Parents.father") : t("Parents.mother")}
               </span>
-              <span className="text-[17px] text-text-muted">{p.firstName}</span>
+              <span className="text-[17px] text-text-muted" lang="en">
+                {p.firstName}
+              </span>
             </button>
           ))}
         </div>

@@ -16,6 +16,20 @@ import { type LocalEntry, loadEntries, syncEntry } from "./diary";
  * Choices stay on the phone; a diary entry's place in the book travels with the entry, so a
  * shared entry the parent puts in the book shows in their child's copy too.
  */
+/**
+ * The start of a diary entry, cut between grapheme clusters: cutting by UTF-16 units can split
+ * a conjunct or drop a vowel sign, leaving a broken akshara or a dangling virama.
+ */
+function firstClusters(text: string, n: number): string {
+  const clusters = [...new Intl.Segmenter("te", { granularity: "grapheme" }).segment(text)];
+  return clusters.length <= n
+    ? text
+    : `${clusters
+        .slice(0, n)
+        .map((c) => c.segment)
+        .join("")}…`;
+}
+
 export function BookView() {
   const { parent, outings, t, week, diarySeeds } = useParents();
   const [entries, setEntries] = useState<LocalEntry[]>([]);
@@ -51,8 +65,13 @@ export function BookView() {
         </p>
         <ul className="mt-4 space-y-2">
           {[
-            ...outings.map((o) => ({ id: o.id, label: o.venue, sub: o.date })),
-            ...entries.map((e) => ({ id: e.id, label: e.text?.slice(0, 40) ?? e.kind, sub: e.createdAt.slice(0, 10) })),
+            ...outings.map((o) => ({ id: o.id, label: o.venue, lang: week.household.localLanguage, sub: o.date })),
+            ...entries.map((e) => ({
+              id: e.id,
+              label: e.text ? firstClusters(e.text, 40) : e.kind,
+              lang: "te",
+              sub: e.createdAt.slice(0, 10),
+            })),
           ].map((item) => (
             <li key={item.id}>
               <button
@@ -65,7 +84,7 @@ export function BookView() {
                 )}
                 lang="te"
               >
-                <span>{item.label}</span>
+                <span lang={item.lang}>{item.label}</span>
                 <span className="text-[15px] text-text-muted">{item.sub}</span>
               </button>
             </li>
@@ -75,10 +94,10 @@ export function BookView() {
           type="button"
           onClick={() => window.print()}
           disabled={picked.length === 0}
-          className="mt-5 flex min-h-14 w-full items-center justify-center gap-3 rounded-xl bg-ink text-parent font-semibold text-white disabled:opacity-50"
+          className="mt-5 flex flex-wrap min-h-14 w-full items-center justify-center gap-3 rounded-xl bg-ink text-parent font-semibold text-white disabled:opacity-50"
           lang="te"
         >
-          <Printer aria-hidden="true" className="size-6" />
+          <Printer aria-hidden="true" className="shrink-0 size-6" />
           {t("Book.print")}
         </button>
       </div>

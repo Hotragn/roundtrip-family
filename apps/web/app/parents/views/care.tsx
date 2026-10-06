@@ -78,40 +78,44 @@ export function HowView() {
       <p className="text-parent text-text-muted" lang="te">
         {outing.venue}
       </p>
+      {/* The label says what a tap does next ("tap to stop"), so no pressed state on top of it.
+          The circle narrows with the screen when the text is very large. */}
       <button
         type="button"
         onClick={state === "recording" ? stop : start}
-        aria-pressed={state === "recording"}
         className={cn(
-          "mx-auto flex size-44 flex-col items-center justify-center gap-2 rounded-full text-[19px] font-semibold shadow-raised transition-colors",
+          "mx-auto flex aspect-square w-44 max-w-full flex-col items-center justify-center gap-2 rounded-full text-[19px] font-semibold shadow-raised transition-colors",
           state === "recording" ? "bg-ink text-white" : "bg-bus text-on-bus",
         )}
         lang="te"
       >
         {state === "recording" ? (
-          <Square aria-hidden="true" className="size-12 stroke-[1.75]" />
+          <Square aria-hidden="true" className="shrink-0 size-12 stroke-[1.75]" />
         ) : (
-          <Mic aria-hidden="true" className="size-14 stroke-[1.75]" />
+          <Mic aria-hidden="true" className="shrink-0 size-14 stroke-[1.75]" />
         )}
-        <span className="px-4 text-center leading-tight">{state === "recording" ? t("How.stop") : t("How.talk")}</span>
+        <span className="px-4 text-center">{state === "recording" ? t("How.stop") : t("How.talk")}</span>
       </button>
-      {state === "done" ? (
-        <p className="text-center text-parent text-home-green-text" lang="te">
-          {t("How.recorded")}
-        </p>
-      ) : null}
-      {state === "unavailable" ? (
-        <p className="text-center text-parent text-text-muted" lang="te">
-          {t("How.noMic")}
-        </p>
-      ) : null}
-      <div className="grid grid-cols-3 gap-3" role="radiogroup" aria-label={t("How.title")}>
+      <div role="status">
+        {state === "done" ? (
+          <p className="text-center text-parent text-home-green-text" lang="te">
+            {t("How.recorded")}
+          </p>
+        ) : null}
+        {state === "unavailable" ? (
+          <p className="text-center text-parent text-text-muted" lang="te">
+            {t("How.noMic")}
+          </p>
+        ) : null}
+      </div>
+      {/* Toggle buttons rather than radios: each is its own tab stop, and screen readers say
+          "pressed" for the chosen face. */}
+      <div className="grid grid-cols-3 gap-3" role="group" aria-label={t("How.title")}>
         {faces.map((f) => (
           <button
             key={f.id}
             type="button"
-            role="radio"
-            aria-checked={face === f.id}
+            aria-pressed={face === f.id}
             onClick={() => setFace(f.id)}
             className={cn(
               "flex min-h-28 flex-col items-center justify-center gap-2 rounded-xl border-2 text-[19px] font-semibold",
@@ -119,7 +123,7 @@ export function HowView() {
             )}
             lang="te"
           >
-            <f.icon aria-hidden="true" className="size-10 stroke-[1.75]" />
+            <f.icon aria-hidden="true" className="shrink-0 size-10 stroke-[1.75]" />
             {f.label}
           </button>
         ))}
@@ -134,11 +138,14 @@ export function HowView() {
         >
           {t("How.send")}
         </button>
-      ) : (
-        <p role="status" className="rounded-card bg-surface-sunken p-5 text-parent" lang="te">
-          {sent === "sent" ? t("How.sent") : t("How.later")}
-        </p>
-      )}
+      ) : null}
+      <div role="status">
+        {sent !== "no" ? (
+          <p className="rounded-card bg-surface-sunken p-5 text-parent" lang="te">
+            {sent === "sent" ? t("How.sent") : t("How.later")}
+          </p>
+        ) : null}
+      </div>
     </div>
   );
 }
@@ -147,25 +154,30 @@ export function LostView() {
   const { parent, t, week } = useParents();
   const h = week.household;
   return (
-    <LostCard
-      intro={t("Lost.show")}
-      help={h.helpCardText}
-      phrases={h.localPhrases}
-      name={parent.firstName}
-      homeArea={h.homeArea}
-      phone={h.contact.phone}
-      emergency={h.emergency}
-      secondary={h.secondaryEmergency}
-      helpAudio={h.helpCardAudio}
-      localLanguage={h.localLanguage}
-      speech={speechTag(h.localLanguage, h.hostCountry)}
-      labels={{
-        callFamily: t("Lost.callFamily"),
-        emergency: t("Lost.emergency"),
-        noPlan: t("Lost.noPlan"),
-        play: t("Lost.playLocal", { language: languageNameIn(h.localLanguage, parent.language) }),
-        stop: t("Parents.stopListening"),
-      }}
-    />
+    <>
+      <h1 className="sr-only" lang="te">
+        {t("Lost.title")}
+      </h1>
+      <LostCard
+        intro={t("Lost.show")}
+        help={h.helpCardText}
+        phrases={h.localPhrases}
+        name={parent.firstName}
+        homeArea={h.homeArea}
+        phone={h.contact.phone}
+        emergency={h.emergency}
+        secondary={h.secondaryEmergency}
+        helpAudio={h.helpCardAudio}
+        localLanguage={h.localLanguage}
+        speech={speechTag(h.localLanguage, h.hostCountry)}
+        labels={{
+          callFamily: t("Lost.callFamily"),
+          emergency: t("Lost.emergency"),
+          noPlan: t("Lost.noPlan"),
+          play: t("Lost.playLocal", { language: languageNameIn(h.localLanguage, parent.language) }),
+          stop: t("Parents.stopListening"),
+        }}
+      />
+    </>
   );
 }
