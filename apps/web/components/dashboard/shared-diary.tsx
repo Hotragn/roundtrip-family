@@ -1,7 +1,8 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
-import { BookHeart, Lock, Mic, PenLine, Printer } from "lucide-react";
+import { BookHeart, Lock, Mic, Pause, PenLine, Play, Printer } from "lucide-react";
+import { useRef, useState } from "react";
 import { Mark } from "@/components/brand/logo";
 import { Panel } from "@/components/shell/panel";
 import { Button } from "@/components/ui/button";
@@ -30,6 +31,35 @@ function useShared(household: string, initial: SharedDiaryEntry[]) {
   });
 }
 
+/** Play and pause only: the entry's words are written out above, so it needs no captions or scrubbing. */
+function Recording({ src, who }: { src: string; who: string }) {
+  const ref = useRef<HTMLAudioElement>(null);
+  const [playing, setPlaying] = useState(false);
+  const Icon = playing ? Pause : Play;
+  return (
+    <>
+      <button
+        type="button"
+        onClick={() => (playing ? ref.current?.pause() : ref.current?.play())}
+        className="inline-flex min-h-11 items-center gap-2.5 rounded-full bg-surface-sunken py-1.5 pr-4 pl-1.5 text-[14px] font-semibold transition-colors hover:bg-line"
+      >
+        <span className="grid size-8 place-items-center rounded-full bg-text text-surface">
+          <Icon aria-hidden="true" className="size-4 fill-current" />
+        </span>
+        {playing ? "Pause" : `Listen to ${who}`}
+      </button>
+      <audio
+        ref={ref}
+        preload="none"
+        src={src}
+        onPlay={() => setPlaying(true)}
+        onPause={() => setPlaying(false)}
+        onEnded={() => setPlaying(false)}
+      />
+    </>
+  );
+}
+
 const dateOf = (iso: string) => longDate(iso.slice(0, 10));
 
 function Entry({ e, who }: { e: SharedDiaryEntry; who: string }) {
@@ -47,10 +77,7 @@ function Entry({ e, who }: { e: SharedDiaryEntry; who: string }) {
       <p lang="te" className="text-[18px] leading-[1.75]">
         {e.text}
       </p>
-      {e.audioUrl ? (
-        // The entry's words are written out above, so the recording needs no captions.
-        <audio controls preload="none" src={e.audioUrl} className="h-10 w-full max-w-[420px]" />
-      ) : null}
+      {e.audioUrl ? <Recording src={e.audioUrl} who={who} /> : null}
       {e.feelingWords.length ? (
         <ul className="flex flex-wrap gap-1.5" aria-label="Feeling words they chose">
           {e.feelingWords.map((w) => (
