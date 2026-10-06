@@ -19,7 +19,8 @@ if (!KEY) {
 }
 const API = "https://api.render.com/v1";
 const REPO = "https://github.com/Hotragn/roundtrip-family";
-const deploy = !process.argv.includes("--no-deploy");
+const deploy = !process.argv.includes("--no-deploy") && !process.argv.includes("--status");
+const statusOnly = process.argv.includes("--status");
 
 async function render<T>(method: string, path: string, body?: unknown): Promise<T> {
   const res = await outboundFetch("render.api", "public", `${API}${path}`, {
@@ -94,6 +95,26 @@ async function ensure(
   return svc;
 }
 
+/** The latest deploy of each service, for `--status`. */
+async function latest(svc: Service) {
+  const list = await render<
+    Array<{ deploy: { id: string; status: string; finishedAt?: string; commit?: { id: string } } }>
+  >("GET", `/services/${svc.id}/deploys?limit=1`);
+  const d = list[0]?.deploy;
+  console.log(
+    `${svc.name}: ${d ? `${d.status}${d.commit ? ` at ${d.commit.id.slice(0, 7)}` : ""}` : "no deploys"} ${svc.serviceDetails?.url ?? ""}`,
+  );
+}
+
+if (statusOnly) {
+  for (const name of ["roundtrip-ranker", "roundtrip-web"]) {
+    const svc = await find(name);
+    if (svc) await latest(svc);
+    else console.log(`${name}: not created`);
+  }
+  process.exit(0);
+}
+
 console.log("Ranker settings:");
 const ranker = await ensure(
   "roundtrip-ranker",
@@ -151,10 +172,10 @@ const web = await ensure(
 
 if (deploy) {
   for (const svc of [ranker, web]) {
-    const d = await render<{ id: string; status: string }>("POST", `/services/${svc.id}/deploys`, {
+    const d = await render<{ id: string; status: string } | null>("POST", `/services/${svc.id}/deploys`, {
       clearCache: "do_not_clear",
     });
-    console.log(`Deploy started for ${svc.name}: ${d.status} (${d.id})`);
+    console.log(`Deploy for ${svc.name}: ${d ? `${d.status} (${d.id})` : "queued"}`);
   }
 }
 console.log(`Web: ${web.serviceDetails?.url ?? "(URL appears after the first deploy)"}`);

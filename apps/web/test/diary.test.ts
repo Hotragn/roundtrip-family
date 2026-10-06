@@ -20,7 +20,9 @@ const fetchSpy = vi.spyOn(globalThis, "fetch").mockImplementation(async () => {
   throw new Error("The diary must not call the network");
 });
 
-const { deleteEntry, saveEntry, sharedAudio, sharedEntries } = await import("../lib/server/diary");
+const { deleteEntry, saveEntry, sharedAudio, sharedEntries, VISIT_LIMITS, VisitLimitReached } = await import(
+  "../lib/server/diary"
+);
 
 const SECRET = "ఈరోజు ఇంట్లోనే ఉన్నాను. పద్మ అక్కకి ఫోన్ చేశాను.";
 const base = {
@@ -74,6 +76,17 @@ describe("diary at rest", () => {
     // Moving the ciphertext to another parent makes it unreadable, so it's skipped.
     rec.parentId = "p_venkat";
     expect(await sharedEntries("fremont-demo")).toEqual([]);
+  });
+
+  it("keeps one visit's diary within the demo's limits", async () => {
+    for (let i = 0; i < VISIT_LIMITS.entries; i++) {
+      await saveEntry({ ...base, entryId: `d_limit_${i}`, audio: undefined });
+    }
+    await expect(saveEntry({ ...base, entryId: "d_limit_extra", audio: undefined })).rejects.toBeInstanceOf(
+      VisitLimitReached,
+    );
+    // Changing an entry that's already stored is still fine.
+    await expect(saveEntry({ ...base, entryId: "d_limit_0", audio: undefined, shared: true })).resolves.toBeUndefined();
   });
 
   it("made no network calls", () => {

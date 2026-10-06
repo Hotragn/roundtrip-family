@@ -77,7 +77,23 @@ export interface SharedEntry {
 
 const recordId = (household: string, entryId: string) => `${household}:${entryId}`;
 
+/** The demo keeps a visit's diary small: the free database is shared by every visitor. */
+export const VISIT_LIMITS = { entries: 60, audioBytes: 12_000_000 };
+
+export class VisitLimitReached extends Error {
+  constructor() {
+    super("This demo visit has reached its diary limit.");
+    this.name = "VisitLimitReached";
+  }
+}
+
 export async function saveEntry(e: DiaryInput): Promise<void> {
+  const mine = (await listRecords("diary")).map((r) => r.payload as unknown as Stored);
+  const others = mine.filter((s) => !(s.household === e.household && s.entryId === e.entryId));
+  const audioBytes = others.reduce((n, s) => n + (s.audio ? s.audio.ct.length * 0.75 : 0), 0);
+  if (others.length >= VISIT_LIMITS.entries || audioBytes + (e.audio?.length ?? 0) * 0.75 > VISIT_LIMITS.audioBytes) {
+    throw new VisitLimitReached();
+  }
   const key = diaryKey();
   const stored: Stored = {
     household: e.household,

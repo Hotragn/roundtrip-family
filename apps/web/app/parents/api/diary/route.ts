@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { DEMO_WEEKS } from "@/lib/demo-weeks";
-import { deleteEntry, saveEntry } from "@/lib/server/diary";
+import { deleteEntry, saveEntry, VisitLimitReached } from "@/lib/server/diary";
 
 /**
  * The phone's diary sync, when it's back on home Wi-Fi: the latest state of one entry (saved,
@@ -59,7 +59,9 @@ export async function POST(req: Request) {
         audio: b.entry.audio,
         audioMime: b.entry.audioMime,
       });
-  } catch {
+  } catch (e) {
+    // The phone keeps the entry either way; a refused sync leaves it in the outbox to try later.
+    if (e instanceof VisitLimitReached) return Response.json({ error: e.message }, { status: 429 });
     // No key on this server: the entry stays on the phone and syncs once the key is set.
     return Response.json({ error: "Diary sync isn't set up on this server" }, { status: 503 });
   }
