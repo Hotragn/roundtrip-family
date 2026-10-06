@@ -22,6 +22,9 @@ const API = "https://api.render.com/v1";
 const REPO = "https://github.com/Hotragn/roundtrip-family";
 const deploy = !process.argv.includes("--no-deploy") && !process.argv.includes("--status");
 const statusOnly = process.argv.includes("--status");
+// Atlas refuses Render's addresses until they're on its Network Access list (docs/blocked.md);
+// without the database, sessions live in the web service's memory. Add --with-db once allowed.
+const withDb = process.argv.includes("--with-db");
 
 async function render<T>(method: string, path: string, body?: unknown): Promise<T> {
   const res = await outboundFetch("render.api", "public", `${API}${path}`, {
@@ -114,7 +117,9 @@ if (logsFor) {
   if (!svc) throw new Error(`${logsFor} isn't created.`);
   const out = await render<{ logs: Array<{ message: string; timestamp: string }> }>(
     "GET",
-    `/logs?ownerId=${owner.id}&resource=${svc.id}&limit=100&direction=backward&type=app`,
+    `/logs?ownerId=${owner.id}&resource=${svc.id}&limit=100&direction=backward&startTime=${encodeURIComponent(
+      new Date(Date.now() - 45 * 60_000).toISOString(),
+    )}&endTime=${encodeURIComponent(new Date().toISOString())}`,
   );
   for (const l of out.logs.reverse()) console.log(`${l.timestamp.slice(11, 19)} ${l.message.slice(0, 300)}`);
   process.exit(0);
@@ -171,7 +176,7 @@ const web = await ensure(
     // The hosted demo never spends searches: it replays the saved ones.
     { key: "SERPAPI_MODE", value: "replay" },
     ...fromEnv([
-      "MONGODB_URI",
+      ...(withDb ? ["MONGODB_URI"] : []),
       "CLOUDFLARE_ACCOUNT_ID",
       "CLOUDFLARE_API_TOKEN",
       "OPENROUTER_API_KEY",
@@ -183,6 +188,14 @@ const web = await ensure(
   ],
   ["DIARY_ENCRYPTION_KEY"],
 );
+
+if (!withDb) {
+  const vars = await render<Array<{ envVar: { key: string } }>>("GET", `/services/${web.id}/env-vars?limit=100`);
+  if (vars.some((x) => x.envVar.key === "MONGODB_URI")) {
+    await render("DELETE", `/services/${web.id}/env-vars/MONGODB_URI`);
+    console.log("  MONGODB_URI: removed (run with --with-db once Atlas allows Render)");
+  }
+}
 
 // One shared key so only the web app can spend the ranker's TabPFN pools: made once, kept on
 // the ranker, copied to the web app. The value stays inside this process.
