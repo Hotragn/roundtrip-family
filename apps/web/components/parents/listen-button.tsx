@@ -7,10 +7,13 @@ import { cn } from "@/lib/utils";
 
 /**
  * Every screen has one. Plays the saved open-model audio when there is a file, otherwise the
- * phone's voice for that language. If neither exists, the button doesn't render.
+ * phone's voice for that language. `fallbackSrc` is the other way round: a saved clip for phones
+ * with no voice for the language, when the phone's voice can say more (a name, a number).
+ * If nothing can play, the button doesn't render.
  */
 export function ListenButton({
   src,
+  fallbackSrc,
   text,
   lang,
   label,
@@ -20,6 +23,7 @@ export function ListenButton({
   className,
 }: {
   src?: string;
+  fallbackSrc?: string;
   text?: string;
   lang: string;
   label: string;
@@ -29,11 +33,11 @@ export function ListenButton({
   className?: string;
 }) {
   const [playing, setPlaying] = useState(false);
-  const [available, setAvailable] = useState(Boolean(src));
+  const [available, setAvailable] = useState(Boolean(src || fallbackSrc));
   useEffect(() => {
-    if (src) return setAvailable(true);
+    if (src || fallbackSrc) return setAvailable(true);
     whenVoicesReady().then(() => setAvailable(Boolean(deviceVoiceFor(lang))));
-  }, [src, lang]);
+  }, [src, fallbackSrc, lang]);
   useEffect(() => () => stopAll(), []);
   if (!available) return null;
   const onClick = async () => {
@@ -43,7 +47,8 @@ export function ListenButton({
       return;
     }
     setPlaying(true);
-    const how = await play({ src, text, lang, onEnd: () => setPlaying(false) });
+    const clip = src ?? (deviceVoiceFor(lang) ? undefined : fallbackSrc);
+    const how = await play({ src: clip, text, lang, onEnd: () => setPlaying(false) });
     if (how === "none") setPlaying(false);
   };
   return (

@@ -87,6 +87,8 @@ export interface WeekView {
     metroArea: string;
     homeArea: string;
     helpCardText: string;
+    /** The saved clip of helpCardText in the local language, when the speech pipeline made one. */
+    helpCardAudio?: string;
     localPhrases: { helpTitle: string; myName: string; stayingNear: string; callFamily: string; askWay: string };
     contact: { role: string; label: string; phone: string; fictional: boolean };
     emergency: { number: string; covers: string; source: string };

@@ -1,0 +1,153 @@
+{
+  "provenance": "synthetic",
+  "runs": [
+    {
+      "at": "2026-10-06T03:36:21Z",
+      "langs": [
+        "de"
+      ],
+      "clips": 8,
+      "status": "ok",
+      "fetchSeconds": 2.2,
+      "loadSeconds": 3.4,
+      "modelSeconds": 12.9,
+      "encodeSeconds": 1.3,
+      "audioSeconds": 32.0,
+      "droppedCharacters": {},
+      "task": "tts",
+      "model": "facebook/mms-tts-deu",
+      "peakRssMB": 666.5,
+      "torch": "2.14.1+cpu",
+      "threads": 2,
+      "host": "Linux x86_64, 4 CPUs, 16 GB memory",
+      "freedBytes": 145235359
+    },
+    {
+      "at": "2026-10-06T03:36:36Z",
+      "langs": [
+        "en"
+      ],
+      "clips": 7,
+      "status": "ok",
+      "fetchSeconds": 1.5,
+      "loadSeconds": 3.3,
+      "modelSeconds": 7.5,
+      "encodeSeconds": 0.9,
+      "audioSeconds": 24.5,
+      "droppedCharacters": {},
+      "task": "tts",
+      "model": "facebook/mms-tts-eng",
+      "peakRssMB": 608.6,
+      "torch": "2.14.1+cpu",
+      "threads": 2,
+      "host": "Linux x86_64, 4 CPUs, 16 GB memory",
+      "freedBytes": 145229900
+    },
+    {
+      "at": "2026-10-06T03:39:27Z",
+      "langs": [
+        "te"
+      ],
+      "clips": 29,
+      "status": "ok",
+      "fetchSeconds": 1.8,
+      "loadSeconds": 3.2,
+      "modelSeconds": 149.8,
+      "encodeSeconds": 14.0,
+      "audioSeconds": 456.2,
+      "droppedCharacters": {},
+      "task": "tts",
+      "model": "facebook/mms-tts-tel",
+      "peakRssMB": 1525.7,
+      "torch": "2.14.1+cpu",
+      "threads": 2,
+      "host": "Linux x86_64, 4 CPUs, 16 GB memory",
+      "freedBytes": 145251055
+    },
+    {
+      "at": "2026-10-06T03:46:23Z",
+      "langs": [
+        "de",
+        "en",
+        "te"
+      ],
+      "clips": 44,
+      "status": "ok",
+      "fetchSeconds": 13.8,
+      "loadSeconds": 3.8,
+      "modelSeconds": 394.0,
+      "audioSeconds": 512.7,
+      "perLanguage": {
+        "de": {
+          "clips": 8,
+          "audioSeconds": 32.0,
+          "modelSeconds": 24.6
+        },
+        "en": {
+          "clips": 7,
+          "audioSeconds": 24.5,
+          "modelSeconds": 21.1
+        },
+        "te": {
+          "clips": 29,
+          "audioSeconds": 456.2,
+          "modelSeconds": 348.3
+        }
+      },
+      "task": "asr",
+      "model": "facebook/mms-1b-all",
+      "peakRssMB": 5862.5,
+      "torch": "2.14.1+cpu",
+      "threads": 2,
+      "host": "Linux x86_64, 4 CPUs, 16 GB memory",
+      "freedBytes": 3889206915
+    },
+    {
+      "at": "2026-10-06T07:48:44Z",
+      "langs": [
+        "te"
+      ],
+      "clips": 8,
+      "status": "ok",
+      "fetchSeconds": 3.0,
+      "loadSeconds": 7.4,
+      "modelSeconds": 85.9,
+      "encodeSeconds": 7.7,
+      "audioSeconds": 227.3,
+      "droppedCharacters": {},
+      "task": "tts",
+      "model": "facebook/mms-tts-tel",
+      "peakRssMB": 1478.9,
+      "torch": "2.14.1+cpu",
+      "threads": 2,
+      "host": "Linux x86_64, 4 CPUs, 16 GB memory",
+      "freedBytes": 145251055
+    },
+    {
+      "at": "2026-10-06T07:52:05Z",
+      "langs": [
+        "te"
+      ],
+      "clips": 8,
+      "status": "ok",
+      "fetchSeconds": 15.1,
+      "loadSeconds": 4.0,
+      "modelSeconds": 178.7,
+      "audioSeconds": 227.3,
+      "perLanguage": {
+        "te": {
+          "clips": 8,
+          "audioSeconds": 227.3,
+          "modelSeconds": 178.7
+        }
+      },
+      "task": "asr",
+      "model": "facebook/mms-1b-all",
+      "peakRssMB": 5097.3,
+      "torch": "2.14.1+cpu",
+      "threads": 2,
+      "host": "Linux x86_64, 4 CPUs, 16 GB memory",
+      "freedBytes": 3870144283
+    }
+  ]
+}

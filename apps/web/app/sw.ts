@@ -76,7 +76,8 @@ const serwist = new Serwist({
       handler: new StaleWhileRevalidate({ cacheName: "assets" }),
     },
     {
-      matcher: ({ url }) => url.pathname.startsWith("/demo/audio/"),
+      // The speech pipeline's saved clips (apps/web/public/audio/).
+      matcher: ({ url }) => url.pathname.startsWith("/audio/"),
       handler: new CacheFirst({
         cacheName: "audio",
         plugins: [

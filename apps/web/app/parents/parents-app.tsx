@@ -186,6 +186,7 @@ function ParentScreens({
     if (!online || !("serviceWorker" in navigator)) return;
     return whenIdle(() => {
       const urls = new Set<string>([window.location.pathname, "/parents", "/parents/manifest.webmanifest"]);
+      if (week.household.helpCardAudio) urls.add(week.household.helpCardAudio);
       for (const e of performance.getEntriesByType("resource")) {
         const u = new URL(e.name);
         if (u.origin === location.origin && u.pathname.startsWith("/_next/static/")) urls.add(u.pathname);

@@ -1,7 +1,6 @@
-import { existsSync, readdirSync } from "node:fs";
-import { join } from "node:path";
+import manifest from "@data/demo/audio/manifest.json";
+import { type ClipManifest, INDIC } from "@roundtrip/agent/voice";
 import { LANGUAGES, type LanguageRecord, languageNameIn, type Readiness } from "@roundtrip/core";
-import { repoRoot } from "@roundtrip/core/server-env";
 import { BookOpenText, Ear, PenLine, Volume2 } from "lucide-react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -19,11 +18,9 @@ export function generateStaticParams() {
 
 export const metadata: Metadata = { title: "Languages" };
 
-/** Audio clips the speech pipeline saved for the demo (speech/ writes them to data/demo/audio/). */
-function audioClips(): number {
-  const dir = join(repoRoot(), "data/demo/audio");
-  if (!existsSync(dir)) return 0;
-  return readdirSync(dir, { recursive: true }).filter((f) => /\.(wav|mp3|ogg|opus|m4a)$/i.test(String(f))).length;
+/** Clips the speech pipeline saved for the demo in a language (data/demo/audio/manifest.json, synthetic text). */
+function savedClips(code: string): number {
+  return Object.values((manifest as ClipManifest).clips).filter((c) => c.lang === code).length;
 }
 
 function Capability({
@@ -65,7 +62,7 @@ export default async function Languages({ params }: PageProps<"/plan/[household]
   // One section per language the parents use, with who uses it.
   const used = [...new Set(board.parents.map((p) => p.language))];
   const cards = week.outings.flatMap((o) => o.cards);
-  const clips = audioClips();
+  const localClips = savedClips(local);
 
   return (
     <DashboardShell household={household} weekLabel={board.week.label} parents={board.parents}>
@@ -81,6 +78,8 @@ export default async function Languages({ params }: PageProps<"/plan/[household]
         {used.map((code) => {
           const rec = LANGUAGES.find((l) => l.code === code) as LanguageRecord | undefined;
           if (!rec) return null;
+          const clips = savedClips(code);
+          const awaitingIndic = INDIC.has(code) && rec.speaking.status === "fallback";
           const who = board.parents.filter((p) => p.language === code).map((p) => p.firstName);
           const mine = cards.filter((c) => week.parents.find((p) => p.id === c.parentId)?.language === code);
           const passing = mine.filter((c) => c.rubric?.passed).length;
@@ -130,15 +129,20 @@ export default async function Languages({ params }: PageProps<"/plan/[household]
                 >
                   <p>
                     {clips > 0
-                      ? `${rec.speaking.model} reads their tickets and phrases aloud: ${clips} clips in this demo, made on the family's own hardware.`
+                      ? `${rec.speaking.model} reads their tickets and diary aloud: ${clips} clips in this demo, made on the family's own hardware.`
                       : `Every screen has a listen button. In this demo it uses the phone's own ${rec.name} voice when the phone has one; the open model for ${rec.name} is ${rec.speaking.model}, run on the family's own hardware.`}
+                    {awaitingIndic
+                      ? " AI4Bharat's voice made for Indian languages takes over once its makers open access to it."
+                      : ""}
                   </p>
                 </Capability>
                 <Capability icon={Ear} title="Listening" status={clips > 0 ? rec.listening.status : "phone"}>
                   <p>
                     Their spoken answers to &ldquo;How was it?&rdquo; and their diary are transcribed by{" "}
                     {rec.listening.model}, on the family&rsquo;s own hardware, never a hosted service.
-                    {clips > 0 ? "" : " In this demo the recordings stay on the phone."}
+                    {clips > 0
+                      ? " In this demo it listened back to every saved clip to check it; a visitor's recordings stay on the phone."
+                      : " In this demo the recordings stay on the phone."}
                   </p>
                 </Capability>
               </ul>
@@ -153,6 +157,7 @@ export default async function Languages({ params }: PageProps<"/plan/[household]
               <p className="font-semibold">Phrases to practise</p>
               <p className="text-[15px] leading-relaxed text-text-muted">
                 A few {localName} phrases for each outing, with how to say them written in their own script underneath.
+                {localClips > 0 ? ` Each has a recording in ${localName} to play first, like the help card.` : ""}
               </p>
             </li>
             <li className="space-y-1">

@@ -101,6 +101,7 @@ export function LostCard({
   phone,
   emergency,
   secondary,
+  helpAudio,
   localLanguage,
   speech,
   labels,
@@ -114,6 +115,8 @@ export function LostCard({
   phone: string;
   emergency: { number: string; covers: string };
   secondary: { number: string; covers: string } | null;
+  /** The saved clip of the help text alone, for phones with no voice for the local language. */
+  helpAudio?: string;
   localLanguage: string;
   speech: string;
   labels: { callFamily: string; emergency: string; noPlan: string; play: string; stop: string };
@@ -171,7 +174,14 @@ export function LostCard({
       <p className="text-[18px] text-text-muted" lang="te">
         {labels.noPlan}
       </p>
-      <ListenButton text={spoken} lang={speech} label={labels.play} stopLabel={labels.stop} tone="secondary" />
+      <ListenButton
+        text={spoken}
+        fallbackSrc={helpAudio}
+        lang={speech}
+        label={labels.play}
+        stopLabel={labels.stop}
+        tone="secondary"
+      />
     </section>
   );
 }

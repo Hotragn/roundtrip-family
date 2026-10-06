@@ -156,6 +156,7 @@ export function LostView() {
       phone={h.contact.phone}
       emergency={h.emergency}
       secondary={h.secondaryEmergency}
+      helpAudio={h.helpCardAudio}
       localLanguage={h.localLanguage}
       speech={speechTag(h.localLanguage, h.hostCountry)}
       labels={{

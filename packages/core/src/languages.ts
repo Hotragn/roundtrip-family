@@ -16,8 +16,10 @@ export const LANGUAGES: LanguageRecord[] = [
     direction: "ltr",
     reading: { status: "ready", provider: "Cloudflare Workers AI", model: "Gemma 4 26B A4B" },
     cardWriter: { status: "ready", provider: "Tinker", model: "Qwen3.5-4B with Roundtrip's Telugu LoRA" },
-    speaking: { status: "ready", provider: "Open model, run at home", model: "AI4Bharat Indic Parler-TTS" },
-    listening: { status: "ready", provider: "Open model, run at home", model: "AI4Bharat IndicConformer" },
+    // AI4Bharat's Indic Parler-TTS and IndicConformer are the first choices, and gated; until they
+    // open, Meta's MMS models speak and listen (docs/skipped.md, speech/).
+    speaking: { status: "fallback", provider: "Open model, run at home", model: "Meta MMS-TTS (Telugu)" },
+    listening: { status: "fallback", provider: "Open model, run at home", model: "Meta MMS (mms-1b-all)" },
     elevenLabs: true,
     speechLocale: "te-IN",
     namesIn: { te: "తెలుగు", en: "Telugu", de: "Telugu" },

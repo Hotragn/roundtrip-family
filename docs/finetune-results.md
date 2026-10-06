@@ -150,6 +150,8 @@ From data/demo/usage/tinker-ledger.jsonl (docs/costs.md is regenerated from the 
 | Earlier: model check and setup | 136 | 18,892 | 6,427 | $0.0640 |
 | **All Tinker spend so far** | | | | **$2.0342** |
 
+The epoch 1 and 2 checkpoints expire a day after the run (`uv run python -m finetune.expire`), so only the served one stays in storage: about 0.29 GB, or $0.03 a month.
+
 Gemma calls (the gate's judge, the evaluation's judge and the Gemma writer) ran on Cloudflare's free allowance: 4,763 of 10,000 neurons on 2026-10-06, the busiest day, with no OpenRouter fallbacks. A tuned card costs about $0.0002 to sample, against $0.0005 for the base model with the style prompt; the app replays saved cards, so the hosted demo costs nothing per visitor.
 
 ## What didn't work
