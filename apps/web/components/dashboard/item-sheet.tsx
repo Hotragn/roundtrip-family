@@ -117,18 +117,18 @@ export function ItemSheet({
                   <ReasonChips chips={item.chips} />
                   <dl className="grid grid-cols-3 gap-3 rounded-card bg-surface-sunken p-3 text-center">
                     <div>
-                      <dt className="text-[12px] text-text-muted">Chance they go</dt>
+                      <dt className="text-[13px] text-text-muted">Chance they go</dt>
                       <dd className="text-[20px] font-semibold tabular-nums">{Math.round(item.score.pGo * 100)}%</dd>
                     </div>
                     <div>
-                      <dt className="text-[12px] text-text-muted">Expected enjoyment</dt>
+                      <dt className="text-[13px] text-text-muted">Expected enjoyment</dt>
                       <dd className="text-[20px] font-semibold tabular-nums">
                         {item.score.enjoyment.toFixed(1)}
                         <span className="text-[13px] font-normal text-text-muted"> of 5</span>
                       </dd>
                     </div>
                     <div>
-                      <dt className="text-[12px] text-text-muted">Score</dt>
+                      <dt className="text-[13px] text-text-muted">Score</dt>
                       <dd className="text-[20px] font-semibold tabular-nums">{item.score.combined.toFixed(2)}</dd>
                     </div>
                   </dl>

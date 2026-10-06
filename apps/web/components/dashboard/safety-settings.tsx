@@ -101,7 +101,7 @@ export function SafetyTimeline({ example, buffer, wait }: { example: TimerExampl
                     i === 0 ? "h-[3px] rounded-full bg-ink/80" : "h-0 border-t-2 border-dashed border-ink/45",
                   )}
                 />
-                <span className="absolute inset-x-0 -top-6 text-center text-[12px] tabular-nums text-text-muted">
+                <span className="absolute inset-x-0 -top-6 text-center text-[13px] tabular-nums text-text-muted">
                   {gaps[i]}
                 </span>
               </span>

@@ -13,7 +13,7 @@ export function ReadinessChip({ status, children }: { status: Readiness | "phone
   return (
     <span
       className={cn(
-        "inline-flex h-6 items-center rounded-chip border px-2 text-[12px] font-medium whitespace-nowrap",
+        "inline-flex h-6 items-center rounded-chip border px-2 text-[13px] font-medium whitespace-nowrap",
         status === "ready"
           ? "border-line-strong bg-surface text-text"
           : "border-line bg-surface-sunken text-text-muted",

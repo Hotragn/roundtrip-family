@@ -138,7 +138,7 @@ export function Replan({ board }: { board: PlanBoard }) {
                 const Icon = WEATHER_ICON[f.label] ?? CloudSun;
                 return (
                   <li key={f.date} className="rounded-lg bg-surface-sunken px-2 py-2 text-center">
-                    <p className="text-[12px] font-medium">{shortDate(f.date).split(" ")[0]}</p>
+                    <p className="text-[13px] font-medium">{shortDate(f.date).split(" ")[0]}</p>
                     <Icon aria-hidden="true" className="mx-auto my-1 size-5 stroke-[1.75] text-text-muted" />
                     <p className="text-[13px] tabular-nums">{f.maxC}°C</p>
                     <p className="text-[11px] text-text-muted tabular-nums">{Math.round(f.rainChance * 100)}% rain</p>

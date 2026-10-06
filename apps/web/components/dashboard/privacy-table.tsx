@@ -57,7 +57,7 @@ function Classes({ accepts }: { accepts: DataClass[] }) {
           key={c}
           title={DATA_CLASS[c].hint}
           className={cn(
-            "rounded-chip border px-2 py-0.5 text-[12px] font-medium whitespace-nowrap",
+            "rounded-chip border px-2 py-0.5 text-[13px] font-medium whitespace-nowrap",
             c === "personal" ? "border-ink/40 bg-ink/5 text-text" : "border-line bg-surface text-text-muted",
           )}
         >
@@ -162,7 +162,7 @@ export function PrivacyTable({ routes }: { routes: OutboundRoute[] }) {
                       <ExternalLink aria-hidden="true" className="mt-0.5 size-3.5 shrink-0 text-text-muted" />
                       <span className="sr-only"> (its documentation)</span>
                     </a>
-                    <p className="mt-1 break-all font-mono text-[12px] text-text-muted">{r.hosts.join(", ")}</p>
+                    <p className="mt-1 break-all font-mono text-[13px] text-text-muted">{r.hosts.join(", ")}</p>
                   </td>
                   <td className="w-[20%] px-3 py-3 leading-snug">{r.purpose}</td>
                   <td className="w-[28%] px-3 py-3 leading-snug text-text-muted">{r.sends}</td>
@@ -192,7 +192,7 @@ export function PrivacyTable({ routes }: { routes: OutboundRoute[] }) {
                 >
                   {r.service}
                 </a>
-                <span className="shrink-0 text-[12px] text-text-muted">{WHEN[r.when]}</span>
+                <span className="shrink-0 text-[13px] text-text-muted">{WHEN[r.when]}</span>
               </div>
               <p className="text-[14px] leading-snug">{r.purpose}</p>
               <p className="text-[14px] leading-snug text-text-muted">{r.sends}</p>

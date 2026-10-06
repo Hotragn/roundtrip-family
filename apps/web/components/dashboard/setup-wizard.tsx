@@ -99,7 +99,7 @@ function LanguageReady({ rec }: { rec: LanguageRecord | undefined }) {
         <li
           key={what}
           className={cn(
-            "inline-flex h-6 items-center gap-1 rounded-chip border px-2 text-[12px] font-medium",
+            "inline-flex h-6 items-center gap-1 rounded-chip border px-2 text-[13px] font-medium",
             s === "ready" ? "border-line-strong bg-surface" : "border-line bg-surface-sunken text-text-muted",
           )}
         >
@@ -173,7 +173,7 @@ export function SetupWizard({
               >
                 <span
                   className={cn(
-                    "flex size-6 shrink-0 items-center justify-center rounded-full border text-[12px] tabular-nums",
+                    "flex size-6 shrink-0 items-center justify-center rounded-full border text-[13px] tabular-nums",
                     i < step ? "border-ink bg-ink text-surface" : "border-line-strong",
                   )}
                 >
