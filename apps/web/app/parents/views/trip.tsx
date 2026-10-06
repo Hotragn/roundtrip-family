@@ -203,15 +203,39 @@ export function PracticeView() {
 }
 
 export function JoinView() {
-  const { outing, t, week } = useParents();
-  const join = outing?.joinCard;
-  if (!outing || !join) return null;
+  const { outing, outings, t, week, go } = useParents();
+  // The ticket's own card, or the week's first outing that has one.
+  const target = outing?.joinCard ? outing : outings.find((o) => o.joinCard);
+  const join = target?.joinCard;
   const local = week.household.localLanguage;
+  if (!target || !join) {
+    return (
+      <div className="space-y-5">
+        <h1 className="text-[30px] font-semibold" lang="te">
+          {t("Join.title")}
+        </h1>
+        <p className="text-parent" lang="te">
+          {t("Join.noneThisWeek")}
+        </p>
+        <button
+          type="button"
+          onClick={() => go("today")}
+          className="flex min-h-14 w-full items-center justify-center rounded-xl border border-line-strong bg-surface text-parent font-medium"
+          lang="te"
+        >
+          {t("Parents.back_to_today")}
+        </button>
+      </div>
+    );
+  }
   return (
     <div className="space-y-5">
       <h1 className="text-[30px] font-semibold" lang="te">
         {t("Join.title")}
       </h1>
+      <p className="text-[18px] text-text-muted" lang="te">
+        {t("Join.forPlace", { place: target.venue })}
+      </p>
       <p className="text-parent" lang="te">
         {t("Join.show")}
       </p>
