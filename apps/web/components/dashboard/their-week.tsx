@@ -1,7 +1,7 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
-import { Frown, Meh, Mic, Smile } from "lucide-react";
+import { Check, Clock, Frown, Meh, Mic, Smile } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Panel } from "@/components/shell/panel";
@@ -108,7 +108,11 @@ function Status({
     return (
       <div className="space-y-1.5">
         {home.map((c) => (
-          <p key={`${c.parentId}-${c.createdAt}`} className="text-[14px] font-semibold">
+          <p
+            key={`${c.parentId}-${c.createdAt}`}
+            className="inline-flex items-center gap-1.5 rounded-chip bg-home-green/10 px-2.5 py-1 text-[14px] font-semibold text-home-green-text"
+          >
+            <Check aria-hidden="true" className="size-4 stroke-[2.25]" />
             {board.parents.find((p) => p.id === c.parentId)?.firstName} was home at {clockIn(c.createdAt, tz)}
           </p>
         ))}
@@ -149,8 +153,17 @@ function Status({
         : item.withAdultChild
           ? "With you"
           : `No “I’m home” yet. The phone checks ${board.household.safety.bufferMinutes} minutes after ${hhmm(item.back)}.`;
+  const waiting = when === "past" && !item.withAdultChild;
   return (
-    <p className={cn("text-[14px]", when === "past" && !item.withAdultChild ? "font-medium" : "text-text-muted")}>
+    <p
+      className={cn(
+        "text-[14px]",
+        waiting && "inline-flex items-start gap-1.5 rounded-chip bg-surface-sunken px-2.5 py-1 font-medium",
+        when === "out" && "inline-flex rounded-chip bg-bus/15 px-2.5 py-1 font-medium",
+        !waiting && when !== "out" && "text-text-muted",
+      )}
+    >
+      {waiting ? <Clock aria-hidden="true" className="mt-0.5 size-4 shrink-0 stroke-[1.75]" /> : null}
       {text}
     </p>
   );
