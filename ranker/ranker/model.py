@@ -43,15 +43,17 @@ class Ranked:
 
 
 def _fit_predict(backend: Backend, past: pd.DataFrame, went: list[int], enjoy: list[float | None], cand: pd.DataFrame):
-    if len(set(went)) > 1:
-        p_go = backend.predict("classifier", past, [float(v) for v in went], cand)
-    else:
-        p_go = [float(went[0])] * len(cand)
+    """Whether they'd go and how much they'd enjoy it, asked at the same time: each API call takes seconds."""
     mask = [e is not None for e in enjoy]
     past_e = past[mask].reset_index(drop=True)
     y_e = [float(e) for e in enjoy if e is not None]
-    enjoyment = backend.predict("regressor", past_e, y_e, cand)
-    return p_go, enjoyment
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        enjoyment = pool.submit(backend.predict, "regressor", past_e, y_e, cand)
+        if len(set(went)) > 1:
+            p_go = backend.predict("classifier", past, [float(v) for v in went], cand)
+        else:
+            p_go = [float(went[0])] * len(cand)
+        return p_go, enjoyment.result()
 
 
 def rank(
