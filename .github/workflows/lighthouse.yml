@@ -34,7 +34,8 @@ jobs:
           echo "|---|---|---|---|---|---|---|---|---|---|---|" >> "$GITHUB_STEP_SUMMARY"
           mkdir -p reports
           for page in $PAGES; do
-            npx -y lighthouse@12 "$base$page" --output=json --output-path=warmup.json --quiet               --chrome-flags="--headless=new --no-sandbox" > /dev/null 2>&1 || true
+            npx -y lighthouse@12 "$base$page" --output=json --output-path=warmup.json --quiet \
+              --chrome-flags="--headless=new --no-sandbox" > /dev/null 2>&1 || true
             for run in 1 2 3 4 5; do
               name="reports/$(echo "$page" | tr '/' '_')-$run"
               npx -y lighthouse@12 "$base$page" --output=json --output-path="$name.json" --quiet $extra \

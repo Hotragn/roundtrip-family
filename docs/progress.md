@@ -138,3 +138,4 @@ The running log of the build. Read this first when resuming. The plan is docs/bu
 - A one-page brand board built from the real files (brand/brand-board.png).
 - Day moves on the dashboard now reach weekPlan, so a moved outing's reminder and safety timer follow it.
 - **Verified:** 356 unit tests, 29 dashboard, landing and accessibility browser tests, privacy check 0 violations.
+- Lighthouse 100 on every page: scripts start after the first paint, the parents' app uses two font weights, fonts are preloaded as optional (Chrome had been holding the first frame for about a second), and a GitHub job measures the live site from a fresh runner. 20 of 20 runs at 100 in all four categories (docs/numbers.md).

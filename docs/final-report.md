@@ -27,7 +27,7 @@ Roundtrip, built end to end from docs/plan.md between 5 and 6 October 2026. This
 
 ## Quality bars (docs/brand.md)
 
-- **Lighthouse, mobile, on the live site:** medians of 91 and 92.5 for the parents' app over ten runs each (17 of 20 runs at 90 or more; the lowest 81 and 85 on Munich, 88 on Fremont), 95 for the dashboard and 96 for the landing (every run at 90 or more), and 100 for accessibility, best practices and SEO on every run. The parents' app misses 90 on some single runs on the free instance; see docs/numbers.md.
+- **Lighthouse, mobile, on the live site:** 100 for performance, accessibility, best practices and SEO on the landing, the dashboard and both parents' apps, in all 20 recorded runs from a fresh GitHub runner (five per page after one warm-up; docs/numbers.md). Layout shift 0 everywhere, LCP 1.2 to 1.9 s on the simulated slow phone.
 - **WCAG AA:** axe clean on every parents' screen and dashboard section in light and dark; the parents' app also passes the 200% text and 56 px target test.
 - **Reduced motion, offline-ready, text on white panels, native scrolling:** checked by the e2e suite and the screenshot reviews.
 

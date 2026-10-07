@@ -56,20 +56,18 @@ The slowest step was TabPFN: the free ranker service sleeps after 15 idle minute
 
 ## Lighthouse (mobile, live site)
 
-`npx lighthouse@12 <url> --only-categories=performance` against https://roundtrip-web.onrender.com on 6 October, after deploying commit bf13416 (ten runs per parents' page) and 0451587 (five per site page). Accessibility, best practices and SEO scored 100 on every run measured.
+The job "Lighthouse on the live site" (.github/workflows/lighthouse.yml) runs `npx lighthouse@12` (Chrome 154, mobile, simulated slow 4G and 4x CPU) against https://roundtrip-web.onrender.com from a fresh GitHub runner: one unrecorded warm-up run per page, then five recorded runs. Run 37579605255 on 7 October, after deploying commit bb210ed:
 
-| Page | Performance runs | Median | Runs at 90 or more |
-|---|---|---|---|
-| Parents' app, Sarala (Fremont) | 88, 91, 92, 94, 90, 91, 92, 95, 90, 90 | 91 | 9 of 10 |
-| Parents' app, Kamala (Munich) | 93, 92, 94, 96, 81, 93, 85, 91, 92, 93 | 92.5 | 8 of 10 |
-| Dashboard, Fremont | 90, 96, 98, 94, 95 | 95 | 5 of 5 |
-| Landing | 92, 96, 97, 93, 97 | 96 | 5 of 5 |
+| Page | Performance (5 runs) | Accessibility | Best practices | SEO | FCP | LCP | Speed Index | TBT | CLS |
+|---|---|---|---|---|---|---|---|---|---|
+| Landing | 100, 100, 100, 100, 100 | 100 | 100 | 100 | 0.94 to 0.97 s | 1.24 to 1.27 s | equal to FCP | 42 to 46 ms | 0 |
+| Dashboard, Fremont | 100, 100, 100, 100, 100 | 100 | 100 | 100 | 1.00 to 1.03 s | 1.34 to 1.37 s | equal to FCP | 47 to 51 ms | 0 |
+| Parents' app, Sarala (Fremont) | 100, 100, 100, 100, 100 | 100 | 100 | 100 | 0.94 to 1.00 s | 1.69 to 1.88 s | equal to FCP | 37 to 47 ms | 0 |
+| Parents' app, Kamala (Munich) | 100, 100, 100, 100, 100 | 100 | 100 | 100 | 0.94 to 0.95 s | 1.62 to 1.63 s | equal to FCP | 43 to 50 ms | 0 |
 
-The low runs on the parents' app come from the free instance and the network, not the page: the same build scores 95 to 97 on other runs. Its first screen now loads 184 KB of JavaScript and 32 KB of CSS (this morning: about 250 KB and the whole site's 96 KB stylesheet, three times over).
+**What it took, from 92 to 95 on 6 October** (decisions 131 to 136): the dashboard guide no longer pushes the board down after load (it scored 67 with a layout shift of 0.6); prerendered pages start their scripts after the first paint, so it no longer shares a slow line with about 250 KB of JavaScript; the landing's story cards are laid out only near the viewport; the parents' app uses two font weights instead of three; and fonts are preloaded with `font-display: optional`. The last one fixed the most stubborn loss: with preloaded `swap` fonts, Chrome sometimes held the first frame for about a second after the fonts had arrived, which cost Speed Index on a third of the runs; without preloads the parents' app shifted by up to 0.63 when its fonts swapped in.
 
-**Re-run after the polish pass** (commit 5c7305b, three runs each, all four categories): accessibility, best practices and SEO 100 on every run. Performance: landing 92, 94, 92; dashboard 94, 95, 95; parents' app (Sarala) 88, 94, 94. Before the fix in 5c7305b the dashboard scored 67: its first-visit guide appeared after load and pushed the board down (layout shift 0.6, now 0).
-
-**Why performance stops short of 100:** the real first paint, with the main content in it, comes 0.2 to 0.4 s after the response on all three pages. Lighthouse's simulated slow phone counts every request that starts before that paint, and about 250 KB of Next.js and React scripts start then. With scripts blocked, the parents' page scores 99. Making font display optional made no difference.
+**Measuring:** a fresh runner's first browser start is several times slower at everything (its CPU benchmark 1,793 against about 2,470 later, and every task 3 to 10 times longer), so the job discards one warm-up run per page. Without it the first recorded run of a page scored 77 to 93 and the other four 100. Runs on the builder's laptop are not comparable: the repository is in a OneDrive folder, and OneDrive and Windows Defender use up to a fifth of the CPU after each build. The keyless PageSpeed Insights API was over its daily quota.
 
 ## Speech
 
