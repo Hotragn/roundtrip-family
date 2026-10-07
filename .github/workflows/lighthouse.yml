@@ -15,8 +15,8 @@ jobs:
       - name: Run Lighthouse
         run: |
           base=https://roundtrip-web.onrender.com
-          echo "| Page | Run | Performance | Accessibility | Best practices | SEO | LCP (ms) |" >> "$GITHUB_STEP_SUMMARY"
-          echo "|---|---|---|---|---|---|---|" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Page | Run | Performance | Accessibility | Best practices | SEO | FCP | LCP | Speed Index | TBT | CLS |" >> "$GITHUB_STEP_SUMMARY"
+          echo "|---|---|---|---|---|---|---|---|---|---|---|" >> "$GITHUB_STEP_SUMMARY"
           for page in / /plan/fremont-demo /parents/fremont-demo/p_sarala /parents/munich-demo/p_kamala; do
             for run in 1 2 3; do
               npx -y lighthouse@12 "$base$page" --output=json --output-path=lh.json --quiet \
@@ -24,8 +24,9 @@ jobs:
               node -e '
                 const r = require("./lh.json"), c = r.categories;
                 const s = (k) => Math.round(c[k].score * 100);
-                const lcp = Math.round(r.audits["largest-contentful-paint"].numericValue);
-                console.log(`| ${process.argv[1]} | ${process.argv[2]} | ${s("performance")} | ${s("accessibility")} | ${s("best-practices")} | ${s("seo")} | ${lcp} |`);
+                const ms = (k) => Math.round(r.audits[k].numericValue);
+                const cls = r.audits["cumulative-layout-shift"].numericValue.toFixed(3);
+                console.log(`| ${process.argv[1]} | ${process.argv[2]} | ${s("performance")} | ${s("accessibility")} | ${s("best-practices")} | ${s("seo")} | ${ms("first-contentful-paint")} | ${ms("largest-contentful-paint")} | ${ms("speed-index")} | ${ms("total-blocking-time")} | ${cls} |`);
               ' "$page" "$run" | tee -a "$GITHUB_STEP_SUMMARY"
             done
           done
