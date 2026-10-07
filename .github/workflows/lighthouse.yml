@@ -1,8 +1,10 @@
 name: Lighthouse on the live site
 
-# Mobile Lighthouse against the deployed demo, from a clean runner, five runs per page. The
-# scores go to the run's summary and the reports are kept for a week. Run it after a deploy
-# (Actions, Lighthouse on the live site); "pages" narrows it, "traces" keeps each run's trace.
+# Mobile Lighthouse against the deployed demo, from a clean runner, five runs per page after one
+# unrecorded warm-up run (a fresh runner's first browser start is several times slower at
+# everything, docs/numbers.md). The scores go to the run's summary and the reports are kept for
+# a week. Run it after a deploy (Actions, Lighthouse on the live site); "pages" narrows it,
+# "traces" keeps each run's trace.
 on:
   workflow_dispatch:
     inputs:
@@ -32,6 +34,7 @@ jobs:
           echo "|---|---|---|---|---|---|---|---|---|---|---|" >> "$GITHUB_STEP_SUMMARY"
           mkdir -p reports
           for page in $PAGES; do
+            npx -y lighthouse@12 "$base$page" --output=json --output-path=warmup.json --quiet               --chrome-flags="--headless=new --no-sandbox" > /dev/null 2>&1 || true
             for run in 1 2 3 4 5; do
               name="reports/$(echo "$page" | tr '/' '_')-$run"
               npx -y lighthouse@12 "$base$page" --output=json --output-path="$name.json" --quiet $extra \
