@@ -67,6 +67,10 @@ The slowest step was TabPFN: the free ranker service sleeps after 15 idle minute
 
 The low runs on the parents' app come from the free instance and the network, not the page: the same build scores 95 to 97 on other runs. Its first screen now loads 184 KB of JavaScript and 32 KB of CSS (this morning: about 250 KB and the whole site's 96 KB stylesheet, three times over).
 
+**Re-run after the polish pass** (commit 5c7305b, three runs each, all four categories): accessibility, best practices and SEO 100 on every run. Performance: landing 92, 94, 92; dashboard 94, 95, 95; parents' app (Sarala) 88, 94, 94. Before the fix in 5c7305b the dashboard scored 67: its first-visit guide appeared after load and pushed the board down (layout shift 0.6, now 0).
+
+**Why performance stops short of 100:** the real first paint, with the main content in it, comes 0.2 to 0.4 s after the response on all three pages. Lighthouse's simulated slow phone counts every request that starts before that paint, and about 250 KB of Next.js and React scripts start then. With scripts blocked, the parents' page scores 99. Making font display optional made no difference.
+
 ## Speech
 
 44 clips voiced and scored in the Codespace (Linux x86_64, 4 CPUs, 16 GB), synthetic text: every card title and body, practice phrase, help card and synthetic diary voice entry. Score: character error rate (CER) of a transcription back to text. Command, in the Codespace: `bash -l speech/codespace.sh`; report in docs/speech-results.md.
