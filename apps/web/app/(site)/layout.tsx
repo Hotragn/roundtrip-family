@@ -14,6 +14,7 @@ const hind = localFont({
     { path: "../fonts/hind-700-latin.woff2", weight: "700" },
   ],
   display: "swap",
+  preload: false,
   declarations: [
     {
       prop: "unicode-range",

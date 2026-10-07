@@ -30,6 +30,7 @@ const telugu = localFont({
     { path: "../fonts/hind-guntur-600-telugu.woff2", weight: "600" },
   ],
   display: "swap",
+  preload: false,
   declarations: [{ prop: "unicode-range", value: "U+0951-0952, U+0964-0965, U+0C00-0C7F, U+1CDA, U+1CF2, U+25CC" }],
 });
 const stack = `var(--font-hind), ${telugu.style.fontFamily}, ui-sans-serif, system-ui, sans-serif`;
