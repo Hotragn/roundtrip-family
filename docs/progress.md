@@ -130,3 +130,11 @@ The running log of the build. Read this first when resuming. The plan is docs/bu
 ### M7 Ship (2026-10-06)
 
 - Sentry on the server only, with a span for each planner run, Gemma call and tool call (names, models and counts, never prompts); TabPFN ranking for both parents at once and the ranker woken early, which cut a live Munich re-plan from 73 to 49 s; Mandarin routed to the phone's voice (MMS has none); docs/models.md, docs/numbers.md, `pnpm check-env`.
+
+### Polish (2026-10-06)
+
+- A warmer palette with a story behind each color (a letter home), a welcome on the parents' first screen, a three-step guide on the dashboard's first visit, and a keep-awake ping for the free instance.
+- A design review of every dashboard section: captions at 13 px or more, a single person card across the row, check-ins as status chips, and a Listen button in place of the browser's audio player.
+- A one-page brand board built from the real files (brand/brand-board.png).
+- Day moves on the dashboard now reach weekPlan, so a moved outing's reminder and safety timer follow it.
+- **Verified:** 356 unit tests, 29 dashboard, landing and accessibility browser tests, privacy check 0 violations.
