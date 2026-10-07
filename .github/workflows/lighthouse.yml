@@ -1,6 +1,6 @@
 name: Lighthouse on the live site
 
-# Mobile Lighthouse against the deployed demo, from a clean runner, three runs per page. The
+# Mobile Lighthouse against the deployed demo, from a clean runner, five runs per page. The
 # scores go to the run's summary. Run it after a deploy (Actions, Lighthouse on the live site).
 on:
   workflow_dispatch:
@@ -18,7 +18,7 @@ jobs:
           echo "| Page | Run | Performance | Accessibility | Best practices | SEO | FCP | LCP | Speed Index | TBT | CLS |" >> "$GITHUB_STEP_SUMMARY"
           echo "|---|---|---|---|---|---|---|---|---|---|---|" >> "$GITHUB_STEP_SUMMARY"
           for page in / /plan/fremont-demo /parents/fremont-demo/p_sarala /parents/munich-demo/p_kamala; do
-            for run in 1 2 3; do
+            for run in 1 2 3 4 5; do
               npx -y lighthouse@12 "$base$page" --output=json --output-path=lh.json --quiet \
                 --chrome-flags="--headless=new --no-sandbox" > /dev/null 2>&1 || true
               node -e '
