@@ -28,5 +28,11 @@ jobs:
                 const cls = r.audits["cumulative-layout-shift"].numericValue.toFixed(3);
                 console.log(`| ${process.argv[1]} | ${process.argv[2]} | ${s("performance")} | ${s("accessibility")} | ${s("best-practices")} | ${s("seo")} | ${ms("first-contentful-paint")} | ${ms("largest-contentful-paint")} | ${ms("speed-index")} | ${ms("total-blocking-time")} | ${cls} |`);
               ' "$page" "$run" | tee -a "$GITHUB_STEP_SUMMARY"
+              mkdir -p reports && cp lh.json "reports/$(echo "$page" | tr '/' '_')-$run.json"
             done
           done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports
+          path: reports/
+          retention-days: 7
