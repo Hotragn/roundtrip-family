@@ -1,5 +1,6 @@
 import AxeBuilder from "@axe-core/playwright";
 import { expect, type Page, test } from "@playwright/test";
+import { ready } from "./ready";
 
 /**
  * The dashboard: WCAG 2.2 AA on every section for both households in light and dark, and the
@@ -41,6 +42,7 @@ for (const scheme of ["light", "dark"] as const) {
 test("a first visit shows the three-step guide, and Got it keeps it closed", async ({ page }, info) => {
   test.skip(info.project.name !== "desktop", "dashboard is desktop-first");
   await page.goto("/plan/fremont-demo");
+  await ready(page);
   const guide = page.getByRole("region", { name: /How this works in three steps/ });
   await expect(guide).toBeVisible();
   await guide.getByRole("button", { name: "Got it" }).click();
@@ -64,6 +66,7 @@ test("approve, swap and move on the week board", async ({ page }, info) => {
   test.skip(info.project.name !== "desktop", "drag and drop with a mouse");
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/plan/fremont-demo", { waitUntil: "networkidle" });
+  await ready(page);
   await expect(page.getByRole("heading", { name: "This week", level: 1 })).toBeVisible();
   // The header's Approved tile.
   const tally = page.locator("dt", { hasText: /^Approved$/ }).locator("xpath=following-sibling::dd");
@@ -119,6 +122,7 @@ test("an outing approved on the dashboard is on the parent's phone, on the day i
   test.skip(info.project.name !== "desktop", "drag and drop with a mouse");
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/plan/fremont-demo", { waitUntil: "networkidle" });
+  await ready(page);
   const park = page.getByRole("article", { name: /^Central Park/ });
   await park.getByRole("button", { name: "Approve" }).click();
   await expect(page.getByText("The ticket is on Sarala's phone now.")).toBeVisible();
@@ -152,6 +156,7 @@ test("only diary entries a parent shares reach Shared with you, and unsharing ta
   const api = async () => JSON.stringify(await (await page.request.get("/plan/api/diary/fremont-demo")).json());
 
   await page.goto("/plan/fremont-demo/shared", { waitUntil: "networkidle" });
+  await ready(page);
   await expect(page.getByText(shared, { exact: false }).first()).toBeVisible();
   await expect(page.getByText(secret, { exact: false })).toHaveCount(0);
   expect(await api()).not.toContain(secret);
@@ -183,6 +188,7 @@ test("a move to a day the place is shut is refused, in Munich", async ({ page },
   test.skip(info.project.name !== "desktop", "drag and drop with a mouse");
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/plan/munich-demo", { waitUntil: "networkidle" });
+  await ready(page);
   // The Ramersdorf library is closed on Mondays.
   const library = page.getByRole("article", { name: /^Münchner Stadtbibliothek Ramersdorf/ });
   await drag(

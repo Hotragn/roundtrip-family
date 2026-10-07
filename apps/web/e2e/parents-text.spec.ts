@@ -1,4 +1,5 @@
 import { expect, type Page, test } from "@playwright/test";
+import { ready } from "./ready";
 
 /**
  * Telugu text, tap targets and reflow on every parents' app screen, at normal size and with the
@@ -240,6 +241,7 @@ for (const who of PARENT_PAGES) {
     for (const scale of SCALES) {
       for (const v of VIEWS) {
         await page.goto(`${who.path}${v === "today" ? "" : `?v=${v}`}`);
+        await ready(page);
         await expect(page.locator(`main[data-view="${v}"]`)).toBeVisible();
         for (const p of await check(page, scale)) problems.push(`${v} at ${scale * 100}%: ${p}`);
       }
@@ -254,6 +256,7 @@ test("Telugu text, tap targets and reflow: start screen", async ({ page }, info)
   const problems: string[] = [];
   for (const scale of SCALES) {
     await page.goto("/parents?v=start");
+    await ready(page);
     await expect(page.getByRole("button", { name: /Fremont, California/ })).toBeVisible();
     await expect(page.locator('[aria-busy="true"]')).toHaveCount(0);
     for (const p of await check(page, scale)) problems.push(`start at ${scale * 100}%: ${p}`);
