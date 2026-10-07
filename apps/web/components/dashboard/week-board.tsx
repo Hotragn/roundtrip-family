@@ -9,14 +9,17 @@ import {
   useSensor,
   useSensors,
 } from "@dnd-kit/core";
-import { useState } from "react";
+import { lazy, Suspense, useEffect, useState } from "react";
 import { toast } from "sonner";
 import { DAY_NAMES, dayAvailability, hhmm, moveProblem, shortDate, whoFor, whoShort } from "@/lib/plan-format";
 import type { BoardItem, PlanBoard } from "@/lib/plan-types";
 import { cn } from "@/lib/utils";
-import { ItemSheet } from "./item-sheet";
 import { SuggestionCard } from "./suggestion-card";
 import { type EffectiveItem, useEffectiveItems, useOverlay } from "./use-overlay";
+
+// The sheet (and its dialog library) loads once the page is idle, so it never competes with the board.
+const loadSheet = () => import("./item-sheet");
+const ItemSheet = lazy(() => loadSheet().then((m) => ({ default: m.ItemSheet })));
 
 /** Monday to Friday each get a column; Saturday and Sunday share one, the days you can go along. */
 interface Column {
@@ -97,6 +100,12 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
   const { overlay, change } = useOverlay(board.household.slug);
   const items = useEffectiveItems(board, overlay);
   const [openId, setOpenId] = useState<string | null>(null);
+  const [sheetUsed, setSheetUsed] = useState(false);
+  if (openId !== null && !sheetUsed) setSheetUsed(true);
+  useEffect(() => {
+    const id = setTimeout(() => void loadSheet(), 2000);
+    return () => clearTimeout(id);
+  }, []);
   const open = items.find((i) => i.slotId === openId) ?? null;
   const sensors = useSensors(
     useSensor(PointerSensor, { activationConstraint: { distance: 6 } }),
@@ -227,16 +236,20 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
         Places and events come from live searches for the week of {board.week.label}. The family is fictional. Drag an
         outing to move it to another day they&rsquo;re free; open one to see the route, the reasons and their ticket.
       </p>
-      <ItemSheet
-        board={board}
-        item={open}
-        open={open !== null}
-        onOpenChange={(o) => !o && setOpenId(null)}
-        onApprove={(i) => void approve(i)}
-        onUnapprove={(i) => void unapprove(i)}
-        onSwap={(i, to) => void swap(i, to)}
-        onUnswap={(i) => void unswap(i)}
-      />
+      {sheetUsed ? (
+        <Suspense fallback={null}>
+          <ItemSheet
+            board={board}
+            item={open}
+            open={open !== null}
+            onOpenChange={(o) => !o && setOpenId(null)}
+            onApprove={(i) => void approve(i)}
+            onUnapprove={(i) => void unapprove(i)}
+            onSwap={(i, to) => void swap(i, to)}
+            onUnswap={(i) => void unswap(i)}
+          />
+        </Suspense>
+      ) : null}
     </div>
   );
 }

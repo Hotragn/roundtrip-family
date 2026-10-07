@@ -11,15 +11,17 @@ const KEY = "roundtrip:guide-dismissed";
 /**
  * A first-visit guide to the dashboard in three steps, for someone who has never seen it. Hidden
  * once dismissed (remembered on this browser only); without storage it simply shows again.
+ * It's in the server HTML so the board below never jumps; for a returning visitor the inline
+ * script hides it before the first paint.
  */
+const HIDE = `try{if(localStorage.getItem("${KEY}")==="1")document.currentScript.nextElementSibling.hidden=true}catch(e){}`;
+
 export function FirstVisitGuide({ board }: { board: PlanBoard }) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   useEffect(() => {
     try {
-      setOpen(localStorage.getItem(KEY) !== "1");
-    } catch {
-      setOpen(true);
-    }
+      if (localStorage.getItem(KEY) === "1") setOpen(false);
+    } catch {}
   }, []);
   if (!open) return null;
   const close = () => {
@@ -46,54 +48,58 @@ export function FirstVisitGuide({ board }: { board: PlanBoard }) {
     },
   ];
   return (
-    <Panel role="region" className="relative p-5 sm:p-6" aria-labelledby="guide-title">
-      <button
-        type="button"
-        onClick={close}
-        aria-label="Close the guide"
-        className="absolute top-3 right-3 flex size-11 items-center justify-center rounded-lg text-text-muted hover:bg-surface-sunken"
-      >
-        <X aria-hidden="true" className="size-5" />
-      </button>
-      <h2 id="guide-title" className="pr-12 text-[20px] font-semibold">
-        New here? How this works in three steps
-      </h2>
-      <p className="mt-1 text-[15px] text-text-muted">
-        This is a demo week for a fictional family, so try anything: nothing is sent and nothing is saved for long.
-      </p>
-      <ol className="mt-5 grid gap-4 md:grid-cols-3">
-        {steps.map((s, i) => (
-          <li key={s.title} className="flex gap-3">
-            <span
-              aria-hidden="true"
-              className="flex size-8 shrink-0 items-center justify-center rounded-full bg-bus text-[15px] font-semibold text-on-bus"
-            >
-              {i + 1}
-            </span>
-            <div>
-              <p className="font-semibold">{s.title}</p>
-              <p className="mt-0.5 text-[15px] leading-relaxed text-text-muted">{s.text}</p>
-            </div>
-          </li>
-        ))}
-      </ol>
-      <div className="mt-5 flex flex-wrap gap-3">
-        {first ? (
-          <a
-            href={`/parents/${board.household.slug}/${first.id}`}
-            target="_blank"
-            rel="noopener"
-            className={buttonVariants({ variant: "secondary" })}
-          >
-            <Smartphone aria-hidden="true" className="size-4" />
-            Open {first.firstName}'s phone beside this
-          </a>
-        ) : null}
-        <button type="button" onClick={close} className={buttonVariants({ variant: "secondary" })}>
-          <CheckCircle2 aria-hidden="true" className="size-4" />
-          Got it
+    <>
+      {/* biome-ignore lint/security/noDangerouslySetInnerHtml: a fixed string, no user input */}
+      <script dangerouslySetInnerHTML={{ __html: HIDE }} />
+      <Panel role="region" className="relative p-5 sm:p-6" aria-labelledby="guide-title">
+        <button
+          type="button"
+          onClick={close}
+          aria-label="Close the guide"
+          className="absolute top-3 right-3 flex size-11 items-center justify-center rounded-lg text-text-muted hover:bg-surface-sunken"
+        >
+          <X aria-hidden="true" className="size-5" />
         </button>
-      </div>
-    </Panel>
+        <h2 id="guide-title" className="pr-12 text-[20px] font-semibold">
+          New here? How this works in three steps
+        </h2>
+        <p className="mt-1 text-[15px] text-text-muted">
+          This is a demo week for a fictional family, so try anything: nothing is sent and nothing is saved for long.
+        </p>
+        <ol className="mt-5 grid gap-4 md:grid-cols-3">
+          {steps.map((s, i) => (
+            <li key={s.title} className="flex gap-3">
+              <span
+                aria-hidden="true"
+                className="flex size-8 shrink-0 items-center justify-center rounded-full bg-bus text-[15px] font-semibold text-on-bus"
+              >
+                {i + 1}
+              </span>
+              <div>
+                <p className="font-semibold">{s.title}</p>
+                <p className="mt-0.5 text-[15px] leading-relaxed text-text-muted">{s.text}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+        <div className="mt-5 flex flex-wrap gap-3">
+          {first ? (
+            <a
+              href={`/parents/${board.household.slug}/${first.id}`}
+              target="_blank"
+              rel="noopener"
+              className={buttonVariants({ variant: "secondary" })}
+            >
+              <Smartphone aria-hidden="true" className="size-4" />
+              Open {first.firstName}'s phone beside this
+            </a>
+          ) : null}
+          <button type="button" onClick={close} className={buttonVariants({ variant: "secondary" })}>
+            <CheckCircle2 aria-hidden="true" className="size-4" />
+            Got it
+          </button>
+        </div>
+      </Panel>
+    </>
   );
 }
