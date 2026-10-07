@@ -44,7 +44,8 @@ const hindGuntur = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
+  // Render sets RENDER_EXTERNAL_URL at build time, so the social card links to the live site.
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? process.env.RENDER_EXTERNAL_URL ?? "http://localhost:3000"),
   title: { default: "Roundtrip", template: "%s · Roundtrip" },
   description:
     "Weekdays out, safely home. An open-model outing planner that helps visiting parents get out each week, to real places and real people, in their own language.",

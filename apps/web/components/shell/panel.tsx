@@ -6,10 +6,5 @@ import { cn } from "@/lib/utils";
  * more with the raised shadow, so contrast is measured against white (docs/brand.md).
  */
 export function Panel({ className, ...props }: ComponentProps<"div">) {
-  return (
-    <div
-      className={cn("rounded-card bg-surface/96 shadow-raised ring-1 ring-line/70 backdrop-blur-[2px]", className)}
-      {...props}
-    />
-  );
+  return <div className={cn("rounded-card bg-surface/96 shadow-raised ring-1 ring-line/70", className)} {...props} />;
 }
