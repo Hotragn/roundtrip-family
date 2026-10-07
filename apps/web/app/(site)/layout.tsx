@@ -3,8 +3,8 @@ import "../globals.css";
 
 /**
  * The landing, the dashboard and the style guide share the full stylesheet, and preload Hind for
- * their mostly Latin text. The root layout declares Hind without preloading, so the parents'
- * screens, which are Telugu, don't fetch Latin weights before their first paint.
+ * their mostly Latin text. The parents' screens declare their own two weights
+ * (app/parents/layout.tsx), so they never fetch the weights only these pages use.
  */
 const hind = localFont({
   src: [
@@ -13,8 +13,9 @@ const hind = localFont({
     { path: "../fonts/hind-600-latin.woff2", weight: "600" },
     { path: "../fonts/hind-700-latin.woff2", weight: "700" },
   ],
-  display: "swap",
-  preload: false,
+  // Preloaded and optional: the font is there for the first paint or the fallback stays,
+  // so text never shifts, and Chrome holds rendering for it only briefly.
+  display: "optional",
   declarations: [
     {
       prop: "unicode-range",
