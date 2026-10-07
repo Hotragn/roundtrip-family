@@ -1,0 +1,31 @@
+name: Lighthouse on the live site
+
+# Mobile Lighthouse against the deployed demo, from a clean runner, three runs per page. The
+# scores go to the run's summary. Run it after a deploy (Actions, Lighthouse on the live site).
+on:
+  workflow_dispatch:
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Wake the instance
+        run: curl -fsS --max-time 90 -o /dev/null https://roundtrip-web.onrender.com/api/health
+      - name: Run Lighthouse
+        run: |
+          base=https://roundtrip-web.onrender.com
+          echo "| Page | Run | Performance | Accessibility | Best practices | SEO | LCP (ms) |" >> "$GITHUB_STEP_SUMMARY"
+          echo "|---|---|---|---|---|---|---|" >> "$GITHUB_STEP_SUMMARY"
+          for page in / /plan/fremont-demo /parents/fremont-demo/p_sarala /parents/munich-demo/p_kamala; do
+            for run in 1 2 3; do
+              npx -y lighthouse@12 "$base$page" --output=json --output-path=lh.json --quiet \
+                --chrome-flags="--headless=new --no-sandbox" > /dev/null 2>&1 || true
+              node -e '
+                const r = require("./lh.json"), c = r.categories;
+                const s = (k) => Math.round(c[k].score * 100);
+                const lcp = Math.round(r.audits["largest-contentful-paint"].numericValue);
+                console.log(`| ${process.argv[1]} | ${process.argv[2]} | ${s("performance")} | ${s("accessibility")} | ${s("best-practices")} | ${s("seo")} | ${lcp} |`);
+              ' "$page" "$run" | tee -a "$GITHUB_STEP_SUMMARY"
+            done
+          done
