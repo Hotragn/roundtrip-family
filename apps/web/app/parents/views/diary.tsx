@@ -150,7 +150,7 @@ export function DiaryView() {
         <button
           type="button"
           onClick={() => go("book")}
-          className="min-h-14 rounded-lg border border-line-strong bg-surface px-4 text-[18px] font-medium"
+          className="min-h-14 rounded-lg border border-line-strong bg-surface px-4 text-[18px] font-semibold"
           lang="te"
         >
           {t("Diary.book")}
@@ -192,7 +192,7 @@ export function DiaryView() {
         </label>
         {/* The file input is visually hidden, so the label shows its keyboard focus. */}
         <label
-          className="flex flex-wrap min-h-14 cursor-pointer items-center justify-center gap-3 rounded-xl border border-line-strong text-parent font-medium has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-focus"
+          className="flex flex-wrap min-h-14 cursor-pointer items-center justify-center gap-3 rounded-xl border border-line-strong text-parent font-semibold has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-focus"
           lang="te"
         >
           <Camera aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
@@ -240,7 +240,7 @@ export function DiaryView() {
 
       <a
         href={`tel:${week.household.contact.phone.replace(/[^\d+]/g, "")}`}
-        className="mt-4 flex flex-wrap min-h-14 items-center justify-center gap-3 rounded-xl border border-line-strong bg-surface text-parent font-medium"
+        className="mt-4 flex flex-wrap min-h-14 items-center justify-center gap-3 rounded-xl border border-line-strong bg-surface text-parent font-semibold"
         lang="te"
       >
         <Phone aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "node scripts/vendor-maplibre.mjs && next dev",
-    "build": "node scripts/vendor-maplibre.mjs && next build && node scripts/standalone.mjs",
+    "build": "node scripts/vendor-maplibre.mjs && next build && node scripts/defer-scripts.mjs && node scripts/standalone.mjs",
     "start": "node .next/standalone/apps/web/server.js",
     "typecheck": "next typegen && tsc --noEmit",
     "e2e": "playwright test --grep-invert @screens",

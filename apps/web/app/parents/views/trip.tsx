@@ -57,7 +57,7 @@ export function DirectionsView() {
             type="button"
             onClick={start}
             disabled={state !== "off" && state !== "unavailable"}
-            className="flex flex-wrap min-h-14 w-full items-center justify-center gap-3 rounded-xl border border-line-strong bg-surface px-5 text-parent font-medium disabled:opacity-70"
+            className="flex flex-wrap min-h-14 w-full items-center justify-center gap-3 rounded-xl border border-line-strong bg-surface px-5 text-parent font-semibold disabled:opacity-70"
             lang="te"
           >
             <LocateFixed aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
@@ -227,7 +227,7 @@ export function JoinView() {
         <button
           type="button"
           onClick={() => go("today")}
-          className="flex min-h-14 w-full items-center justify-center rounded-xl border border-line-strong bg-surface text-parent font-medium"
+          className="flex min-h-14 w-full items-center justify-center rounded-xl border border-line-strong bg-surface text-parent font-semibold"
           lang="te"
         >
           {t("Parents.back_to_today")}

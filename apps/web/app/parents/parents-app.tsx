@@ -284,7 +284,7 @@ function ParentScreens({
             <button
               type="button"
               onClick={() => go("today")}
-              className="-ml-2 inline-flex flex-wrap min-h-14 items-center gap-2 rounded-lg px-2 text-[18px] font-medium"
+              className="-ml-2 inline-flex flex-wrap min-h-14 items-center gap-2 rounded-lg px-2 text-[18px] font-semibold"
               lang="te"
             >
               <ArrowLeft aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />

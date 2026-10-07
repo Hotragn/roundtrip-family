@@ -80,7 +80,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
             badges={
               featured.firstRideTogether ? (
                 <span
-                  className="inline-flex items-center gap-2 rounded-full bg-sky-line/12 px-3 py-1.5 text-[17px] font-medium text-sky-text"
+                  className="inline-flex items-center gap-2 rounded-full bg-sky-line/12 px-3 py-1.5 text-[17px] font-semibold text-sky-text"
                   lang="te"
                 >
                   <Users aria-hidden="true" className="shrink-0 size-5 stroke-[1.75]" />
@@ -149,7 +149,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
             <button
               type="button"
               onClick={() => go("practice", featured.id)}
-              className="flex flex-wrap min-h-14 items-center justify-center gap-3 rounded-xl border border-line-strong bg-surface px-6 text-parent font-medium"
+              className="flex flex-wrap min-h-14 items-center justify-center gap-3 rounded-xl border border-line-strong bg-surface px-6 text-parent font-semibold"
               lang="te"
             >
               <MessageCircle aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
@@ -159,7 +159,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
               <button
                 type="button"
                 onClick={() => go("join", featured.id)}
-                className="flex min-h-14 items-center justify-center rounded-xl border border-line-strong bg-surface px-6 text-parent font-medium"
+                className="flex min-h-14 items-center justify-center rounded-xl border border-line-strong bg-surface px-6 text-parent font-semibold"
                 lang="te"
               >
                 {t("Join.title")}
@@ -169,7 +169,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
               <button
                 type="button"
                 onClick={() => go("friend", featured.id)}
-                className="flex min-h-14 items-center justify-center rounded-xl border border-line-strong bg-surface px-6 text-parent font-medium"
+                className="flex min-h-14 items-center justify-center rounded-xl border border-line-strong bg-surface px-6 text-parent font-semibold"
                 lang="te"
               >
                 {t("Friend.title")}

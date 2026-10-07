@@ -27,7 +27,6 @@ export const viewport: Viewport = {
 const telugu = localFont({
   src: [
     { path: "../fonts/hind-guntur-400-telugu.woff2", weight: "400" },
-    { path: "../fonts/hind-guntur-500-telugu.woff2", weight: "500" },
     { path: "../fonts/hind-guntur-600-telugu.woff2", weight: "600" },
   ],
   display: "swap",

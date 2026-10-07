@@ -31,13 +31,17 @@ function Step({
       aria-labelledby={`${id}-title`}
       className={cn("lg:w-[32rem]", side === "right" ? "lg:ml-auto lg:mr-[6vw]" : "lg:ml-0")}
     >
-      <Panel className="rounded-[20px] p-6 sm:p-8">
-        <h3 id={`${id}-title`} className="text-[25px] font-semibold leading-tight tracking-[-0.015em] sm:text-[28px]">
-          {title}
-        </h3>
-        <div className="mt-3 space-y-3 text-base text-text-muted sm:text-[17px] sm:leading-[1.6]">{children}</div>
-        {preview}
-      </Panel>
+      {/* Laid out only near the viewport, so its fonts (Telugu, bold) don't load before the first
+          paint. The padding keeps the panel's shadow inside the paint containment. */}
+      <div className="-mx-4 -my-8 px-4 py-8 [contain-intrinsic-size:auto_720px] [content-visibility:auto]">
+        <Panel className="rounded-[20px] p-6 sm:p-8">
+          <h3 id={`${id}-title`} className="text-[25px] font-semibold leading-tight tracking-[-0.015em] sm:text-[28px]">
+            {title}
+          </h3>
+          <div className="mt-3 space-y-3 text-base text-text-muted sm:text-[17px] sm:leading-[1.6]">{children}</div>
+          {preview}
+        </Panel>
+      </div>
     </article>
   );
 }

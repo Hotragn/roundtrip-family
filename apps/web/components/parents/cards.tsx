@@ -27,10 +27,10 @@ export function DriverCard({
   return (
     <section aria-label={stopName} className="flex min-h-[calc(100dvh-180px)] flex-col justify-between">
       <div lang={localLanguage} className="pt-2">
-        <p className="text-[30px] font-medium leading-tight">{lead}</p>
+        <p className="text-[30px] font-semibold leading-tight">{lead}</p>
         <p className="mt-6 text-driver font-bold [overflow-wrap:anywhere]">{stopName}</p>
         {address ? <p className="mt-4 text-[26px] leading-snug text-text-muted">{address}</p> : null}
-        <p className="mt-8 text-[30px] font-medium">{thanks}</p>
+        <p className="mt-8 text-[30px] font-semibold">{thanks}</p>
       </div>
       <div className="mt-8 space-y-4">
         <p className="text-parent text-text-muted" lang="te">

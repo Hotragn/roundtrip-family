@@ -51,7 +51,7 @@ export function DiaryEntryCard({
         </span>
         <span
           className={cn(
-            "inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-[15px] font-medium",
+            "inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-[15px] font-semibold",
             e.shared ? "bg-sky-line/12 text-sky-text" : "bg-surface-sunken text-text-muted",
           )}
           lang="te"
@@ -81,11 +81,11 @@ export function DiaryEntryCard({
           {e.feelingWords.join(" · ")}
         </p>
       ) : null}
-      <div className="mt-3 flex gap-2">
+      <div className="mt-3 flex flex-wrap gap-2">
         <button
           type="button"
           onClick={onShare}
-          className="min-h-14 flex-1 rounded-lg border border-line-strong px-3 text-[17px] font-medium"
+          className="min-h-14 flex-1 basis-40 rounded-lg border border-line-strong px-3 text-[17px] font-semibold"
           lang="te"
         >
           {e.shared ? labels.unshare : labels.share}
@@ -93,7 +93,7 @@ export function DiaryEntryCard({
         <button
           type="button"
           onClick={onDelete}
-          className="flex min-h-14 items-center justify-center gap-2 rounded-lg border border-line-strong px-4 text-[17px] font-medium"
+          className="flex min-h-14 grow items-center justify-center gap-2 rounded-lg border border-line-strong px-4 text-[17px] font-semibold"
           lang="te"
         >
           <Trash2 aria-hidden="true" className="shrink-0 size-5" />
