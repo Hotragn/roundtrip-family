@@ -27,7 +27,7 @@ Roundtrip, built end to end from docs/plan.md between 5 and 6 October 2026. This
 
 ## Quality bars (docs/brand.md)
 
-- **Lighthouse, mobile, on the live site:** 100 for performance, accessibility, best practices and SEO on the landing, the dashboard and both parents' apps, in all 20 recorded runs from a fresh GitHub runner (five per page after one warm-up; docs/numbers.md). Layout shift 0 everywhere, LCP 1.2 to 1.9 s on the simulated slow phone.
+- **Lighthouse, mobile, on the live site:** 100 for accessibility, best practices and SEO on every run. Performance 100 on all four pages in all 20 recorded runs on 7 October, and 98 to 100 on 10 October (dashboard 5 of 5 at 100, parents' apps 8 of 10, landing 1 of 5, the rest 98 or 99), from a fresh GitHub runner, five runs per page after one warm-up (docs/numbers.md). The misses are Chrome sometimes holding a finished first frame. Layout shift 0 everywhere, LCP 1.2 to 2.0 s on the simulated slow phone.
 - **WCAG AA:** axe clean on every parents' screen and dashboard section in light and dark; the parents' app also passes the 200% text and 56 px target test.
 - **Reduced motion, offline-ready, text on white panels, native scrolling:** checked by the e2e suite and the screenshot reviews.
 
