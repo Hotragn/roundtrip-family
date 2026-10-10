@@ -4,7 +4,7 @@ Weekdays out, safely home.
 
 My parents flew to the US for our graduation, and once the ceremony was over we went straight back to work, so on weekdays they stayed home. Roundtrip plans a few outings each week for parents visiting their grown child abroad, to real places with real people who speak their language, on trips they can manage on their own and come home from safely.
 
-- **Live demo:** https://roundtrip-web.onrender.com (free Render instance: the first visit after a quiet spell takes about half a minute to wake)
+- **Live demo:** https://roundtrip-web.onrender.com (a free Render instance, kept awake from 06:00 to 02:00 New York time; at night the first visit takes about half a minute to wake it)
 - **The tuned Telugu card writer:** https://huggingface.co/roundtrip-family/roundtrip-card-writer-te-qwen3.5-4b-lora
 
 The demo households are fictional. Sarala and Venkat, a Telugu-speaking couple from Guntur staying in Fremont, California, are a persona modeled on visits like my parents'; Kamala and Raghu in Munich show it works in any country. Their profiles, outings, ratings and diary entries are synthetic. Places, events and transit routes come from live searches.

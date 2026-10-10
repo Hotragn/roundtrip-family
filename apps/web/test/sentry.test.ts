@@ -52,8 +52,14 @@ describe("what reaches Sentry", () => {
     );
   });
 
-  it("samples every live re-plan and a tenth of the rest", () => {
+  it("samples every live re-plan, a tenth of the rest, and never the keep-awake health check", () => {
     expect(opts.tracesSampler({ name: "POST /plan/api/replan/[household]" })).toBe(1);
     expect(opts.tracesSampler({ name: "GET /parents" })).toBe(0.1);
+    expect(opts.tracesSampler({ name: "GET /api/health" })).toBe(0);
+  });
+
+  it("sends whole transactions, so the scrubber above runs on them", () => {
+    // With span streaming, the SDK's default, beforeSendTransaction is skipped.
+    expect(opts.traceLifecycle).toBe("static");
   });
 });

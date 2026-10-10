@@ -52,8 +52,13 @@ export function sentryOptions() {
     dsn: process.env.SENTRY_DSN,
     environment: "demo",
     sendDefaultPii: false,
-    // A free plan: every "Plan the coming week" run (rate-limited to forty a day), a tenth of the rest.
-    tracesSampler: ({ name }: { name: string }) => (name.includes("/replan/") ? 1 : 0.1),
+    // Whole transactions, so beforeSendTransaction scrubs them: with span streaming (the SDK's
+    // default since version 11) it is skipped and spans would go out unscrubbed.
+    traceLifecycle: "static" as const,
+    // A free plan: every "Plan the coming week" run (rate-limited to forty a day), a tenth of the
+    // rest, and never the keep-awake health checks.
+    tracesSampler: ({ name }: { name: string }) =>
+      name.includes("/api/health") ? 0 : name.includes("/replan/") ? 1 : 0.1,
     beforeSend: (e: ErrorEvent) => clean(e),
     beforeSendTransaction: <T extends Event>(e: T) => clean(e),
   };

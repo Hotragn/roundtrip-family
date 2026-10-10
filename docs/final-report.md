@@ -60,7 +60,7 @@ The households (Sarala and Venkat in Fremont, Kamala and Raghu in Munich), their
 
 ## Ten-minute check
 
-1. Open https://roundtrip-web.onrender.com (allow half a minute for the free instance to wake). The morning sky plays; scroll and watch the indicator.
+1. Open https://roundtrip-web.onrender.com (it's kept awake from 06:00 to 02:00 New York time; at night, allow half a minute for it to wake). The morning sky plays; scroll and watch the indicator.
 2. Open the parents' app as Sarala. Tap Listen on today's ticket: the Telugu clip plays. Open directions, the driver card, practice phrases and "I'm lost".
 3. In the browser's developer tools turn the network off and reload: every screen still opens.
 4. Tear the ticket stub for "I'm home", and answer "How was it?".

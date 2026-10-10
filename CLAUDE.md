@@ -1,7 +1,7 @@
 # Roundtrip
 
 ## What this is
-An open-model planner that helps visiting parents get out of the house each week, to real places with real people who speak their language, on outings they can manage on their own. It includes a private diary and a memory book. Started for the Hacktoberfest 2026 DEV Challenge and built as a finished personal product. The full plan is in docs/plan.md, the brand and art direction in docs/brand.md, and the build plan in docs/build-plan.md.
+An open-model planner that helps visiting parents get out of the house each week, to real places with real people who speak their language, on outings they can manage on their own. It includes a private diary and a memory book. Built as a finished personal product. The full plan is in docs/plan.md, the brand and art direction in docs/brand.md, and the build plan in docs/build-plan.md.
 
 ## The product's core rule
 Route to humans. Every suggestion must be a real place or real people. The assistant never presents itself as company, never pretends to be a person, and keeps its own replies short and practical. evals/route-to-humans.test.ts enforces this; keep it passing.

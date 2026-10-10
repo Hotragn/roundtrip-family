@@ -229,6 +229,16 @@ export const OUTBOUND: OutboundRoute[] = [
     docs: "https://docs.priorlabs.ai/api-reference/metering",
   },
   {
+    id: "self.health",
+    service: "Roundtrip web app (our own, on Render)",
+    hosts: ["onrender.com"],
+    purpose: "Keeping the free instance awake from 06:00 to 02:00 New York time: the server asks its own health check every 5 minutes",
+    sends: "Nothing: a GET of /api/health",
+    accepts: ["public"],
+    when: "runtime",
+    docs: "https://render.com/docs/free#spinning-down-on-idle",
+  },
+  {
     id: "render.api",
     service: "Render API (deploys)",
     hosts: ["api.render.com"],

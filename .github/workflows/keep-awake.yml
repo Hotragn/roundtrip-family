@@ -1,12 +1,15 @@
 name: Keep the demo awake
 
-# Render's free web services sleep after 15 idle minutes and take 30 to 60 seconds to wake, which
-# is what a first visitor would wait through. A health check every 10 minutes keeps the web
-# service up: one service running all month is about 744 of the free plan's 750 hours. The
-# ranker isn't pinged; the dashboard wakes it when the planner panel comes into view.
+# The morning wake-up. Render's free web services sleep after 15 idle minutes and take about 30
+# seconds to wake. While it's awake, the web service keeps itself up from 06:00 to 02:00 New York
+# time by asking its own health check every 5 minutes (apps/web/lib/server/keep-awake.ts), and
+# sleeps from 02:00, so it uses at most 620 of the workspace's 750 free hours a month. This job
+# wakes it again around 06:00: 10:07 and 10:37 UTC in summer time, 11:07 and 11:37 in winter.
+# GitHub runs scheduled jobs late at busy times, sometimes by hours, so there is more than one.
+# The ranker isn't pinged; the dashboard wakes it when the planner panel comes into view.
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "7,37 10,11 * * *"
   workflow_dispatch:
 
 jobs:
