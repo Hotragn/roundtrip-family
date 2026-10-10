@@ -23,7 +23,7 @@ Roundtrip, built end to end from docs/plan.md between 5 and 6 October 2026. This
 | MongoDB Atlas | Done locally and in the Codespace; the hosted demo uses memory sessions | `pnpm seed`; agent/test/vector.atlas.test.ts (opt-in); docs/blocked.md |
 | The Germany household proves any country | Done: Munich, German phrases, 112 from the official source, U-Bahn routes | Its week, cards and clips (docs/numbers.md) |
 | GitHub Actions green | Green on main | Lint, types, 224 unit tests and evals, privacy check, build, Python tests, ranker leave-one-out, Playwright |
-| docs/numbers.md, docs/privacy-table.md, docs/progress.md, README, the local style guide at /design | Done | privacy check 0 violations, 33 registered call sites |
+| docs/numbers.md, docs/privacy-table.md, docs/progress.md, README, the local style guide at /design | Done | privacy check 0 violations, 34 registered call sites |
 
 ## Quality bars (docs/brand.md)
 
