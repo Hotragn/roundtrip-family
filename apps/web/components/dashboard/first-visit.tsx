@@ -5,8 +5,11 @@ import { useEffect, useState } from "react";
 import { Panel } from "@/components/shell/panel";
 import { buttonVariants } from "@/components/ui/button";
 import type { PlanBoard } from "@/lib/plan-types";
+import { cn } from "@/lib/utils";
 
 const KEY = "roundtrip:guide-dismissed";
+// The buttons' labels wrap on a narrow phone instead of pushing the page sideways.
+const WRAP = "h-auto min-h-11 max-w-full shrink whitespace-normal py-2 text-left";
 
 /**
  * A first-visit guide to the dashboard in three steps, for someone who has never seen it. Hidden
@@ -88,13 +91,13 @@ export function FirstVisitGuide({ board }: { board: PlanBoard }) {
               href={`/parents/${board.household.slug}/${first.id}`}
               target="_blank"
               rel="noopener"
-              className={buttonVariants({ variant: "secondary" })}
+              className={cn(buttonVariants({ variant: "secondary" }), WRAP)}
             >
               <Smartphone aria-hidden="true" className="size-4" />
               Open {first.firstName}'s phone beside this
             </a>
           ) : null}
-          <button type="button" onClick={close} className={buttonVariants({ variant: "secondary" })}>
+          <button type="button" onClick={close} className={cn(buttonVariants({ variant: "secondary" }), WRAP)}>
             <CheckCircle2 aria-hidden="true" className="size-4" />
             Got it
           </button>

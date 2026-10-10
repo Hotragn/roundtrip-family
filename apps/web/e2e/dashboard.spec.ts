@@ -42,7 +42,10 @@ for (const scheme of ["light", "dark"] as const) {
 test("no section scrolls sideways on a 320 px phone, for either household", async ({ page }, info) => {
   test.skip(info.project.name !== "desktop", "one run is enough; the width is set here");
   // 320 CSS px is WCAG's reflow width (1.4.10). Wide tables and the week board scroll in their
-  // own boxes; the page itself never does.
+  // own boxes; the page itself never does. The widest case: a first visit (the guide shows) in
+  // the fallback font, which a slow first load keeps since the fonts are optional.
+  await page.addInitScript(() => localStorage.removeItem("roundtrip:guide-dismissed"));
+  await page.route("**/*.woff2", (route) => route.abort());
   await page.setViewportSize({ width: 320, height: 640 });
   const wide: string[] = [];
   for (const household of ["fremont-demo", "munich-demo"]) {
