@@ -97,7 +97,7 @@ Keep this section updated as scripts are added.
 - `pnpm test`: unit tests and evals in replay mode, with no paid or rate-limited calls. `pnpm lint`, `pnpm typecheck`.
 - `pnpm privacy-check` (add `--write` to regenerate docs/privacy-table.md): run before every commit.
 - `pnpm costs`: regenerates the running totals in docs/costs.md from data/demo/usage/. Check before any paid call.
-- `pnpm --filter @roundtrip/web exec playwright test e2e/offline.spec.ts e2e/a11y.spec.ts e2e/parents-text.spec.ts --project=mobile`: offline, bundle and accessibility checks, and Telugu text that never clips at 200% with 56 px targets (needs `pnpm build`). `e2e/parents-screens.spec.ts` saves screenshots to docs/screenshots/.
+- `pnpm --filter @roundtrip/web exec playwright test e2e/offline.spec.ts e2e/a11y.spec.ts e2e/parents-text.spec.ts --project=mobile`: offline, bundle and accessibility checks, and Telugu text that never clips at 200% with 56 px targets (needs `pnpm build`). Playwright starts `pnpm dev` unless `CI=1` is set (then `pnpm start`, the production build, as in CI); slow first compiles in dev make timing tests fail, so set `CI=1` when a result matters. `e2e/parents-screens.spec.ts` saves screenshots to docs/screenshots/.
 - `pnpm --filter @roundtrip/web exec playwright test e2e/dashboard.spec.ts e2e/scroll-track.spec.ts`: the dashboard's accessibility checks, the week board flow (approve, swap, move) reaching the parents' phones, and the scroll indicators. `e2e/plan-screens.spec.ts` saves dashboard screenshots (`PLAN_SECTIONS=week,privacy,...`).
 - `pnpm seed`: loads both demo households into MongoDB Atlas.
 - `pnpm eval`: the event-understanding eval (live Gemma unless LLM_MODE=replay).

@@ -9,8 +9,8 @@ import { ParentPhones } from "./parent-phones";
 import { DashboardProviders } from "./providers";
 
 export const HOUSEHOLD_LINKS = [
-  { slug: "fremont-demo", label: "Fremont, California", people: "Sarala and Venkat" },
-  { slug: "munich-demo", label: "München, Deutschland", people: "Kamala and Raghu" },
+  { slug: "fremont-demo", label: "Fremont, California", city: "Fremont", people: "Sarala and Venkat" },
+  { slug: "munich-demo", label: "München, Deutschland", city: "München", people: "Kamala and Raghu" },
 ] as const;
 
 /** The landscape behind the dashboard: the rail band, or the sea banner on privacy and safety. */
@@ -69,7 +69,8 @@ export function DashboardShell({
         >
           <header className="rounded-card bg-surface/97 px-4 py-3 shadow-raised ring-1 ring-line/70 sm:px-6 sm:py-4">
             <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3">
-              <div className="flex min-w-0 items-center gap-4 sm:gap-6">
+              {/* On a phone the switcher shows the city alone, and drops below the logo when it must. */}
+              <div className="flex min-w-0 flex-wrap items-center gap-x-4 gap-y-3 sm:gap-6">
                 <Link href="/" aria-label="Roundtrip home" className="shrink-0 rounded-md">
                   <Logo height={28} />
                 </Link>
@@ -81,7 +82,8 @@ export function DashboardShell({
                       aria-current={h.slug === current.slug ? "page" : undefined}
                       className="truncate rounded-md px-3 py-1.5 text-[13px] font-medium text-text-muted transition-colors hover:text-text aria-[current=page]:bg-surface aria-[current=page]:text-text aria-[current=page]:shadow-raised sm:text-sm"
                     >
-                      {h.label}
+                      <span className="sm:hidden">{h.city}</span>
+                      <span className="max-sm:hidden">{h.label}</span>
                     </Link>
                   ))}
                 </nav>

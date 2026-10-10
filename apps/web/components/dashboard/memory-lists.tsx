@@ -142,7 +142,7 @@ function Dots({ avg }: { avg: number | null }) {
 export function PlacesList({ household, places }: { household: string; places: PlaceView[] }) {
   const { forgotten, change } = useForgotten(household);
   return (
-    <div className="overflow-x-auto">
+    <div className="relative overflow-x-auto">
       <table className="w-full min-w-[720px] border-collapse text-left text-[14px]">
         <caption className="sr-only">Places they have been, how each went, and whether they would go again</caption>
         <thead>

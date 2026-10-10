@@ -156,8 +156,9 @@ export function SetupWizard({
 
   return (
     <div className="grid gap-6 lg:grid-cols-[15rem_1fr]">
-      <nav aria-label="Setup steps">
-        <ol className="flex gap-2 overflow-x-auto lg:flex-col lg:gap-1">
+      {/* min-w-0: a grid item otherwise grows to its widest content, and the steps scroll instead. */}
+      <nav aria-label="Setup steps" className="min-w-0">
+        <ol className="relative flex gap-2 overflow-x-auto lg:flex-col lg:gap-1">
           {STEPS.map((s, i) => (
             <li key={s.title}>
               <button
@@ -186,7 +187,7 @@ export function SetupWizard({
         </ol>
       </nav>
 
-      <form onSubmit={handleSubmit((v) => save.mutate(v))} noValidate>
+      <form className="min-w-0" onSubmit={handleSubmit((v) => save.mutate(v))} noValidate>
         <Panel className="p-5 sm:p-6">
           <p className="text-[13px] text-text-muted">
             Step {step + 1} of {STEPS.length}

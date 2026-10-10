@@ -13,7 +13,7 @@ export function ParentPhones({
 }) {
   return (
     <Popover>
-      <PopoverTrigger className="inline-flex h-9 items-center gap-2 rounded-md border border-line-strong bg-surface px-3 text-sm font-semibold text-text transition-colors hover:bg-surface-sunken">
+      <PopoverTrigger className="inline-flex h-9 shrink-0 items-center gap-2 whitespace-nowrap rounded-md border border-line-strong bg-surface px-3 text-sm font-semibold text-text transition-colors hover:bg-surface-sunken">
         <Smartphone aria-hidden="true" className="size-4 stroke-[1.75]" />
         Their phones
       </PopoverTrigger>

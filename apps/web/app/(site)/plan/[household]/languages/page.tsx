@@ -180,7 +180,7 @@ export default async function Languages({ params }: PageProps<"/plan/[household]
             Every language set up so far
           </h2>
           <p className="text-[15px] text-text-muted">What the models for each language support.</p>
-          <Panel className="overflow-x-auto p-5 sm:p-6">
+          <Panel className="relative overflow-x-auto p-5 sm:p-6">
             <table className="w-full min-w-[640px] border-collapse text-left text-[14px]">
               <thead>
                 <tr className="border-b border-line-strong text-[13px]">

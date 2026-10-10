@@ -20,7 +20,7 @@ export function DashboardNav({ household }: { household: string }) {
   const pathname = usePathname();
   const base = `/plan/${household}`;
   return (
-    <nav aria-label="Sections" className="-mx-4 mt-4 overflow-x-auto px-4 sm:mx-0 sm:px-0">
+    <nav aria-label="Sections" className="relative -mx-4 mt-4 overflow-x-auto px-4 sm:mx-0 sm:px-0">
       <ul className="flex min-w-max gap-1 border-b border-line">
         {SECTIONS.map((s) => {
           const href = `${base}${s.path}`;

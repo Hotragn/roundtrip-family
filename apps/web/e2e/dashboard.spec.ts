@@ -39,6 +39,26 @@ for (const scheme of ["light", "dark"] as const) {
   }
 }
 
+test("no section scrolls sideways on a 320 px phone, for either household", async ({ page }, info) => {
+  test.skip(info.project.name !== "desktop", "one run is enough; the width is set here");
+  // 320 CSS px is WCAG's reflow width (1.4.10). Wide tables and the week board scroll in their
+  // own boxes; the page itself never does.
+  await page.setViewportSize({ width: 320, height: 640 });
+  const wide: string[] = [];
+  for (const household of ["fremont-demo", "munich-demo"]) {
+    for (const s of SECTIONS) {
+      await page.goto(`/plan/${household}${s}`);
+      await ready(page);
+      const [scroll, client] = await page.evaluate(() => [
+        document.documentElement.scrollWidth,
+        document.documentElement.clientWidth,
+      ]);
+      if (scroll > client) wide.push(`/plan/${household}${s}: ${scroll} px`);
+    }
+  }
+  expect(wide).toEqual([]);
+});
+
 test("a first visit shows the three-step guide, and Got it keeps it closed", async ({ page }, info) => {
   test.skip(info.project.name !== "desktop", "dashboard is desktop-first");
   await page.goto("/plan/fremont-demo");

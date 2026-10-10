@@ -106,7 +106,7 @@ export function PrivacyTable({ routes }: { routes: OutboundRoute[] }) {
       </div>
 
       {/* Wide screens: the table. */}
-      <div className="hidden overflow-x-auto md:block">
+      <div className="relative hidden overflow-x-auto md:block">
         <table className="w-full border-collapse text-left text-[14px]">
           <caption className="sr-only">Every outside service Roundtrip can reach, and what each may receive</caption>
           <thead>
@@ -183,16 +183,16 @@ export function PrivacyTable({ routes }: { routes: OutboundRoute[] }) {
           const r = row.original;
           return (
             <li key={row.id} className="space-y-2 rounded-card p-4 ring-1 ring-line">
-              <div className="flex items-start justify-between gap-3">
+              <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
                 <a
                   href={r.docs}
                   target="_blank"
                   rel="noreferrer"
-                  className="font-semibold leading-snug hover:underline"
+                  className="-my-0.5 py-0.5 font-semibold leading-snug hover:underline"
                 >
                   {r.service}
                 </a>
-                <span className="shrink-0 text-[13px] text-text-muted">{WHEN[r.when]}</span>
+                <span className="text-[13px] text-text-muted">{WHEN[r.when]}</span>
               </div>
               <p className="text-[14px] leading-snug">{r.purpose}</p>
               <p className="text-[14px] leading-snug text-text-muted">{r.sends}</p>

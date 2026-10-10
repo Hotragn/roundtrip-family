@@ -185,7 +185,7 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
           <h1 className="text-[31px] font-semibold leading-tight">This week</h1>
           <p className="text-base text-text-muted">{board.note}</p>
         </div>
-        <dl className="flex gap-2">
+        <dl className="flex flex-wrap gap-2 max-sm:w-full">
           {[
             { label: "Approved", value: String(approved) },
             { label: "To decide", value: String(items.length - approved) },
@@ -194,7 +194,10 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
               value: next ? `${DAY_NAMES[next.day]?.slice(0, 3)} ${hhmm(next.depart)}` : "None yet",
             },
           ].map((s) => (
-            <div key={s.label} className="min-w-28 rounded-card bg-surface px-4 py-3 shadow-raised ring-1 ring-line">
+            <div
+              key={s.label}
+              className="min-w-28 rounded-card bg-surface px-4 py-3 shadow-raised ring-1 ring-line max-sm:flex-1"
+            >
               <dt className="text-[13px] text-text-muted">{s.label}</dt>
               <dd className="mt-0.5 text-[20px] font-semibold tabular-nums">{s.value}</dd>
             </div>
@@ -202,7 +205,7 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
         </dl>
       </div>
       <DndContext id="week-board" sensors={sensors} onDragEnd={onDragEnd}>
-        <div className="-mx-4 overflow-x-auto px-4 pb-2 sm:mx-0 sm:px-0">
+        <div className="relative -mx-4 overflow-x-auto px-4 pb-2 sm:mx-0 sm:px-0">
           <div className="grid min-w-[1100px] grid-cols-6 gap-3">
             {columnsFor(board).map((column) => (
               <DayColumn
