@@ -14,6 +14,9 @@ Docs used here:
 from __future__ import annotations
 
 import importlib.util
+import os
+import subprocess
+import sys
 from collections.abc import Callable, Iterable
 from dataclasses import dataclass
 
@@ -83,10 +86,24 @@ def check_access(repo_id: str) -> str | None:
     return None
 
 
+def python_for(choice: Choice) -> str:
+    """The interpreter that runs this model's worker. Indic Parler-TTS pins an older transformers,
+    so it gets an environment of its own when PARLER_PYTHON names one (.github/workflows/speech.yml)."""
+    if choice.backend == "indic-parler-tts" and os.environ.get("PARLER_PYTHON"):
+        return os.environ["PARLER_PYTHON"]
+    return sys.executable
+
+
 def library_missing(choice: Choice) -> str | None:
-    if choice.library and importlib.util.find_spec(choice.library) is None:
-        return f"the {choice.library} package is not installed (see docs/research/speech.md)"
-    return None
+    if not choice.library:
+        return None
+    python = python_for(choice)
+    if python == sys.executable:
+        found = importlib.util.find_spec(choice.library) is not None
+    else:
+        probe = f"import importlib.util, sys; sys.exit(importlib.util.find_spec({choice.library!r}) is None)"
+        found = subprocess.run([python, "-c", probe]).returncode == 0
+    return None if found else f"the {choice.library} package is not installed (see docs/research/speech.md)"
 
 
 def resolve(

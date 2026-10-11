@@ -19,6 +19,8 @@ models = [
   "huggingface_hub>=0.35",
   # An ffmpeg binary for loudness normalization and MP3 encoding when the system has none.
   "imageio-ffmpeg>=0.6",
+  # IndicConformer runs its ONNX graphs with it (the model card).
+  "onnxruntime>=1.20",
 ]
 
 [tool.uv]

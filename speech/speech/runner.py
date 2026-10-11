@@ -4,11 +4,11 @@ from __future__ import annotations
 
 import json
 import subprocess
-import sys
 import tempfile
 from pathlib import Path
 
 from .manifest import load_json, now, write_json
+from .models import Choice, python_for
 from .sources import RUNS_PATH
 
 SPEECH_DIR = Path(__file__).resolve().parents[1]
@@ -19,7 +19,8 @@ def run_worker(job: dict) -> dict:
     with tempfile.TemporaryDirectory(prefix="speech-job-") as tmp:
         job_path, result_path = Path(tmp) / "job.json", Path(tmp) / "result.json"
         job_path.write_text(json.dumps(job, ensure_ascii=False), encoding="utf-8")
-        proc = subprocess.run([sys.executable, "-m", "speech.worker", str(job_path), str(result_path)], cwd=SPEECH_DIR)
+        python = python_for(Choice(**job["choice"]))
+        proc = subprocess.run([python, "-m", "speech.worker", str(job_path), str(result_path)], cwd=SPEECH_DIR)
         if proc.returncode != 0 or not result_path.exists():
             raise RuntimeError(f"the {job['task']} worker for {job['choice']['model']} exited with code {proc.returncode}")
         return json.loads(result_path.read_text(encoding="utf-8"))

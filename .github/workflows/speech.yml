@@ -1,0 +1,67 @@
+name: Speech (open voice models)
+
+# What speech/codespace.sh does, on a GitHub runner instead of the Codespace: voice the demo's
+# clips with the open models in speech/speech/models.py, transcribe them back and score them.
+# Run it by hand (Actions, Speech); it never runs on a push and never commits. The new clips,
+# manifest, transcripts and docs/speech-results.md come back as the "speech" artifact, to be
+# checked against the current scores before they replace anything.
+#
+# HF_TOKEN (an Actions secret) downloads the gated AI4Bharat models; it is never printed.
+# Indic Parler-TTS pins transformers 4.46.1, so it gets an environment of its own and the
+# pipeline starts its worker with that Python (PARLER_PYTHON, speech/speech/models.py).
+on:
+  workflow_dispatch:
+    inputs:
+      lang:
+        description: Language to voice (te, en or de; empty for all)
+        default: te
+      force:
+        description: Re-voice clips even when they are up to date
+        type: boolean
+        default: false
+
+jobs:
+  speech:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_HOME: /mnt/hf
+      HF_HUB_DISABLE_TELEMETRY: "1"
+      PARLER_PYTHON: /mnt/parler/bin/python
+    steps:
+      - uses: actions/checkout@v4
+      - name: Make room on the scratch disk
+        run: sudo mkdir -p /mnt/hf /mnt/parler && sudo chown -R "$USER" /mnt/hf /mnt/parler
+      - name: Install ffmpeg (MP3 encoding)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - uses: astral-sh/setup-uv@v6
+      - name: Main environment (MMS, IndicConformer)
+        working-directory: speech
+        run: uv sync --group models
+      - name: Parler-TTS environment
+        working-directory: speech
+        run: |
+          uv venv /mnt/parler --python 3.12
+          uv pip install --python "$PARLER_PYTHON" --index-url https://download.pytorch.org/whl/cpu "torch>=2.4,<2.6"
+          uv pip install --python "$PARLER_PYTHON" "parler-tts @ git+https://github.com/huggingface/parler-tts.git" \
+            soundfile numpy sentencepiece huggingface_hub imageio-ffmpeg
+      - name: Voice, transcribe and score
+        working-directory: speech
+        env:
+          LANG_ARG: ${{ inputs.lang }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          args=()
+          [ -n "$LANG_ARG" ] && args+=(--lang "$LANG_ARG")
+          [ "$FORCE" = "true" ] && args+=(--force)
+          uv run --group models python -m speech.generate "${args[@]}"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: speech
+          path: |
+            apps/web/public/audio/
+            data/demo/audio/
+            docs/speech-results.md
+          retention-days: 14
