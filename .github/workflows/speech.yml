@@ -48,7 +48,7 @@ jobs:
         run: |
           uv venv /mnt/parler --python 3.12
           # One install with CPU-only PyTorch, so parler-tts's dependencies can't pull in a CUDA build.
-          uv pip install --python "$PARLER_PYTHON" --torch-backend cpu "torch<2.6" \
+          uv pip install --python "$PARLER_PYTHON" --torch-backend cpu "torch==2.5.1" "torchaudio==2.5.1" \
             "parler-tts @ git+https://github.com/huggingface/parler-tts.git" \
             soundfile numpy sentencepiece huggingface_hub imageio-ffmpeg
           "$PARLER_PYTHON" -c "import torch, parler_tts; print('torch', torch.__version__, 'cuda', torch.version.cuda)"
