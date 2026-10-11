@@ -77,4 +77,4 @@ Plan and design: [docs/plan.md](docs/plan.md), [docs/brand.md](docs/brand.md). B
 
 ## License
 
-MIT. See [LICENSE](LICENSE). The card writer adapter is Apache 2.0; Meta's MMS voices are CC-BY-NC 4.0, so non-commercial only.
+MIT. See [LICENSE](LICENSE). The card writer adapter is Apache 2.0; the Telugu voice (AI4Bharat Indic Parler-TTS) is Apache 2.0; Meta's MMS voices for English and German and the MMS listener are CC-BY-NC 4.0, so non-commercial only.

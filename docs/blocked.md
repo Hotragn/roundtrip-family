@@ -2,13 +2,15 @@
 
 Problems that failed three times or need the builder. Each entry says what is blocked, what still works, and the fix.
 
-## The AI4Bharat speech models still have to run in the Codespace
+## IndicConformer doesn't load on the runner
 
-- **Done (11 October):** the builder accepted both access forms; `auth_check` now passes for ai4bharat/indic-parler-tts and ai4bharat/indic-conformer-600m-multilingual with HF_TOKEN.
-- **Still to do:** run them. They need the Codespace (Linux, 16 GB); this machine's GitHub CLI has no `codespace` scope, so it can't start one (`gh auth refresh -h github.com -s codespace` adds it). For IndicConformer, add onnxruntime to the models group in speech/pyproject.toml; then `bash -l speech/codespace.sh` re-scores Telugu with it. Indic Parler-TTS needs its own environment (parler-tts pins transformers 4.46.1), and speech/speech/runner.py would start the Telugu voice worker with that environment's Python.
-- **Still works meanwhile:** Telugu speaks and listens with Meta MMS.
+- **Blocked:** the Telugu listener, ai4bharat/indic-conformer-600m-multilingual. ONNX Runtime refuses its weights: "External data path escapes model directory", because the Hugging Face cache stores files as links into a shared blobs folder.
+- **Still works:** Telugu is scored by MMS speech recognition (facebook/mms-1b-all), which also scored the earlier voices, so the comparison is like for like.
+- **Fix to try:** download the model into a plain folder (`snapshot_download(local_dir=...)`, real files) and point the remote code at it, or pin an onnxruntime older than its path check.
 
 ## Resolved
+
+- **The AI4Bharat models were gated, and there was no Codespace to run them.** The builder accepted both access forms and added HF_TOKEN as an Actions secret on 11 October; .github/workflows/speech.yml runs the speech step on a GitHub runner, with Parler-TTS in its own environment. Indic Parler-TTS now voices the 29 Telugu clips.
 
 - **Render couldn't reach MongoDB Atlas.** The builder added Render's outbound addresses to Atlas Network Access on 11 October; `render-deploy.ts --with-db` put MONGODB_URI on the web service, and a live approval saved to the session store with no fallback to memory.
 

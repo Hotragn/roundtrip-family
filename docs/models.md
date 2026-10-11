@@ -20,7 +20,7 @@ Meta's MMS models are licensed for non-commercial use only. That fits a family p
 
 | Job | Model | Why not yet | License |
 |---|---|---|---|
-| Telugu voice (the plan's first choice) | AI4Bharat Indic Parler-TTS (`ai4bharat/indic-parler-tts`) | Gated; the builder's account isn't on the access list (docs/blocked.md) | Apache 2.0 |
+| Telugu voice (the plan's first choice) | AI4Bharat Indic Parler-TTS (`ai4bharat/indic-parler-tts`) | In use since 11 October; voiced in the GitHub Actions speech job, clips saved | Apache 2.0 |
 | Telugu listening (the plan's first choice) | AI4Bharat IndicConformer (`ai4bharat/indic-conformer-600m-multilingual`) | Gated, as above | MIT |
 | A few final demo clips (optional) | ElevenLabs Eleven v3 | Optional in the plan; the demo uses the open voices | ElevenLabs' terms (a hosted service) |
 

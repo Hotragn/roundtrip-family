@@ -77,11 +77,11 @@ The job "Lighthouse on the live site" (.github/workflows/lighthouse.yml) runs `n
 
 | Language | Voice | Listener | Clips | Mean CER | Median CER | Audio |
 |---|---|---|---|---|---|---|
-| Telugu | facebook/mms-tts-tel | facebook/mms-1b-all (tel) | 29 | 0.194 | 0.140 | 455.8 s |
+| Telugu | ai4bharat/indic-parler-tts | facebook/mms-1b-all (tel) | 29 | 0.161 | 0.121 | 441.0 s |
 | English | facebook/mms-tts-eng | facebook/mms-1b-all (eng) | 7 | 0.017 | 0.000 | 24.5 s |
 | German | facebook/mms-tts-deu | facebook/mms-1b-all (deu) | 8 | 0.034 | 0.026 | 32.0 s |
 
-By kind, Telugu card titles score worst (0.369, mostly place names spelled out for the voice), card bodies 0.138 and diary entries 0.092.
+By kind, Telugu card titles score worst (0.277, mostly place names spelled out for the voice), card bodies 0.171 and diary entries 0.048. With MMS-TTS (6 October) the same clips scored 0.194 mean: titles 0.369, bodies 0.138, diary 0.092, so Parler is better overall and slightly worse on card bodies. Clips voiced on a GitHub runner on 11 October (.github/workflows/speech.yml), scored by the same MMS listener.
 
 | Model | Job | Peak memory | Model seconds per audio second |
 |---|---|---|---|

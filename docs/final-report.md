@@ -16,7 +16,7 @@ Roundtrip, built end to end from docs/plan.md between 5 and 6 October 2026. This
 | SerpApi ladder | Done: events, places, directions from the nearest stop, five-rung fallback ladder | 39 of the 40 allowed searches; route-to-humans eval |
 | TabPFN leave-one-out | Done | Liked outings in the top 3: 71% (travel time alone 36%, random 14%) |
 | Tinker Telugu card writer and evaluation | Done and serving behind a Gemma quality gate; adapter public on Hugging Face | 98% of held-out cards pass every code check (Gemma 85%, base 72%); $2.04 total Tinker spend |
-| Voice router | Done; MMS voices Telugu, English and German, the phone's voice reads Mandarin | agent/test/voice-router.test.ts; 44 clips, Telugu card bodies CER 0.138 |
+| Voice router | Done; AI4Bharat Indic Parler-TTS voices Telugu (since 11 October, in a GitHub Actions job), MMS English and German, the phone's voice reads Mandarin | agent/test/voice-router.test.ts; 44 clips, Telugu mean CER 0.161 (MMS 0.194) |
 | Temporal: weekPlan, outingSafety, trialRun, with a durability test | Done; the dashboard's approvals, swaps and day moves reach weekPlan through "Set up the week", so a moved outing's reminder and safety timer follow it | docs/durability-run.txt: worker killed 26 s before the alert, alert sent 160 ms late, once |
 | AgentMail | Built: planning email, the evening-before reminder, safety alert, Sunday summary, approve by reply, webhook with signature check | 40 email tests against a mocked client; a signed reply reached weekPlan in the durability run; no real email sent (see below) |
 | Sentry | Done on Render: spans for each planner run, model call and tool call, scrubbed | apps/web/test/sentry.test.ts, agent/test/trace.test.ts |
@@ -39,7 +39,7 @@ All from docs/numbers.md, which gives the command behind each.
 - Ranker: 71% of liked outings in TabPFN's top 3 of 21, against 36% for travel time alone and 14% at random; disliked outings 0%.
 - Event understanding: 85% to 100% per field on 40 synthetic listings.
 - Gemma: a median 4.7 s to plan a week; 1 retry in 1,138 live answers; no fallbacks needed.
-- Speech: 44 clips; character error rate 0.138 on Telugu card bodies, 0.017 on English phrases, 0.034 on German.
+- Speech: 44 clips; Telugu mean character error rate 0.161 with Indic Parler-TTS (0.194 with MMS), 0.017 on English phrases, 0.034 on German.
 - Durability: the worker was killed 26 s before the alert was due, and the alert went out 160 ms late, once.
 - A fully live re-plan on Render: 73 s at first, 49 s after ranking both parents at once.
 - Tests: 224 unit tests and evals in CI, 69 Python tests, 23 Playwright tests; 350 locally with the Temporal tests on Linux.
@@ -76,7 +76,7 @@ Everything works without these; each one turns on something extra.
 
 1. **Email to the adult child:** set DEMO_ALERT_EMAIL to your address (and AGENTMAIL_API_KEY). Without it no email is sent, by design, and the app works the same. For replies, register the AgentMail webhook (`POST /v0/webhooks`, url `https://roundtrip-web.onrender.com/api/email/webhook`, event `message.received`), set AGENTMAIL_WEBHOOK_SECRET and run render-deploy.ts.
 2. **MongoDB Atlas on the hosted demo:** done on 11 October; visitors' sessions are kept in Atlas.
-3. **A better Telugu voice:** access granted on 11 October; the models still have to run in the Codespace (docs/blocked.md).
+3. **A better Telugu voice:** done on 11 October. Indic Parler-TTS now voices Telugu; IndicConformer, the listener, doesn't load yet (docs/blocked.md).
 
 ## Skipped, and why
 

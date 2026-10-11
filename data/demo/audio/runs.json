@@ -148,6 +148,70 @@
       "threads": 2,
       "host": "Linux x86_64, 4 CPUs, 16 GB memory",
       "freedBytes": 3870144283
+    },
+    {
+      "at": "2026-10-11T10:39:49Z",
+      "langs": [
+        "te"
+      ],
+      "clips": 29,
+      "status": "ok",
+      "fetchSeconds": 28.0,
+      "loadSeconds": 8.3,
+      "modelSeconds": 2541.4,
+      "encodeSeconds": 11.7,
+      "audioSeconds": 441.0,
+      "droppedCharacters": {},
+      "task": "tts",
+      "model": "ai4bharat/indic-parler-tts",
+      "peakRssMB": 13758.7,
+      "torch": "2.5.1+cpu",
+      "threads": 2,
+      "host": "Linux x86_64, 4 CPUs, 16 GB memory",
+      "freedBytes": 3763425337
+    },
+    {
+      "at": "2026-10-11T10:40:31Z",
+      "langs": [
+        "te"
+      ],
+      "clips": 0,
+      "status": "load-failed",
+      "error": "Fail: [ONNXRuntimeError] : 1 : FAIL : External data path validation failed for initializer: pre_encode.conv.0.weight. Error: External data path escapes model directory. External data path: \"pre_encode.conv.0.weight\" resolved path: \"/mnt/hf/hub/models--ai4bharat--indic-conformer-600m-multilingual/blobs/65bdb438e5bd00cab603ce2b080c8d6c06d587c9\" allowed directory: \"/mnt/hf/hub/blobs/10\"",
+      "fetchSeconds": 34.3,
+      "task": "asr",
+      "model": "ai4bharat/indic-conformer-600m-multilingual",
+      "peakRssMB": 576.1,
+      "torch": "2.14.1+cpu",
+      "threads": 2,
+      "host": "Linux x86_64, 4 CPUs, 16 GB memory",
+      "freedBytes": 2556502929
+    },
+    {
+      "at": "2026-10-11T10:45:00Z",
+      "langs": [
+        "te"
+      ],
+      "clips": 29,
+      "status": "ok",
+      "fetchSeconds": 25.2,
+      "loadSeconds": 2.0,
+      "modelSeconds": 238.2,
+      "audioSeconds": 440.9,
+      "perLanguage": {
+        "te": {
+          "clips": 29,
+          "audioSeconds": 440.9,
+          "modelSeconds": 238.2
+        }
+      },
+      "task": "asr",
+      "model": "facebook/mms-1b-all",
+      "peakRssMB": 5113.1,
+      "torch": "2.14.1+cpu",
+      "threads": 2,
+      "host": "Linux x86_64, 4 CPUs, 16 GB memory",
+      "freedBytes": 3870144283
     }
   ]
 }
