@@ -20,7 +20,7 @@ Roundtrip, built end to end from docs/plan.md between 5 and 6 October 2026. This
 | Temporal: weekPlan, outingSafety, trialRun, with a durability test | Done; the dashboard's approvals, swaps and day moves reach weekPlan through "Set up the week", so a moved outing's reminder and safety timer follow it | docs/durability-run.txt: worker killed 26 s before the alert, alert sent 160 ms late, once |
 | AgentMail | Built: planning email, the evening-before reminder, safety alert, Sunday summary, approve by reply, webhook with signature check | 40 email tests against a mocked client; a signed reply reached weekPlan in the durability run; no real email sent (see below) |
 | Sentry | Done on Render: spans for each planner run, model call and tool call, scrubbed | apps/web/test/sentry.test.ts, agent/test/trace.test.ts |
-| MongoDB Atlas | Done locally and in the Codespace; the hosted demo uses memory sessions | `pnpm seed`; agent/test/vector.atlas.test.ts (opt-in); docs/blocked.md |
+| MongoDB Atlas | Done locally, in the Codespace and on the hosted demo (visitor sessions, since 11 October) | `pnpm seed`; agent/test/vector.atlas.test.ts (opt-in); docs/blocked.md |
 | The Germany household proves any country | Done: Munich, German phrases, 112 from the official source, U-Bahn routes | Its week, cards and clips (docs/numbers.md) |
 | GitHub Actions green | Green on main | Lint, types, 224 unit tests and evals, privacy check, build, Python tests, ranker leave-one-out, Playwright |
 | docs/numbers.md, docs/privacy-table.md, docs/progress.md, README, the local style guide at /design | Done | privacy check 0 violations, 34 registered call sites |
