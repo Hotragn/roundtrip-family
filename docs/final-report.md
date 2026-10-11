@@ -75,8 +75,8 @@ The households (Sarala and Venkat in Fremont, Kamala and Raghu in Munich), their
 Everything works without these; each one turns on something extra.
 
 1. **Email to the adult child:** set DEMO_ALERT_EMAIL to your address (and AGENTMAIL_API_KEY). Without it no email is sent, by design, and the app works the same. For replies, register the AgentMail webhook (`POST /v0/webhooks`, url `https://roundtrip-web.onrender.com/api/email/webhook`, event `message.received`), set AGENTMAIL_WEBHOOK_SECRET and run render-deploy.ts.
-2. **MongoDB Atlas on the hosted demo:** allow Render's addresses in Atlas Network Access, then `render-deploy.ts --with-db`. Without it, sessions live in memory.
-3. **A better Telugu voice:** accept the AI4Bharat access forms on Hugging Face; the speech pipeline switches to their models by itself.
+2. **MongoDB Atlas on the hosted demo:** done on 11 October; visitors' sessions are kept in Atlas.
+3. **A better Telugu voice:** access granted on 11 October; the models still have to run in the Codespace (docs/blocked.md).
 
 ## Skipped, and why
 
