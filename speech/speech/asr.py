@@ -9,7 +9,7 @@
   for Telugu. Docs: https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual. Loaded with
   `AutoModel.from_pretrained(..., trust_remote_code=True)` and called as
   `model(wav, "te", "rnnt")` on 16 kHz mono; it needs onnxruntime. License: MIT. The repository is
-  gated, so this path follows the model card and has not run here yet.
+  gated; it ran first in the speech workflow (.github/workflows/speech.yml).
 """
 
 from __future__ import annotations
@@ -87,7 +87,9 @@ class IndicConformerAsr:
         self._torch = torch
         self.model_id = choice.model
         self.code = choice.code
-        self.model = AutoModel.from_pretrained(local_dir, trust_remote_code=True)
+        # By repository id, not the local folder: the model's own loading code looks its files up on
+        # the Hub by that id (they are already in the cache from fetch()).
+        self.model = AutoModel.from_pretrained(choice.model, trust_remote_code=True)
 
     def use(self, code: str) -> None:
         self.code = code
