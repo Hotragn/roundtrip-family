@@ -31,6 +31,10 @@ jobs:
       PARLER_PYTHON: /mnt/parler/bin/python
     steps:
       - uses: actions/checkout@v4
+      - name: Check HF_TOKEN is set (never prints it)
+        run: |
+          if [ -z "$HF_TOKEN" ]; then echo "HF_TOKEN missing or empty: add it under Settings, Secrets and variables, Actions" >&2; exit 1; fi
+          echo "HF_TOKEN set"
       - name: Make room on the scratch disk
         run: sudo mkdir -p /mnt/hf /mnt/parler && sudo chown -R "$USER" /mnt/hf /mnt/parler
       - name: Install ffmpeg (MP3 encoding)
