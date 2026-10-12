@@ -334,7 +334,9 @@ describe.skipIf(!temporal.testing)("workflows on the time-skipping test server",
     it("starts no timer for an outing whose time has passed when the answer comes", async () => {
       const h = harness();
       const result = await h.run(async () => {
-        const handle = await startWeek(h.taskQueue, { approvalTimeoutMs: 7 * 24 * HOUR });
+        // Two weeks: run on a Monday, the planned week starts seven days later, and skipping past
+        // its Monday outings would otherwise land after a seven-day deadline.
+        const handle = await startWeek(h.taskQueue, { approvalTimeoutMs: 14 * 24 * HOUR });
         const state = await (async () => {
           await until(async () => (await handle.query(weekStateQuery)).proposals.length > 0, "the plan");
           return handle.query(weekStateQuery);
