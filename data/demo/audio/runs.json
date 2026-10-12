@@ -212,6 +212,32 @@
       "threads": 2,
       "host": "Linux x86_64, 4 CPUs, 16 GB memory",
       "freedBytes": 3870144283
+    },
+    {
+      "at": "2026-10-12T08:55:45Z",
+      "langs": [
+        "te"
+      ],
+      "clips": 29,
+      "status": "ok",
+      "fetchSeconds": 38.8,
+      "loadSeconds": 8.3,
+      "modelSeconds": 63.4,
+      "audioSeconds": 440.9,
+      "perLanguage": {
+        "te": {
+          "clips": 29,
+          "audioSeconds": 440.9,
+          "modelSeconds": 63.4
+        }
+      },
+      "task": "asr",
+      "model": "ai4bharat/indic-conformer-600m-multilingual",
+      "peakRssMB": 3237.9,
+      "torch": "2.14.1+cpu",
+      "threads": 2,
+      "host": "Linux x86_64, 4 CPUs, 16 GB memory",
+      "freedBytes": 0
     }
   ]
 }

@@ -3,7 +3,7 @@
 Synthetic text, automated scores. Every clip voices a fictional household's card, practice phrase or help card, or a synthetic diary entry, and every score comes from an automated round trip: text to speech to text, scored by character error rate (CER) against the words the voice was asked to say. Nobody listened to these clips, so these are not listening tests.
 
 <!-- speech-results:start -->
-Generated 2026-10-11T10:45:00Z (synthetic text, automated scores). 44 clips, 497 s of audio, 2.87 MB of MP3 (mono, 24 kHz, loudness-normalized to -16 LUFS).
+Generated 2026-10-12T08:55:45Z (synthetic text, automated scores). 44 clips, 497 s of audio, 2.87 MB of MP3 (mono, 24 kHz, loudness-normalized to -16 LUFS).
 
 ### Round trip by language and model
 
@@ -11,7 +11,7 @@ Generated 2026-10-11T10:45:00Z (synthetic text, automated scores). 44 clips, 497
 |---|---|---|---|---|---|---|
 | German | facebook/mms-tts-deu | facebook/mms-1b-all (deu) | 8 | 0.034 | 0.026 | 32.0 |
 | English | facebook/mms-tts-eng | facebook/mms-1b-all (eng) | 7 | 0.017 | 0.000 | 24.5 |
-| Telugu | ai4bharat/indic-parler-tts | facebook/mms-1b-all (tel) | 29 | 0.161 | 0.121 | 441.0 |
+| Telugu | ai4bharat/indic-parler-tts | ai4bharat/indic-conformer-600m-multilingual | 29 | 0.070 | 0.037 | 441.0 |
 
 ### Worst three clips per language
 
@@ -23,9 +23,9 @@ Generated 2026-10-11T10:45:00Z (synthetic text, automated scores). 44 clips, 497
 | English | `059831f46b26e67e` | phrase | fremont-demo | 0.080 | Where do I leave my shoes? |
 | English | `2d7f8b04938cddef` | help-card | fremont-demo | 0.037 | Hello. I am visiting my family and I speak very ... |
 | English | `3883f34ee4274fc0` | phrase | fremont-demo | 0.000 | Please call this number. |
-| Telugu | `98f6165e69e31c0d` | card-title | munich-demo | 0.923 | Wochenmarkt Perlach కి |
-| Telugu | `ee38a62974ed01d7` | card-title | munich-demo | 0.412 | Hariom Temple కి |
-| Telugu | `c164fe289213e2fb` | card-title | munich-demo | 0.370 | Münchner Stadtbibliothek Neuperlach కి |
+| Telugu | `c164fe289213e2fb` | card-title | munich-demo | 0.326 | Münchner Stadtbibliothek Neuperlach కి |
+| Telugu | `98f6165e69e31c0d` | card-title | munich-demo | 0.269 | Wochenmarkt Perlach కి |
+| Telugu | `7006e628879cbf00` | card-body | munich-demo | 0.247 | అమ్మా, ఆదివారం 10:45కి Hariom Temple కి కలిసి కా... |
 
 ### Mean CER by kind of clip
 
@@ -35,9 +35,9 @@ Generated 2026-10-11T10:45:00Z (synthetic text, automated scores). 44 clips, 497
 | German | help-card | 1 | 0.096 |
 | English | phrase | 6 | 0.013 |
 | English | help-card | 1 | 0.037 |
-| Telugu | card-title | 9 | 0.277 |
-| Telugu | card-body | 10 | 0.171 |
-| Telugu | diary | 10 | 0.048 |
+| Telugu | card-title | 9 | 0.100 |
+| Telugu | card-body | 10 | 0.078 |
+| Telugu | diary | 10 | 0.035 |
 
 ### Time and peak memory per model (Codespace CPU)
 
@@ -45,6 +45,7 @@ Model time excludes downloading, loading and MP3 encoding. Peak memory is the wo
 
 | Model | Job | Language | Clips | Audio (s) | Load (s) | Model seconds per audio second | Peak memory (MB) |
 |---|---|---|---|---|---|---|---|
+| ai4bharat/indic-conformer-600m-multilingual | speech to text | te | 29 | 440.9 | 8.3 | 0.14 | 3238 |
 | facebook/mms-1b-all | speech to text | de | 8 | 32.0 | 3.8 | 0.77 | 5862 |
 | facebook/mms-1b-all | speech to text | en | 7 | 24.5 | 3.8 | 0.86 | 5862 |
 | facebook/mms-1b-all | speech to text | te | 66 | 1124.4 | 4.0 | 0.68 | 5862 |
