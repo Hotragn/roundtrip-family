@@ -139,6 +139,12 @@ def fetch(choice: Choice, codes: Iterable[str] = ()) -> str:
         patterns = MMS_ASR_FILES + [f"adapter.{code}.safetensors" for code in sorted(set(codes))]
     else:
         patterns = None  # the AI4Bharat repositories hold only what their loaders need
+    if choice.backend == "indicconformer":
+        # Real files in a plain folder: ONNX Runtime refuses weights reached through the cache's
+        # links into its shared blobs folder ("External data path escapes model directory").
+        from huggingface_hub.constants import HF_HOME
+
+        return snapshot_download(choice.model, local_dir=os.path.join(HF_HOME, "plain", choice.model))
     return snapshot_download(choice.model, allow_patterns=patterns)
 
 

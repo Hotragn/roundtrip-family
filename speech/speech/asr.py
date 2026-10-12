@@ -82,14 +82,16 @@ class MmsAsr:
 class IndicConformerAsr:
     def __init__(self, choice: Choice, local_dir: str):
         import torch
-        from transformers import AutoModel
+        from transformers.dynamic_module_utils import get_class_from_dynamic_module
 
         self._torch = torch
         self.model_id = choice.model
         self.code = choice.code
-        # By repository id, not the local folder: the model's own loading code looks its files up on
-        # the Hub by that id (they are already in the cache from fetch()).
-        self.model = AutoModel.from_pretrained(choice.model, trust_remote_code=True)
+        # The model's own from_pretrained downloads into the Hub cache and loads from there, which
+        # ONNX Runtime refuses (models.fetch). Its classes, pointed at the plain folder, load fine.
+        config = get_class_from_dynamic_module("model_onnx.IndicASRConfig", local_dir)
+        model = get_class_from_dynamic_module("model_onnx.IndicASRModel", local_dir)
+        self.model = model(config(ts_folder=local_dir))
 
     def use(self, code: str) -> None:
         self.code = code
