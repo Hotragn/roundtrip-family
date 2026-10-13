@@ -186,6 +186,8 @@ function Gallery({ week, diary }: { week: WeekView; diary: DiarySeed[] }) {
                   share: t("Diary.share"),
                   unshare: t("Diary.unshare"),
                   delete: t("Diary.delete"),
+                  confirmDelete: t("Diary.confirmDelete"),
+                  keep: t("Diary.keep"),
                 }}
                 onShare={() => {}}
                 onDelete={() => {}}

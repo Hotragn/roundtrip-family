@@ -55,20 +55,20 @@ export function Ticket({
   return (
     <article className="relative" aria-label={title}>
       <div className="relative rounded-t-ticket bg-surface shadow-raised ring-1 ring-line">
-        <header className="px-5 pt-5">
+        <header className="@container px-5 pt-5">
           {legs.length > 0 ? <TravelLines legs={legs} width={440} label={linesLabel} /> : null}
           {/* Times on the left, the place photo on the right: the name below gets the full
                 width, and Listen and Directions stay on a phone's first screen. */}
           <div className="mt-3 flex flex-wrap items-center justify-between gap-4">
-            <dl className="grid grid-cols-[auto_auto] items-baseline gap-x-4 gap-y-2">
+            <dl className="grid grid-cols-[auto_auto] items-baseline gap-x-4 gap-y-2 @max-[16rem]:grid-cols-1 @max-[16rem]:gap-y-1">
               <dt className="text-[16px] text-text-muted" lang="te">
                 {leaveLabel}
               </dt>
-              <dd className="text-[28px] font-semibold leading-none tabular-nums">{leave}</dd>
+              <dd className="whitespace-nowrap text-[28px] font-semibold leading-none tabular-nums">{leave}</dd>
               <dt className="text-[16px] text-text-muted" lang="te">
                 {backLabel}
               </dt>
-              <dd className="text-[28px] font-semibold leading-none tabular-nums">{back}</dd>
+              <dd className="whitespace-nowrap text-[28px] font-semibold leading-none tabular-nums">{back}</dd>
             </dl>
             {photo && photoTry < 2 ? (
               <figure className="w-24 shrink-0">

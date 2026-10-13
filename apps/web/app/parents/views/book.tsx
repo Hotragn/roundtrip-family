@@ -2,7 +2,7 @@
 
 import { format } from "date-fns";
 import { te } from "date-fns/locale";
-import { Printer } from "lucide-react";
+import { Check, Printer } from "lucide-react";
 import { useEffect, useState } from "react";
 import { MemoryBookPage } from "@/components/parents/diary";
 import { getKv, setKv } from "@/lib/parents-store";
@@ -65,12 +65,17 @@ export function BookView() {
         </p>
         <ul className="mt-4 space-y-2">
           {[
-            ...outings.map((o) => ({ id: o.id, label: o.venue, lang: week.household.localLanguage, sub: o.date })),
+            ...outings.map((o) => ({
+              id: o.id,
+              label: o.venue,
+              lang: week.household.localLanguage,
+              sub: format(new Date(`${o.date}T12:00:00`), "d MMMM", { locale: te }),
+            })),
             ...entries.map((e) => ({
               id: e.id,
               label: e.text ? firstClusters(e.text, 40) : e.kind,
               lang: "te",
-              sub: e.createdAt.slice(0, 10),
+              sub: format(new Date(e.createdAt), "d MMMM", { locale: te }),
             })),
           ].map((item) => (
             <li key={item.id}>
@@ -85,7 +90,10 @@ export function BookView() {
                 lang="te"
               >
                 <span lang={item.lang}>{item.label}</span>
-                <span className="text-[15px] text-text-muted">{item.sub}</span>
+                <span className="flex shrink-0 items-center gap-2 text-[15px] text-text-muted">
+                  {item.sub}
+                  {picked.includes(item.id) ? <Check aria-hidden="true" className="size-6 text-ink" /> : null}
+                </span>
               </button>
             </li>
           ))}

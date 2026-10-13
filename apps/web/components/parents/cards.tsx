@@ -25,10 +25,19 @@ export function DriverCard({
 }) {
   const spoken = `${lead} ${stopName}. ${thanks}`;
   return (
-    <section aria-label={stopName} className="flex min-h-[calc(100dvh-180px)] flex-col justify-between">
+    <section
+      aria-label={stopName}
+      className="flex min-h-[calc(100dvh-180px)] flex-col justify-between [container-type:inline-size]"
+    >
       <div lang={localLanguage} className="pt-2">
         <p className="text-[30px] font-semibold leading-tight">{lead}</p>
-        <p className="mt-6 text-driver font-bold [overflow-wrap:anywhere]">{stopName}</p>
+        {/* Capped to the card's width, so large phone text never splits "Fremont" or "Peralta". */}
+        <p
+          className="mt-6 text-driver font-bold [overflow-wrap:anywhere]"
+          style={{ fontSize: "min(var(--text-driver), 18cqi)" }}
+        >
+          {stopName}
+        </p>
         {address ? <p className="mt-4 text-[26px] leading-snug text-text-muted">{address}</p> : null}
         <p className="mt-8 text-[30px] font-semibold">{thanks}</p>
       </div>
@@ -119,7 +128,15 @@ export function LostCard({
   helpAudio?: string;
   localLanguage: string;
   speech: string;
-  labels: { callFamily: string; emergency: string; noPlan: string; play: string; stop: string };
+  labels: {
+    callFamily: string;
+    emergency: string;
+    noPlan: string;
+    play: string;
+    stop: string;
+    /** The second number's name in the parent's language, when there is one. */
+    secondary?: string;
+  };
 }) {
   const t = {
     title: phrases.helpTitle,
@@ -167,9 +184,10 @@ export function LostCard({
         <a
           href={tel(secondary.number)}
           className="flex min-h-14 flex-wrap items-center justify-center gap-x-1 rounded-xl text-center text-[19px] text-text-muted underline-offset-4 hover:underline"
-          lang="en"
+          lang={labels.secondary ? "te" : "en"}
         >
-          {secondary.covers}: <span className="font-semibold tabular-nums text-text">{secondary.number}</span>
+          {labels.secondary ?? secondary.covers}:{" "}
+          <span className="font-semibold tabular-nums text-text">{secondary.number}</span>
         </a>
       ) : null}
       <p className="text-[18px] text-text-muted" lang="te">

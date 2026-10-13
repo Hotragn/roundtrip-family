@@ -56,7 +56,7 @@ for (const who of PARENT_PAGES) {
 test("parents' start screen", async ({ page }, info) => {
   test.skip(info.project.name !== "mobile", "phone screens only");
   await page.goto("/parents?v=start");
-  await expect(page.getByRole("button", { name: /Sarala/ })).toBeVisible();
+  await expect(page.getByRole("button", { name: "అమ్మ Sarala" })).toBeVisible();
   await page.evaluate(() => document.fonts.ready);
   await page.screenshot({ path: join(OUT, "parents-start.jpg"), fullPage: true, type: "jpeg", quality: 85 });
 });

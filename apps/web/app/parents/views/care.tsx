@@ -176,6 +176,7 @@ export function LostView() {
           noPlan: t("Lost.noPlan"),
           play: t("Lost.playLocal", { language: languageNameIn(h.localLanguage, parent.language) }),
           stop: t("Parents.stopListening"),
+          secondary: h.secondaryEmergency?.covers.startsWith("Police") ? t("Lost.police") : undefined,
         }}
       />
     </>

@@ -12,6 +12,9 @@ const LANG_NAMES: Record<string, Record<string, string>> = {
   de: { te: "Telugu", hi: "Hindi", en: "Englisch" },
 };
 
+/** The same languages in Telugu, for the line the parent reads. */
+const TE_NAMES: Record<string, string> = { te: "తెలుగు", hi: "హిందీ", en: "ఇంగ్లీష్", de: "జర్మన్" };
+
 export interface JoinCard {
   kind: "volunteer" | "join" | "visit";
   local: string;
@@ -21,9 +24,12 @@ export interface JoinCard {
 
 export function joinCard(c: Candidate, p: Parent, localLanguage: string): JoinCard {
   const names = LANG_NAMES[localLanguage] ?? LANG_NAMES.en!;
-  const spoken = [p.language, ...p.otherLanguages.filter((l) => l.level === "speaks").map((l) => l.code)]
-    .map((code) => names[code])
-    .filter(Boolean);
+  const codes = [p.language, ...p.otherLanguages.filter((l) => l.level === "speaks").map((l) => l.code)];
+  const spoken = codes.map((code) => names[code]).filter(Boolean);
+  const teLangs = codes
+    .map((code) => TE_NAMES[code])
+    .filter(Boolean)
+    .join(", ");
   const langs =
     spoken.length > 1
       ? `${spoken.slice(0, -1).join(", ")} ${localLanguage === "de" ? "und" : "and"} ${spoken.at(-1)}`
@@ -35,7 +41,7 @@ export function joinCard(c: Candidate, p: Parent, localLanguage: string): JoinCa
       return {
         kind: "volunteer",
         local: `Ich möchte gern ehrenamtlich helfen. Ich spreche ${langs}.`,
-        meaning: "నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ఈ భాషలు వచ్చు.",
+        meaning: `నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ${teLangs} వచ్చు.`,
         askWho: "Fragen Sie im Büro des Tempels.",
       };
     return {
@@ -49,7 +55,7 @@ export function joinCard(c: Candidate, p: Parent, localLanguage: string): JoinCa
     return {
       kind: "volunteer",
       local: `I would like to volunteer. I speak ${langs}.`,
-      meaning: "నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ఈ భాషలు వచ్చు.",
+      meaning: `నేను స్వచ్ఛందంగా సేవ చేయాలనుకుంటున్నాను. నాకు ${teLangs} వచ్చు.`,
       askWho: "Ask at the temple office.",
     };
   return {
