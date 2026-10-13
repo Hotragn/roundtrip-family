@@ -39,8 +39,11 @@ export function demoWeek() {
     place: o.venue,
     trip: tripSummary(o),
     approved: o.status === "approved",
-    chips: o.chips
-      .slice(0, 2)
+    // The reasons for it first: the ranker adds "This day and time rated lower so far" to most
+    // picks, and as the first thing a visitor reads on every row it buries why each was chosen.
+    chips: [...o.chips]
+      .sort((a, b) => Number(b.direction === "for") - Number(a.direction === "for"))
+      .slice(0, 1)
       .map((c) => ({ label: c.label, tone: c.direction === "for" ? "for" : "against" }) as const),
   }));
   // The ticket: her first approved outing with a bus ride.
