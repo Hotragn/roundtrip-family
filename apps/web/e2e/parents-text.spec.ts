@@ -310,3 +310,22 @@ test("a diary entry asks once before it's erased", async ({ page }, info) => {
   await entries.first().getByRole("button", { name: "చెరిపేయండి" }).click();
   await expect(entries).toHaveCount(before - 1);
 });
+
+test("a tap on I'm home before the app's script has run still counts", async ({ page }, info) => {
+  test.skip(info.project.name !== "mobile", "phone screens");
+  // Hold the app's scripts back, so the bar is on screen but not yet working.
+  let release: () => void = () => {};
+  const held = new Promise<void>((r) => {
+    release = r;
+  });
+  await page.route("**/_next/static/chunks/**/*.js", async (route) => {
+    await held;
+    await route.continue();
+  });
+  const checkin = page.waitForRequest((r) => r.method() === "POST" && r.url().includes("/parents/api/checkin"));
+  await page.goto("/parents/fremont-demo/p_sarala", { waitUntil: "commit" });
+  await page.getByRole("button", { name: "ఇంటికి వచ్చాను" }).click();
+  release();
+  await checkin;
+  await expect(page).toHaveURL(/v=how/);
+});
