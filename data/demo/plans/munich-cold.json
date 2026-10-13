@@ -310,11 +310,6 @@
    },
    "chips": [
     {
-     "label": "This day and time rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
-    {
      "label": "Not in their language",
      "feature": "languageMatch",
      "direction": "against"
@@ -845,11 +840,6 @@
       "label": "Like the Indian grocery outings they enjoyed",
       "feature": "category",
       "direction": "for"
-     },
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
      },
      {
       "label": "Costs money",
@@ -1647,11 +1637,6 @@
       "label": "Like the Indian grocery outings they enjoyed",
       "feature": "category",
       "direction": "for"
-     },
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
      },
      {
       "label": "Costs money",

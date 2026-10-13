@@ -10,6 +10,7 @@ from __future__ import annotations
 
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
+from statistics import median
 from typing import Any
 
 import pandas as pd
@@ -28,6 +29,11 @@ GROUPS: dict[str, list[str]] = {
     "costUsd": ["costUsd"],
     "knowsSomeone": ["knowsSomeone"],
 }
+
+# Smallest score change that earns a reason chip.
+NOISE = 0.02
+# How much more the day and time must cost an outing than the typical option (a tenth of a star).
+TIMING_MARGIN = 0.1
 
 # The feature whose value names a group's reason chip.
 LABEL_FEATURE = {"trip": "travelMinutes", "timing": "timing", "weather": "weather", "setting": "groupSize"}
@@ -89,12 +95,20 @@ def rank(
 
         with ThreadPoolExecutor(max_workers=workers) as pool:
             deltas = dict(zip(groups, pool.map(without, groups.values()), strict=True))
+        typical_timing = float(median(deltas["timing"])) if "timing" in deltas else 0.0
         for r in out:
+            used = 0
             for g in sorted(groups, key=lambda g: abs(deltas[g][r.index]), reverse=True):
-                if len(r.reasons) == 3:
+                if used == 3:
                     break
                 d = deltas[g][r.index]
-                if abs(d) < 0.02:
+                if abs(d) < NOISE:
+                    continue
+                if g == "timing" and d < 0 and d > typical_timing - TIMING_MARGIN:
+                    # Past ratings pull the timing of most options down a little, so "this day and time
+                    # rated lower" only says something when it costs this outing clearly more than it
+                    # costs the typical option in the same ranking. The slot stays empty, not refilled.
+                    used += 1
                     continue
                 if g == "weather" and candidates[r.index].get("indoor") is True:
                     continue  # weather can't be the reason for an indoor outing
@@ -104,6 +118,7 @@ def rank(
                 label = reason_label(feature, candidates[r.index].get(feature), d > 0)
                 if label:
                     r.reasons.append({"feature": g, "direction": "for" if d > 0 else "against", "label": label})
+                    used += 1
     return sorted(out, key=lambda r: r.combined, reverse=True)
 
 

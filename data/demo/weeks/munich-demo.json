@@ -173,11 +173,6 @@
           "direction": "for"
         },
         {
-          "label": "This day and time rated lower so far",
-          "feature": "timing",
-          "direction": "against"
-        },
-        {
           "label": "A longer ride",
           "feature": "trip",
           "direction": "against"
@@ -1011,11 +1006,6 @@
           "direction": "for"
         },
         {
-          "label": "This day and time rated lower so far",
-          "feature": "timing",
-          "direction": "against"
-        },
-        {
           "label": "No familiar faces yet",
           "feature": "knowsSomeone",
           "direction": "against"
@@ -1121,11 +1111,6 @@
       "ladderLabel": "Shared culture",
       "reasonText": "No Telugu events nearby this week. Shared culture. They enjoyed visiting Indian grocery stores before. By U5, about 30 minutes each way, back by 11:35.",
       "chips": [
-        {
-          "label": "This day and time rated lower so far",
-          "feature": "timing",
-          "direction": "against"
-        },
         {
           "label": "Other Indian languages, not theirs",
           "feature": "languageMatch",

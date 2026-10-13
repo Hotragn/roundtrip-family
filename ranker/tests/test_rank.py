@@ -67,3 +67,43 @@ def test_api_ranks(monkeypatch):
     r = client.post("/rank", json=body)
     assert r.status_code == 200
     assert r.json()["results"][0]["index"] == 0
+
+
+class TimingBackend:
+    """Enjoyment falls with start hour, so dropping the timing features moves every score a little."""
+
+    calls = 0
+    cache_hits = 0
+
+    def predict(self, kind, X, y, X_test):
+        if kind == "classifier":
+            return [1.0] * len(X_test)
+        if "startHour" not in X_test.columns:
+            return [4.0] * len(X_test)
+        return [4.0 - 0.02 * (h - 8) for h in X_test["startHour"]]
+
+
+TIMING_PAST = [
+    {"category": "park", "startHour": 8, "went": 1, "enjoyment": 5},
+    {"category": "park", "startHour": 10, "went": 1, "enjoyment": 4},
+    {"category": "park", "startHour": 16, "went": 1, "enjoyment": 3},
+]
+
+
+def _timing_against(out):
+    return {r.index for r in out if any(x["feature"] == "timing" and x["direction"] == "against" for x in r.reasons)}
+
+
+def test_timing_against_only_when_it_stands_out():
+    # Hours 10 to 13 cost about the same; 18 costs clearly more than the typical option.
+    cands = [{"category": "park", "startHour": h} for h in (10, 11, 12, 13, 18)]
+    out = rank(TIMING_PAST, cands, backend=TimingBackend())
+    assert _timing_against(out) == {4}
+    late = next(r for r in out if r.index == 4)
+    assert "This day and time rated lower so far" in [x["label"] for x in late.reasons]
+
+
+def test_timing_against_dropped_when_every_option_shares_it():
+    cands = [{"category": "park", "startHour": h} for h in (12, 13, 14, 15)]
+    out = rank(TIMING_PAST, cands, backend=TimingBackend())
+    assert _timing_against(out) == set()
