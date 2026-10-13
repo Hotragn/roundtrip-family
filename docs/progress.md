@@ -143,3 +143,4 @@ The running log of the build. Read this first when resuming. The plan is docs/bu
 - Every dashboard section reflows to a 320 px phone with no sideways scroll (Setup, People and places, Privacy and the week board's tiles were wider), checked in e2e/dashboard.spec.ts; the household switcher shows the city alone on a phone.
 - Telugu voices now come from AI4Bharat Indic Parler-TTS (mean CER 0.161, MMS 0.194), run in a GitHub Actions job; MongoDB Atlas now holds the live demo's sessions.
 - IndicConformer, the plan's Telugu listener, loads and checks the clips (mean CER 0.070), so both AI4Bharat models run.
+- First-visit usability pass (live site, desktop and Pixel 7): swap now opens at the options and names an option's day, drag announcements read place and day, the timing chip no longer says "weekday", the privacy count matches its table, and plainer planner and safety copy; dashboard, a11y, landing, offline and parents-text e2e pass.
