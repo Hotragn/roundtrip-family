@@ -27,6 +27,7 @@ const DAY_NAME: Record<string, string> = {
   sat: "Saturday",
   sun: "Sunday",
 };
+const DAYS = Object.keys(DAY_NAME);
 
 export async function POST(req: Request, { params }: { params: Promise<{ household: string }> }) {
   const { household } = await params;
@@ -71,20 +72,23 @@ export async function POST(req: Request, { params }: { params: Promise<{ househo
       week: { label: ctx.week.label, monday: ctx.week.monday },
       forecast,
       note: plan.note,
-      suggestions: plan.suggestions.map((s) => ({
-        id: s.id,
-        title: s.candidate.title.replace(/\s+[-|]\s+.*$/, ""),
-        day: DAY_NAME[s.slot.day] ?? s.slot.day,
-        depart: s.slot.depart,
-        back: s.slot.back,
-        withAdultChild: s.slot.withAdultChild,
-        who: name(s.parentIds),
-        ladderLevel: s.ladderLevel,
-        ladderLabel: s.ladderLabel,
-        reasonText: s.reasonText,
-        chips: s.chips,
-        score: s.score.combined,
-      })),
+      // In the order of the week, as the board shows them, not grouped by parent.
+      suggestions: [...plan.suggestions]
+        .sort((a, b) => DAYS.indexOf(a.slot.day) - DAYS.indexOf(b.slot.day) || a.slot.depart - b.slot.depart)
+        .map((s) => ({
+          id: s.id,
+          title: s.candidate.title.replace(/\s+[-|]\s+.*$/, ""),
+          day: DAY_NAME[s.slot.day] ?? s.slot.day,
+          depart: s.slot.depart,
+          back: s.slot.back,
+          withAdultChild: s.slot.withAdultChild,
+          who: name(s.parentIds),
+          ladderLevel: s.ladderLevel,
+          ladderLabel: s.ladderLabel,
+          reasonText: s.reasonText,
+          chips: s.chips,
+          score: s.score.combined,
+        })),
       stats: {
         seconds: Math.round((Date.now() - started) / 100) / 10,
         modelCalls: plan.stats.modelCalls,

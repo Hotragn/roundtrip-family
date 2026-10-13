@@ -46,7 +46,9 @@ export function legSummaries(item: BoardItem): LegSummary[] {
 /** "Bus 211 · 20 min" or "Walk · 14 min" */
 export function tripLine(item: BoardItem): string {
   const transit = item.legs.filter((l) => l.mode !== "walk");
-  const minutes = item.legs.length ? item.legs.reduce((s, l) => s + l.minutes, 0) : item.travelMinutes;
+  // The route's door-to-door total (it counts the wait at the stop), so the card matches the
+  // ticket and the reason text. The legs' sum is only a fallback.
+  const minutes = item.travelMinutes ?? (item.legs.length ? item.legs.reduce((s, l) => s + l.minutes, 0) : null);
   if (item.withAdultChild) return "With you, by car";
   if (transit.length) {
     const lines = transit
