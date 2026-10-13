@@ -168,7 +168,7 @@
           "direction": "for"
         },
         {
-          "label": "Weekday outings rated lower so far",
+          "label": "This day and time rated lower so far",
           "feature": "timing",
           "direction": "against"
         },
@@ -1021,7 +1021,7 @@
       "reasonText": "No Telugu events nearby this week. No language needed. She gave her last walk in the park 5 of 5. By Bus 210, about 29 minutes each way, back by 10:28.",
       "chips": [
         {
-          "label": "Weekday outings rated lower so far",
+          "label": "This day and time rated lower so far",
           "feature": "timing",
           "direction": "against"
         },
@@ -1916,7 +1916,7 @@
           "direction": "for"
         },
         {
-          "label": "Weekday outings rated lower so far",
+          "label": "This day and time rated lower so far",
           "feature": "timing",
           "direction": "against"
         },
@@ -2397,7 +2397,7 @@
       "reasonText": "No Telugu events nearby this week. No language needed. With you on Sunday, about 21 minutes away, back by 11:42.",
       "chips": [
         {
-          "label": "Weekday outings rated lower so far",
+          "label": "This day and time rated lower so far",
           "feature": "timing",
           "direction": "against"
         },

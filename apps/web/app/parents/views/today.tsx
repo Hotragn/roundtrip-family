@@ -48,7 +48,9 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
           {dayLabel(DEMO_NOW.date)}
         </p>
         <h1 className="mt-1 text-[30px] font-semibold" lang="te">
-          {parent.role === "father" ? t("Parents.greetingFather") : t("Parents.greetingMother")}
+          {featured && !isToday
+            ? t(parent.role === "father" ? "Parents.greetingFatherLater" : "Parents.greetingMotherLater")
+            : t(parent.role === "father" ? "Parents.greetingFather" : "Parents.greetingMother")}
         </h1>
       </div>
 

@@ -66,8 +66,9 @@ export default async function Privacy({ params }: PageProps<"/plan/[household]/p
         <div className="max-w-[720px] space-y-2">
           <h1 className="text-[31px] font-semibold leading-tight">Privacy</h1>
           <p className="text-base text-text-muted">
-            Where your family&rsquo;s information goes. Roundtrip uses {services} outside services, and every one is in
-            the table below, generated from the same list the code is held to.
+            Where your family&rsquo;s information goes. Roundtrip can reach {services} outside services over{" "}
+            {OUTBOUND.length} connections, and every connection is in the table below, generated from the same list the
+            code is held to.
           </p>
         </div>
 

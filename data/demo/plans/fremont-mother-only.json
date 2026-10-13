@@ -280,7 +280,7 @@
      "direction": "for"
     },
     {
-     "label": "Weekday outings rated lower so far",
+     "label": "This day and time rated lower so far",
      "feature": "timing",
      "direction": "against"
     },
@@ -441,7 +441,7 @@
      "direction": "for"
     },
     {
-     "label": "Weekday outings rated lower so far",
+     "label": "This day and time rated lower so far",
      "feature": "timing",
      "direction": "against"
     },
@@ -577,7 +577,7 @@
    },
    "chips": [
     {
-     "label": "Weekday outings rated lower so far",
+     "label": "This day and time rated lower so far",
      "feature": "timing",
      "direction": "against"
     },
@@ -727,7 +727,7 @@
      "direction": "for"
     },
     {
-     "label": "Weekday outings rated lower so far",
+     "label": "This day and time rated lower so far",
      "feature": "timing",
      "direction": "against"
     },
@@ -866,7 +866,7 @@
     },
     "chips": [
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
@@ -1011,7 +1011,7 @@
       "direction": "for"
      },
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
@@ -1137,7 +1137,7 @@
     },
     "chips": [
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
@@ -1279,7 +1279,7 @@
     },
     "chips": [
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
@@ -1424,7 +1424,7 @@
       "direction": "for"
      },
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
@@ -1550,7 +1550,7 @@
     },
     "chips": [
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
@@ -1692,7 +1692,7 @@
     },
     "chips": [
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
@@ -1837,7 +1837,7 @@
       "direction": "for"
      },
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
@@ -1963,7 +1963,7 @@
     },
     "chips": [
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
@@ -2105,7 +2105,7 @@
     },
     "chips": [
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
@@ -2250,7 +2250,7 @@
       "direction": "for"
      },
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
@@ -2376,7 +2376,7 @@
     },
     "chips": [
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
@@ -2518,7 +2518,7 @@
     },
     "chips": [
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
@@ -2663,7 +2663,7 @@
       "direction": "for"
      },
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
@@ -2789,7 +2789,7 @@
     },
     "chips": [
      {
-      "label": "Weekday outings rated lower so far",
+      "label": "This day and time rated lower so far",
       "feature": "timing",
       "direction": "against"
      },
