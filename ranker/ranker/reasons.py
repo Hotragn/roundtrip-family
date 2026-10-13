@@ -7,7 +7,7 @@ from typing import Any
 
 def reason_label(feature: str, value: Any, helps: bool) -> str | None:
     if feature == "timing":
-        return "A time that has worked before" if helps else "Weekday outings rated lower so far"
+        return "A time that has worked before" if helps else "This day and time rated lower so far"
     if value is None:
         return None
     if feature == "languageMatch":
@@ -33,7 +33,7 @@ def reason_label(feature: str, value: Any, helps: bool) -> str | None:
             return "Midday" if helps else "Runs into nap time"
         return "Evening" if helps else "Late in the day"
     if feature == "dayOfWeek":
-        return "A day that has worked before" if helps else "Weekday outings rated lower so far"
+        return "A day that has worked before" if helps else "This day rated lower so far"
     if feature in ("temperatureC", "weather"):
         return "Good weather for it" if helps else "Weather counts against it"
     if feature == "rainChance":

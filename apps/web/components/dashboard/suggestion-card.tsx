@@ -90,7 +90,7 @@ export function SuggestionCard({
       <div className="flex items-center gap-1.5 border-t border-line px-2 py-2">
         {approved ? (
           <>
-            <span className="flex-1 truncate px-1 text-[13px] text-text-muted">On their phone</span>
+            <span className="min-w-0 flex-1 px-1 text-[13px] leading-tight text-text-muted">On their phone</span>
             <Button variant="quiet" size="sm" onClick={onUnapprove} aria-label={`Take ${item.title} off their week`}>
               <Undo2 aria-hidden="true" className="size-4" />
             </Button>

@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  type Announcements,
   DndContext,
   type DragEndEvent,
   KeyboardSensor,
@@ -91,6 +92,26 @@ function DayColumn({
   );
 }
 
+/** What a screen reader hears while a card is moved: the place and the day, never the internal ids. */
+function announcementsFor(columns: Column[]): Announcements {
+  const title = (data: unknown) => (data as { item?: EffectiveItem } | undefined)?.item?.title ?? "The outing";
+  const day = (id: unknown) => {
+    const c = columns.find((x) => x.id === id);
+    if (!c) return "another day";
+    return c.days.length > 1 ? "the weekend" : (DAY_NAMES[c.days[0] ?? ""] ?? c.title);
+  };
+  return {
+    onDragStart: ({ active }) => `Picked up ${title(active.data.current)}.`,
+    onDragOver: ({ active, over }) =>
+      over
+        ? `${title(active.data.current)} is over ${day(over.id)}.`
+        : `${title(active.data.current)} is not over a day.`,
+    onDragEnd: ({ active, over }) =>
+      over ? `${title(active.data.current)} dropped on ${day(over.id)}.` : `${title(active.data.current)} put back.`,
+    onDragCancel: ({ active }) => `Moving ${title(active.data.current)} was cancelled. It stays where it was.`,
+  };
+}
+
 /**
  * This week: the planner's suggestions laid out Monday to Friday, then the weekend. Approve the ones you want;
  * swap one for another real option on the same day; drag one to another free day. Changes
@@ -100,6 +121,11 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
   const { overlay, change } = useOverlay(board.household.slug);
   const items = useEffectiveItems(board, overlay);
   const [openId, setOpenId] = useState<string | null>(null);
+  const [showOptions, setShowOptions] = useState(false);
+  const openSheet = (id: string, options = false) => {
+    setShowOptions(options);
+    setOpenId(id);
+  };
   const [sheetUsed, setSheetUsed] = useState(false);
   if (openId !== null && !sheetUsed) setSheetUsed(true);
   useEffect(() => {
@@ -148,7 +174,7 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
     run(
       "Couldn't swap that",
       () => change({ action: "swap", id: item.slotId, to: to.id }),
-      `Swapped in ${to.title}`,
+      `Swapped in ${to.title}, ${DAY_NAMES[to.day]}`,
       "Approve it to put it on their week.",
     );
   const unswap = (item: EffectiveItem) =>
@@ -204,7 +230,12 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
           ))}
         </dl>
       </div>
-      <DndContext id="week-board" sensors={sensors} onDragEnd={onDragEnd}>
+      <DndContext
+        id="week-board"
+        sensors={sensors}
+        onDragEnd={onDragEnd}
+        accessibility={{ announcements: announcementsFor(columnsFor(board)) }}
+      >
         <div className="relative -mx-4 overflow-x-auto px-4 pb-2 sm:mx-0 sm:px-0">
           <div className="grid min-w-[1100px] grid-cols-6 gap-3">
             {columnsFor(board).map((column) => (
@@ -224,10 +255,10 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
                       who={whoShort(item, board)}
                       lang={board.household.localLanguage}
                       swapCount={(board.alternatives[item.slotId] ?? []).length}
-                      onOpen={() => setOpenId(item.slotId)}
+                      onOpen={() => openSheet(item.slotId)}
                       onApprove={() => void approve(item)}
                       onUnapprove={() => void unapprove(item)}
-                      onSwap={() => setOpenId(item.slotId)}
+                      onSwap={() => openSheet(item.slotId, true)}
                     />
                   ))}
               </DayColumn>
@@ -250,6 +281,7 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
             onUnapprove={(i) => void unapprove(i)}
             onSwap={(i, to) => void swap(i, to)}
             onUnswap={(i) => void unswap(i)}
+            showOptions={showOptions}
           />
         </Suspense>
       ) : null}

@@ -85,9 +85,9 @@ export function Replan({ board }: { board: PlanBoard }) {
       <div ref={intro} className="max-w-[760px] space-y-1.5">
         <h2 className="text-[20px] font-semibold">Plan the coming week</h2>
         <p className="text-[15px] text-text-muted">
-          Run the planner now for next Monday to Sunday: the live forecast, the places from the saved searches, TabPFN
-          scoring each option from their history, and Gemma 4 choosing and explaining. It takes about half a minute and
-          doesn&rsquo;t change this week or their phones.
+          Run the planner now for next Monday to Sunday. It checks the live forecast and the places already found
+          nearby, rates each option by how their past outings went (TabPFN), then picks and explains the best ones
+          (Gemma 4). It takes about half a minute and doesn&rsquo;t change this week or their phones.
         </p>
       </div>
       <div className="flex flex-wrap items-center gap-3">

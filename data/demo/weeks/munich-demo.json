@@ -173,7 +173,7 @@
           "direction": "for"
         },
         {
-          "label": "Weekday outings rated lower so far",
+          "label": "This day and time rated lower so far",
           "feature": "timing",
           "direction": "against"
         },
@@ -731,7 +731,7 @@
       "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. A 4-minute walk, back by 11:23.",
       "chips": [
         {
-          "label": "Weekday outings rated lower so far",
+          "label": "This day and time rated lower so far",
           "feature": "timing",
           "direction": "against"
         },
@@ -1011,7 +1011,7 @@
           "direction": "for"
         },
         {
-          "label": "Weekday outings rated lower so far",
+          "label": "This day and time rated lower so far",
           "feature": "timing",
           "direction": "against"
         },
@@ -1122,7 +1122,7 @@
       "reasonText": "No Telugu events nearby this week. Shared culture. They enjoyed visiting Indian grocery stores before. By U5, about 30 minutes each way, back by 11:35.",
       "chips": [
         {
-          "label": "Weekday outings rated lower so far",
+          "label": "This day and time rated lower so far",
           "feature": "timing",
           "direction": "against"
         },

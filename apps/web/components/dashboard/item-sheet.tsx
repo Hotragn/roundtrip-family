@@ -3,6 +3,7 @@
 import { Dialog as DialogPrimitive } from "@base-ui/react/dialog";
 import { Bus, Check, Footprints, TrainFront, Undo2, X } from "lucide-react";
 import dynamic from "next/dynamic";
+import { useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { DAY_NAMES, hhmm, hoursLine, longDate, tripLine, whoFor } from "@/lib/plan-format";
 import type { BoardItem, PlanBoard } from "@/lib/plan-types";
@@ -16,10 +17,20 @@ const RouteMap = dynamic(() => import("./route-map").then((m) => m.RouteMap), {
   loading: () => <div className="h-full w-full animate-pulse rounded-card bg-surface-sunken" />,
 });
 
-function Section({ title, children }: { title: string; children: React.ReactNode }) {
+function Section({
+  title,
+  headingRef,
+  children,
+}: {
+  title: string;
+  headingRef?: React.Ref<HTMLHeadingElement>;
+  children: React.ReactNode;
+}) {
   return (
     <section className="space-y-3 border-t border-line pt-5">
-      <h3 className="text-base font-semibold">{title}</h3>
+      <h3 ref={headingRef} tabIndex={headingRef ? -1 : undefined} className="text-base font-semibold outline-none">
+        {title}
+      </h3>
       {children}
     </section>
   );
@@ -64,6 +75,7 @@ export function ItemSheet({
   onUnapprove,
   onSwap,
   onUnswap,
+  showOptions = false,
 }: {
   board: PlanBoard;
   item: EffectiveItem | null;
@@ -73,7 +85,10 @@ export function ItemSheet({
   onUnapprove: (item: EffectiveItem) => void;
   onSwap: (item: EffectiveItem, to: BoardItem) => void;
   onUnswap: (item: EffectiveItem) => void;
+  /** Opened from the swap button: start at the other options, which sit at the bottom of the sheet. */
+  showOptions?: boolean;
 }) {
+  const optionsRef = useRef<HTMLHeadingElement>(null);
   const date = item ? board.week.days.find((d) => d.day === item.day)?.date : undefined;
   const alternatives = item ? (board.alternatives[item.slotId] ?? []).filter((a) => a.id !== item.id) : [];
   const original = item?.swapped ? board.items.find((i) => i.id === item.slotId) : undefined;
@@ -81,7 +96,10 @@ export function ItemSheet({
     <DialogPrimitive.Root open={open} onOpenChange={onOpenChange}>
       <DialogPrimitive.Portal>
         <DialogPrimitive.Backdrop className="fixed inset-0 z-40 bg-ink/25 transition-opacity duration-200 data-[ending-style]:opacity-0 data-[starting-style]:opacity-0 motion-reduce:transition-none" />
-        <DialogPrimitive.Popup className="fixed inset-y-0 right-0 z-50 flex w-full max-w-[600px] flex-col bg-surface shadow-overlay outline-none transition-transform duration-300 ease-paper data-[ending-style]:translate-x-full data-[starting-style]:translate-x-full motion-reduce:transition-none">
+        <DialogPrimitive.Popup
+          initialFocus={showOptions ? optionsRef : undefined}
+          className="fixed inset-y-0 right-0 z-50 flex w-full max-w-[600px] flex-col bg-surface shadow-overlay outline-none transition-transform duration-300 ease-paper data-[ending-style]:translate-x-full data-[starting-style]:translate-x-full motion-reduce:transition-none"
+        >
           {item ? (
             <>
               <div className="flex items-start justify-between gap-4 border-b border-line px-6 py-4">
@@ -133,8 +151,8 @@ export function ItemSheet({
                     </div>
                   </dl>
                   <p className="text-[13px] text-text-muted">
-                    TabPFN predictions from their past outings (a synthetic history for this fictional family). The
-                    place comes from a live search.
+                    Predicted from how their past outings went, by TabPFN (a made-up history for this fictional family).
+                    The place comes from a live search.
                   </p>
                 </Section>
 
@@ -200,7 +218,14 @@ export function ItemSheet({
                 ) : null}
 
                 {alternatives.length > 0 || original ? (
-                  <Section title={`Other options for ${DAY_NAMES[item.day] ?? "this day"}`}>
+                  <Section
+                    title={
+                      alternatives.every((a) => a.day === item.day)
+                        ? `Other options for ${DAY_NAMES[item.day] ?? "this day"}`
+                        : "Other options"
+                    }
+                    headingRef={optionsRef}
+                  >
                     {original ? (
                       <Button variant="secondary" size="sm" onClick={() => onUnswap(item)}>
                         <Undo2 aria-hidden="true" className="size-4" />
@@ -220,6 +245,7 @@ export function ItemSheet({
                           <div className="min-w-0 flex-1 space-y-1.5">
                             <p className="font-semibold leading-snug">{a.title}</p>
                             <p className="text-[13px] text-text-muted">
+                              {a.day !== item.day ? `${DAY_NAMES[a.day]} · ` : ""}
                               {hhmm(a.depart)} to {hhmm(a.back)} · {tripLine(a)} · score {a.score.combined.toFixed(2)}
                             </p>
                             <ReasonChips chips={a.chips} max={2} size="sm" />

@@ -125,8 +125,8 @@ export function SafetyTimeline({ example, buffer, wait }: { example: TimerExampl
         ))}
       </ol>
       <p className="text-[13px] text-text-muted">
-        Each outing&rsquo;s timer runs as a durable workflow, so it keeps counting through a server restart. Tapping
-        &ldquo;I&rsquo;m home&rdquo; stops it.
+        Each outing&rsquo;s timer keeps counting even if the server restarts. Tapping &ldquo;I&rsquo;m home&rdquo; stops
+        it.
       </p>
     </div>
   );
