@@ -106,7 +106,8 @@ test("approve, swap and move on the week board", async ({ page }, info) => {
   await expect(tally).toHaveText("3");
   await park.getByRole("button", { name: "Swap Central Park for another option" }).click();
   const sheet = page.getByRole("dialog");
-  await expect(sheet.getByRole("heading", { name: /Other options for/ })).toBeVisible();
+  // The swap button starts the sheet at the options, which sit below the map and the reasons.
+  await expect(sheet.getByRole("heading", { name: /^Other options/ })).toBeFocused();
   const option = sheet
     .getByRole("listitem")
     .filter({ has: page.getByRole("button", { name: "Use this" }) })
