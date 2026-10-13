@@ -271,6 +271,8 @@ export function DiaryView() {
               share: t("Diary.share"),
               unshare: t("Diary.unshare"),
               delete: t("Diary.delete"),
+              confirmDelete: t("Diary.confirmDelete"),
+              keep: t("Diary.keep"),
               recording: t("Parents.listen"),
             }}
             onShare={() => void toggleShare(e.id)}

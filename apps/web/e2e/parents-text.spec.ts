@@ -263,3 +263,50 @@ test("Telugu text, tap targets and reflow: start screen", async ({ page }, info)
   }
   expect(problems).toEqual([]);
 });
+
+/** Words in the elements that split across two lines (each word's text range has one line box). */
+function splitWords(selector: string): string[] {
+  const out: string[] = [];
+  for (const el of document.querySelectorAll(selector)) {
+    const node = el.firstChild;
+    if (!(node instanceof Text)) continue;
+    for (const m of node.data.matchAll(/\S+/g)) {
+      const r = document.createRange();
+      r.setStart(node, m.index);
+      r.setEnd(node, m.index + m[0].length);
+      const tops = new Set([...r.getClientRects()].map((b) => Math.round(b.top)));
+      if (tops.size > 1) out.push(m[0]);
+    }
+  }
+  return out;
+}
+
+test("large text keeps times and the driver's stop name whole", async ({ page }, info) => {
+  test.skip(info.project.name !== "mobile", "phone screens");
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  for (const scale of [1.5, 2]) {
+    await page.goto("/parents/fremont-demo/p_sarala");
+    await ready(page);
+    await check(page, scale);
+    expect(await page.evaluate(splitWords, "main article dt, main article dd")).toEqual([]);
+    await page.goto("/parents/fremont-demo/p_sarala?v=driver");
+    await ready(page);
+    await check(page, scale);
+    expect(await page.evaluate(splitWords, 'main[data-view="driver"] section p.font-bold')).toEqual([]);
+  }
+});
+
+test("a diary entry asks once before it's erased", async ({ page }, info) => {
+  test.skip(info.project.name !== "mobile", "phone screens");
+  await page.goto("/parents/fremont-demo/p_sarala?v=diary");
+  await ready(page);
+  const entries = page.locator("main li.rounded-card");
+  await expect(entries.first()).toBeVisible();
+  const before = await entries.count();
+  await entries.first().getByRole("button", { name: "చెరిపేయండి" }).click();
+  await entries.first().getByRole("button", { name: "వద్దు, ఉంచండి" }).click();
+  await expect(entries).toHaveCount(before);
+  await entries.first().getByRole("button", { name: "చెరిపేయండి" }).click();
+  await entries.first().getByRole("button", { name: "చెరిపేయండి" }).click();
+  await expect(entries).toHaveCount(before - 1);
+});

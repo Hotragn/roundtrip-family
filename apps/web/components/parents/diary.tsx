@@ -3,6 +3,7 @@
 import { format } from "date-fns";
 import { te } from "date-fns/locale";
 import { Lock, Share2, Trash2 } from "lucide-react";
+import { useState } from "react";
 import { Mark } from "@/components/brand/logo";
 import { cn } from "@/lib/utils";
 
@@ -36,6 +37,9 @@ export function DiaryEntryCard({
     share: string;
     unshare: string;
     delete: string;
+    /** Asked after the first tap on delete, so one shaky tap never erases an entry. */
+    confirmDelete: string;
+    keep: string;
     /** The recording player's name, read by screen readers. */
     recording?: string;
   };
@@ -43,6 +47,7 @@ export function DiaryEntryCard({
   onDelete: () => void;
 }) {
   const e = entry;
+  const [confirming, setConfirming] = useState(false);
   return (
     <li className="rounded-card bg-surface p-4 ring-1 ring-line">
       <div className="flex items-center justify-between gap-3">
@@ -81,7 +86,29 @@ export function DiaryEntryCard({
           {e.feelingWords.join(" · ")}
         </p>
       ) : null}
-      <div className="mt-3 flex flex-wrap gap-2">
+      {confirming ? (
+        <div className="mt-3 rounded-lg bg-surface-sunken p-3" role="group" aria-label={labels.confirmDelete} lang="te">
+          <p className="text-[18px] font-semibold">{labels.confirmDelete}</p>
+          <div className="mt-2 flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={() => setConfirming(false)}
+              className="min-h-14 flex-1 basis-32 rounded-lg bg-ink px-3 text-[17px] font-semibold text-white"
+            >
+              {labels.keep}
+            </button>
+            <button
+              type="button"
+              onClick={onDelete}
+              className="flex min-h-14 flex-1 basis-32 items-center justify-center gap-2 rounded-lg border border-line-strong bg-surface px-3 text-[17px] font-semibold"
+            >
+              <Trash2 aria-hidden="true" className="shrink-0 size-5" />
+              {labels.delete}
+            </button>
+          </div>
+        </div>
+      ) : null}
+      <div className={cn("mt-3 flex flex-wrap gap-2", confirming && "hidden")}>
         <button
           type="button"
           onClick={onShare}
@@ -92,7 +119,7 @@ export function DiaryEntryCard({
         </button>
         <button
           type="button"
-          onClick={onDelete}
+          onClick={() => setConfirming(true)}
           className="flex min-h-14 grow items-center justify-center gap-2 rounded-lg border border-line-strong px-4 text-[17px] font-semibold"
           lang="te"
         >
