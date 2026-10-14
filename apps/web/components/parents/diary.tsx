@@ -2,8 +2,8 @@
 
 import { format } from "date-fns";
 import { te } from "date-fns/locale";
-import { Lock, Share2, Trash2 } from "lucide-react";
-import { useState } from "react";
+import { Lock, Pause, Play, Share2, Trash2 } from "lucide-react";
+import { useRef, useState } from "react";
 import { Mark } from "@/components/brand/logo";
 import { cn } from "@/lib/utils";
 
@@ -40,8 +40,9 @@ export function DiaryEntryCard({
     /** Asked after the first tap on delete, so one shaky tap never erases an entry. */
     confirmDelete: string;
     keep: string;
-    /** The recording player's name, read by screen readers. */
+    /** The recording's play button ("Listen") and, while it plays, its pause button ("Stop"). */
     recording?: string;
+    stopRecording?: string;
   };
   onShare: () => void;
   onDelete: () => void;
@@ -75,7 +76,7 @@ export function DiaryEntryCard({
         </p>
       ) : null}
       {e.audioSrc ? (
-        <audio controls src={e.audioSrc} className="mt-2 min-h-14 w-full" aria-label={labels.recording} />
+        <Recording src={e.audioSrc} label={labels.recording ?? "Listen"} stop={labels.stopRecording ?? "Stop"} />
       ) : null}
       {e.photo ? (
         // biome-ignore lint/performance/noImgElement: a local photo from the diary
@@ -128,6 +129,39 @@ export function DiaryEntryCard({
         </button>
       </div>
     </li>
+  );
+}
+
+/**
+ * One large play and pause button instead of the browser's small player, like the dashboard's
+ * Listen: the entry is the parent's own, so it needs no scrubbing. The label flips with the state.
+ */
+function Recording({ src, label, stop }: { src: string; label: string; stop: string }) {
+  const ref = useRef<HTMLAudioElement>(null);
+  const [playing, setPlaying] = useState(false);
+  const Icon = playing ? Pause : Play;
+  return (
+    <div className="mt-2">
+      <button
+        type="button"
+        onClick={() => (playing ? ref.current?.pause() : void ref.current?.play().catch(() => setPlaying(false)))}
+        className="inline-flex min-h-14 items-center gap-3 rounded-full bg-surface-sunken py-1.5 pr-6 pl-1.5 text-parent font-semibold transition-colors hover:bg-line"
+        lang="te"
+      >
+        <span className="grid size-12 shrink-0 place-items-center rounded-full bg-ink text-white">
+          <Icon aria-hidden="true" className="size-6 fill-current" />
+        </span>
+        {playing ? stop : label}
+      </button>
+      <audio
+        ref={ref}
+        preload="none"
+        src={src}
+        onPlay={() => setPlaying(true)}
+        onPause={() => setPlaying(false)}
+        onEnded={() => setPlaying(false)}
+      />
+    </div>
   );
 }
 

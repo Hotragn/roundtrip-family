@@ -21,6 +21,7 @@ type EarlyTapWindow = Window & { __rtBarReady?: boolean; __rtTap?: number };
  */
 export function BottomBar({
   labels,
+  glosses,
   onHome,
   onDiary,
   onLost,
@@ -28,6 +29,8 @@ export function BottomBar({
   current,
 }: {
   labels: { home: string; diary: string; lost: string };
+  /** Small English hints under the labels, for demo visitors who turned them on. */
+  glosses?: { home: string; diary: string; lost: string };
   onHome: () => void;
   onDiary: () => void;
   onLost: () => void;
@@ -83,6 +86,11 @@ export function BottomBar({
           >
             <House aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
             {labels.home}
+            {glosses ? (
+              <span lang="en" className="text-[13px] leading-tight font-normal">
+                {glosses.home}
+              </span>
+            ) : null}
           </button>
           <button
             type="button"
@@ -92,6 +100,11 @@ export function BottomBar({
           >
             <BookHeart aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
             {labels.diary}
+            {glosses ? (
+              <span lang="en" className="text-[13px] leading-tight font-normal">
+                {glosses.diary}
+              </span>
+            ) : null}
           </button>
           <button
             type="button"
@@ -101,6 +114,11 @@ export function BottomBar({
           >
             <LifeBuoy aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
             {labels.lost}
+            {glosses ? (
+              <span lang="en" className="text-[13px] leading-tight font-normal">
+                {glosses.lost}
+              </span>
+            ) : null}
           </button>
         </div>
       </nav>

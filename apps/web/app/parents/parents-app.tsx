@@ -3,6 +3,7 @@
 import { ArrowLeft, WifiOff } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from "react";
+import { Mark } from "@/components/brand/logo";
 import { BottomBar } from "@/components/parents/bottom-bar";
 import type { DiarySeed } from "@/lib/diary-types";
 import {
@@ -15,6 +16,7 @@ import {
   setKv,
   settingsKey,
 } from "@/lib/parents-store";
+import { cn } from "@/lib/utils";
 import {
   applyChanges,
   DEMO_HOUSEHOLDS,
@@ -25,6 +27,7 @@ import {
   type WeekView,
 } from "@/lib/week";
 import { ParentsContext, type ParentsState, type View } from "./context";
+import { GLOSS, L, useEnglishSwitch } from "./gloss";
 import { StartView } from "./views/start";
 import { TodayView } from "./views/today";
 
@@ -174,6 +177,9 @@ function ParentScreens({
   t: ReturnType<typeof useTranslations>;
 }) {
   const { household } = initial;
+  const [english, setEnglish] = useEnglishSwitch(DEMO_HOUSEHOLDS.some((h) => h.slug === household));
+  // The name chip asks before it leaves for the setup page: one stray tap mustn't lose the screen.
+  const [asking, setAsking] = useState(false);
 
   // What the dashboard changed in this session (approvals, moves), kept on the phone for offline.
   const [changes, setChanges] = useState<WeekChanges | null>(null);
@@ -203,6 +209,16 @@ function ParentScreens({
   useEffect(() => {
     void saveSettings({ household, parentId: initial.parentId });
   }, [household, initial.parentId]);
+
+  // Load the other screens once the phone is idle, so a tap on I'm home or Diary opens its
+  // screen straight away, with or without the service worker.
+  useEffect(
+    () =>
+      whenIdle(() => {
+        for (const load of Object.values(VIEW_MODULES)) void load().catch(() => null);
+      }),
+    [],
+  );
 
   // Warm the offline cache once the phone is idle on home Wi-Fi: this page, the start page,
   // everything this page loaded before the service worker took over, and every photo and
@@ -263,14 +279,16 @@ function ParentScreens({
       fromPhone: false,
       diarySeeds: initial.diary ?? [],
       t: (k, v) => t(k as never, v as never),
+      en: (k) => (english ? GLOSS[k] : undefined),
     };
-  }, [week, initial.parentId, initial.diary, outingId, featured, home, setHomeState, go, online, t]);
+  }, [week, initial.parentId, initial.diary, outingId, featured, home, setHomeState, go, online, t, english]);
 
   if (!state) return null;
   const current = state.outing;
   const onHome = () => {
     if (!current) return go("today");
     if (!home[current.id]) state.setHome(current.id);
+    void VIEW_MODULES.care();
     go("today", current.id);
     setFeatured(current.id);
     window.setTimeout(() => go("how", current.id), 1100);
@@ -288,18 +306,45 @@ function ParentScreens({
               lang="te"
             >
               <ArrowLeft aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
-              {t("Parents.back_to_today")}
+              <L k="Parents.back_to_today" />
             </button>
           ) : (
-            <span className="rounded-full bg-surface-sunken px-3 py-1 text-[14px] text-text-muted" lang="en">
-              {t("Parents.demo")}
-            </span>
+            <div className="flex min-w-0 flex-1 flex-wrap items-center gap-x-2" lang="en">
+              <span className="rounded-full bg-surface-sunken px-3 py-1 text-[14px] text-text-muted">
+                {t("Parents.demo")}
+              </span>
+              {/* For demo visitors who read English; a parent's phone never needs it. */}
+              <button
+                type="button"
+                role="switch"
+                aria-checked={english}
+                onClick={() => setEnglish(!english)}
+                className="inline-flex min-h-14 items-center gap-2 rounded-lg px-2 text-[15px] text-text-muted"
+              >
+                <span
+                  aria-hidden="true"
+                  className={cn(
+                    "relative h-6 w-10 shrink-0 rounded-full border-2 transition-colors",
+                    english ? "border-ink bg-ink" : "border-text-muted bg-surface",
+                  )}
+                >
+                  <span
+                    className={cn(
+                      "absolute top-0.5 left-0.5 size-4 rounded-full transition-transform",
+                      english ? "translate-x-4 bg-white" : "bg-text-muted",
+                    )}
+                  />
+                </span>
+                Show English
+              </button>
+            </div>
           )}
-          {/* Opens the start screen, where the phone's owner is chosen. */}
+          {/* Asks first, then opens the start screen, where the phone's owner is chosen. */}
           <button
             type="button"
-            onClick={() => go("start")}
-            className="-mr-2 min-h-14 min-w-14 rounded-lg px-2 text-[15px] text-text-muted underline-offset-4 hover:underline"
+            onClick={() => setAsking(true)}
+            aria-expanded={asking}
+            className="-mr-2 min-h-14 min-w-14 shrink-0 whitespace-nowrap rounded-lg px-2 text-[15px] text-text-muted underline-offset-4 hover:underline"
           >
             <span lang="en">{state.parent.firstName}</span>
             <span className="sr-only" lang="te">
@@ -307,6 +352,29 @@ function ParentScreens({
             </span>
           </button>
         </header>
+        {asking ? (
+          <div role="group" aria-labelledby="other-phone" className="mb-4 rounded-card bg-surface-sunken p-4" lang="te">
+            <p id="other-phone" className="text-parent font-semibold">
+              <L k="Parents.otherPhone" />
+            </p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <button
+                type="button"
+                onClick={() => setAsking(false)}
+                className="min-h-14 flex-1 basis-32 rounded-lg bg-ink px-3 text-[18px] font-semibold text-white"
+              >
+                <L k="Parents.stayMine" />
+              </button>
+              <button
+                type="button"
+                onClick={() => go("start")}
+                className="min-h-14 flex-1 basis-32 rounded-lg border border-line-strong bg-surface px-3 text-[18px] font-semibold"
+              >
+                <L k="Parents.changeOwner" />
+              </button>
+            </div>
+          </div>
+        ) : null}
         {/* Always in the page, so screen readers announce the change when the Wi-Fi drops. */}
         <div role="status">
           {!online ? (
@@ -318,7 +386,7 @@ function ParentScreens({
         </div>
         <main data-view={view}>
           {view === "today" ? <TodayView featuredId={featured ?? outingId} onFeature={setFeatured} /> : null}
-          <Suspense fallback={null}>
+          <Suspense fallback={<Opening label={t("Parents.opening")} />}>
             {view === "directions" ? <DirectionsView /> : null}
             {view === "driver" ? <DriverView /> : null}
             {view === "practice" ? <PracticeView /> : null}
@@ -333,6 +401,11 @@ function ParentScreens({
       </div>
       <BottomBar
         labels={{ home: t("Parents.imHome"), diary: t("Parents.diary"), lost: t("Parents.imLost") }}
+        glosses={
+          english
+            ? { home: GLOSS["Parents.imHome"], diary: GLOSS["Parents.diary"], lost: GLOSS["Parents.imLost"] }
+            : undefined
+        }
         onHome={onHome}
         onDiary={() => go("diary")}
         onLost={() => go("lost")}
@@ -344,6 +417,23 @@ function ParentScreens({
 }
 
 /**
+ * Shown while a screen's code is still loading. Nothing for the first 150 ms, so a quick load
+ * never flashes; after that a calm line, so a slow phone doesn't look broken.
+ */
+function Opening({ label }: { label: string }) {
+  const [show, setShow] = useState(false);
+  useEffect(() => {
+    const id = window.setTimeout(() => setShow(true), 150);
+    return () => window.clearTimeout(id);
+  }, []);
+  return show ? (
+    <p role="status" className="pt-6 text-parent text-text-muted" lang="te">
+      {label}
+    </p>
+  ) : null;
+}
+
+/**
  * /parents: whose phone is this? A setup link (/parents?as=fremont-demo.p_sarala) answers it
  * once; after that the phone opens its parent's page straight away, offline too.
  */
@@ -351,6 +441,8 @@ function StartScreen() {
   const t = useTranslations();
   const [ready, setReady] = useState(false);
   const [household, setHousehold] = useState<string>(DEMO_HOUSEHOLDS[0].slug);
+  // The phone's saved owner, when someone came here from their own screen: the way back.
+  const [saved, setSaved] = useState<PhoneSettings | null>(null);
   // undefined: still loading; null: no copy on the network or the phone.
   const [weeks, setWeeks] = useState<Record<string, WeekView | null | undefined>>({});
 
@@ -368,7 +460,10 @@ function StartScreen() {
         window.location.replace(`${pageFor(s)}${q.size ? `?${q}` : ""}`);
         return;
       }
-      if (s) setHousehold(s.household);
+      if (s) {
+        setHousehold(s.household);
+        setSaved(s);
+      }
       setReady(true);
     })();
   }, []);
@@ -378,11 +473,22 @@ function StartScreen() {
     loadWeek(household).then(({ week }) => setWeeks((w) => ({ ...w, [household]: week })));
   }, [ready, household, weeks]);
 
-  if (!ready) return <div className="min-h-dvh" aria-busy="true" />;
+  // Not blank while the phone looks up its owner: with nothing painted, the app's scripts waited
+  // 2 s for a first paint that never came (scripts/defer-scripts.mjs).
+  if (!ready)
+    return (
+      <main className="mx-auto max-w-[480px] px-5 pt-6" aria-busy="true">
+        <Mark size={44} />
+        <p className="mt-6 text-parent text-text-muted" lang="te">
+          {t("Parents.opening")}
+        </p>
+      </main>
+    );
   return (
     <main className="mx-auto max-w-[480px] px-5 pb-10">
       <StartView
         weeks={weeks}
+        back={saved ? pageFor(saved) : undefined}
         household={household}
         onHousehold={setHousehold}
         onParent={async (id) => {

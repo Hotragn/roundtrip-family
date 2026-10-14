@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, House, Lock, WifiOff } from "lucide-react";
+import { ArrowLeft, Check, House, Lock, WifiOff } from "lucide-react";
 import { Mark } from "@/components/brand/logo";
 import { cn } from "@/lib/utils";
 import { DEMO_HOUSEHOLDS, type WeekView } from "@/lib/week";
@@ -33,12 +33,15 @@ function StepTitle({ n, te, en, as: Tag = "h2" }: { n: number; te: string; en: s
 
 export function StartView({
   weeks,
+  back,
   household,
   onHousehold,
   onParent,
   t,
 }: {
   weeks: Record<string, WeekView | null | undefined>;
+  /** The phone's own page, when it already has an owner: this page then opens with the way back. */
+  back?: string;
   household: string;
   onHousehold: (slug: string) => void;
   onParent: (id: string) => void;
@@ -58,6 +61,20 @@ export function StartView({
           {t("Parents.demo")}
         </span>
       </div>
+
+      {back ? (
+        <section className="rounded-ticket bg-surface p-6 shadow-raised ring-1 ring-line" lang="te">
+          <p className="text-[26px] font-semibold">{t("Parents.setupLine")}</p>
+          <p className="mt-2 text-parent text-text-muted">{t("Parents.setupBackLine")}</p>
+          <a
+            href={back}
+            className="mt-4 flex flex-wrap min-h-16 items-center justify-center gap-3 rounded-xl bg-bus px-6 text-parent font-semibold text-on-bus"
+          >
+            <ArrowLeft aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
+            {t("Parents.backToMine")}
+          </a>
+        </section>
+      ) : null}
 
       <section className="rounded-ticket bg-surface p-6 shadow-raised ring-1 ring-line">
         <p className="text-[30px] font-semibold" lang="te">

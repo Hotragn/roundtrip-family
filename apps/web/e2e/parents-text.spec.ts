@@ -1,4 +1,5 @@
 import { expect, type Page, test } from "@playwright/test";
+import te from "../messages/te.json";
 import { ready } from "./ready";
 
 /**
@@ -210,7 +211,8 @@ function audit({ minTarget, checkTargets }: { minTarget: number; checkTargets: b
     // Keyboard focus never lands under the fixed bottom bar (WCAG 2.4.11).
     if (bar && getComputedStyle(bar).position === "fixed") {
       for (const { el } of rects) {
-        if (fixedRoot(el) || !(el instanceof HTMLElement)) continue;
+        // A disabled button can't take focus, so the browser never scrolls it clear of the bar.
+        if (fixedRoot(el) || !(el instanceof HTMLElement) || el.matches(":disabled")) continue;
         el.focus();
         const r = el.getBoundingClientRect();
         const covered = r.bottom - bar.getBoundingClientRect().top;
@@ -264,13 +266,13 @@ test("Telugu text, tap targets and reflow: start screen", async ({ page }, info)
   expect(problems).toEqual([]);
 });
 
-/** Words in the elements that split across two lines (each word's text range has one line box). */
+/** Words in the elements that split across two lines (each word's text range has one line box). A break after a hyphen is fine. */
 function splitWords(selector: string): string[] {
   const out: string[] = [];
   for (const el of document.querySelectorAll(selector)) {
     const node = el.firstChild;
     if (!(node instanceof Text)) continue;
-    for (const m of node.data.matchAll(/\S+/g)) {
+    for (const m of node.data.matchAll(/[^\s-]+/g)) {
       const r = document.createRange();
       r.setStart(node, m.index);
       r.setEnd(node, m.index + m[0].length);
@@ -294,6 +296,115 @@ test("large text keeps times and the driver's stop name whole", async ({ page },
     await check(page, scale);
     expect(await page.evaluate(splitWords, 'main[data-view="driver"] section p.font-bold')).toEqual([]);
   }
+});
+
+test("large text keeps ticket titles and the week's place names whole", async ({ page }, info) => {
+  test.skip(info.project.name !== "mobile", "phone screens");
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  const split: string[] = [];
+  for (const who of PARENT_PAGES) {
+    for (const scale of [1.5, 2]) {
+      await page.goto(who.path);
+      await ready(page);
+      await check(page, scale);
+      for (const w of await page.evaluate(splitWords, "main article h2, main li button span.font-semibold"))
+        split.push(`${who.key} at ${scale * 100}%: ${w}`);
+    }
+  }
+  expect(split).toEqual([]);
+});
+
+test("Show English adds English hints for demo visitors and stays on the device", async ({ page }, info) => {
+  test.skip(info.project.name !== "mobile", "phone screens");
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await page.goto("/parents/munich-demo/p_kamala");
+  await ready(page);
+  const toggle = page.getByRole("switch", { name: "Show English" });
+  await expect(toggle).toHaveAttribute("aria-checked", "false");
+  await expect(page.getByText("I'm home", { exact: true })).toHaveCount(0);
+  await toggle.click();
+  await expect(page.getByRole("button", { name: /దారి\s*Directions/ })).toBeVisible();
+  await expect(page.getByRole("navigation").getByText("I'm home", { exact: true })).toBeVisible();
+  // Every screen still fits with the hints, at normal size and at 200%.
+  await page.reload();
+  await ready(page);
+  await expect(page.getByRole("switch", { name: "Show English" })).toHaveAttribute("aria-checked", "true");
+  const problems: string[] = [];
+  for (const scale of SCALES) {
+    for (const v of VIEWS) {
+      await page.goto(`/parents/munich-demo/p_kamala${v === "today" ? "" : `?v=${v}`}`);
+      await ready(page);
+      await expect(page.locator(`main[data-view="${v}"]`)).toBeVisible();
+      for (const p of await check(page, scale)) problems.push(`${v} at ${scale * 100}%: ${p}`);
+    }
+  }
+  expect(problems).toEqual([]);
+});
+
+test("the name chip asks before it leaves, and the setup page leads back", async ({ page }, info) => {
+  test.skip(info.project.name !== "mobile", "phone screens");
+  await page.goto("/parents/fremont-demo/p_sarala");
+  await ready(page);
+  await page.getByRole("button", { name: /Sarala/ }).click();
+  await expect(page.getByText(te.Parents.otherPhone)).toBeVisible();
+  await page.getByRole("button", { name: te.Parents.stayMine }).click();
+  await expect(page.getByText(te.Parents.otherPhone)).toHaveCount(0);
+  await expect(page).toHaveURL(/\/parents\/fremont-demo\/p_sarala$/);
+  await page.getByRole("button", { name: /Sarala/ }).click();
+  await page.getByRole("button", { name: te.Parents.changeOwner }).click();
+  await expect(page).toHaveURL(/\/parents\?v=start/);
+  await expect(page.getByText(te.Parents.setupLine)).toBeVisible();
+  await page.getByRole("link", { name: te.Parents.backToMine }).click();
+  await expect(page).toHaveURL(/\/parents\/fremont-demo\/p_sarala$/);
+});
+
+test("the setup page paints at once, so its scripts don't wait", async ({ page }, info) => {
+  test.skip(info.project.name !== "mobile", "phone screens");
+  // The server HTML has text, so the first paint (and with it the app's scripts) comes straight away.
+  const html = await (await page.request.get("/parents")).text();
+  expect(html).toContain(te.Parents.opening);
+  const t0 = Date.now();
+  await page.goto("/parents?v=start");
+  await expect(page.getByRole("button", { name: /Fremont, California/ })).toBeVisible();
+  expect(Date.now() - t0).toBeLessThan(1500);
+});
+
+test("train trips say show someone, bus trips say show the driver", async ({ page }, info) => {
+  test.skip(info.project.name !== "mobile", "phone screens");
+  await page.goto("/parents/munich-demo/p_kamala");
+  await ready(page);
+  await expect(page.getByRole("button", { name: te.Parents.showSomeone })).toBeVisible();
+  await expect(page.getByRole("button", { name: te.Parents.showDriver })).toHaveCount(0);
+  await page.goto("/parents/munich-demo/p_kamala?v=driver");
+  await expect(page.getByText(te.Driver.hintSomeone)).toBeVisible();
+  await page.goto("/parents/fremont-demo/p_sarala");
+  await ready(page);
+  await expect(page.getByRole("button", { name: te.Parents.showDriver })).toBeVisible();
+});
+
+test("the help-joining card says who to ask in Telugu too", async ({ page }, info) => {
+  test.skip(info.project.name !== "mobile", "phone screens");
+  await page.goto("/parents/fremont-demo/p_sarala?v=join");
+  await expect(page.getByText(te.Join.askWhoTemple)).toBeVisible();
+  await expect(page.getByText("Ask at the temple office.")).toBeVisible();
+});
+
+test("diary recordings play with one large button, and sharing updates the note", async ({ page }, info) => {
+  test.skip(info.project.name !== "mobile", "phone screens");
+  await page.goto("/parents/fremont-demo/p_sarala?v=diary");
+  await ready(page);
+  const entries = page.locator("main li.rounded-card");
+  await expect(entries.first()).toBeVisible();
+  await expect(page.locator("audio[controls]")).toHaveCount(0);
+  const play = page.locator("main li").getByRole("button", { name: te.Parents.listen }).first();
+  await expect(play).toBeVisible();
+  const box = await play.boundingBox();
+  expect(box!.height).toBeGreaterThanOrEqual(56);
+  const share = entries.getByRole("button", { name: te.Diary.share, exact: true }).first();
+  await share.click();
+  await expect(page.getByRole("status").filter({ hasText: te.Diary.sharedNow })).toBeVisible();
+  await entries.getByRole("button", { name: te.Diary.unshare }).first().click();
+  await expect(page.getByRole("status").filter({ hasText: te.Diary.privateAgain })).toBeVisible();
 });
 
 test("a diary entry asks once before it's erased", async ({ page }, info) => {

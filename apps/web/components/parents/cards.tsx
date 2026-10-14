@@ -1,6 +1,7 @@
 "use client";
 
 import { Phone, Siren } from "lucide-react";
+import type { ReactNode } from "react";
 import { ListenButton } from "@/components/parents/listen-button";
 import { cn } from "@/lib/utils";
 
@@ -21,7 +22,7 @@ export function DriverCard({
   localLanguage: string;
   /** Speech tag for the local language, e.g. en-US. */
   speech: string;
-  labels: { hint: string; play: string; stop: string };
+  labels: { hint: ReactNode; play: string; stop: string };
 }) {
   const spoken = `${lead} ${stopName}. ${thanks}`;
   return (
@@ -115,7 +116,7 @@ export function LostCard({
   speech,
   labels,
 }: {
-  intro: string;
+  intro: ReactNode;
   help: string;
   /** The household's fixed lines in the local language; {name} and {area} are filled in here. */
   phrases: { helpTitle: string; myName: string; stayingNear: string; callFamily: string };

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import fremont from "../../../data/demo/weeks/fremont-demo.json";
 import munich from "../../../data/demo/weeks/munich-demo.json";
-import { forParent, outingsFor, placePhoto, type WeekView } from "../lib/week";
+import { forParent, outingsFor, placePhoto, showsDriver, type WeekView } from "../lib/week";
 
 const weeks = [fremont, munich] as unknown as WeekView[];
 
@@ -65,5 +65,16 @@ describe("one parent's phone", () => {
         expect(JSON.stringify(mine).length).toBeLessThan(JSON.stringify(w).length);
       }
     }
+  });
+});
+
+describe("who the stop card is shown to", () => {
+  const firstRide = (w: WeekView) => w.outings.flatMap((o) => o.route?.legs ?? []).find((l) => l.mode !== "walk");
+
+  it("is the driver on a bus and someone nearby on a U-Bahn or train", () => {
+    expect(showsDriver(firstRide(weeks[0]!))).toBe(true);
+    expect(firstRide(weeks[1]!)?.mode).toBe("rail");
+    expect(showsDriver(firstRide(weeks[1]!))).toBe(false);
+    expect(showsDriver(undefined)).toBe(false);
   });
 });

@@ -7,10 +7,12 @@ import { DriverCard, PhraseCard } from "@/components/parents/cards";
 import { ListenButton } from "@/components/parents/listen-button";
 import { StopCountdown, useStopAlert } from "@/components/parents/stop-countdown";
 import { cn } from "@/lib/utils";
+import { showsDriver } from "@/lib/week";
 import { useParents } from "../context";
+import { L, listenGloss } from "../gloss";
 
 export function DirectionsView() {
-  const { outing, card, parent, t, week } = useParents();
+  const { outing, card, parent, t, en, week } = useParents();
   const legs = outing?.route?.legs ?? [];
   const transit = legs.filter((l) => l.mode !== "walk");
   const last = transit.at(-1);
@@ -21,7 +23,7 @@ export function DirectionsView() {
   return (
     <div className="space-y-6">
       <h1 className="text-[30px] font-semibold" lang="te">
-        {t("Directions.title")} · <span lang={local}>{outing.venue}</span>
+        <L k="Directions.title" /> · <span lang={local}>{outing.venue}</span>
       </h1>
       {state === "next" ? (
         <div
@@ -61,11 +63,13 @@ export function DirectionsView() {
             lang="te"
           >
             <LocateFixed aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
-            {state === "off"
-              ? t("Directions.showWhere")
-              : state === "unavailable"
-                ? t("Directions.noFix")
-                : t("Directions.locating")}
+            {state === "off" ? (
+              <L k="Directions.showWhere" />
+            ) : state === "unavailable" ? (
+              t("Directions.noFix")
+            ) : (
+              t("Directions.locating")
+            )}
           </button>
         </div>
       ) : null}
@@ -119,6 +123,7 @@ export function DirectionsView() {
         lang={speechTag(parent.language)}
         label={t("Parents.listen")}
         stopLabel={t("Parents.stopListening")}
+        gloss={listenGloss(en)}
         tone="secondary"
       />
     </div>
@@ -135,13 +140,15 @@ export function DriverView() {
   // With a transfer there is a driver card for each bus or train, in the order they ride them.
   const leg = transit[Math.min(legIndex, transit.length - 1)];
   const lineLabel = (l: (typeof transit)[number]) => `${l.mode === "bus" ? "Bus " : ""}${l.line?.name ?? ""}`.trim();
+  const driver = showsDriver(leg);
+  const title = t(driver ? "Driver.title" : "Parents.showSomeone");
   return (
     <div className="space-y-4">
       <h1 className="sr-only" lang="te">
-        {t("Driver.title")}
+        {title}
       </h1>
       {transit.length > 1 ? (
-        <div className="grid grid-cols-2 gap-2" role="group" aria-label={t("Driver.title")}>
+        <div className="grid grid-cols-2 gap-2" role="group" aria-label={title}>
           {transit.map((l, i) => (
             <button
               key={`${l.line?.name}-${i}`}
@@ -167,7 +174,7 @@ export function DriverView() {
         localLanguage={h.localLanguage}
         speech={speechTag(h.localLanguage, h.hostCountry)}
         labels={{
-          hint: t("Driver.hint"),
+          hint: <L k={driver ? "Driver.hint" : "Driver.hintSomeone"} />,
           play: t("Driver.playLocal", { language: languageNameIn(h.localLanguage, parent.language) }),
           stop: t("Parents.stopListening"),
         }}
@@ -184,7 +191,7 @@ export function PracticeView() {
   return (
     <div className="space-y-5">
       <h1 className="text-[30px] font-semibold" lang="te">
-        {t("Practice.title")}
+        <L k="Practice.title" />
       </h1>
       <ul className="space-y-4">
         {card.phrases.map((p) => (
@@ -219,7 +226,7 @@ export function JoinView() {
     return (
       <div className="space-y-5">
         <h1 className="text-[30px] font-semibold" lang="te">
-          {t("Join.title")}
+          <L k="Join.title" />
         </h1>
         <p className="text-parent" lang="te">
           {t("Join.noneThisWeek")}
@@ -238,13 +245,13 @@ export function JoinView() {
   return (
     <div className="space-y-5">
       <h1 className="text-[30px] font-semibold" lang="te">
-        {t("Join.title")}
+        <L k="Join.title" />
       </h1>
       <p className="text-[18px] text-text-muted" lang="te">
         {t("Join.forPlace", { place: target.venue })}
       </p>
       <p className="text-parent" lang="te">
-        {t("Join.show")}
+        <L k="Join.show" />
       </p>
       <div className="rounded-ticket bg-surface p-6 shadow-raised ring-1 ring-line" lang={local}>
         <p className="text-[32px] font-semibold leading-snug">{join.local}</p>
@@ -254,9 +261,13 @@ export function JoinView() {
       </p>
       <div>
         <p className="text-[16px] text-text-muted" lang="te">
-          {t("Join.askWho")}
+          <L k="Join.askWho" />
         </p>
-        <p className="text-[24px] font-semibold" lang={local}>
+        {/* The Telugu for the parent, then the same in the local language, to show someone. */}
+        <p className="text-parent" lang="te">
+          {t(join.kind === "volunteer" ? "Join.askWhoTemple" : "Join.askWhoDesk")}
+        </p>
+        <p className="mt-1 text-[24px] font-semibold" lang={local}>
           {join.askWho}
         </p>
       </div>
@@ -277,7 +288,7 @@ export function FriendView() {
   return (
     <div className="space-y-6">
       <h1 className="text-[30px] font-semibold" lang="te">
-        {t("Friend.title")}
+        <L k="Friend.title" />
       </h1>
       {people.map((p) => (
         <section key={p.id} aria-label={p.label} className="space-y-3">
