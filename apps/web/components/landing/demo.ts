@@ -39,8 +39,8 @@ export function demoWeek() {
     place: o.venue,
     trip: tripSummary(o),
     approved: o.status === "approved",
-    // The reasons for it first: the ranker adds "This day and time rated lower so far" to most
-    // picks, and as the first thing a visitor reads on every row it buries why each was chosen.
+    // The reason for it first: each row has room for one chip, and it should say why the outing
+    // was chosen rather than what counts against it.
     chips: [...o.chips]
       .sort((a, b) => Number(b.direction === "for") - Number(a.direction === "for"))
       .slice(0, 1)
