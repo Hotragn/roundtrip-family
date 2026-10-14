@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791937998800",
+  "object": "chat.completion",
+  "created": 1791937998,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c2\",\"parent\":\"mother\",\"reason\":\"She enjoys visiting temples as she has done before.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c6\",\"parent\":\"mother\",\"reason\":\"She likes visiting Indian grocery stores.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c5\",\"parent\":\"mother\",\"reason\":\"She liked the park outings she had before.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c1\",\"parent\":\"mother\",\"reason\":\"This is a program for newcomers and older adults.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c12\",\"parent\":\"mother\",\"reason\":\"The pleasant Sunday weather is good for a farmers market.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false}],\"note\":\"No Telugu events were found this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1946,
+   "completion_tokens": 215,
+   "total_tokens": 2161,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 23.55454444885254
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-14T00:33:18.953Z",
+ "latencyMs": 6397
+}

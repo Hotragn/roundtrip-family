@@ -1,0 +1,40 @@
+{
+ "body": {
+  "id": "id-1791938027275",
+  "object": "chat.completion",
+  "created": 1791938027,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c1\",\"parent\":\"mother\",\"reason\":\"She enjoys calm environments and watching people, similar to her interest in balcony observation.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c1\",\"parent\":\"father\",\"reason\":\"He enjoys reading and quiet spaces, which matches his interest in reading novels.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c2\",\"parent\":\"mother\",\"reason\":\"The social center offers a way to meet others, similar to her interest in meeting Indian women.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true},{\"candidateId\":\"c2\",\"parent\":\"father\",\"reason\":\"He enjoys walking with company and social settings.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":true}],\"note\":\"No Telugu events or groups were found nearby this week.\"}\n```",
+     "refusal": null,
+     "annotations": null,
+     "audio": null,
+     "function_call": null,
+     "reasoning": null
+    },
+    "logprobs": null,
+    "finish_reason": "stop",
+    "stop_reason": 106,
+    "token_ids": null,
+    "routed_experts": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1277,
+   "completion_tokens": 200,
+   "total_tokens": 1477,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 17.063636779785156
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-14T00:33:47.517Z",
+ "latencyMs": 1590
+}

@@ -298,7 +298,7 @@ test("large text keeps times and the driver's stop name whole", async ({ page },
   }
 });
 
-test("large text keeps ticket titles and the week's place names whole", async ({ page }, info) => {
+test("large text keeps ticket titles, the stub's buttons and the week's place names whole", async ({ page }, info) => {
   test.skip(info.project.name !== "mobile", "phone screens");
   await page.emulateMedia({ reducedMotion: "reduce" });
   const split: string[] = [];
@@ -307,7 +307,10 @@ test("large text keeps ticket titles and the week's place names whole", async ({
       await page.goto(who.path);
       await ready(page);
       await check(page, scale);
-      for (const w of await page.evaluate(splitWords, "main article h2, main li button span.font-semibold"))
+      for (const w of await page.evaluate(
+        splitWords,
+        "main article h2, main [data-stub] button, main li button span.font-semibold",
+      ))
         split.push(`${who.key} at ${scale * 100}%: ${w}`);
     }
   }
@@ -329,6 +332,17 @@ test("Show English adds English hints for demo visitors and stays on the device"
   await page.reload();
   await ready(page);
   await expect(page.getByRole("switch", { name: "Show English" })).toHaveAttribute("aria-checked", "true");
+  // The strip stays on one line beside the name on a 375 px phone.
+  await page.setViewportSize({ width: 375, height: 812 });
+  const middles = await page.evaluate(() =>
+    [document.querySelector('[role="switch"]'), document.querySelector('[role="switch"]')?.previousElementSibling].map(
+      (e) => {
+        const r = e?.getBoundingClientRect();
+        return r ? r.top + r.height / 2 : -1;
+      },
+    ),
+  );
+  expect(Math.abs(middles[0]! - middles[1]!)).toBeLessThan(8);
   const problems: string[] = [];
   for (const scale of SCALES) {
     for (const v of VIEWS) {

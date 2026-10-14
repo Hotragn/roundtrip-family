@@ -311,13 +311,15 @@ function ParentScreens({
           ) : (
             <div className="flex min-w-0 flex-1 flex-wrap items-center gap-x-2" lang="en">
               <span className="rounded-full bg-surface-sunken px-3 py-1 text-[14px] text-text-muted">
-                {t("Parents.demo")}
+                {t("Parents.demoShort")}
               </span>
-              {/* For demo visitors who read English; a parent's phone never needs it. */}
+              {/* For demo visitors who read English; a parent's phone never needs it. Short labels so
+                  the strip stays on one line beside the name on a 375 px phone. */}
               <button
                 type="button"
                 role="switch"
                 aria-checked={english}
+                aria-label="Show English"
                 onClick={() => setEnglish(!english)}
                 className="inline-flex min-h-14 items-center gap-2 rounded-lg px-2 text-[15px] text-text-muted"
               >
@@ -335,7 +337,7 @@ function ParentScreens({
                     )}
                   />
                 </span>
-                Show English
+                English
               </button>
             </div>
           )}

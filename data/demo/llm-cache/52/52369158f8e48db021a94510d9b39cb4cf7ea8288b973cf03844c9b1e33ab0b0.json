@@ -1,0 +1,32 @@
+{
+ "body": {
+  "id": "id-1791938017680",
+  "object": "chat.completion",
+  "created": 1791938017,
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "content": "```json\n{\"outings\":[{\"candidateId\":\"c1\",\"parent\":\"both\",\"reason\":\"They enjoyed previous visits to the temple.\",\"firstRideTogether\":true,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c7\",\"parent\":\"mother\",\"reason\":\"She liked the Indian grocery outings she had before.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c7\",\"parent\":\"father\",\"reason\":\"He liked the Indian grocery outings he had before.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":false},{\"candidateId\":\"c2\",\"parent\":\"father\",\"reason\":\"He enjoys walking and has had successful times at markets.\",\"firstRideTogether\":true,\"bringSomeone\":\"neighbor who speaks German\",\"joinHelp\":false},{\"candidateId\":\"c5\",\"parent\":\"mother\",\"reason\":\"She enjoys meeting new people in calm environments.\",\"firstRideTogether\":false,\"bringSomeone\":null,\"joinHelp\":true}],\"note\":\"No Telugu events or groups were found nearby this week.\"}\n```",
+     "role": "assistant"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1988,
+   "completion_tokens": 221,
+   "total_tokens": 2209,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "neurons": 24.100000381469727
+  }
+ },
+ "provider": "cloudflare",
+ "model": "@cf/google/gemma-4-26b-a4b-it",
+ "createdAt": "2026-10-14T00:33:37.815Z",
+ "latencyMs": 6540
+}

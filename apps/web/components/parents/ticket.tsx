@@ -119,7 +119,14 @@ export function Ticket({
           home && "translate-x-1 translate-y-4 -rotate-[1.6deg] rounded-t-[10px]",
         )}
       >
-        <div className={cn("flex flex-wrap items-center gap-3 px-5 py-4 transition-opacity", home && "opacity-35")}>
+        {/* Whole words: a button that doesn't fit moves to the next line instead of splitting its label. */}
+        <div
+          data-stub=""
+          className={cn(
+            "flex flex-wrap items-center gap-3 px-5 py-4 transition-opacity [overflow-wrap:normal]",
+            home && "opacity-35",
+          )}
+        >
           {stub}
         </div>
         {home ? (
