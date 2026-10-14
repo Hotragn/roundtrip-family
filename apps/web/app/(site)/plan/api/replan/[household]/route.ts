@@ -1,5 +1,6 @@
 import { liveWeekContext } from "@roundtrip/agent/live-week";
 import { planWeek } from "@roundtrip/agent/planner";
+import { RankerUnavailable, rankerAwake } from "@roundtrip/agent/ranker";
 import { z } from "zod";
 import { HOUSEHOLDS, isHousehold } from "@/lib/plan-board";
 import type { ReplanResult } from "@/lib/replan-types";
@@ -13,6 +14,11 @@ import { traced } from "@/sentry.server";
  * searches are made. Rate-limited, because every run spends free allowances: three runs an
  * hour per visitor and forty a day for the whole demo. The result isn't put on their phones;
  * the demo week stays as it is.
+ *
+ * The free ranker sleeps when idle and takes 30 to 60 seconds to start, so the run first waits
+ * for it (the panel has usually woken it already) and doesn't count a run it couldn't start.
+ * The ranking itself is tried twice (tools/ranker.ts); Gemma failing falls back to a plan made
+ * from the scores, so what's left to fail is mostly the ranker or the forecast.
  */
 export const dynamic = "force-dynamic";
 export const maxDuration = 300;
@@ -28,12 +34,21 @@ const DAY_NAME: Record<string, string> = {
   sun: "Sunday",
 };
 const DAYS = Object.keys(DAY_NAME);
+const RANKER_ASLEEP =
+  "The server that rates the options is still starting after a quiet spell. Press Plan it now again in a minute.";
+const RANKER_FAILED = "The server that rates the options didn't answer, twice. Press Plan it now again in a minute.";
+const DIDNT_FINISH =
+  "The planner stopped before it finished. Press Plan it now again in a minute; if it stops twice, try later today.";
 
 export async function POST(req: Request, { params }: { params: Promise<{ household: string }> }) {
   const { household } = await params;
   if (!isHousehold(household)) return Response.json({ error: "No such household" }, { status: 404 });
   const body = Body.safeParse(await req.json().catch(() => ({})));
   if (!body.success) return Response.json({ error: "Invalid choice" }, { status: 400 });
+
+  if (!(await rankerAwake(process.env, 90_000))) {
+    return Response.json({ error: RANKER_ASLEEP }, { status: 503 });
+  }
 
   const sid = await sessionId();
   const allowed = take([
@@ -101,10 +116,10 @@ export async function POST(req: Request, { params }: { params: Promise<{ househo
     };
     return Response.json(result, { headers: { "Cache-Control": "no-store" } });
   } catch (e) {
-    console.warn(`Plan the coming week failed: ${e instanceof Error ? e.message.slice(0, 300) : e}`);
-    return Response.json(
-      { error: "The planner didn't finish this time. The free servers may be waking up; try again in a minute." },
-      { status: 503 },
+    const ranker = e instanceof RankerUnavailable;
+    console.warn(
+      `Plan the coming week failed after ${Date.now() - started} ms (${ranker ? "ranker" : "planner"}): ${e instanceof Error ? e.message.slice(0, 300) : e}`,
     );
+    return Response.json({ error: ranker ? RANKER_FAILED : DIDNT_FINISH }, { status: 503 });
   }
 }
