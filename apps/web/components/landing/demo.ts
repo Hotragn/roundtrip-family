@@ -74,6 +74,7 @@ export function demoWeek() {
   const safety = week.household.safety;
   return {
     name: parent?.firstName ?? "Sarala",
+    weekLabel: week.week.label,
     plan,
     ticket,
     safety: ticket

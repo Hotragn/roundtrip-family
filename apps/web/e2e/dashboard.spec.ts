@@ -25,6 +25,12 @@ async function violations(page: Page) {
   );
 }
 
+/** The technical details start closed; open them so their tables are checked too. */
+const openDetails = (page: Page) =>
+  page.evaluate(() => {
+    for (const d of document.querySelectorAll("details")) d.open = true;
+  });
+
 for (const scheme of ["light", "dark"] as const) {
   for (const household of ["fremont-demo", "munich-demo"]) {
     test(`dashboard has no WCAG AA violations: ${household} (${scheme})`, async ({ page }, info) => {
@@ -33,6 +39,7 @@ for (const scheme of ["light", "dark"] as const) {
       for (const s of SECTIONS) {
         await page.goto(`/plan/${household}${s}`);
         await expect(page.locator("main h1").first()).toBeVisible();
+        await openDetails(page);
         expect(await violations(page), `${household}${s} ${scheme}`).toEqual([]);
       }
     });
@@ -52,6 +59,7 @@ test("no section scrolls sideways on a 320 px phone, for either household", asyn
     for (const s of SECTIONS) {
       await page.goto(`/plan/${household}${s}`);
       await ready(page);
+      await openDetails(page);
       const [scroll, client] = await page.evaluate(() => [
         document.documentElement.scrollWidth,
         document.documentElement.clientWidth,

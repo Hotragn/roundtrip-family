@@ -216,7 +216,7 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
             { label: "Approved", value: String(approved) },
             { label: "To decide", value: String(items.length - approved) },
             {
-              label: "Next outing",
+              label: "First outing",
               value: next ? `${DAY_NAMES[next.day]?.slice(0, 3)} ${hhmm(next.depart)}` : "None yet",
             },
           ].map((s) => (
@@ -267,8 +267,9 @@ export function WeekBoard({ board }: { board: PlanBoard }) {
         </div>
       </DndContext>
       <p className="text-[14px] text-text-muted">
-        Places and events come from live searches for the week of {board.week.label}. The family is fictional. Drag an
-        outing to move it to another day they&rsquo;re free; open one to see the route, the reasons and their ticket.
+        Places and events come from live searches for the sample week of {board.week.label}. The family is fictional.
+        Drag an outing to move it to another day they&rsquo;re free; open one to see the route, the reasons and their
+        ticket.
       </p>
       {sheetUsed ? (
         <Suspense fallback={null}>

@@ -3,12 +3,12 @@
 import { useQuery } from "@tanstack/react-query";
 import { Check, Clock, Frown, Meh, Mic, Smile } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 import { Panel } from "@/components/shell/panel";
 import type { Visit } from "@/lib/family";
-import { hhmm, longDate, tripLine, whoFor } from "@/lib/plan-format";
+import { checkinLine, hhmm, longDate, sampleWeek, tripLine, whoFor } from "@/lib/plan-format";
 import type { PlanBoard } from "@/lib/plan-types";
 import { cn } from "@/lib/utils";
+import { DEMO_NOW } from "@/lib/week";
 import { howItWent } from "./memory-lists";
 import { type EffectiveItem, useEffectiveItems, useOverlay } from "./use-overlay";
 
@@ -46,44 +46,8 @@ function useRecords<T>(kind: "checkin" | "reply") {
   });
 }
 
-/** Minutes since midnight now, and today's date, in the household's time zone. */
-function useNow(timezone: string) {
-  const [now, setNow] = useState<{ date: string; minutes: number } | null>(null);
-  useEffect(() => {
-    const read = () => {
-      const parts = Object.fromEntries(
-        new Intl.DateTimeFormat("en-CA", {
-          timeZone: timezone,
-          year: "numeric",
-          month: "2-digit",
-          day: "2-digit",
-          hour: "2-digit",
-          minute: "2-digit",
-          hourCycle: "h23",
-        })
-          .formatToParts(new Date())
-          .map((p) => [p.type, p.value]),
-      );
-      setNow({
-        date: `${parts.year}-${parts.month}-${parts.day}`,
-        minutes: Number(parts.hour) * 60 + Number(parts.minute),
-      });
-    };
-    read();
-    const t = setInterval(read, 60_000);
-    return () => clearInterval(t);
-  }, [timezone]);
-  return now;
-}
-
 /** "didn't know which bus" as a sentence: "Didn't know which bus." */
 const sentence = (t: string) => `${t.charAt(0).toUpperCase()}${t.slice(1)}${/[.!?]$/.test(t) ? "" : "."}`;
-
-function clockIn(iso: string, timezone: string): string {
-  return new Intl.DateTimeFormat("en-GB", { timeZone: timezone, hour: "2-digit", minute: "2-digit" }).format(
-    new Date(iso),
-  );
-}
 
 function Status({
   item,
@@ -91,14 +55,12 @@ function Status({
   board,
   checkins,
   replies,
-  now,
 }: {
   item: EffectiveItem;
   date: string;
   board: PlanBoard;
   checkins: Checkin[];
   replies: Reply[];
-  now: { date: string; minutes: number } | null;
 }) {
   const tz = board.household.timezone;
   const mine = (r: Checkin) => r.outingId === item.slotId || r.outingId === item.id;
@@ -113,7 +75,10 @@ function Status({
             className="inline-flex items-center gap-1.5 rounded-chip bg-home-green/10 px-2.5 py-1 text-[14px] font-semibold text-home-green-text"
           >
             <Check aria-hidden="true" className="size-4 stroke-[2.25]" />
-            {board.parents.find((p) => p.id === c.parentId)?.firstName} was home at {clockIn(c.createdAt, tz)}
+            {checkinLine(board.parents.find((p) => p.id === c.parentId)?.firstName ?? "", c.createdAt, tz, {
+              date,
+              depart: item.depart,
+            })}
           </p>
         ))}
         {said.map((r) => {
@@ -134,7 +99,8 @@ function Status({
       </div>
     );
   }
-  if (!now) return null;
+  // The sample week's own clock (Monday morning, as on their phones), never the real today.
+  const now = DEMO_NOW;
   const when =
     date < now.date
       ? "past"
@@ -174,7 +140,6 @@ export function TheirWeek({ board, history }: { board: PlanBoard; history: Visit
   const items = useEffectiveItems(board, overlay).filter((i) => i.status === "approved");
   const checkins = useRecords<Checkin>("checkin").data ?? [];
   const replies = useRecords<Reply>("reply").data ?? [];
-  const now = useNow(board.household.timezone);
   const days = board.week.days.filter((d) => items.some((i) => i.day === d.day));
   const went = history.filter((v) => v.went).reverse();
   const missed = history.filter((v) => !v.went);
@@ -183,7 +148,7 @@ export function TheirWeek({ board, history }: { board: PlanBoard; history: Visit
     <div className="space-y-8">
       <section aria-labelledby="this-week" className="space-y-4">
         <h2 id="this-week" className="text-[20px] font-semibold">
-          This week, {board.week.label}
+          {sampleWeek(board.week.label)}
         </h2>
         {items.length === 0 ? (
           <Panel className="p-5">
@@ -219,14 +184,7 @@ export function TheirWeek({ board, history }: { board: PlanBoard; history: Visit
                               {whoFor(i, board)} · {tripLine(i)}
                             </p>
                           </div>
-                          <Status
-                            item={i}
-                            date={d.date}
-                            board={board}
-                            checkins={checkins}
-                            replies={replies}
-                            now={now}
-                          />
+                          <Status item={i} date={d.date} board={board} checkins={checkins} replies={replies} />
                         </li>
                       ))}
                   </ul>
@@ -246,7 +204,7 @@ export function TheirWeek({ board, history }: { board: PlanBoard; history: Visit
           >
             {board.parents[0]?.firstName}&rsquo;s phone
           </a>
-          .
+          . The plan is shown as it stands on Monday morning of the sample week, as on their phones.
         </p>
       </section>
 

@@ -138,7 +138,8 @@ export function Story() {
             </a>
           </div>
           <p className="mt-6 text-sm text-text-muted">
-            The families in the demo are fictional. The places, events and bus routes come from real searches.
+            The demo shows a sample week, {week.weekLabel}. The families in it are fictional. The places, events and bus
+            routes come from real searches.
           </p>
         </Panel>
       </section>

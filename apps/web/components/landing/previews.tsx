@@ -1,4 +1,5 @@
 import { TravelLine, TravelLines } from "@/components/travel/travel-line";
+import { sampleWeek } from "@/lib/plan-format";
 import { cn } from "@/lib/utils";
 import type { DemoWeek } from "./demo";
 import { CheckIcon, LockIcon, ReasonChip } from "./ui";
@@ -20,6 +21,7 @@ export function WeekPreview({ week }: { week: DemoWeek }) {
   if (week.plan.length === 0) return null;
   return (
     <Frame label={`${week.name}'s week on the dashboard`}>
+      <p className="mb-3 text-[13px] text-text-muted">{sampleWeek(week.weekLabel)}</p>
       <ul className="divide-y divide-line">
         {week.plan.map((o) => (
           <li key={o.id} className="py-3 first:pt-0 last:pb-0">

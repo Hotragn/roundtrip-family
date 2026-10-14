@@ -5,7 +5,7 @@ import { Bus, Check, Footprints, TrainFront, Undo2, X } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useRef } from "react";
 import { Button } from "@/components/ui/button";
-import { DAY_NAMES, hhmm, hoursLine, longDate, tripLine, whoFor } from "@/lib/plan-format";
+import { clock24, DAY_NAMES, hhmm, hoursLine, longDate, tripLine, whoFor } from "@/lib/plan-format";
 import type { BoardItem, PlanBoard } from "@/lib/plan-types";
 import { PlacePhoto } from "./place-photo";
 import { LadderBadge, ReasonChips } from "./reason";
@@ -53,7 +53,7 @@ function Legs({ item }: { item: BoardItem }) {
             <Icon aria-hidden="true" className="mt-0.5 size-[18px] shrink-0 stroke-[1.75] text-text-muted" />
             <span>
               {text}
-              {l.departs ? <span className="text-text-muted"> · leaves {l.departs}</span> : null}
+              {l.departs ? <span className="text-text-muted"> · leaves {clock24(l.departs)}</span> : null}
             </span>
           </li>
         );
@@ -231,6 +231,13 @@ export function ItemSheet({
                         <Undo2 aria-hidden="true" className="size-4" />
                         Back to {original.title}
                       </Button>
+                    ) : null}
+                    {alternatives.some((a) => a.score.combined > item.score.combined) ? (
+                      <p className="text-[13px] text-text-muted">
+                        A higher score doesn&rsquo;t always win. The planner also puts places in their language first,
+                        keeps a mix of kinds of outing, gives each parent their own outings and plans at most one a day
+                        for each, in the times they&rsquo;re free.
+                      </p>
                     ) : null}
                     <ul className="space-y-3">
                       {alternatives.map((a) => (

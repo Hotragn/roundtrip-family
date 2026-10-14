@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PrivacyTable } from "@/components/dashboard/privacy-table";
 import { DashboardShell } from "@/components/dashboard/shell";
+import { InShort, TechnicalDetails } from "@/components/dashboard/technical-details";
 import { Panel } from "@/components/shell/panel";
 import { HOUSEHOLDS, isHousehold, loadBoard } from "@/lib/plan-board";
 
@@ -67,10 +68,26 @@ export default async function Privacy({ params }: PageProps<"/plan/[household]/p
           <h1 className="text-[31px] font-semibold leading-tight">Privacy</h1>
           <p className="text-base text-text-muted">
             Where your family&rsquo;s information goes. Roundtrip can reach {services} outside services over{" "}
-            {OUTBOUND.length} connections, and every connection is in the table below, generated from the same list the
-            code is held to.
+            {OUTBOUND.length} connections, and every connection is in the table under technical details, generated from
+            the same list the code is held to.
           </p>
         </div>
+
+        <InShort>
+          <li>
+            Their names, your address, phone numbers, voices and diaries stay on their phones and in your
+            household&rsquo;s own database.
+          </li>
+          <li>Each diary is locked with that parent&rsquo;s own key. You see only the entries they choose to share.</li>
+          <li>
+            Searches for outings say only the language, the interest and the area, never who is asking. Bus directions
+            start at the nearest stop, not your door.
+          </li>
+          <li>
+            Every outside service Roundtrip can reach is listed in the technical details below, and the code is checked
+            so it can&rsquo;t reach anything else.
+          </li>
+        </InShort>
 
         <Panel className="p-5 sm:p-6">
           <h2 className="text-[20px] font-semibold">What stays with your family</h2>
@@ -88,33 +105,35 @@ export default async function Privacy({ params }: PageProps<"/plan/[household]/p
           </ul>
         </Panel>
 
-        <Panel className="p-5 sm:p-6">
-          <h2 className="text-[20px] font-semibold">Where data goes</h2>
-          <p className="mb-5 mt-1 max-w-[760px] text-[15px] text-text-muted">
-            Each service, what it&rsquo;s for, what it receives and which kinds of data it may carry. &ldquo;Fictional
-            family&rdquo; means the demo households; a real family&rsquo;s data stays in its own database.
-          </p>
-          <PrivacyTable routes={OUTBOUND} />
-        </Panel>
+        <TechnicalDetails>
+          <Panel className="p-5 sm:p-6">
+            <h2 className="text-[20px] font-semibold">Where data goes</h2>
+            <p className="mb-5 mt-1 max-w-[760px] text-[15px] text-text-muted">
+              Each service, what it&rsquo;s for, what it receives and which kinds of data it may carry. &ldquo;Fictional
+              family&rdquo; means the demo households; a real family&rsquo;s data stays in its own database.
+            </p>
+            <PrivacyTable routes={OUTBOUND} />
+          </Panel>
 
-        <section aria-labelledby="checks" className="space-y-4">
-          <h2 id="checks" className="text-[20px] font-semibold">
-            How it&rsquo;s held to that
-          </h2>
-          <ul className="grid gap-4 md:grid-cols-2">
-            {CHECKS.map(({ icon: Icon, title, body }) => (
-              <li key={title}>
-                <Panel className="flex h-full gap-3 p-5">
-                  <Icon aria-hidden="true" className="mt-0.5 size-5 shrink-0 stroke-[1.75] text-sea-line" />
-                  <div>
-                    <p className="font-semibold leading-snug">{title}</p>
-                    <p className="mt-1 text-[14px] leading-relaxed text-text-muted">{body}</p>
-                  </div>
-                </Panel>
-              </li>
-            ))}
-          </ul>
-        </section>
+          <section aria-labelledby="checks" className="space-y-4">
+            <h2 id="checks" className="text-[20px] font-semibold">
+              How it&rsquo;s held to that
+            </h2>
+            <ul className="grid gap-4 md:grid-cols-2">
+              {CHECKS.map(({ icon: Icon, title, body }) => (
+                <li key={title}>
+                  <Panel className="flex h-full gap-3 p-5">
+                    <Icon aria-hidden="true" className="mt-0.5 size-5 shrink-0 stroke-[1.75] text-sea-line" />
+                    <div>
+                      <p className="font-semibold leading-snug">{title}</p>
+                      <p className="mt-1 text-[14px] leading-relaxed text-text-muted">{body}</p>
+                    </div>
+                  </Panel>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </TechnicalDetails>
       </div>
     </DashboardShell>
   );

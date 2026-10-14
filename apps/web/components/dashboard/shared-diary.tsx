@@ -7,7 +7,7 @@ import { Mark } from "@/components/brand/logo";
 import { Panel } from "@/components/shell/panel";
 import { Button } from "@/components/ui/button";
 import type { SharedDiaryEntry } from "@/lib/diary-types";
-import { longDate } from "@/lib/plan-format";
+import { longDate, onClock } from "@/lib/plan-format";
 import type { PlanBoard } from "@/lib/plan-types";
 
 /**
@@ -60,9 +60,18 @@ function Recording({ src, who }: { src: string; who: string }) {
   );
 }
 
-const dateOf = (iso: string) => longDate(iso.slice(0, 10));
+/**
+ * When an entry was written, on the household's clock. The demo's own entries keep their dates in
+ * the visit; one a visitor writes on a demo phone carries the real clock, so it's said as that.
+ */
+function dateOf(e: SharedDiaryEntry, timezone: string): string {
+  const at = onClock(e.createdAt, timezone);
+  return e.provenance === "visitor"
+    ? `written by you on the demo phone, ${longDate(at.date)} at ${at.time}`
+    : longDate(at.date);
+}
 
-function Entry({ e, who }: { e: SharedDiaryEntry; who: string }) {
+function Entry({ e, who, timezone }: { e: SharedDiaryEntry; who: string; timezone: string }) {
   const Icon = e.kind === "voice" ? Mic : PenLine;
   return (
     <article className="space-y-3">
@@ -70,7 +79,7 @@ function Entry({ e, who }: { e: SharedDiaryEntry; who: string }) {
         <p className="flex items-center gap-2 text-[15px] font-semibold">
           <Icon aria-hidden="true" className="size-4 stroke-[1.75] text-text-muted" />
           {who}
-          <span className="font-normal text-text-muted">· {dateOf(e.createdAt)}</span>
+          <span className="font-normal text-text-muted">· {dateOf(e, timezone)}</span>
         </p>
         {e.outingTitle ? <p className="text-[13px] text-text-muted">After {e.outingTitle}</p> : null}
       </header>
@@ -122,7 +131,7 @@ export function SharedDiary({ board, initial }: { board: PlanBoard; initial: Sha
             {entries.map((e) => (
               <li key={e.entryId}>
                 <Panel className="p-5 sm:p-6">
-                  <Entry e={e} who={name(e.parentId)} />
+                  <Entry e={e} who={name(e.parentId)} timezone={board.household.timezone} />
                 </Panel>
               </li>
             ))}
@@ -156,7 +165,7 @@ export function SharedDiary({ board, initial }: { board: PlanBoard; initial: Sha
             {book.map((e) => (
               <article key={e.entryId} className="break-inside-avoid space-y-2">
                 <p className="text-[14px] text-text-muted">
-                  {name(e.parentId)}, {dateOf(e.createdAt)}
+                  {name(e.parentId)}, {dateOf(e, board.household.timezone)}
                 </p>
                 <p lang="te" className="text-[21px] leading-[1.8]">
                   {e.text}

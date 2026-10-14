@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ReadinessChip } from "@/components/dashboard/readiness";
 import { DashboardShell } from "@/components/dashboard/shell";
+import { InShort, TechnicalDetails } from "@/components/dashboard/technical-details";
 import { Panel } from "@/components/shell/panel";
 import { DEMO_WEEKS } from "@/lib/demo-weeks";
 import { HOUSEHOLDS, isHousehold, loadBoard } from "@/lib/plan-board";
@@ -63,6 +64,8 @@ export default async function Languages({ params }: PageProps<"/plan/[household]
   const used = [...new Set(board.parents.map((p) => p.language))];
   const cards = week.outings.flatMap((o) => o.cards);
   const localClips = savedClips(local);
+  const usedNames = used.map((code) => LANGUAGES.find((l) => l.code === code)?.name ?? code).join(" and ");
+  const parentNames = board.parents.map((p) => p.firstName).join(" and ");
 
   return (
     <DashboardShell household={household} weekLabel={board.week.label} parents={board.parents}>
@@ -75,80 +78,19 @@ export default async function Languages({ params }: PageProps<"/plan/[household]
           </p>
         </div>
 
-        {used.map((code) => {
-          const rec = LANGUAGES.find((l) => l.code === code) as LanguageRecord | undefined;
-          if (!rec) return null;
-          const clips = savedClips(code);
-          const awaitingIndic = INDIC.has(code) && rec.speaking.status === "fallback";
-          const who = board.parents.filter((p) => p.language === code).map((p) => p.firstName);
-          const mine = cards.filter((c) => week.parents.find((p) => p.id === c.parentId)?.language === code);
-          const passing = mine.filter((c) => c.rubric?.passed).length;
-          const tunedCards = mine.filter((c) => c.writer?.kind === "tinker_lora").length;
-          const tuned = tunedCards > 0;
-          return (
-            <Panel key={code} className="p-5 sm:p-6">
-              <div className="mb-5 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                <h2 className="text-[25px] font-semibold leading-tight">
-                  <span lang={code}>{rec.nativeName}</span>
-                  <span className="text-text-muted">, {rec.name}</span>
-                </h2>
-                <p className="text-[15px] text-text-muted">for {who.join(" and ")}</p>
-              </div>
-              <ul>
-                <Capability icon={BookOpenText} title="Reading and planning" status={rec.reading.status}>
-                  <p>
-                    {rec.reading.model} reads event listings in any language, picks out the ones in {rec.name}, and
-                    writes the reasons you see on each outing.
-                  </p>
-                </Capability>
-                <Capability
-                  icon={PenLine}
-                  title="Writing their cards"
-                  status={tuned ? "ready" : rec.cardWriter.status}
-                  chip={tuned ? "Tuned for this language" : undefined}
-                >
-                  <p>
-                    {tuned
-                      ? `A card writer tuned for ${rec.name} writes each ticket in the plain, respectful register in the style guide; this week it wrote ${tunedCards} of ${mine.length}. Every card also has to pass Gemma's review of tone and facts and say the walk from the stop, and where a tuned card didn't, Gemma wrote it.`
-                      : `${rec.cardWriter.model} writes each ticket, held to the ${rec.name} style guide.`}{" "}
-                    This week: {mine.length} {mine.length === 1 ? "card" : "cards"}, {passing} passing every check of
-                    the card rubric (length, every name exact, the right form of address, the script intact).
-                  </p>
-                  {!tuned && rec.cardWriter.status !== "ready" ? (
-                    <p className="text-[13px] text-text-muted">
-                      A writer tuned for one language (a small LoRA adapter trained on examples in the style guide)
-                      replaces the general model only when it scores higher on the same rubric.
-                    </p>
-                  ) : null}
-                </Capability>
-                <Capability
-                  icon={Volume2}
-                  title="Reading aloud"
-                  status={clips > 0 ? rec.speaking.status : "phone"}
-                  chip={clips > 0 ? undefined : "The phone's voice"}
-                >
-                  <p>
-                    {clips > 0
-                      ? `${rec.speaking.model} reads their tickets and diary aloud: ${clips} clips in this demo, made on the family's own hardware.`
-                      : `Every screen has a listen button. In this demo it uses the phone's own ${rec.name} voice when the phone has one; the open model for ${rec.name} is ${rec.speaking.model}, run on the family's own hardware.`}
-                    {awaitingIndic
-                      ? " AI4Bharat's voice made for Indian languages takes over once its makers open access to it."
-                      : ""}
-                  </p>
-                </Capability>
-                <Capability icon={Ear} title="Listening" status={clips > 0 ? rec.listening.status : "phone"}>
-                  <p>
-                    Their spoken answers to &ldquo;How was it?&rdquo; and their diary are transcribed by{" "}
-                    {rec.listening.model}, on the family&rsquo;s own hardware, never a hosted service.
-                    {clips > 0
-                      ? " In this demo it listened back to every saved clip to check it; a visitor's recordings stay on the phone."
-                      : " In this demo the recordings stay on the phone."}
-                  </p>
-                </Capability>
-              </ul>
-            </Panel>
-          );
-        })}
+        <InShort>
+          <li>
+            {parentNames}&rsquo;s tickets, phrases and the reasons for each outing are written in {usedNames}, and every
+            card is checked for exact names, the right form of address and the script before it reaches their phone.
+          </li>
+          <li>Every screen on their phone can be read aloud, and they can answer by speaking instead of typing.</li>
+          <li>Bus, street and venue names stay in {localName}, exactly as the signs write them.</li>
+          <li>
+            For getting around in {localName}, each outing comes with a few phrases to practise, a card to show the
+            driver and a help card for a stranger to read.
+          </li>
+          <li>Their recordings are turned into text on the family&rsquo;s own hardware, never by a hosted service.</li>
+        </InShort>
 
         <Panel className="p-5 sm:p-6">
           <h2 className="text-[20px] font-semibold">{localName}, the language around them</h2>
@@ -175,62 +117,139 @@ export default async function Languages({ params }: PageProps<"/plan/[household]
           </ul>
         </Panel>
 
-        <section aria-labelledby="all" className="space-y-3">
-          <h2 id="all" className="text-[20px] font-semibold">
-            Every language set up so far
-          </h2>
-          <p className="text-[15px] text-text-muted">What the models for each language support.</p>
-          <Panel className="relative overflow-x-auto p-5 sm:p-6">
-            <table className="w-full min-w-[640px] border-collapse text-left text-[14px]">
-              <thead>
-                <tr className="border-b border-line-strong text-[13px]">
-                  <th scope="col" className="py-2.5 pr-3 font-semibold">
-                    Language
-                  </th>
-                  <th scope="col" className="px-3 py-2.5 font-semibold">
-                    Reading
-                  </th>
-                  <th scope="col" className="px-3 py-2.5 font-semibold">
-                    Cards
-                  </th>
-                  <th scope="col" className="px-3 py-2.5 font-semibold">
-                    Reading aloud
-                  </th>
-                  <th scope="col" className="px-3 py-2.5 font-semibold">
-                    Listening
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {LANGUAGES.map((l) => (
-                  <tr key={l.code} className="border-b border-line align-top last:border-0">
-                    <td className="py-3 pr-3">
-                      <p className="font-semibold">
-                        {l.name}{" "}
-                        {l.nativeName !== l.name ? (
-                          <span lang={l.code} className="font-normal text-text-muted">
-                            {l.nativeName}
-                          </span>
-                        ) : null}
+        <TechnicalDetails>
+          {used.map((code) => {
+            const rec = LANGUAGES.find((l) => l.code === code) as LanguageRecord | undefined;
+            if (!rec) return null;
+            const clips = savedClips(code);
+            const awaitingIndic = INDIC.has(code) && rec.speaking.status === "fallback";
+            const who = board.parents.filter((p) => p.language === code).map((p) => p.firstName);
+            const mine = cards.filter((c) => week.parents.find((p) => p.id === c.parentId)?.language === code);
+            const passing = mine.filter((c) => c.rubric?.passed).length;
+            const tunedCards = mine.filter((c) => c.writer?.kind === "tinker_lora").length;
+            const tuned = tunedCards > 0;
+            return (
+              <Panel key={code} className="p-5 sm:p-6">
+                <div className="mb-5 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                  <h2 className="text-[25px] font-semibold leading-tight">
+                    <span lang={code}>{rec.nativeName}</span>
+                    <span className="text-text-muted">, {rec.name}</span>
+                  </h2>
+                  <p className="text-[15px] text-text-muted">for {who.join(" and ")}</p>
+                </div>
+                <ul>
+                  <Capability icon={BookOpenText} title="Reading and planning" status={rec.reading.status}>
+                    <p>
+                      {rec.reading.model} reads event listings in any language, picks out the ones in {rec.name}, and
+                      writes the reasons you see on each outing.
+                    </p>
+                  </Capability>
+                  <Capability
+                    icon={PenLine}
+                    title="Writing their cards"
+                    status={tuned ? "ready" : rec.cardWriter.status}
+                    chip={tuned ? "Tuned for this language" : undefined}
+                  >
+                    <p>
+                      {tuned
+                        ? `A card writer tuned for ${rec.name} writes each ticket in the plain, respectful register in the style guide; this week it wrote ${tunedCards} of ${mine.length}. Every card also has to pass Gemma's review of tone and facts and say the walk from the stop, and where a tuned card didn't, Gemma wrote it.`
+                        : `${rec.cardWriter.model} writes each ticket, held to the ${rec.name} style guide.`}{" "}
+                      This week: {mine.length} {mine.length === 1 ? "card" : "cards"}, {passing} passing every check of
+                      the card rubric (length, every name exact, the right form of address, the script intact).
+                    </p>
+                    {!tuned && rec.cardWriter.status !== "ready" ? (
+                      <p className="text-[13px] text-text-muted">
+                        A writer tuned for one language (a small LoRA adapter trained on examples in the style guide)
+                        replaces the general model only when it scores higher on the same rubric.
                       </p>
-                      <p className="text-[13px] text-text-muted">{l.script} script</p>
-                    </td>
-                    {[l.reading, l.cardWriter, l.speaking, l.listening].map((c, i) => (
-                      <td key={i} className="px-3 py-3">
-                        <ReadinessChip status={c.status} />
-                        <p className="mt-1 text-[13px] text-text-muted">{c.model}</p>
-                      </td>
-                    ))}
+                    ) : null}
+                  </Capability>
+                  <Capability
+                    icon={Volume2}
+                    title="Reading aloud"
+                    status={clips > 0 ? rec.speaking.status : "phone"}
+                    chip={clips > 0 ? undefined : "The phone's voice"}
+                  >
+                    <p>
+                      {clips > 0
+                        ? `${rec.speaking.model} reads their tickets and diary aloud: ${clips} clips in this demo, made on the family's own hardware.`
+                        : `Every screen has a listen button. In this demo it uses the phone's own ${rec.name} voice when the phone has one; the open model for ${rec.name} is ${rec.speaking.model}, run on the family's own hardware.`}
+                      {awaitingIndic
+                        ? " AI4Bharat's voice made for Indian languages takes over once its makers open access to it."
+                        : ""}
+                    </p>
+                  </Capability>
+                  <Capability icon={Ear} title="Listening" status={clips > 0 ? rec.listening.status : "phone"}>
+                    <p>
+                      Their spoken answers to &ldquo;How was it?&rdquo; and their diary are transcribed by{" "}
+                      {rec.listening.model}, on the family&rsquo;s own hardware, never a hosted service.
+                      {clips > 0
+                        ? " In this demo it listened back to every saved clip to check it; a visitor's recordings stay on the phone."
+                        : " In this demo the recordings stay on the phone."}
+                    </p>
+                  </Capability>
+                </ul>
+              </Panel>
+            );
+          })}
+
+          <section aria-labelledby="all" className="space-y-3">
+            <h2 id="all" className="text-[20px] font-semibold">
+              Every language set up so far
+            </h2>
+            <p className="text-[15px] text-text-muted">What the models for each language support.</p>
+            <Panel className="relative overflow-x-auto p-5 sm:p-6">
+              <table className="w-full min-w-[640px] border-collapse text-left text-[14px]">
+                <thead>
+                  <tr className="border-b border-line-strong text-[13px]">
+                    <th scope="col" className="py-2.5 pr-3 font-semibold">
+                      Language
+                    </th>
+                    <th scope="col" className="px-3 py-2.5 font-semibold">
+                      Reading
+                    </th>
+                    <th scope="col" className="px-3 py-2.5 font-semibold">
+                      Cards
+                    </th>
+                    <th scope="col" className="px-3 py-2.5 font-semibold">
+                      Reading aloud
+                    </th>
+                    <th scope="col" className="px-3 py-2.5 font-semibold">
+                      Listening
+                    </th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </Panel>
-          <p className="text-[13px] text-text-muted">
-            A household can use any language: setup adds it here, shows what each part can do, and uses a general model
-            wherever a tuned one isn&rsquo;t ready.
-          </p>
-        </section>
+                </thead>
+                <tbody>
+                  {LANGUAGES.map((l) => (
+                    <tr key={l.code} className="border-b border-line align-top last:border-0">
+                      <td className="py-3 pr-3">
+                        <p className="font-semibold">
+                          {l.name}{" "}
+                          {l.nativeName !== l.name ? (
+                            <span lang={l.code} className="font-normal text-text-muted">
+                              {l.nativeName}
+                            </span>
+                          ) : null}
+                        </p>
+                        <p className="text-[13px] text-text-muted">{l.script} script</p>
+                      </td>
+                      {[l.reading, l.cardWriter, l.speaking, l.listening].map((c, i) => (
+                        <td key={i} className="px-3 py-3">
+                          <ReadinessChip status={c.status} />
+                          <p className="mt-1 text-[13px] text-text-muted">{c.model}</p>
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </Panel>
+            <p className="text-[13px] text-text-muted">
+              A household can use any language: setup adds it here, shows what each part can do, and uses a general
+              model wherever a tuned one isn&rsquo;t ready.
+            </p>
+          </section>
+        </TechnicalDetails>
       </div>
     </DashboardShell>
   );
