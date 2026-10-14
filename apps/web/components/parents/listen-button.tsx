@@ -21,7 +21,10 @@ export function ListenButton({
   tone = "primary",
   size = "parent",
   className,
+  gloss,
 }: {
+  /** English hints under the label, for demo visitors who turned them on. */
+  gloss?: { label: string; stop: string };
   src?: string;
   fallbackSrc?: string;
   text?: string;
@@ -70,7 +73,14 @@ export function ListenButton({
       ) : (
         <Play aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
       )}
-      <span>{playing ? stopLabel : label}</span>
+      <span>
+        {playing ? stopLabel : label}
+        {gloss ? (
+          <span lang="en" className="block text-[15px] leading-snug font-normal">
+            {playing ? gloss.stop : gloss.label}
+          </span>
+        ) : null}
+      </span>
     </button>
   );
 }

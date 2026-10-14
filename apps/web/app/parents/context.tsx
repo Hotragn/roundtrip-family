@@ -32,6 +32,8 @@ export interface ParentsState {
   /** This parent's synthetic demo entries, put on the phone the first time the diary opens. */
   diarySeeds: DiarySeed[];
   t: (key: string, values?: Record<string, string | number>) => string;
+  /** The English hint for a message when a demo visitor turned on "Show English" (gloss.tsx). */
+  en: (key: string) => string | undefined;
 }
 
 export const ParentsContext = createContext<ParentsState | null>(null);

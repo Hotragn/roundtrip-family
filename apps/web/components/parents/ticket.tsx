@@ -4,6 +4,7 @@ import { Check } from "lucide-react";
 import { type ReactNode, useCallback, useEffect, useRef, useState } from "react";
 import { type LegSummary, TravelLines } from "@/components/travel/travel-line";
 import { cn } from "@/lib/utils";
+import { fitTitle } from "@/lib/week";
 
 /**
  * The outing ticket, the app's signature: one card with the trip's travel lines across the top,
@@ -92,8 +93,10 @@ export function Ticket({
             ) : null}
           </div>
         </header>
-        <div className="px-5 pb-5 pt-4">
-          <h2 className="text-parent-title font-semibold" lang="te">
+        {/* The title shrinks to fit its longest name, so large phone text never splits "Hanuman"
+            or "Stadtbibliothek" across lines (the driver card does the same). */}
+        <div className="@container px-5 pb-5 pt-4">
+          <h2 className="text-parent-title font-semibold" style={{ fontSize: fitTitle(title) }} lang="te">
             {title}
           </h2>
           <p className="mt-1 text-[19px] text-text-muted" lang="te">

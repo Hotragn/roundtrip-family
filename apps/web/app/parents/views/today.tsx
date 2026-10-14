@@ -7,8 +7,9 @@ import { Hand, MessageCircle, Navigation, Users } from "lucide-react";
 import { ListenButton } from "@/components/parents/listen-button";
 import { Ticket } from "@/components/parents/ticket";
 import type { LegSummary } from "@/components/travel/travel-line";
-import { DEMO_NOW, fmtTime, type OutingView, placePhoto } from "@/lib/week";
+import { DEMO_NOW, fitTitle, fmtTime, type OutingView, placePhoto, showsDriver } from "@/lib/week";
 import { useParents } from "../context";
+import { L, listenGloss } from "../gloss";
 
 export function legsOf(o: OutingView): LegSummary[] {
   if (o.route) {
@@ -33,7 +34,7 @@ export function metaOf(o: OutingView, t: ReturnType<typeof useParents>["t"]): st
 const dayLabel = (date: string) => format(new Date(`${date}T12:00:00`), "EEEE, d MMMM", { locale: te });
 
 export function TodayView({ featuredId, onFeature }: { featuredId: string | null; onFeature: (id: string) => void }) {
-  const { outings, parent, card: _card, home, go, t, week } = useParents();
+  const { outings, parent, card: _card, home, go, t, en, week } = useParents();
   const todays = outings.filter((o) => o.date === DEMO_NOW.date);
   const featured = outings.find((o) => o.id === featuredId) ?? todays[0] ?? outings[0] ?? null;
   const card = featured?.cards.find((c) => c.parentId === parent.id) ?? featured?.cards[0];
@@ -48,15 +49,23 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
           {dayLabel(DEMO_NOW.date)}
         </p>
         <h1 className="mt-1 text-[30px] font-semibold" lang="te">
-          {featured && !isToday
-            ? t(parent.role === "father" ? "Parents.greetingFatherLater" : "Parents.greetingMotherLater")
-            : t(parent.role === "father" ? "Parents.greetingFather" : "Parents.greetingMother")}
+          <L
+            k={
+              featured && !isToday
+                ? parent.role === "father"
+                  ? "Parents.greetingFatherLater"
+                  : "Parents.greetingMotherLater"
+                : parent.role === "father"
+                  ? "Parents.greetingFather"
+                  : "Parents.greetingMother"
+            }
+          />
         </h1>
       </div>
 
       {!featured || !card ? (
         <p className="rounded-card bg-surface-sunken p-5 text-parent" lang="te">
-          {t("Parents.noPlanToday")}
+          <L k="Parents.noPlanToday" />
         </p>
       ) : (
         <>
@@ -82,7 +91,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
             badges={
               featured.firstRideTogether ? (
                 <span
-                  className="inline-flex items-center gap-2 rounded-full bg-sky-line/12 px-3 py-1.5 text-[17px] font-semibold text-sky-text"
+                  className="inline-flex items-center gap-x-2 rounded-xl bg-sky-line/12 px-3 py-1.5 text-[17px] font-semibold text-sky-text @max-[16rem]:flex-wrap @max-[16rem]:text-[15px]"
                   lang="te"
                 >
                   <Users aria-hidden="true" className="shrink-0 size-5 stroke-[1.75]" />
@@ -101,6 +110,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
                     lang={speechTag(parent.language)}
                     label={t("Parents.listen")}
                     stopLabel={t("Parents.stopListening")}
+                    gloss={listenGloss(en)}
                   />
                   <button
                     type="button"
@@ -109,7 +119,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
                     lang="te"
                   >
                     <Navigation aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
-                    {t("Parents.directions")}
+                    <L k="Parents.directions" />
                   </button>
                 </>
               ) : (
@@ -121,7 +131,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
                     lang="te"
                   >
                     <Navigation aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
-                    {t("Parents.directions")}
+                    <L k="Parents.directions" />
                   </button>
                   <ListenButton
                     src={card.audio?.body}
@@ -129,6 +139,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
                     lang={speechTag(parent.language)}
                     label={t("Parents.listen")}
                     stopLabel={t("Parents.stopListening")}
+                    gloss={listenGloss(en)}
                     tone="secondary"
                   />
                 </>
@@ -146,7 +157,13 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
               lang="te"
             >
               <Hand aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
-              {featured.route?.legs.some((l) => l.mode !== "walk") ? t("Parents.showDriver") : t("Parents.showSomeone")}
+              <L
+                k={
+                  showsDriver(featured.route?.legs.find((l) => l.mode !== "walk"))
+                    ? "Parents.showDriver"
+                    : "Parents.showSomeone"
+                }
+              />
             </button>
             <button
               type="button"
@@ -155,7 +172,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
               lang="te"
             >
               <MessageCircle aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
-              {t("Parents.practice")}
+              <L k="Parents.practice" />
             </button>
             {featured.joinCard ? (
               <button
@@ -164,7 +181,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
                 className="flex min-h-14 items-center justify-center rounded-xl border border-line-strong bg-surface px-6 text-parent font-semibold"
                 lang="te"
               >
-                {t("Join.title")}
+                <L k="Join.title" />
               </button>
             ) : null}
             {knowsSomeone ? (
@@ -174,7 +191,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
                 className="flex min-h-14 items-center justify-center rounded-xl border border-line-strong bg-surface px-6 text-parent font-semibold"
                 lang="te"
               >
-                {t("Friend.title")}
+                <L k="Friend.title" />
               </button>
             ) : null}
           </div>
@@ -184,7 +201,7 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
       {outings.length > 1 ? (
         <section aria-labelledby="week-h" className="pt-2">
           <h2 id="week-h" className="text-[22px] font-semibold" lang="te">
-            {t("Parents.laterThisWeek")}
+            <L k="Parents.laterThisWeek" />
           </h2>
           <ul className="mt-3 divide-y divide-line rounded-card bg-surface ring-1 ring-line">
             {outings.map((o) => {
@@ -197,11 +214,15 @@ export function TodayView({ featuredId, onFeature }: { featuredId: string | null
                     className="flex min-h-16 w-full items-center justify-between gap-4 px-5 py-3 text-left"
                     aria-current={featured?.id === o.id ? "true" : undefined}
                   >
-                    <span>
+                    <span className="@container min-w-0 flex-1">
                       <span className="block text-[17px] text-text-muted" lang="te">
                         {dayLabel(o.date)} · {fmtTime(o.slot.depart)}
                       </span>
-                      <span className="block text-parent font-semibold" lang="te">
+                      <span
+                        className="block text-parent font-semibold"
+                        style={{ fontSize: fitTitle(c?.title ?? o.venue, "var(--text-parent)") }}
+                        lang="te"
+                      >
                         {c?.title ?? o.venue}
                       </span>
                     </span>

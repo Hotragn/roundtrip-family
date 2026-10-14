@@ -8,6 +8,7 @@ import { MemoryBookPage } from "@/components/parents/diary";
 import { getKv, setKv } from "@/lib/parents-store";
 import { cn } from "@/lib/utils";
 import { useParents } from "../context";
+import { L } from "../gloss";
 import { type LocalEntry, loadEntries, syncEntry } from "./diary";
 
 /**
@@ -58,7 +59,7 @@ export function BookView() {
     <div data-theme="home" className="-mx-5 -mt-4 bg-paper px-5 pb-8 pt-4">
       <div className="print:hidden">
         <h1 className="text-[34px] font-semibold" lang="te">
-          {t("Book.title")}
+          <L k="Book.title" />
         </h1>
         <p className="mt-2 text-parent text-text-muted" lang="te">
           {t("Book.pick")}

@@ -124,6 +124,29 @@ export const DEMO_HOUSEHOLDS = [
 
 export type HouseholdSlug = (typeof DEMO_HOUSEHOLDS)[number]["slug"];
 
+/**
+ * Bus (and car) drivers can be shown the stop; on a U-Bahn, S-Bahn, tram or train there is no
+ * driver to show, so the card goes to someone nearby.
+ */
+export const showsDriver = (leg: Pick<LegView, "mode"> | undefined): boolean =>
+  leg?.mode === "bus" || leg?.mode === "car";
+
+/**
+ * A title's font size: `max` (the ticket's 32 px), or less when its longest Latin word (a venue or street name, at
+ * about 0.6 em a letter in Hind SemiBold) would not fit the card's width. Telugu words may still
+ * wrap between aksharas, as everywhere in the app; hyphens are fine places to break.
+ */
+export function fitTitle(title: string, max = "var(--text-parent-title)"): string {
+  const longest = Math.max(
+    1,
+    ...title
+      .split(/[\s-]+/)
+      .filter((w) => /[A-Za-zÀ-ɏ]/.test(w))
+      .map((w) => w.length),
+  );
+  return `min(${max}, calc(100cqi / ${(longest * 0.6).toFixed(1)}))`;
+}
+
 /** The demo clock: the demo week is planned for 5 to 11 October 2026; "now" is Monday morning. */
 export const DEMO_NOW = { date: "2026-10-05", minutes: 8 * 60 + 10 };
 

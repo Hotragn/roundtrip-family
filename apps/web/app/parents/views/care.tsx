@@ -7,6 +7,7 @@ import { LostCard } from "@/components/parents/cards";
 import { flushOutbox, queue, setKv } from "@/lib/parents-store";
 import { cn } from "@/lib/utils";
 import { useParents } from "../context";
+import { L } from "../gloss";
 
 /** Records up to 30 seconds with the phone's microphone. The audio stays on the phone. */
 export function useRecorder(maxMs = 30_000) {
@@ -66,14 +67,14 @@ export function HowView() {
     setSent((await flushOutbox()) > 0 ? "sent" : "later");
   };
   const faces = [
-    { id: "good" as const, icon: Smile, label: t("How.good") },
-    { id: "okay" as const, icon: Meh, label: t("How.okay") },
-    { id: "not_good" as const, icon: Frown, label: t("How.notGood") },
+    { id: "good" as const, icon: Smile, label: "How.good" },
+    { id: "okay" as const, icon: Meh, label: "How.okay" },
+    { id: "not_good" as const, icon: Frown, label: "How.notGood" },
   ];
   return (
     <div className="space-y-6">
       <h1 className="text-[34px] font-semibold" lang="te">
-        {t("How.title")}
+        <L k="How.title" />
       </h1>
       <p className="text-parent text-text-muted" lang="te">
         {outing.venue}
@@ -94,7 +95,9 @@ export function HowView() {
         ) : (
           <Mic aria-hidden="true" className="shrink-0 size-14 stroke-[1.75]" />
         )}
-        <span className="px-4 text-center">{state === "recording" ? t("How.stop") : t("How.talk")}</span>
+        <span className="px-4 text-center">
+          <L k={state === "recording" ? "How.stop" : "How.talk"} />
+        </span>
       </button>
       <div role="status">
         {state === "done" ? (
@@ -124,7 +127,7 @@ export function HowView() {
             lang="te"
           >
             <f.icon aria-hidden="true" className="shrink-0 size-10 stroke-[1.75]" />
-            {f.label}
+            <L k={f.label} />
           </button>
         ))}
       </div>
@@ -136,7 +139,7 @@ export function HowView() {
           className="flex min-h-16 w-full items-center justify-center rounded-xl bg-bus px-6 text-parent font-semibold text-on-bus disabled:opacity-50"
           lang="te"
         >
-          {t("How.send")}
+          <L k="How.send" />
         </button>
       ) : null}
       <div role="status">
@@ -159,7 +162,7 @@ export function LostView() {
         {t("Lost.title")}
       </h1>
       <LostCard
-        intro={t("Lost.show")}
+        intro={<L k="Lost.show" />}
         help={h.helpCardText}
         phrases={h.localPhrases}
         name={parent.firstName}

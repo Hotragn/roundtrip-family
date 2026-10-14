@@ -8,6 +8,7 @@ import type { DiarySeed } from "@/lib/diary-types";
 import { flushOutbox, getKv, queue, setKv } from "@/lib/parents-store";
 import { cn } from "@/lib/utils";
 import { useParents } from "../context";
+import { L } from "../gloss";
 import { useRecorder } from "./care";
 
 /**
@@ -126,6 +127,7 @@ export function DiaryView() {
     const next = entries.map((e) => (e.id === id ? { ...e, shared: !e.shared } : e));
     await persist(next);
     await syncEntry(week.household.slug, parent.id, id, "save");
+    setStatus(t(next.find((e) => e.id === id)?.shared ? "Diary.sharedNow" : "Diary.privateAgain"));
   };
 
   const remove = async (id: string) => {
@@ -145,7 +147,7 @@ export function DiaryView() {
     <div data-theme="home" className="-mx-5 -mt-4 min-h-[calc(100dvh-80px)] bg-paper px-5 pt-4 pb-6">
       <div className="flex items-start justify-between gap-3">
         <h1 className="text-[34px] font-semibold" lang="te">
-          {t("Diary.title")}
+          <L k="Diary.title" />
         </h1>
         <button
           type="button"
@@ -153,7 +155,7 @@ export function DiaryView() {
           className="min-h-14 rounded-lg border border-line-strong bg-surface px-4 text-[18px] font-semibold"
           lang="te"
         >
-          {t("Diary.book")}
+          <L k="Diary.book" />
         </button>
       </div>
       <p className="mt-2 flex items-center gap-2 text-[18px] text-text-muted" lang="te">
@@ -176,7 +178,7 @@ export function DiaryView() {
           ) : (
             <Mic aria-hidden="true" className="shrink-0 size-8 stroke-[1.75]" />
           )}
-          {state === "recording" ? t("Diary.recording") : t("Diary.record")}
+          {state === "recording" ? t("Diary.recording") : <L k="Diary.record" />}
         </button>
         <label className="block">
           <span className="text-[17px] text-text-muted" lang="te">
@@ -226,7 +228,7 @@ export function DiaryView() {
           className="flex min-h-14 w-full items-center justify-center rounded-xl bg-ink text-parent font-semibold text-white"
           lang="te"
         >
-          {t("Diary.save")}
+          <L k="Diary.save" />
         </button>
         {/* Always in the page, so "saved" and "deleted" are announced when they appear. */}
         <div role="status">
@@ -244,7 +246,7 @@ export function DiaryView() {
         lang="te"
       >
         <Phone aria-hidden="true" className="shrink-0 size-6 stroke-[1.75]" />
-        {t("Diary.callChild")}
+        <L k="Diary.callChild" />
       </a>
 
       <ul className="mt-6 space-y-3">
@@ -274,6 +276,7 @@ export function DiaryView() {
               confirmDelete: t("Diary.confirmDelete"),
               keep: t("Diary.keep"),
               recording: t("Parents.listen"),
+              stopRecording: t("Parents.stopListening"),
             }}
             onShare={() => void toggleShare(e.id)}
             onDelete={() => void remove(e.id)}
