@@ -18,7 +18,9 @@ export function ParentPhones({
         Their phones
       </PopoverTrigger>
       <PopoverContent align="end" className="w-64 rounded-card border-line bg-surface p-2 shadow-overlay">
-        <p className="px-2 pb-2 pt-1 text-[13px] text-text-muted">Opens their app as it looks on their phone today.</p>
+        <p className="px-2 pb-2 pt-1 text-[13px] text-text-muted">
+          Opens their app as it looks on Monday morning of the sample week.
+        </p>
         <ul>
           {parents.map((p) => (
             <li key={p.id}>

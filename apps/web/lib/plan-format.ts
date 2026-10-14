@@ -5,6 +5,51 @@ import type { BoardItem, PlanBoard } from "./plan-types";
 
 export const hhmm = (m: number) => `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
 
+/** The demo's fixed week, said as what it is: "Sample week, 5 to 11 October 2026". */
+export const sampleWeek = (label: string) => `Sample week, ${label}`;
+
+/** A listing's departure ("8:33 AM" or "09:50") in the dashboard's 24-hour style ("08:33"). */
+export function clock24(s: string): string {
+  const t = /^(\d{1,2}):(\d{2})\s*([ap])\.?m\.?$/i.exec(s.trim());
+  if (!t) return s;
+  const h = (Number(t[1]) % 12) + (t[3]!.toLowerCase() === "p" ? 12 : 0);
+  return hhmm(h * 60 + Number(t[2]));
+}
+
+/** A moment on the household's clock: its date ("2026-10-05"), time ("08:30") and minutes since midnight. */
+export function onClock(iso: string, timezone: string): { date: string; time: string; minutes: number } {
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat("en-CA", {
+      timeZone: timezone,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      hourCycle: "h23",
+    })
+      .formatToParts(new Date(iso))
+      .map((p) => [p.type, p.value]),
+  );
+  const minutes = Number(parts.hour) * 60 + Number(parts.minute);
+  return { date: `${parts.year}-${parts.month}-${parts.day}`, time: hhmm(minutes), minutes };
+}
+
+/**
+ * "Sarala was home at 10:05" when the check-in falls on the outing's day after it left. A visitor's
+ * tap on a demo phone uses the real clock, not the sample week's, so it's said as what it was.
+ */
+export function checkinLine(
+  name: string,
+  iso: string,
+  timezone: string,
+  outing: { date: string; depart: number },
+): string {
+  const at = onClock(iso, timezone);
+  if (at.date === outing.date && at.minutes >= outing.depart) return `${name} was home at ${at.time}`;
+  return `You tapped “I’m home” on ${name}’s demo phone on ${shortDate(at.date)} at ${at.time}`;
+}
+
 export const DAY_NAMES: Record<string, string> = {
   mon: "Monday",
   tue: "Tuesday",

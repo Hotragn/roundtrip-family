@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { Logo } from "@/components/brand/logo";
 import { ScrollIndicators } from "@/components/shell/scroll-track";
 import { ThemeShell } from "@/components/shell/theme-shell";
+import { sampleWeek } from "@/lib/plan-format";
 import { cn } from "@/lib/utils";
 import { DashboardNav } from "./nav";
 import { ParentPhones } from "./parent-phones";
@@ -90,8 +91,7 @@ export function DashboardShell({
               </div>
               <div className="flex items-center gap-4">
                 <p className="text-sm text-text-muted">
-                  <span className="sr-only">Week of </span>
-                  {weekLabel}
+                  {sampleWeek(weekLabel)}
                   <span className="text-text-muted"> · {current.people} (fictional)</span>
                 </p>
                 <ParentPhones household={household} parents={parents} />
