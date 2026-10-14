@@ -102,11 +102,6 @@
    },
    "chips": [
     {
-     "label": "This day and time rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
-    {
      "label": "No familiar faces yet",
      "feature": "knowsSomeone",
      "direction": "against"

@@ -25,9 +25,13 @@ const WEATHER_ICON: Record<string, typeof Sun> = {
   rainy: CloudRain,
 };
 
+const STILL_STARTING = "The server that rates the options is still starting. Press Plan it now again in a minute.";
+const DIDNT_FINISH = "The planner stopped before it finished. Press Plan it now again in a minute.";
+
 export function Replan({ board }: { board: PlanBoard }) {
   const [only, setOnly] = useState<"both" | "mother" | "father">("both");
-  const [state, setState] = useState<"idle" | "running" | "done" | "error">("idle");
+  // "waking" and "planning" are the two requests a run makes, so the status says what it's waiting for.
+  const [state, setState] = useState<"idle" | "waking" | "planning" | "done" | "error">("idle");
   const [result, setResult] = useState<ReplanResult | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [elapsed, setElapsed] = useState(0);
@@ -56,27 +60,34 @@ export function Replan({ board }: { board: PlanBoard }) {
     ...(father ? [{ id: "father" as const, label: `Only ${father.firstName}` }] : []),
   ];
 
+  const running = state === "waking" || state === "planning";
+
   async function run() {
-    setState("running");
+    setState("waking");
     setError(null);
     setElapsed(0);
     const t0 = Date.now();
     timer.current = setInterval(() => setElapsed(Math.round((Date.now() - t0) / 1000)), 1000);
     try {
+      // First the free servers: the ranker sleeps after a quiet spell and takes up to a minute to start.
+      const wake = await fetch("/plan/api/replan/wake?wait=1").catch(() => null);
+      if (wake?.status === 503) throw new Error(STILL_STARTING);
+      setState("planning");
       const res = await fetch(`/plan/api/replan/${board.household.slug}`, {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(only === "both" ? {} : { only }),
       });
       const body = await res.json();
-      if (!res.ok) throw new Error(body.error ?? "The planner didn't finish. Try again in a minute.");
+      if (!res.ok) throw new Error(body.error ?? DIDNT_FINISH);
       setResult(body as ReplanResult);
       setState("done");
     } catch (e) {
-      setError(e instanceof Error ? e.message : "The planner didn't finish. Try again in a minute.");
+      setError(e instanceof Error && e.message ? e.message : DIDNT_FINISH);
       setState("error");
     } finally {
       if (timer.current) clearInterval(timer.current);
+      setElapsed(Math.round((Date.now() - t0) / 1000));
     }
   }
 
@@ -86,8 +97,9 @@ export function Replan({ board }: { board: PlanBoard }) {
         <h2 className="text-[20px] font-semibold">Plan the coming week</h2>
         <p className="text-[15px] text-text-muted">
           Run the planner now for next Monday to Sunday. It checks the live forecast and the places already found
-          nearby, rates each option by how their past outings went (TabPFN), then picks and explains the best ones
-          (Gemma 4). It takes about half a minute and doesn&rsquo;t change this week or their phones.
+          nearby, rates each option by how their past outings went, then picks and explains the best ones. It usually
+          takes under a minute; the first run after a quiet spell can take longer. It doesn&rsquo;t change this week or
+          their phones. The ratings come from TabPFN and the choices from Gemma 4.
         </p>
       </div>
       <div className="flex flex-wrap items-center gap-3">
@@ -109,15 +121,17 @@ export function Replan({ board }: { board: PlanBoard }) {
             </button>
           ))}
         </div>
-        <Button variant="secondary" onClick={() => void run()} disabled={state === "running"}>
-          {state === "running" ? "Planning" : state === "done" ? "Plan it again" : "Plan it now"}
+        <Button variant="secondary" onClick={() => void run()} disabled={running}>
+          {running ? "Planning" : state === "done" ? "Plan it again" : "Plan it now"}
         </Button>
         <p role="status" aria-live="polite" className="text-[13px] text-text-muted">
-          {state === "running"
-            ? `Planning, ${elapsed} s. A free server may take a moment to wake.`
-            : state === "done" && result
-              ? `Made just now in ${result.stats.seconds} s.`
-              : ""}
+          {state === "waking"
+            ? `Starting the free servers, ${elapsed} s. After a quiet spell this can take a minute.`
+            : state === "planning"
+              ? `Rating each option and choosing the best ones, ${elapsed} s.`
+              : state === "done" && result
+                ? `Made just now in ${elapsed} s.`
+                : ""}
         </p>
       </div>
       {state === "error" && error ? (

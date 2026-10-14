@@ -727,11 +727,6 @@
      "direction": "for"
     },
     {
-     "label": "This day and time rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
-    {
      "label": "Costs money",
      "feature": "costUsd",
      "direction": "against"
@@ -1011,11 +1006,6 @@
       "direction": "for"
      },
      {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
-     {
       "label": "Short errands rated lower so far",
       "feature": "trip",
       "direction": "against"
@@ -1136,11 +1126,6 @@
      "rank": 0
     },
     "chips": [
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
      {
       "label": "Not in their language",
       "feature": "languageMatch",
@@ -1424,11 +1409,6 @@
       "direction": "for"
      },
      {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
-     {
       "label": "Short errands rated lower so far",
       "feature": "trip",
       "direction": "against"
@@ -1549,11 +1529,6 @@
      "rank": 0
     },
     "chips": [
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
      {
       "label": "Not in their language",
       "feature": "languageMatch",
@@ -1837,11 +1812,6 @@
       "direction": "for"
      },
      {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
-     {
       "label": "Short errands rated lower so far",
       "feature": "trip",
       "direction": "against"
@@ -1962,11 +1932,6 @@
      "rank": 0
     },
     "chips": [
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
      {
       "label": "Not in their language",
       "feature": "languageMatch",
@@ -2250,11 +2215,6 @@
       "direction": "for"
      },
      {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
-     {
       "label": "Short errands rated lower so far",
       "feature": "trip",
       "direction": "against"
@@ -2375,11 +2335,6 @@
      "rank": 0
     },
     "chips": [
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
      {
       "label": "Not in their language",
       "feature": "languageMatch",
@@ -2663,11 +2618,6 @@
       "direction": "for"
      },
      {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
-     {
       "label": "Short errands rated lower so far",
       "feature": "trip",
       "direction": "against"
@@ -2788,11 +2738,6 @@
      "rank": 0
     },
     "chips": [
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
      {
       "label": "Not in their language",
       "feature": "languageMatch",

@@ -277,11 +277,6 @@
      "direction": "for"
     },
     {
-     "label": "This day and time rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
-    {
      "label": "Shared culture",
      "feature": "languageMatch",
      "direction": "for"
@@ -413,11 +408,6 @@
      "direction": "for"
     },
     {
-     "label": "This day and time rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
-    {
      "label": "Not in their language",
      "feature": "languageMatch",
      "direction": "against"
@@ -515,11 +505,6 @@
    },
    "chips": [
     {
-     "label": "This day and time rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
-    {
      "label": "Good weather for it",
      "feature": "weather",
      "direction": "for"
@@ -607,11 +592,6 @@
     "rank": 5
    },
    "chips": [
-    {
-     "label": "This day and time rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
     {
      "label": "Speaks their language",
      "feature": "languageMatch",
@@ -1215,11 +1195,6 @@
       "direction": "for"
      },
      {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
-     {
       "label": "No familiar faces yet",
       "feature": "knowsSomeone",
       "direction": "against"
@@ -1356,11 +1331,6 @@
       "direction": "for"
      },
      {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
-     {
       "label": "Shared culture",
       "feature": "languageMatch",
       "direction": "for"
@@ -1490,11 +1460,6 @@
       "label": "Like the park outings they enjoyed",
       "feature": "category",
       "direction": "for"
-     },
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
      },
      {
       "label": "Not in their language",
@@ -1650,11 +1615,6 @@
       "direction": "for"
      },
      {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
-     {
       "label": "No familiar faces yet",
       "feature": "knowsSomeone",
       "direction": "against"
@@ -1791,11 +1751,6 @@
       "direction": "for"
      },
      {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
-     {
       "label": "Shared culture",
       "feature": "languageMatch",
       "direction": "for"
@@ -1925,11 +1880,6 @@
       "label": "Like the park outings they enjoyed",
       "feature": "category",
       "direction": "for"
-     },
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
      },
      {
       "label": "Not in their language",

@@ -97,11 +97,6 @@
      "direction": "for"
     },
     {
-     "label": "This day and time rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
-    {
      "label": "A longer ride",
      "feature": "trip",
      "direction": "against"
@@ -333,11 +328,6 @@
      "direction": "for"
     },
     {
-     "label": "This day and time rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
-    {
      "label": "No familiar faces yet",
      "feature": "knowsSomeone",
      "direction": "against"
@@ -463,11 +453,6 @@
     "rank": 4
    },
    "chips": [
-    {
-     "label": "This day and time rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
     {
      "label": "Other Indian languages, not theirs",
      "feature": "languageMatch",
@@ -704,11 +689,6 @@
       "direction": "against"
      },
      {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
-     {
       "label": "Short errands rated lower so far",
       "feature": "trip",
       "direction": "against"
@@ -842,11 +822,6 @@
       "label": "Long trip",
       "feature": "trip",
       "direction": "against"
-     },
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
      }
     ],
     "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. By bus, about 41 minutes each way, back by 12:22.",
@@ -973,11 +948,6 @@
      "rank": 0
     },
     "chips": [
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
      {
       "label": "Short errands rated lower so far",
       "feature": "trip",
@@ -1106,11 +1076,6 @@
      "rank": 0
     },
     "chips": [
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
      {
       "label": "Like the Indian grocery outings they enjoyed",
       "feature": "category",
@@ -1387,11 +1352,6 @@
       "label": "Like the park outings they enjoyed",
       "feature": "category",
       "direction": "for"
-     },
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
      }
     ],
     "reasonText": "No Telugu events nearby this week. No language needed. He gave his last 2 walks in the park 4 of 5. By bus, about 15 minutes each way, back by 09:30.",
@@ -1509,11 +1469,6 @@
      {
       "label": "Not in their language",
       "feature": "languageMatch",
-      "direction": "against"
-     },
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
       "direction": "against"
      },
      {
@@ -1650,11 +1605,6 @@
       "label": "Long trip",
       "feature": "trip",
       "direction": "against"
-     },
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
      }
     ],
     "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. By bus, about 41 minutes each way, back by 12:22.",
@@ -1781,11 +1731,6 @@
      "rank": 0
     },
     "chips": [
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
      {
       "label": "Short errands rated lower so far",
       "feature": "trip",
@@ -1915,11 +1860,6 @@
       "direction": "against"
      },
      {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
-     {
       "label": "Short errands rated lower so far",
       "feature": "trip",
       "direction": "against"
@@ -2053,11 +1993,6 @@
       "label": "Long trip",
       "feature": "trip",
       "direction": "against"
-     },
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
      }
     ],
     "reasonText": "No Telugu events nearby this week. A program for newcomers and older adults. By bus, about 41 minutes each way, back by 12:22.",
@@ -2184,11 +2119,6 @@
      "rank": 0
     },
     "chips": [
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
      {
       "label": "Short errands rated lower so far",
       "feature": "trip",
@@ -2317,11 +2247,6 @@
      "rank": 0
     },
     "chips": [
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
      {
       "label": "Like the Indian grocery outings they enjoyed",
       "feature": "category",
@@ -2598,11 +2523,6 @@
       "label": "Like the park outings they enjoyed",
       "feature": "category",
       "direction": "for"
-     },
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
      }
     ],
     "reasonText": "No Telugu events nearby this week. No language needed. He gave his last 2 walks in the park 4 of 5. With you on Saturday, about 15 minutes away, back by 11:30.",

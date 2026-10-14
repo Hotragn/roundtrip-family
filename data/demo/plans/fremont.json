@@ -416,11 +416,6 @@
      "direction": "for"
     },
     {
-     "label": "This day and time rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
-    {
      "label": "Shared culture",
      "feature": "languageMatch",
      "direction": "for"
@@ -517,11 +512,6 @@
     "rank": 4
    },
    "chips": [
-    {
-     "label": "This day and time rated lower so far",
-     "feature": "timing",
-     "direction": "against"
-    },
     {
      "label": "Good weather for it",
      "feature": "weather",
@@ -1572,11 +1562,6 @@
       "direction": "for"
      },
      {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
-     {
       "label": "No familiar faces yet",
       "feature": "knowsSomeone",
       "direction": "against"
@@ -1713,11 +1698,6 @@
       "direction": "for"
      },
      {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
-     },
-     {
       "label": "Shared culture",
       "feature": "languageMatch",
       "direction": "for"
@@ -1847,11 +1827,6 @@
       "label": "Like the park outings they enjoyed",
       "feature": "category",
       "direction": "for"
-     },
-     {
-      "label": "This day and time rated lower so far",
-      "feature": "timing",
-      "direction": "against"
      },
      {
       "label": "Not in their language",

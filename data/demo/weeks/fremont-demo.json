@@ -1916,11 +1916,6 @@
           "direction": "for"
         },
         {
-          "label": "This day and time rated lower so far",
-          "feature": "timing",
-          "direction": "against"
-        },
-        {
           "label": "Shared culture",
           "feature": "languageMatch",
           "direction": "for"
@@ -2396,11 +2391,6 @@
       "ladderLabel": "Language barely matters",
       "reasonText": "No Telugu events nearby this week. No language needed. With you on Sunday, about 21 minutes away, back by 11:42.",
       "chips": [
-        {
-          "label": "This day and time rated lower so far",
-          "feature": "timing",
-          "direction": "against"
-        },
         {
           "label": "Good weather for it",
           "feature": "weather",

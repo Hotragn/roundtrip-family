@@ -16,6 +16,7 @@
     "./understand": "./src/discovery/understand.ts",
     "./ladder": "./src/discovery/ladder.ts",
     "./serpapi": "./src/tools/serpapi.ts",
+    "./ranker": "./src/tools/ranker.ts",
     "./weeks": "./src/planner/weeks.ts",
     "./candidates": "./src/planner/candidates.ts",
     "./people": "./src/planner/people.ts",
