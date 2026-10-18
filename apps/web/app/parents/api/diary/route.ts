@@ -51,7 +51,7 @@ export async function POST(req: Request) {
     const who = (req.headers.get("x-forwarded-for") ?? "local").split(",")[0]!.trim();
     const limits = [{ key: `diary:${who}`, max: 60, windowMs: HOUR_MS }];
     if (b.entry.audio) limits.push({ key: "diary-audio:all", max: 8, windowMs: HOUR_MS });
-    const room = take(limits);
+    const room = await take(limits);
     if (!room.ok)
       return Response.json(
         { error: `Too many entries for now. Try again in ${room.retryInMinutes} minutes.` },

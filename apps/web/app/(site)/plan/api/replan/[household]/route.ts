@@ -51,7 +51,7 @@ export async function POST(req: Request, { params }: { params: Promise<{ househo
   }
 
   const sid = await sessionId();
-  const allowed = take([
+  const allowed = await take([
     { key: `replan:${sid}`, max: 3, windowMs: 60 * 60 * 1000 },
     { key: "replan:all", max: 40, windowMs: 24 * 60 * 60 * 1000 },
   ]);
