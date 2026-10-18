@@ -117,7 +117,8 @@ class WhisperAsr:
         self.model_id = choice.model
         self.code = choice.code
         self.processor = WhisperProcessor.from_pretrained(local_dir)
-        self.model = WhisperForConditionalGeneration.from_pretrained(local_dir)
+        # The checkpoint is stored in float16; the CPU runs float32.
+        self.model = WhisperForConditionalGeneration.from_pretrained(local_dir, torch_dtype=torch.float32)
         self.model.eval()
 
     def use(self, code: str) -> None:
