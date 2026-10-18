@@ -39,7 +39,9 @@ const nextConfig: NextConfig = {
     const cache = [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }];
     // Every response: HTTPS only, no sniffing, no framing, no full URLs to other sites. The
     // microphone (diary voice notes) and location ("where am I" on a trip) stay this site's own.
-    // No script-src yet: the pages carry inline scripts (Next's data, the script loader).
+    // The script policy is a meta tag in each prerendered page, with the sha256 of its inline
+    // scripts (scripts/defer-scripts.mjs): a header made here can't know them. The header keeps
+    // what a meta tag can't carry (frame-ancestors). API answers are data, so they get nothing.
     const security = [
       { key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains" },
       { key: "X-Content-Type-Options", value: "nosniff" },
@@ -50,6 +52,10 @@ const nextConfig: NextConfig = {
     ];
     return [
       { source: "/:path*", headers: security },
+      ...["/api/:path*", "/plan/api/:path*", "/parents/api/:path*"].map((source) => ({
+        source,
+        headers: [{ key: "Content-Security-Policy", value: "default-src 'none'; frame-ancestors 'none'" }],
+      })),
       ...["/art/:path*", "/brand/:path*", "/icons/:path*", "/audio/:path*", "/maplibre/:path*"].map((source) => ({
         source,
         headers: cache,

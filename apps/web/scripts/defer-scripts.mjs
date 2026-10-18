@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
@@ -21,11 +22,54 @@ export function deferScripts(html) {
   return out === html ? html : out.replace("</body>", `${LOADER}</body>`);
 }
 
+/**
+ * The script policy for prerendered pages, as a meta tag (docs/decisions.md). A per-request
+ * nonce can't go into HTML made at build time, so each page allows its own inline scripts by
+ * their sha256 (Next's page data, the loader above, the guide and early-tap scripts) and
+ * scripts from this site; nothing else runs. Every page route is prerendered, so this covers
+ * every HTML page; the response header (next.config.ts) adds frame-ancestors, which a meta tag
+ * can't carry. Styles allow 'unsafe-inline': the server HTML carries style attributes (React's
+ * style prop, Next's font variables), and a style can't run code. MapLibre starts its workers
+ * from blob URLs; map tiles come from OpenFreeMap; place photos from the image hosts in
+ * next.config.ts (packages/core/src/privacy/outbound.ts lists the browser's hosts).
+ */
+export const POLICY = [
+  "default-src 'self'",
+  "script-src 'self' HASHES",
+  "style-src 'self' 'unsafe-inline'",
+  "img-src 'self' data: blob: https://*.googleusercontent.com https://*.gstatic.com https://streetviewpixels-pa.googleapis.com https://serpapi.com",
+  "font-src 'self'",
+  "connect-src 'self' https://tiles.openfreemap.org",
+  "media-src 'self' blob: data:",
+  "worker-src 'self' blob:",
+  "manifest-src 'self'",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'self'",
+].join("; ");
+
+const INLINE = /<script(?![^>]*\ssrc=)(?:\s[^>]*)?>([\s\S]*?)<\/script>/g;
+const META = /<meta http-equiv="Content-Security-Policy" content="[^"]*"\/>/;
+
+/** Adds (or refreshes) the page's policy just after its charset, before any script. */
+export function addPolicy(html) {
+  const bare = html.replace(META, "");
+  const hashes = new Set();
+  for (const [, body] of bare.matchAll(INLINE)) {
+    if (body) hashes.add(`'sha256-${createHash("sha256").update(body, "utf8").digest("base64")}'`);
+  }
+  const meta = `<meta http-equiv="Content-Security-Policy" content="${POLICY.replace("HASHES", [...hashes].join(" "))}"/>`;
+  const at = bare.indexOf('<meta charSet="utf-8"/>');
+  if (at < 0) return bare.replace("<head>", `<head>${meta}`);
+  const end = at + '<meta charSet="utf-8"/>'.length;
+  return bare.slice(0, end) + meta + bare.slice(end);
+}
+
 function walk(dir) {
   for (const name of readdirSync(dir)) {
     const p = join(dir, name);
     if (statSync(p).isDirectory()) walk(p);
-    else if (name.endsWith(".html")) writeFileSync(p, deferScripts(readFileSync(p, "utf8")));
+    else if (name.endsWith(".html")) writeFileSync(p, addPolicy(deferScripts(readFileSync(p, "utf8"))));
   }
 }
 
@@ -33,5 +77,5 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const web = join(import.meta.dirname, "..");
   walk(join(web, ".next/server/app"));
   walk(join(web, ".next/standalone/apps/web/.next/server/app"));
-  console.log("Prerendered pages start their scripts after the first paint.");
+  console.log("Prerendered pages start their scripts after the first paint and carry their script policy.");
 }

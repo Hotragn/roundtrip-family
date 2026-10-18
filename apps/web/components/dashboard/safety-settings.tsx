@@ -1,5 +1,7 @@
 "use client";
 
+import "@/lib/zod-jitless";
+
 import { zodResolver } from "@hookform/resolvers/zod";
 import type { SafetySettings as Settings } from "@roundtrip/core";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
