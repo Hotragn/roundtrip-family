@@ -36,7 +36,7 @@ flowchart LR
     K[Telugu card writer: Qwen3.5-4B LoRA on Tinker]
   end
   subgraph Home["The family's own hardware (Codespace)"]
-    S[Speech: MMS-TTS and MMS ASR]
+    S[Speech: Parler-TTS voices, Whisper and IndicConformer checks]
     TW[Temporal: weekPlan, outingSafety, trialRun]
   end
   SA[SerpApi: events, places, directions]
@@ -56,7 +56,7 @@ flowchart LR
 - **Planner:** a Mastra agent on Gemma 4 chooses and explains the week, from places found by SerpApi and a five-rung fallback ladder (same language, shared culture, language barely matters, newcomer and older-adult programs, a regular routine).
 - **Ranker:** TabPFN predicts, per parent, whether they'd go and how much they'd enjoy it, from what they rated before. It puts 71% of liked outings in its top 3, against 36% for travel time alone.
 - **Cards:** a LoRA on Qwen3.5-4B, trained once on Tinker for $0.22, passes every code check on 98% of held-out cards (Gemma 85%); every card also passes a Gemma review before a parent sees it.
-- **Voice:** Meta MMS speaks Telugu, English and German on the family's own hardware; the clips are saved so the hosted demo plays them.
+- **Voice:** AI4Bharat Indic Parler-TTS speaks Telugu and Parler-TTS Mini Multilingual speaks English and German, in a GitHub Actions job; the clips are saved so the hosted demo plays them.
 - **Safety:** Temporal timers survive a worker crash: killed 26 s before the alert was due, the restarted worker sent it 160 ms late.
 - **Privacy:** only anonymized or synthetic data reaches a hosted service, every outbound call is registered and checked in CI (`docs/privacy-table.md`), and diary entries are encrypted per parent.
 
@@ -77,4 +77,4 @@ Plan and design: [docs/plan.md](docs/plan.md), [docs/brand.md](docs/brand.md). B
 
 ## License
 
-MIT. See [LICENSE](LICENSE). The card writer adapter is Apache 2.0; the Telugu voice (AI4Bharat Indic Parler-TTS) is Apache 2.0; Meta's MMS voices for English and German and the MMS listener are CC-BY-NC 4.0, so non-commercial only.
+MIT. See [LICENSE](LICENSE). The card writer adapter is Apache 2.0; the voices (AI4Bharat Indic Parler-TTS for Telugu, Parler-TTS Mini Multilingual for English and German) are Apache 2.0, so every clip the app plays may be used commercially. The listeners that score the clips offline are MIT (Whisper, IndicConformer); the one non-commercial model left, Meta's mms-1b-all (CC-BY-NC 4.0), is only a fallback for scoring Telugu and ships nothing. See [docs/models.md](docs/models.md).

@@ -1,13 +1,13 @@
 {
   "provenance": "synthetic",
-  "generatedAt": "2026-10-12T08:55:45Z",
+  "generatedAt": "2026-10-18T11:47:00Z",
   "models": {
     "te-tts": "ai4bharat/indic-parler-tts",
-    "en-tts": "facebook/mms-tts-eng",
-    "de-tts": "facebook/mms-tts-deu",
+    "en-tts": "parler-tts/parler-tts-mini-multilingual-v1.1",
+    "de-tts": "parler-tts/parler-tts-mini-multilingual-v1.1",
     "te-asr": "ai4bharat/indic-conformer-600m-multilingual",
-    "en-asr": "facebook/mms-1b-all (eng)",
-    "de-asr": "facebook/mms-1b-all (deu)"
+    "en-asr": "openai/whisper-large-v3-turbo",
+    "de-asr": "openai/whisper-large-v3-turbo"
   },
   "clips": {
     "059831f46b26e67e": {
@@ -15,32 +15,32 @@
       "lang": "en",
       "kind": "phrase",
       "source": "fremont-demo",
-      "model": "facebook/mms-tts-eng",
-      "seconds": 2.5,
-      "bytes": 15456,
-      "transcript": "where do i leav my shows",
-      "cer": 0.08
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 2.61,
+      "bytes": 16176,
+      "transcript": "Where do I leave my shoes?",
+      "cer": 0.0
     },
     "06371297423f6328": {
       "file": "/audio/06371297423f6328.mp3",
       "lang": "de",
       "kind": "phrase",
       "source": "munich-demo",
-      "model": "facebook/mms-tts-deu",
-      "seconds": 2.22,
-      "bytes": 13872,
-      "transcript": "darf ich mit machen",
-      "cer": 0.056
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 1.89,
+      "bytes": 11856,
+      "transcript": "Darf ich mitmachen?",
+      "cer": 0.0
     },
     "193196a6504a4542": {
       "file": "/audio/193196a6504a4542.mp3",
       "lang": "de",
       "kind": "phrase",
       "source": "munich-demo",
-      "model": "facebook/mms-tts-deu",
-      "seconds": 2.96,
-      "bytes": 18336,
-      "transcript": "wo kann ich meine schuhe lassen",
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 2.62,
+      "bytes": 16320,
+      "transcript": "»Wo kann ich meine Schuhe lassen?«",
       "cer": 0.0
     },
     "1932b0b4819a57cb": {
@@ -103,11 +103,11 @@
       "lang": "en",
       "kind": "help-card",
       "source": "fremont-demo",
-      "model": "facebook/mms-tts-eng",
-      "seconds": 11.11,
-      "bytes": 67152,
-      "transcript": "ill i am visiting my family and i speak very little english please call my family at this number thant you",
-      "cer": 0.037
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 10.48,
+      "bytes": 63408,
+      "transcript": "Hello. I'm visiting my family, and I speak very little English. Please call my family at this number. Thank you.",
+      "cer": 0.019
     },
     "2e1a34c6d8c78a7b": {
       "file": "/audio/2e1a34c6d8c78a7b.mp3",
@@ -125,32 +125,32 @@
       "lang": "de",
       "kind": "help-card",
       "source": "munich-demo",
-      "model": "facebook/mms-tts-deu",
-      "seconds": 12.07,
-      "bytes": 72912,
-      "transcript": "ich besuche meine familie und spreche kaum deutsch bitte rufen sie meine familie unter dieser nummer an dann wil",
-      "cer": 0.096
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 11.31,
+      "bytes": 68448,
+      "transcript": "Hallo, ihr ... Ich besuche meine Familie und spreche kaum Deutsch. Bitte rufen Sie meine Familie unter dieser Nummer an.",
+      "cer": 0.087
     },
     "35048e9c67a49330": {
       "file": "/audio/35048e9c67a49330.mp3",
       "lang": "de",
       "kind": "phrase",
       "source": "munich-demo",
-      "model": "facebook/mms-tts-deu",
-      "seconds": 3.54,
-      "bytes": 21792,
-      "transcript": "bitte rufen sie diese numma an",
-      "cer": 0.065
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 2.92,
+      "bytes": 18048,
+      "transcript": "»Bitte rufen Sie diese Nummer an.«",
+      "cer": 0.0
     },
     "3883f34ee4274fc0": {
       "file": "/audio/3883f34ee4274fc0.mp3",
       "lang": "en",
       "kind": "phrase",
       "source": "fremont-demo",
-      "model": "facebook/mms-tts-eng",
-      "seconds": 2.45,
-      "bytes": 15168,
-      "transcript": "please call this number",
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 1.99,
+      "bytes": 12432,
+      "transcript": "Please call this number.",
       "cer": 0.0
     },
     "426784196a3e61fb": {
@@ -158,32 +158,32 @@
       "lang": "en",
       "kind": "phrase",
       "source": "fremont-demo",
-      "model": "facebook/mms-tts-eng",
-      "seconds": 2.4,
-      "bytes": 14880,
-      "transcript": "i don't understand",
-      "cer": 0.0
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 1.74,
+      "bytes": 10992,
+      "transcript": "A don't understand.",
+      "cer": 0.059
     },
     "51ebe4f9cdd18495": {
       "file": "/audio/51ebe4f9cdd18495.mp3",
       "lang": "de",
       "kind": "phrase",
       "source": "munich-demo",
-      "model": "facebook/mms-tts-deu",
-      "seconds": 2.61,
-      "bytes": 16176,
-      "transcript": "wieviel kostet das",
-      "cer": 0.053
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 2.22,
+      "bytes": 13872,
+      "transcript": "Wie viel kostet das?",
+      "cer": 0.0
     },
     "587f78d040758c8e": {
       "file": "/audio/587f78d040758c8e.mp3",
       "lang": "en",
       "kind": "phrase",
       "source": "fremont-demo",
-      "model": "facebook/mms-tts-eng",
-      "seconds": 2.34,
-      "bytes": 14592,
-      "transcript": "where is the bathroom",
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 1.89,
+      "bytes": 11856,
+      "transcript": "Where is the bathroom?",
       "cer": 0.0
     },
     "5b66b146662fc332": {
@@ -191,10 +191,10 @@
       "lang": "de",
       "kind": "phrase",
       "source": "munich-demo",
-      "model": "facebook/mms-tts-deu",
-      "seconds": 2.7,
-      "bytes": 16752,
-      "transcript": "wo ist die toilette",
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 2.12,
+      "bytes": 13296,
+      "transcript": "Wo ist die Toilette?",
       "cer": 0.0
     },
     "6a706120d2d067f4": {
@@ -202,10 +202,10 @@
       "lang": "de",
       "kind": "phrase",
       "source": "munich-demo",
-      "model": "facebook/mms-tts-deu",
-      "seconds": 2.77,
-      "bytes": 17184,
-      "transcript": "ich verstehe das nicht",
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 2.49,
+      "bytes": 15456,
+      "transcript": "»Ich verstehe das nicht.«",
       "cer": 0.0
     },
     "7006e628879cbf00": {
@@ -235,10 +235,10 @@
       "lang": "en",
       "kind": "phrase",
       "source": "fremont-demo",
-      "model": "facebook/mms-tts-eng",
-      "seconds": 1.94,
-      "bytes": 12144,
-      "transcript": "how much",
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 1.2,
+      "bytes": 7824,
+      "transcript": "How much?",
       "cer": 0.0
     },
     "847a9807f6ae8b0d": {
@@ -290,10 +290,10 @@
       "lang": "en",
       "kind": "phrase",
       "source": "fremont-demo",
-      "model": "facebook/mms-tts-eng",
-      "seconds": 1.74,
-      "bytes": 10992,
-      "transcript": "i need help",
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 1.47,
+      "bytes": 9408,
+      "transcript": "I need help.",
       "cer": 0.0
     },
     "b2f155700eef25f1": {
@@ -444,10 +444,10 @@
       "lang": "de",
       "kind": "phrase",
       "source": "munich-demo",
-      "model": "facebook/mms-tts-deu",
-      "seconds": 3.15,
-      "bytes": 19488,
-      "transcript": "bitte sprechen sie langsam",
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "seconds": 1.94,
+      "bytes": 12288,
+      "transcript": "Bitte sprechen Sie langsam.",
       "cer": 0.0
     },
     "ee38a62974ed01d7": {

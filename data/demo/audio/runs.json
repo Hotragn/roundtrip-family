@@ -238,6 +238,100 @@
       "threads": 2,
       "host": "Linux x86_64, 4 CPUs, 16 GB memory",
       "freedBytes": 0
+    },
+    {
+      "at": "2026-10-18T11:44:19Z",
+      "langs": [
+        "en"
+      ],
+      "clips": 7,
+      "status": "ok",
+      "fetchSeconds": 13.5,
+      "loadSeconds": 12.4,
+      "modelSeconds": 145.4,
+      "encodeSeconds": 1.4,
+      "audioSeconds": 21.4,
+      "droppedCharacters": {},
+      "task": "tts",
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "peakRssMB": 6466.4,
+      "torch": "2.5.1+cpu",
+      "threads": 2,
+      "host": "Linux x86_64, 4 CPUs, 16 GB memory",
+      "freedBytes": 3763410509
+    },
+    {
+      "at": "2026-10-18T11:46:22Z",
+      "langs": [
+        "en"
+      ],
+      "clips": 7,
+      "status": "ok",
+      "fetchSeconds": 12.0,
+      "loadSeconds": 6.5,
+      "modelSeconds": 99.9,
+      "audioSeconds": 21.4,
+      "perLanguage": {
+        "en": {
+          "clips": 7,
+          "audioSeconds": 21.4,
+          "modelSeconds": 99.9
+        }
+      },
+      "task": "asr",
+      "model": "openai/whisper-large-v3-turbo",
+      "peakRssMB": 5057.5,
+      "torch": "2.14.1+cpu",
+      "threads": 2,
+      "host": "Linux x86_64, 4 CPUs, 16 GB memory",
+      "freedBytes": 1622443339
+    },
+    {
+      "at": "2026-10-18T11:44:52Z",
+      "langs": [
+        "de"
+      ],
+      "clips": 8,
+      "status": "ok",
+      "fetchSeconds": 12.7,
+      "loadSeconds": 11.9,
+      "modelSeconds": 185.9,
+      "encodeSeconds": 1.6,
+      "audioSeconds": 27.5,
+      "droppedCharacters": {},
+      "task": "tts",
+      "model": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "peakRssMB": 6491.8,
+      "torch": "2.5.1+cpu",
+      "threads": 2,
+      "host": "Linux x86_64, 4 CPUs, 16 GB memory",
+      "freedBytes": 3763410509
+    },
+    {
+      "at": "2026-10-18T11:47:00Z",
+      "langs": [
+        "de"
+      ],
+      "clips": 8,
+      "status": "ok",
+      "fetchSeconds": 6.5,
+      "loadSeconds": 6.1,
+      "modelSeconds": 111.7,
+      "audioSeconds": 27.5,
+      "perLanguage": {
+        "de": {
+          "clips": 8,
+          "audioSeconds": 27.5,
+          "modelSeconds": 111.7
+        }
+      },
+      "task": "asr",
+      "model": "openai/whisper-large-v3-turbo",
+      "peakRssMB": 5055.6,
+      "torch": "2.14.1+cpu",
+      "threads": 2,
+      "host": "Linux x86_64, 4 CPUs, 16 GB memory",
+      "freedBytes": 1622443339
     }
   ]
 }
