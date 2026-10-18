@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 import { DashboardNav } from "./nav";
 import { ParentPhones } from "./parent-phones";
 import { DashboardProviders } from "./providers";
+import { SafetyAlertBanner } from "./safety-alerts";
 
 export const HOUSEHOLD_LINKS = [
   { slug: "fremont-demo", label: "Fremont, California", city: "Fremont", people: "Sarala and Venkat" },
@@ -98,6 +99,7 @@ export function DashboardShell({
               </div>
             </div>
           </header>
+          <SafetyAlertBanner household={household} />
           <DashboardNav household={household} />
           <main className="pb-24 pt-6">{children}</main>
         </div>

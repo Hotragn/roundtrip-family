@@ -20,7 +20,10 @@ export default defineConfig({
     ? undefined
     : {
         command: process.env.CI ? "pnpm start" : "pnpm dev",
-        env: process.env.CI ? { HOSTNAME: "127.0.0.1", PORT: "3000" } : {},
+        // SAFETY_TEST_HOOKS lets e2e/safety-alert.spec.ts ask for a few-seconds safety timer.
+        env: process.env.CI
+          ? { HOSTNAME: "127.0.0.1", PORT: "3000", SAFETY_TEST_HOOKS: "1" }
+          : { SAFETY_TEST_HOOKS: "1" },
         url: baseURL,
         reuseExistingServer: true,
         timeout: 240_000,

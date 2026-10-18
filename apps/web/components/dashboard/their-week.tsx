@@ -1,8 +1,9 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
-import { Check, Clock, Frown, Meh, Mic, Smile } from "lucide-react";
+import { BellRing, Check, Clock, Frown, Meh, Mic, Smile } from "lucide-react";
 import Link from "next/link";
+import type { AlertView } from "@/app/(site)/plan/api/alerts/[household]/route";
 import { Panel } from "@/components/shell/panel";
 import type { Visit } from "@/lib/family";
 import { checkinLine, hhmm, longDate, sampleWeek, tripLine, whoFor } from "@/lib/plan-format";
@@ -10,6 +11,7 @@ import type { PlanBoard } from "@/lib/plan-types";
 import { cn } from "@/lib/utils";
 import { DEMO_NOW } from "@/lib/week";
 import { howItWent } from "./memory-lists";
+import { alertLine, useSafetyAlerts } from "./safety-alerts";
 import { type EffectiveItem, useEffectiveItems, useOverlay } from "./use-overlay";
 
 /**
@@ -55,17 +57,33 @@ function Status({
   board,
   checkins,
   replies,
+  alerts,
 }: {
   item: EffectiveItem;
   date: string;
   board: PlanBoard;
   checkins: Checkin[];
   replies: Reply[];
+  alerts: AlertView[];
 }) {
   const tz = board.household.timezone;
   const mine = (r: Checkin) => r.outingId === item.slotId || r.outingId === item.id;
   const home = checkins.filter(mine);
   const said = replies.filter(mine);
+  const alert = alerts.find((a) => a.outingIds.includes(item.slotId) || a.outingIds.includes(item.id));
+  if (alert && home.length === 0) {
+    return (
+      <p
+        role={alert.state === "alerted" ? "alert" : undefined}
+        className="flex items-start gap-1.5 rounded-chip border-2 border-ink bg-bus px-2.5 py-1 text-[14px] font-semibold text-on-bus"
+      >
+        <BellRing aria-hidden="true" className="mt-0.5 size-4 shrink-0 stroke-[2]" />
+        {alert.state === "alerted"
+          ? alertLine(alert)
+          : `Not home yet: the phone is asking "Are you home?". If there's no answer, you'll be told.`}
+      </p>
+    );
+  }
   if (home.length || said.length) {
     return (
       <div className="space-y-1.5">
@@ -140,6 +158,7 @@ export function TheirWeek({ board, history }: { board: PlanBoard; history: Visit
   const items = useEffectiveItems(board, overlay).filter((i) => i.status === "approved");
   const checkins = useRecords<Checkin>("checkin").data ?? [];
   const replies = useRecords<Reply>("reply").data ?? [];
+  const alerts = useSafetyAlerts(board.household.slug).data ?? [];
   const days = board.week.days.filter((d) => items.some((i) => i.day === d.day));
   const went = history.filter((v) => v.went).reverse();
   const missed = history.filter((v) => !v.went);
@@ -184,7 +203,14 @@ export function TheirWeek({ board, history }: { board: PlanBoard; history: Visit
                               {whoFor(i, board)} · {tripLine(i)}
                             </p>
                           </div>
-                          <Status item={i} date={d.date} board={board} checkins={checkins} replies={replies} />
+                          <Status
+                            item={i}
+                            date={d.date}
+                            board={board}
+                            checkins={checkins}
+                            replies={replies}
+                            alerts={alerts}
+                          />
                         </li>
                       ))}
                   </ul>

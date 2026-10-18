@@ -1,6 +1,7 @@
 import { ExternalLink, Phone, Wifi } from "lucide-react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { PushOptIn } from "@/components/dashboard/push-optin";
 import { SafetySettingsForm, type TimerExample } from "@/components/dashboard/safety-settings";
 import { DashboardShell } from "@/components/dashboard/shell";
 import { Panel } from "@/components/shell/panel";
@@ -58,6 +59,16 @@ export default async function Safety({ params }: PageProps<"/plan/[household]/sa
             usesFahrenheit={h.hostCountry === "US"}
           />
         </Panel>
+
+        <section aria-labelledby="alerts" className="space-y-3">
+          <h2 id="alerts" className="text-[20px] font-semibold">
+            If they miss a check-in
+          </h2>
+          <p className="max-w-[720px] text-[15px]">
+            You&rsquo;ll see it at the top of every page here. You can also get it as a notification.
+          </p>
+          <PushOptIn />
+        </section>
 
         <section aria-labelledby="help" className="space-y-4">
           <h2 id="help" className="text-[20px] font-semibold">

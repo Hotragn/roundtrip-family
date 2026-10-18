@@ -147,6 +147,16 @@ export const OUTBOUND: OutboundRoute[] = [
     docs: "https://docs.agentmail.to/llms.txt",
   },
   {
+    id: "webpush",
+    service: "Browser push services (Google FCM, Mozilla, Apple, Microsoft), through web-push",
+    hosts: ["fcm.googleapis.com", "push.services.mozilla.com", "push.apple.com", "notify.windows.com"],
+    purpose: "The safety alert as a notification in the adult child's browser, when they turned it on",
+    sends: "First names, the outing's title and times, encrypted for that browser; never addresses or diary",
+    accepts: ["synthetic", "anonymized"],
+    when: "runtime",
+    docs: "https://datatracker.ietf.org/doc/html/rfc8030",
+  },
+  {
     id: "temporal",
     service: "Temporal dev server (our own, on the same machine, in the Codespace)",
     hosts: ["localhost", "127.0.0.1"],

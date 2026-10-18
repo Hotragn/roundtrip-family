@@ -2,6 +2,9 @@ import type { HouseholdBundle } from "@roundtrip/core/persona";
 import { type Collection, type Db, type Document, type Filter, MongoClient } from "mongodb";
 import { cosine } from "../gemma";
 
+/** BSON and Extended JSON, for the backup script (scripts/db-backup.ts) that keeps types like dates. */
+export { BSON } from "mongodb";
+
 /**
  * The MongoDB Atlas data layer (free cluster). Collections follow docs/plan.md section 7.
  * Driver docs: https://www.mongodb.com/docs/drivers/node/current/
@@ -24,6 +27,8 @@ export const COLLECTIONS = {
   serpCache: "serpapi_cache",
   usage: "usage",
   emails: "email_log",
+  safetyTimers: "safety_timers",
+  pushSubscriptions: "push_subscriptions",
 } as const;
 
 export const VECTOR_INDEX = "embedding_vector";

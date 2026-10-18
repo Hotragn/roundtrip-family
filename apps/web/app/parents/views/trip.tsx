@@ -2,18 +2,30 @@
 
 import { languageNameIn, speechTag } from "@roundtrip/core/languages";
 import { LocateFixed } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { DriverCard, PhraseCard } from "@/components/parents/cards";
 import { ListenButton } from "@/components/parents/listen-button";
 import { StopCountdown, useStopAlert } from "@/components/parents/stop-countdown";
+import { flushOutbox, queue } from "@/lib/parents-store";
 import { cn } from "@/lib/utils";
 import { showsDriver } from "@/lib/week";
 import { useParents } from "../context";
 import { L, listenGloss } from "../gloss";
 
 export function DirectionsView() {
-  const { outing, card, parent, t, en, week } = useParents();
+  const { outing, card, parent, t, en, week, home } = useParents();
   const legs = outing?.route?.legs ?? [];
+  // Opening the directions starts the trip: the server starts this outing's safety timer.
+  const leavingId = outing && !home[outing.id] ? outing.id : null;
+  useEffect(() => {
+    if (!leavingId) return;
+    void queue({
+      id: `${leavingId}:${parent.id}:leaving`,
+      kind: "leaving",
+      createdAt: new Date().toISOString(),
+      payload: { outingId: leavingId, parentId: parent.id },
+    }).then(() => flushOutbox());
+  }, [leavingId, parent.id]);
   const transit = legs.filter((l) => l.mode !== "walk");
   const last = transit.at(-1);
   const { state, start } = useStopAlert(last?.stopBefore?.location, last?.to.location);
