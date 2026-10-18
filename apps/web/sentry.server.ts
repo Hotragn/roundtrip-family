@@ -30,7 +30,10 @@ function cleanData(data: Record<string, unknown> | undefined): void {
 
 function clean<T extends Event>(event: T): T {
   if (event.request) {
-    const url = event.request.url ? event.request.url.split("?")[0] : undefined;
+    // A phone link's path is its secret.
+    const url = event.request.url
+      ? event.request.url.split("?")[0]!.replace(/\/parents\/k\/[^/]+/, "/parents/k/***")
+      : undefined;
     event.request = { url, method: event.request.method };
   }
   delete event.user;

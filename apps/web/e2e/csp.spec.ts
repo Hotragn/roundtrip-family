@@ -18,6 +18,8 @@ const PAGES = [
       (s) => `/plan/${h}${s}`,
     ),
   ),
+  "/privacy-policy",
+  "/terms",
   "/no-such-page",
 ];
 const PARENTS = ["/parents/fremont-demo/p_sarala", "/parents/fremont-demo/p_venkat", "/parents/munich-demo/p_kamala"];
@@ -104,5 +106,15 @@ test("every parents' screen, and an offline reload, run under the policy", async
   await expect(page.locator("main[data-view]")).toBeVisible();
   await hasPolicy(page);
   await context.setOffline(false);
+  expect(seen).toEqual([]);
+});
+
+test("pages that render per request carry a nonce policy and run without violations", async ({ page }) => {
+  const seen = await watch(page);
+  for (const path of ["/account", "/account/setup"]) {
+    const res = await page.goto(path);
+    expect(res!.headers()["content-security-policy"], path).toMatch(/script-src 'self' 'nonce-[^']+' 'strict-dynamic'/);
+    await page.waitForLoadState("networkidle");
+  }
   expect(seen).toEqual([]);
 });

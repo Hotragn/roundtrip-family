@@ -1,7 +1,10 @@
+import { cookies } from "next/headers";
 import { z } from "zod";
 import { DEMO_WEEKS } from "@/lib/demo-weeks";
+import { phoneLink } from "@/lib/server/accounts";
 import { deleteEntry, saveEntry, VisitLimitReached } from "@/lib/server/diary";
 import { take } from "@/lib/server/rate-limit";
+import { PHONE_COOKIE } from "@/lib/server/session";
 
 /**
  * The phone's diary sync, when it's back on home Wi-Fi: the latest state of one entry (saved,
@@ -58,7 +61,12 @@ export async function POST(req: Request) {
         { status: 429 },
       );
   }
-  if (!week?.parents.some((p) => p.id === parentId)) return Response.json({ error: "No such parent" }, { status: 404 });
+  // A real family's diary syncs only from its own parent's phone link.
+  const link = week ? null : await phoneLink((await cookies()).get(PHONE_COOKIE)?.value ?? "");
+  const known = week
+    ? week.parents.some((p) => p.id === parentId)
+    : link?.household === b.household && link.parentId === parentId;
+  if (!known) return Response.json({ error: "No such parent" }, { status: 404 });
   try {
     if (b.action === "delete") await deleteEntry(b.household, b.parentId, b.entryId);
     else

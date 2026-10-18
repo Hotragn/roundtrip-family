@@ -118,8 +118,11 @@ export function SetupWizard({
   initial,
   countries,
   languages,
+  saveUrl,
 }: {
   household: string;
+  /** A real family's household saves here and goes to its dashboard; the demo saves to the visit. */
+  saveUrl?: string;
   initial: SetupForm;
   countries: CountryOption[];
   languages: LanguageRecord[];
@@ -134,7 +137,7 @@ export function SetupWizard({
 
   const save = useMutation({
     mutationFn: async (v: SetupForm) => {
-      const res = await fetch(`/plan/api/setup/${household}`, {
+      const res = await fetch(saveUrl ?? `/plan/api/setup/${household}`, {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(v),
@@ -143,11 +146,13 @@ export function SetupWizard({
       if (!res.ok) throw new Error(body.error ?? "Check the highlighted answers and save again.");
       return body;
     },
-    onSuccess: () =>
+    onSuccess: (body: { href?: string }) => {
+      if (body.href) return window.location.assign(body.href);
       toast("Setup saved", {
         description:
           "The next plan uses it. This demo keeps your changes for a day; the fictional family stays as it was.",
-      }),
+      });
+    },
     onError: (e) => toast("Not saved yet", { description: e instanceof Error ? e.message : undefined }),
   });
 

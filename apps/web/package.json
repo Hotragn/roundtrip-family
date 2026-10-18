@@ -23,6 +23,8 @@
     "@roundtrip/core": "workspace:*",
     "@sentry/nextjs": "11.4.0",
     "@serwist/turbopack": "9.5.13",
+    "@simplewebauthn/browser": "13.2.2",
+    "@simplewebauthn/server": "13.2.2",
     "@tanstack/react-query": "^5.104.1",
     "@tanstack/react-table": "^9.2.6",
     "class-variance-authority": "^0.7.1",
