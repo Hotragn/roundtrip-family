@@ -12,6 +12,12 @@
   audio" for the cleanest output, and says punctuation shapes the prosody. The repository is
   gated and needs the parler-tts package (https://github.com/huggingface/parler-tts), which pins
   transformers 4.46.1; see docs/research/speech.md. License: Apache 2.0.
+- Parler-TTS Mini Multilingual v1.1 (parler-tts/parler-tts-mini-multilingual-v1.1) for English
+  and German. Docs: https://huggingface.co/parler-tts/parler-tts-mini-multilingual-v1.1. The same
+  library and loading as Indic Parler-TTS, so it runs in the same environment. The card names
+  Nicole as its most-trained German speaker and recommends "very clear audio". Not gated.
+  License: Apache 2.0.
+models.TTS no longer picks MMS-TTS (CC-BY-NC 4.0); its class stays for comparing old clips.
 """
 
 from __future__ import annotations
@@ -86,7 +92,7 @@ class MmsTts:
 
 
 class IndicParlerTts:
-    """Follows the model card's example; not yet run here because the repository is gated."""
+    """Follows the model card's example."""
 
     DESCRIPTION = (
         "Lalitha speaks slowly and calmly with a warm, clear voice and a moderate pitch, "
@@ -131,7 +137,18 @@ class IndicParlerTts:
         return np.concatenate(out)
 
 
+class ParlerTts(IndicParlerTts):
+    """English and German with one named speaker, so both languages sound like the same person."""
+
+    DESCRIPTION = (
+        "Nicole speaks slowly and calmly with a warm, clear voice and a moderate pitch, "
+        "in a close-sounding recording with very clear audio and no background noise."
+    )
+
+
 def load(choice: Choice, local_dir: str) -> Voice:
+    if choice.backend == "parler-tts":
+        return ParlerTts(choice, local_dir)
     if choice.backend == "mms-tts":
         return MmsTts(choice, local_dir)
     if choice.backend == "indic-parler-tts":

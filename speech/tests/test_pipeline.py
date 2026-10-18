@@ -30,7 +30,8 @@ def world(tmp_path, monkeypatch):
         "TRANSCRIPTS_PATH": tmp_path / "transcripts.json",
     }
     runs_path = tmp_path / "runs.json"
-    gated = lambda repo: "gated" if repo.startswith("ai4bharat/") else None  # noqa: E731
+    gated = lambda repo: None  # noqa: E731
+    monkeypatch.setattr("speech.models.library_missing", lambda choice: None)
     calls: list[dict] = []
 
     def fake_worker(job):
@@ -80,19 +81,24 @@ def test_first_run_voices_scores_and_reports(world):
     assert manifest["provenance"] == "synthetic" and manifest["generatedAt"]
     assert len(manifest["clips"]) == 5  # help card, title, body, phrase, diary
     assert manifest["models"] == {
-        "te-tts": "facebook/mms-tts-tel",
-        "de-tts": "facebook/mms-tts-deu",
-        "te-asr": "facebook/mms-1b-all (tel)",
-        "de-asr": "facebook/mms-1b-all (deu)",
+        "te-tts": "ai4bharat/indic-parler-tts",
+        "de-tts": "parler-tts/parler-tts-mini-multilingual-v1.1",
+        "te-asr": "ai4bharat/indic-conformer-600m-multilingual",
+        "de-asr": "openai/whisper-large-v3-turbo",
     }
     for key, clip in manifest["clips"].items():
         assert clip["file"] == f"/audio/{key}.mp3" and (world["audio"] / f"{key}.mp3").exists()
         assert clip["cer"] == 0.0 and clip["transcript"]
     tasks = [(c["task"], c["choice"]["model"]) for c in world["calls"]]
-    assert tasks == [("tts", "facebook/mms-tts-deu"), ("tts", "facebook/mms-tts-tel"), ("asr", "facebook/mms-1b-all")]
+    assert tasks == [
+        ("tts", "parler-tts/parler-tts-mini-multilingual-v1.1"),
+        ("tts", "ai4bharat/indic-parler-tts"),
+        ("asr", "ai4bharat/indic-conformer-600m-multilingual"),
+        ("asr", "openai/whisper-large-v3-turbo"),
+    ]
     body = next(c for c in world["calls"][1]["clips"] if "ఎనిమిదిన్నరకి" in c["spoken"])
     assert "సెంట్రల్ పార్క్" in body["spoken"]
-    assert "| Telugu | facebook/mms-tts-tel | facebook/mms-1b-all (tel) | 3 |" in world["doc"].read_text(encoding="utf-8")
+    assert "| Telugu | ai4bharat/indic-parler-tts | ai4bharat/indic-conformer-600m-multilingual | 3 |" in world["doc"].read_text(encoding="utf-8")
 
 
 def test_a_second_run_does_nothing(world):

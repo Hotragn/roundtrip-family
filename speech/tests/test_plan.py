@@ -92,16 +92,23 @@ def test_unscored_clips_leave_out_unknown_fields():
     assert models_used(out, {"clips": {}}) == {"te-tts": MMS_TE}
 
 
-def test_a_gated_model_falls_back_to_mms():
+def test_no_voice_is_non_commercial_and_a_gated_one_is_not_replaced(monkeypatch):
+    from speech.models import OPEN_TTS_MODELS, RETIRED_TTS_MODELS
+
+    monkeypatch.setattr("speech.models.library_missing", lambda choice: None)
+
     def gated(repo):
         return "gated: no access" if repo.startswith("ai4bharat/") else None
 
     choice, passed = resolve("te", TTS, access=gated)
-    assert choice is not None and choice.model == MMS_TE
-    assert passed[0][0] == "ai4bharat/indic-parler-tts"
+    assert choice is None and passed[0][0] == "ai4bharat/indic-parler-tts"
     listener, _ = resolve("te", ASR, access=gated)
-    assert label(listener) == "facebook/mms-1b-all (tel)"
-    assert resolve("de", TTS, access=lambda r: None)[0].model == "facebook/mms-tts-deu"
+    assert label(listener) == "facebook/mms-1b-all (tel)"  # scoring only, never shipped
+    for lang in ("en", "de"):
+        assert resolve(lang, TTS, access=lambda r: None)[0].model == "parler-tts/parler-tts-mini-multilingual-v1.1"
+        assert resolve(lang, ASR, access=lambda r: None)[0].model == "openai/whisper-large-v3-turbo"
+    assert not any("mms" in c.model for choices in TTS.values() for c in choices)
+    assert RETIRED_TTS_MODELS <= OPEN_TTS_MODELS  # old MMS clips are still re-voiced and pruned
 
 
 def test_a_model_that_failed_to_load_is_skipped():
