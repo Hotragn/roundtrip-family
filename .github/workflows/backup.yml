@@ -1,0 +1,68 @@
+name: Database backup
+
+# Every night, a copy of the Atlas database, encrypted, kept 30 days as this run's artifact.
+# The repo is public, so anyone can download artifacts: the dump is encrypted on the runner
+# (AES-256-CBC with PBKDF2, 600,000 rounds) before it's uploaded, and the plain file never
+# leaves the runner. Needs two Actions secrets: MONGODB_URI (a read-only Atlas user is enough)
+# and BACKUP_PASSPHRASE (a long random phrase, kept somewhere other than GitHub too, or the
+# backups can't be opened). Without them the job stops with a note and nothing is saved.
+# Restore steps are at the top of scripts/db-backup.ts. Atlas is reached directly, so the
+# sleeping Render service isn't woken. GitHub's schedule is best effort; runs can come late.
+on:
+  schedule:
+    - cron: "17 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      MONGODB_URI: ${{ secrets.MONGODB_URI }}
+      BACKUP_PASSPHRASE: ${{ secrets.BACKUP_PASSPHRASE }}
+    steps:
+      - name: Check the secrets are set
+        id: secrets
+        run: |
+          missing=""
+          [ -n "$MONGODB_URI" ] || missing="$missing MONGODB_URI"
+          [ -n "$BACKUP_PASSPHRASE" ] || missing="$missing BACKUP_PASSPHRASE"
+          if [ -n "$missing" ]; then
+            echo "::warning::No backup made: add the Actions secret(s)$missing in Settings, Secrets and variables, Actions."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.secrets.outputs.ready == 'true'
+      - uses: pnpm/action-setup@v4
+        if: steps.secrets.outputs.ready == 'true'
+      - uses: actions/setup-node@v4
+        if: steps.secrets.outputs.ready == 'true'
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - name: Install packages
+        if: steps.secrets.outputs.ready == 'true'
+        run: pnpm install --frozen-lockfile
+      - name: Dump, encrypt and check it opens
+        if: steps.secrets.outputs.ready == 'true'
+        run: |
+          mkdir -p backup
+          pnpm db:backup "$PWD/backup/roundtrip-db.jsonl.gz"
+          openssl enc -aes-256-cbc -pbkdf2 -iter 600000 -salt -in backup/roundtrip-db.jsonl.gz \
+            -out backup/roundtrip-db.jsonl.gz.enc -pass env:BACKUP_PASSPHRASE
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 600000 -in backup/roundtrip-db.jsonl.gz.enc \
+            -pass env:BACKUP_PASSPHRASE | gzip -t
+          rm backup/roundtrip-db.jsonl.gz
+          ls -l backup
+      - uses: actions/upload-artifact@v4
+        if: steps.secrets.outputs.ready == 'true'
+        with:
+          name: roundtrip-db-backup
+          path: backup/roundtrip-db.jsonl.gz.enc
+          retention-days: 30
+          if-no-files-found: error
