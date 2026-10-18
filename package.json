@@ -29,5 +29,10 @@
     "tsx": "^4.23.15",
     "typescript": "6.0.3",
     "vitest": "^5.0.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "js-yaml@3>argparse": "2.0.1"
+    }
   }
 }
