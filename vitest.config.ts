@@ -1,6 +1,9 @@
+import { fileURLToPath } from "node:url";
 import { defineConfig } from "vitest/config";
 
 export default defineConfig({
+  // The web app's "@/..." imports, so tests can load its route handlers.
+  resolve: { alias: [{ find: /^@\//, replacement: fileURLToPath(new URL("./apps/web/", import.meta.url)) }] },
   test: {
     environment: "node",
     include: [

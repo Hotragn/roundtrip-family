@@ -22,6 +22,21 @@ export function SiteFooter() {
           >
             Parents' app
           </a>
+          <Link
+            href="/account"
+            className="rounded-md text-text-muted underline-offset-4 hover:text-text hover:underline"
+          >
+            Sign in
+          </Link>
+          <Link
+            href="/privacy-policy"
+            className="rounded-md text-text-muted underline-offset-4 hover:text-text hover:underline"
+          >
+            Privacy policy
+          </Link>
+          <Link href="/terms" className="rounded-md text-text-muted underline-offset-4 hover:text-text hover:underline">
+            Terms
+          </Link>
         </nav>
       </div>
     </footer>

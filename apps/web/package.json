@@ -23,6 +23,8 @@
     "@roundtrip/core": "workspace:*",
     "@sentry/nextjs": "11.4.0",
     "@serwist/turbopack": "9.5.13",
+    "@simplewebauthn/browser": "13.2.2",
+    "@simplewebauthn/server": "13.2.2",
     "@tanstack/react-query": "^5.104.1",
     "@tanstack/react-table": "^9.2.6",
     "class-variance-authority": "^0.7.1",
@@ -55,8 +57,8 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/three": "^0.186.0",
+    "shadcn": "^4.21.2",
     "tailwindcss": "^4",
-    "typescript": "6.0.3",
-    "shadcn": "^4.21.2"
+    "typescript": "6.0.3"
   }
 }

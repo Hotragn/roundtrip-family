@@ -24,6 +24,13 @@ export const COLLECTIONS = {
   serpCache: "serpapi_cache",
   usage: "usage",
   emails: "email_log",
+  // Real families (apps/web/lib/server/accounts.ts): passkey sign-in and their own households.
+  accounts: "accounts",
+  credentials: "credentials",
+  authSessions: "auth_sessions",
+  authChallenges: "auth_challenges",
+  familyHouseholds: "family_households",
+  phoneLinks: "phone_links",
 } as const;
 
 export const VECTOR_INDEX = "embedding_vector";
@@ -88,7 +95,13 @@ export async function ensureIndexes(
   await col(db, "places").createIndex({ areaKey: 1, type: 1 });
   await col(db, "serpCache").createIndex({ key: 1 }, { unique: true });
   await col(db, "usage").createIndex({ key: 1 }, { unique: true });
-  // Demo visitors' changes expire after a day.
+  await col(db, "credentials").createIndex({ accountId: 1 });
+  await col(db, "familyHouseholds").createIndex({ accountId: 1 });
+  await col(db, "phoneLinks").createIndex({ household: 1 });
+  // Sign-in sessions and challenges expire; demo visitors' changes expire after a day.
+  for (const name of ["authSessions", "authChallenges"] as const) {
+    await col(db, name).createIndex({ expiresAt: 1 }, { expireAfterSeconds: 0 });
+  }
   for (const name of ["diary", "approvals", "checkins", "sessions"] as const) {
     await col(db, name).createIndex({ expiresAt: 1 }, { expireAfterSeconds: 0 });
   }
