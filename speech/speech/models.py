@@ -1,7 +1,9 @@
 """Which open model speaks or listens for each language, and getting it onto the machine.
 
 The preferred models follow docs/plan.md ("Language router"): AI4Bharat for Indian languages,
-Meta MMS otherwise. A preferred model is passed over only for a definite reason: its repository
+and for English and German open models whose licenses allow commercial use (docs/models.md):
+Parler-TTS Mini Multilingual speaks them and Whisper listens. Meta MMS (CC-BY-NC 4.0) voices
+nothing any more; mms-1b-all is kept only as a fallback listener for Telugu scores. A preferred model is passed over only for a definite reason: its repository
 is gated for this account, its library isn't installed, or it fails to load on this CPU. A
 network error stops the run instead of quietly switching voices.
 
@@ -24,7 +26,7 @@ from dataclasses import dataclass
 @dataclass(frozen=True)
 class Choice:
     model: str  # Hugging Face repository id
-    backend: str  # mms-tts, indic-parler-tts, mms-asr or indicconformer
+    backend: str  # indic-parler-tts, parler-tts, mms-asr, indicconformer or whisper
     code: str  # the language code the model expects (ISO 639-3 for MMS)
     library: str | None = None  # an extra Python package the backend needs
 
@@ -32,21 +34,31 @@ class Choice:
 INDIC_PARLER = Choice("ai4bharat/indic-parler-tts", "indic-parler-tts", "te", library="parler_tts")
 INDIC_CONFORMER = Choice("ai4bharat/indic-conformer-600m-multilingual", "indicconformer", "te", library="onnxruntime")
 
+PARLER_MULTI = "parler-tts/parler-tts-mini-multilingual-v1.1"  # Apache 2.0, not gated
+WHISPER = "openai/whisper-large-v3-turbo"  # MIT, not gated
+
+# Only commercially usable voices. There is no fallback to MMS-TTS (CC-BY-NC 4.0): a voice that
+# fails to load leaves its clips unvoiced rather than voiced by a non-commercial model.
 TTS: dict[str, list[Choice]] = {
-    "te": [INDIC_PARLER, Choice("facebook/mms-tts-tel", "mms-tts", "tel")],
-    "en": [Choice("facebook/mms-tts-eng", "mms-tts", "eng")],
-    "de": [Choice("facebook/mms-tts-deu", "mms-tts", "deu")],
+    "te": [INDIC_PARLER],
+    "en": [Choice(PARLER_MULTI, "parler-tts", "en", library="parler_tts")],
+    "de": [Choice(PARLER_MULTI, "parler-tts", "de", library="parler_tts")],
 }
 
+# Listeners only score clips offline; nothing they produce ships. That is why mms-1b-all
+# (CC-BY-NC 4.0) may stay as Telugu's fallback listener.
 ASR: dict[str, list[Choice]] = {
     "te": [INDIC_CONFORMER, Choice("facebook/mms-1b-all", "mms-asr", "tel")],
-    "en": [Choice("facebook/mms-1b-all", "mms-asr", "eng")],
-    "de": [Choice("facebook/mms-1b-all", "mms-asr", "deu")],
+    "en": [Choice(WHISPER, "whisper", "en")],
+    "de": [Choice(WHISPER, "whisper", "de")],
 }
+
+# Voices this pipeline used before; their old clips are still its own to re-voice or prune.
+RETIRED_TTS_MODELS = frozenset({"facebook/mms-tts-tel", "facebook/mms-tts-eng", "facebook/mms-tts-deu"})
 
 # Models this pipeline owns. Clips made by anything else (an ElevenLabs demo clip, say) are
 # never re-voiced or pruned by it.
-OPEN_TTS_MODELS = frozenset(c.model for choices in TTS.values() for c in choices)
+OPEN_TTS_MODELS = frozenset(c.model for choices in TTS.values() for c in choices) | RETIRED_TTS_MODELS
 
 # Only the files each backend loads; mms-1b-all alone is 29 GB with every adapter and both
 # weight formats, and the Codespace has a storage quota.
@@ -87,9 +99,9 @@ def check_access(repo_id: str) -> str | None:
 
 
 def python_for(choice: Choice) -> str:
-    """The interpreter that runs this model's worker. Indic Parler-TTS pins an older transformers,
+    """The interpreter that runs this model's worker. Parler-TTS pins an older transformers,
     so it gets an environment of its own when PARLER_PYTHON names one (.github/workflows/speech.yml)."""
-    if choice.backend == "indic-parler-tts" and os.environ.get("PARLER_PYTHON"):
+    if choice.backend in ("indic-parler-tts", "parler-tts") and os.environ.get("PARLER_PYTHON"):
         return os.environ["PARLER_PYTHON"]
     return sys.executable
 
@@ -137,8 +149,10 @@ def fetch(choice: Choice, codes: Iterable[str] = ()) -> str:
         patterns: list[str] | None = MMS_TTS_FILES
     elif choice.backend == "mms-asr":
         patterns = MMS_ASR_FILES + [f"adapter.{code}.safetensors" for code in sorted(set(codes))]
+    elif choice.backend == "whisper":
+        patterns = ["*.json", "*.txt", "model.safetensors"]
     else:
-        patterns = None  # the AI4Bharat repositories hold only what their loaders need
+        patterns = None  # the Parler and AI4Bharat repositories hold only what their loaders need
     if choice.backend == "indicconformer":
         # Real files in a plain folder: ONNX Runtime refuses weights reached through the cache's
         # links into its shared blobs folder ("External data path escapes model directory").

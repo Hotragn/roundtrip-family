@@ -2,42 +2,6 @@
   "provenance": "synthetic",
   "note": "Automated round trip on synthetic text: each clip's spoken form, the reference used for the character error rate, and what the listening model heard. Not a listening test.",
   "clips": {
-    "059831f46b26e67e": {
-      "lang": "en",
-      "kind": "phrase",
-      "source": "fremont-demo",
-      "text": "Where do I leave my shoes?",
-      "spoken": "Where do I leave my shoes?",
-      "reference": "Where do I leave my shoes?",
-      "ttsModel": "facebook/mms-tts-eng",
-      "asrModel": "facebook/mms-1b-all (eng)",
-      "transcript": "where do i leav my shows",
-      "cer": 0.08
-    },
-    "06371297423f6328": {
-      "lang": "de",
-      "kind": "phrase",
-      "source": "munich-demo",
-      "text": "Darf ich mitmachen?",
-      "spoken": "Darf ich mitmachen?",
-      "reference": "Darf ich mitmachen?",
-      "ttsModel": "facebook/mms-tts-deu",
-      "asrModel": "facebook/mms-1b-all (deu)",
-      "transcript": "darf ich mit machen",
-      "cer": 0.056
-    },
-    "193196a6504a4542": {
-      "lang": "de",
-      "kind": "phrase",
-      "source": "munich-demo",
-      "text": "Wo kann ich meine Schuhe lassen?",
-      "spoken": "Wo kann ich meine Schuhe lassen?",
-      "reference": "Wo kann ich meine Schuhe lassen?",
-      "ttsModel": "facebook/mms-tts-deu",
-      "asrModel": "facebook/mms-1b-all (deu)",
-      "transcript": "wo kann ich meine schuhe lassen",
-      "cer": 0.0
-    },
     "1932b0b4819a57cb": {
       "lang": "te",
       "kind": "card-body",
@@ -98,18 +62,6 @@
       "transcript": "లేక్ ఎలిజబెత్ చుట్టూ నడిచాం బాతులు ఉన్నాయి ఒక పెద్ద నేన హలో అన్నారు నేను హలో అన్నాను రేపుకూడా వెళ్దాం అనిపించింది",
       "cer": 0.044
     },
-    "2d7f8b04938cddef": {
-      "lang": "en",
-      "kind": "help-card",
-      "source": "fremont-demo",
-      "text": "Hello. I am visiting my family and I speak very little English. Please call my family at this number. Thank you.",
-      "spoken": "Hello. I am visiting my family and I speak very little English. Please call my family at this number. Thank you.",
-      "reference": "Hello. I am visiting my family and I speak very little English. Please call my family at this number. Thank you.",
-      "ttsModel": "facebook/mms-tts-eng",
-      "asrModel": "facebook/mms-1b-all (eng)",
-      "transcript": "ill i am visiting my family and i speak very little english please call my family at this number thant you",
-      "cer": 0.037
-    },
     "2e1a34c6d8c78a7b": {
       "lang": "te",
       "kind": "diary",
@@ -121,102 +73,6 @@
       "asrModel": "ai4bharat/indic-conformer-600m-multilingual",
       "transcript": "ఈ వారం బస్సులో ఒక్కడినే వెళ్ళాలి కొంచెం టెన్షన్గా ఉంది కాని ఏ స్టాప్లో దిగాలో టికెట్లో రాసి ఉంది",
       "cer": 0.021
-    },
-    "313a2d26803ea7da": {
-      "lang": "de",
-      "kind": "help-card",
-      "source": "munich-demo",
-      "text": "Hallo. Ich besuche meine Familie und spreche kaum Deutsch. Bitte rufen Sie meine Familie unter dieser Nummer an. Danke.",
-      "spoken": "Hallo. Ich besuche meine Familie und spreche kaum Deutsch. Bitte rufen Sie meine Familie unter dieser Nummer an. Danke.",
-      "reference": "Hallo. Ich besuche meine Familie und spreche kaum Deutsch. Bitte rufen Sie meine Familie unter dieser Nummer an. Danke.",
-      "ttsModel": "facebook/mms-tts-deu",
-      "asrModel": "facebook/mms-1b-all (deu)",
-      "transcript": "ich besuche meine familie und spreche kaum deutsch bitte rufen sie meine familie unter dieser nummer an dann wil",
-      "cer": 0.096
-    },
-    "35048e9c67a49330": {
-      "lang": "de",
-      "kind": "phrase",
-      "source": "munich-demo",
-      "text": "Bitte rufen Sie diese Nummer an.",
-      "spoken": "Bitte rufen Sie diese Nummer an.",
-      "reference": "Bitte rufen Sie diese Nummer an.",
-      "ttsModel": "facebook/mms-tts-deu",
-      "asrModel": "facebook/mms-1b-all (deu)",
-      "transcript": "bitte rufen sie diese numma an",
-      "cer": 0.065
-    },
-    "3883f34ee4274fc0": {
-      "lang": "en",
-      "kind": "phrase",
-      "source": "fremont-demo",
-      "text": "Please call this number.",
-      "spoken": "Please call this number.",
-      "reference": "Please call this number.",
-      "ttsModel": "facebook/mms-tts-eng",
-      "asrModel": "facebook/mms-1b-all (eng)",
-      "transcript": "please call this number",
-      "cer": 0.0
-    },
-    "426784196a3e61fb": {
-      "lang": "en",
-      "kind": "phrase",
-      "source": "fremont-demo",
-      "text": "I don't understand.",
-      "spoken": "I don't understand.",
-      "reference": "I don't understand.",
-      "ttsModel": "facebook/mms-tts-eng",
-      "asrModel": "facebook/mms-1b-all (eng)",
-      "transcript": "i don't understand",
-      "cer": 0.0
-    },
-    "51ebe4f9cdd18495": {
-      "lang": "de",
-      "kind": "phrase",
-      "source": "munich-demo",
-      "text": "Wie viel kostet das?",
-      "spoken": "Wie viel kostet das?",
-      "reference": "Wie viel kostet das?",
-      "ttsModel": "facebook/mms-tts-deu",
-      "asrModel": "facebook/mms-1b-all (deu)",
-      "transcript": "wieviel kostet das",
-      "cer": 0.053
-    },
-    "587f78d040758c8e": {
-      "lang": "en",
-      "kind": "phrase",
-      "source": "fremont-demo",
-      "text": "Where is the bathroom?",
-      "spoken": "Where is the bathroom?",
-      "reference": "Where is the bathroom?",
-      "ttsModel": "facebook/mms-tts-eng",
-      "asrModel": "facebook/mms-1b-all (eng)",
-      "transcript": "where is the bathroom",
-      "cer": 0.0
-    },
-    "5b66b146662fc332": {
-      "lang": "de",
-      "kind": "phrase",
-      "source": "munich-demo",
-      "text": "Wo ist die Toilette?",
-      "spoken": "Wo ist die Toilette?",
-      "reference": "Wo ist die Toilette?",
-      "ttsModel": "facebook/mms-tts-deu",
-      "asrModel": "facebook/mms-1b-all (deu)",
-      "transcript": "wo ist die toilette",
-      "cer": 0.0
-    },
-    "6a706120d2d067f4": {
-      "lang": "de",
-      "kind": "phrase",
-      "source": "munich-demo",
-      "text": "Ich verstehe das nicht.",
-      "spoken": "Ich verstehe das nicht.",
-      "reference": "Ich verstehe das nicht.",
-      "ttsModel": "facebook/mms-tts-deu",
-      "asrModel": "facebook/mms-1b-all (deu)",
-      "transcript": "ich verstehe das nicht",
-      "cer": 0.0
     },
     "7006e628879cbf00": {
       "lang": "te",
@@ -241,18 +97,6 @@
       "asrModel": "ai4bharat/indic-conformer-600m-multilingual",
       "transcript": "అమ్మా ఆదివారం ఉదయం పది గంటలకి ఇరువింగ్టన్ ఫార్మర్స్ మార్కెట్కి కలిసి కారులో వెళ్దాం అక్కడ సీజన్ పండ్లు కూరగాయలు చూడండి ఉదయం పదకొండు గంటల నలభై రెండు నిమిషాలకి ఇంటికి వచ్చేయొచ్చు",
       "cer": 0.011
-    },
-    "756c5a6d92ee1fbf": {
-      "lang": "en",
-      "kind": "phrase",
-      "source": "fremont-demo",
-      "text": "How much?",
-      "spoken": "How much?",
-      "reference": "How much?",
-      "ttsModel": "facebook/mms-tts-eng",
-      "asrModel": "facebook/mms-1b-all (eng)",
-      "transcript": "how much",
-      "cer": 0.0
     },
     "847a9807f6ae8b0d": {
       "lang": "te",
@@ -301,18 +145,6 @@
       "asrModel": "ai4bharat/indic-conformer-600m-multilingual",
       "transcript": "పూజ తర్వాత గుడిలో తమిళ తెలుగు కుటుంబాలు కలిశాయి ఒకవిడ ప్రసాదం ఇచ్చారు చాలా రోజుల తరువాత మన భాష వినిపించింది",
       "cer": 0.019
-    },
-    "a66f3b1a410d6d64": {
-      "lang": "en",
-      "kind": "phrase",
-      "source": "fremont-demo",
-      "text": "I need help.",
-      "spoken": "I need help.",
-      "reference": "I need help.",
-      "ttsModel": "facebook/mms-tts-eng",
-      "asrModel": "facebook/mms-1b-all (eng)",
-      "transcript": "i need help",
-      "cer": 0.0
     },
     "b2f155700eef25f1": {
       "lang": "te",
@@ -470,18 +302,6 @@
       "transcript": "ఇండియన్ మార్కెట్కి",
       "cer": 0.053
     },
-    "e9d1dfcefc64e48c": {
-      "lang": "de",
-      "kind": "phrase",
-      "source": "munich-demo",
-      "text": "Bitte sprechen Sie langsam.",
-      "spoken": "Bitte sprechen Sie langsam.",
-      "reference": "Bitte sprechen Sie langsam.",
-      "ttsModel": "facebook/mms-tts-deu",
-      "asrModel": "facebook/mms-1b-all (deu)",
-      "transcript": "bitte sprechen sie langsam",
-      "cer": 0.0
-    },
     "ee38a62974ed01d7": {
       "lang": "te",
       "kind": "card-title",
@@ -528,6 +348,186 @@
       "ttsModel": "ai4bharat/indic-parler-tts",
       "asrModel": "ai4bharat/indic-conformer-600m-multilingual",
       "transcript": "బయట చలిగా ఉంది రోజంతా ఇంట్లోనే ఉన్నాను అమ్మ గుర్తొచ్చింది",
+      "cer": 0.0
+    },
+    "059831f46b26e67e": {
+      "lang": "en",
+      "kind": "phrase",
+      "source": "fremont-demo",
+      "text": "Where do I leave my shoes?",
+      "spoken": "Where do I leave my shoes?",
+      "reference": "Where do I leave my shoes?",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "Where do I leave my shoes?",
+      "cer": 0.0
+    },
+    "2d7f8b04938cddef": {
+      "lang": "en",
+      "kind": "help-card",
+      "source": "fremont-demo",
+      "text": "Hello. I am visiting my family and I speak very little English. Please call my family at this number. Thank you.",
+      "spoken": "Hello. I am visiting my family and I speak very little English. Please call my family at this number. Thank you.",
+      "reference": "Hello. I am visiting my family and I speak very little English. Please call my family at this number. Thank you.",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "Hello. I'm visiting my family, and I speak very little English. Please call my family at this number. Thank you.",
+      "cer": 0.019
+    },
+    "3883f34ee4274fc0": {
+      "lang": "en",
+      "kind": "phrase",
+      "source": "fremont-demo",
+      "text": "Please call this number.",
+      "spoken": "Please call this number.",
+      "reference": "Please call this number.",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "Please call this number.",
+      "cer": 0.0
+    },
+    "426784196a3e61fb": {
+      "lang": "en",
+      "kind": "phrase",
+      "source": "fremont-demo",
+      "text": "I don't understand.",
+      "spoken": "I don't understand.",
+      "reference": "I don't understand.",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "A don't understand.",
+      "cer": 0.059
+    },
+    "587f78d040758c8e": {
+      "lang": "en",
+      "kind": "phrase",
+      "source": "fremont-demo",
+      "text": "Where is the bathroom?",
+      "spoken": "Where is the bathroom?",
+      "reference": "Where is the bathroom?",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "Where is the bathroom?",
+      "cer": 0.0
+    },
+    "756c5a6d92ee1fbf": {
+      "lang": "en",
+      "kind": "phrase",
+      "source": "fremont-demo",
+      "text": "How much?",
+      "spoken": "How much?",
+      "reference": "How much?",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "How much?",
+      "cer": 0.0
+    },
+    "a66f3b1a410d6d64": {
+      "lang": "en",
+      "kind": "phrase",
+      "source": "fremont-demo",
+      "text": "I need help.",
+      "spoken": "I need help.",
+      "reference": "I need help.",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "I need help.",
+      "cer": 0.0
+    },
+    "06371297423f6328": {
+      "lang": "de",
+      "kind": "phrase",
+      "source": "munich-demo",
+      "text": "Darf ich mitmachen?",
+      "spoken": "Darf ich mitmachen?",
+      "reference": "Darf ich mitmachen?",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "Darf ich mitmachen?",
+      "cer": 0.0
+    },
+    "193196a6504a4542": {
+      "lang": "de",
+      "kind": "phrase",
+      "source": "munich-demo",
+      "text": "Wo kann ich meine Schuhe lassen?",
+      "spoken": "Wo kann ich meine Schuhe lassen?",
+      "reference": "Wo kann ich meine Schuhe lassen?",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "»Wo kann ich meine Schuhe lassen?«",
+      "cer": 0.0
+    },
+    "313a2d26803ea7da": {
+      "lang": "de",
+      "kind": "help-card",
+      "source": "munich-demo",
+      "text": "Hallo. Ich besuche meine Familie und spreche kaum Deutsch. Bitte rufen Sie meine Familie unter dieser Nummer an. Danke.",
+      "spoken": "Hallo. Ich besuche meine Familie und spreche kaum Deutsch. Bitte rufen Sie meine Familie unter dieser Nummer an. Danke.",
+      "reference": "Hallo. Ich besuche meine Familie und spreche kaum Deutsch. Bitte rufen Sie meine Familie unter dieser Nummer an. Danke.",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "Hallo, ihr ... Ich besuche meine Familie und spreche kaum Deutsch. Bitte rufen Sie meine Familie unter dieser Nummer an.",
+      "cer": 0.087
+    },
+    "35048e9c67a49330": {
+      "lang": "de",
+      "kind": "phrase",
+      "source": "munich-demo",
+      "text": "Bitte rufen Sie diese Nummer an.",
+      "spoken": "Bitte rufen Sie diese Nummer an.",
+      "reference": "Bitte rufen Sie diese Nummer an.",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "»Bitte rufen Sie diese Nummer an.«",
+      "cer": 0.0
+    },
+    "51ebe4f9cdd18495": {
+      "lang": "de",
+      "kind": "phrase",
+      "source": "munich-demo",
+      "text": "Wie viel kostet das?",
+      "spoken": "Wie viel kostet das?",
+      "reference": "Wie viel kostet das?",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "Wie viel kostet das?",
+      "cer": 0.0
+    },
+    "5b66b146662fc332": {
+      "lang": "de",
+      "kind": "phrase",
+      "source": "munich-demo",
+      "text": "Wo ist die Toilette?",
+      "spoken": "Wo ist die Toilette?",
+      "reference": "Wo ist die Toilette?",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "Wo ist die Toilette?",
+      "cer": 0.0
+    },
+    "6a706120d2d067f4": {
+      "lang": "de",
+      "kind": "phrase",
+      "source": "munich-demo",
+      "text": "Ich verstehe das nicht.",
+      "spoken": "Ich verstehe das nicht.",
+      "reference": "Ich verstehe das nicht.",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "»Ich verstehe das nicht.«",
+      "cer": 0.0
+    },
+    "e9d1dfcefc64e48c": {
+      "lang": "de",
+      "kind": "phrase",
+      "source": "munich-demo",
+      "text": "Bitte sprechen Sie langsam.",
+      "spoken": "Bitte sprechen Sie langsam.",
+      "reference": "Bitte sprechen Sie langsam.",
+      "ttsModel": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "asrModel": "openai/whisper-large-v3-turbo",
+      "transcript": "Bitte sprechen Sie langsam.",
       "cer": 0.0
     }
   }

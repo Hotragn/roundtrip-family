@@ -7,7 +7,8 @@ name: Speech (open voice models)
 # checked against the current scores before they replace anything.
 #
 # HF_TOKEN (an Actions secret) downloads the gated AI4Bharat models; it is never printed.
-# Indic Parler-TTS pins transformers 4.46.1, so it gets an environment of its own and the
+# Parler-TTS (Indic for Telugu, Mini Multilingual for English and German) pins transformers 4.46.1,
+# so it gets an environment of its own and the
 # pipeline starts its worker with that Python (PARLER_PYTHON, speech/speech/models.py).
 on:
   workflow_dispatch:
@@ -40,7 +41,7 @@ jobs:
       - name: Install ffmpeg (MP3 encoding)
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - uses: astral-sh/setup-uv@v6
-      - name: Main environment (MMS, IndicConformer)
+      - name: Main environment (Whisper, IndicConformer, MMS listener)
         working-directory: speech
         run: uv sync --group models
       - name: Parler-TTS environment

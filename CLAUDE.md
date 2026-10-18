@@ -28,7 +28,7 @@ Route to humans. Every suggestion must be a real place or real people. The assis
 - Gemma 4 runs on Cloudflare Workers AI's free plan (@cf/google/gemma-4-26b-a4b-it, through the OpenAI-compatible endpoint). It falls back to OpenRouter's free Gemma 4 models: google/gemma-4-31b-it:free, then google/gemma-4-26b-a4b-it:free.
 - The card writer is a Tinker LoRA on Qwen/Qwen3.5-4B, sampled through Tinker. The adapter is published on Hugging Face.
 - TabPFN runs through tabpfn-client (the Prior Labs API).
-- Speech models (Meta MMS-TTS, AI4Bharat Indic Parler-TTS, AI4Bharat IndicConformer) run inside the Codespace. Their outputs are saved to data/demo/ so the hosted demo can play them.
+- Speech models (AI4Bharat Indic Parler-TTS for Telugu, Parler-TTS Mini Multilingual for English and German, AI4Bharat IndicConformer and Whisper for listening) run in the GitHub Actions speech job (.github/workflows/speech.yml), or the Codespace when there is one. Their outputs are saved to data/demo/ so the hosted demo can play them.
 - Data lives in a free MongoDB Atlas cluster (MONGODB_URI). No Docker needed.
 - Temporal runs as a dev server inside the Codespace, saving its state to a file.
 - The demo website and agent API deploy to Render's free tier.
@@ -62,7 +62,7 @@ Route to humans. Every suggestion must be a real place or real people. The assis
 - finetune: Tinker scripts for the card writer, evaluation, and adapter export.
 - speech: scripts that generate, transcribe and evaluate audio with open models.
 - workflows: Temporal TypeScript SDK (weekPlan, outingSafety, trialRun).
-- Voice: all speech goes through agent/voice/router.ts. Speaking uses free open models by default (Indic Parler-TTS for Indian languages, MMS-TTS otherwise), with ElevenLabs Eleven v3 as an optional upgrade. Listening uses IndicConformer for Indian languages and MMS speech recognition otherwise.
+- Voice: all speech goes through agent/voice/router.ts. Speaking uses commercially licensed open models by default (Indic Parler-TTS for Indian languages, Parler-TTS Mini Multilingual for the languages it speaks, the phone's own voice otherwise), with ElevenLabs Eleven v3 as an optional upgrade. Listening uses IndicConformer for Indian languages and Whisper otherwise.
 - Diary: entries encrypted before storage, per parent, private by default.
 - Discovery: SerpApi google_events, google_maps, google_maps_directions.
 

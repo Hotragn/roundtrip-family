@@ -10,6 +10,10 @@
   `AutoModel.from_pretrained(..., trust_remote_code=True)` and called as
   `model(wav, "te", "rnnt")` on 16 kHz mono; it needs onnxruntime. License: MIT. The repository is
   gated; it ran first in the speech workflow (.github/workflows/speech.yml).
+- OpenAI Whisper large-v3-turbo, openai/whisper-large-v3-turbo, for English and German. Docs:
+  https://huggingface.co/openai/whisper-large-v3-turbo and
+  https://huggingface.co/docs/transformers/model_doc/whisper. Fed 16 kHz mono in pieces of at
+  most 30 seconds (its window), with the language fixed and task "transcribe". License: MIT.
 """
 
 from __future__ import annotations
@@ -33,13 +37,13 @@ class Listener(Protocol):
     def transcribe(self, wave: np.ndarray) -> str: ...
 
 
-def windows(wave: np.ndarray, rate: int = RATE) -> list[np.ndarray]:
-    """Cut audio longer than LONG seconds into pieces of about WINDOW seconds, at quiet frames."""
-    if len(wave) <= LONG * rate:
+def windows(wave: np.ndarray, rate: int = RATE, long: float = LONG) -> list[np.ndarray]:
+    """Cut audio longer than `long` seconds into pieces of about WINDOW seconds, at quiet frames."""
+    if len(wave) <= long * rate:
         return [wave]
     frame = int(0.02 * rate)
     pieces, start = [], 0
-    while len(wave) - start > LONG * rate:
+    while len(wave) - start > long * rate:
         lo, hi = start + int((WINDOW - 5) * rate), start + int(WINDOW * rate)
         segment = wave[lo:hi]
         energy = np.convolve(segment**2, np.ones(frame), mode="valid")
@@ -104,7 +108,35 @@ class IndicConformerAsr:
         return " ".join(t.strip() for t in texts if t.strip())
 
 
+class WhisperAsr:
+    def __init__(self, choice: Choice, local_dir: str):
+        import torch
+        from transformers import WhisperForConditionalGeneration, WhisperProcessor
+
+        self._torch = torch
+        self.model_id = choice.model
+        self.code = choice.code
+        self.processor = WhisperProcessor.from_pretrained(local_dir)
+        # The checkpoint is stored in float16; the CPU runs float32.
+        self.model = WhisperForConditionalGeneration.from_pretrained(local_dir, torch_dtype=torch.float32)
+        self.model.eval()
+
+    def use(self, code: str) -> None:
+        self.code = code
+
+    def transcribe(self, wave: np.ndarray) -> str:
+        texts = []
+        for piece in windows(wave, long=WINDOW):  # Whisper hears 30 seconds at most
+            inputs = self.processor(piece, sampling_rate=RATE, return_tensors="pt")
+            with self._torch.no_grad():
+                ids = self.model.generate(inputs.input_features, language=self.code, task="transcribe")
+            texts.append(self.processor.batch_decode(ids, skip_special_tokens=True)[0])
+        return " ".join(t.strip() for t in texts if t.strip())
+
+
 def load(choice: Choice, local_dir: str) -> Listener:
+    if choice.backend == "whisper":
+        return WhisperAsr(choice, local_dir)
     if choice.backend == "mms-asr":
         return MmsAsr(choice, local_dir)
     if choice.backend == "indicconformer":

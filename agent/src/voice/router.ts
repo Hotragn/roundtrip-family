@@ -3,16 +3,18 @@ import { LANGUAGES } from "@roundtrip/core";
 
 /**
  * Every voice in Roundtrip goes through here (CLAUDE.md, Architecture: Voice). Speaking uses
- * free open models by default: AI4Bharat Indic Parler-TTS for Indian languages, Meta MMS-TTS
- * for everything else. ElevenLabs Eleven v3 is an optional upgrade only for a few final demo
+ * free open models whose licenses allow commercial use: AI4Bharat Indic Parler-TTS for Indian
+ * languages, Parler-TTS Mini Multilingual for the eight European languages it speaks, and the
+ * phone's own voice for the rest (Meta MMS-TTS is CC-BY-NC 4.0, so it is no longer used). ElevenLabs Eleven v3 is an optional upgrade only for a few final demo
  * clips: never without a key, never past ELEVENLABS_MAX_CHARS, never for a language it doesn't
  * list, and it gets card text only. Listening uses AI4Bharat IndicConformer for Indian
- * languages and MMS speech recognition otherwise. The open models run on the family's own
+ * languages and Whisper (MIT) otherwise. The open models run on the family's own
  * hardware (the Codespace in this build), and their clips are saved so the hosted demo plays
  * files instead of running models.
  *
  * Docs: https://huggingface.co/ai4bharat/indic-parler-tts (languages),
- * https://huggingface.co/docs/transformers/model_doc/mms (MMS-TTS and MMS ASR),
+ * https://huggingface.co/parler-tts/parler-tts-mini-multilingual-v1.1 (languages),
+ * https://huggingface.co/openai/whisper-large-v3-turbo,
  * https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual,
  * https://elevenlabs.io/docs/capabilities/text-to-speech (Eleven v3 languages).
  */
@@ -42,24 +44,10 @@ export const INDIC = new Set([
   "ur",
 ]);
 
-/** MMS uses ISO 639-3 codes. */
-const MMS_CODE: Record<string, string> = {
-  en: "eng",
-  de: "deu",
-  zh: "cmn",
-  te: "tel",
-  hi: "hin",
-  ta: "tam",
-  fr: "fra",
-};
+/** The languages Parler-TTS Mini Multilingual v1.1 speaks (its model card, 18 October 2026). */
+export const PARLER_MULTI = new Set(["en", "fr", "es", "pt", "pl", "de", "nl", "it"]);
 
-/**
- * Languages MMS-TTS has no voice for: facebook/mms-tts-cmn and facebook/mms-tts-yue don't exist
- * (checked on Hugging Face, 6 October 2026). The phone's own voice reads these.
- */
-const NO_MMS_VOICE: Record<string, string> = { zh: "Mandarin", yue: "Cantonese" };
-
-export type SpeakProvider = "indic-parler-tts" | "mms-tts" | "elevenlabs" | "phone";
+export type SpeakProvider = "indic-parler-tts" | "parler-tts" | "elevenlabs" | "phone";
 export interface SpeakRoute {
   provider: SpeakProvider;
   model: string;
@@ -82,19 +70,17 @@ function openVoice(lang: string): SpeakRoute {
       why: "Open model for Indian languages, run on the family's own hardware",
     };
   }
-  const missing = NO_MMS_VOICE[lang];
-  if (missing) {
+  if (PARLER_MULTI.has(lang)) {
     return {
-      provider: "phone",
-      model: "the phone's own voice",
-      why: `No open voice for ${missing} yet (MMS has none), so the phone's own voice reads it`,
+      provider: "parler-tts",
+      model: "parler-tts/parler-tts-mini-multilingual-v1.1",
+      why: "Open multilingual voice, run on the family's own hardware",
     };
   }
-  const mms = MMS_CODE[lang] ?? lang;
   return {
-    provider: "mms-tts",
-    model: `facebook/mms-tts-${mms}`,
-    why: "Open MMS voice, run on the family's own hardware",
+    provider: "phone",
+    model: "the phone's own voice",
+    why: "No commercially usable open voice for this language yet, so the phone's own voice reads it",
   };
 }
 
@@ -127,12 +113,12 @@ export function speakRoute(
   };
 }
 
-export type ListenProvider = "indicconformer" | "mms-asr";
+export type ListenProvider = "indicconformer" | "whisper";
 
 /** The speech recognizer for a language. */
 export function listenRoute(lang: string): { provider: ListenProvider; model: string } {
   if (INDIC.has(lang)) return { provider: "indicconformer", model: "ai4bharat/indic-conformer-600m-multilingual" };
-  return { provider: "mms-asr", model: `facebook/mms-1b-all (${MMS_CODE[lang] ?? lang})` };
+  return { provider: "whisper", model: "openai/whisper-large-v3-turbo" };
 }
 
 /** The saved clip's key: the first 16 hex characters of sha256("<lang>|<text>"), as speech/ writes it. */
