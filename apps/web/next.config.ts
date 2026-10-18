@@ -37,10 +37,24 @@ const nextConfig: NextConfig = {
   // Docs: node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/headers.md
   async headers() {
     const cache = [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }];
-    return ["/art/:path*", "/brand/:path*", "/icons/:path*", "/audio/:path*", "/maplibre/:path*"].map((source) => ({
-      source,
-      headers: cache,
-    }));
+    // Every response: HTTPS only, no sniffing, no framing, no full URLs to other sites. The
+    // microphone (diary voice notes) and location ("where am I" on a trip) stay this site's own.
+    // No script-src yet: the pages carry inline scripts (Next's data, the script loader).
+    const security = [
+      { key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains" },
+      { key: "X-Content-Type-Options", value: "nosniff" },
+      { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+      { key: "X-Frame-Options", value: "DENY" },
+      { key: "Content-Security-Policy", value: "frame-ancestors 'none'; base-uri 'self'; object-src 'none'" },
+      { key: "Permissions-Policy", value: "microphone=(self), geolocation=(self), camera=(), payment=(), usb=()" },
+    ];
+    return [
+      { source: "/:path*", headers: security },
+      ...["/art/:path*", "/brand/:path*", "/icons/:path*", "/audio/:path*", "/maplibre/:path*"].map((source) => ({
+        source,
+        headers: cache,
+      })),
+    ];
   },
   images: {
     remotePatterns: [

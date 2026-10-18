@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { DEMO_WEEKS } from "@/lib/demo-weeks";
 import { deleteEntry, saveEntry, VisitLimitReached } from "@/lib/server/diary";
+import { take } from "@/lib/server/rate-limit";
 
 /**
  * The phone's diary sync, when it's back on home Wi-Fi: the latest state of one entry (saved,
@@ -23,7 +24,8 @@ const Save = z.object({
     shared: z.boolean(),
     inMemoryBook: z.boolean().default(false),
     // About two minutes of speech; longer recordings stay on the phone.
-    audio: z.string().max(3_000_000).optional(),
+    // About a minute of voice; a bigger upload is refused, not stored.
+    audio: z.string().max(1_500_000).optional(),
     audioMime: z.string().max(60).optional(),
   }),
 });
@@ -35,12 +37,27 @@ const Delete = z.object({
 });
 const Body = z.discriminatedUnion("action", [Save, Delete]);
 
+const HOUR_MS = 60 * 60_000;
+
 export async function POST(req: Request) {
   const parsed = Body.safeParse(await req.json().catch(() => null));
   if (!parsed.success) return Response.json({ error: "Invalid entry" }, { status: 400 });
   const b = parsed.data;
   const week = DEMO_WEEKS[b.household];
   const parentId = b.action === "save" ? b.entry.parentId : b.parentId;
+  // Writes land in the free database cluster (512 MB), so a script can't fill it: per visitor,
+  // and for voice notes, across all visitors (a day's worth at most is about 290 MB before expiry).
+  if (b.action === "save") {
+    const who = (req.headers.get("x-forwarded-for") ?? "local").split(",")[0]!.trim();
+    const limits = [{ key: `diary:${who}`, max: 60, windowMs: HOUR_MS }];
+    if (b.entry.audio) limits.push({ key: "diary-audio:all", max: 8, windowMs: HOUR_MS });
+    const room = take(limits);
+    if (!room.ok)
+      return Response.json(
+        { error: `Too many entries for now. Try again in ${room.retryInMinutes} minutes.` },
+        { status: 429 },
+      );
+  }
   if (!week?.parents.some((p) => p.id === parentId)) return Response.json({ error: "No such parent" }, { status: 404 });
   try {
     if (b.action === "delete") await deleteEntry(b.household, b.parentId, b.entryId);
