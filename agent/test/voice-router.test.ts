@@ -9,15 +9,15 @@ describe("voice router", () => {
     expect(r.model).toBe("ai4bharat/indic-parler-tts");
   });
 
-  it("speaks English and German with MMS", () => {
-    expect(speakRoute("en", "Where is the bathroom?").model).toBe("facebook/mms-tts-eng");
-    expect(speakRoute("de", "Wo ist die Toilette?").model).toBe("facebook/mms-tts-deu");
+  it("speaks English and German with Parler-TTS Mini Multilingual", () => {
+    expect(speakRoute("en", "Where is the bathroom?").model).toBe("parler-tts/parler-tts-mini-multilingual-v1.1");
+    expect(speakRoute("de", "Wo ist die Toilette?").model).toBe("parler-tts/parler-tts-mini-multilingual-v1.1");
   });
 
-  it("leaves Mandarin to the phone's own voice, since MMS has no Mandarin voice", () => {
+  it("leaves Mandarin to the phone's own voice, since no open voice covers it", () => {
     const r = speakRoute("zh", "你好");
     expect(r.provider).toBe("phone");
-    expect(r.why).toMatch(/MMS has none/);
+    expect(r.why).toMatch(/No commercially usable open voice/);
     expect(speakRoute("zh", "你好", { premium: true, elevenLabs: { hasKey: true, charsLeft: 5000 } }).provider).toBe(
       "elevenlabs",
     );
@@ -25,9 +25,9 @@ describe("voice router", () => {
 
   it("uses ElevenLabs only with a key, within the budget, for a language it lists", () => {
     const text = "Please call my family.";
-    expect(speakRoute("en", text, { premium: true }).provider).toBe("mms-tts");
+    expect(speakRoute("en", text, { premium: true }).provider).toBe("parler-tts");
     expect(speakRoute("en", text, { premium: true, elevenLabs: { hasKey: false, charsLeft: 5000 } }).provider).toBe(
-      "mms-tts",
+      "parler-tts",
     );
     expect(speakRoute("en", text, { premium: true, elevenLabs: { hasKey: true, charsLeft: 5 } }).why).toMatch(/budget/);
     expect(speakRoute("en", text, { premium: true, elevenLabs: { hasKey: true, charsLeft: 5000 } }).provider).toBe(
@@ -46,9 +46,9 @@ describe("voice router", () => {
     expect(r.why).toMatch(/doesn't list/);
   });
 
-  it("listens with IndicConformer for Indian languages and MMS otherwise", () => {
+  it("listens with IndicConformer for Indian languages and Whisper otherwise", () => {
     expect(listenRoute("te").provider).toBe("indicconformer");
-    expect(listenRoute("de").provider).toBe("mms-asr");
+    expect(listenRoute("de").provider).toBe("whisper");
   });
 
   it("finds a saved clip by language and exact text", () => {
