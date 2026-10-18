@@ -16,7 +16,7 @@ interface Schema {
 
 export interface OutboxItem {
   id: string;
-  kind: "checkin" | "reply" | "diary";
+  kind: "checkin" | "reply" | "diary" | "leaving";
   createdAt: string;
   payload: Record<string, unknown>;
 }

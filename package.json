@@ -17,6 +17,8 @@
     "format": "biome format --write .",
     "typecheck": "pnpm -r --parallel typecheck",
     "seed": "pnpm --filter @roundtrip/scripts exec tsx seed.ts",
+    "db:backup": "pnpm --filter @roundtrip/scripts exec tsx db-backup.ts dump",
+    "db:restore": "pnpm --filter @roundtrip/scripts exec tsx db-backup.ts restore",
     "privacy-check": "pnpm --filter @roundtrip/scripts exec tsx privacy-check.ts",
     "check-env": "tsx scripts/check-env.ts",
     "costs": "pnpm --filter @roundtrip/scripts exec tsx costs.ts",

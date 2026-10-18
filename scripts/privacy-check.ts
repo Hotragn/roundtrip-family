@@ -51,6 +51,7 @@ const SDK_OWNERS: Record<string, RegExp> = {
   mongodb: /^agent\/src\/db\//,
   serpapi: /^agent\/src\/tools\/serpapi/,
   agentmail: /^agent\/src\/email\//,
+  "web-push": /^apps\/web\/lib\/server\/push\.ts$/,
   "@sentry/": /^apps\/web\/(instrumentation|sentry)|^agent\/src\/observability\//,
   tabpfn_client: /^ranker\//,
   tinker: /^finetune\/|^scripts\/model-check\//,

@@ -7,6 +7,7 @@ import type { Instrumentation } from "next";
  *   reach Gemma. On Render the keys are real environment variables and there is no .env.
  * - On Render, it starts Sentry for server errors and planner, model and tool timings, scrubbed
  *   (sentry.server.ts), and keeps the free instance awake in the day (lib/server/keep-awake.ts).
+ * - Everywhere without TEMPORAL_ADDRESS, it starts the minute ticker for the hosted safety timers.
  *   Nothing runs in the browser.
  * Docs: node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/instrumentation.md
  */
@@ -22,6 +23,10 @@ export async function register() {
   }
   const { startKeepAwake } = await import("@/lib/server/keep-awake");
   startKeepAwake();
+  // Where there's no Temporal, the hosted safety timers fire from here (lib/server/safety-timers.ts).
+  const { startSafetyTicker } = await import("@/lib/server/safety-timers");
+  const { deliverAlert } = await import("@/lib/server/safety-alert");
+  startSafetyTicker((t) => deliverAlert(t));
 }
 
 export const onRequestError: Instrumentation.onRequestError = async (...args) => {

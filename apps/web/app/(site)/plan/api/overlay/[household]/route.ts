@@ -3,6 +3,7 @@ import { isHousehold, loadBoard } from "@/lib/plan-board";
 import { moveProblem } from "@/lib/plan-format";
 import { EMPTY_OVERLAY } from "@/lib/plan-types";
 import { type ItemState, overlayFor } from "@/lib/server/plan-overlay";
+import { scheduleOuting, stopOuting } from "@/lib/server/safety-schedule";
 import { saveRecord } from "@/lib/server/session";
 
 /**
@@ -66,5 +67,8 @@ export async function POST(req: Request, { params }: { params: Promise<{ househo
     state.moveTo = change.day === item.day ? null : change.day;
   }
   await saveRecord("plan", `${household}:${change.id}`, state as unknown as Record<string, unknown>);
+  // Where there's no Temporal, an approved outing gets its hosted safety timer (lib/server/safety-timers.ts).
+  if (state.status === "approved") await scheduleOuting(household, change.id);
+  else if (change.action === "unapprove" || change.action === "swap") await stopOuting(change.id, "off");
   return Response.json(await overlayFor(household));
 }

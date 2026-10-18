@@ -1,0 +1,87 @@
+name: Uptime
+
+# Checks the live site every 15 minutes and keeps one GitHub issue labelled "site-down" open
+# while it's failing: opened on the first failure, commented on while it lasts, closed with a
+# comment once the site answers again. Watching the repo (or its issues) turns that into an email.
+# It checks /api/health and a real page (the Fremont dashboard, which must name Sarala).
+# The web service sleeps from 02:00 to 06:00 New York time to stay within Render's free hours
+# (docs/decisions.md 138), so the job skips those hours instead of waking it. A check allows 90
+# seconds, enough for a cold start. GitHub's schedule is best effort: at busy times runs come
+# late or not at all, so this is a safety net, not a pager. Separate from keep-awake.yml.
+on:
+  schedule:
+    - cron: "4,19,34,49 * * * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+concurrency:
+  group: uptime
+  cancel-in-progress: false
+
+env:
+  SITE: https://roundtrip-web.onrender.com
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Skip the hours the site sleeps on purpose
+        id: hours
+        run: |
+          hour=$(TZ=America/New_York date +%-H)
+          if [ "$hour" -ge 2 ] && [ "$hour" -lt 6 ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "It's ${hour}:00 in New York, when the site sleeps on purpose. Not checking."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Check health and a real page
+        id: check
+        if: steps.hours.outputs.skip != 'true'
+        run: |
+          problem=""
+          check() {
+            # Two tries, so one slow wake-up isn't an outage.
+            for try in 1 2; do
+              code=$(curl -sS -o page.html -w "%{http_code}" --max-time 90 "$SITE$1" || echo 000)
+              if [ "$code" = "200" ] && { [ -z "$2" ] || grep -q "$2" page.html; }; then return 0; fi
+              sleep 20
+            done
+            problem="$problem $1 answered $code."
+          }
+          check /api/health '"ok":true'
+          check /plan/fremont-demo Sarala
+          if [ -n "$problem" ]; then
+            echo "down=true" >> "$GITHUB_OUTPUT"
+            echo "problem=$problem" >> "$GITHUB_OUTPUT"
+            echo "::error::The site isn't answering:$problem"
+          else
+            echo "down=false" >> "$GITHUB_OUTPUT"
+            echo "Healthy."
+          fi
+      - name: Open or update the site-down issue
+        if: steps.check.outputs.down == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PROBLEM: ${{ steps.check.outputs.problem }}
+        run: |
+          gh label create site-down --color B60205 --description "The live site isn't answering" --force
+          run="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          open=$(gh issue list --label site-down --state open --json number --jq '.[0].number')
+          if [ -n "$open" ]; then
+            gh issue comment "$open" --body "Still down at $(date -u +'%Y-%m-%d %H:%M') UTC:$PROBLEM ([run]($run))"
+          else
+            gh issue create --label site-down --title "The live site is down" \
+              --body "The uptime check failed at $(date -u +'%Y-%m-%d %H:%M') UTC:$PROBLEM ([run]($run)). Render's dashboard and \`pnpm --filter @roundtrip/scripts exec tsx render-deploy.ts --logs web\` show why. This issue closes itself when the site answers again."
+          fi
+      - name: Close the site-down issue
+        if: steps.check.outputs.down == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          for n in $(gh issue list --label site-down --state open --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "Back up at $(date -u +'%Y-%m-%d %H:%M') UTC: health and the Fremont dashboard answer again."
+          done
